@@ -116,7 +116,7 @@ def main():
     st.success(f"Loaded {len(df)} claim metrics from {df['post_id'].nunique()} posts")
     
     # Create tabs for different visualizations
-    tab1, tab2, tab3 = st.tabs(["Distributions", "Scatter Plots", "Raw Data"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Distributions", "Scatter Plots", "Correlations", "Raw Data"])
     
     with tab1:
         st.header("Metric Distributions")
@@ -170,6 +170,53 @@ def main():
                         st.plotly_chart(fig, use_container_width=True)
     
     with tab3:
+        st.header("Correlations with Base Score")
+        
+        # Get all numeric metric columns
+        metric_columns = []
+        for metric in selected_metrics:
+            metric_fields = [col for col in df.columns if col.startswith(f"{metric}_")]
+            numeric_fields = [f for f in metric_fields if not f.endswith("_explanation")]
+            metric_columns.extend(numeric_fields)
+        
+        if metric_columns and "base_score" in df.columns:
+            # Calculate correlations
+            correlations = []
+            for col in metric_columns:
+                if col in df.columns:
+                    corr = df[col].corr(df["base_score"])
+                    correlations.append({
+                        "Metric": col.replace("_", " ").title(),
+                        "Correlation": corr
+                    })
+            
+            corr_df = pd.DataFrame(correlations)
+            corr_df = corr_df.sort_values("Correlation", ascending=False)
+            
+            # Display correlation bar chart
+            fig = px.bar(
+                corr_df,
+                x="Correlation",
+                y="Metric",
+                orientation='h',
+                title="Correlation with Base Score",
+                color="Correlation",
+                color_continuous_scale=["red", "yellow", "green"],
+                range_color=[-1, 1]
+            )
+            fig.update_layout(height=400 + len(corr_df) * 20)
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # Display correlation table
+            st.subheader("Correlation Values")
+            st.dataframe(
+                corr_df.style.background_gradient(subset=['Correlation'], cmap='RdYlGn', vmin=-1, vmax=1),
+                use_container_width=True
+            )
+        else:
+            st.info("No numeric metrics available for correlation analysis")
+    
+    with tab4:
         st.header("Raw Data")
         
         # Show raw dataframe
