@@ -1,0 +1,42 @@
+from typing import List, Dict, Literal
+from pydantic import BaseModel
+
+from models import Post, Claim
+from metrics.novelty import Novelty, compute_novelty
+from metrics.inferential_support import InferentialSupport, compute_inferential_support
+
+# Registry of all available metrics - maps string name to compute function. should probably make this a decorator etc
+METRIC_REGISTRY = {
+    "Novelty": compute_novelty,
+    "InferentialSupport": compute_inferential_support
+}
+
+
+def compute_metrics_for_claim(
+    metrics: List[str],
+    claim: Claim,
+    post: Post,
+    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
+) -> Dict[str, BaseModel]:
+    """Compute specified metrics for a claim.
+    
+    Args:
+        metrics: List of metric names (strings) to compute
+        claim: The claim to evaluate
+        post: The post containing the claim
+        model: The LLM model to use for computation
+        
+    Returns:
+        Dictionary mapping metric name to computed metric object
+    """
+    results = {}
+    
+    for metric_name in metrics:
+        if metric_name not in METRIC_REGISTRY:
+            raise ValueError(f"Unknown metric: {metric_name}")
+        
+        compute_fn = METRIC_REGISTRY[metric_name]
+        metric_result = compute_fn(claim, post, model)
+        results[metric_name] = metric_result
+    
+    return results

@@ -1,0 +1,189 @@
+"""Streamlit app for visualizing claim metrics."""
+
+import streamlit as st
+import json
+from pathlib import Path
+import pandas as pd
+import plotly.express as px
+from typing import List
+
+from db import get_representative_posts
+from models import Post
+
+
+st.set_page_config(page_title="EA Forum Claim Metrics", layout="wide")
+
+
+def discover_available_metrics(version_id: str) -> List[str]:
+    """Discover which metrics are available in the data for a given version."""
+    metrics_dir = Path(f"data/metrics/{version_id}")
+    
+    if not metrics_dir.exists():
+        return []
+    
+    available_metrics = set()
+    
+    # Sample first file to see what metrics are available
+    for metrics_file in metrics_dir.glob("*.json"):
+        with open(metrics_file, 'r') as f:
+            metrics_data = json.load(f)
+            
+        # Check all claims for available metrics
+        for claim_id, claim_metrics in metrics_data.items():
+            available_metrics.update(claim_metrics.keys())
+        
+        # Just check first file for efficiency (assuming all files have same metrics)
+        break
+    
+    return sorted(list(available_metrics))
+
+
+def load_metrics(version_id: str, metric_names: List[str]):
+    """Load metrics data for a given version."""
+    metrics_dir = Path(f"data/metrics/{version_id}")
+    
+    if not metrics_dir.exists():
+        return None
+    
+    all_data = []
+    
+    for metrics_file in metrics_dir.glob("*.json"):
+        post_id = metrics_file.stem
+        
+        with open(metrics_file, 'r') as f:
+            metrics_data = json.load(f)
+        
+        for claim_id, claim_metrics in metrics_data.items():
+            row = {
+                "post_id": post_id,
+                "claim_id": claim_id
+            }
+            
+            for metric_name in metric_names:
+                if metric_name in claim_metrics:
+                    metric_data = claim_metrics[metric_name]
+                    # Add all fields from the metric
+                    for key, value in metric_data.items():
+                        if key not in ["post_id", "claim_id"]:  # Skip duplicates
+                            row[f"{metric_name}_{key}"] = value
+            
+            all_data.append(row)
+    
+    return pd.DataFrame(all_data)
+
+
+def main():
+    st.title("EA Forum Claim Metrics Analysis")
+    
+    # Sidebar inputs
+    st.sidebar.header("Configuration")
+    
+    version_id = st.sidebar.text_input(
+        "Version ID",
+        value="v0",
+        help="The version ID of the pipeline run"
+    )
+    
+    # Dynamically discover available metrics from the data
+    available_metrics = discover_available_metrics(version_id)
+    
+    if not available_metrics:
+        st.warning(f"No metrics found for version '{version_id}'. Please check the version ID or run the pipeline first.")
+        return
+    
+    selected_metrics = st.sidebar.multiselect(
+        "Select Metrics",
+        options=available_metrics,
+        default=available_metrics
+    )
+    
+    if not selected_metrics:
+        st.warning("Please select at least one metric")
+        return
+    
+    # Load data
+    df = load_metrics(version_id, selected_metrics)
+    
+    if df is None or df.empty:
+        st.error(f"No data found for version '{version_id}'")
+        return
+    
+    # Get posts and their base scores
+    posts = get_representative_posts(10)
+    post_scores = {p.post_id: p.base_score for p in posts}
+    df["base_score"] = df["post_id"].map(post_scores)
+    
+    st.success(f"Loaded {len(df)} claim metrics from {df['post_id'].nunique()} posts")
+    
+    # Create tabs for different visualizations
+    tab1, tab2, tab3 = st.tabs(["Distributions", "Scatter Plots", "Raw Data"])
+    
+    with tab1:
+        st.header("Metric Distributions")
+        
+        # Create distribution plots for each metric
+        for metric in selected_metrics:
+            st.subheader(f"{metric} Distribution")
+            
+            # Check which fields exist for this metric
+            metric_fields = [col for col in df.columns if col.startswith(f"{metric}_")]
+            numeric_fields = [f for f in metric_fields if not f.endswith("_explanation")]
+            
+            if numeric_fields:
+                cols = st.columns(len(numeric_fields))
+                for i, field in enumerate(numeric_fields):
+                    with cols[i]:
+                        fig = px.histogram(
+                            df,
+                            x=field,
+                            title=field.replace(f"{metric}_", "").replace("_", " ").title(),
+                            nbins=10,
+                            labels={field: "Score (1-10)"}
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
+    
+    with tab2:
+        st.header("Metrics vs Base Score")
+        
+        # Create scatter plots
+        for metric in selected_metrics:
+            st.subheader(f"{metric} vs Base Score")
+            
+            metric_fields = [col for col in df.columns if col.startswith(f"{metric}_")]
+            numeric_fields = [f for f in metric_fields if not f.endswith("_explanation")]
+            
+            if numeric_fields and "base_score" in df.columns:
+                cols = st.columns(len(numeric_fields))
+                for i, field in enumerate(numeric_fields):
+                    with cols[i]:
+                        fig = px.scatter(
+                            df,
+                            x="base_score",
+                            y=field,
+                            title=field.replace(f"{metric}_", "").replace("_", " ").title(),
+                            labels={
+                                "base_score": "Post Base Score",
+                                field: "Metric Score (1-10)"
+                            },
+                            hover_data=["post_id", "claim_id"]
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
+    
+    with tab3:
+        st.header("Raw Data")
+        
+        # Show raw dataframe
+        st.dataframe(df, use_container_width=True)
+        
+        # Download button
+        csv = df.to_csv(index=False)
+        st.download_button(
+            label="Download CSV",
+            data=csv,
+            file_name=f"metrics_{version_id}.csv",
+            mime="text/csv"
+        )
+
+
+if __name__ == "__main__":
+    main()
