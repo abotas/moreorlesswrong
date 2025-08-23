@@ -12,6 +12,14 @@ class Novelty(BaseModel):
     novelty_ea: int  # 1-10 score for EA forum readership
     novelty_humanity: int  # 1-10 score for all humanity
     explanation: str
+    
+    @classmethod
+    def metric_name(cls) -> str:
+        return "Novelty"
+    
+    @classmethod
+    def metric_score_fields(cls) -> list[str]:
+        return ["novelty_ea", "novelty_humanity"]
 
 
 PROMPT_NOVELTY = """Evaluate the novelty of the following claim from an EA Forum post.
@@ -34,15 +42,9 @@ Respond with a JSON object:
     "explanation": "<brief explanation of your scoring>"
 }}
 
-Context from the post:
-Title: {title}
-Author: {author}
-
 The claim to evaluate:
 "{claim}"
 
-Full post for context:
-{post_text}
 """
 
 
@@ -61,13 +63,8 @@ def compute_novelty(
     Returns:
         Novelty metric object
     """
-    post_text = post.markdown_content or post.html_body or ""
-    
     prompt = PROMPT_NOVELTY.format(
-        title=post.title,
-        author=post.author_display_name or "Unknown",
-        claim=claim.claim,
-        post_text=post_text[:5000]  # Limit context length
+        claim=claim.claim
     )
     
     response = client.chat.completions.create(

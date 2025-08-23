@@ -18,6 +18,7 @@ def get_connection():
     return psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
 
 def get_representative_posts(n: Literal[10, 20, 100]) -> List[Post]:
+    assert n in [10, 20, 100], "n must be 10, 20, or 100"
     with get_connection() as conn:
         with conn.cursor() as cur:
             cur.execute(f"""

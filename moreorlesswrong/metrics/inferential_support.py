@@ -11,14 +11,22 @@ class InferentialSupport(BaseModel):
     claim_id: str
     inferential_support: int  # 1-10 score for quality of reasoning and evidence
     explanation: str
+    
+    @classmethod
+    def metric_name(cls) -> str:
+        return "InferentialSupport"
+    
+    @classmethod
+    def metric_score_fields(cls) -> list[str]:
+        return ["inferential_support"]
 
 
 PROMPT_INFERENTIAL_SUPPORT = """Evaluate how well the following claim is supported by reasoning and evidence in the EA Forum post.
 
 Consider:
-- Quality of logical arguments presented
-- Empirical evidence provided (data, studies, examples)
-- Coherence of reasoning chain
+- Quality of logical arguments presented *that support the claim*
+- Empirical evidence provided (data, studies, examples) *that support the claim*
+- Coherence of reasoning chain *that supports the claim*
 - Acknowledgment of counterarguments or limitations
 - Depth of analysis
 
@@ -42,7 +50,7 @@ Author: {author}
 The claim to evaluate:
 "{claim}"
 
-Full post for context:
+Full post to evaluate inferential support for the claim:
 {post_text}
 """
 
@@ -68,7 +76,7 @@ def compute_inferential_support(
         title=post.title,
         author=post.author_display_name or "Unknown",
         claim=claim.claim,
-        post_text=post_text[:5000]  # Limit context length
+        post_text=post_text
     )
     
     response = client.chat.completions.create(
