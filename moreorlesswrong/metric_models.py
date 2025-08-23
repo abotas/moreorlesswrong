@@ -4,18 +4,22 @@ from typing import Dict, Type
 from pydantic import BaseModel
 
 from metrics.novelty import Novelty
+from metrics.novelty_support import NoveltySupport
 from metrics.inferential_support import InferentialSupport
 from metrics.external_validation import ExternalValidation
 from metrics.robustness import Robustness
 from metrics.author_aura import AuthorAura
+from metrics.value import Value
 
 # Map metric names to their model classes
 METRIC_MODELS: Dict[str, Type[BaseModel]] = {
     "Novelty": Novelty,
+    "NoveltySupport": NoveltySupport,
     "InferentialSupport": InferentialSupport,
     "ExternalValidation": ExternalValidation,
     "Robustness": Robustness,
-    "AuthorAura": AuthorAura
+    "AuthorAura": AuthorAura,
+    "Value": Value
 }
 
 def get_metric_score_fields(metric_name: str) -> list[str]:

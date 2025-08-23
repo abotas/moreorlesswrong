@@ -135,20 +135,38 @@ def process_posts(
 
 
 if __name__ == "__main__":
+    import argparse
     from db import get_representative_posts
+    
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description='Run metrics pipeline on representative posts')
+    parser.add_argument('--threads', type=int, default=4, help='Number of threads for parallel processing (default: 4)')
+    parser.add_argument('--model', type=str, default='gpt-5-mini', 
+                       choices=['gpt-5-nano', 'gpt-5-mini', 'gpt-5'],
+                       help='Model to use for evaluation (default: gpt-5-mini)')
+    args = parser.parse_args()
     
     # Get representative posts (n=10)
     print("Fetching representative posts (n=10)...")
     posts = get_representative_posts(20)
     print(f"Found {len(posts)} posts")
     
-    print("\nStarting pipeline with Novelty metric...")
+    print(f"\nStarting pipeline with {args.threads} threads using {args.model}...")
     process_posts(
         posts=posts,
-        metrics=["Novelty", "InferentialSupport", "ExternalValidation", "Robustness", "AuthorAura"],
+        metrics=[
+            "Novelty", 
+            "InferentialSupport",
+            "ExternalValidation", 
+            "AuthorAura",
+            "Robustness",
+            "Value",
+            "NoveltySupport",
+        ],
         version_id="v1",
         claims_per_post=1,
-        model="gpt-5-mini"
+        model=args.model,
+        max_workers=args.threads
     )
     
     print("\n✅ Pipeline run complete!")

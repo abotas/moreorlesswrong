@@ -2,6 +2,7 @@
 
 import streamlit as st
 import json
+import sys
 from pathlib import Path
 import pandas as pd
 import plotly.express as px
@@ -9,7 +10,13 @@ from typing import List
 
 from db import get_representative_posts
 from models import Post
+from metric_models import get_metric_score_fields
 
+# Get version ID from command line args if provided
+if len(sys.argv) > 1:
+    DEFAULT_VERSION_ID = sys.argv[1]
+else:
+    DEFAULT_VERSION_ID = "v1"
 
 st.set_page_config(page_title="EA Forum Claim Metrics", layout="wide")
 
@@ -80,7 +87,7 @@ def main():
     
     version_id = st.sidebar.text_input(
         "Version ID",
-        value="v0",
+        value=DEFAULT_VERSION_ID,
         help="The version ID of the pipeline run"
     )
     
@@ -172,12 +179,15 @@ def main():
     with tab3:
         st.header("Correlations with Base Score")
         
-        # Get all numeric metric columns
+        # Get all score fields from the metric models
         metric_columns = []
-        for metric in selected_metrics:
-            metric_fields = [col for col in df.columns if col.startswith(f"{metric}_")]
-            numeric_fields = [f for f in metric_fields if not f.endswith("_explanation")]
-            metric_columns.extend(numeric_fields)
+        for metric_name in selected_metrics:
+            score_fields = get_metric_score_fields(metric_name)
+            # Add the metric prefix to match column names in DataFrame
+            for field in score_fields:
+                col_name = f"{metric_name}_{field}"
+                if col_name in df.columns:
+                    metric_columns.append(col_name)
         
         if metric_columns and "base_score" in df.columns:
             # Calculate correlations

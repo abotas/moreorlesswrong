@@ -4,10 +4,16 @@ py313 uv project
 
 ## What's implemented?
 - A (not at all optimized) claim extractor. Extracts N most central claims
-- A harness for generating metrics *on claims* (no cross/claim metrics for now)
+- A harness for generating metrics *on claims* (no cross-claim metrics for now)
    - to add a new metric implement a metrics/{metric}.py and add it to the @claim_metric_registry
 - An interruptable/resumable pipeline that runs over a set of posts, extracts claims, generates metrics
-- A tiny streamlit app for seeing metrics across claims, and how they correlate with base_score
+- A streamlit app for seeing metrics across claims, and how they correlate with base_score
+- **5 implemented metrics:**
+   - **Novelty**: How new/original the claim is (EA audience & humanity)
+   - **InferentialSupport**: Quality of reasoning/evidence supporting the claim  
+   - **ExternalValidation**: Fact-checking against external sources
+   - **Robustness**: Two-step evaluation of claim improvement potential
+   - **AuthorAura**: Author fame/prominence scoring
 
 ## Issues 
 - Might not be that useful without improving/droppingin replacement claim extractor
@@ -23,33 +29,26 @@ py313 uv project
     - this should be interruptable! and if we add a new metric later it should just add those metrics, not rerun everything and not complete without doing anything
 - ✅ Run the pipeline over get_representative_posts(n=10) with our Novelty metric
 - ✅ Create a streamlit app that takes a version-id and a list of metrics, loads the saved metrics and plots distributions of those metrics, and scatter plots of those metrix X base_score
-- ✅ Create metrics/inferential_support.py that evaluates how much reasoning and evidence supports each claim 
+- ✅ Create metrics/inferential_support.py that evaluates how much reasoning and evidence supports each claim
+- ✅ Create metrics/external_validation.py that fact-checks claims against external sources
+- ✅ Create metrics/robustness.py that evaluates claim improvement potential via two-step LLM feedback
+- ✅ Create metrics/author_aura.py that scores author fame/prominence
 
-## Some metrics i'm planning to explore:
+## Usage:
+Pipeline: `uv run python moreorlesswrong/pipeline.py --threads 4 --model gpt-5-mini`
+Streamlit: `uv run streamlit run moreorlesswrong/streamlit_app.py v1` 
+
+## Additional metrics to explore:
 * One (usually) LLM call per metric or per group of related metrics per claim:
-    * External validation of claim
-        * Pass the claim into the model get score, allow websearch
-        * score 1-10 (1 - many reputable external sources imply this claim is false, 10 many reputable sources say it is true)
-    * Obvious flaws/robustness in claim (from owen)
-        * Is there obvious feedback that would change what should be claimed here?
-        * Step1 ask LLM for actionable feedback on the claim+post
-        * Step2 ask other LLM how useful the actionable feedback is, how much better would the post be if it took it into account, scale 1-10 (2llm calls!)
     * Actionable
         * How actionable is this claim, score 1-10
         * Pass claim into model, get score
-    * Novelty score?
-        * What percentage of people are likely to have already considered this claim (then flip so 0 is low and 10 is high)
-            * For EA forum readership
-            * all humanity
-        * Pass claim into model get score
     * Fringe score
         * pass claim into model, get score for what % of humanity would agree with this (estimate) score 1-10
             * EA readership
             * all humanity
     * Persuasiveness score
         * pass claim into model + fringe score + whole post text, get score for delta % that would change their mind on claim given the post
-    * Inferential support score
-        * pass claim into model + whole post text, get score 1-10 for how much (good) reasoning and evidence is provided in support of the claim
 
 Metric afterthoughts
     * actually all of these should be scored 1-10, or converted to 1-10.

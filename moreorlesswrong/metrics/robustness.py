@@ -9,9 +9,13 @@ from llm_client import client
 class Robustness(BaseModel):
     post_id: str
     claim_id: str
-    robustness_score: int  # 1-10 score for how much the claim would benefit from feedback
+    robustness_score: int  # 1-10
     actionable_feedback: str  # The feedback generated in step 1
     improvement_potential: str  # Explanation of how much better the claim could be
+
+    @classmethod
+    def from_model_response_json(cls, response: str) -> "Robustness":
+        return cls(**json.loads(response))
     
     @classmethod
     def metric_name(cls) -> str:
@@ -24,13 +28,12 @@ class Robustness(BaseModel):
 
 PROMPT_STEP1_FEEDBACK = """You are a critical reviewer providing actionable feedback on a particular claim from an EA forum post and how it is supported.
 
-Identify the 1-3 most important ways this claim and it's support could be improved. Consider:
+Identify the 1-3 most important ways this claim and its support could be improved. Consider:
 - Reasoning errors
-- Unsupported key assumptions that are non-obvious or contentious
-- Overlooked counterarguments or exceptions, e.g. the author only consider strawman counterarguments
-- Missing nuance or important qualifications
+- Key assumptions that are far from obvious for readers of EA forum
+- Overlooked highly plausible counterarguments
 
-Provide specific, actionable 1-3 points of the most important feedback for this claim and it's support that the author should consider before they publish.
+Provide specific, actionable 1-3 points of the most important feedback for this claim and its support that the author should consider before they publish.
 Keep in mind author and reader time is precious - imagine there's a regularization penalty to post length so feedback that would lengthen the post should be
 carefully considered.
 
@@ -47,8 +50,8 @@ Respond with valid JSON containing your feedback:
 
 
 PROMPT_STEP2_EVALUATE = """You are evaluating feedback on a particular claim made in an EA forum post. Your task is to 
-rate how useful the feedback is for improving the substance of the claim and it's support in the post, while bearing in mind
-that being concise is a virtue. Readers' time is precious.
+critically rate how useful the feedback is for improving the substance of the claim and its support in the post, while bearing in mind
+that being concise is a virtue. Readers' time is precious. 
 Original claim: "{claim}"
 
 is supported by this post:
@@ -57,15 +60,15 @@ is supported by this post:
 Proposed feedback:
 {feedback}
 
-Rate on a 1-10 scale how useful the feedback is for improving the claim and it's support in this post:
+Rate on a 1-10 scale how useful the feedback is for improving the claim and its support in this post. We have very high standards for this metric:
 - 1: Feedback is irrelevant or would make the claim worse
-- 3: Minor improvements, the feedback may improve the claim and it's support but it's slightly unclear. Or Moderate improvements, however addressing the feedback would require lengthening the post significantly.
-- 5: Moderate improvements, addressing the feedback would likely improve the claim and support. Or large improvements however addressing the feedback would require lengthening the post significantly.
-- 7: Large improvements, addresses important weaknesses in the claim or it's support. And addressing the feedback would not dramatically lengthen the post.
-- 10: Critical improvements, without addressing the feedback, the claim would be rejected out of hand by a critical reader
+- 3: Moderate improvements, addressing the feedback would likely improve the claim and support. Or large improvements however addressing the feedback would require lengthening the post significantly. Or the feedback is relevant but the post is a link post with supporting text intentionally elsewhere.
+- 5: Large improvements, addresses key weaknesses in the claim or its support. And addressing them would not significantly lengthen the post.
+- 7: Critical improvements, without addressing the feedback, the claim missing critical support.
+- 10: Critical improvements, without addressing the feedback, the claim is clearly wrong.
 
 Respond with valid JSON:
-{{"robustness_score": <int 1-10>, "improvement_potential": "<brief explanation of why this score>"}}
+{{"feedback_score": <int 1-10>, "improvement_potential": "<brief explanation of why this score>"}}
 """
 
 
@@ -116,13 +119,16 @@ def compute_robustness(
         feedback=feedback,
         post_text=post_text
     )
-    
+    # print('\n----robustness prompt_step2----')
+    # print(prompt_step2)
     response_step2 = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt_step2}]
     )
-    
     raw_content = response_step2.choices[0].message.content
+    # print('\n')
+    # print(raw_content)
+    # print('----robustness response_step2----\n')
     
     # Strip potential markdown formatting
     if raw_content.startswith("```"):
@@ -132,11 +138,11 @@ def compute_robustness(
         raw_content = raw_content.strip()
     
     result = json.loads(raw_content)
-    
+    assert int(result["feedback_score"]) in range(1, 11)
     return Robustness(
         post_id=post.post_id,
         claim_id=claim.claim_id,
-        robustness_score=result["robustness_score"],
+        robustness_score=11 - int(result["feedback_score"]),
         actionable_feedback=feedback,
         improvement_potential=result["improvement_potential"]
     )

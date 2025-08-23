@@ -43,14 +43,12 @@ Respond with a JSON object:
     "explanation": "<brief explanation of what support exists or is lacking>"
 }}
 
-Context from the post:
-Title: {title}
-Author: {author}
-
-The claim to evaluate:
+The claim: 
 "{claim}"
 
-Full post to evaluate inferential support for the claim:
+Full post in which to evaluate inferential support for the claim:
+{title}
+
 {post_text}
 """
 

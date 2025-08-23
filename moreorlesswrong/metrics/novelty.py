@@ -44,7 +44,6 @@ Respond with a JSON object:
 
 The claim to evaluate:
 "{claim}"
-
 """
 
 
