@@ -32,7 +32,7 @@ class AuthorAura(BaseModel):
         return ["author_fame_ea", "author_fame_humanity"]
 
 
-PROMPT_AUTHOR_FAME = """Use web search to evaluate the fame/prominence of this author.
+PROMPT_AUTHOR_FAME = """Evaluate the fame/prominence of this author.
 
 Author (possibly a pseudonym) to evaluate: {author}
 
@@ -55,6 +55,8 @@ Rate their fame on two scales:
 Respond with JSON:
 {{"author_fame_ea": <int 1-10>, "author_fame_humanity": <int 1-10>, "explanation": "<brief summary of their prominence>"}}
 """
+if USE_WEB_SEARCH:
+    PROMPT_AUTHOR_FAME += "\n\nYou may use web search to evaluate the fame/prominence of this author."
 
 
 def get_author_cache_path(author_name: str) -> Path:

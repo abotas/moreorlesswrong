@@ -19,5 +19,6 @@ data/
 old_example_claim_extractor.py
 old_fact_check_example.py
 connect_to_db.md
+delete_metric.py
 # CLAUDE.md
 # CLAUDE_TODO.md

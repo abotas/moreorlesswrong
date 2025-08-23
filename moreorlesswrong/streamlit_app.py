@@ -115,8 +115,8 @@ def main():
         st.error(f"No data found for version '{version_id}'")
         return
     
-    # Get posts and their base scores
-    posts = get_representative_posts(10)
+    # Get posts and their base scores - use enough posts to cover all metrics data
+    posts = get_representative_posts(20)
     post_scores = {p.post_id: p.base_score for p in posts}
     df["base_score"] = df["post_id"].map(post_scores)
     
@@ -195,8 +195,12 @@ def main():
             for col in metric_columns:
                 if col in df.columns:
                     corr = df[col].corr(df["base_score"])
+                    # Extract metric name and format field name same as distributions tab
+                    metric_name = col.split("_")[0]
+                    field_name = col.replace(f"{metric_name}_", "").replace("_", " ").title()
+                    display_name = f"{metric_name} - {field_name}"
                     correlations.append({
-                        "Metric": col.replace("_", " ").title(),
+                        "Metric": display_name,
                         "Correlation": corr
                     })
             

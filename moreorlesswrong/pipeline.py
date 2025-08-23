@@ -140,6 +140,7 @@ if __name__ == "__main__":
     
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Run metrics pipeline on representative posts')
+    parser.add_argument('--version_id', type=str, default='v1', help='Version identifier for this processing run (default: v1)')
     parser.add_argument('--threads', type=int, default=4, help='Number of threads for parallel processing (default: 4)')
     parser.add_argument('--model', type=str, default='gpt-5-mini', 
                        choices=['gpt-5-nano', 'gpt-5-mini', 'gpt-5'],
@@ -163,7 +164,7 @@ if __name__ == "__main__":
             "Value",
             "NoveltySupport",
         ],
-        version_id="v1",
+        version_id=args.version_id,
         claims_per_post=1,
         model=args.model,
         max_workers=args.threads
