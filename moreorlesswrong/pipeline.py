@@ -34,7 +34,7 @@ def process_single_post(
     else:
         # Extract claims
         print(f"  Extracting {claims_per_post} claims...")
-        claims = extract_claims(post, n=claims_per_post, model=model)
+        claims = extract_claims(post, claims_per_post, model=model)
         
         # Save claims
         with open(claims_file, 'w') as f:
@@ -140,11 +140,13 @@ if __name__ == "__main__":
     
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Run metrics pipeline on representative posts')
+    parser.add_argument('--claims_per_post', type=int, default=1, help='Number of claims to extract per post (default: 1)')
     parser.add_argument('--version_id', type=str, default='v1', help='Version identifier for this processing run (default: v1)')
     parser.add_argument('--threads', type=int, default=4, help='Number of threads for parallel processing (default: 4)')
     parser.add_argument('--model', type=str, default='gpt-5-mini', 
                        choices=['gpt-5-nano', 'gpt-5-mini', 'gpt-5'],
                        help='Model to use for evaluation (default: gpt-5-mini)')
+    
     args = parser.parse_args()
     
     # Get representative posts (n=10)
@@ -165,7 +167,7 @@ if __name__ == "__main__":
             "NoveltySupport",
         ],
         version_id=args.version_id,
-        claims_per_post=1,
+        claims_per_post=args.claims_per_post,
         model=args.model,
         max_workers=args.threads
     )

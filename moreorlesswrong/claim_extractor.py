@@ -12,7 +12,7 @@ A central claim should:
     - Include temporal context when relevant  
     - Be specific rather than vague (avoid phrases like 'the proposal' - say which proposal)
 
-Focus on the core arguments and assertions rather than minor supporting details. If only extracting one claim, it should be the most central thesis.
+Focus on the core arguments and assertions rather than minor supporting details.
 
 Respond with a valid JSON matching this schema, where claim_1 is the most central claim, claim_2 is the second most central, etc:
 {{"claim_1": "str", "claim_2": "str", ...}}
@@ -25,12 +25,35 @@ Title: {title}
 Author: {author}
 
 {text}
+
+"""
+
+PROMPT_THESIS_EXTRACTION = """You are an expert at parsing text for central claims and arguments. Extract CENTRAL and IMPORTANT THESIS from the provided EA Forum post.
+
+The thesis should:
+- Be a substantive assertion or argument made in the text
+- Contain all necessary context to understand it independently
+    - Include geographic/jurisdictional scope when relevant
+    - Include temporal context when relevant  
+    - Be specific rather than vague (avoid phrases like 'the proposal' - say which proposal)
+
+Focus on the core arguments and assertions rather than minor supporting details.
+
+Respond with a valid JSON matching this schema:
+{{"claim_1": "str"}}
+
+Here is the EA Forum post to parse:
+
+Title: {title}
+Author: {author}
+
+{text}
 """
 
 
 def extract_claims(
     post: Post, 
-    n: int = 10, 
+    n: int, 
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
 ) -> List[Claim]:
     """Extract the N most central claims from a post.
@@ -46,13 +69,19 @@ def extract_claims(
     text = post.markdown_content or post.html_body or ""
     if not text:
         return []
-    
-    prompt_content = PROMPT_CLAIM_EXTRACTION.format(
-        n=n,
-        title=post.title,
-        author=post.author_display_name or "Unknown",
-        text=text
-    )
+    if n == 1:
+        prompt_content = PROMPT_THESIS_EXTRACTION.format(
+            title=post.title,
+            author=post.author_display_name or "Unknown",
+            text=text
+        )
+    else: 
+        prompt_content = PROMPT_CLAIM_EXTRACTION.format(
+            n=n,
+            title=post.title,
+            author=post.author_display_name or "Unknown",
+            text=text
+        )
     
     response = client.chat.completions.create(
         model=model,
