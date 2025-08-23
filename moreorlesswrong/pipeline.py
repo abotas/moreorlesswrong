@@ -140,6 +140,7 @@ if __name__ == "__main__":
     
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Run metrics pipeline on representative posts')
+    parser.add_argument('--n_posts', type=int, default=20, help='Number of posts to process (default: 20)')
     parser.add_argument('--claims_per_post', type=int, default=1, help='Number of claims to extract per post (default: 1)')
     parser.add_argument('--version_id', type=str, default='v1', help='Version identifier for this processing run (default: v1)')
     parser.add_argument('--threads', type=int, default=4, help='Number of threads for parallel processing (default: 4)')
@@ -148,11 +149,9 @@ if __name__ == "__main__":
                        help='Model to use for evaluation (default: gpt-5-mini)')
     
     args = parser.parse_args()
-    
-    # Get representative posts (n=10)
-    print("Fetching representative posts (n=10)...")
-    posts = get_representative_posts(20)
-    print(f"Found {len(posts)} posts")
+    assert args.n_posts in (10, 20, 100)
+    posts = get_representative_posts(args.n_posts)
+    print(f"Got {len(posts)} posts")
     
     print(f"\nStarting pipeline with {args.threads} threads using {args.model}...")
     process_posts(

@@ -17,7 +17,7 @@ Focus on the core arguments and assertions rather than minor supporting details.
 Respond with a valid JSON matching this schema, where claim_1 is the most central claim, claim_2 is the second most central, etc:
 {{"claim_1": "str", "claim_2": "str", ...}}
 
-If there are fewer than {n} substantive claims, return only what you find.
+If there are fewer than {n} central, mostly non-overlapping claims, return only what you find.
 
 Here is the EA Forum post to parse:
 
@@ -28,7 +28,7 @@ Author: {author}
 
 """
 
-PROMPT_THESIS_EXTRACTION = """You are an expert at parsing text for central claims and arguments. Extract CENTRAL and IMPORTANT THESIS from the provided EA Forum post.
+PROMPT_THESIS_EXTRACTION = """You are an expert at parsing text for central claims and arguments. Extract the most CENTRAL and IMPORTANT THESIS from the provided EA Forum post.
 
 The thesis should:
 - Be a substantive assertion or argument made in the text

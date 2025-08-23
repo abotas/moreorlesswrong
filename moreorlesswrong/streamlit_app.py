@@ -7,6 +7,7 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 from typing import List
+from scipy import stats
 
 from db import get_representative_posts
 from models import Post
@@ -116,7 +117,7 @@ def main():
         return
     
     # Get posts and their base scores - use enough posts to cover all metrics data
-    posts = get_representative_posts(20)
+    posts = get_representative_posts(100)
     post_scores = {p.post_id: p.base_score for p in posts}
     df["base_score"] = df["post_id"].map(post_scores)
     
@@ -190,43 +191,111 @@ def main():
                     metric_columns.append(col_name)
         
         if metric_columns and "base_score" in df.columns:
-            # Calculate correlations
+            # Calculate correlations with p-values
             correlations = []
+            n_samples = len(df)
+            
             for col in metric_columns:
                 if col in df.columns:
-                    corr = df[col].corr(df["base_score"])
-                    # Extract metric name and format field name same as distributions tab
-                    metric_name = col.split("_")[0]
-                    field_name = col.replace(f"{metric_name}_", "").replace("_", " ").title()
-                    display_name = f"{metric_name} - {field_name}"
-                    correlations.append({
-                        "Metric": display_name,
-                        "Correlation": corr
-                    })
+                    # Remove any NaN values for this correlation
+                    valid_data = df[[col, "base_score"]].dropna()
+                    n_valid = len(valid_data)
+                    
+                    if n_valid > 2:  # Need at least 3 points for correlation
+                        corr, p_value = stats.pearsonr(valid_data[col], valid_data["base_score"])
+                        
+                        # Extract metric name and format field name same as distributions tab
+                        metric_name = col.split("_")[0]
+                        field_name = col.replace(f"{metric_name}_", "").replace("_", " ").title()
+                        display_name = f"{metric_name} - {field_name}"
+                        
+                        # Determine significance markers
+                        if p_value < 0.001:
+                            sig_marker = "***"
+                        elif p_value < 0.01:
+                            sig_marker = "**"
+                        elif p_value < 0.05:
+                            sig_marker = "*"
+                        else:
+                            sig_marker = ""
+                        
+                        correlations.append({
+                            "Metric": display_name,
+                            "Correlation": corr,
+                            "p-value": p_value,
+                            "Significance": sig_marker,
+                            "n": n_valid
+                        })
             
             corr_df = pd.DataFrame(correlations)
             corr_df = corr_df.sort_values("Correlation", ascending=False)
             
-            # Display correlation bar chart
+            # Display correlation bar chart with significance markers
+            corr_df["Metric_with_sig"] = corr_df["Metric"] + " " + corr_df["Significance"]
             fig = px.bar(
                 corr_df,
                 x="Correlation",
-                y="Metric",
+                y="Metric_with_sig",
                 orientation='h',
                 title="Correlation with Base Score",
                 color="Correlation",
                 color_continuous_scale=["red", "yellow", "green"],
-                range_color=[-1, 1]
+                range_color=[-1, 1],
+                hover_data={"p-value": ":.4f", "n": True}
             )
-            fig.update_layout(height=400 + len(corr_df) * 20)
+            fig.update_layout(
+                height=400 + len(corr_df) * 20,
+                yaxis_title="Metric"
+            )
             st.plotly_chart(fig, use_container_width=True)
             
-            # Display correlation table
-            st.subheader("Correlation Values")
-            st.dataframe(
-                corr_df.style.background_gradient(subset=['Correlation'], cmap='RdYlGn', vmin=-1, vmax=1),
-                use_container_width=True
-            )
+            # Display correlation table with enhanced formatting
+            st.subheader("Correlation Analysis")
+            
+            # Add clear explanation of what p-values mean
+            with st.expander("📊 What do these p-values mean?"):
+                st.write("""
+                **P-value** answers: "If there were truly NO relationship between this metric and base score, 
+                what's the probability of seeing a correlation this strong (or stronger) just by random chance?"
+                
+                • **p < 0.05**: Less than 5% chance this correlation is just random noise (statistically significant)
+                • **p < 0.01**: Less than 1% chance of random occurrence (highly significant)  
+                • **p < 0.001**: Less than 0.1% chance of random occurrence (very highly significant)
+                
+                **Example**: AuthorAura correlation = 0.5, p = 0.02 means:
+                "If author fame had ZERO real relationship with base score, there's only a 2% chance 
+                we'd randomly see a correlation of 0.5 or higher."
+                
+                **Bold** entries are statistically significant (p < 0.05), **gray** entries may just be noise.
+                """)
+            
+            # Add explanation of significance markers
+            st.caption("Significance markers: *** p<0.001, ** p<0.01, * p<0.05 | Bold = significant, Gray = not significant")
+            
+            # Format the dataframe for display
+            display_df = corr_df.copy()
+            display_df["Correlation"] = display_df["Correlation"].round(3)
+            display_df["p-value"] = display_df["p-value"].round(4)
+            display_df["Metric"] = display_df["Metric"] + " " + display_df["Significance"]
+            display_df = display_df[["Metric", "Correlation", "p-value", "n"]]
+            
+            # Apply styling
+            def style_significant(row):
+                if row["p-value"] < 0.05:
+                    return ["font-weight: bold"] * len(row)
+                else:
+                    return ["color: gray"] * len(row)
+            
+            styled_df = display_df.style.apply(style_significant, axis=1)\
+                .background_gradient(subset=['Correlation'], cmap='RdYlGn', vmin=-1, vmax=1)\
+                .format({"Correlation": "{:.3f}", "p-value": "{:.4f}", "n": "{:d}"})
+            
+            st.dataframe(styled_df, use_container_width=True)
+            
+            # Add warning if sample size is small
+            min_n = corr_df["n"].min() if len(corr_df) > 0 else 0
+            if min_n < 30:
+                st.warning(f"⚠️ Small sample size (n={min_n}). Interpret correlations with caution.")
         else:
             st.info("No numeric metrics available for correlation analysis")
     

@@ -64,13 +64,13 @@ def read_saved_posts(file_id: str) -> List[Post]:
 if __name__ == "__main__":
     
     # representative_10 = get_representative_posts(10)
-    representative_20 = get_representative_posts(20)
-    print(f"Found {len(representative_20)} representative posts")
-    # representative_100 = get_representative_posts(100)
+    # representative_20 = get_representative_posts(20)
+    representative_100 = get_representative_posts(100)
+    print(f"Found {len(representative_100)} representative posts")
     # 
     # Save to files
     # save_posts('./data/raw/posts/representative_10_2025.json', representative_10)
     os.makedirs('./data/raw/posts', exist_ok=True)
-    save_posts('./data/raw/posts/representative_20_2025.json', representative_20)
-    # save_posts('./data/raw/posts/representative_100_2025.json', representative_100)
+    # save_posts('./data/raw/posts/representative_20_2025.json', representative_20)
+    save_posts('./data/raw/posts/representative_100_2025.json', representative_100)
     
