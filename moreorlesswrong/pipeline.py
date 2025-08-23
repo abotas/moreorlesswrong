@@ -139,16 +139,15 @@ if __name__ == "__main__":
     
     # Get representative posts (n=10)
     print("Fetching representative posts (n=10)...")
-    posts = get_representative_posts(10)
+    posts = get_representative_posts(20)
     print(f"Found {len(posts)} posts")
     
-    # Process with Novelty metric
     print("\nStarting pipeline with Novelty metric...")
     process_posts(
         posts=posts,
-        metrics=["Novelty", "InferentialSupport"],
-        version_id="v1_novelty_test",
-        claims_per_post=1,  # Start with 1
+        metrics=["Novelty", "InferentialSupport", "ExternalValidation", "Robustness", "AuthorAura"],
+        version_id="v1",
+        claims_per_post=1,
         model="gpt-5-mini"
     )
     
