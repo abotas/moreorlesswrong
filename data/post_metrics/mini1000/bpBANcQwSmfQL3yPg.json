@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "value_ea": 8,
+    "value_humanity": 6,
+    "explanation": "For the EA/AI-safety community this RFP is highly important: it targets a concrete, underdeveloped, and load\u2011bearing piece of the AI safety and governance puzzle (better capability evaluations, third\u2011party access, and evaluation science). Funding and coordination here could materially alter what evidence is available for governance decisions and help resolve key cruxes about capabilities, so the post meaningfully shapes priorities and opportunities. For general humanity the post is moderately important: if the initiative succeeds it could improve oversight and reduce systemic AI risk (a high\u2011stakes benefit), but it is one piece among many and its direct impact is uncertain and indirect."
+  },
+  "PostRobustness": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Address dual\u2011use and disclosure risks explicitly. The RFP asks for \u201cextremely challenging\u201d agentic tasks but says nothing about how you will prevent those tasks, datasets, evaluation code, or infrastructure designs from being repurposed to improve dangerous capabilities. Before publishing: add mandatory requirements for proposers to include a threat model, a layered/controlled release plan (what will be public vs restricted), and reviewer expertise/processes for sensitive content. State whether and how funded work may be red\u2011teamed, redacted, or kept under controlled access.\n\n2) Reduce vagueness by giving concrete success criteria and examples. Phrases like \u201cextremely challenging,\u201d \u201cagentic, risk\u2011relevant capabilities,\u201d and \u201cmeaningful external access\u201d are open to wide interpretation and will lead to weak or misaligned proposals. Before publishing: include 2\u20133 concrete, non\u2011sensitive example evaluation designs or target difficulty levels, explicit metrics or milestone examples (e.g., tasks that take an expert N hours to solve, robustness thresholds, overfitting controls), and the criteria reviewers will use to score proposals.\n\n3) Anticipate gaming and cooperation/incentive problems with model developers. The post doesn\u2019t discuss how you\u2019ll prevent benchmark gaming, overfitting, or how you intend to secure cooperation from companies that control frontier models. Add requirements for preregistration, holdout/test splitting and continuous evaluation, plans for adversarial/black\u2011box testing, and a short section on outreach/coordination strategies (e.g., legal/contractual approaches, non\u2011adversarial engagement) to make third\u2011party access plans credible.",
+    "improvement_potential": "Strong, concrete, and actionable suggestions that target real omissions: the RFP should explicitly address dual\u2011use/disclosure controls, give clearer success criteria to avoid vague/misaligned proposals, and plan for benchmark gaming and obtaining model access. These are high\u2011impact fixes that would materially improve proposal quality and reduce embarrassing oversights. (Some of the suggested details may already be in the full RFP, so the post could note that rather than expanding length.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information for the author listed as 'cb'. There is no widely recognized EA/rationalist figure or global public intellectual known primarily by the handle/initials 'cb'. Provide a full name, link, or context to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, a concise summary, concrete grant/timeline details, and specific thematic areas make the post accessible and actionable. Weaknesses: a few minor grammar/phrasing issues (e.g. 'Though seen some...'), some repetition (multiple 'Click here' prompts), unexplained acronym (GCR) for non-expert readers, and a couple of dense paragraphs that could be tightened or given brief concrete examples to improve conciseness and precision."
+  },
+  "PostNovelty": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the post is low-novelty: it\u2019s primarily a funding announcement from Open Philanthropy and consolidates already\u2011well\u2011known concerns (better benchmarks, evaluation science, and third\u2011party access) that the community has been discussing. The only mildly new elements are the explicit emphasis on very high\u2011bar, expert\u2011level evaluations and the concrete RFP scope/scale. For the general public the ideas are somewhat more novel \u2014 many educated non\u2011specialists haven\u2019t thought through the technical need for demanding, predictive capability evaluations or the specifics of third\u2011party access and verifiable audit infrastructure \u2014 but the underlying concepts (improve tests, fund research, ensure independent oversight) are not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post gives a clear, well-structured argument for why capability evaluations matter (governance, resolving disputes about risk, situational awareness) and lays out specific, plausible problems and funding priorities. The logic linking better evaluations to improved governance and understanding of risk is persuasive. Weaknesses: Empirical support is sparse \u2014 the post cites a couple of existing benchmarks but offers little quantitative evidence that benchmarks are saturating, that current evaluations fail in specific, documented ways, or that the proposed directions will succeed. Several claims are plausible but asserted without supporting data or case studies, and feasibility/impact tradeoffs are not analyzed."
+  },
+  "PostExternalValidation": {
+    "post_id": "bpBANcQwSmfQL3yPg",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major claims are well-supported and verifiable: Open Philanthropy did publish the RFP and its content (focus areas, evaluation priorities, and the three problem areas) is accurately summarized; Cybench and RE\u2011Bench exist and are cited by the RFP; AISI/NIST pre-deployment testing used benchmarks like Cybench. Two empirical items in the EA Forum post could not be corroborated on the public RFP page: the precise grant-size range ($200K\u2013$5M) and the stated deadline (\"open until April 1, 2025\"). The RFP page documents that EOIs were later closed (update 14 Apr 2025) but does not show the $200K\u2013$5M range or the April 1 deadline in the publicly visible text I inspected (the EA Forum post may have taken those details from the application form/airtable). Because the RFP and its main claims are clearly verified but a couple of specific logistics claims lack a direct public citation, I rate this an 8/10.",
+    "sources": [
+      "Open Philanthropy \u2014 Request for Proposals: Improving Capability Evaluations (official RFP page), Open Philanthropy. https://www.openphilanthropy.org/request-for-proposals-improving-capability-evaluations (page includes update noting EOIs closed 4/14/2025).",
+      "EA Forum post \u2014 \"Improving capability evaluations for AI governance: Open Philanthropy's new request for proposals\" by cb, Feb 7, 2025. https://forum.effectivealtruism.org/posts/bpBANcQwSmfQL3yPg/improving-capability-evaluations-for-ai-governance-open",
+      "Cybench \u2014 benchmark site and documentation. https://cybench.github.io/ (describes Cybench and notes use by AISI/NIST and others).",
+      "RE\u2011Bench / arXiv \u2014 \"RE\u2011Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts\", arXiv (paper) and METR blog release (Nov 22, 2024). arXiv: https://arxiv.org/abs/2411.15114 ; METR blog: https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/",
+      "NIST / US AISI \u2014 Pre\u2011Deployment Evaluation of Anthropic\u2019s Upgraded Claude 3.5 Sonnet (joint US/UK AISI pre\u2011deployment test report page). https://www.nist.gov/news-events/news/2024/11/pre-deployment-evaluation-anthropics-upgraded-claude-35-sonnet",
+      "UK AISI (AISI.gov.uk) \u2014 Pre\u2011Deployment Evaluation (corresponding UK AISI page). https://www.aisi.gov.uk/work/pre-deployment-evaluation-of-anthropics-upgraded-claude-3-5-sonnet"
+    ]
+  }
+}

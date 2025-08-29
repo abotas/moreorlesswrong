@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "7yopesypwXZNaALud",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "The question \u2014 whether it\u2019s valuable to deliberately keep some data inaccessible to AIs \u2014 is moderately important for the EA/rationalist crowd because it directly touches on AI safety, data governance, and tactical options (e.g., data sanctuaries, air-gapped records, norms about private communications) that could influence alignment strategies and policy. If the claim were true it would inform research priorities and regulatory approaches, but it isn\u2019t a foundational truth underpinning longtermism or core alignment theory; it\u2019s a tactical/operational issue with trade\u2011offs. For general humanity it matters less: it bears on privacy and control of information and could affect society if adopted at scale, but the concept is not existential and is contingent on many technical and social enforcement details. The post itself (a short voice note) is more of a conversation starter than a rigorous, load\u2011bearing argument, so its standalone importance is modest."
+  },
+  "PostRobustness": {
+    "post_id": "7yopesypwXZNaALud",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the post accessible and scannable: Audio-only posts strongly reduce engagement on EA Forum (accessibility, searchability, people skimming). Add a short written transcript or at least a 2\u20134 sentence summary of the core question and any claims you make, and time-stamp any specific parts you want feedback on. 2) Define key terms and the threat model: \u201cdata that can\u2019t be touched by AI\u201d is ambiguous. Say whether you mean: not used for training; not queryable by LLMs; cryptographically sealed; legally protected; or something else. Give 1\u20132 concrete scenarios (e.g. red\u2011team safety research, private medical datasets, or evidence for governance) and what property is intended (confidentiality, non-ingestibility, provenance). 3) Acknowledge and briefly address the main counterarguments and feasibility constraints you\u2019re implicitly relying on: it\u2019s technically hard to prevent models from learning from human summaries, public leaks, or outputs derived from the data; legal/licensing controls and technical controls (encryption, enclaves, differential privacy, watermarks) have trade-offs; making data unreadable to AI can also block beneficial uses. Either indicate which of these trade-offs you care most about or ask the community which trade-offs they think matter. These changes will make responses far more focused and useful.",
+    "improvement_potential": "The feedback hits the main weaknesses: an audio-only post reduces engagement and accessibility (easy, low-effort fix), the core term is ambiguous so the threat model must be defined, and the post should acknowledge key technical/legal trade-offs and counterarguments to focus replies. These are critical improvements that make responses usable without greatly lengthening the post; they don\u2019t render the thesis false but are necessary to avoid unfocused or unhelpful discussion."
+  },
+  "PostAuthorAura": {
+    "post_id": "7yopesypwXZNaALud",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable presence for the name 'Jonas S\u00f8vik \ud83d\udd39' in the EA/rationalist scene or in broader public discourse. The name does not match well-known EA figures, major publications, or frequently cited authors; it may be a pseudonym or a minor/local contributor with little public footprint. If you can provide links or context (articles, platforms), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "7yopesypwXZNaALud",
+    "clarity_score": 4,
+    "explanation": "The post is concise and has an intriguing title, and the call to action (ask for thoughts) is clear. However it relies entirely on an external audio file with no transcript or summary, gives no context or argument in text, and leaves the reader unsure what specifically is being claimed or asked. That makes it somewhat unclear and forces extra effort (listen to the clip, infer context) to understand the point. Adding a brief written summary/transcript and a specific question would make it much clearer."
+  },
+  "PostNovelty": {
+    "post_id": "7yopesypwXZNaALud",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The core question \u2014 whether it's valuable to keep data inaccessible to AI \u2014 is a familiar topic in EA/AI-alignment and security circles (air-gapped stores, encryption, human-only knowledge, archives, compartmentalisation). Among the general public it\u2019s a bit less frequently framed in AI-alignment terms, but ideas about offline/untouchable data and privacy are widely known. The post\u2019s informal voice-message format is mildly distinctive, but the underlying idea is not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "7yopesypwXZNaALud",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post is essentially a short voice note and a question rather than an argued thesis. Strength: it raises a potentially interesting, relevant question that could prompt discussion. Weaknesses: no structured argument, no definitions of key terms (e.g. what counts as 'data AI can touch'), no logical development, and no empirical evidence or citations. As presented it provides virtually no support for any substantive claim."
+  },
+  "PostExternalValidation": {
+    "post_id": "7yopesypwXZNaALud",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "The post contains no empirical claims to verify \u2014 it is just a short voice-message link asking for thoughts, so there is nothing factual to validate or falsify (EA Forum post listing). If read as raising the question whether it\u2019s useful to keep data inaccessible to AI, that is a normative/question prompt rather than an empirical claim; related factual claims (that technologies exist which can make data inaccessible or protect privacy) are true and supported by literature on homomorphic encryption, trusted execution environments, and differential privacy. ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/jonas-sovik?utm_source=openai), [en.wikipedia.org](https://en.wikipedia.org/wiki/Microsoft_SEAL?utm_source=openai), [intel.com](https://www.intel.com/content/www/us/en/developer/articles/technical/overview-of-an-intel-software-guard-extensions-enclave-life-cycle.html?utm_source=openai), [cis.upenn.edu](https://www.cis.upenn.edu/~aaroth/privacybook.html?utm_source=openai))",
+    "sources": [
+      "EA Forum \u2014 Jonas S\u00f8vik: 'Consider this me drunk texting the forum: Is it useful to have data that can't be touched by AI?' (post listing)",
+      "Microsoft SEAL (Microsoft Research) \u2014 homomorphic encryption library / overview",
+      "Intel Developer: Overview of an Intel Software Guard Extensions (SGX) enclave life cycle (trusted execution / secure enclaves)",
+      "Cynthia Dwork & Aaron Roth \u2014 'The Algorithmic Foundations of Differential Privacy' (survey/monograph)",
+      "World Economic Forum article on AI and data (context on debates about data availability and AI)"
+    ]
+  }
+}

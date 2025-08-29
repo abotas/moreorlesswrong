@@ -1,0 +1,65 @@
+{
+  "PostValue": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful, practical compilation for people who want to get involved in AI\u2011safety outreach \u2014 helps EA organizers, volunteers, and donors find credible grassroots entry points and coordinate action. Not foundational theory or evidence; if true it modestly raises the odds of more effective grassroots mobilization (which could be high\u2011leverage given early stages), but the post itself is mainly a signpost rather than a load\u2011bearing argument. For the general public it\u2019s of minor importance except insofar as it indirectly shapes future policy via activist recruitment."
+  },
+  "PostRobustness": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing selection methodology and conflicts of interest \u2014 add a short \"How we chose these orgs\" paragraph and disclose author affiliations. Readers need to know whether this is a comprehensive list, a convenience sample, or organs you have inside knowledge of. Actionable: state your inclusion criteria (e.g. grassroots focus, joinability, English-language, geographic limits), the date you compiled it, and explicitly disclose that you (Ben and Severin) helped run PauseAI and ran the listed co-working sessions. This prevents perceived bias and helps readers interpret recommendations.\n\n2) Many evaluative claims are subjective or unsupported \u2014 back up or soften them. Examples: \"most convincing theory of change\", \"best equipped to absorb new members\", and the description of EncodeAI's legislative impact. Actionable: either (a) attach 1\u20132 concrete metrics or sources for each evaluative claim (members/chapters, funding, number of actions/events, verifiable policy wins/contacts), or (b) rephrase as personal impressions and flag them as opinions. Correct any factual claims you can\u2019t source or mark them tentative.\n\n3) Missing due-diligence and risk guidance for potential volunteers \u2014 especially important given groups that use public protest or civil disobedience. Actionable: add a short \"Before you join\" checklist (e.g. check for code of conduct, expected time commitment, legal risk for protests, stance on messaging/politicization, privacy/data handling, contact points for onboarding). Flag high-risk activities (civil disobedience) and suggest what volunteers should ask or prepare (legal briefings, safety plans, escalation policies). This will help readers choose an org safely and responsibly.",
+    "improvement_potential": "Addresses major credibility and safety gaps: failing to disclose author involvement with PauseAI is a clear 'own goal' that risks perceived bias; subjective evaluative claims need sourcing or hedging; and missing volunteer risk/due-diligence guidance is important given protests and civil disobedience. Implementing these suggestions would substantially improve trustworthiness and reader safety without unduly bloating the post (they can be done with a short methodology/disclosure blurb, brief sourcing/hedging, and a concise \u2018before you join\u2019 checklist)."
+  },
+  "PostAuthorAura": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name 'Severin' (possibly a pseudonym) does not match any clearly identifiable, widely-cited figure in the EA/rationalist community or broader public sphere. No prominent publications, talks, or high-profile contributions linked to that single-name author were found, so they appear to have minimal recognition in EA circles and virtually no global public presence."
+  },
+  "PostClarity": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to skim \u2014 clear headings for each organization, concise summaries, and actionable links. It communicates its purpose and call to action effectively. Minor issues: inconsistent formatting/spacing around links, occasional unexplained jargon (e.g. ASI), variable depth of detail across org entries, and a few places where claims or context could use brief sourcing or clarification. Overall readable and compelling but could be tightened and standardized."
+  },
+  "PostNovelty": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This is mainly a practical directory/survey of existing grassroots AI-safety groups rather than a new conceptual claim. EA Forum readers will almost certainly be familiar with the idea of grassroots outreach and many of these groups or similar efforts, so it\u2019s not very novel for that audience. For the general public it\u2019s somewhat more informative\u2014specific org names, activities (e.g. ControlAI\u2019s DIP approach, PauseAI\u2019s microgrants and outreach labs, StopAI\u2019s civil disobedience), and joinable links are useful and not widely known\u2014but the underlying ideas (grassroots activism, policy outreach, local chapters) are common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured, gives a clear directory of grassroots AI-safety groups, links to primary sources, and offers a plausible high-level argument that early-stage organizing can be high-impact. It provides at least one concrete metric (ControlAI: 70 representatives contacted, 31 public statements) and specific activities for each org. Weaknesses: The causal claims about likely impact are asserted rather than systematically supported; most claims rely on self-descriptions and links to the organizations' own materials with little independent verification or comparative assessment. The post lacks consistent quantitative evidence of effectiveness, evaluation of risks or potential negative consequences, and transparent selection criteria for included groups. Overall the piece is a useful starting directory but not a rigorous evidence-based endorsement of impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "uZGnKj56A7w5TZKkc",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are supported by primary sources (the organisations' own websites and related public materials). AISafety directories, ControlAI (Direct Institutional Plan, campaign pages, Discord, careers), Encode/Encode Justice (site claims and SB\u20111047 sponsorship), PauseAI (microgrants, tabling, PauseCon event and Discord), PauseAI US site, StopAI (join page / protest organizing), and Collective Action for Existential Safety (existentialsafety.org; announced as \u201c80+ actions\u201d) are all publicly available and match the post\u2019s descriptions. Minor issues: (1) the post\u2019s specific numeric claim about ControlAI (\u201ctalked to 70 representatives of which 31 agreed\u2026\u201d) does not match the exact figures currently shown on ControlAI pages (ControlAI reports e.g. 64 UK legislators for the deepfakes statement, and homepage claims like \u201c50+ UK parliamentarians\u201d and \u201c100+ lawmakers briefed\u201d); (2) naming is slightly inconsistent for the youth group (the official co\u2011sponsor listed for SB\u20111047 is \u201cEncode Justice\u201d / the Encode brand \u2014 the post calls them \u201cEncodeAI\u201d); (3) small date/details (e.g., exact PauseCon session dates) vary between event pages. Overall: most major factual claims check out via primary sources, with only minor discrepancies in numbers and naming that should be double\u2011checked with the orgs for exact counts.",
+    "sources": [
+      "AISafety.com \u2014 Communities page (lists many grassroots groups including ControlAI & PauseAI): https://www.aisafety.com/communities",
+      "AISafety.com \u2014 Map page: https://www.aisafety.com/map",
+      "AI Safety Quest: https://aisafety.quest/",
+      "ControlAI \u2014 The Direct Institutional Plan (DIP): https://controlai.com/dip",
+      "ControlAI \u2014 Campaign / past campaigns (deepfakes coalition / numbers): https://controlai.com/past-campaigns/campaign-against-deepfakes",
+      "ControlAI \u2014 homepage (summary stats such as '100+ Lawmakers briefed', '50+ UK parliamentarians'): https://controlai.com/",
+      "ControlAI \u2014 Careers page (shows they are hiring): https://controlai.com/careers",
+      "Encode (Encode / Encode Justice) \u2014 'What We Do' (claims co\u2011sponsored SB\u20111047, chapters, student network): https://encodeai.org/what-we-do/",
+      "Encode \u2014 'Our Chapters' (claims ~1,300 students across 40 U.S. states / 30 countries): https://encodeai.org/our-chapters/",
+      "SB\u20111047 (Safe and Secure Innovation for Frontier AI Models Act) \u2014 Wikipedia summary and sponsor info (Encode Justice listed among sponsors): https://en.wikipedia.org/wiki/Safe_and_Secure_Innovation_for_Frontier_Artificial_Intelligence_Models_Act",
+      "Senator Scott Wiener \u2014 press/notes on SB\u20111047 and sponsors (names sponsors including Encode Justice): https://sd11.senate.ca.gov/news/senator-wiener-introduces-legislation-ensure-safe-development-large-scale-artificial-1",
+      "PauseAI \u2014 MicroGrants page: https://pauseai.info/microgrants",
+      "PauseAI \u2014 Tabling guide and local organizing guides (tabling/flyering instructions): https://pauseai.info/tabling and https://pauseai.info/local-organizing",
+      "PauseAI \u2014 PauseCon London event listing (example event listing / dates): https://lu.ma/hmrkdm0u (PauseCon London 2025 listing)",
+      "PauseAI \u2014 main site (protests, communities, Discord links): https://pauseai.info/",
+      "PauseAI US \u2014 site: https://www.pauseai-us.org/",
+      "StopAI \u2014 Join page (shows protest/civil\u2011disobedience orientation, Discord link, contact info): https://www.stopai.info/join",
+      "StopAI \u2014 events/protest listings (examples): https://supsn.app/events/203 and StopAI social posts",
+      "Collective Action for Existential Safety (CAES) \u2014 official site (existentialsafety.org) and EA Forum announcement noting '80+ actions': https://existentialsafety.org/ and https://forum.effectivealtruism.org/posts/juzGeLSiMCgLyx6ca/introducing-collective-action-for-existential-safety-80",
+      "EA Forum mirror of the post (same content/context): https://forum.nunosempere.com/posts/uZGnKj56A7w5TZKkc/overview-ai-safety-outreach-grassroots-orgs"
+    ]
+  }
+}

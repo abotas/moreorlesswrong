@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a relevant and actionable development for animal-welfare-aligned donors, advocates, and policymakers. If RSPCA Australia tightens the meat-chicken standard (and it covers ~85% of Australian chicken sales), that could meaningfully reduce suffering for many millions of birds and shift industry practice in Australia/New Zealand, so it matters to cause-prioritizers working on farmed animal welfare. It is not, however, foundational to the largest EA priorities (e.g., AI/x-risk or macro longtermist strategy) and its global human-impact is limited to animal welfare and sectoral economic effects, so its broader importance to all humanity is modest."
+  },
+  "PostRobustness": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add sources and verify key claims. You say ~85% of chicken sold is covered by the RSPCA standard and that RSPCA \u201cspecifically reference\u201d the Better Chicken Standard \u2014 cite the documents/pages that support both claims (link to the RSPCA review/consultation page and the exact text referencing the Alliance\u2019s standard). Without links the post reads like hearsay and harms credibility.\n\n2) Be explicit about what a \u201csignificant update\u201d would actually change and how big the impact might be. Briefly summarize the main proposed or possible changes (e.g. stocking density, breed, enrichment, slaughter practices), the mechanisms by which RSPCA standards affect producers and retailers, and a short, evidence-backed estimate of likely welfare impact and market coverage (including whether the 85% figure covers Australia only or includes NZ). If you don\u2019t know these details, say so and flag where readers can find them.\n\n3) Anticipate and address the main counterarguments and next steps. Note likely industry objections (costs, supply chain friction), enforcement/verification challenges, and the review timeline (deadlines for submissions). Tell readers concretely what they can do if they care (e.g. link to the consultation, template for submissions, contact details). Also consider tightening the title to something more informative (e.g. \u201cRSPCA Australia reviewing meat\u2011chicken standard \u2014 potential to adopt Better Chicken Standard\u201d).",
+    "improvement_potential": "The feedback correctly calls out the post's major weaknesses (uncited key claims, vague impact statement, no call to action) and gives concrete, doable fixes that materially improve credibility and usefulness. These are critical improvements \u2014 especially adding citations for the ~85% claim and the Alliance reference \u2014 though they require a modest amount of research rather than rewriting the piece."
+  },
+  "PostAuthorAura": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence of a notable EA/rationalist presence or public profile for the name/handle 'ASuchy' in my training data up to mid\u20112024 (no prominent LessWrong/EA Forum posts, conference appearances, major publications, or media coverage). It may be a rare/anonymous pseudonym or a minor community handle; provide links if you want a targeted check."
+  },
+  "PostClarity": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "clarity_score": 8,
+    "explanation": "The post is concise and easy to understand: it states that RSPCA Australia is reviewing the meat-chicken standard, notes the large coverage (~85%), flags the Better Chicken Standard reference, and points to potential welfare impacts with supporting links. It could be stronger by adding a bit more context (timeline, specific proposed changes, and why the Better Chicken Standard matters) and by tightening the argument about the likely consequences, but overall it is clear and well structured."
+  },
+  "PostNovelty": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers this is mostly news rather than a new idea\u2014RSPCA standards, Better Chicken Standard, and their potential impact are already well known within animal-welfare/longtermist circles. For the general public the specific combo (RSPCA Australia reviewing meat-chicken standard, 85% coverage, link to Better Chicken Standard and welfare research) is somewhat informative but not highly original\u2014it's a specific policy update rather than a novel concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "The post makes a plausible and straightforward point: if RSPCA Australia updates a standard that currently covers a large share of the market, that update could have major effects. That is logically coherent, and it usefully flags the Better Chicken Standard and a welfare-research link. However, the argument is thin and incomplete. It states the key 85% coverage figure without citation or context (what 'covered' means in practice), offers no evidence that producers will implement any new requirements, gives no quantitative estimate of birds affected or timeline, and does not address enforcement, cost, or likely uptake. The provided links are relevant but limited \u2014 they do not establish that the specific proposed changes will be feasible or produce the claimed impact. To be stronger the post would need cited sources for the coverage statistic, concrete description of proposed changes, precedent or market adoption evidence, and more direct empirical estimates of welfare impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "v5ycF9A8XFstbTNr3",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Mostly accurate and verifiable. RSPCA Australia publicly states the meat\u2011chicken Standard was undergoing a scheduled review in 2024 into 2025, and RSPCA/Australian reporting indicates a very large majority of meat chickens are farmed to the RSPCA Standard (RSPCA cites ~87% / RSPCA messaging and independent press cite ~78\u201390% at different dates). RSPCA Australia explicitly refers to the Better Chicken Commitment/BCA and welcomes measures like it, and the Welfare Footprint Institute has a detailed broiler pain analysis (the linked WelfareFootprint 'broilers' page exists). Minor caveats: (a) the post\u2019s phrasing \u201c85% of all chicken sold\u201d is slightly imprecise \u2014 the RSPCA figures refer to meat\u2011chicken production/animals raised (not retail sales), and (b) much of the percentage data comes from RSPCA impact reporting (self\u2011reported); independent industry numbers (e.g., ACMF, academic summaries) support a large majority but vary by year (78% in 2018 \u2192 higher later). Overall the post\u2019s empirical claims are well supported but rely partly on RSPCA\u2019s own published figures and should be read with that context.",
+    "sources": [
+      "RSPCA Australia \u2014 \"Driving real and tangible change in meat chicken welfare\" (RSPCA blog; states scheduled review in 2024\u201325).",
+      "RSPCA Approved \u2014 \"What Coles and Woolworths are doing to improve the lives of meat chickens\" / RSPCAApproved.org.au (states more than 87% of Australia\u2019s meat chickens are raised to the RSPCA Standard).",
+      "RSPCA Australia \u2014 \"Our Impact\" / RSPCA Approved impact pages (impact figures: hundreds of millions / major share of production).",
+      "ABC News \u2014 \"Australians are eating almost twice as much chicken...\" (27 Jan 2025) (quotes RSPCA figures ~700 million meat chickens in 2023 and notes high RSPCA participation).",
+      "Australian Chicken Meat Federation (ACMF) \u2014 Industry overview (context on production scale, major producers and market structure).",
+      "CSIRO PUBLISHING / Animal Production Science (article summarising RSPCA uptake: notes 78% in 2018 and growth from 13% in 2013).",
+      "Australian Alliance for Animals \u2014 Better Chicken Australia / Better Chicken Commitment campaign page (describes the BCC and Alliance advocacy).",
+      "RSPCA Australia \u2014 \"Meat chickens\" key issues page (explicitly says RSPCA 'welcomes' measures including the Better Chicken Commitment).",
+      "Welfare Footprint Institute \u2014 \"Broilers\" page (WelfareFootprint.org; provides the analysis quantifying time in pain for broilers and BCC impacts).",
+      "SPCA New Zealand \u2014 Better Chicken pages (shows NZ organisations/businesses adopting/endorsing the Australia\u2011New Zealand Better Chicken Commitment and shows regional relevance)."
+    ]
+  }
+}

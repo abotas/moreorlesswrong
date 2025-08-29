@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is an event announcement for grassroots political organizing around AI safety. It's practically useful to EAs who want to learn advocacy and mobilize voters/constituents, so it has modest importance for the community as part of broader advocacy efforts. It is not a foundational argument or new evidence about AI risk, and a single workshop has limited direct impact on global outcomes, so its importance to humanity at large is small unless it were part of a much larger, sustained movement that changed policy at scale."
+  },
+  "PostRobustness": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing concrete event details and action plan \u2014 The post promises to teach people how to contact Congress but gives no agenda, speakers, materials, or concrete deliverables. Add a short bulleted agenda (e.g., 15min background, 30min messaging & scripts, 30min roleplay, next steps), list any speakers/trainers and their credentials, what attendees will leave with (talking points, email/phone scripts, relevant bill IDs, follow\u2011up templates), and timezone/accessibility/cost info. This makes the event look useful and lowers friction to RSVP.\n\n2) Overly high\u2011stakes wording without nuance or sources \u2014 Claims like \u201ccould cause global catastrophe\u201d and citing a 2023 statement without context may sound alarmist to many readers and hurt credibility. Either tone down the rhetoric or add brief citations and context (e.g., consensus range of timelines/probabilities, which organizations signed the statement) and explain why policy action now is the pragmatic step. This will broaden appeal and reduce pushback from readers who want more balanced framing.\n\n3) No described political/strategic approach \u2014 \u201cContact Congress\u201d can mean many things; different messaging works with different offices and parties. State the specific policy asks you\u2019ll be advocating (or the range of options), whether training will be nonpartisan, and provide sample one\u2011sentence asks and an example outreach pathway (call \u2192 email \u2192 meeting). That prevents wasted volunteer effort and avoids the impression that outreach will be vague or ideologically driven.",
+    "improvement_potential": "The feedback pinpoints three genuine, actionable shortcomings that would materially reduce the event\u2019s credibility and RSVP conversion: lack of concrete agenda/logistics and deliverables (lowers perceived value), alarmist unsupported language (hurts credibility and outreach), and no clarity on policy asks or nonpartisanship (risks wasted volunteer effort and political backlash). Fixing these is straightforward and would substantially improve the post; it may modestly lengthen the post but can be done with concise bullets and links rather than long text."
+  },
+  "PostAuthorAura": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable EA/rationalist presence, publications, talks, or profiles for the name Felix De Simone. There is no clear public footprint or widely cited work linked to that name, so they appear unknown in EA circles and globally (may be a private individual or pseudonym)."
+  },
+  "PostClarity": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: title, date, purpose, and call-to-action are explicit and the tone and urgency are easy to follow. Strengths: simple event announcement, clear ask (RSVP/share), and concise rationale for why the topic matters. Weaknesses: missing practical details (time/timezone, duration, target audience, whether any speakers or materials will be provided) and no direct citation for the quoted 2023 statement \u2014 adding those would make it more informative and slightly more persuasive."
+  },
+  "PostNovelty": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement and a standard AI-safety advocacy pitch. For EA Forum readers, the arguments (existential risk from advanced AI, need for guardrails, urging pressure on policymakers) are very familiar, so novelty is very low. For the general public it's slightly more novel \u2014 some people may not have seen organized nationwide workshops specifically about contacting Congress on AI \u2014 but the core claims and call-to-action are still common in public discourse."
+  },
+  "PostInferentialSupport": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post presents a straightforward, plausible argument (superhuman AI could be catastrophic \u2192 we should push for guardrails \u2192 contact Congress) and cites an expert statement as backing. However the reasoning is high-level and largely rhetorical: it relies on appeals to authority and fear without quantifying risks, assessing uncertainty, or engaging counterarguments. The post provides minimal empirical evidence (a vague reference to a 2023 statement signed by thousands) and no citations, probability estimates, policy details, or evidence that contacting Congress will be effective. As a result the call to action is understandable and coherent but under-supported by rigorous argumentation or sufficient empirical backing."
+  },
+  "PostExternalValidation": {
+    "post_id": "yFs9scc3KsA7GDqJC",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's factual claims are verifiable and supported. The event (PauseAI US Nationwide Action Workshop on March 5) is documented on the EA Forum event page and PauseAI/Meetup listings. The quoted 2023 line \u201cMitigating the risk of extinction from AI should be a global priority\u201d is an authentic CAIS statement from May 30, 2023 and widely reported; however the post overstates the signature count for that particular CAIS statement (media and CAIS describe it as signed by hundreds, whereas other 2023 open letters \u2014 e.g. the Future of Life Institute 'pause' letter \u2014 did attract thousands/10s of thousands of signatures). The general claim that leading researchers have warned that superhuman AI could cause catastrophic/global risks is supported by multiple high\u2011profile signatories and press coverage. The claim that contacting Congress can have impact is supported by political\u2011science research showing constituent contacts (personalized letters/calls/emails) can influence legislators/staff, though magnitude and conditions vary by issue/office. Overall: most major claims are accurate, with one notable imprecision about the number of signatories on the CAIS extinction\u2011risk statement.",
+    "sources": [
+      "EA Forum event page: 'Nationwide Action Workshop: Contact Congress about AI safety!' (Felix De Simone) \u2014 EffectiveAltruism.org",
+      "PauseAI US official site \u2014 pauseai-us.org",
+      "Meetup listing: 'Action Workshop: Tell Congress to keep us safe from dangerous AI!' \u2014 PauseAI US (Meetup.com)",
+      "Center for AI Safety press release / Statement on AI Risk \u2014 safe.ai (May 30, 2023)",
+      "The Guardian: 'Risk of extinction by AI should be global priority, say experts' (May 30, 2023)",
+      "Future of Life Institute: 'Pause Giant AI Experiments: An Open Letter' (published Mar 22, 2023) \u2014 shows ~31,800+ signatures",
+      "The Verge: 'Top AI researchers and CEOs warn against \u2018risk of extinction\u2019 in 22\u2011word statement' (May 30, 2023)",
+      "Journal of Legislative Studies: 'Informal politics: the role of Congressional letters in legislative behaviour and careers' (Philip D. Waggoner, 2017)",
+      "Cambridge Perspectives on Politics: 'Conducting the Heavenly Chorus: Constituent Contact and Provoked Petitioning in Congress' (interviews/study of congressional staff responsiveness)",
+      "The Conversation: 'Contacting your legislator? Cite your sources \u2013 if you want them to listen to you' (summary of research on constituent influence)"
+    ]
+  }
+}

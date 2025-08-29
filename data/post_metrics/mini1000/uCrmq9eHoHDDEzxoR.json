@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is an interesting cultural/philosophical sketch that offers a useful lens (\u2019dividual\u2019) for thinking about attention economies, fragmented identity, and algorithmic influence. However it is largely speculative, anecdotal, and non\u2011foundational: it doesn't provide new evidence, formal arguments, or concrete prescriptions that would change major EA priorities (e.g., AI safety, biosecurity, global health). For the general public it\u2019s an evocative essay that may shape impressions of contemporary media and fame but has limited practical impact or policy implications."
+  },
+  "PostRobustness": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Tighten the central claim and define terms. Right now \"the dividual\" is evocative but vague \u2014 readers will be left unsure what exactly you are asserting (a descriptive change in attention markets? a normative threat to identity?). Add a one\u2011sentence thesis and an operational definition (e.g. measurable features such as: content discovery driven by recommender algorithms rather than creator loyalty; shorter attention half\u2011life for creators; greater dispersion of views across creators). Offer 1\u20132 concrete, falsifiable predictions the idea implies (e.g. declining market share of top 100 stars; median lifetime of viral attention). This lets the essay stay short but much clearer and more useful.  \n\n2) Bolster or qualify the evidence and engage obvious counterarguments. The post leans on appealing anecdotes (subscription stat, Josh Johnson, Trump) and leaps to big conclusions. Either provide supporting data/refs (attention\u2011economics, distribution of views/subscribers over time, studies on algorithmic mediation) or explicitly label the piece as speculative and pare back the empirical claims. Address at least the most plausible counterarguments you\u2019re implicitly dismissing: persistent superstar effects and brandification of micro\u2011celebrities, niche communities that still follow individuals, and economic incentives that preserve concentrated fame. This will prevent readers from dismissing the whole piece as anecdote\u2011based hand\u2011waving.  \n\n3) Cut or substantiate the big causal links (politics, AI, psychedelics). Claims that \"dividuality\" explains Trump\u2019s chaos, the nature of AI, or self\u2011dissolution from psychedelics are striking but unsupported. Either remove those leaps, reframe them clearly as speculative hypotheses, or add brief mechanism sketches and cite relevant literature (political\u2011economy of media incentives; scholarship on the dividual in anthropology \u2014 e.g. Marilyn Strathern and media/subjectivity studies). That keeps the essay focused and avoids undermining your central insight with under\u2011argued asides.",
+    "improvement_potential": "The feedback correctly identifies the post\u2019s biggest weaknesses: an evocative but vague central claim, reliance on anecdotes without data, and several large causal leaps (Trump, AI, psychedelics) that risk making the author look over\u2011credulous. The suggested fixes \u2014 a tighter thesis and operational definition, falsifiable predictions, and either substantiating or rephrasing speculative links \u2014 are practical, high\u2011impact, and would not unduly lengthen the post. The critique could be slightly stronger by calling out specific misleading claims (e.g. the subscription/algorithm interpretation) and pointing to key papers or datasets, but overall it targets the main \u2018own goals\u2019 and will substantially improve the essay."
+  },
+  "PostAuthorAura": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Appears to be a pseudonymous/niche author with a small presence in EA/rationalist forums (occasional posts or comments). Not a widely cited or institutional figure within EA, and has essentially no recognizable public profile outside those communities."
+  },
+  "PostClarity": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "clarity_score": 7,
+    "explanation": "The post is generally easy to follow and well structured (clear headings, concrete examples like Milton, algorithms, micro-celebrities, Trump), so comprehensibility is high. Its prose is conversational and accessible. However, the central concept of \u201cdividual\u201d is underdefined and the argument\u2019s causal links (e.g. from algorithms \u2192 dividuality \u2192 political chaos) are suggestive rather than tightly argued or evidenced. The piece drifts into speculative tangents and repeats a few points, so it could be tightened and made more persuasive by sharpening the definition, tightening transitions between examples, and adding clearer evidence or reasoning for the key claims."
+  },
+  "PostNovelty": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "The post\u2019s most original move is reviving the archaic term \u201cdividual\u201d and using it as a lens to unify familiar phenomena (algorithmic attention, micro\u2011celebrity, distributed identity, and AI/big\u2011data effects). For an EA/Les\u00adsWrong audience these themes (fragmented identity, attention economy, memetics, norm\u2011shifting elites) are well\u2011trodden, so the overall claim isn\u2019t very new. For the general educated public the specific framing around \u201cdividual\u201d and the literary link to Milton is somewhat less common and moderately novel, but the underlying observations about algorithms, fame, and identity are already widely discussed."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post presents an interesting and coherent conceptual framing (the 'dividual') and uses plausible examples (algorithmic recommendation, micro\u2011celebrity, fragmentation of fame) to illustrate it. However the argument is mostly speculative and associative rather than rigorously argued: key terms are imprecise, causal claims are asserted without mechanism, and several leaps (e.g. from algorithms to political chaos or to Trump\u2019s psychology) are under\u2011justified. Empirical support is weak \u2014 the post relies on anecdotes, a few pop culture quotes, and an uncited statistic about subscriptions; it provides no systematic data, references, or counterfactual analysis. Overall the thesis is thought\u2011provoking but poorly supported by evidence and limited in logical rigor."
+  },
+  "PostExternalValidation": {
+    "post_id": "uCrmq9eHoHDDEzxoR",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / uncertain. Strengths: the Milton quotation and use of the word \u201cdividual\u201d are correct (Milton, Areopagitica). Multiple credible statements from YouTube and reporting support the post\u2019s central empirical claim that algorithmic recommendation\u2014not subscriptions\u2014now drives a large share of watchtime (YouTube executives have cited ~70% historically and YouTube told the UK Parliament recommendations drive a majority of watchtime). Evidence from creator-analytics writing and creator communities supports the claim that only a small fraction of viewers are subscribers for many channels (single-digit to low double-digit percentages), so the broad pattern the author describes (algorithms \u2192 fragmented/micro-celebrity fame) is well supported by scholarship on micro\u2011celebrity and industry reports about the creator economy. Weaknesses / overstatements: the post\u2019s specific numeric leaps are not well supported \u2014 e.g., the claim \u201caverage is less than 10%\u201d for subscribers is plausible but not an authoritative platform\u2011wide YouTube statistic (most available numbers are creator-anecdotes or niche analyses, not a Google/YouTube published global mean), and the statement that \u201c90% of the content users are being served up is coming from the algorithm\u201d is an overreach of the available evidence (YouTube has said recommendations drive a majority of watchtime, not 90%). Many parts of the piece are interpretive or normative (e.g., linking Trump\u2019s behaviour to a \u2018dividual\u2019 phenomenon) and are not empirical claims that can be verified. Overall: several of the empirical building blocks are supported by trustworthy sources, but some numeric claims are anecdotal or exaggerated and important inferences are speculative.",
+    "sources": [
+      "John Milton, Areopagitica \u2014 Project Gutenberg (Areopagitica full text).",
+      "YouTube written evidence to the UK Parliament (YouTube: recommendations drive a majority of watchtime; 2018/2021 discussion).",
+      "Quartz (reporting on Neal Mohan\u2019s CES remark that ~70% of watchtime came from recommendations).",
+      "Mozilla / reporting about algorithmic recommendation effects on YouTube (studies of recommended content and watchtime).",
+      "YouTube / Wired reporting on changes to recommendations and algorithmic demotion of borderline content.",
+      "Creator-analytics / creator-advice sites summarizing view\u2192subscriber conversion rates (examples: Subscribr, SocialVideoPlaza) and creator community discussions (Reddit threads) showing single-digit to low-double-digit subscriber-view ratios are common.",
+      "Theresa Senft and academic literature on 'microcelebrity' / micro-celebrity scholarship (e.g., Senft chapter on microcelebrity).",
+      "Vogue Business / industry reports and SignalFire / Flow Partners summaries on the growth and scale of the creator economy (creator economy size, fragmentation of fame).",
+      "Britannica / film history sources on the Hollywood 'studio system' and 'star system' describing 20th\u2011century centralized star/ studio dynamics."
+    ]
+  }
+}

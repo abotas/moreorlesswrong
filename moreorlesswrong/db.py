@@ -17,14 +17,29 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 def get_connection():
     return psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
 
-def get_representative_posts(n: Literal[10, 20, 100]) -> List[Post]:
-    assert n in [10, 20, 100], "n must be 10, 20, or 100"
+def get_representative_posts(n: Literal[10, 20, 100, 200, 500, 1000]) -> List[Post]:
+    assert n in [10, 20, 100, 200, 500, 1000], "n must be 10, 20, 100, 200, 500, or 1000"
     with get_connection() as conn:
         with conn.cursor() as cur:
             cur.execute(f"""
                 SELECT * FROM fellowship_mvp 
                 WHERE is_representative_{n} = TRUE
             """)
+            return [Post(**row) for row in cur.fetchall()]
+
+def get_posts_by_ids(post_ids: List[str]) -> List[Post]:
+    """Get posts by their IDs."""
+    if not post_ids:
+        return []
+    
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            # Use parameterized query with IN clause
+            placeholders = ','.join(['%s'] * len(post_ids))
+            cur.execute(f"""
+                SELECT * FROM fellowship_mvp 
+                WHERE post_id IN ({placeholders})
+            """, post_ids)
             return [Post(**row) for row in cur.fetchall()]
 
 def get_bucketed_sample_posts(n: int) -> List[Post]:

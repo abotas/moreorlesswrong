@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a practically useful, timely piece for researchers and institutions: it identifies concrete competencies (critical evaluation of AI outputs, data ethics, prompting, openness, institutional guidance) that improve research quality and governance. For the EA community it has moderate importance because better social\u2011science practice strengthens policy work, field\u2011building, and AI governance research, but it is not foundational to core EA/AI\u2011alignment technical claims. For general humanity it is of modest importance \u2014 improving research ethics and methods matters for societal decisions, but the post is implementation\u2011oriented and unlikely to by itself drive large-scale outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No clear prioritization or operationalisation of competencies. The post reads like a useful inventory but doesn\u2019t tell a reader which competencies are essential vs nice\u2011to\u2011have, how to acquire them, or how to assess proficiency. Actionable fix: reduce the list to a short \u2018core\u2019 set (2\u20134 skills) everyone should have, plus an \u2018advanced\u2019 set; for each core skill give 1\u20132 concrete learning resources, a simple proficiency test or milestone (e.g., \u201ccan audit an LLM output for bias in X steps\u201d), and suggested time investment.\n\n2) Overlooks institutional and incentive barriers. The piece treats skill gaps as an individual training problem but largely ignores real constraints\u2014unequal access to compute/data, lack of institutional guidance, publication pressures that disincentivise careful validation, and legal/IRB hurdles. Actionable fix: add a short section recommending institutional supports (e.g., shared compute/data infrastructure, updated IRB templates, incentives for replication and tooling, training for supervisors) and cite 1\u20132 evidence points or examples showing these barriers in practice.\n\n3) Insufficient attention to trade\u2011offs and misuse risks (esp. openness). The post foregrounds open\u2011source infrastructure and \u201cstay current\u201d norms without discussing the trade\u2011offs (open models can accelerate misuse; staying current can encourage sloppy adoption). Actionable fix: include an explicit paragraph that (a) lists plausible misuse scenarios relevant to social science (e.g., automated disinformation, deanonymisation), (b) explains trade\u2011offs of openness vs control, and (c) offers a simple governance checklist (risk assessment + mitigation + decision threshold for deploying AI outputs in research).",
+    "improvement_potential": "The feedback pinpoints three substantive, high-impact omissions: lack of prioritisation/operationalisation (makes the post less actionable), failure to address institutional/incentive constraints (likely to frustrate readers who can\u2019t just \u2018train up\u2019), and no discussion of openness/misuse trade\u2011offs (a real safety/governance blind spot). Each point comes with realistic, concrete fixes that would materially improve the post\u2019s usefulness without requiring extensive extra length. Minor caveats: the suggestion to compress into a tiny \u2018core\u2019 set risks oversimplifying nuanced skills and the link\u2011post context may constrain how much detail is appropriate, but overall this is highly useful feedback."
+  },
+  "PostAuthorAura": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record or notable references to an author named 'Dane Valerie' (possibly a pseudonym) in EA/rationalist circles or the broader public up to my 2024-06 knowledge cutoff. No prominent publications, talks, or citations are attributable to that name, so they appear to have minimal or no public presence."
+  },
+  "PostClarity": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured, and easy to follow: it states the purpose, summarizes the author's main point (skills needed and the speed-vs-rigor tension), and highlights practical implications (ethics, open-source, institutional guidance). It is a summary, so it leaves out concrete examples and specific competencies, and uses some jargon (e.g. \"Gen AI\") that could be slightly more precise \u2014 but overall it's clear and accessible."
+  },
+  "PostNovelty": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The post synthesizes widely discussed themes (assessing model outputs, data ethics, prompting, staying current, open\u2011source and institutional guidance). For EA Forum readers \u2014 who already engage with AI governance, research norms, and field\u2011building \u2014 this is largely familiar practical guidance (hence low novelty). For the general educated public it\u2019s somewhat more novel as a consolidated, discipline\u2011specific checklist, but still draws on mainstream conversations about responsible AI rather than presenting new concepts."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a coherent, logically structured account of the competencies social scientists need for generative AI use, recognizes key trade\u2011offs (speed vs. rigor), and situates recommendations (ethics, prompting, data practices, open\u2011source, institutional guidance) plausibly within current debates. Weaknesses: The piece is high\u2011level and largely conceptual \u2014 it cites recent reviews and expert judgment but provides little concrete empirical evidence, case studies, or measured outcomes to show which competencies matter most or how well proposed practices work in the field. Claims about the pace mismatch and risks are plausible but not substantiated with data or systematic evaluation. Overall, well reasoned but under\u2011evidenced."
+  },
+  "PostExternalValidation": {
+    "post_id": "9hh4JEPDeaF2FmDer",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The Forum post is a faithful summary of the Monash 'Good Questions Review' article by Paul Kellner (which explicitly cites the listed reviews) and its main empirical claims are well supported by independent sources. Verification points: (1) the Monash Good Questions Review piece exists and was produced with support from Open Philanthropy; (2) reviews and empirical studies do report that LLMs/GenAI can speed up tasks (idea generation, qualitative coding, writing assistance) while also producing well\u2011documented problems (hallucinations, overgeneralization, demographic biases and opacity); (3) the claim that generative AI development has been unusually rapid compared with typical academic publishing/peer\u2011review cycles is supported by the rapid model release timeline (2022\u20132024/25) versus peer\u2011review/publication timings (months to >1 year in many fields). Weaknesses / caveats: many positive claims about productivity gains are based on early/discipline\u2011specific studies (benefits often conditional on human oversight and task design); the claim that GenAI is \u201cevolving faster than academia moves\u201d is broadly correct as a high\u2011level comparison but glosses over heterogeneity (some academic venues and preprint systems can be fast). Overall the post\u2019s empirical claims are accurate and well\u2011aligned with current literature, though many findings are early and require ongoing validation.",
+    "sources": [
+      "Monash Sustainable Development Institute \u2014 'What competencies do social scientists need to responsibly incorporate AI tools into their research practices?' (Paul Kellner) (Monash Good Questions Review).",
+      "Effective Altruism Forum \u2014 Linkpost of the Monash piece (EA Forum link-post titled 'What competencies do social scientists need to responsibly incorporate AI tools into their research practices?').",
+      "Bail, C. A. (2024). 'Can Generative AI improve social science?' Proceedings of the National Academy of Sciences (PNAS) \u2014 discusses opportunities, risks, and argues for greater open-source infrastructure for social\u2011science uses of GenAI.",
+      "Peters, U. & Chin\u2011Yee, B. (2025). 'Generalization bias in large language model summarization of scientific research' (Royal Society Open Science / arXiv) \u2014 demonstrates frequent overgeneralization / inaccuracies in LLM scientific summaries.",
+      "QualiGPT (Zhang et al., 2023). arXiv: 'QualiGPT: GPT as an easy-to-use tool for qualitative coding' \u2014 example of LLMs supporting qualitative coding and analysis.",
+      "Chew et al. (2023). 'LLM\u2011Assisted Content Analysis: Using Large Language Models to Support Deductive Coding' (arXiv) \u2014 empirical evidence LLMs can reach coding agreement levels comparable to humans on some tasks.",
+      "BMC Medical Education (2024). 'Exploring the potential of artificial intelligence to enhance the writing of English academic papers by non\u2011native English\u2011speaking medical students' \u2014 trial evidence of writing improvements using ChatGPT.",
+      "Systematic review on editorial handling time (PubMed / 2021 review): 'Time from submission to publication varied widely for biomedical journals: a systematic review' \u2014 shows typical submission-to-publication times measured in months to years.",
+      "Scientometrics / 'Duration and quality of the peer review process' (2017) \u2014 overview showing disciplinary medians of 12\u201325 weeks for review processes, supporting the claim academia is generally slower than fast industry/model release cycles.",
+      "OECD AI Principles and UNESCO 'Recommendation on the Ethics of Artificial Intelligence' \u2014 examples of policy/institutional guidance emphasising transparency, accountability and governance (supports the post\u2019s call for institutional guidance)."
+    ]
+  }
+}

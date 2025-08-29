@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is a useful, pragmatic outreach and foresight idea rather than a foundational claim. For the EA/rationalist community it could be moderately valuable (helping surface domain-specific failure modes, neglected intervention points, and recruiting non-EA experts), but it is not load-bearing for core technical AI alignment or longtermist arguments. For general humanity the potential upside (better public understanding, preparedness, and policy pressure) is real but contingent on audience reach and execution, so the overall importance is modest rather than critical."
+  },
+  "PostRobustness": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify audience, goals, and success metrics\n- Big weakness: the post is vague about who you\u2019re trying to persuade and what \u2018\u2018success\u2019\u2019 looks like. That makes it hard to judge whether this is worth your time and how to shape content.\n- Actionable fixes: pick 1\u20132 primary audiences (e.g., domain experts who can influence practice, mid-level policy staff, or curious generalists) and 3 concrete outcomes you want (e.g., X policy briefs, Y expert collaborators recruited, Z citations by practitioners). Tailor episode format, tone, and distribution to those goals and state them in the pitch.\n\n2) Make the scenario methodology rigorous and visible\n- Big weakness: the framing \u2018\u201810\u20131000x faster\u2019\u2019 is evocative but unanchored. Without a clear, reproducible method for turning AI-speed assumptions into domain impacts, episodes will look like entertaining speculation and may harm credibility.\n- Actionable fixes: adopt a short, public scenario template for every episode (explicit assumptions, timeline, mechanism linking cognitive scale to output, probability/uncertainty, key dependencies). Recruit a technical co-host or advisory board to sanity-check claims and provide short primers so guests aren\u2019t pushed into unsupported speculation. Use probability ranges and cite prior forecasts (or explain why none apply).\n\n3) Anticipate and mitigate safety, legal, and reputational risks\n- Big weakness: topics you name (bio/pharma acceleration, defense automation, propaganda) carry information-hazard, legal, and ethical risks that you don\u2019t address. Publishing careless operational detail or amplifying dangerous ideas would be an \u2018\u2018own goal.\u2019\u2019\n- Actionable fixes: draft an editorial safety policy (no procedural/operational detail for dangerous domains; vet guests; use red-team reviews for sensitive episodes). Consult existing resources (biosecurity guidelines, CSET/ARC policy playbooks) and consider partnering with a safety-focused org for review. Add a brief note in the post describing how you will handle these risks \u2014 that will increase reviewer confidence and willingness to help.\n\nOptional quick additions that raise credibility without much length: list 3 potential collaborators you\u2019d approach (e.g., Gap Map contributors, CSET, a biosecurity scientist), and include your intended episode template (constraints, levers unlocked by cheap cognition, timeline, failure modes, governance levers).",
+    "improvement_potential": "The feedback hits the post's three biggest weaknesses: (1) vague audience and success metrics \u2014 which makes it hard to judge value or shape content; (2) an evocative but unanchored scenario framing that risks producing mere speculation rather than useful, reproducible analysis; and (3) real safety/legal/reputational risks from covering domains like bio, defense, and propaganda. Each point is actionable and low-cost to implement (defining 1\u20132 target audiences and 3 concrete outcomes, providing a short public scenario template, and adding an editorial safety policy/partnering for review). These fixes prevent obvious \"own goals\" (wasting reader time, losing credibility, or accidentally amplifying harmful details). The feedback could be improved by briefly prioritizing which of the three to address first (safety > audience > methodology) and noting trade-offs (e.g., how much expert vetting slows launch). Overall, this is highly useful and would materially improve the post without greatly lengthening it."
+  },
+  "PostAuthorAura": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Cadejs' is a recognized figure in the EA/rationalist community or a public intellectual more broadly. The name looks like a pseudonymous username with little or no visible output, citations, or public presence, so they appear unknown both within EA circles and to the wider public."
+  },
+  "PostClarity": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: a helpful TL;DR, logical headings (Broad Concept, Why This?, Sample Topics, What I Need), and a concrete core question make the proposal easy to follow. Strengths: good structure, focused ask, and clear examples of topics and outputs. Weaknesses: could sharpen target audience and success metrics, tighten scope (e.g. clarify what counts as \u2018rapid\u2019 or \u2018superintelligent\u2019), and provide a bit more on format/timeline and evidence for the key plausibility claims (the 10\u20131000x / 10,000-PhD framing)."
+  },
+  "PostNovelty": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For the EA/longtermist readership this is only mildly novel: the community already runs scenario work, domain-specific forecasting, and outreach projects about rapid AI progress, so the core idea (explore non-technical impacts via interviews) is familiar. The somewhat original bits are the concrete framing (10\u20131000x speed, '10,000 PhDs' thought experiment), explicit focus on underexplored social domains (AI-generated religions, decentralized spiritual movements) and the push to convene non-EA experts. For the general public the proposal is more novel: while mainstream media covers AI impacts, a systematic, domain-by-domain podcast that interrogates rapid, superhuman AI effects on religion, materials, governance, and closed-loop R&D would surface many scenarios most laypeople haven\u2019t considered."
+  },
+  "PostInferentialSupport": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The proposal is logically coherent, identifies a plausible gap (overly abstract AI discourse vs. domain-specific impacts), and outlines a clear format, goals, and promising topic areas. Framing (e.g., \u201810,000 remote MIT PhDs\u2019) is a useful thought experiment to stimulate concrete thinking. Weaknesses: The post provides almost no empirical evidence that the project would change outcomes (demand, policy influence, or recruitment), nor any pilot data, audience analysis, or metrics for success. It also omits methodology for robust modeling, risks of framing/selection bias, and feasibility details (outreach, funding, interdisciplinary collaboration). Overall: a promising idea with solid internal logic but currently under-supported by external evidence and operational detail."
+  },
+  "PostExternalValidation": {
+    "post_id": "jgQgwGAvshnfJuMRG",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post is mostly a programmatic proposal and many of its central statements are qualitative or hypothetical (e.g., \u201cif AI advances 10\u20131000x\u201d), so they cannot be strictly verified. However, the concrete empirical claims it relies on are well-supported: the Gap Map project exists and covers materials-science and other high\u2011leverage domains; AI has demonstrably accelerated scientific subfields (e.g., AlphaFold, self\u2011driving labs, \u2018robot scientist\u2019 work); and recent bibliometric/analysis work finds a strong concentration of research on technical alignment with gaps in deployment\u2011stage, domain\u2011specific research. Likewise, multiple authoritative security and policy bodies document state use of AI-enabled synthetic media and targeted influence operations. Weaknesses: numerical speedups and many downstream scenarios are speculative and not empirically established; the claim that \u201cmost AI discussion is either very abstract or focused on technical alignment\u201d is a reasonable characterization supported by citation analyses but remains a qualitative claim.",
+    "sources": [
+      "EA Forum post: 'Accelerated Horizons \u2014 Podcast + Blog Idea' by Cadejs (EA Forum).",
+      "Gap Map (Fundamental Development Gap Map v1.0) \u2014 Convergent Research (gap-map.org).",
+      "Real\u2011World Gaps in AI Governance Research \u2014 Ilan Strauss, Isobel Moure, Tim O'Reilly, Sruly Rosenblat; arXiv 2025 (analysis showing concentration on alignment and gaps in post\u2011deployment research).",
+      "AI Alignment: A Comprehensive Survey \u2014 Jiaming Ji et al.; arXiv 2023 (survey of alignment literature).",
+      "AlphaFold: Highly accurate protein structure prediction \u2014 Jumper et al.; Nature 2021 / DeepMind blog (AlphaFold database & impact on biology).",
+      "Self\u2011driving laboratory for accelerated discovery of thin\u2011film materials \u2014 Benjamin P. MacLeod et al.; arXiv/Science 2019 (example of autonomous closed\u2011loop R&D).",
+      "Robot Scientist / 'Adam' \u2014 Ross King et al. (historical examples of laboratory automation and autonomous discovery).",
+      "NATO: 'NATO\u2019s approach to counter information threats' (public summary, 18 Oct 2024) \u2014 documents risks from AI and synthetic media in state information operations.",
+      "CERT\u2011EU Cyber Brief (May 2024) \u2014 documents influence campaigns using AI\u2011generated deepfakes and synthetic content.",
+      "CSIS brief 'Crossing the Deepfake Rubicon' (Nov 1, 2024) \u2014 analysis of synthetic media threat landscape and limits of human detection."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post is a low-to-moderately valuable conversation starter for the EA community rather than a load\u2011bearing argument. If the idea of 'Solutionary' framing were widely adopted, it could modestly affect EA messaging, recruitment, and how social\u2011justice/animal/environment intersections are represented \u2014 which matters for community pluralism and public perception \u2014 but it does not challenge core EA priors about evidence, cost\u2011effectiveness, or prioritization. For general humanity the post is largely irrelevant: it is an internal debate about movement framing and priorities with little direct effect on global policy or outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Strengthen the problem framing and evidence. Right now the post relies on a vague impression that EA under-prioritizes \"social justice\" and then proposes the Solutionary Way as appealing. Before publishing, cite specific, representative EA criticisms (e.g., threads/pieces about lack of focus on structural injustice or diversity) and show how those map to the Solutionary Way\u2019s claims. That will prevent the piece from feeling anecdotal and make the suggested bridge plausible rather than speculative.\n\n2) Anticipate and address the biggest conceptual conflicts with EA norms. The core EA methods (cause prioritization, tractability, measurable impact, impartial cost-effectiveness) could clash with a broad, systemic, and often political framework like Solutionary thinking. Explicitly discuss likely objections \u2014 e.g., opportunity costs of diluting prioritization, difficulties measuring systemic change, political/advocacy trade-offs, and reputational risk \u2014 and propose concrete ways to reconcile them (pilot projects, outcome metrics, cost-effectiveness criteria for systemic interventions, or testable grantmaking experiments).\n\n3) Situate this idea within existing EA work and propose concrete next steps. The post currently treats Solutionary ideas as novel to EA; that invites the \"reinventing the wheel\" critique. Briefly name relevant EA actors (e.g., Animal Charity Evaluators, Open Philanthropy\u2019s farm-animal and climate portfolios, Rethink Priorities, Centre for Effective Altruism) and explain how Solutionary themes overlap or differ. Close with one or two concrete, short suggestions for action (run an EA workshop on humane education, pilot a grant round for intersectional animal/environmental justice projects, or collaborate with ACE/Open Phil) so readers know what you want them to do next.",
+    "improvement_potential": "The feedback hits the key weaknesses: weak evidence for the starting claim, failure to engage with core EA norms that might conflict with Solutionary approaches, and not situating the idea within existing EA work (risking reinventing the wheel). These are relatively high-impact, correctable issues that would materially improve the post without forcing an overly long rewrite. Addressing them would make the post more credible and actionable and would prevent the author from looking uninformed about EA debates and actors."
+  },
+  "PostAuthorAura": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The identifier \"CJ\" is ambiguous and could refer to many people or a pseudonym. There is no clearly identifiable, widely known EA/rationalist author who goes simply by \"CJ.\" Without a full name, sample works, or links, I cannot reliably attribute prominence \u2014 under the label \"CJ\" the author is effectively unknown in EA circles and to the broader public. Please provide more details (full name, platform, notable works) for a specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "clarity_score": 8,
+    "explanation": "The post is overall clear, concise, and well-structured: it states context, provides a definition and link, and asks three specific questions. Strengths include an explicit link and focused questions about suitability, discrepancies, and existing initiatives. Weaknesses: it assumes readers know the full scope of the Solutionary Way (no concrete examples), the term \u201csocial justice\u201d/its expansion is left somewhat vague, and it could be clearer about what kinds of \u2018\u2018representation\u2019\u2019 or outcomes the author hopes for. Slightly more background or a concrete example would make the argument questions easier to evaluate."
+  },
+  "PostNovelty": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Most of the post\u2019s core idea\u2014integrating social justice, animal welfare, and environmental concerns into EA, and using a unifying narrative to improve outreach/community\u2014is already widely discussed within EA (and by critics). The specific framing as \u201cThe Solutionary Way\u201d and the humane-education angle are mildly fresh for EA readers but not conceptually new. For the general public, the intersectional concern for people, animals, and environment is even more familiar."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post raises a plausible and interesting idea \u2014 that the Solutionary Way might help bridge EA and social justice \u2014 and correctly notes tractability concerns and the value of an integrated human/animal/environmental perspective. However the argument is largely exploratory and speculative rather than systematic: it doesn't articulate clear causal mechanisms, tradeoffs, or concrete examples of how Solutionary approaches would be operationalized within EA. Empirical support is minimal (one definitional link only) and the post fails to engage existing relevant evidence or EA efforts (e.g. animal welfare, climate/biodiversity work, or EA-aligned social-justice initiatives), limiting its evidential basis. Overall the suggestion is worth further investigation but is weakly supported as presented."
+  },
+  "PostExternalValidation": {
+    "post_id": "uTBLEoGgWcptejaN8",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are supported by reliable sources. There is strong documented criticism of Effective Altruism for tending to deprioritize political/systemic/social-justice approaches (the \u201cinstitutional critique\u201d and many journalism pieces), and EA-affiliated organizations have acknowledged measurement/tractability biases that make political/systemic work harder to prioritise in practice (80,000 Hours, Cambridge Core). The quoted definition of \u201csolutionary\u201d from the Institute for Humane Education is accurate. The poster\u2019s claim that the human/animal/environment intersection is relatively neglected in some EA discussions is partially true (EA historically emphasises cause-prioritisation like global health, longtermism and animal welfare as separate areas), but it is also true that important EA-linked actors fund and run work at those intersections (Open Philanthropy, Animal Charity Evaluators, Sentience Institute, etc.). Overall: the post\u2019s high-level empirical statements are well-supported, though some normative inferences (e.g., tractability given the current political climate) are partly speculative but consistent with cited literature.",
+    "sources": [
+      "Institute for Humane Education \u2014 What Is a Solutionary? (Zoe Weil) (humaneeducation.org, 2024/2025). ([humaneeducation.org](https://humaneeducation.org/what-is-a-solutionary-2/))",
+      "80,000 Hours \u2014 Misconceptions about effective altruism (discusses EA and systemic change / measurability bias). ([80000hours.org](https://80000hours.org/2020/08/misconceptions-effective-altruism/?utm_source=chatgpt.com))",
+      "Cambridge Core / Ethics & International Affairs \u2014 'The Lessons of Effective Altruism' (institutional critique; EA and political/systemic change). ([cambridge.org](https://www.cambridge.org/core/journals/ethics-and-international-affairs/article/lessons-of-effective-altruism/0C716CFD3FDCAF7BBC2CE99384C9B3F2?utm_source=chatgpt.com))",
+      "Radical Philosophy / Alice Crary and related critiques \u2014 'Against Effective Altruism' / institutional critique (EA\u2019s neglect of structural causes). ([radicalphilosophy.com](https://www.radicalphilosophy.com/article/against-effective-altruism?utm_source=chatgpt.com))",
+      "GiveWell \u2014 Top charities / emphasis on global health & cost-effectiveness (example of EA-aligned prioritisation of scalable interventions). ([givewell.org](https://www.givewell.org/aggregator/sources/7?utm_source=chatgpt.com))",
+      "Open Philanthropy \u2014 grants pages and focus areas (shows EA-linked funder work on farm animal welfare, climate, and funding that spans human/animal/environmental issues). ([openphilanthropy.org](https://www.openphilanthropy.org/grants/?focus-area=farm-animal-welfare-in-asia%2F&q=&utm_source=chatgpt.com))",
+      "Animal Charity Evaluators / Effective Altruism articles on animal advocacy (shows EA-linked infrastructure for animal welfare work). ([en.wikipedia.org](https://en.wikipedia.org/wiki/Animal_Charity_Evaluators?utm_source=chatgpt.com), [effectivealtruism.org](https://www.effectivealtruism.org/articles/jamie-harris-maximize-your-impact-for-animals?utm_source=chatgpt.com))",
+      "Wired / Financial Times (journalistic coverage of EA controversies and public critiques, e.g., focus changes and scandals that led to renewed debate about priorities). ([wired.com](https://www.wired.com/story/deaths-of-effective-altruism?utm_source=chatgpt.com), [ft.com](https://www.ft.com/content/2b0f4bf5-eb1f-492a-85c6-409fe4c56c3d?utm_source=chatgpt.com))"
+    ]
+  }
+}

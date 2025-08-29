@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily an event announcement for a regional EA conference. It's useful for community-building, recruitment, networking, and capacity-building in India/Asia (which can have downstream positive effects), but it is not making or defending any foundational claims and doesn't materially shift major EA or policy decisions. For humanity at large it is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No application link or clear deadline year \u2014 the post says \u201cApply to attend!\u201d and gives an estimate of time but doesn\u2019t link to the application form. Add a direct application URL, repeat the deadline with the year (e.g. \u201cNov 30, 2025\u201d), and clarify the rolling-review timeline (when applicants will hear back).\n\n2) Missing essential logistics and funding info \u2014 readers need to know dates, location (or whether it\u2019s virtual/hybrid), registration cost, and whether travel or attendance grants are available. If funding is limited, say how to apply for it or where to find more info.\n\n3) Unclear eligibility and selection criteria \u2014 say who you especially want to attract (students, startup founders, researchers, newcomers?), what selection priorities are (geographic diversity, experience, cause interest), and what attendees should expect (sample agenda, session types, code of conduct, accessibility accommodations). This helps applicants judge fit and reduces unnecessary questions.",
+    "improvement_potential": "Strong, actionable feedback that identifies major omissions: no application link and no year on the deadline (a glaring own-goal), and missing core logistics (dates, location/virtual, cost, grant info) that readers expect. Point 3 is also useful\u2014clarifying eligibility/selection and what attendees should expect reduces confusion. These fixes are critical but mostly straightforward (or can be solved with a link to a fuller event page), so improving the post along these lines would meaningfully raise its quality."
+  },
+  "PostAuthorAura": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no notable presence for an author named 'Agru' in EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, major conferences) or in academic/major public sources up to mid\u20112024. Likely a pseudonym or private/minor online handle; please share links or context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "clarity_score": 9,
+    "explanation": "Overall very clear and easy to understand: concise announcement, clear audience and purpose, strong CTAs (apply, survey, contact), application deadline and estimated time included. Minor issues: small formatting/spacing typos and a couple of missing logistical details (e.g. precise location/fees or travel support) that could improve completeness but do not materially reduce clarity."
+  },
+  "PostNovelty": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially an event announcement for a regional EA conference \u2014 a very common type of post on the EA Forum. For EA readers, such calls for applications and summaries of focus areas are routine, so novelty is very low. For the general public, the specific event (EAGxIndia) and EA framing may be unfamiliar, but the underlying idea (apply to attend a conference to build skills, network, and access funding) is commonplace, so novelty is still low-to-moderate."
+  },
+  "PostInferentialSupport": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is clear, coherent and logically structured for an event announcement \u2014 it states the purpose, target audience, key themes, application timeline, and provides links and contact info. Weaknesses: It offers little empirical evidence for its claims (e.g., 'bringing together 300 people', impact of past events, or concrete outcomes for attendees), relying mainly on an uncited number and a link to highlights rather than quantified outcomes, testimonials, or selection/impact data. Overall, the messaging is persuasive enough for recruitment but not strongly evidenced if the implicit claim is that attending yields substantial, measurable benefits."
+  },
+  "PostExternalValidation": {
+    "post_id": "gDwKGS7SHZSaWJnFP",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "All major empirical claims in the post are confirmed by primary/official sources. The EA Global event page and EA Forum announcements verify that EAGxIndia 2025 is scheduled (Dec 13\u201314, 2025), is described as the third consecutive year following 2023 and 2024 events, plans ~300 attendees, has applications open with a deadline of Nov 30 (applications reviewed on a rolling basis), estimates the short application will take ~5\u201315 minutes, provides the india@eaglobalx.org contact, and links to the community survey (Google Form). No substantive factual errors were found.",
+    "sources": [
+      "EffectiveAltruism.org \u2014 EAGxIndia 2025 event page (EAGxIndia 2025; India International Centre, New Delhi; Apply by Nov 30; ~300 attendees).",
+      "EA Forum \u2014 'Applications Open for EAGxIndia 2025!' (forum.effectivealtruism.org) \u2014 original post content matching the claims.",
+      "Google Forms \u2014 'EAGxIndia 2025 Community Survey' (forms.gle/8R3cpYUz9Sszvtm49) \u2014 live survey referencing Dec 13\u201314, 2025 and contact india@eaglobalx.org.",
+      "EffectiveAltruism.org \u2014 EAGxIndia 2024 event page (Conrad Bengaluru, 19\u201320 Oct 2024) \u2014 verifies 2024 edition.",
+      "EffectiveAltruism.org \u2014 EAGxIndia 2023 event page (Le M\u00e9ridien, Jaipur, 13\u201315 Jan 2023) \u2014 verifies 2023 inaugural edition.",
+      "EA Forum \u2014 'Help Shape EAGxIndia 2025, Fill Out Our Community Survey!' (greaterwrong.com / EA link) \u2014 community announcement referencing 300 attendees and Nov 30 application deadline."
+    ]
+  }
+}

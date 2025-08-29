@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "A practical, well\u2011curated roundup that\u2019s useful for people working on farmed animal advocacy and for EA funders/interested community members \u2014 helps with fundraising, capacity building, networking and signals momentum in the cause. It\u2019s not making foundational theoretical claims and wouldn\u2019t substantially shift global priorities on its own, so it\u2019s moderately important within the movement but of minor direct importance to general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No stated selection methodology or prioritisation \u2014 the post is a very long list of links but doesn\u2019t say how or why particular resources were chosen, which makes it hard for readers to know what to prioritise. Actionable fix: add a short paragraph that explains your inclusion criteria (timeframe, source types, relevance thresholds), and highlight a small \u201cTop 5\u201310\u201d or \u201cMust-read\u201d set for different audiences (e.g. fundraisers, regional organisers, researchers). This keeps the post compact while steering busy readers to the highest-value items.\n\n2) Potential conflict-of-interest / self-promotion is under-disclosed \u2014 Hive appears frequently in the list and in the narrative, but there\u2019s no explicit disclosure of your organisational role or how much of the roundup is sourced from your own newsletter/community. Actionable fix: add a 1\u20132 sentence disclosure about Hive\u2019s involvement (e.g. \u201cThese resources were curated from our Hive Highlights newsletter and Hive community submissions\u201d) and, where you include Hive items, mark them clearly (e.g. \u201c(Hive resource)\u201d). Consider balancing with a note on how you verified external resources or sought independent recommendations.\n\n3) Lack of synthesis or short annotations \u2014 nearly every item is a bare link; readers don\u2019t get quick signals about why each resource matters (quality, scope, who it\u2019s for). Actionable fix: add a one-line annotation for each item or at least for the top recommendations and new initiatives (e.g. \u201cwhat it contains / why it\u2019s useful / intended audience\u201d). If space is a concern, collapse lower-priority links into a downloadable appendix or a single \u2018full list\u2019 link and keep the main post focused on annotated highlights.",
+    "improvement_potential": "Strong, actionable feedback that targets the post\u2019s two biggest weaknesses for readers: lack of curation criteria/prioritisation and absence of quick syntheses/annotations. Adding a short inclusion-methods blurb and a \u2018Top 5\u201310 / must-read\u2019 for key audiences would substantially increase trust and usability with little extra length. The COI point is valid but slightly overstated\u2014the post already signals Hive authorship/newsletter origin, so it mainly needs a brief explicit disclosure/labeling of Hive-sourced items rather than a major rewrite. Overall, implementing these suggestions would meaningfully improve the post without large length costs."
+  },
+  "PostAuthorAura": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don\u2019t recognize 'Hive' as a notable author or pseudonym within the EA/rationalist community or more broadly as of my 2024-06 knowledge cutoff. No well-known publications, frequent forum posts, or public appearances under that single-name handle are identifiable. If you mean a specific person/account (link or context), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "clarity_score": 8,
+    "explanation": "Well-structured and highly comprehensible: clear TL;DR, logical themes, headings and extensive curated links make the purpose and content obvious. Weaknesses are its length and very high link density (which can overwhelm skimmers), occasional minor typos/redundancies, and limited high-level synthesis \u2014 a short executive summary or priority call-outs would improve conciseness and scannability."
+  },
+  "PostNovelty": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This is primarily a curated roundup and link collection rather than an original argument or theory. For EA Forum readers (longtermists/animal-advocacy insiders) most themes (funding shortages, capacity building, alt-protein momentum) and many of the cited reports/threads will already be familiar, so novelty is low. The only modestly new elements are the specific 2024 updates \u2014 new funds, org launches, Hive\u2019s own metrics and events \u2014 which are newsworthy but not conceptually original. For the general public the aggregation of many sector-specific resources and launches is somewhat more novel (news they\u2019re unlikely to have seen compiled), but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured and coherent (clear themes, organized resource lists) and backs key claims (e.g., funding is a major challenge) with links to reputable surveys and movement signals (Faunalytics, AASF survey, ACE, 80,000 Hours, EA Donation Election). It provides many concrete examples and primary sources. Weaknesses: Most of the piece is a curated compilation rather than an argument with causal inference or rigorous synthesis; many claims are phrased as impressions (\u201cwe\u2019ve seen\u201d, \u201cwe\u2019re excited\u201d) and rely on selective examples and self-reported indicators (conference attendance, Slack growth). Empirical evidence is broad and relevant but uneven in depth \u2014 there are many links but limited aggregation, counterevidence, or quantitative impact analysis to demonstrate the magnitude of the asserted trends. Potential selection and self-promotion biases are not addressed."
+  },
+  "PostExternalValidation": {
+    "post_id": "4wwEKgKjAHGgzJxEN",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major, load\u2011bearing claims in the roundup are verifiable and well supported by primary sources: Faunalytics and Rethink Priorities both report funding is a top constraint for advocates; 80,000 Hours did move factory farming onto its list of \u201cmost pressing\u201d problems; the 2024 EA Forum Donation Election winners and Farmed Animal Funders\u2019 Aquatic Animal Funding Circle are documented; the Bezos Earth Fund Future of Food / Bezos Centers announcements and Denmark\u2019s DKK 15bn green research commitment are confirmed. Hive\u2019s organisational metrics and fundraising totals are self\u2011reported on their site (so verifiable as Hive\u2019s claims). Two numeric claims are the weakest/least transparent: (a) the post\u2019s statement that Faunalytics\u2019 study found funding was \u201ccited as an obstacle by 95% of respondents\u201d \u2014 Faunalytics\u2019 public summary strongly emphasizes funding as the top barrier but I could not find a clear 95% figure in the summary (it may be in the full report/data tables); and (b) the \u201c5.5% of effective giving in 2023\u201d figure appears in community analyses and forum posts based on compiled EA grants data, but its value depends on scope/definitions (which funds/grants are included) and so is not an unambiguous official statistic. Overall, the piece is well supported and mostly accurate, with a few precise numbers that need clearer provenance or caveats.",
+    "sources": [
+      "Faunalytics \u2014 \"Pathways To Impact: An International Study Of Advocates\u2019 Strategies And Needs\" (May 29, 2024) \u2014 Faunalytics summary and download page. (faunalytics.org/pathways-to-impact).",
+      "Rethink Priorities \u2014 \"2024 Animal Advocacy Strategy Forum: Event summary and survey results\" (rethinkpriorities.org/research-area/2024-aasf-summary).",
+      "EA Forum \u2014 \"2024 Donation Election Results\" (forum.effectivealtruism.org/posts/k8NLM6QoEjMkEGEmG/2024-donation-election-results).",
+      "80,000 Hours \u2014 \"Updates to our problem rankings...\" and the Factory Farming problem profile (80000hours.org/2024/10/updates-to-our-problem-rankings-on-factory-farming-climate-change-and-more/; 80000hours.org/problem-profiles/factory-farming/).",
+      "Bezos Earth Fund \u2014 Press release: \"Lauren S\u00e1nchez Announces $60 Million to Establish Bezos Centers for Sustainable Protein\" and Future of Food program pages (bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein; bezosearthfund.org/our-programs/future-of-food).",
+      "Vegconomist / Danish government reporting \u2014 \"Danish Government Allocates DKK 15Bn to Green Research and Innovation\" (vegconomist.com article reporting DKK 15bn commitment).",
+      "Animal Charity Evaluators (ACE) \u2014 \"Movement Grants: Announcing The Round 8 Recipients\" (animalcharityevaluators.org/blog/announcing-2024-movement-grants-recipients).",
+      "Farmed Animal Funders \u2014 \"Aquatic Animal Funding Circle\" (farmedanimalfunders.org/articles/the-aquatic-animal-funding-circle) and EA Forum post cross\u2011posting (forum.effectivealtruism.org/posts/u9yzGEkyrB6ZeSr6J/funder-opportunity-aquatic-animal-funding-circle).",
+      "Hive \u2014 \"Resources for Farmed Animal Advocacy: 2024 Roundup\" (primary post being evaluated) and Hive site metrics pages (joinhive.org/updates/resources-for-farmed-animal-advocacy-2024-roundup; joinhive.org/slack).",
+      "EA Funds / community analyses \u2014 Animal Welfare Fund payout reports and forum posts with EA funding breakdowns (funds.effectivealtruism.org/payouts and community forum posts summarising EA funding shares used to derive the ~5.5% figure)."
+    ]
+  }
+}

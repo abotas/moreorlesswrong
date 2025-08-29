@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This post is primarily an announcement/marketing for a cohort-based grantmaking training aimed at funders. For the EA/rationalist community it has minor importance: it could modestly improve the quality of a small number of grantmakers\u2019 decisions (helpful for funding in food systems, climate, animal welfare), but it is not a foundational argument or evidence that would shift major EA views or strategies. For general humanity it is effectively trivial: a limited-scale training program announcement has negligible direct impact on broader human welfare."
+  },
+  "PostRobustness": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify eligibility, commitments, and logistics (this is a major practical blocker).\n- Say explicitly who should apply (e.g. individual donors, foundation staff, grantmaking advisors, size of budget/assets, experience level).\n- Be clear about the in-person week: dates, location, whether attendance is mandatory, typical participant travel costs, whether you offer travel/visa stipends or can reimburse expenses. If you don\u2019t provide support, say so \u2014 this materially affects who can participate.\n- Clarify time-zone/schedule expectations (what day/time are weekly sessions, are recordings available) and the selection timeline (when applicants hear back). Right now readers can\u2019t judge fit or plan to apply.\n\n2) Add concrete evidence of impact and a sample curriculum (address credibility concerns).\n- Replace or supplement generic anonymous praise with 1\u20132 short, concrete outcomes from past cohorts (e.g. \u201cX participants launched a new grant program; Y% changed grant process; one example project led to $Z in funding within 6 months\u201d). If you can\u2019t share numbers, add a 1-paragraph case study of a past participant.\n- Include brief bios for course leads/mentors and a 1-week sample agenda or learning objectives so potential applicants know what skills they\u2019ll leave with.\n\n3) Disclose funding/relationships and selection criteria to avoid perceived conflicts and reduce friction.\n- State who funds/runs the program and whether participants are expected to work with or direct funds to affiliated orgs (or not).\n- Summarize how participants are chosen (selection criteria, priorities such as field diversity or geographic representation). This reduces uncertainty and the chance of irrelevant applications.\n\nSmall, quick wins: put the deadline and contact email at the top, and change the repeated long form URL to a short link or button so the CTA is trivially clickable.",
+    "improvement_potential": "The feedback highlights several non-trivial omissions that materially affect reader decision-making and trust: eligibility and in\u2011person logistics (a practical blocker for applicants), evidence of impact and curriculum (credibility), and funding/selection disclosures (conflict-of-interest and application expectations). These are the kinds of own-goals that would embarrass the author if funders applied without knowing them. Most fixes are concrete and high-impact yet can be handled succinctly or delegated to the linked 1\u2011pager/FAQ, so the suggestions are actionable without unduly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "No widely recognized figure in EA/rationalist circles \u2014 name appears to be a pseudonym or small/obscure online handle with little visible engagement or citations. Not known outside niche online posts; no evidence of broad public presence."
+  },
+  "PostClarity": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "clarity_score": 7,
+    "explanation": "Overall clear and well-structured: headings, bullet points, CTA and links make it easy to scan and understand the offer, audience, timing, and how to apply. Weaknesses: one truncated bullet ('identify the best' what?), repeated links and some minor ambiguities (second cohort timing vague, no year on deadlines, contact email domain differs from organiser name), and testimonials are long \u2014 trimming or fixing the typo would make it crisper and slightly more compelling."
+  },
+  "PostNovelty": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily an event/program announcement for a cohort-based grantmaking training. The core idea (a short hybrid cohort to teach funders how to give effectively, with peer discussion and mentorship) is commonplace both within EA/longtermist circles and in broader philanthropy. The only modestly specific elements are the target audience (funders/philanthropic advisors) and the thematic focus (food systems/climate/animal welfare) and the exact format, but those are implementation details rather than novel concepts."
+  },
+  "PostInferentialSupport": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post clearly describes the program (audience, format, length, cohort size, time commitment) which makes the claim that it can 'equip you with the tools and skills' plausible. It also cites multiple participant testimonials and notes the program has run since 2022. Weaknesses: The post offers little formal argumentation or theory of change and provides no objective or quantitative outcome data (e.g., changes in grant effectiveness, follow-up impact, participant numbers or retention). Testimonials are anonymous, self-selected, and subject to positive-selection bias; there is no independent evaluation or comparative evidence. Overall the announcement gives plausible but weakly supported evidence that the program is effective."
+  },
+  "PostExternalValidation": {
+    "post_id": "xasJ7XYsZjqRJ2C23",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are directly supported by primary sources (the AIM Grantmaking website, the EA Forum announcement, and the program\u2019s expression-of-interest form). The program description (7-week format: 6 weeks online + 1 week in London; 6\u20138 peers per cohort; ~3 hours/week; 1:1 mentorship; free of charge), the upcoming cohort dates (Aug 11\u2013Sep 27, 2025 and potential late\u20112025/early\u20112026 cohorts), and the JotForm expression-of-interest form are all published by the organisation itself (Ambitious Impact / AIM). Ambitious Impact\u2019s site also explicitly states the AIM Grantmaking pilot began in 2022, which supports the \u201crunning since 2022\u201d claim. Limitations: these are self-reported organisational claims (not independently audited), the anonymous testimonials cannot be independently verified, and the linked PDF fact sheet requires Google sign-in to view. Overall: well-supported by trustworthy primary sources, but not independently third\u2011party verified in every detail, so I rate it as well-supported (8/10).",
+    "sources": [
+      "AIM Grantmaking \u2014 Homepage (aimgrantmaking.com) \u2014 program features and upcoming cohorts. (AIM Grantmaking site)",
+      "AIM Grantmaking \u2014 Grantmaking Program page (aimgrantmaking.com/grantmaking-program) \u2014 7-week format, cohort size, 3 hrs/week, 1-week London in-person, testimonials, upcoming dates.",
+      "EA Forum post: \"AIM Grantmaking Program for Funders: Upcoming Cohorts\" by Judith Rensing / Ambitious Impact (Effective Altruism Forum) \u2014 original announcement (Jun 17, 2025).",
+      "Expression of interest form \u2014 JotForm: \"AIM Grantmaking Programs 2025 - Expression of Interest\" (form ID 251392830131045).",
+      "Ambitious Impact \u2014 About / History (ambitiousimpact.com/about) \u2014 notes AIM piloted the Grantmaking program in 2022 and organisational context (formerly Charity Entrepreneurship).",
+      "AIM Grantmaking blog post: \"Mental Health Funding Circle first grant round (Fall/Winter 2022)\" (aimgrantmaking.com/post/mental-health-funding-circle-first-grant-round-fall-winter-2022) \u2014 evidence of activity in 2022."
+    ]
+  }
+}

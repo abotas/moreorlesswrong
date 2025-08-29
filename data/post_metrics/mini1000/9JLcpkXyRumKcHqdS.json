@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "For the EA/rationalist community this is moderately important: reallocating donations from research to advocacy could materially affect the policy and public-awareness landscape around AI, so guidance on effective advocacy donation routes matters to donor allocation decisions. However the post is primarily a donor query rather than a foundational argument, so it is not highly load-bearing. For general humanity the post is of low importance: it\u2019s niche, aimed at donors within a specific community, and the direct impact of one forum question is minimal even if broader advocacy funding is consequential."
+  },
+  "PostRobustness": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Define \u201cadvocacy\u201d and your target. Right now the post treats \u201cadvocacy\u201d as a single thing. Different activities (public education, lobbying, grassroots organising, paid outreach to wealthy donors, policy research, coalition\u2011building) have very different donation channels and effectiveness considerations. Say which kinds of advocacy you mean and which audiences you want reached (politicians, regulators, executives, public, philanthropists). This will make answers much more actionable. \n\n2) Substantiate or drop the claim that \u201cAI safety affects affluent people, so advocacy is better than funding research.\u201d That\u2019s the central justification but it\u2019s under\u2011argued. Explain the causal pathway (why persuading affluent people buys more safety than buying research), and consider strong counterarguments: wealthy people may already be engaged, policy change often requires technical research, advocacy can backfire or be constrained by legal/political limits, and cost\u2011effectiveness is hard to measure. Asking for evidence or a framework for comparing advocacy vs research (time horizon, tractability, measurable outcomes) will avoid this being an unsupported assumption. \n\n3) Turn the ask into a precise, constrained question. If you want donation targets, state constraints (willingness to fund lobbying/political activity, geography, unrestricted vs earmarked funding, minimum/maximum gift size, time horizon). If you want a list of organizations, ask for curated options with short notes on their advocacy activity and expected leverage. This reduces noise in replies and makes it easier for people to give specific, useful recommendations.",
+    "improvement_potential": "Strong, actionable feedback that points out the post's main weaknesses: an undefined, umbrella term for 'advocacy', a central but unsupported causal claim about affluent people making advocacy superior, and an underspecified ask. Fixing these would make answers far more useful and avoid an embarrassing unsupported assertion, without requiring a large expansion of the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I do not recognize the handle 'k64' as a known EA/rationalist author in my training data up to mid\u20112024, nor as a publicly known figure more broadly. There are no widely cited publications, talks, or high-profile posts I can attribute to that name. It may be a pseudonymous or very niche/obscure poster. If you can share links or context (where they publish, sample works, real name), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "clarity_score": 8,
+    "explanation": "The post is clear, concise, and well-structured: it states the motivation, links to background, and asks a specific question about donating to AI advocacy (including openness to grantmakers and counterarguments). It could be improved by briefly defining what counts as \u201cadvocacy\u201d and by specifying any constraints (geographic, tax-deductibility, donation size), but overall it's easy to understand and make actionable."
+  },
+  "PostNovelty": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA/Longtermist audience this is not very novel \u2014 the tradeoff between funding research vs. policy/advocacy and donating to advocacy has been widely discussed on EA/\u200bLessWrong/Forum. The only slightly less common angle is the explicit point that AI safety primarily affects affluent decision\u2011makers so advocacy might outperform research funding, but that too has been raised before. For the general public the idea is somewhat more novel: many non\u2011specialists think of donating to research or charities in general and are less familiar with donating specifically to AI policy/advocacy, so the question and solicitation of advocacy-focused donation avenues is moderately original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post raises a reasonable and interesting question but offers only a brief, undeveloped inference (that because AI safety affects affluent people, advocacy may be more effective than funding research). The logical link is plausible but not argued or unpacked (no mechanisms, no counterarguments, no cost-effectiveness comparison). There is no empirical evidence, citations, or concrete examples to support the claim or to show available donation channels. To be stronger the post would need evidence on where donations actually change policy or behavior, examples of advocacy organizations and their impact, estimates of marginal effects and costs, and consideration of counterevidence (e.g., limits to advocacy, complementarities between research and advocacy)."
+  },
+  "PostExternalValidation": {
+    "post_id": "9JLcpkXyRumKcHqdS",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are verifiable: there are multiple, donation-ready organizations that explicitly fund AI advocacy/policy (not only technical research), and major funders (e.g., Open Philanthropy) explicitly fund policy, governance and advocacy as well as research. There is also clear evidence that industry and wealthy actors are investing heavily in political advocacy around AI, which supports the post\u2019s intuition that advocacy can be a leverage point. Weaknesses: the statement \u201cAI Safety affects affluent people\u201d is ambiguous and partly normative \u2014 while powerful/affluent actors control much AI capability (so advocacy targeted at them can be influential), many AI harms cut across income groups (and existential risks would be universal). Whether advocacy is \u201cmore effective\u201d than research is context-dependent and not settled by current evidence.",
+    "sources": [
+      "Center for AI Safety \u2014 Donate (shows both research/field-building and an explicit Action Fund for policy/advocacy). ([safe.ai](https://www.safe.ai/donate?utm_source=openai), [action.safe.ai](https://action.safe.ai/donate?utm_source=openai))",
+      "AI Policy Institute \u2014 Donate (explicitly donor-supported policy/advocacy). ([theaipi.org](https://theaipi.org/donate/?utm_source=openai))",
+      "Future of Life Institute \u2014 Donate / Policy & Research pages (organization does policy advocacy and accepts donations). ([futureoflife.org](https://futureoflife.org/about-us/donate/?utm_source=openai))",
+      "Open Philanthropy \u2014 Request for proposals: AI governance (shows major funder explicitly funding governance, policy, training and general support in addition to technical research). ([openphilanthropy.org](https://www.openphilanthropy.org/request-for-proposals-ai-governance/?utm_source=openai))",
+      "Washington Post \u2014 'Super PAC aims to drown out AI critics...' (Aug 2025) (recent reporting showing large-scale industry political advocacy spending in AI). ([washingtonpost.com](https://www.washingtonpost.com/technology/2025/08/26/silicon-valley-ai-super-pac/?utm_source=openai))",
+      "Computer Weekly / reporting on cloud oligopoly and concentration of AI infrastructure (evidence of concentration of power among wealthy firms and hence of stakeholders who advocacy could target). ([computerweekly.com](https://www.computerweekly.com/feature/Big-techs-cloud-oligopoly-risks-AI-market-concentration?utm_source=openai))",
+      "Nick Bostrom / Vulnerable World / Existential-risk literature (shows arguments that advanced-AI risks could be universal rather than limited to one income group). ([en.wikipedia.org](https://en.wikipedia.org/wiki/Vulnerable_world_hypothesis?utm_source=openai))",
+      "Health Affairs / Barron's reporting and analysis on philanthropy & advocacy effectiveness (examples and analyses showing philanthropy can produce policy change, but effectiveness depends on strategy and context). ([healthaffairs.org](https://www.healthaffairs.org/content/forefront/philanthropy-s-critical-role-public-health-advocacy?utm_source=openai), [barrons.com](https://www.barrons.com/articles/philanthropists-who-want-to-make-an-impact-should-start-with-small-policy-changes-c5107752?utm_source=openai))"
+    ]
+  }
+}

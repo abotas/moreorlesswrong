@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a practical, useful coordination post that helps EAG London attendees queue up conversations, meetings, and mentoring connections. It can modestly improve conference efficiency and the chances of useful collaborations, but it presents no novel arguments or foundational claims and won't substantially change major EA strategies. It is essentially administrative/logistical rather than intellectually load-bearing. For general humanity it is negligible."
+  },
+  "PostRobustness": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "robustness_score": 4,
+    "actionable_feedback": "1) No structure/template \u2014 makes the thread likely to become noisy and hard to use. Actionable fix: add a short, copy-paste comment template you want people to use (one line per field) so other attendees can quickly scan and filter. Example template to include in the post: \"Name | Swapcard link | Timezone | Mentor/Mentee | 2\u20133 topics I want to discuss | Top goal for EAG | Availability (dates/times)\". Encourage people to keep each field brief.\n\n2) Over-reliance on Swapcard and missing coordination details \u2014 many people won\u2019t use Swapcard or will find meeting logistics unclear. Actionable fix: explicitly tell people how you expect meetings to be arranged (DM on Forum? Swapcard only? public comment then DM?), ask everyone to state whether they prefer in-person/online, and suggest people list 1\u20132 concrete time windows (with timezone) to make scheduling faster.\n\n3) No safety/moderation guidance or fallback contact \u2014 a public meetups thread can create privacy or harassment risks and spam. Actionable fix: add a one-sentence reminder about the event code of conduct, how to report issues (who to contact or link to official CoC), and ask people not to post sensitive personal info. Optionally state whether moderators will patrol the thread and how you\u2019ll handle off-topic/self-promotional posts.",
+    "improvement_potential": "The three points identify real, consequential weaknesses: no comment template makes the thread hard to scan and increases friction for scheduling; over-relying on Swapcard and not specifying how meetings should be arranged/timezones will confuse or exclude people; and omitting any CoC/reporting guidance is a plausible safety/moderation blind spot. Each fix is small and actionable and would meaningfully improve usefulness and reduce risks, so these are critical practical improvements though not catastrophic mistakes."
+  },
+  "PostAuthorAura": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "clarity_score": 9,
+    "explanation": "Very clear and well-structured: purpose is stated up front, actionable requests (what to post, include Swapcard link) and logistics (dates, pinned) are explicit, and tone is appropriate for coordination. Minor weaknesses: the debate-slider/mentor\u2013mentee explanation is slightly wordy and could be more concise or exemplified; it could also briefly clarify expected formatting or meeting logistics, but these are small issues."
+  },
+  "PostNovelty": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is a routine conference coordination/preamble post rather than a novel idea. Its prompts (share goals, meeting links, Swapcard, pinned thread) are standard on EA Forum and other communities; the only slightly uncommon element is the explicit mentor\u2013mentee slider framing, but that\u2019s a modest variation rather than a new concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "reasoning_quality": 8,
+    "evidence_quality": 2,
+    "overall_support": 8,
+    "explanation": "This is primarily a logistical/coordination post rather than an argumentative claim, so its reasoning is simple, clear, and fit for purpose (it explains the goal, gives concrete suggestions, and links to Swapcard). There is little to no empirical evidence or data provided about impact or uptake \u2014 which would be unnecessary for a coordination thread but means evidence quality is low. Overall the main thesis (that a pinned coordination thread will help queue conversations and connect attendees) is well supported by clear instructions and incentives, though it relies on unstated assumptions about user engagement and provides no follow-up metrics or examples of past effectiveness."
+  },
+  "PostExternalValidation": {
+    "post_id": "bfz7rrR4XCYKFwgo4",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are verifiable and correct: EA Global: London 2025 was scheduled for 6\u20138 June 2025 (confirmed on the EA Global event page), the organisers use Swapcard for attendee lists/meetings, and the event thread being pinned through the conference is plausible for a coordination thread. The only partly empirical claim \u2014 \u201cone of the largest EAGs ever\u201d \u2014 is plausible given recent growth of EAGs (individual EA Global events have often been ~1,300\u20131,500 attendees in recent years and CEA reported 2,870 attendees across three EAG events in 2024), but I could not find an authoritative public final attendance number for the London 2025 event to definitively verify that it was among the very largest. So most major claims are well-supported; the size claim is plausible but not fully verifiable from public sources I found.",
+    "sources": [
+      "EA Global: London 2025 \u2014 EffectiveAltruism.org (event page, shows dates 6\u20138 Jun 2025).",
+      "EA Forum event listing: 'EA Global: London 2025' (forum.effectivealtruism.org) \u2014 confirms schedule/location (InterContinental London \u2014 The O2).",
+      "CEA update 'Update on EA Global costs and 2024 CEA Events Team activities' \u2014 EA Forum (reports EAG program served 2,870 attendees across three events in 2024 and 2025 planning).",
+      "EA Global in 2022 and plans for 2023 \u2014 CEA/EA Forum (summary noting typical individual EAG events ~1,300\u20131,500 attendees in recent years).",
+      "Manifold market 'Number of attendees at EA Global London 2025' (community estimate/resolution market; referenced EA Global London 2024 \u22481,400 as context)."
+    ]
+  }
+}

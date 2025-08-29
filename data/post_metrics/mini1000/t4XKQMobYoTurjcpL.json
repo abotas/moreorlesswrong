@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "Useful, practical resource for people trying to get jobs in the EA/impact sector \u2014 can materially improve career decisions, applications, and hiring outcomes for individuals and thus modestly increase effective staffing of impact-focused orgs. Not foundational to EA theory or strategy, and has minimal direct importance for humanity at large beyond small downstream staffing effects."
+  },
+  "PostRobustness": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Unclear scope and guidance for askers \u2014 big risk readers will post low-quality or disallowed questions. Actionable fix: add a short \u2018How to ask\u2019 section (1\u20133 bullets) with examples of good vs bad questions, and state clearly what you will and won\u2019t answer (e.g., general hiring timelines, salary ranges, interview prep = OK; feedback on current/past applications or confidential org-specific decisions = NOT OK). This reduces wasted effort and speeds useful answers.\n\n2) Missing recruiter remits / role coverage \u2014 readers don\u2019t know which participant to direct role-specific questions to. Actionable fix: include 1-line remit for each participant (e.g., \u201cCalum \u2014 recruiting for research & communications roles at GiveWell\u201d; \u201cPhil \u2014 senior program hires at Open Phil\u201d) or at minimum which org-levels/teams they typically recruit for. Also note major gaps in representation (most are from GiveWell/Open Phil/CEA) so readers shouldn\u2019t assume coverage across all EA orgs.\n\n3) No guidance on confidentiality, anonymity, or response expectations \u2014 this can cause privacy risks and confusion about timing/prioritization. Actionable fix: clarify whether askers can post personally identifying details, whether answers may be quoted or summarized later, and give a simple timeline/triage rule (e.g., \u201cwe\u2019ll prioritize upvoted questions and those clearly tagged by topic; expect replies within X days; we\u2019ll stop answering on Aug 1\u201d). If you can\u2019t do some things (e.g., salary disclosure), say so explicitly.",
+    "improvement_potential": "Actionable, concise, and addresses real clarity gaps that will reduce low-value questions and misdirected asks (how to ask, participant remits, confidentiality/response expectations). Some points duplicate existing caveats (timeline, not commenting on active/past apps), so not strictly critical, but adding these items would materially improve usefulness and reduce wasted effort."
+  },
+  "PostAuthorAura": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Name too ambiguous to identify a single author. No widely known EA/rationalist figure or globally prominent writer who goes only by 'Calum' is readily identifiable. If you mean a specific person (e.g., Calum Miller, Calum Chace, etc.), provide the full name or links and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "clarity_score": 9,
+    "explanation": "The post is very clear: it states who is hosting the AMA, lists participants, gives the timeframe (answers by August 1), and provides sensible caveats. It's easy to understand and concise. Minor improvements could include explicit instructions on how to submit questions (e.g., reply in-thread), expected response cadence, or a brief note on confidentiality/conflicts of interest, which would raise it to a perfect 10."
+  },
+  "PostNovelty": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is an AMA \u2014 a common format on the EA Forum \u2014 offering recruiting/advice from staff at EA-focused orgs. While the specific roster (GiveWell, Open Phil, Charity Entrepreneurship, CEA) is of interest to the community, the concept and content (job/recruiting Q&A) are routine and unsurprising for EA readers. For the general public it's slightly less familiar but still a common, low-novelty informational event."
+  },
+  "PostInferentialSupport": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "reasoning_quality": 9,
+    "evidence_quality": 8,
+    "overall_support": 9,
+    "explanation": "This is primarily an informational/announcement post rather than an argumentative piece. The claim \u2014 that a group of recruiters will answer questions \u2014 is clear, simple, and well-scoped. The post provides relevant supporting evidence (named participants, roles, and LinkedIn links) and sensible caveats about limits to their responses. There is little need for deeper logical argumentation or empirical evidence; the only minor gaps are lack of precise availability/schedule details and the inherently self-reported nature of credentials."
+  },
+  "PostExternalValidation": {
+    "post_id": "t4XKQMobYoTurjcpL",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post\u2019s main empirical claims (the AMA exists, its Jul 22, 2025 posting and the stated list of participants) are directly verifiable. The Effective Altruism Forum post is real and dated Jul 22, 2025 and the named participants are listed there. Organization team pages corroborate the participants\u2019 affiliations/titles at the time of checking. Minor caveats: small wording differences in job titles across sources (e.g., \u201cRecruiting Lead\u201d vs \u201cInterim Recruiting Manager\u201d) and the usual temporal risk that people\u2019s roles change after the post date. All checks were performed against the organizations\u2019 public team pages and the forum thread on 2025-08-27.",
+    "sources": [
+      "EA Forum \u2014 \"AMA with recruiters at impact-focused orgs\" (post by Calum et al., Jul 22, 2025).",
+      "GiveWell \u2014 People page (Calum Richards, Talent Acquisition Specialist).",
+      "Open Philanthropy \u2014 Recruiting / Team pages (Philip Zealley, Evan Vandermeer, Dee Kathuria listed in recruiting roles).",
+      "Ambitious Impact (AIM) \u2014 Team page (Judith Rensing, Chief of Staff).",
+      "Centre for Effective Altruism \u2014 Team page (Rika Gabriel, People Operations Senior Associate)."
+    ]
+  }
+}

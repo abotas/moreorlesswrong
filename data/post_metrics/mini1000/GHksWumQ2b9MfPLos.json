@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "value_ea": 8,
+    "value_humanity": 7,
+    "explanation": "This 80,000 Hours problem profile summarizes a high-stakes, tractable area that many EAs already view as a top priority: pandemic and biosecurity risk. For the EA/rationalist community it is quite important because it directly informs career and funding choices, highlights leverage points (prevention, detection, policy), and is load-bearing for prioritisation among global catastrophic risks. For general humanity the topic is also highly important \u2014 preventing catastrophic pandemics could affect billions of lives \u2014 though the post itself is primarily awareness and career guidance rather than new evidence or policy prescriptions, so its direct impact on the broader public is somewhat more limited."
+  },
+  "PostRobustness": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Be careful using strong claims like \"existential threat\" and \"prevention is more effective than response\" without quantification or definitions. Actionable fix: define what you mean by \"existential/catastrophic\" (deaths, societal collapse, probability \u00d7 impact thresholds) and either cite estimates or explicitly state the large uncertainty. For the prevention-vs-response claim, add brief evidence or a qualified explanation (e.g. when prevention dominates, when response is more cost\u2011effective), or soften the language to reflect tradeoffs.\n\n2) Distinguish natural vs engineered pandemic risks and the different policy/technical responses they require. Actionable fix: split risks and interventions into (a) naturally emerging pathogens, (b) accidental lab release, and (c) deliberate misuse. For each, list the most plausible interventions and explain why they matter differently (e.g. surveillance and health systems vs lab biosafety and governance vs intelligence/arms\u2011control). This prevents conflation of very different problems and makes career recommendations more actionable.\n\n3) Make career guidance concrete and address feasibility/cost\u2011effectiveness objections. Actionable fix: give 2\u20134 specific high\u2011leverage roles (e.g. biosecurity policy at X type of org, quantitative epidemiology with Y skillset, risk-focused NGO advocacy) and the top skills/credentials required. Add a short paragraph acknowledging common counterarguments (e.g. overestimating near\u2011term synthetic biology capabilities, political barriers to international coordination) and how they affect where work is most useful. Also add 2\u20133 citations or links to key sources/evidence to support the central claims so readers can evaluate tradeoffs quickly.",
+    "improvement_potential": "The feedback targets genuine weaknesses: unqualified strong claims (\"existential threat\", \"prevention > response\"), conflation of different risk sources (natural vs accidental vs deliberate), and very general career guidance. Fixing these would meaningfully increase credibility and actionability and are practical to implement without bloating the post. These aren\u2019t trivial nitpicks \u2014 they correct major clarity and evidentiary gaps \u2014 but they don\u2019t imply the article\u2019s main thrust is wrong, so a score below the maximum is appropriate."
+  },
+  "PostAuthorAura": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "author_fame_ea": 4,
+    "author_fame_humanity": 1,
+    "explanation": "\"EA Handbook\" appears to be a collective/resource title or pseudonymous/organizational author (a guide for newcomers) rather than a single prominent individual. It is reasonably known within EA/rationalist circles as a reference but not a well\u2011known author or frequent public figure; it has virtually no recognition outside the EA community."
+  },
+  "PostClarity": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand and well-structured \u2014 short intro plus numbered key points make the message immediately clear. Language is simple and the main claims are stated directly. Weaknesses: it is high-level and somewhat vague (no evidence, examples, or quantified risks), the argument is more a summary than a sustained case, and the call to action/next steps are implicit rather than specific."
+  },
+  "PostNovelty": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA/longtermist readers this is low-novelty: biosecurity, engineered-pathogen risk, prevention > response, and career advice are staple themes in the community. For the general educated public it's somewhat more novel but still not original post\u2011COVID: pandemic risk and calls for better surveillance, biosafety, and international coordination have been widely discussed. The most distinctive elements are the explicit high\u2011impact career framing and the emphasis on tradeoffs (regulation vs innovation), which some people may not have deeply considered."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "The post lays out a coherent, plausible argument: that improving biosafety, detection, and coordination is likely preferable to relying on response, and that careers in biosecurity can have high leverage. It correctly highlights key uncertainties and is structured logically. However, the summary offers little empirical backing \u2014 no probability estimates, quantitative comparisons (prevention vs response), case studies, or citations are provided to substantiate claims like pandemics being an \"existential\" threat or the cost\u2011effectiveness of interventions. Overall the thesis is reasonable and aligns with expert concern, but as presented it is under\u2011evidenced and would be strengthened by quantified risk estimates, references to modelling/epidemiological studies, and concrete examples of successful prevention or failure modes."
+  },
+  "PostExternalValidation": {
+    "post_id": "GHksWumQ2b9MfPLos",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s central empirical claims are well supported by reputable sources: experts and organizations (Johns Hopkins, NTI, WHO/World Bank, OSTP) characterize global catastrophic biological risks (GCBRs) as a serious concern; biotechnology and DNA\u2011synthesis/AI advances are documented to lower technical barriers and create novel dual\u2011use risks; prevention and preparedness are widely judged to be more cost\u2011effective than purely reactive response; and there is a growing policy and research community working on biosecurity. Major caveats: (a) quantitative probability claims about extinction-level risk (e.g., \u20181 in 100\u2019 or similar ranges) are highly uncertain and contested among experts and are best treated as speculative judgments rather than settled empirical facts; (b) budget and spending figures depend on definitional choices (what counts as \u2018biodefense\u2019 or \u2018prevention\u2019) and vary across trackers; and (c) claims about career impact are partly normative (but supported by examples where policy/research changed outcomes, e.g., accelerated vaccine development). Overall the post is well grounded but responsibly uncertain on numerical risk estimates.",
+    "sources": [
+      "80,000 Hours \u2014 Preventing catastrophic pandemics (problem profile).",
+      "Johns Hopkins Center for Health Security \u2014 Global Catastrophic Biological Risks (working definition and analysis).",
+      "NTI (Nuclear Threat Initiative) \u2014 Preventing Global Catastrophic Biological Risks (report and project pages, 2020).",
+      "White House OSTP \u2014 Framework for Nucleic Acid Synthesis Screening (April 29, 2024).",
+      "World Bank / WHO estimates and One Health analysis \u2014 'Prevent the Next Pandemic' (World Bank press/reports, 2022) and the G20 Joint Finance & Health Task Force preparedness costing (~$31.1B PPR figure).",
+      "McKinsey Global Institute / public\u2011health investment analyses on the cost\u2011effectiveness of preparedness (e.g., 'Not the last pandemic').",
+      "Council on Strategic Risks \u2014 US Biodefense Budget Breakdown (FY19\u2013FY23/FY25 analyses showing tens of billions but sensitive to definitions).",
+      "JAMA / JAMA Network Open articles summarizing Operation Warp Speed and rapid COVID\u201119 vaccine development (evidence vaccines/coordination can avert large numbers of deaths).",
+      "Peer\u2011reviewed and preprint literature on AI and biorisk (e.g., Sandbrink 2023 'Artificial intelligence and biological misuse'; Moulange et al. 2023 'Towards Responsible Governance of Biological Design Tools'), and recent reviews about AI\u2011enabled synthetic biology risks.",
+      "Analyses of the Biological Weapons Convention (BWC) weaknesses \u2014 NTI/Arms Control Association/Bulletin of the Atomic Scientists summaries documenting lack of a verification mechanism and enforcement challenges."
+    ]
+  }
+}

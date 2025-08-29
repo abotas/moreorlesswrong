@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical community-building and hiring tool for the EA ecosystem that can modestly improve access to aligned freelance talent and nudge more freelancers toward effective giving. It\u2019s not foundational to EA or AI-safety strategy and has limited scaling evidence so far, so its truth or failure wouldn\u2019t dramatically alter major EA decisions. For general humanity the impact is small: it may marginally increase donations or capacity for EA orgs but is not consequential at a global scale."
+  },
+  "PostRobustness": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing evidence of real impact and traction. The post asserts growth and usefulness (400+ Slack members, job board increasing applications, \u201cpre-vetted\u201d directory) but provides no outcome metrics that matter to EA readers: how many hires resulted from the job board/directory, conversion rates (post -> hire), average contract value, retention/churn, revenue vs costs, and any measurable increase in donations or EA engagement attributable to FFG. Actionable fixes: add concrete KPIs and short case studies/testimonials (e.g., 3\u20135 hires made, project outcomes, dollars moved via pledge club), state current burn/runway and membership fee amount, and list the metrics you\u2019ll track going forward so reviewers can judge whether FFG actually moves the needle.\n\n2) Vague \u201cpre-vetted\u201d claims and unclear quality-control process. Saying the directory is \u201cpre-vetted\u201d is a potential own-goal for trust-conscious orgs unless you explain who vets, by what criteria, and how you manage quality and disputes. Actionable fixes: briefly describe the vetting process (steps, criteria, who performs checks), provide an example profile or anonymized audit, explain how fraud/poor performance are handled (refunds, delisting, escrow, dispute resolution), and clarify how charging freelancers affects selection bias and incentives.\n\n3) Underdeveloped sustainability and demand-side assumptions. The post assumes orgs will use freelancers more and that charging freelancers is a sustainable model, but it lacks a clear business case and plan for convincing (and retaining) hiring orgs. Actionable fixes: explain your go-to-market for orgs (how many orgs engaged, pipeline, outreach strategy), list the pricing model(s) you\u2019re testing and projected financials or milestones for sustainability, and address the plausible counterargument that many EA orgs prefer hires over contractors (give use-cases where freelancing is preferable, pilot results with orgs, and mitigation strategies if demand from orgs is weaker than expected).",
+    "improvement_potential": "The feedback correctly calls out the three largest credibility gaps for an EA audience\u2014lack of outcome metrics, an unexplained \u201cpre\u2011vetted\u201d process, and weak demand/sustainability evidence\u2014and gives actionable fixes that would materially improve the post without bloating it. Addressing these points would substantially reduce obvious 'own goals' and make the offering easier to evaluate. (Minor additions the feedback could include: mention data/privacy safeguards, small anonymized case studies, and a clear list of the specific KPIs you will track.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a well-known EA/rationalist author using the name \"Freelancing For Good.\" It appears to be a niche/pseudonymous project or small blog with little visibility in EA circles and no global public profile; not a recognized speaker, frequent contributor, or cited figure."
+  },
+  "PostClarity": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow (TL;DR, clear headings, links, and calls-to-action), and it communicates its purpose and offerings (community, job board, directory, pledge) clearly. It could be tightened in places\u2014there is some repetition and a few vague claims (growth projections, impact evidence, pricing/details of the membership fee) that weaken persuasive force\u2014so while comprehensible and compelling overall, a slightly more concise presentation with a few concrete metrics or examples would improve clarity further."
+  },
+  "PostNovelty": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is largely an implementation/organisational effort rather than a new conceptual claim. EA readers will recognise all the component ideas (job boards, vetted directories, Slack communities, earning-to-give / pledge clubs) from existing EA projects and broader non\u2011profit/freelance ecosystems, so it\u2019s only slightly novel as a focused, bundled offering for freelancers. For the general public it\u2019s a bit less familiar \u2014 combining impact-aligned freelancing, a vetted directory, and an explicit pledge club is somewhat niche \u2014 but still an incremental/product idea rather than a fundamentally new concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is clear, well-structured, and presents a plausible, coherent case for why a targeted freelancing/community platform could help impact-minded freelancers and EA orgs. It cites concrete early indicators (400+ Slack members, steady weekly signups, a launched directory, partnership with Giving What We Can) and a sensible sustainability approach (small membership fee, subsidies). Weaknesses: the argument is mostly descriptive and aspirational rather than analytical \u2014 key causal claims (e.g., that orgs will achieve more using freelancers, that the platform will unlock significant new funding) lack quantified outcomes or counterfactuals. Evidence is thin and self-reported: there are few metrics on hires/placements, job quality, revenue/giving unlocked, retention, or independent validation. Overall, the initiative seems promising but currently under-supported by rigorous empirical evidence of impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "umHSKGDosDcJEzKDB",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s core, verifiable claims are supported by independent evidence: the Freelancing For Good website is live and contains the community, job-board, and paid directory described; the directory and job listings are publicly accessible (including listings from EA-aligned organisations such as 80,000 Hours); and the Pledge Club partnership with Giving What We Can is confirmed. However, several numerical and operational claims rely on the author as the only public source (the \u201c400+ member Slack community\u201d, the growth rate of \u201c10\u201315 new members each week\u201d, the unspecified \u201claunched in November\u201d timing, and the single funding-application outcome). Those items are plausible but not independently verifiable from public sources; similarly claims about internal website analytics (Google Jobs visibility, \u201cdrastically grow organic website traffic\u201d) are not externally corroborated. Overall: well-supported for the platform/features; uncertain for internal metrics and some timing/funding details.",
+    "sources": [
+      "EA Forum post: \"Introducing Freelancing For Good...\" by Maja Nenadov Webster (published June 4, 2025). (EA Forum).",
+      "Freelancing For Good \u2014 homepage (freelancingforgood.com).",
+      "Freelancing For Good \u2014 Community page (Slack community / waiting list).",
+      "Freelancing For Good \u2014 Freelance Directory page (directory details, pricing, application info).",
+      "Freelancing For Good \u2014 Jobs page (job board listings and job-post examples).",
+      "Example job listing on FFG: \"Engagement Specialist\" (80,000 Hours) page on freelancingforgood.com.",
+      "Freelancing For Good \u2014 Pledge page (describes partnership).",
+      "Giving What We Can \u2014 \"Pledge to give\" page / Freelancing For Good pledge integration (givingwhatwecan.org)."
+    ]
+  }
+}

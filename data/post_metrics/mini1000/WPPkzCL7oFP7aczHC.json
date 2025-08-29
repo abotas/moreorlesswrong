@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "value_ea": 3,
+    "value_humanity": 3,
+    "explanation": "This is a short, time-sensitive call to support a specific California bill via crowdfunded advocacy. For the EA/rationalist community it\u2019s of some practical interest to activists and donors focused on climate policy, but it isn\u2019t foundational to EA priorities or theoretical arguments. For humanity overall the underlying policy (holding fossil fuel firms financially accountable) could be important if replicated widely, but this single post\u2014an appeal to back one student\u2019s testimony\u2014is narrow in scope and low leverage. The post may influence a few donations or local political momentum, but it is not a major, load-bearing piece of evidence or analysis."
+  },
+  "PostRobustness": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add concrete, actionable asks and logistics \u2014 right now readers don\u2019t know how to help. Include a clear call to action (donate link or instructions, suggested donation amounts, deadline/time of the hearing, and what the money will be spent on). If you can\u2019t or won\u2019t take money, say that explicitly and give other ways to help (e.g. show up, email committee members, share a script).\n\n2) Summarize the bill and assess plausibility/impact so readers can judge whether supporting it is worth their time/money. Link to the bill text and give a 2\u20133 sentence plain-English summary of the mechanism (who pays, how funds are used, estimated scope of revenue). Mention major legal or political risks (e.g. preemption, litigation likelihood) and the campaign\u2019s estimate of passage probability.\n\n3) Disclose organiser credibility, plan, and accountability measures. Name the organiser(s)/group, their affiliations, and past experience in similar campaigns. Provide a brief budget or at least categories of spending (e.g. travel, ad buys, legal counsel) and say how you\u2019ll report back on outcomes (e.g. vote result, use of funds, post-mortem). This reduces donor hesitation and avoids appearing like an unvetted ask.",
+    "improvement_potential": "The feedback targets the post\u2019s main weaknesses: it lacks any actionable ask or logistics, provides no link/summary of the bill for readers to judge, and omits organiser identity, budget, and accountability \u2014 all plausible own-goals that would make donors and supporters hesitant or embarrassed if highlighted. Implementing these three concise fixes (call-to-action with logistics/donation info, a 2\u20133 sentence plain-English bill summary plus link and key risks, and brief organiser credentials and reporting plan) would markedly improve clarity and credibility without undue lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I was not able to identify a notable EA/rationalist profile or body of work under the handle \"oliviapaw.\" There are no clear signs of frequent contributions, major posts, talks, or citations in EA forums or major outlets, and no evidence of broader public recognition. If this is a pseudonymous or new account, it may have limited/hidden activity; please share links if you want a more specific appraisal."
+  },
+  "PostClarity": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: the post states the bill, the committee hearing, the advocacy action, and a simple call to action. It is concise and well-structured. Minor weaknesses: it omits practical specifics (exact hearing time/link, who is organizing the crowdfund, how to contribute), and one sentence (\u201crepresenting all those backing his advocacy effort\u201d) is slightly awkward, which reduces persuasiveness a bit."
+  },
+  "PostNovelty": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "The post describes a fairly standard grassroots/crowdfunded advocacy action for a specific climate bill. The substantive ideas\u2014'polluter pays' legislation, mobilising community voices, crowdfunding advocacy, and student testimony\u2014are well-established and widely discussed both within EA/longtermist circles and the general public. The only mildly novel element is the specific local bill (SB-684) and the immediate tactical ask, which is not a broadly original concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "This post is primarily an announcement and call-to-action rather than an argument: it presents the bill's basic aim but offers no logical development, cost\u2013benefit reasoning, legal analysis, or consideration of trade-offs. Empirical evidence is essentially absent\u2014no citations, data, precedents, or estimates of impact or feasibility are provided. Strengths: timely, clear call to engage and a concrete next-step (committee hearing). Weaknesses: lacks substantive reasoning about why SB-684 is desirable or likely to succeed, and provides no evidence to support claims about effectiveness, scope, or representativeness."
+  },
+  "PostExternalValidation": {
+    "post_id": "WPPkzCL7oFP7aczHC",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Mostly accurate on the core factual claims: SB 684 (the \"Polluters Pay Climate Superfund Act\") is a real 2025 California bill and its text would impose fees on large fossil\u2011fuel firms to cover quantified climate damages; multiple advocacy groups (EnviroVoters, Greenpeace, 350 Sacramento, Fridays for Future) were actively campaigning around Earth Day. However, the post\u2019s key time claim is misleading: although SB 684 had been set for a Senate Judiciary hearing in April, the LegiScan/legislative history shows the April 22, 2025 hearing was cancelled at the request of the bill author \u2014 so the statement that it \u201cwill be considered tomorrow, April 22nd\u201d is incorrect. The specific claim that \u201ca UC Davis student advocate will speak to the Senate committee tomorrow\u201d could not be verified in public testimony records or advocacy materials I found. ",
+    "sources": [
+      "California Legislature bill text: SB-684, Polluters Pay Climate Superfund Act of 2025 (LegiScan / bill text).",
+      "SB-684 bill tracking / action history (LegiScan) \u2014 notes: \"April 22 set for first hearing canceled at the request of author.\"",
+      "Senate Judiciary Committee \u2014 April 22, 2025 bill hearing agenda (sjud.senate.ca.gov).",
+      "Digital Democracy hearing transcripts / testimony records for SB 684 (showing prior testimonies such as April 2, 2025).",
+      "California Environmental Voters / 'Make Polluters Pay' advocacy page (supporting SB 684).",
+      "Greenpeace USA press release supporting the Polluters Pay Climate Superfund Act (Feb 26, 2025).",
+      "350 Sacramento action page \u2014 Earth Day (April 22, 2025) actions in support of the Polluters Pay bill.",
+      "Change.org petition page (April 16, 2025) soliciting support / minor crowdfunding assistance to attend the April hearing (example of grassroots fundraising).",
+      "Associated Press reporting on California efforts to hold oil companies financially accountable for climate damages (context on bills and litigation)."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post is a modestly useful, low\u2011stakes proposal for an outreach experiment rather than a foundational claim. For the EA community it\u2019s somewhat valuable (score ~4) because it suggests a concrete, testable, potentially scalable outreach intervention and gives a back\u2011of\u2011envelope cost\u2011effectiveness calculation \u2014 the idea could inform small experiments or funding decisions. However the argument rests on shaky assumptions (view\u2192behaviour conversion rate, equivalence of video audiences to prior veg outreach, short\u2011form effects ignored, uncertain longevity of diet change), so it\u2019s not load\u2011bearing. For general humanity it\u2019s low importance (score ~2): even if the estimate were right, the scale is tiny relative to major social problems; the post wouldn\u2019t change policy or public discourse by itself. The main practical value is prompting a low\u2011cost trial and better measurement, not offering a decisive new insight."
+  },
+  "PostRobustness": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "robustness_score": 3,
+    "actionable_feedback": "- 1) The impact chain is too fragile and rests on questionable single-point estimates. You assume 0.1% of 2M viewers reduce meat by 1 day and that $11/Veg\u2011year from one online\u2011ad estimate applies directly to a longform educational video. Those are not comparable interventions: conversion rates, audience composition, durability of behaviour change, and counterfactuals differ. Actionable fix: run a brief sensitivity analysis (e.g. 0.01%\u20130.5% conversion, 0.1\u20131 day change, $5\u2013$50 per veg\u2011year) and report a range rather than a point estimate. Also cite conversion evidence from longform video or similar outreach experiments rather than a single blog post or assume you need to commission a small pilot to estimate conversion empirically (see point 3). \n\n- 2) The Kurzgesagt precedent is a poor price benchmark. Open Phil\u2019s grant context (sustained funding, translation, institutional capacity and a different audience/brand) doesn\u2019t map to paying Wren for one episode; assuming \"each Kurzgesagt video = $100k\" is misleading. Actionable fix: replace that precedent with either (a) direct inquiry \u2014 ask Wren/Corridor for a realistic budget or rate, or (b) propose a staged funding structure (small pilot payment, larger contingent payment if agreed metrics are met), or (c) benchmark against similar single\u2011video sponsorships (if available) rather than multi\u2011year institutional grants.\n\n- 3) Important counterarguments and measurement/mitigation steps are missing. You don\u2019t discuss audience fit (True Scale viewers may already be interested in science/scale or already low\u2011meat), possible backfire, the role of thumbnails/titles, Shorts/TikTok spillover, or how you would verify behaviour change. Actionable fix: include a short plan for testing and evaluation \u2014 e.g. run A/B tests of short ads/messages to this audience, offer to fund a short pilot episode or segmented call\u2011to\u2011action (signup/pledge link to track conversions), or require pre/post surveys or another measurable KPI. Also briefly compare expected cost\u2011effectiveness to established veg advocacy interventions to justify opportunity cost.",
+    "improvement_potential": "The feedback correctly flags major weaknesses: a fragile, single\u2011point impact chain (unjustified conversion and veg\u2011year assumptions), a misleading Kurzgesagt price benchmark, and no plan for measurement or audience fit. These are high\u2011impact \u2018own goals\u2019 that could embarrass the author if unaddressed. The suggestions (sensitivity analysis, direct price inquiry or staged payments, pilot/testing and measurable KPIs) are practical and would substantially improve the post without undue lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record in my training data of an author known as \u201cstevenhuyn\ud83d\udd38\u201d (likely a pseudonymous username). They do not appear as a notable contributor, speaker, or writer in EA/rationalist circles or the wider public. Could be a minor/anonymous forum user; not widely recognized."
+  },
+  "PostClarity": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the post states a concrete ask, provides precedent and a simple numeric back-of-envelope calculation, and uses headings and links to support claims. Weaknesses: some assumptions and terms are underexplained (e.g., what exactly counts as \"cut their meat consumption by 1 day directly\", choice of 0.1% and the $11/vegetarian-year figure), and the math could be shown step-by-step with units for readers less familiar with the conversions. Fixing those small gaps would make it excellent."
+  },
+  "PostNovelty": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For an EA readership this is low\u2013moderate novelty: the core idea (sponsor a popular creator to make animal-welfare/vegan content and do cost-per-view / veg-year cost-effectiveness math) is a very common EA tactic, and the calculations use standard assumptions (view\u2192conversion rates, $/veg-year, precedent grants). The mildly novel elements are the specific target (Wren / The True Scale series) and the visual-scale framing, which could be a fresh angle but doesn\u2019t introduce new methods. For the general public it\u2019s slightly more novel because lay audiences less often see explicit cost-effectiveness-driven proposals and targeting of a specific creator, but the overall concept of funding media to change behaviour is still familiar."
+  },
+  "PostInferentialSupport": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 3,
+    "explanation": "Strengths: The post is structured and transparent \u2014 it gives two simple approaches (precedent and napkin math), cites sources, and shows the arithmetic that leads to the proposed dollar figure. Weaknesses: Key assumptions are weak or unsupported (e.g., 0.1% immediate conversion to 1 fewer meat-eating day, persistence of that change, applicability of the $11/vegetarian-year figure). The Kurzgesagt precedent is an imperfect comparator (different creator scale, production model, and grant purpose), and there is no evidence presented that a single long-form video causes lasting dietary change. The evidence cited is informal/back-of-envelope (blogs, advocacy-calculators) rather than empirical studies on behavior change from media; there is no sensitivity analysis, uncertainty quantification, or alternatives comparison. Overall the idea is plausible but poorly supported by robust evidence or careful reasoning."
+  },
+  "PostExternalValidation": {
+    "post_id": "cT7yWcAgkAt9HrT4Q",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / uncertain. Key factual claims about (a) Wren/Corridor\u2019s \u201cTrue Scale\u201d series and Wren\u2019s role are well supported; (b) Open Philanthropy\u2019s ~\\$2.6M contract(s) with Kurzgesagt are accurate (grant pages show \u20ac2.4138M \u2248 \\$2.65M and a related \u20ac2.66M contract), so using that precedent is reasonable; (c) typical view counts for Wren/Corridor \u2018True Scale\u2019 videos are in the low millions (examples ~1.8\u20133.7M, with some outliers much larger), so the author\u2019s 2M floor / 4\u20136M median is plausible though not precisely verified; (d) the outreach-effect assumption (0.1% of viewers reduce meat by 1 day) is speculative and not well supported by strong empirical evidence \u2014 published/archival estimates for leaflet/online veg outreach vary widely and tend to be highly uncertain and context-dependent; (e) the $11 per \u2018vegetarian-year\u2019 figure is cited on Brian Tomasik\u2019s reducing-suffering.org analysis but he and others note it is old and likely optimistic and uncertain. Because the chain of multipliers relies on contested/uncertain behavioural-conversion and persistence parameters, the final cost-effectiveness (video paid \u2248\\$60) is highly sensitive to those assumptions and therefore not robustly validated. Recommended: treat the post\u2019s factual background (grants, creator identity, video view magnitudes) as largely supported, but treat the behavioural-effect numbers and derived cost-effectiveness as speculative without targeted empirical testing or better outreach evaluation data.",
+    "sources": [
+      "Open Philanthropy \u2014 Kurzgesagt \u2014 Video Creation and Translation (grant page; March 2022).",
+      "Open Philanthropy \u2014 Kurzgesagt \u2014 Short-form Video Content (grant page; March 2022).",
+      "Wikipedia \u2014 Corridor Digital (entry describing Corridor Crew, Wren, and the VFX Artist Reveals series).",
+      "Youtubers.me / Corridor Crew video stats (examples: 'VFX Artist Reveals the True Scale of Minecraft' ~1.9M; other Corridor Crew video view counts).",
+      "SocialCounts.org \u2014 live/archived view-count for 'VFX Artist Reveals the True Scale of the Universe' (example of a high-outlier ~25M).",
+      "Brian Tomasik \u2014 'Donating toward Efficient Online Veg Ads' (reducing-suffering.org) \u2014 provides the ~$11 per vegetarian-year estimate and discusses its uncertainty.",
+      "Jeff Kaufman \u2014 'Estimating Charity Effectiveness: Vegan Outreach' (jefftk.com) \u2014 discusses large uncertainty and likely lower conversion rates for leaflet/veg outreach."
+    ]
+  }
+}

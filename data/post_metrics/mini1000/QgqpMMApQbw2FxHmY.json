@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a personal, empathetic request for coping/advice after a job rejection. It\u2019s useful to individuals and can modestly inform community norms around hiring, retention, and mental\u2011health support in EA, but it is not foundational to EA theory or strategy. For humanity at large it\u2019s a common, low\u2011impact issue: broadly relatable but not consequential at scale."
+  },
+  "PostRobustness": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "robustness_score": 6,
+    "actionable_feedback": "1) Be explicit about what help you want. Right now it\u2019s unclear whether you\u2019re asking for emotional support, interview technique tips, or career strategy. State one or two concrete asks (e.g., \u201chow do I stop ruminating after a big rejection?\u201d, \u201cwhat are best practices to avoid blanking in final interviews?\u201d, or \u201chow should I ask the org for interview feedback?\u201d). This will produce far more useful responses. \n\n2) Add brief, concrete context and what you\u2019ve already tried. Readers can\u2019t give targeted advice without knowing: which kinds of questions tripped you up, whether time pressure was a factor, whether you\u2019ve already requested feedback from the org, and whether you\u2019ve tried any coping or rehearsal strategies (mock interviews, therapy, breathing/grounding techniques). A couple sentences on these points will avoid repeated, low-signal suggestions. \n\n3) Tone and framing edits to avoid accidental demoralization. Phrases like \u201conce-in-a-lifetime opportunity\u201d and broad self-blame invite sympathy but reduce usefulness. Replace with a concise, factual statement of impact (e.g., \u201cthis role mattered to me because X; roles like this are uncommon in EA finance\u201d) and a short reflection on lessons learned or next steps you\u2019re willing to take. That keeps the post focused and actionable without lengthening it much.",
+    "improvement_potential": "Solid, practical suggestions that address the post's main weaknesses: unclear ask, missing concrete context, and unhelpful emotional framing. Implementing them would noticeably increase signal and usefulness without much added length. They aren't fatal mistakes or embarrassing 'own goals,' but fixing them would substantially improve the quality of responses the author receives."
+  },
+  "PostAuthorAura": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record of an author or public figure named 'kruti.maru' (or that handle) in my training data up to 2024-06. No notable presence in EA/rationalist communities or broader public sources is identifiable. If this is a pseudonym/online handle, please share links or context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "clarity_score": 9,
+    "explanation": "Very clear and easy to follow: gives concise context (role, stages cleared, outcome), a concrete description of what went wrong in the final interview, and the emotional impact, ending with a specific ask for advice. Minor weaknesses: a little repetition of the emotional reaction and it could briefly state what types of advice would be most useful (practical vs. emotional), but overall it's well-structured and compelling."
+  },
+  "PostNovelty": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a very common personal-crisis / job-rejection vignette. The core issues (panic in interviews, ruminating on \u2018what could have been\u2019, grief over a lost opportunity) and the obvious remedies (reframing, practicing interview skills, exposure to reduce anxiety, social support) are widely discussed both on the EA Forum and in general. The only mildly specific element is the EA context (a scarce finance role at an EA org, top-3 of 168), which gives small additional relevance to EA readers but doesn\u2019t introduce novel theoretical or strategic ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is coherently written, gives a clear chronological account, and makes plausible causal claims (panic/fight-or-flight impaired interview performance). It also provides one concrete data point (top 3 out of 168) that supports the claim of being a close finalist. Weaknesses: This is primarily an anecdote and a request for advice rather than an argument supported by systematic evidence. The post offers no external evidence or references about common causes of interview failure, prevalence of such near-misses, or effective coping strategies. It also doesn't explore alternative explanations for the outcome, so generalizability and causal inference are limited."
+  },
+  "PostExternalValidation": {
+    "post_id": "QgqpMMApQbw2FxHmY",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are well-supported by published research: (a) acute stress / fight-or-flight can cause GI symptoms and a visceral stomach ache; (b) high-pressure situations commonly 'consume' working memory and cause people who normally perform well to 'blank' or 'choke'; and (c) post-rejection rumination and social-pain-like distress are well-documented. Claims about the EA job market are partially supported (EA has some finance roles but overall job openings in EA orgs are limited compared with large sectors), while the specific application numbers (\"top 3 out of 168\") and the exact scarcity of finance roles in EA cannot be independently verified from the post alone. Overall: psychological/physiological claims = well-supported; job-market claims = plausible but only partially verified.",
+    "sources": [
+      "Beilock, S. L., & Carr, T. H. (2005). When high-powered people fail: working memory and \u201cchoking under pressure\u201d in math. Psychological Science. (PubMed summary).",
+      "Beilock, S. L.; DeCaro, M. S. (2007). From poor performance to success under stress: Working memory, strategy selection, and mathematical problem solving under pressure. Journal of Experimental Psychology: Learning, Memory, and Cognition. (diagnosing/alleviating pressure literature).",
+      "Eisenberger, N. I., Lieberman, M. D., & Williams, K. D. (2003). Does rejection hurt? An fMRI study of social exclusion. Science. (social pain / neural overlap with physical pain).",
+      "Harvard Health Publishing (April 3, 2024). Understanding the stress response. (overview of fight-or-flight physiology and effects on digestion, heart rate, etc.).",
+      "S\u00f6derholm, J. D., et al. / Review: Stress and the gut: pathophysiology, clinical consequences, diagnostic approach and treatment options (PubMed, 2012). (brain\u2013gut axis; stress-induced GI symptoms).",
+      "80,000 Hours \u2014 Working at effective altruist organisations / career review and community job guidance (discussion of limited role availability and which roles are in demand within EA).",
+      "Centre for Effective Altruism \u2014 Finance Associate (example EA finance job posting showing such roles exist within EA organizations).",
+      "Nolen-Hoeksema, S. (1991 and follow-ups). Work on rumination and its role in sustaining distress and regret (response styles theory; rumination after setbacks)."
+    ]
+  }
+}

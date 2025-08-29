@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "value_ea": 6,
+    "value_humanity": 1,
+    "explanation": "This is a moderately important internal-policy / culture piece for the EA/rationalist community. If adopted, the practices (reach out before publishing major critiques, offer a right-of-reply, moderators helping coordinate) would likely improve the epistemic quality of Forum criticism, reduce wasted time on avoidable disputes, and lessen reputational harm \u2014 all useful for coherent community discourse and better decision-making. However, it is not foundational to EA\u2019s core cause-priorities or to major strategic conclusions, so its stakes are limited to community norms and information quality. For general humanity the post is essentially irrelevant outside the EA community and carries negligible broader impact."
+  },
+  "PostRobustness": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Chilling effect / unclear exceptions for sensitive critiques: The post strongly recommends (almost requires) contacting the target before publishing, but doesn\u2019t clearly carve out cases where contact is harmful or impractical (whistleblowing, harassment, power asymmetries, time-sensitive investigative critiques, or critiques about governance within the Forum itself). Actionable fix: add an explicit paragraph listing clear exceptions (e.g. whistleblowing, credible fear of retaliation, time-critical research, critiques about Forum governance/moderation), and state that contact is recommended but never required. Offer an alternative pathway (anonymized submission or moderator-mediated contact) and a clear instruction that authors may ask mods to coordinate when they fear negative consequences \u2014 with an explicit promise not to force contact or to postpone publication for the subject\u2019s convenience.\n\n2) Right-of-reply process is underspecified and potentially unfair/burdensome: Proposing a right of reply without a concrete workflow risks slowing publication, allowing strategic pre-written rebuttals, and confusing readers about which claims were original vs. responses. Actionable fix: define a concrete timeline and format (for example: critics may offer the target up to 72 hours to post a short right-of-reply comment; if the target doesn\u2019t post within 72 hours the critique is published without their reply but the post should note that a right-of-reply was offered). Specify how replies will be presented (linked comment vs. inline footnote), and recommend length limits for pre-posted responses. This makes the policy predictable and reduces perceived bias.\n\n3) Transparency and moderator conflict-of-interest safeguards: You say moderators can coordinate with subjects and help collect replies, but you don\u2019t address perceptions of favoritism or how those moderator actions will be logged. Actionable fix: commit to publishing a short moderator note on posts where the moderation team coordinated contact or collected responses (e.g., \u201cModerator coordinated with X on DATE; Y comments were provided and posted verbatim\u201d), and require moderators with close ties to the subject to recuse themselves from coordination. This protects trust in moderation and reduces the appearance that moderation privileges established organisations.",
+    "improvement_potential": "The feedback pinpoints three substantive omissions that could produce real harms or appearance-of-bias: lack of clear carve-outs for whistleblowing/power-asymmetric cases (risking chilling or unsafe outcomes), an underspecified right-of-reply workflow (risking delays, gaming, and reader confusion), and no transparency/recusal rules for moderator-mediated coordination (risking perceived favoritism). Addressing these would materially strengthen the post without derailing its tone, and would prevent plausible 'own-goals' the moderators would be embarrassed about if raised later."
+  },
+  "PostAuthorAura": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, defines terms (good vs bad criticism), states moderation policy, and gives concrete, actionable practices \u2014 making it easy to follow and persuasive. It is a bit long and occasionally repetitive, contains a minor typo and some parenthetical asides that interrupt flow, and could be tighter about distinguishing guidance for posts versus comments."
+  },
+  "PostNovelty": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Most of the post\u2019s points (encouraging constructive criticism, contacting subjects, \u2018right of reply\u2019, avoiding heavy-handed moderation unless rules are broken) are standard moderation/journalistic practices and have already been discussed on the Forum. The mildly novel elements are the Forum-specific operational suggestions \u2014 offering moderator coordination, publishing critiques with pre-written replies as dialogues, and explicitly framing these as non-strong norms \u2014 but these are incremental practical refinements rather than original theoretical claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "reasoning_quality": 8,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "The post is logically coherent and well-structured: it defines 'good' vs 'bad' criticism, acknowledges trade-offs (e.g. chilling effects), and gives practical, proportional recommendations (contacting subjects, right of reply, moderation limits). It transparently cites related Forum posts and norms. However, it offers little empirical evidence that the suggested practices produce the claimed benefits or that the costs are manageable\u2014claims rest on plausibility, norms, and prior examples rather than data. It also under-addresses potential power-dynamics, compliance barriers, and measurable outcomes. Overall, the arguments are sensible and pragmatic but only moderately supported by evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "9XXL6DrfdvL6wuJaA",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s factual claims are verifiable and accurate. The EA Forum pages cited (the Forum post itself by Toby Tremlett, the Forum\u2019s Guide to norms, the contact/moderation pages, Lizka\u2019s post on sharing drafts, and the dialogues feature) exist and support the author\u2019s description of moderation practices and recommended critique practices. The claim that Brazil has a constitutional \"right of reply\" is correct (Art. 5.V of Brazil\u2019s Constitution) and is reinforced by case law and a regulatory statute (Law 13.188/2015). Weaknesses: a few statements are internal (e.g., \u201cthe mod team reviewed and commented on this post\u201d) that can only be taken at face value from the post\u2019s byline/author note, and some normative recommendations are not empirical claims to verify. Overall, the post is well-supported by primary Forum policy pages and legal sources.",
+    "sources": [
+      "EA Forum \u2014 'Criticism on the EA Forum' (post by Toby Tremlett).",
+      "EA Forum \u2014 'Guide to norms on the Forum' (moderation policy / strong discussion norms).",
+      "EA Forum \u2014 'Contact us' / 'Who runs the Forum' (forum-moderation@effectivealtruism.org; moderator list).",
+      "EA Forum \u2014 'Productive criticism: running a draft past the people you\u2019re criticizing' (Lizka Vaintrob).",
+      "EA Forum \u2014 'Introducing Dialogues + Donation Debate Week' (dialogues feature described).",
+      "Constitute Project \u2014 Brazil Constitution Art. 5 (English translation showing right of reply in Art. 5, V).",
+      "Supremo Tribunal Federal (STF) decision and reporting \u2014 recognition of right of reply under Brazil\u2019s Constitution (e.g., STF summary / OAB report).",
+      "Brazil Law 13.188/2015 (regulates/right of reply procedures) \u2014 Planalto (official text)."
+    ]
+  }
+}

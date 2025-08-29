@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a warm, anecdotal endorsement of EA conferences that is useful for community cohesion, morale, recruitment, and signalling (all of which can have important downstream effects). It is not a novel argument or evidence-heavy analysis, so it is moderately important within EA (helps retention, networking, and motivation) but has minimal direct significance for the broader public or for high\u2011stakes policy decisions."
+  },
+  "PostRobustness": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Bold quantitative and causal claims lack sourcing or qualification. Action: either add citations and a brief note on how you estimated things like \u201cbillions of shrimp prevented\u201d and \u201cthousands per dollar,\u201d or tone these claims down to qualified language (e.g., \u201corganisations that report preventing X shrimp, according to [source]\u201d or \u201cby some estimates\u2026\u201d). Readers will expect evidence for large numeric claims and counterfactual impact claims. \n\n2) The post reads as an uncritical cheerleading piece and overlooks obvious counterarguments and trade-offs. Action: add a short paragraph acknowledging major, widely\u2011known critiques (selection effects/echo chamber at EA conferences, debates about longtermism and animal moral status, exclusivity/costs of convening) and explain why, despite those concerns, you still view these conferences as valuable. This will preempt predictable pushback and improve credibility. \n\n3) Tone risks alienating skeptical readers and undermining persuasion. Action: moderate hero\u2011worship, reduce hyperbole/self\u2011congratulatory lines, and include at least one concrete, actionable takeaway for readers (e.g., one specific step to convert inspiration into impact, with links). Also consider briefly noting accessibility/cost concerns (who can attend, carbon/opportunity costs) or ways the movement could improve inclusivity \u2014 that will make the post feel more balanced and useful rather than purely celebratory.",
+    "improvement_potential": "The feedback targets the post's main weak points: unsupported large quantitative/causal claims, an uncritically celebratory tone that risks alienating skeptics, and omission of obvious counterarguments (selection effects, longtermism critiques, accessibility). Fixing these is likely to materially improve credibility and persuasiveness without bloating the piece\u2014add brief citations/qualifiers, a sentence acknowledging common critiques, and one concrete next step. These are high\u2011value, low\u2011effort edits; they\u2019re not fatal to the post but would prevent embarrassing 'own goals' (e.g., bold unsourced numbers and unchecked hero\u2011worship)."
+  },
+  "PostAuthorAura": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Pseudonymous/niche online author with a small or occasional presence in EA/rationalist spaces rather than a well-known figure; not a frequent speaker or central community leader and has no notable mainstream/global visibility. Identification is uncertain due to pseudonymity."
+  },
+  "PostClarity": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "clarity_score": 7,
+    "explanation": "The post is generally easy to understand and follows a clear arc\u2014attending the conference, meeting notable people, and a call to action\u2014using vivid anecdotes and accessible language. However, it is somewhat repetitive and effusive, with numerous tangents, parentheticals, and superlative claims that dilute the main points; tightening a few long paragraphs, reducing redundancies, and focusing the call-to-action would make it more concise and compelling."
+  },
+  "PostNovelty": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the post is very familiar \u2014 conference writeups, community praise, and calls to take high\u2011impact careers/giving are common. The personal anecdotes (meeting well\u2011known EAs) and advocacy for neglected causes (shrimp/insect welfare, wild animal suffering) are not new to that audience. For the general public it\u2019s somewhat more novel because the scale and focus on shrimp/insect welfare and the idea of a dedicated community doing that work may be surprising, but the overall themes (inspiring activist community, urging donations/career choices) are mainstream and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post is a well-structured, persuasive personal testimonial: it gives clear claims, anecdotes, and a coherent argument that EA conferences are inspiring and signal a committed community. However its reasoning relies heavily on anecdote, appeals to authority and emotion, and contains hasty generalizations (e.g. treating a single conference and a set of encounters as representative). The empirical claims about impact (billions of shrimp helped, lives saved) are stated without robust, contextualized evidence or counterfactuals, and there is no systematic data on conference outcomes, representativeness, or cost-effectiveness. Strengths: vivid examples, credible actors cited, motivational framing. Weaknesses: selection bias, lack of rigorous evidence, and few acknowledgements of limitations or alternative explanations."
+  },
+  "PostExternalValidation": {
+    "post_id": "rZKqrRQGesLctkz8d",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s empirical claims are verifiable and largely accurate. Key factual claims \u2014 the existence and EA\u2011community roots of the Shrimp Welfare Project and its co\u2011founders Aaron Boddy and Andr\u00e9s Jim\u00e9nez Zorrilla, the organisation\u2019s cost\u2011effectiveness claims (\u22481,300\u20131,500 shrimps helped per US$), and its 2023 Animal Charity Evaluators recommendation \u2014 are supported by primary sources (Shrimp Welfare Project website, Charity Entrepreneurship, ACE review). Claims about EA conferences (EA Global: London), prominent attendees (Will MacAskill), and attendees/communities are supported by Centre for Effective Altruism / EA event pages and public profiles. Large\u2011scale animal statistics cited in the post are consistent with authoritative work: ~80+ billion land animals slaughtered annually (Our World in Data), farmed fish in the 10^10\u201310^11 range and wild\u2011caught finfish in the 10^12 (trillions) range (peer\u2011reviewed estimates by Mood & Brooke et al.), and global under\u20115 child deaths in the tens of thousands per day (~13,100/day in 2023; UNICEF). GiveWell\u2019s impact accounting supports the claim that EA\u2011guided giving has plausibly saved on the order of hundreds of thousands of lives when aggregated over time. Weaknesses / caveats: some language in the post is rhetorical/exaggerative (e.g., \u201cbillions of shrimp \u2026 prevented\u201d \u2014 SWP models suggest ~1 billion shrimps helped per year in some scenarios, and their dollars\u2011per\u2011shrimp estimates depend on modelling choices and assumptions), and statements that mix normative claims with empirical ones (e.g., \u201cresponsible for\u2026 safeguarding the future\u201d) are not strictly verifiable. Overall: most major empirical claims are supported by reliable sources, with a few plausible exaggerations and model\u2011dependent numbers.",
+    "sources": [
+      "Shrimp Welfare Project \u2014 official site (shrimpwelfareproject.org) (SWP team, impact claims and '~1,500 shrimps per $' figure).",
+      "Charity Entrepreneurship \u2014 Shrimp Welfare Project incubation page (CharityEntrepreneurship.com) (cost\u2011effectiveness estimates ~1,333 shrimps per $; fundraising figures).",
+      "Animal Charity Evaluators \u2014 Shrimp Welfare Project review & recommended charity page (animalcharityevaluators.org).",
+      "Centre for Effective Altruism \u2014 EA Global: London event pages and EA events reports (effectivealtruism.org).",
+      "Will MacAskill profile \u2014 EffectiveAltruism.org / public biography (co\u2011founder roles: 80,000 Hours, Giving What We Can, CEA).",
+      "UNICEF Data \u2014 'Child survival / Under\u2011five mortality' (UNICEF DATA; 2023: ~4.8 million under\u20115 deaths \u2192 \u224813,100/day).",
+      "GiveWell \u2014 'How We Produce Impact Estimates' / impact summaries (GiveWell; lifetime estimates of lives saved by GiveWell\u2011directed donations: on the order of 2\u00d710^5\u20133\u00d710^5).",
+      "Our World in Data \u2014 'More than 80 billion land animals are slaughtered for meat every year' (OWID, FAO\u2011based analysis).",
+      "Mood & Brooke et al. 2024 \u2014 'Estimating global numbers of fishes caught from the wild annually' (peer\u2011reviewed paper; estimates ~1.1\u20132.2 trillion wild finfishes caught annually).",
+      "Estimates of farmed finfish killed annually \u2014 peer\u2011reviewed review (PMC article estimating ~7.8\u00d710^10 to 1.71\u00d710^11 farmed finfishes in 2019).",
+      "Anima International \u2014 2024 'In review' / campaign pages (examples of cage\u2011free commitments and progress).",
+      "Humane Hancock (Jack Hancock) \u2014 public channel/podcast listings and Wild Animal Suffering content (YouTube/related listings; 'Humane Hancock' materials).",
+      "Looking Glass Universe (Mithuna) \u2014 public profile / channel statistics (Looking Glass Universe; SocialBlade / New Scientist speaker page confirming large subscriber base)."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a light community-organizing/social post about reviving EA-focused dating resources. It has modest value for the EA/rationalist community (could aid social cohesion, retention, and wellbeing), but it's not foundational to EA causes, strategy, or key decisions. It is trivial for general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be specific about scope and audience. Right now it\u2019s an open prompt \u2014 readers don\u2019t know whether you mean \"all people who identify with EA\", \"EA-adjacent\", a particular region, or a particular relationship format (casual hookups, long-term dating, friends-to-more). Add 1\u20132 sentences saying who the initiative would serve, what problem it solves, and what success looks like (e.g. \"help EA-identifying people in London meet for dates/events,\" or \"a safe, opt\u2011in matchmaking spreadsheet for long\u2011term relationships\").\n\n2) Address safety, privacy, and reputational risks up front. Dating initiatives can create harassment, doxxing, or legal issues; readers will want to know how you\u2019d handle screening, moderation, reporting, and data retention. Briefly propose a privacy\u2011first approach (opt\u2011in, minimal profile fields, volunteer moderators, clear code of conduct, reporting mechanism) or ask for people with moderation/Legal/HR experience to help.\n\n3) Give concrete next steps and a call to action. Instead of a generic \"pick this up,\" state one small, concrete ask: e.g. \"If you want to help relaunch, reply with which role you can take (platform choice, moderation, outreach), or DM me; I\u2019ll create a 1\u2011page proposal by X date.\" Optionally link to the outdated spreadsheet/group (or ask for the link) so volunteers can evaluate what to reuse. This makes it much easier for people to actually volunteer.",
+    "improvement_potential": "The feedback correctly flags the post\u2019s three biggest weaknesses: vague audience/scope, not addressing safety/privacy/reputational risks, and lacking a clear, small call to action. These are actionable, high-impact fixes that can be implemented with only a couple of extra sentences and would greatly increase the chance of useful responses and reduce community risk. They therefore identify likely embarrassing omissions (especially around safety) and substantially improve the post without undue lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name 'Ad' (possibly a pseudonym) is too vague and yields no identifiable author, publications, or presence in EA/rationalist networks or the broader public. If you can supply a full name, sample works, or links, I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "clarity_score": 8,
+    "explanation": "The post is short, direct and easy to understand\u2014it clearly asks whether the EA dating Facebook group/spreadsheet still exists and whether anyone will revive it. Weaknesses: it lacks context or links (which spreadsheet/group, when it was active), and doesn't specify what 'pick this up again' would involve, so readers may need to ask follow\u2011ups."
+  },
+  "PostNovelty": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is a straightforward community-organizing question about reviving an EA dating group/spreadsheet. EA readers have likely seen similar posts and initiatives within the community before, so it\u2019s not a new idea. To the general public it\u2019s even less novel \u2014 many communities run dating groups or spreadsheets and people commonly suggest rebooting them."
+  },
+  "PostInferentialSupport": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post is essentially a brief question/prompt rather than an argument: it offers no structured reasoning, claims, or analysis about why EA dating declined or why it should be revived. It provides only a vague assertion that a Facebook group and a spreadsheet existed, with no links, dates, user counts, or other corroborating details. Because there is no developed argument and no empirical evidence, the post provides no meaningful support for any substantive thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "agZPQh9wsWbvyd99C",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post's empirical claims are well-supported: an EA 'dating' spreadsheet exists (public Google Sheet linked from an EA Forum post) and that spreadsheet explicitly references an \"Effective Dating\" Facebook group. EA community discussion also documents earlier attempts (e.g. reciprocity.io) to build EA-specific matchmaking. Weaknesses: the poster's claim that the spreadsheet \u201clooks very out of date\u201d is subjective \u2014 the sheet was created in 2022 and has some later entries/comments but I cannot determine active maintenance or current activity of the Facebook group without Facebook access. Overall, primary community sources confirm the key factual points.",
+    "sources": [
+      "EA Forum \u2014 \"EA Dating Spreadsheet: see EA dating profiles\" (Kat Woods, 21 Sep 2022). Link to post and embedded Google Sheet: https://ea.greaterwrong.com/posts/GHd8vyC3qAX5spdpG/ea-dating-spreadsheet-see-ea-dating-profiles",
+      "EA Dating Spreadsheet \u2014 Google Sheets (public sheet linked from the EA Forum post; includes explicit line: \"Effective Dating Facebook group\"): https://docs.google.com/spreadsheets/d/1oL25vc5Feg94flPPCO03ujijRvyHffxt0qnI7rU8rdg/edit",
+      "EA Forum \u2014 \"Should we think more about EA dating?\" (discussion thread referencing reciprocity.io and EA dating efforts, Jul 25 2020): https://forum.effectivealtruism.org/posts/7vMb3RqAXezEjuqq4/should-we-think-more-about-ea-dating",
+      "EA Forum \u2014 \"What would you desire in an EA dating site?\" (mentions effectivealtruism.dating domain pointing to a matchmaking spreadsheet and a Facebook group called \"Effective Dating\"): https://forum.effectivealtruism.org/posts/atwsMvS8HXaW4QX2h/what-would-you-desire-in-an-ea-dating-site",
+      "Reciprocity Community (Medium) \u2014 post-mortem and product updates describing Reciprocity (reciprocity.io) and its use as a community matching tool (context on earlier EA adoption and limited scale): https://medium.com/reciprocity-community-blog/post-mortem-reciprocitys-ask-offer-matching-app-1b0cd95ca74b",
+      "Centre for Effective Altruism \u2014 EA Groups Resource Centre (lists EA Facebook groups such as EA Hangouts and documents use of Facebook groups for community coordination): https://sites.google.com/centreforeffectivealtruism.org/ea-groups-resources/support-and-funding-for-groups/connecting-with-the-broader-ea-community-and-keeping-up-to-date"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a practical, well-documented firsthand case study about turning a side project into a funded meta-charity in farmed animal advocacy. Its lessons (MVPs, measuring lead/lag indicators, fundraising relationships, co-founder fit, scope control) are useful and transferable to many early-stage EA / movement\u2011building projects, so it meaningfully influences decisions for people starting nonprofits or community initiatives. It is nonetheless anecdotal and operational rather than theoretical or foundational for EA priorities (e.g., longtermism, AI safety), so it isn\u2019t load\u2011bearing for the broader EA worldview. For general humanity the impact is modest \u2014 helpful for animal-advocacy practitioners but limited in scope and scale."
+  },
+  "PostRobustness": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak / non\u2011transparent impact measurement and attribution. You repeat headline metrics (\"80+ high\u2011impact outcomes\", jobs found, \"most impactful program\") but don\u2019t define what counts as an outcome, how you attribute causation to Hive (vs. counterfactuals / existing networks), or show timeframes and denominators. Actionable fixes: add one sentence defining outcome categories and the attribution rule you used (e.g. self\u2011reported where Hive was the proximate cause vs. speculative), state the period covered, and briefly describe any steps you took to verify outcomes (followups, referees, screenshots, Airtable schema). If you can\u2019t make it rigorous, say so and frame the numbers as preliminary / self\u2011reported.\n\n2) Overconfident claims and survivorship/selection bias. Claims like \u201c70% of active farmed animal advocates in the West are on Hive\u201d and the general narrative that Hive was the clear missing piece are strong and likely to invite pushback. Actionable fixes: either remove or soften those claims (e.g. \"a large share of the professional/connected Western network\"), add the source or method for the 70% estimate, and acknowledge selection effects (people who join a Slack are already motivated). Where you use anecdotes as evidence, flag them as illustrative rather than representative.\n\n3) Missing discussion of major risks and scalability challenges. You acknowledge time costs, but you underplay other plausible counterarguments readers will expect: risks of dependence on a few funders or founders, moderation/community harms, governance/succession planning, and the nontrivial challenges of international expansion (localization, language, safety, differing advocacy norms). Actionable fixes: add a short \"Key risks / unresolved questions\" paragraph (3\u20134 bullets) that briefly names these failure modes and one line on how you\u2019re mitigating each (e.g. diversify funding, build local ambassadors, formalize governance, track negative incidents), or explicitly invite feedback from folks with regional experience.",
+    "improvement_potential": "Targets three high-impact credibility problems (unclear outcome definitions/attribution, an unsupported 70% claim/selection bias, and missing key risks/scalability issues). These are plausible 'own goals' that would invite pushback and are fixable with a few sentences or a short risks paragraph, so implementing them materially improves the post without bloating it."
+  },
+  "PostAuthorAura": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence in my training data as a known EA/rationalist contributor or speaker. The name (possibly a pseudonym) does not match recognized authors, academics, or public intellectuals; appears to have at most a limited or anonymous online presence. If you provide links or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and highly comprehensible: clear headings, step-by-step framing (identify problem \u2192 test \u2192 fund \u2192 scale), concrete examples, metrics, and practical tips make the story and advice easy to follow. It\u2019s persuasive and user-friendly for the intended audience. Weaknesses: occasional repetition, a few small outdated/parenthetical edits, and a rather long Q&A that could be tightened for greater conciseness and punch. Overall very readable and useful for early-stage charity builders."
+  },
+  "PostNovelty": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the content is practical founder/startup advice (MVP, test quickly, find co\u2011founder, track lead/lag indicators, start part\u2011time, build funder relationships, avoid scope creep) that is very familiar to EA Forum readers and the broader startup/nonprofit community. The only mildly novel elements are the specific application to meta farmed\u2011animal advocacy (Hive\u2019s Slack/newsletter model, concrete outcome counts, seed path from $250 to $30k and later funders) and some tactical bits (ambassador push for global South), but these are implementation details rather than new conceptual ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured and logically coherent \u2014 it presents a clear, stepwise playbook (identify a narrow problem, test quickly, build an MVP, recruit co\u2011founders, measure lead/lag indicators, fundraise, decide when to commit) and repeatedly caveats limits and tradeoffs. The author provides plausible heuristics grounded in their experience and gives concrete operational advice (e.g. tracking outcomes, hiring/volunteer strategy, stopping rules). \n\nWeaknesses: The empirical support is largely self\u2011reported, anecdotal, and limited to a single case. Metrics (subscribers, Slack members, \u201c80+ high\u2011impact outcomes\u201d, seed amounts, funders) increase credibility but lack methodological detail (how outcomes are defined/verified, counterfactuals, attribution, denominator/context). Claims about impact, saturation, and generalisability are not backed by comparative data or independent evaluation. Selection and survivorship bias are not addressed. \n\nBottom line: The reasoning is solid for offering practical, experience\u2011based advice; the evidence supports that Hive achieved concrete results but is insufficient to strongly validate causal claims or to generalize the pathway as reliably replicable across contexts."
+  },
+  "PostExternalValidation": {
+    "post_id": "4qsjWrHDpyQLRfJB4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major, checkable claims are well-supported by public primary sources. Hive\u2019s audience and program metrics (Slack membership ~3k\u20133.5k, newsletter ~2.8\u20133.3k subscribers, bi\u2011weekly newsletter, Slack weekly/Monthly Active User figures), counts of logged high\u2011impact outcomes in 2024 (60\u201389 depending on updates), team size (\u22483.5 paid FTE / 4.5 FTE budgeted), rebrand timeline, and major funders (Open Philanthropy, EA Animal Welfare Fund / EA Funds, Navigation Fund) are corroborated by Hive\u2019s website and EA Forum posts and by independent funder pages (Open Phil grant pages and EA Funds payout reports). The statement that Constance spun out \u201cAI for Animals\u201d (rebranding to Sentient Futures) is supported by Constance\u2019s public profiles and the AI for Animals / Sentient Futures materials. However, a few items are author self\u2011reports or internal estimates and lack independent verification: the claim that Hive \u201craised only $250 in the first year\u201d and the specific seed amount attributed to Constance (\"$30K + backstop\") are asserted by the author but not corroborated by third\u2011party grant records I could find; the \u201c~70% of active farmed animal advocates in the West are on Hive\u201d figure appears to be Hive\u2019s internal saturation estimate rather than a measure derived from an independent census of \u2018active farmed animal advocates\u2019 and so is not externally verifiable. Overall: strong corroboration for the main operational, funding, and impact\u2011tracking claims, but a handful of founder\u2011level anecdotes/estimates are unverified externally.",
+    "sources": [
+      "Hive \u2014 Our Impact (joinhive.org) (Our Impact / Apr 2025 statistics & published Year-in-Review)",
+      "Hive \u2014 Who We Are / History (joinhive.org) (timeline: newsletter launch, Slack launch, rebrand, funder mentions)",
+      "Hive \u2014 'Funding Community Building in Farmed Animal Advocacy' / 'How We Are Funded' (joinhive.org blog posts listing funders and budget/FTE figures)",
+      "EA Forum \u2014 'From a Side Project to a Funded Organisation: My Story and What I\u2019ve Learned' (Sofia Balderson keynote post) (the post being evaluated)",
+      "EA Forum \u2014 'Hive: 2024 Achievements, Current Funding Situation, and Plans' (Hive\u2019s EA Forum update with 2024 metrics and HIO totals)",
+      "Open Philanthropy \u2014 Hive general support grants (Open Phil grant pages: Impactful Animal Advocacy / Hive grants; e.g., $100,000 (Jan 2024) and $250,000 (Jan 2025) entries)",
+      "Effective Altruism Funds (Animal Welfare Fund) \u2014 payout reports (lists Impactful Animal Advocacy / Hive as a grantee, ~ $100k grant in 2024\u20132025 reports)",
+      "AI for Animals / Sentient Futures website and Constance Li EA Forum profile (evidence AI for Animals spun out / rebranded; Constance listed as founder / Exec Director)"
+    ]
+  }
+}

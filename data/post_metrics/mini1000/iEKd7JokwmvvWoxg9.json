@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This post is a useful, actionable meta-assessment for the EA/AI-safety community: it flags that a widely-cited expert-survey (Schuett et al. 2023) does show broad agreement on lab safety practices but also has important limits (sampling/statement selection bias, and agreement-in-principle vs implementation). That makes the post moderately important for EA readers deciding how much weight to give the paper in policy or research prioritization, and for shaping better follow-up work. For general humanity the piece is of minor importance \u2014 it may indirectly affect governance debates, but it is not foundational or directly impactful for most people."
+  },
+  "PostRobustness": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstated claim of \u201cbroad consensus\u201d without enough supporting detail. The post opens with a strong claim but doesn\u2019t provide the core evidence (e.g. key agreement rates, respondent demographics, response rates, how statements were selected). Given you also report sampling/selection-bias concerns, readers will see an own-goal: you both assert consensus and list reasons that could overturn it. Actionable fix: either (a) tone down the headline claim to reflect uncertainty, or (b) include the most important summary statistics (percent agreement, sample size, respondent types, response rate) and a brief note about how those stats interact with the sampling/statement-selection limits.\n\n2) Insufficient transparency about Unjournal\u2019s evaluation methods and evaluator backgrounds. You cite \u2018\u2018two evaluations\u2019\u2019 and summarize their caveats, but don\u2019t say who the evaluators are, what criteria or rubric they used, whether they had conflicts of interest, or how they reconciled disagreements. This makes it hard for readers to judge the credibility of your take. Actionable fix: add one sentence stating each evaluator\u2019s relevant expertise/affiliation (or a link to bios), the rubric/questions used, and whether ratings were independent or discussed. If space is tight, add a single linked appendix with that info.\n\n3) Weak connection between identified limitations and practical implications. The post lists reasonable caveats (sampling bias, abstract vs implementation) but doesn\u2019t say how these limitations should change the way policymakers or researchers use the paper. Actionable fix: add 1\u20132 concrete recommendations (e.g., \u201cdon\u2019t use this as definitive evidence of industry-wide practice; use it to prioritize follow-up work such as representative sampling, replication with non-safety-aligned respondents, or field studies measuring implementation/feasibility\u201d) so readers understand what to do next rather than only what\u2019s wrong.",
+    "improvement_potential": "This feedback targets genuine, high-impact weaknesses: the own-goal of claiming a 'broad consensus' while flagging sampling/selection bias, lack of evaluator transparency that undermines credibility, and the absence of concrete guidance tying caveats to practical next steps. The recommendations are specific and actionable and wouldn\u2019t bloat the post much. It\u2019s not a 10 because the paper\u2019s headline claim may still be defensible depending on the underlying numbers (so the thesis isn\u2019t provably wrong yet), and the post already notes some caveats \u2014 but failing to reconcile those caveats with the strong opening is a major omission that this feedback correctly calls out."
+  },
+  "PostAuthorAura": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that Lorenzo Pacchiardi is a recognized figure in the EA/rationalist community (not a regular author, speaker, or cited contributor) nor that they have a notable public profile more broadly. Likely a private individual or a pseudonym with little-to-no public presence."
+  },
+  "PostClarity": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "clarity_score": 8,
+    "explanation": "Generally clear and well-structured: the post states its purpose, summarizes main findings (broad expert consensus), lists key caveats, and points readers to full evaluations and related work. Strengths include concrete examples/quotes and helpful links. Weaknesses are minor: a few typos/formatting issues (e.g., \"should should\", stray asterisks), slight promotional wording at the end, and limited specificity about the scope/size of the consensus\u2014more detail on methods or key quantitative results would improve precision."
+  },
+  "PostNovelty": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the post is not very novel: it mostly applies familiar critiques (sampling/selection bias, agreement-in-principle vs implementation, limits of survey interpretation) to an AGI-safety survey. The main somewhat new element is the Unjournal-style formal evaluation package and their claim of systematic coverage of influential papers. To the general public this is modestly more novel because many non\u2011specialists are less likely to have seen expert\u2011consensus surveys on AGI safety or structured third\u2011party evaluations, but the substantive points remain fairly standard methodological caveats."
+  },
+  "PostInferentialSupport": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post accurately reports a published survey finding of broad expert agreement and transparently notes major caveats (sampling/selection bias, statement classification, and abstract agreement vs real-world implementation). It also cites two independent evaluators and related work, which lends credibility. Weaknesses: The post is a high-level summary that presents little empirical detail (no sample composition, response rates, or item-level statistics) and does not resolve key biases it highlights. The claim of \"broad consensus\" therefore rests on a single survey with potential sampling and framing issues; agreement in principle may not translate to implementable practice. Overall, the reasoning is reasonable and appropriately cautious, but the empirical support as presented is moderate rather than strong."
+  },
+  "PostExternalValidation": {
+    "post_id": "iEKd7JokwmvvWoxg9",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well-supported and verifiable. The Schuett et al. (2023) paper does report broad expert agreement (51 responses to 50 statements; many items ~98% agreement on key practices), and The Unjournal did organize two evaluations that both rated the paper positively while calling out sampling bias, classification/interpretation issues, and the gap between abstract agreement and real-world implementation \u2014 all of which are explicitly documented in the Unjournal evaluation pages. The referenced SSRN paper (abstract_id=5021463) exists and is thematically related. The only item I could not confirm precisely is the numeric claim about The Unjournal having \u201cpublished 37 evaluation packages (and 20 are in progress)\u201d \u2014 The Unjournal clearly hosts many evaluation packages, but I could not verify those exact counts from public pages (counts change over time), so I docked a couple points for that unverified numeric claim.",
+    "sources": [
+      "arXiv: 'Towards best practices in AGI safety and governance: A survey of expert opinion' \u2014 Jonas Schuett et al., arXiv:2305.07153 (May 11, 2023).",
+      "GovAI blog post summarizing the survey: 'New Survey: Broad Expert Consensus for Many AGI Safety and Governance Practices' (GovAI, June 5, 2023).",
+      "The Unjournal \u2014 Evaluation Summary and Metrics: 'Towards best practices in AGI safety and governance: A survey of expert opinion' (PubPub; Evaluation summary & Release #1/#2; June 3, 2025).",
+      "The Unjournal \u2014 Evaluation 1 page (Evaluator 1) for the Schuett et al. paper (PubPub).",
+      "The Unjournal \u2014 Evaluation 2 page (Evaluator 2; applied stream) for the Schuett et al. paper (PubPub).",
+      "SSRN: 'Effective Mitigations for Systemic Risks from General-Purpose AI' (SSRN abstract_id=5021463; Uuk et al., posted Jan 8, 2025) \u2014 cited by The Unjournal as related work.",
+      "The Unjournal homepage / completed evaluation index (unjournal.org and unjournal.pubpub.org) \u2014 shows many evaluation packages though exact counts vary over time."
+    ]
+  }
+}

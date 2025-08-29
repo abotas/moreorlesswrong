@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "This is an operational volunteer/recruitment post rather than a substantive argument. It is useful to EA/AI-safety people who want to do outreach and could modestly help build public awareness and political support for AI safety (so some practical value), but it is not load-bearing for EA theory or strategy. Its direct impact on general humanity is limited unless the campaign reaches a very large audience or shapes major policy outcomes. Verify the organization's credibility before engaging."
+  },
+  "PostRobustness": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Lack of credibility/transparency \u2014 The post gives no information about who runs the AI Safety Awareness Foundation, prior experience, funding, or evidence that your workshops work. EA readers will reasonably treat this as a red flag. Actionable fixes: add brief bios for founders/lead organizers, list past events and attendance/impact metrics (or say this is your first national effort), disclose funding sources and major partners, and link to any sample materials or post\u2011event evaluations.\n\n2) Unclear curriculum, framing, and quality control \u2014 Saying facilitators need \u201cno prior AI knowledge\u201d without describing training or the workshop\u2019s learning objectives risks misinformation and inconsistent messaging across cities. Actionable fixes: include a one\u2011paragraph learning objective for attendees, link to a sample slide deck or facilitator guide, state how long facilitator training is, what QA you\u2019ll use (e.g., recorded pilot sessions, trainer observation, central review), and whether there is a defined stance on policy recommendations (or an explicit neutrality policy).\n\n3) Insufficient consideration of partner/community safeguards and accessibility \u2014 Reaching marginalized groups and institutions is positive, but the post doesn\u2019t address cultural competence, compensation, accessibility, or data/privacy concerns. Actionable fixes: state whether you will compensate partner organizations or facilitators, outline steps to ensure workshops are accessible (language, disability accommodations, childcare, timing), describe how you\u2019ll approach outreach to marginalized communities ethically, and include a code of conduct and basic safety/privacy policy for attendees and volunteers.",
+    "improvement_potential": "The feedback correctly flags high\u2011impact omissions that EA readers would view as red flags (no leadership/funding transparency, no curriculum or QA, and no plan for accessibility/ethical outreach). These are actionable fixes that would likely prevent \u2018own goals\u2019 (misinformation, reputational risk, wasted volunteer effort). It stops short of perfection \u2014 it could also call out legal/liability issues, evaluation metrics to demonstrate impact, and risks of politicization/advocacy framing \u2014 but as written it would substantially improve the post without unreasonable extra length."
+  },
+  "PostAuthorAura": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that 'NoahCWilson\ud83d\udd38' is a recognized figure in the EA/rationalist community or in wider public discourse. The name/handle does not appear as a frequent author on EA Forum, LessWrong, 80,000 Hours, OpenPhil, or in academic citation databases and there are no signs of mainstream media coverage. Likely a pseudonymous or very minor online identity with little to no public prominence."
+  },
+  "PostClarity": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to read: clear purpose, stated beliefs, numbered volunteer roles, a concrete event date, and multiple clear calls to action. Minor weaknesses: a few small omissions (no year for the April 27 date, lack of time/commitment expectations and facilitator prerequisites), slight repetition of contact/sign-up links, and limited detail about organizer credibility \u2014 these reduce completeness but not overall clarity."
+  },
+  "PostNovelty": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a straightforward volunteer/recruitment announcement for public outreach \u2014 a very common type of post on the EA Forum. The substantive claims (educate the public, workshops, need for policy/action) are widely discussed in EA and public-policy circles. The only mildly distinctive features are the plan for a synchronized nationwide workshop day and explicit emphasis on partnering with diverse local institutions and letting volunteers adapt materials, but these are incremental variations on well\u2011known outreach tactics rather than novel ideas or arguments."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post states a clear, plausible thesis (informed public improves AI policy) and lays out concrete, actionable volunteer roles and an organized event plan. Arguments are straightforward and internally consistent. Weaknesses: It provides no empirical evidence or citations to support the central claims (that public education leads to better legislation, that workshops will meaningfully change opinions or policy, or that AI will harm a majority absent safeguards). There are no past-impact metrics, evaluation plans, or details about curriculum/targeting. Overall the idea is reasonable and operationalized, but weakly supported by evidence and outcome measurement."
+  },
+  "PostExternalValidation": {
+    "post_id": "hRxYwNg5SiASym4ym",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are verifiable: the AI Safety Awareness Foundation/Project runs a public website, lists many in\u2011person workshops across U.S. cities, advertised a nationwide multi\u2011city Workshop Day on April 27, 2025, provides a contact email (info@aisafetyawarenessfoundation.org), and publishes volunteer / mailing\u2011list Google Forms. These items are documented on the organization's site and in the EA/GreaterWrong post. Weaknesses: the post's phrasing that workshops are held \u201cin every major city around the country\u201d is an overstatement (the site lists many cities but not literally every major U.S. city), and publicly accessible independent verification of attendance numbers or that every listed local workshop actually ran (vs. being planned) is limited or requires platform logins (Meetup/Eventbrite/library pages).",
+    "sources": [
+      "AI Safety Awareness Project \u2014 Home / Workshops (aisafetyawarenessfoundation.org) (site main page). ([aisafetyawarenessfoundation.org](https://aisafetyawarenessfoundation.org/))",
+      "AI Safety Awareness Project \u2014 AI Safety Workshops on Apr 27th, 2025 (aisafetyawarenessfoundation.org). ([aisafetyawarenessfoundation.org](https://aisafetyawarenessfoundation.org/workshops/usa-workshop-day-apr-2025/?utm_source=chatgpt.com))",
+      "AI Safety Awareness Project \u2014 Example local location page: Apr 27th Irvine (aisafetyawarenessfoundation.org). ([aisafetyawarenessfoundation.org](https://aisafetyawarenessfoundation.org/workshopday-specific-locations/april-2025/irvine/?utm_source=chatgpt.com))",
+      "AI Safety Awareness Project \u2014 Example local location page: Apr 27th Washington, D.C. (aisafetyawarenessproject.org). ([aisafetyawarenessproject.org](https://aisafetyawarenessproject.org/workshopday-specific-locations/april-2025/washington-dc/?utm_source=chatgpt.com))",
+      "AI Safety Awareness Project \u2014 Our Workshops (list of past/upcoming events) (aisafetyawarenessfoundation.org). ([aisafetyawarenessfoundation.org](https://aisafetyawarenessfoundation.org/workshops/?utm_source=chatgpt.com))",
+      "Workshop volunteer sign-up Google Form (AI Safety Workshop) \u2014 Google Forms (shows form fields for volunteering). ([docs.google.com](https://docs.google.com/forms/d/e/1FAIpQLSeBZ63sBHRUUhQpRdIB_7iptnGZY-KZ4gnMwsKidPfY0oP0yQ/viewform))",
+      "Mailing list Google Form (AI Safety Awareness Foundation) \u2014 Google Forms (mailing-list form). ([docs.google.com](https://docs.google.com/forms/d/1OxflMSeoBUls4CBSITT_oYB8sOF93EiEnB8GSrT1m00/viewform?edit_requested=true))",
+      "EA / GreaterWrong (Effective Altruism forum) post by NoahCWilson announcing the Apr 27 workshop series. ([ea.greaterwrong.com](https://ea.greaterwrong.com/posts/yeRLNhsu5BMMRqdN4/ai-safety-workshop-series-april-27?comments=false&hide-nav-bars=true&utm_source=chatgpt.com), [forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/hRxYwNg5SiASym4ym/volunteer-opportunities-with-the-ai-safety-awareness?utm_source=chatgpt.com))"
+    ]
+  }
+}

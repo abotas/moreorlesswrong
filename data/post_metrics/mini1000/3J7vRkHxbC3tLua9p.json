@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "Useful, practical career guidance for people in or entering EA-related ops roles. If widely used it could modestly increase EA organisations' effectiveness by channeling talent into high-impact operations jobs, so it would influence several important career decisions but is not foundational to EA or safety research. For general humanity the post is of minor relevance \u2014 helpful to a small group of job-seekers but not materially important at large scale."
+  },
+  "PostRobustness": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Missing concrete, actionable decision rules for finding \"the most impactful roles.\" The post repeatedly says ops can be very impactful but doesn\u2019t give readers concrete heuristics to judge a specific org/role. Add a short checklist or decision framework (3\u20136 items) readers can use in screening roles: e.g. size of budget/people the role influences, direct control over resources/processes, measurability of outputs, alignment with high-impact cause areas, indicators of rapid experimentation and outcome-tracking. Include 4\u20136 sample interview questions and 3 employer red flags. This keeps length down but makes the claim usable.\n\n2) Lack of evidence or concrete examples linking ops work to measurable impact. To avoid the impression this is just intuition, add 1\u20132 brief case studies (100\u2013200 words each) showing how specific ops changes produced concrete outcomes (cost savings reallocated to programs, faster deployment of interventions, measurable improvements in beneficiary reach, etc.), or cite relevant post-mortems/research. Even a single quantitative example strengthens the central claim without adding much length.\n\n3) Under\u2011addressed counterarguments and career risks. The guide says ops varies enormously but doesn\u2019t discuss common downsides (being stuck in low-leverage admin roles, low skill transferability to policy/research/technical tracks, relative leverage compared to other career paths). Add a short section (3\u20134 bullet points) summarizing plausible skeptical views and recommended mitigation strategies (how to select roles that build transferable skills, ways to avoid being pigeonholed, when to prefer other tracks). This will head off obvious objections and make the guidance more trustworthy.",
+    "improvement_potential": "Solid, actionable critique: it correctly spots that the guide is high-level and would benefit from (a) concrete heuristics for screening ops roles, (b) brief quantitative or case-study evidence linking ops work to impact, and (c) acknowledgement of common downsides and mitigation strategies. These are not fatal errors but are important for credibility and usefulness; implementing them would materially improve the post without much extra length."
+  },
+  "PostAuthorAura": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No clear or widely recognized person/pen-name 'Probably Good' in EA or rationalist communities or in broader public discourse based on available information. Likely a pseudonymous/low-profile online handle; please provide links or more context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured, and easy to understand \u2014 a clear announcement with a short bullet list of what the guide covers and a direct link. It could be slightly more compelling by summarizing one or two key takeaways or the target audience to give readers a stronger hook and more context before they click through."
+  },
+  "PostNovelty": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers the post is not very novel \u2014 EA community members and career-advice consumers already frequently discuss operations roles, their impact in mission-driven orgs, and how to get relevant experience. The guide\u2019s framing and practical checklist are useful but familiar. For the general public it\u2019s slightly more novel because emphasising operations as a high\u2011impact career in cause\u2011focused organisations is less common outside impact-focused circles, but overall it\u2019s still a fairly standard career\u2011advice product."
+  },
+  "PostInferentialSupport": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post as given is a short promotional summary that asserts a plausible thesis (operations professionals can substantially improve organizational functioning) but does not present arguments or evidence. Strengths: the claim is reasonable and the post outlines topics the full guide will cover, which suggests the author intends to provide reasoning. Weaknesses: the post contains no substantive logical development, no examples, no data, and no citations, so there is effectively no support in the text supplied. A proper evaluation would require reading the linked guide; based only on this forum post, reasoning and empirical support are minimal."
+  },
+  "PostExternalValidation": {
+    "post_id": "3J7vRkHxbC3tLua9p",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's major empirical claims are well-supported by external evidence. The Probably Good article exists and its central claims \u2014 (a) operations work covers a wide, variable set of tasks, (b) skilled operations staff can substantially improve organizational performance by removing bottlenecks and reducing risks, and (c) the scale of impact depends heavily on which organization and cause area you work in \u2014 are backed by management and nonprofit literature (process-improvement/TOC/Six Sigma, nonprofit risk-management and audit best-practices) and by EA career guidance (80,000 Hours). Recommended training/resourcing examples (BlueDot AI Safety operations offering; Impact Ops fellowships; PMI KICKOFF; Udemy-type courses) are real or have clear public equivalents. Main caveats: (1) most claims are qualitative and normative rather than precise quantitative statements, so there isn\u2019t a single definitive empirical estimate of \u201chow much\u201d impact an operations person produces; (2) the claim that the report is the result of a \u201csignificant investigation\u201d is a self-report and cannot be fully verified from outside without their research notes; and (3) some performance-difference claims (e.g., \u201csubstantial difference between best and average ops professionals\u201d) are supported by general studies showing large variance among high performers, but direct, role-specific quantitative multipliers for ops roles are sparse.",
+    "sources": [
+      "Probably Good \u2014 'Operations as a High-Impact Career Path' (probablygood.org/career-profiles/operations/)",
+      "Project Management Institute (PMI) \u2014 'KICKOFF' free project management course (pmi.org / KICKOFF)",
+      "BlueDot Impact \u2014 AI Safety / AI Safety Operations bootcamp and course pages (bluedot.org / AI Safety Fundamentals)",
+      "Impact Ops \u2014 organisation and fellowship/internship pages (impact-ops.org)",
+      "BoardEffect \u2014 'The Importance of Risk Management for Nonprofits' (boardeffect.com blog)",
+      "Plante Moran \u2014 'Common risks nonprofits are facing in 2025' (plantemoran.com)",
+      "HR Dive reporting on VitalSmarts study \u2014 'Top performers produce 61% of their department's work' (hrdive.com / VitalSmarts study coverage)",
+      "Theory of Constraints / healthcare case studies \u2014 PubMed/PMC article on TOC implementation (ncbi.nlm.nih.gov / PMC10868449)",
+      "Six Sigma / Lean literature and summaries (e.g., Six Sigma history and business impacts; multiple case studies)",
+      "80,000 Hours \u2014 career advice on choosing high-impact problems and the importance of where you work (80000hours.org)"
+    ]
+  }
+}

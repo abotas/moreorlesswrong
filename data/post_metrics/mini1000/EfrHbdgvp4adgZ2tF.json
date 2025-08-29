@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This is a high-leverage tactical idea for the EA community: redirecting large, recurring fundraising events to more cost-effective charities could produce outsized long-term returns if feasible, so it's worth piloting, researching legal/branding constraints, and developing tailored messaging. For general humanity the upside is substantial (millions redirected to higher-impact interventions) but feasibility, donor preferences, and institutional barriers make it less foundational \u2014 important if implementable, but not a systemic game-changer on its own."
+  },
+  "PostRobustness": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Feasibility and legal/contractual constraints are under-addressed. Major fundraising events typically distribute money according to pre-set agreements, earmarks, sponsorship contracts, and local beneficiary networks. Before claiming a high expected return-on-investment, identify (and cite) how much of Red Nose Day/Telethon revenue is actually fungible and who has authority to reallocate it. Actionable fix: add concrete data or a short audit plan (what documents/contacts you'd check) showing the fraction of funds plausibly redirectable and any legal/tax barriers.\n\n2) You underplay political/PR and donor-intent risks. Organisers and participants have strong brand, community, and narrative incentives; attempting to redirect donations could provoke reputational backlash and loss of future fundraising, wiping out any short-term gains. Actionable fix: acknowledge these risks and propose concrete, low-friction approaches that align with organisers\u2019 priorities (e.g., offering a menu of recommended charities that meet their mission, co-branded pilots, opt-in matching grants, or targeting corporate sponsors/major donors rather than mass donors).\n\n3) Missing comparison to alternatives and a simple cost-benefit estimate. Redirecting many small, public-facing events may have coordination costs and uncertain impact versus other leverage points (e.g., persuading large donors, foundations, or event organisers directly). Actionable fix: include a back-of-envelope model comparing (a) expected funds redirectable \u00d7 expected cost-effectiveness improvement \u00d7 probability of success to (b) alternative interventions (targeting major donors, matching funds, building relationships with organisers). Even a short table or single worked example would make the claim much more credible.",
+    "improvement_potential": "This feedback identifies key, substantive gaps \u2014 fungibility/legal constraints, reputational and donor-intent risks, and the absence of any cost\u2011benefit comparison \u2014 each of which could seriously undermine the post's optimistic ROI claim. The suggested fixes are practical and would materially increase credibility while not necessarily requiring a long rewrite. It stops short of declaring the thesis impossible, so it\u2019s a critical but not fatal critique."
+  },
+  "PostAuthorAura": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that the handle \u201cfreedomandutility\u201d is a recognized or widely cited author within the EA/rationalist community or more broadly. The name appears to be a pseudonymous/online handle with little verifiable public footprint, no major publications, talks, or affiliations that would indicate prominence."
+  },
+  "PostClarity": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand, concise, and presents a clear, actionable proposition (redirect large, regular fundraising events to more cost\u2011effective charities). Strengths: concrete examples, a logical argument about one\u2011off interventions and long\u2011term ROI, and a simple first step. Weaknesses: the argument is under-developed\u2014no concrete evidence or specific recommended charities, no discussion of feasibility, consent/brand or donor-expectation issues, and no detailed plan for engagement, which weakens its persuasive power."
+  },
+  "PostNovelty": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "novelty_ea": 2,
+    "novelty_humanity": 5,
+    "explanation": "Among EA readers this is largely familiar \u2014 redirecting donations to cost\u2011effective charities, one\u2011off high\u2011leverage interventions, and engaging fundraisers with evidence are common themes in EA and GiveWell discussions. The post is a straightforward application of those ideas to televised/large fundraising events, so it has low novelty for that audience. For the general public the idea is moderately novel: while charity reallocation and donor persuasion are known, the specific tactic of targeting major recurring fundraising events as one\u2011off high\u2011ROI opportunities and framing approaches to meet fundraiser priorities is less likely to have been widely considered."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The core idea is simple and plausibly high-impact \u2014 large, recurring fundraising events funnel substantial funds, so redirecting even a fraction to more cost\u2011effective charities could yield big gains. Framing it as a one\u2011off intervention with high long\u2011term ROI is logically coherent. Weaknesses: The post offers only a sketch of the argument and omits many key feasibility and incentive considerations (donor intent, fundraiser mission/brand, contractual/legal constraints, likely behavioral and reputational responses, substitution effects, and costs of persuasion). There are no case studies, pilot data, or empirical estimates showing such redirection is practicable or would preserve funding levels. Evidence is limited to headline fund sizes of two events, which shows potential scale but does not substantiate the causal claim that redirection is achievable or net beneficial. Overall, the thesis is promising but under\u2011argued and under\u2011evidenced."
+  },
+  "PostExternalValidation": {
+    "post_id": "EfrHbdgvp4adgZ2tF",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Major factual claims about large regular fundraising events are well supported: Comic Relief / Red Nose Day and the Channel Seven Perth Telethon have each raised tens of millions in single years and Comic Relief\u2019s cumulative totals exceed \u00a31 billion. The post\u2019s annual figures (~$40M and ~$50M) are reasonable approximations but imprecise (currency not stated; recent Telethon totals have been well above $50M in several years). The claim that a one\u2011off redirection could yield very large long\u2011term ROI is plausible but speculative and not empirically demonstrated \u2013 feasibility and willingness of organisers/donors to redirect funds would need evidence. Overall: most numeric claims verified but with currency/temporal nuance and an unproven causal/feasibility claim.",
+    "sources": [
+      "BBC News, 'Comic Relief raises \u00a31bn over 30-year existence' (2015). (confirms >\u00a31bn total at 30 years). \u2014 turn0search1",
+      "Comic Relief press release, 'Red Nose Day ... raised $41 million to date in 2023 campaign' (Comic Relief US, June 15, 2023) (shows ~ $41M for Red Nose Day US 2023 and totals for US arm). \u2014 turn0search0 / turn1search0",
+      "Fundraising.co.uk, 'Red Nose Day beats 2023's on the night total, raising over \u00a338mn' (Mar 18, 2024) (recent UK single-night totals ~\u00a332\u2013\u00a338M). \u2014 turn1search1",
+      "Wikipedia \u2014 'Comic Relief' (notes \u00a31.0bn in 2015 and updated figure ~\u00a31.6bn by 2024). \u2014 turn1search15",
+      "Telethon (official site), 'Telethon 2023: West Australian generosity drives fundraising total to a record $77.5 million' (Telethon7) (shows Perth Telethon totals and trend). \u2014 turn0search2",
+      "Wikipedia \u2014 'Channel Seven Perth Telethon' (yearly fundraising table showing amounts by year, e.g. $42.6M in 2019 up to $77.5M in 2023). \u2014 turn0search12",
+      "Civil Society/UK coverage, 'Red Nose Day appeal night raises \u00a332m' (Mar 20, 2023) (documents year-to-year variation in Red Nose Day income). \u2014 turn1search2"
+    ]
+  }
+}

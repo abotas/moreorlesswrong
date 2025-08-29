@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful, practical guidance for people (especially in EA/AI-safety/rationalist circles) who are grappling with bleak forecasts \u2014 helps preserve mental health, calibration, and productive engagement rather than collapsing into despair or self-deception. The post is not foundational to core EA/longtermist arguments or technical policy decisions, but it is moderately load\u2011bearing for community functioning and personal effectiveness. For general humanity it\u2019s sensible coping advice but not widely novel or world\u2011shaping."
+  },
+  "PostRobustness": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make your epistemic stance explicit and show how advice depends on it. You lean heavily on a high P(doom) but don\u2019t give readers clarity about how confident you are or how they should adjust these practices if they have different priors. Add a short section with calibrated statements (e.g. \u201cif you assign >50% risk, do X; if 5\u201350%, do Y; if <5%, do Z\u201d) or at least explain which recommendations are conditional versus universal. This avoids alienating readers who disagree on probability and makes the guidance more actionable.\n\n2) Tighten the practical boundary between \u201cacceptance\u201d and harmful rumination. You repeatedly endorse making space for unpleasant emotions and also encourage staring at doom; but you don\u2019t give concrete rules for when that becomes maladaptive. Add operational heuristics: e.g. time-budget for doom-focused thinking (daily/weekly limits), tests to distinguish acceptance vs rumination (does it lead to planning or paralysis?), clear red flags for seeking therapy/ERP, and short, concrete exercises readers can use to practice acceptance without getting stuck. That will prevent readers from turning the post into permission to chronically ruminate.\n\n3) Say more about the social/collective consequences of your stance and give coordination-safe next steps. The post treats coping as an individual project but understates how personal framing affects others (demoralization, moral licensing, or counterproductive secrecy). Include a brief paragraph on how to communicate this stance to partners/teams, how to avoid spreading unhelpful despair, and a few examples of tractable collective actions or ways to plug in to positive coordination (community support, targeted volunteering, safe ways to contribute to policy/technical efforts). This reduces the risk that readers will adopt an individually coherent but socially harmful posture.",
+    "improvement_potential": "This feedback targets three substantive weaknesses that would meaningfully improve the post without huge length costs. (1) The author repeatedly leans on a strong doomy stance but doesn\u2019t give calibrated probabilities or explicitly say which advice depends on how likely readers think doom is \u2014 that\u2019s an \u2019own goal\u2019 because many readers will misapply recommendations if they have different priors. (2) The post endorses \u2018making space\u2019 for unpleasant feelings and \u2018staring at doom\u2019 but lacks operational guidance to prevent maladaptive rumination; adding simple heuristics (time budgets, red flags, quick exercises) is both important and concise. (3) The writeup treats coping as individual but under-emphasizes social/coordination effects (demoralization, leakage, moral licensing) and leaves out coordination-safe next steps; a short paragraph on communicating with partners and tractable collective actions would reduce real-world harm. All three are actionable, improve clarity and safety, and wouldn\u2019t bloat the post much \u2014 hence a high usefulness score (8)."
+  },
+  "PostAuthorAura": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "'Ruby' is too generic (and possibly a pseudonym); there is no clearly identifiable, widely recognized EA/rationalist author known only by that name. Without links, works, or context, the safest assumption is that they are not a known figure in EA circles or globally."
+  },
+  "PostClarity": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "clarity_score": 8,
+    "explanation": "Strengths: The post is well-structured with clear headings, a coherent narrative arc (personal framing \u2192 principles \u2192 concrete practices), useful analogies, and actionable advice (acceptance, harvest/sow, \u2018Looker\u2019). It is readable and the key points are repeated in ways that aid comprehension. Weaknesses: It is somewhat long and occasionally repetitive, mixes personal memoir with prescriptive claims in ways that could blur which parts are general recommendations versus personal choices, and uses some jargon/therapy terms without tight definitions. A few sections could be tightened or signposted more explicitly (e.g., which steps are essential versus optional). Overall it\u2019s clear and persuasive but not maximally concise or sharply argumentative."
+  },
+  "PostNovelty": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For EA/ LW readers this is largely a synthesis and personal take on well-worn community themes (AI/transhumanist doom, \u201cdon\u2019t throw away your mind\u201d, looker/thinker roles, harvest vs sow, emphasis on acceptance/mindfulness and ACT-style methods). It\u2019s well-written and useful as guidance, but contains few genuinely new claims for that audience. For the general public the mix is somewhat less common \u2014 acceptance therapy, mindfulness and flourishing advice are mainstream, but applying them explicitly to civilization\u2011level/AI/transhuman doom and the particular tradeoffs (harvest vs sow, \u2018creating space for miracles\u2019, calibrated looking) is moderately novel. Overall the post is more a clear, personal synthesis than an original theoretical contribution."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured, self-aware about uncertainty, and builds a coherent, psychologically plausible approach (truthfulness, acceptance of emotions, balancing present/future value, mindfulness, commit-to-action). It draws on established therapeutic frameworks (ACT/DBT/mindfulness) and integrates them sensibly with normative reasoning. Weaknesses: The piece is largely experiential and prescriptive rather than evidentiary \u2014 claims are supported mainly by intuition, anecdotes, and loose references rather than systematic empirical studies or data about outcomes. Key recommendations (optimal attention allocation, effectiveness of acceptance for large-scale existential anxiety, behavioral impacts) are not empirically validated here, and the post does not engage competing models or provide metrics for success. Overall: a thoughtful, plausible guide for individuals but not a rigorously evidenced or generalizable treatment of how best to confront existential/AI doom."
+  },
+  "PostExternalValidation": {
+    "post_id": "zJeB33RHEA8QjSeJ4",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the concrete empirical claims in the post check out: the three April 2022 items (Eliezer/MIRI \"Death With Dignity\" LessWrong post, Google PaLM paper/announcement, and OpenAI's DALL\u00b7E 2 announcement) occurred in early April 2022. Psychological claims referencing Acceptance and Commitment Therapy and the Ellsberg paradox correctly cite existing literature. However, the post\u2019s phrasing that \u201cresearchers announced breakthrough discoveries that suggested [existing, adult] humans could have healthspans of thousands of years\u201d overstates the scientific state of the art: longevity proponents have argued for possibilities (e.g., longevity-escape-velocity, Aubrey de Grey / transhumanist claims) but there was no mainstream, peer\u2011validated breakthrough in the years before 2022 that established adults could expect healthspans of thousands of years. Overall: most verifiable factual claims are correct; one notable empirical claim (the \u201cthousands of years\u201d breakthrough) is speculative/unsupported by mainstream research.",
+    "sources": [
+      "LessWrong: \"MIRI announces new 'Death With Dignity' strategy\" (Eliezer Yudkowsky) \u2014 LessWrong post (April 1, 2022). (see archived / LessWrong page).",
+      "PaLM: \"PaLM: Scaling Language Modeling with Pathways\" \u2014 arXiv preprint (A. Chowdhery et al.), published Apr 5, 2022.",
+      "OpenAI / reporting on DALL\u00b7E 2 \u2014 DALL\u00b7E 2 was announced in early April 2022 (e.g., Wikipedia DALL\u2011E entry and contemporaneous reporting; Ars Technica coverage noting April 6, 2022 examples).",
+      "Acceptance and Commitment Therapy \u2014 Wikipedia summary and reviews of the evidence base (ACT is an established, researched psychotherapy).",
+      "Ellsberg paradox \u2014 Wikipedia (description of ambiguity aversion literature).",
+      "Aubrey de Grey / longevity-escape-velocity discussion \u2014 Aubrey de Grey biography and 'longevity escape velocity' concept (transhumanist/longevity advocacy; speculative, not a demonstrated clinical breakthrough).",
+      "Scientific American article and related reviews summarizing mainstream geroscience views (e.g., skepticism about radical lifespan extension claims and focus on healthspan; reporting that there is not a validated route to 'thousands of years' of healthy life)."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "PostValue": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a targeted recruitment/advisory request for an EA-aligned humanitarian impact measurement expert. Useful to a small set of EA practitioners (and to the specific project if they find good help), but not foundational or broadly consequential for the movement or humanity as a whole."
+  },
+  "PostRobustness": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Scope & deliverables are too vague \u2014 readers can\u2019t tell the true time commitment or what \u2018advisory sessions\u2019 mean. Say how long sessions are, whether you expect prep/follow\u2011up work (estimate hours per session), what concrete outputs you want (written ToC draft, revised M&E plan, slide deck, critique notes), what access to data/documents will be provided, and the decision/timeline for hiring. Example addition: \u201c4\u20137 sessions of 90 minutes each plus ~2\u20134 hours of prep and follow\u2011up per session; deliverables: revised theory of change, annotated M&E plan, and a 2\u2011page summary.\u201d\n\n2) Candidate requirements are underspecified \u2014 \u201cexperience in humanitarian global health\u201d and \u201cEA alignment\u201d are broad. Specify the level and kinds of experience you need (e.g., years, types of evaluations, methods: RCTs, quasi\u2011experimental, logic models, DALY/QALY or CEA experience), and what you mean by EA alignment (familiarity with cost\u2011effectiveness frameworks, longtermist concerns, or specific EA orgs/approaches). Say what applicants should submit (CV, 1\u20132 relevant deliverables or case studies, references). This reduces low\u2011signal applications and speeds selection.\n\n3) Compensation & logistics need clarity \u2014 indicate whether \u20ac80\u2013100/hr is net/contractor rate, whether it\u2019s negotiable for very senior experts, whether it covers prep time, travel, or taxes, and whether work is remote or in\u2011person (and any timezone/country restrictions). Also provide a simple application process (deadline, email + subject line, expected response date). These changes prevent wasted outreach and set expectations.",
+    "improvement_potential": "Very useful. The feedback pinpoints the main practical omissions (precise session length/prep time and concrete deliverables; specific candidate experience and what \u2018EA alignment\u2019 means; whether pay covers prep/taxes and remote/in\u2011person expectations). Addressing these would substantially reduce low\u2011signal applications and set clear expectations without onerously lengthening the post. Not fatal errors, but critical for getting the right applicants quickly."
+  },
+  "PostAuthorAura": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I\u2019m not aware of any public records, publications, or notable mentions of \u2018Teresa Jakovlev\u2019 in the effective-altruism/rationalist community or more broadly up to my 2024-06 knowledge cutoff. The name may be a pseudonym or very obscure; there\u2019s no evidence of prominence."
+  },
+  "PostClarity": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "clarity_score": 9,
+    "explanation": "The post is clear, concise and well-structured: it states the role, required expertise, scope (4\u20137 sessions), compensation, start timing, and contact. It is easy to understand and makes the request directly. Minor clarity gaps that prevent a perfect score: it lacks brief project context or specific deliverables, whether work is remote/in-person or time-zone constraints, and any application/selection process or desired qualifications beyond EA alignment."
+  },
+  "PostNovelty": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a recruitment/consulting call, not a conceptual or theoretical claim. EA Forum readers routinely see requests for experts, impact evaluation roles, and requests for EA-aligned advisors, so it's not new to that audience (score 2). To the general public it's slightly less familiar because of the specific EA framing and sector mix (humanitarian global health + EA), but still a commonplace hiring ad and not an original idea (score 3). The only mildly novel aspect is the explicit combination of EA alignment with specialized humanitarian impact-assessment consulting."
+  },
+  "PostInferentialSupport": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 3,
+    "explanation": "This is primarily a short recruitment post rather than an argument-driven piece. It communicates the role, scope, compensation, and contact clearly (a strength), but provides no justification or supporting evidence for the need, expected impact, or how EA-alignment will be operationalized. There are no empirical data, references to past results, or rationale for the proposed advisory structure, so reasoning is minimal and evidence is effectively absent."
+  },
+  "PostExternalValidation": {
+    "post_id": "pw9Jw7mC2RrPABsx7",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post\u2019s factual claims are directly verifiable: the EA Forum listing with the quoted scope, compensation, start timing, and contact email appears on the EA Forum, and the contact email/author (Teresa Jakovlev) is also listed on the Salt & Impact team page. The organisation domain registration record confirms the site exists. Caveat: these are self-reported details in a job/consultancy post (i.e., an organisation\u2019s stated hourly rate and scope), so verification beyond the public posting (e.g., whether the email is currently monitored or the role remains open) would require contacting the poster or the organisation directly.",
+    "sources": [
+      "EA Forum post: \u201cWe are looking for: Expert in Humanitarian Impact Assessment, EA-Aligned\u201d (EA Forum job listing; content shows scope 4\u20137 sessions, \u20ac80\u2013100/hr, start ~4 weeks). \u2014 web.run search result turn0search0",
+      "Salt & Impact \u2014 Team page for Teresa Jakovlev (shows teresa.jakovlev@salt-impact.com and profile). \u2014 web.run page turn5view0 (https://www.salt-impact.com/team/teresa-jakovlev)",
+      "Domain / registration & site info for salt-impact.com (IP/WHOIS summary; domain registered May 2024). \u2014 web.run search result turn2search0"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a thoughtful, well\u2011expressed set of common objections to Peter Singer\u2019s moral premises rather than a novel argument. For the EA/rationalist community it is modestly useful \u2014 a good pedagogical prompt for newbies, community reflection on norms (family vs impartiality, responsibility for omissions, species\u2011neutrality), and for discussing messaging and culture \u2014 but it is not load\u2011bearing or a game\u2011changer because these concerns are already well\u2011known and debated and the post offers no new evidence or resolution. For general humanity it has low importance: interesting philosophically but with limited practical impact on public policy or large\u2011scale decisions unless picked up and amplified into broader moral or legal change."
+  },
+  "PostRobustness": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstates / misrepresents Singer and misses key distinctions. The post treats Singer\u2019s claims as if they require single-minded, all\u2011things\u2011considered decisions (e.g., always spending the $10k on strangers rather than one\u2019s child). Singer, and much of the literature, often separates pro tanto moral reasons from what an agent all\u2011things\u2011considered ought to do (and allows for agent\u2011centered permissions, thresholds, or \u2018\u2018demandingness\u2019\u2019 solutions). Fix: explicitly acknowledge that there are recognized responses (demandingness objections, agent\u2011centered prerogatives, conditional obligations) and state whether you are attacking Singer\u2019s core claim about moral reasons or the stronger claim that it yields rigid action guidance. That will avoid a strawman impression and make your critique sharper.  \n\n2) Fails to engage with well\u2011known counterarguments and EA/community norms. The post raises important intuitions but doesn\u2019t cite or interact with major rebuttals (e.g., demandingness literature, Bernard Williams on integrity, agent\u2011centered prerogatives, Singer\u2019s own caveats and his \u2018\u2018about 10%\u2019\u2019 normative recommendations). It also misses pragmatic EA norms (why many EAs adopt a target donation percentage or private projects). Fix: add a few brief references and acknowledge/read/respond to the strongest replies (e.g., Singer\u2019s \u201cFamine, Affluence, and Morality\u201d and The Life You Can Save; Williams on integrity; literature on agent\u2011centered permissions). This will show you\u2019ve considered plausible counterarguments and prevent readers from assuming you overlooked them.  \n\n3) Uses extreme edge cases without clarifying controversial premises (weak handling of premise 3). The anencephaly/baboon example hinges on very contestable empirical and normative premises (what counts as \u2018\u2018desire to live,\u2019\u2019 criteria for personhood, consent and legal constraints, moral uncertainty). Presenting it as a decisive reductio overstates the case. Fix: either (a) tone down the extreme hypothetical and use a milder, more typical case that illustrates your point, or (b) clearly state which empirical/normative premises you accept and which you question, and ask readers to weigh those premises rather than assuming they are settled.  \n\nPractical edits I recommend before publishing: (i) pick one or two central worries instead of three long ones to keep the post focused, (ii) add 3\u20134 citations or short quotes to show engagement with existing replies, and (iii) end with 2\u20133 precise questions you want readers to answer (e.g., \u201cIs it fair to call someone immoral for not donating excess income?\u201d or \u201cWhich plausible moral thresholds would save intuitive partiality toward family?\u201d). These changes will make the post more accurate, actionable, and engaging for EA readers.",
+    "improvement_potential": "Targets major weaknesses: correctly identifies a straw\u2011man/overstatement of Singer, lack of engagement with well\u2011known counterarguments and EA norms, and reliance on extreme edge cases without clarifying contested premises. The suggestions (focus on a couple central worries, add a few citations, clarify which claim you're attacking) are concrete and would materially improve accuracy, credibility, and reader value without greatly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information: 'JC' is just initials and could refer to many people. No clear match to a known EA/rationalist author or a publicly prominent figure. Please provide a full name, links, or sample works to allow a proper assessment."
+  },
+  "PostClarity": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "clarity_score": 8,
+    "explanation": "Well organized and easy to follow: clear sections, concrete examples (child vs distant children, anencephalic infant), and explicit reflections make the author's concerns easy to grasp. The main argument \u2014 that Singer's premises lead to counterintuitive conclusions the author struggles to accept \u2014 is communicated clearly. Weaknesses: some minor terminology/typo issues (e.g. \u201ccos-effectiveness\u201d), occasional repetition and redundancy across sections, and a few small conflations between Singer's strict philosophical claims and how EA is practiced. Tightening language and removing repeated points would raise the score to a 9."
+  },
+  "PostNovelty": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "novelty_ea": 2,
+    "novelty_humanity": 6,
+    "explanation": "For EA readers the post mainly rehearses well-known objections to Singer (impartiality vs familial partiality, demandingness/omissions, and species-neutral criteria including the anencephalic-infant thought experiment) and offers personal reflections rather than new arguments \u2014 hence low novelty. For the general public the specific framing, trade-off scenarios, and the anencephalic-vs.-animal comparison are less familiar and somewhat striking, so the combination and depth of these philosophical concerns is moderately novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured, uses clear thought experiments (child vs distant children; billionaire non-donation; anencephalic infant vs baboon), identifies genuine tensions between impartial moral principles and common intuitions, and acknowledges likely Singer replies and limits of implementation. Weaknesses: It relies heavily on intuitions and anecdotal scenarios rather than systematic argumentation; it sometimes conflates moral theory with legal/social norms and understates existing counterarguments (e.g., agent\u2011centered prerogatives, threshold views, distinctions Singer and others make about demandingness and 'excess' income). There are no citations or empirical data to support claims about how people actually respond or about prevalence/impact of EA norms. Overall, the post plausibly shows that Singer-style premises yield counterintuitive edge cases, but it does not provide rigorous philosophical refutation or empirical evidence to show those premises are mistaken or that EA should abandon them."
+  },
+  "PostExternalValidation": {
+    "post_id": "BfC6cC5nH5pxX4CgP",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims about Peter Singer\u2019s moral premises and their implications are accurate and verifiable: Singer\u2019s 'drowning child / Bengali child' argument and the underlying impartiality principle appear in his 1972 essay 'Famine, Affluence, and Morality'; his equal\u2011consideration / pain\u2011is\u2011bad principle and arguments against speciesism are central to Practical Ethics and Animal Liberation; and he has written explicitly about infants, anencephaly and related bioethical implications (e.g., Should the Baby Live? / Rethinking Life & Death).  Where the post slightly misstates the record is about a single fixed pledge level: Singer does not \u201conly\u201d advocate a 10% giving rule \u2014 10% is the common pledge promoted by Giving What We Can (and widely discussed in EA), but Singer\u2019s own public recommendations (The Life You Can Save materials and interviews) propose a graduated/achievable standard and he has reported donating larger percentages personally.  Overall: the philosophical characterizations are well supported; the main empirical inaccuracy is the oversimplified claim that Singer only endorses ~10% giving.  (See sources below.)",
+    "sources": [
+      "Singer, Peter. 'Famine, Affluence, and Morality' (Philosophy & Public Affairs, 1972) \u2014 contains the 'neighbor's child / Bengali' example and the duty to prevent suffering.",
+      "Singer, Peter. Practical Ethics (1979; later editions) \u2014 develops the 'equal consideration of interests' and discusses marginal cases, infants and personhood.",
+      "Singer, Peter & Helga Kuhse. Should the Baby Live? The Problem of Handicapped Infants (1985) and Singer, Rethinking Life & Death (1995) \u2014 arguments on infants, severe disability and related ethical conclusions.",
+      "Interview: 'Interview with Peter Singer' (Giving What We Can blog) \u2014 Singer explains his view that GWWC uses a 10% pledge but his Life You Can Save book/website sets a graduated standard and that morality should be practical/achievable.",
+      "Carnegie Council interview (2011) / The Life You Can Save website \u2014 Singer describes his own giving (reported around 25% at times) and a progressive giving table on the Life You Can Save site.",
+      "Giving What We Can / Giving What We Can history (GWWC) \u2014 documents the 10% pledge and its origins (Toby Ord, Will MacAskill).",
+      "Secondary coverage: New Yorker 'The Reluctant Prophet of Effective Altruism' / New Yorker interview with Singer \u2014 traces Singer\u2019s influence on EA (MacAskill, Ord) and covers controversies about his bioethical views."
+    ]
+  }
+}

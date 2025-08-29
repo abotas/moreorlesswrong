@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful, concrete outreach example for EA movement-building \u2014 a readable template for how to explain EA to friends and evidence that informal social outreach works \u2014 but it is not a novel argument, piece of research, or a load-bearing claim. If true, it modestly helps recruitment and community growth; if false, the only loss is a small missed outreach opportunity. It\u2019s practical and encouraging for EAs doing outreach but has limited broader or long-term impact on humanity compared with foundational research or policy proposals."
+  },
+  "PostRobustness": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Tone down or contextualize the \u201cextreme\u201d examples (kidney donation, infecting themselves). Readers unfamiliar with EA will likely see these as caricatures that make the movement look demanding or fringe. Actionable fixes: replace the kidney example with a framed thought-experiment (e.g. \u201csome strict utilitarians argue X, though most EAs don\u2019t act that way\u201d), or add a sentence explicitly saying many EAs reject or give low credence to such extreme prescriptions. This avoids alienating friends while keeping the point about consequentialist implications.\n\n2) Avoid loose or potentially outdated claims about cost-effectiveness without citations and nuance. The $5,000 \u2192 \u201csave a whole life\u201d phrasing is striking but imprecise (GiveWell estimates, variations by intervention, lives vs. life-years, uncertainty). Actionable fixes: cite the relevant GiveWell estimates or rephrase to something like \u201cGiveWell estimates that relatively modest donations to top global health charities can avert a large fraction of a death or deliver many life-years\u2014i.e., orders-of-magnitude differences in impact.\u201d\n\n3) Anticipate and briefly address the most common, plausible critiques (elitism/colonialism concerns, over-reliance on quantification, and moral uncertainty/longtermism worry). Right now the post reads like an unalloyed endorsement and could be dismissed as naive. Actionable fixes: add one short paragraph (2\u20133 sentences) acknowledging key critiques and saying why you still find EA valuable (e.g., pragmatic focus on evidence, openness to debate, diversity of views inside EA), plus an invitational line offering to discuss those critiques with friends. This will make the post more persuasive to skeptical readers and reduce the chance it\u2019s dismissed out-of-hand.",
+    "improvement_potential": "Very useful: the three points identify genuine \u2018own-goal\u2019 risks for an outreach piece (extreme examples that invite caricature, imprecise cost-effectiveness claims, and failing to briefly acknowledge common critiques). Each recommendation is actionable and low-cost in length, and addressing them would materially reduce the chance the post alienates or misleads readers while preserving its signal."
+  },
+  "PostAuthorAura": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "I am not aware of anyone named 'Alex W Zhu' being a known figure in the EA/rationalist community (appears unknown there). The name is fairly common and could be a pseudonym; the closest notable person is Alex Zhu (co\u2011founder of Musical.ly/TikTok), who is a tech entrepreneur rather than an EA figure. Without additional context or links, there is no evidence of broad public recognition for 'Alex W Zhu' \u2014 at most a minor online presence or possible confusion with other people of similar name."
+  },
+  "PostClarity": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear, approachable, and well-structured for a general audience. Strengths: friendly narrative hook, explicit headings, concrete examples (GiveWell, bed nets, kidney donation, longtermism), and links/resources that make the core ideas of EA easy to grasp. Argument clarity is good \u2014 the post explains what EA asks and why it matters, and it gives compelling personal and empirical illustrations. Weaknesses: occasional minor verbosity and repetition (some paragraphs could be tightened), a couple of long or technical sentences (the kidney-risk math and longtermism phrasing) that might confuse readers unfamiliar with the concepts, and a few informal tangents that slightly dilute focus. Overall it communicates its message well but could be marginally more concise and precise in a couple of spots."
+  },
+  "PostNovelty": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "novelty_ea": 1,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the post is not novel \u2014 it's an introductory, personal onboarding piece that repeats extremely familiar ideas (GiveWell, cost\u2011effectiveness, longtermism, kidney thought\u2011experiment, community anecdotes). The only marginally new element is the specific outreach tactic (crewneck \u2192 conversations \u2192 Substack), which is mundane. For a general educated audience it is moderately novel: while the broad idea of 'do good more effectively' is common, concrete EA claims (GiveWell-style cost\u2011effectiveness, the kidney utilitarian example, and longtermism/existential\u2011risk prioritization) are less likely to have been considered in depth by most people, though these topics have entered mainstream discussion enough to make the piece not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a clear, coherent narrative aimed at newcomers, uses illustrative examples (GiveWell/bed nets, kidney donation, longtermism) to convey EA ideas, and honestly frames personal limits and critiques. The arguments are generally logically consistent for a popular outreach piece. Weaknesses: It relies heavily on anecdotes and simplified examples rather than systematic evidence; some claims are presented without important qualifiers (e.g., the $5,000/bednet life-saved framing, or the direct leap from valuing future people to prioritizing extinction risk) and ignore complexities. Empirical support is minimal (one transplant statistic and links to EA resources); therefore the post is persuasive as a personal introduction but weak as rigorous evidence for broader claims about effectiveness or priority-setting."
+  },
+  "PostExternalValidation": {
+    "post_id": "FMzsvy5cEQnqXc4F5",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well supported by public sources. GiveWell\u2019s analysis supports the author\u2019s bed-net / ~$3k\u2013$8k (commonly-cited ~$5k) per life-saved figure; EA events in Mexico City (EAGxLATAM / EAGxCDMX) were ~200+ attendees with a largely Latin American audience, and the Bay Area EA Global had several hundred+ (820) attendees in 2024. The movement\u2019s origins/timeline (GiveWell ~2007, CEA coining \u201ceffective altruism\u201d ~2011; Giving What We Can 2009) and the named philosophers and books (Singer, Ord, MacAskill) are accurately described. The kidney waiting-list statistic (\u224890,000 waiting, ~11 deaths/day) matches UNOS\u2019s recent reporting. A few items are anecdotal or normative (e.g., \u201cmy friends donated kidneys / signed up for challenge trials\u201d) and aren\u2019t independently verifiable; numerical phrasing like \u201caround 15 years ago\u201d is a reasonable approximation. Overall: claims are credible and verifiable except for personal anecdotes.",
+    "sources": [
+      "GiveWell \u2014 Mass Distribution of Insecticide-Treated Nets (ITNs) (Dec 2023 / updated Apr 2024) \u2014 estimates ~$3,000\u2013$8,000 per death averted. (givewell.org/international/technical/programs/insecticide-treated-nets) \u2014 turn0search0",
+      "GiveWell \u2014 Our Top Charities / cost-effectiveness summaries (Against Malaria Foundation, Malaria Consortium) (givewell.org) \u2014 includes ~$4,500\u2013$5,500 per life-saved examples. \u2014 turn0search2",
+      "EA Forum \u2014 Celebrating EAGxLatAm and EAGxIndia (event report) \u2014 states >200 attendees and regional breakdown (EA Forum post). \u2014 turn1search3",
+      "EA Forum \u2014 Review of EA Global Bay Area 2024 (Global Catastrophic Risks) \u2014 reports ~820 attendees. \u2014 turn2search2",
+      "Centre for Effective Altruism \u2014 Our history (notes: Giving What We Can 2009; CEA & term coined ~2011). \u2014 turn3search0",
+      "GiveWell \u2014 Our Story / history (founding 2007 by Karnofsky & Hassenfeld). \u2014 turn3search1",
+      "UNOS news \u2014 '90,000 people are waiting for a kidney. Here's one way to get them a kidney faster.' (Jan 27, 2025): 'nearly 90,000' waiting and '11 people die every day' waiting. \u2014 turn0search1",
+      "Open Phil / EA community materials on biosecurity (e.g., Open Phil biosecurity update 2018; EA Forum biosecurity reading lists) \u2014 evidence EA community discussed pandemic/biosecurity pre-COVID. \u2014 turn5search1, turn5search2",
+      "Books referenced: Peter Singer \u2014 The Life You Can Save (2009); Toby Ord \u2014 The Precipice (2020); William MacAskill \u2014 What We Owe the Future (2022). (publisher/Wikipedia pages). \u2014 turn4search14, turn4search17, turn4search16"
+    ]
+  }
+}

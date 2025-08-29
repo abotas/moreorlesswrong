@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a practical, experience-focused report on launching a national effective-giving initiative in France. For the EA/community ecosystem it\u2019s moderately important: it provides concrete metrics, counterfactual estimates, and operational lessons (SEO, hiring non\u2011EA marketers, fundraising timelines, affiliation risk) that are useful for other national initiatives and funders deciding whether to support similar projects. It is not foundational to EA theory or high\u2011stakes policy (so not top\u2011tier importance). For general humanity it\u2019s low importance: the findings are niche, geographically specific, and won\u2019t materially change broad public outcomes except insofar as they modestly improve charitable fundraising in France."
+  },
+  "PostRobustness": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Major weakness \u2014 unclear / under-documented impact measurement and counterfactual attribution. You report a counterfactual factor (0.64), a giving multiplier (1.99), and \u2018estimated counterfactual\u2019 donations, but you don\u2019t show the calculation, assumptions, sample sizes, or uncertainty. That makes the headline impact claims hard to evaluate and easy to misinterpret. Actionable fixes: add the exact formulas you used (including how you treat matching, tax receipts, multiple-charity gifts), show the donor sample size and response rate for the \u201cwhere did you hear about us?\u201d question, and provide a sensitivity analysis (e.g., what the multiplier and counterfactual look like if the counterfactual factor is 0.4\u20130.8). If possible publish an anonymized table or appendix with the raw numbers that feed the calculations so readers can check them.  \n\n2) Major weakness \u2014 inconsistent financial reporting and missing donation-quality detail. You mix $ and \u20ac (budget 135k$ vs \u20ac targets) and only report aggregate donation totals without telling readers the distribution or durability of funds (e.g., number of large vs small gifts, median/mean gift size, number and value of recurring donors, corporate vs individual split, and tax-advantaged vs non-tax-advantaged). These details materially change how to interpret success and scalability. Actionable fixes: standardize currency across the post (or report both with conversion rate/date), include a short breakdown of donation sizes and types, and clarify what portion of donations you expect to recur in future seasons. A one-paragraph table or short appendix with these items would greatly improve credibility without lengthening the main narrative much.  \n\n3) Major weakness \u2014 overconfident conclusions about EA affiliation and audience reactions based on limited evidence. You claim that affiliation \u201ccreated no (or very little) push back\u201d and that \u201cmost donations came from outside EA,\u201d yet your methods for classifying donors as \u2018EA\u2019 (checking Slack/LinkedIn) invite misclassification and selection bias. This risks overstating how easy EA branding is in France and overlooking plausible reputational or outreach tradeoffs. Actionable fixes: tone down categorical claims or qualify them with methodology and limitations (e.g., sampling bias, non-response). Report the number/proportion of donors whose affiliation was ambiguous, and consider running a short, representative survey or A/B test on messaging (EA-branded vs neutral) to back up the claim before publishing it as a general lesson.",
+    "improvement_potential": "The feedback targets real, high-impact weaknesses: opaque counterfactual calculations, an embarrassing currency inconsistency, and overconfident claims about EA affiliation based on weak classification. Fixing these would substantially increase the credibility of the post and can mostly be done via brief clarifications, an appendix or short table, and softer language\u2014so large benefit for modest additional length. These are the kinds of own-goals (especially the $/\u20ac mix and missing formulas) the authors would likely be embarrassed about if pointed out."
+  },
+  "PostAuthorAura": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record up to my 2024-06 knowledge cutoff of a notable figure named \u201cJennifer Stretton \ud83d\udd38\ufe0f\u201d in EA/rationalist spaces, major platforms (EA Forum, LessWrong), academic databases, or mainstream media. Likely a private/obscure author or a pseudonym; please share links or context if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and easy to follow: it has a clear TLDR, logical headings (goals, results, learnings), and concrete metrics that make the story credible. Strengths include specific figures, clear reflections on why targets were missed, and actionable lessons. Weaknesses are occasional verbosity and repetition, a few under-defined goals/metrics (e.g., some SEO goals weren\u2019t clearly specified), mixed formatting (images without descriptive text), and a few long paragraphs that could be tightened into crisper takeaways for readers pressed for time."
+  },
+  "PostNovelty": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post is operational lessons and metrics from running a regional Effective Giving Initiative\u2014things like realistic fundraising pacing, lean hiring, marketing/SEO focus, testing quickly, and using AI for drafting are familiar to EA practitioners and to startup/nonprofit operators. The more novel elements are the France-specific practicalities (tax-receipt/framing issues, low baseline public familiarity with cost\u2011effectiveness), concrete counterfactual/giving\u2011multiplier numbers for an EGI, and the empirical finding that EA affiliation produced little pushback in the French context. Those localized, empirical details raise the novelty a bit for general readers, but the core recommendations are not conceptually new."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured, candid about assumptions and failures, and uses concrete operational metrics (donations, donors, traffic, costs) to update strategy. It reasons plausibly about local context, incubation effects, and learning-by-testing. Weaknesses: Key causal claims rely on ad-hoc counterfactual estimates and unreported methods (e.g., how 0.64 was calculated), attribution and survey methods are vulnerable to selection and confirmation bias, and many conclusions lack controls, benchmarks, or statistical rigor. Overall the write-up provides useful, moderately supported lessons for practitioners but insufficient rigorous evidence to strongly support broader claims about impact or scalability."
+  },
+  "PostExternalValidation": {
+    "post_id": "9iw5D6Atr6nAnpFTc",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s major factual claims are plausible and supported by primary sources (the EA Forum post itself, Ambitious Impact\u2019s incubator pages, Giving What We Can, and Mieux Donner\u2019s Donorbox fundraisers). Key organizational facts \u2014 that Mieux Donner was incubated by Ambitious Impact/Giving What We Can, received seed funding, runs Donorbox fundraisers for high-impact charities, and reports the donation, donor-count, and subscriber metrics quoted \u2014 are documented in those sources. However: (a) many of the numeric figures (total donations raised, counterfactual estimate, visitors, followers, subscribers, number of pledge-takers) are self-reported in the EA Forum post / the organisation\u2019s pages and cannot be fully independently verified from public third\u2011party data; (b) at least one clear factual claim appears incorrect or at best overstated \u2014 the post says \u201cno Effective Giving Initiative has reached \u20ac1 million in donations before their second giving season,\u201d but other EGIs (notably Doneer Effectief) reported \u2248\u20ac1.4M in their first operating year; (c) web-analytics / follower numbers (website monthly uniques, LinkedIn followers, email subscribers) are plausible but were not corroborated by independent traffic tools in public sources. Overall: most claims are supported by trustworthy primary documents or reputable EA community reports, but some statements rely on internal metrics or are contradicted by external records, so I give a \u201cwell-supported but not fully independently verified\u201d rating of 7/10.",
+    "sources": [
+      "EA Forum \u2014 \"Reflecting on One Year of Mieux Donner: Launching the French Effective Giving Initiative\" (Romain Barbe & Jennifer Stretton), Jul 13, 2025 (post with the metrics cited).",
+      "Ambitious Impact \u2014 \"AIM Effective Giving\" (Ambitious Impact incubator page describing seed funding and the Effective Giving Incubation programme).",
+      "EA Forum \u2014 \"Presenting five new effective giving initiatives\" (lists Mieux Donner, seed grant / background information on incubation).",
+      "Giving What We Can \u2014 \"Pledge with Mieux Donner\" partner page (shows Mieux Donner as a pledge partner).",
+      "Giving What We Can \u2014 \"Seeking founders for new effective giving organisations\" (mentions Doneer Effectief and early fundraising results for new EGIs).",
+      "EA Forum / Effektiv Spenden \u2014 Impact / Review posts (Effektiv Spenden executive summary and review posts showing Effektiv Spenden\u2019s multi-million-euro fundraising totals and multipliers).",
+      "Donorbox pages for Mieux Donner campaigns (examples: Against Malaria Foundation / Good Food Institute / Clean Air Task Force fundraisers powered by Mieux Donner) \u2014 public fundraiser pages showing the organisation\u2019s donation platform integration."
+    ]
+  }
+}

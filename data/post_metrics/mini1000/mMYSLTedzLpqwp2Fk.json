@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a practical, useful update for the EA community: it keeps a useful resource alive that helps people find internships, volunteer roles, and skill-building opportunities. That can affect individual career paths and marginally improve EA talent allocation, but it isn\u2019t conceptually load-bearing for EA strategy or longtermist arguments. For general humanity the post is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No clear evaluation metrics or decision criteria \u2014 You say you have \u201csome evidence\u201d the board helps people and that you\u2019ll evaluate it in early 2025, but you don\u2019t say how. Readers (and potential funders/volunteers) will want concrete KPIs and a decision rule. Actionable fix: add the specific metrics you\u2019ll track (e.g. newsletter opens, click-throughs to listings, number of placements/referrals attributable to the board, cost per placement, user satisfaction), the data collection method and timeframe, and the threshold(s) that would lead CEA to keep, scale, or hand off the project.\n\n2) Unclear positioning vs. overlapping resources \u2014 The post notes overlap with 80,000 Hours and other channels but doesn\u2019t explain why the Opportunity Board should exist alongside them or who it\u2019s for. That makes it look duplicative. Actionable fix: add a one-paragraph positioning statement\u2014target audience (students, volunteers, part\u2011time contributors), unique features (e.g. curated short-term roles, bi\u2011weekly digest, Slack automations), and a plan for coordination (cross-posting, link-outs, or deliberate differentiation) so readers understand the board\u2019s value and won\u2019t wonder why they should use/maintain it.\n\n3) Handoff, resourcing, and moderation are vague \u2014 You say you may hand it off and that prior maintainers ran it part\u2011time, but you don\u2019t specify expected staff time, budget, moderation policy, posting criteria, or how someone can realistically take it on. That makes recruiting maintainers and grant-seekers harder. Actionable fix: include an explicit minimum-resourcing estimate (hours/week and any hosting costs), a short description of moderation/posting rules and quality-control processes, and clear next steps for interested maintainers (who to contact, what grant history exists, application timeline).",
+    "improvement_potential": "Targets three high-impact gaps the post should plausibly cover for readers, funders, and potential maintainers: how success will be judged, how the board fits alongside overlapping resources, and what handoff/resourcing would require. Fixing these would materially reduce confusion and make follow-up action (funding, volunteering, cross-posting) much more likely, and the suggested fixes are practical without needing to bloat the announcement. Not a catastrophic omission for a short announcement post, but omitting them risks frustration and missed opportunities."
+  },
+  "PostAuthorAura": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence up to my 2024-06 knowledge cutoff of a notable author named Sarah Cheng within the Effective Altruism/rationalist community or as a public figure. The name appears common and could be a private or pseudonymous individual; please supply works or context for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: strong TL;DR, clear headings, links, calls to action, and a concise summary of plans and how to help. Weaknesses: small typos (\"butwe\"), occasional jargon/abbreviations (CEA, EAIF) that might confuse newcomers, minor repetition and slightly vague discussion of evaluation metrics/cost\u2011effectiveness and footnote formatting."
+  },
+  "PostNovelty": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily an operational/anniversary-style announcement: a project takeover, continuity plans, a request for feedback, and an invitation to hand the project off. For EA readers these are very familiar types of posts (low novelty). To the general public the content is also routine organizational news rather than a new idea or claim. The only mildly novel items are the specific stewardship decision (CEA Online Team takeover), an explicit plan to evaluate cost-effectiveness, and a hint about migrating off a no-code platform \u2014 but these are still mundane operational details."
+  },
+  "PostInferentialSupport": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is clear, transparent and logically structured \u2014 it honestly states what is known and unknown, lays out concrete short-term plans, trade-offs, and options for handoff, and acknowledges uncertainty about cost-effectiveness. Weaknesses: Claims about impact are vague and unsupported by quantitative or specific qualitative evidence (no usage metrics, conversion rates, user testimonials, or cost estimates). Footnotes and prior-iterations links provide context but do not substantiate effectiveness. Overall: the announcement itself (that the board is back and will be run by CEA Online) is well supported; claims about its positive impact and value-for-money are weakly supported and need concrete data to be compelling."
+  },
+  "PostExternalValidation": {
+    "post_id": "mMYSLTedzLpqwp2Fk",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major, public-facing claims are well supported: the EA Forum post by Sarah Cheng (Jan 7, 2025) exists; the EA Opportunities site (ea-internships.pory.app) is live and explicitly lists the Centre for Effective Altruism / CEA Online Team as running the project; the Mailchimp newsletter signup exists and states a bi\u2011weekly cadence; earlier iterations (started/maintained by students/young professionals) are documented (e.g. michel\u2019s July 2022 EA Forum post). A few internal or historical claims (\"paused for most of 2024\", \"the student who was running it no longer has capacity\", and the claim that previous owners received EAIF grants) are plausible and consistent with the timeline but are not fully documented in independent public records I found, so those items are only partially verified. Overall: most key external claims are verifiable and accurate, with a few internal/administrative claims lacking strong independent documentation.",
+    "sources": [
+      "EA Forum \u2014 \"The EA Opportunity Board is back\" by Sarah Cheng (Jan 7, 2025).",
+      "EA Opportunities site \u2014 EA Opportunity Board (ea-internships.pory.app) (Opportunity Board page).",
+      "EA Opportunities site \u2014 Contact / About pages showing the Online Team / Centre for Effective Altruism running the project (ea-internships.pory.app/contact and site footer).",
+      "Mailchimp \u2014 EA Opportunities Newsletter signup (mailchi.mp/2d59ffe3ec9b/ea-opportunities-newsletter).",
+      "EA Forum \u2014 \"EA Opportunities: A new and improved collection...\" by michel (Jul 22, 2022) (documents earlier student-run iterations).",
+      "80,000 Hours \u2014 Job board Collections page (jobs.80000hours.org/collections) (supports claim that 80K has a collections tab covering similar use cases).",
+      "EA Groups / resources snapshot referencing EA Opportunities (eaopps board listing / last-updated note: resources.eagroups.org/ea-opportunities-board)."
+    ]
+  }
+}

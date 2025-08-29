@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "This is a meaningful, practical caution for the EA/rationalist community: it highlights how high-variance domains and measurement error produce selection and posterior bias, and therefore can systematically mislead funders and evaluators about which interventions are truly high-impact. If taken seriously it would affect how EAs do due diligence (more regularization, robustness checks, portfolios, value of lower-uncertainty signal), so it's load-bearing for allocation and strategy decisions even if it's not a novel theoretical breakthrough. For general humanity the post is of modest relevance \u2014 it matters to donors and analysts but isn't foundational to most public decisions or broadly transformative outside philanthropic/technical evaluation contexts."
+  },
+  "PostRobustness": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak/unrealistic simulation assumptions \u2014 the toy model is useful for intuition but currently undercuts rather than supports your point because the choices (additive normal noise, arbitrary means/SDs, independence of G and E) are neither justified nor robust. Actionable fixes: either justify those parameter choices with data or run robustness checks (lognormal/heavy\u2011tailed/multiplicative noise, correlated G and E, varying prior variances, extreme tails). Show posterior predictive checks or at least report how sensitive your qualitative conclusions are to those modeling choices. This will stop readers from dismissing the whole argument as an artifact of a fragile toy model.  \n\n2) Lacks practical, decision\u2011level guidance \u2014 you pose a valuable practical question but leave readers with only a vague \u201cbe Bayesian/regularize\u201d response. Actionable fixes: add 3\u20136 concrete heuristics or decision rules someone can use when they face the problem (e.g., prefer interventions with high signal:noise ratio or observable intermediate outcomes; require independent convergent evidence; favour flexible/option\u2011preserving interventions; use portfolios and small experiments; apply shrinkage/empirical\u2011Bayes when estimating EV). If you want to keep length down, present these as a short checklist or prioritized rules of thumb rather than long theory.  \n\n3) Important counterarguments and strategic dynamics are under\u2011addressed \u2014 you note Berkson briefly but don\u2019t engage with other major issues that could be \u201cown goals\u201d: charities might optimize messaging to exploit evaluator priors (gaming), measurement error may be endogenous/correlated with true G (e.g., better orgs also produce better evidence), and moral/prior disagreement across EAs matters for which priors to shrink toward. Actionable fixes: explicitly acknowledge these mechanisms and either (a) model one simple version (e.g., allow E correlated with G or include a strategic reporting channel) or (b) add a short paragraph on how to detect/mitigate them in practice (replication, third\u2011party auditing, pre\u2011registered metrics, looking for independence of evidence). This will make your post more robust to obvious critiques and more useful to practitioners.",
+    "improvement_potential": "The feedback correctly calls out the three biggest weak points that would make readers dismiss or misunderstand the post: fragile toy-model assumptions, lack of concrete decision guidance, and omitted strategic/endogenous issues (gaming, correlated errors, divergent priors). Addressing those would substantially strengthen credibility and practical usefulness without necessarily bloating the post; the suggested fixes are concrete and actionable."
+  },
+  "PostAuthorAura": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that an author named \"Evan Fields\" is known within the EA/rationalist community or widely publicly\u2014no notable publications, talks, or community presence up to my 2024-06 knowledge cutoff. The name may be a pseudonym or belong to multiple private individuals; if you have a link or context (article, affiliation, platform), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and largely easy to follow: it gives clear background, states a precise question, and uses a toy simulation to build intuition. Strengths include explicit framing, sensible examples, and a helpful visual/analogy-driven approach. Weaknesses: occasional jargon and notation (Bayesian framing, G/E/O) assume some technical background; the figure is relied on without a text summary for non-visual readers; footnote markers and minor formatting choices slightly interrupt flow; and the post ends without a concise takeaway or recommended next steps. Overall clear and compelling, but could be tightened and made a bit more accessible to non-technical readers."
+  },
+  "PostNovelty": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers the core ideas are familiar: Bayesian regularization, signal\u2011to\u2011noise tradeoffs, selection effects/Berkson\u2011type bias, and longstanding worries about evaluating x\u2011risk/longtermist interventions. The post is a clear, well\u2011phrased instance of these themes and includes a simple toy simulation, but it mostly crystallises points many EAs have already discussed. For the general public the combination of tiny probabilities \u00d7 enormous payoffs, measurement error in charity evaluation, and the idea that high apparent effectiveness can be driven by alignment with evaluator biases is less widely appreciated, so the framing is moderately novel to non\u2011EA readers."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post frames a clear, important question and uses sensible conceptual tools (Bayesian regularisation, Berkson-style selection effects) to show why high-uncertainty domains are hard to evaluate. The toy simulation is an appropriate intuition pump and the author is candid about limits. Weaknesses: The arguments are mostly qualitative and the only empirical support is a very simple toy model with strong, arbitrary assumptions (additive normal noise, chosen parameter values) and no robustness checks or references to relevant literature or real-world data. The post does not quantify how to set priors, model multiplicative uncertainty, or propose validated methods (e.g., hierarchical Bayesian modelling, calibration against historical forecasting, expert elicitation protocols, prediction markets). Overall, the concern is plausible and the reasoning internally coherent, but evidence is thin and the post stops short of offering rigorously justified prescriptions."
+  },
+  "PostExternalValidation": {
+    "post_id": "nQYW5nq9iKpCKnYBj",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s empirical claims are well-supported in broad strokes. Evidence from EA community surveys and reporting shows increased interest and funding toward longtermist / high-uncertainty causes (AI risk, biosecurity, wild/ farm animal welfare and other longtermist priorities). The statistical points about selection on noisy measurements, regression-to-the-mean / Berkson-style collider/selection effects, the \u201cwinner\u2019s curse,\u201d and the usefulness of Bayesian/Empirical-Bayes shrinkage (and its limits) are established in the statistical literature and match the toy-simulation intuition the author presents. Weaknesses: the post is intentionally informal and uses a toy normal model (the author acknowledges this); the post does not (and need not) provide measured values for real-world signal and noise in specific charity classes, so quantitative conclusions about which classes are \u201ctrustworthy\u201d in practice remain uncertain. Also, multiplicative or non-normal error structures can change details (but not the high-level warning). Overall: the conceptual claims are well supported; specific empirical magnitudes would require domain-by-domain measurement.",
+    "sources": [
+      "EA Survey: Cause Prioritization (Rethink Priorities / EA Survey 2022) \u2014 EA Forum summary (shows rising ratings for AI risk, biosecurity, animal welfare and comfort with low-probability/high-impact interventions).",
+      "Rethink Priorities, EA Survey 2020: Cause Prioritization (analysis showing trends over time).",
+      "Open Philanthropy grants database / Open Philanthropy public grant pages (documenting large grantmaking into AI safety, biosecurity and other longtermist-related areas).",
+      "Time magazine, 'Want to Do More Good? This Movement Might Have the Answer' (coverage of EA\u2019s shift toward longtermism and high-uncertainty causes).",
+      "Berkson's paradox / collider bias (exposition) \u2014 Wikipedia page 'Berkson's paradox' (explains selection-induced spurious correlations and the collider-selection phenomenon).",
+      "James\u2013Stein shrinkage / Stein\u2019s paradox (original results and discussion) \u2014 Stein (1956) / James & Stein (1961); summary: James\u2013Stein estimator (Wikipedia and standard references) (shows formal benefits of shrinkage when estimating many parameters jointly).",
+      "Bradley Efron, 'Empirical Bayes Estimates for Large-Scale Prediction Problems' (JASA 2009) and Efron, 'Large-Scale Inference' (book) (empirical Bayes and large-scale shrinkage methods for many simultaneous estimates).",
+      "Winner\u2019s curse literature and Empirical-Bayes corrections in large-scale studies: 'Quantifying and correcting for the winner's curse in genetic association studies' (2009) and 'Empirical Bayes Correction for the Winner's Curse in Genetic Association Studies' (2012, PMC) (demonstrates overestimation when selecting extreme observed effects and shows shrinkage/EB corrections)."
+    ]
+  }
+}

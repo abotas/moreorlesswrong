@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "This is a useful, practical anecdote for people in EA/AI-safety wanting to break into policy operations. It provides concrete, reproducible tips (volunteer to get referrals, leverage local community ties, take roles you\u2019re uniquely suited for, accept tradeoffs like low pay when you have financial slack) and thus can modestly influence career choices and hiring expectations in the community. However it is anecdotal, non-foundational, and not load-bearing for EA strategy or technical AI safety work. For general humanity it\u2019s essentially irrelevant beyond being one person\u2019s career story."
+  },
+  "PostRobustness": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overgeneralisation / missing caveats (big risk of misleading readers). You write that it was \u201csomewhat easy\u201d to get into AI policy, but your story depends on several non\u2011trivial, non\u2011replicable advantages (strong local EA community, a direct referral from CeSIA, French language skill, financial slack, prior volunteering relationship with the hiring org). Explicitly flag these as selection factors near the top (or change the headline to something like \u201cHow I got into AI policy \u2014 an anecdote that required specific advantages\u201d). Add a short bullet list of the concrete preconditions that made this possible so readers don\u2019t assume this is the default path.\u2028\n\n2) Lack of concrete, replicable advice (limits usefulness). The post is mostly anecdote; if your goal is to help newcomers, add a few concrete, actionable takeaways they can reproduce. For example: the exact volunteer tasks that were highest leverage (e.g. \u201cweekly event coordination, 8\u201312 hrs/week for X months\u201d), a one\u2011paragraph template for an outreach email/referral request, what interview/application questions you were asked and how you answered them, timeline from first contact to hire, and the specific skills/phrases you highlighted on your application. If you don\u2019t want to lengthen too much, add a short \u201cPractical steps\u201d bulleted appendix or link to a single Google Doc with these templates and timelines.\u2028\n\n3) Understated risks and negotiation lessons (missing warnings & practical negotiating tips). You note it was \u201cfreaking hard\u201d and later recommend conditioning offers on mentoring, but the post doesn\u2019t give readers guidance on avoiding common pitfalls: unpaid/low\u2011paid internships for non\u2011students, being used as cheap labor, burnout risk, or what to negotiate (mentoring hours, written scope, compensation, grant contingencies). Add a brief section with concrete red flags to watch for and short scripts for negotiating mentoring time and basic contractual terms (e.g. \u201cI\u2019d accept this role if we can agree on X hours of weekly mentorship and a written milestone for Y\u201d). That will help readers avoid being exploited and replicate your positive outcome more safely.",
+    "improvement_potential": "The feedback identifies major, practical weaknesses: the post overgeneralizes from a strongly privileged anecdote, lacks concrete reproducible steps readers can act on, and omits key warnings/negotiation tips that would prevent exploitation or burnout. Fixing these would substantially reduce the risk of misleading newcomers and make the post more useful, and the recommended edits can be done concisely (short caveats, a brief \u2018practical steps\u2019 bullet list, and a short \u2018red flags/negotiation scripts\u2019 section) without bloating the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find evidence that 'Lucie Philippon \ud83d\udd38' is a known figure in the EA/rationalist community or more broadly. The name (and the orange-diamond emoji) does not match any prominent authors, speakers, or central contributors in EA or in widely indexed public sources up to mid\u20112024; it may be a pseudonym, a very minor/anonymous online account, or a private individual. Confidence: low\u2013medium due to possible aliasing."
+  },
+  "PostClarity": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: chronological headings (job, how I got it, key factors, reflections) make it easy to follow; concrete day-to-day tasks and specific examples improve comprehension. The main claim (that getting into AI policy can be relatively quick if you are proactive and accept tradeoffs) is supported by a readable anecdote and a ranked list of reproducible factors, but it remains anecdotal and could be more explicit about which steps are generalizable. Minor issues: a few small typos/awkward phrasings, occasional repetition, and some details (e.g. the grant, salary/tradeoffs) could be clarified or tightened for greater concision."
+  },
+  "PostNovelty": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the post is not very novel \u2014 it mostly reiterates well-known pathways into AI policy (volunteering, community involvement, referrals, being flexible on pay/role) and gives the familiar practical tips. Small original elements are the concrete, granular description of event-operations day-to-day work, the rapid ~3-month transition timeline, and the specific recommendation to condition offers on mentoring. For the general public it\u2019s slightly more novel because AI policy careers and high-level safety event operations are less familiar, but the underlying ideas (networking, volunteering, skill transfer, financial slack) are common career-advice themes."
+  },
+  "PostInferentialSupport": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is a clear, well-structured first-person account that identifies plausible causal factors (volunteering/referrals, community involvement, language fit, financial slack) and gives concrete, actionable steps. Weaknesses: the core claim (that it's \"somewhat easy\" to get into AI policy without prior experience) rests on a single anecdote and contains unexamined assumptions (survivorship/selection bias, role-specific idiosyncrasies, counterfactuals). Evidence is concrete about the author\u2019s case (links to events, employer feedback) but insufficient to generalize\u2014no systematic data, failure cases, or alternative explanations are considered. Overall, the narrative is credible as an illustrative datapoint and contains useful tactical advice, but it does not provide strong empirical support for the broader generalization."
+  },
+  "PostExternalValidation": {
+    "post_id": "B2LZKLHqGQer5WRsY",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's externally-checkable claims are well-supported: the two events the author names (the PECC \"Responsible Adoption of General Purpose AI\" seminar and the AI Safety Connect Paris side event) are publicly documented and list overlapping organisers/speakers (including Nicolas Miailhe and Cyrus Hodes / MBRSG). Multiple reputable news sources and policy analyses independently report that the 2025 Paris summit was rebranded to an \"AI Action Summit\" and de-emphasised the prior summit chain's exclusive safety framing \u2014 supporting the author's claim that safety received less prominence at the main summit and that independent safety-focused side events were important. The author\u2019s affiliation and involvement (CeSIA volunteering, posts and profiles for Lucie Philippon, and her PECC/FPTPEC role) are corroborated by her public profile and organisational pages, but many of the recruitment-process and personal-timeline details (exact hiring conversations, the role of specific referrals, precise length of job-search-to-hire interval) are personal anecdotes and cannot be independently verified beyond the author's statements. Overall: most objective claims (events, organisations, summit framing) are verifiable and accurate; personal causal claims and private hiring details are plausible but anecdotal/unverifiable externally.",
+    "sources": [
+      "Responsible Adoption of General Purpose AI \u2014 Glue Up / National Center for APEC event page (PECC seminar, speakers & agenda) (Glue Up event page, Sept 18-19, 2024).",
+      "AI Safety Connect \u2014 official event site (pilot side event at 2025 Paris AI Action Summit; schedule and speakers listing including Cyrus Hodes & MBRSG/FLI involvement).",
+      "AI Safety Connect \u2014 'Event details' page (shows Cyrus Hodes, Charbel/CEsIA participation and agenda for Feb 9, 2025 side event).",
+      "CeSIA (Centre pour la S\u00e9curit\u00e9 de l'IA) \u2014 official site (CeSIA description, posts, and mention of side-event activity at the AI Action Summit).",
+      "Cyrus Hodes \u2014 Mohammed Bin Rashid School of Government (MBRSG) profile (describes Cyrus Hodes leading GRASP/AI safety initiatives and links to MBRSG activities).",
+      "Coverage of the Paris AI Action Summit (reporting that the summit shifted from a 'safety' framing to an 'action' framing): CSIS analysis 'France\u2019s AI Action Summit'; Euronews piece 'Why experts are calling the Paris AI Action Summit a missed opportunity'; The Guardian / Financial Times / New York Times reporting (summit critiques and descriptions of rebranding and tone).",
+      "Pacific Economic Cooperation Council (PECC) \u2014 event listings and FPTPEC pages (context on FPTPEC as the France Pacific Territories National Committee for PECC).",
+      "Lucie Philippon \u2014 EA Forum / LessWrong user profile and personal site (aelerinya.me) listing involvement with PECC workshop, AI Safety Connect and CeSIA; LessWrong posts by Lucie summarising French AI policy background and activities."
+    ]
+  }
+}

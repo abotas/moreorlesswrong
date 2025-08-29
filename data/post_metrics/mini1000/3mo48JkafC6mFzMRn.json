@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This report is a practical, operationally useful contribution to longtermist and resilience-focused EA work: mapping critical commodities, chokepoints, and institutional interventions can be high-leverage (targeted reforms at entrep\u00f4ts / hubs could cascade to improved global recovery capacity). It is not foundational to core EA epistemics (e.g., AI alignment theory), but is relatively load-bearing for strategies that aim to preserve civilization or speed recovery after systemic shocks. For general humanity the potential impact is substantial if adopted (improved ability to survive and recover from collapse), but feasibility, political frictions, and competing approaches limit its likely near-term reach, so the overall importance is material but not revolutionary."
+  },
+  "PostRobustness": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the core methodology and evidence far more transparent and concise. The post repeatedly claims you\u2019ve \u2018identified key commodities and trade nodes\u2019 but gives no summary of how this was done, what data was used, or how robust the findings are. Actionable fixes: add a short bullet list (or 1-paragraph appendix) describing data sources, selection criteria for commodities/nodes, the futures methods used, and at least one sensitivity check or validation example (e.g., how the method would have ranked Suez/semiconductor supply under a historical shock). This prevents the biggest credibility objection \u2014 that the claims are hand-wavy.  \n\n2) Address political-economy and incentive problems head-on. The post assumes adoption at chokepoints and by global actors without engaging how states, ports, and firms would be incentivised to cooperate, or how GRAIN avoids fueling protectionism or geopolitical backlash. Actionable fixes: include a short section listing the main realistic counterarguments (e.g., capture by national security agendas, retaliation, rent-seeking, trade wars), describe concrete mechanisms you would test to secure cooperation (binding agreements, conditional financing, insurance, public\u2013private governance models), and explain mitigation strategies for the biggest risks (e.g., transparency safeguards, trade-compliance checks).  \n\n3) Give at least one concrete pilot plan with measurable outcomes and safeguards. Right now the proposal reads like a high-level ambition. Readers (and potential partners/funders) need to see a tractable first step. Actionable fixes: propose 1\u20132 specific chokepoints or commodities for a pilot, with estimated scope (timeline, rough budget range), clear KPIs (e.g., days-to-recover-critical-supply, % redundancy added, number of institutions onboarded), and explicit safeguards against harms (e.g., assessments of distributional effects, limits on export bans). If space is limited, make this a very short \u2018next steps\u2019 box \u2014 it will make the proposal look operational rather than purely aspirational.  \n\nBonus: cite or contrast a couple of relevant prior works (supply-chain resilience literature, WTO/UN precedents, and any EA-relevant analyses) so readers can quickly contextualise how GRAIN differs and why it\u2019s necessary. This can be one or two one-line citations and will reduce objections that you\u2019ve overlooked existing solutions.",
+    "improvement_potential": "The feedback targets the report\u2019s biggest credibility and operational gaps: missing methods/data transparency, lack of political-economy/incentive analysis, and absence of a concrete pilot \u2014 all of which are likely to leave readers unconvinced or embarrassed by hand-wavy claims. The suggestions are actionable and concise (short bullets/one-paragraph boxes), so addressing them would substantially strengthen the post without bloating it. It stops short of nitpicking technical details or offering specific alternative methods, so it isn\u2019t maximal (hence not a 9\u201310), but it is high-impact and appropriately prioritised."
+  },
+  "PostAuthorAura": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "Odyssean Institute appears to be an obscure or pseudonymous author/organization with little visible presence in mainstream EA/rationalist channels (few/no widely cited posts, talks, or affiliations). Not recognized as a regular or prominent EA contributor and has no notable public profile outside niche/online spaces. If you have links or works, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "clarity_score": 7,
+    "explanation": "Generally clear and well-structured for an EA/technical audience: the purpose, report link, and high-level approach (focus on key commodities, chokepoints, and institutional resilience) are stated succinctly. Weaknesses: uses several jargon-heavy or abstract phrases (e.g. \u201cnodes of persisting complexity/recovery,\u201d \u201centrepr\u00f4ts,\u201d \u201cOdyssean Process\u201d) without concrete examples or simple definitions, and doesn\u2019t spell out specific next steps or target audiences \u2014 which reduces accessibility for less-specialised readers."
+  },
+  "PostNovelty": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "novelty_ea": 5,
+    "novelty_humanity": 3,
+    "explanation": "Within the EA/longtermist community the report is moderately novel: it isn't introducing wholly new worries (supply\u2011chain chokepoints, onshoring vs comparative advantage, resilience to systemic collapse) but it does offer a somewhat original, operational framing \u2014 mapping key trade nodes, distinguishing \u2018nodes of persisting complexity\u2019 vs \u2018persisting recovery\u2019, and proposing targeted institutional/futures interventions (the Odyssean Process). For the general public these ideas are less novel: post\u2011COVID and recent geopolitical debates have widely circulated concepts of supply\u2011chain resilience, chokepoints, and strategic stockpiling, so the report mainly repackages known themes in a specialist EA-oriented framework."
+  },
+  "PostInferentialSupport": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post lays out a coherent and plausible high-level argument: resilience to extreme systemic shocks likely depends on a mix of material capacities, institutional capabilities, and strategically located trade chokepoints, and targeted interventions at those nodes can have outsized effects. It shows conceptual awareness of trade-offs (e.g. not blindly renewing globalization) and of the need for both material and institutional solutions. However the argument is largely schematic and exploratory in this post: it lacks clear articulation of causal mechanisms, quantification of risks or benefits, assessment of implementation feasibility, or discussion of countervailing risks (political economy, incentives, unintended consequences). Empirical support in the post is minimal \u2014 no data, case studies, mappings of identified nodes/commodities, or validation of the proposed methods are presented (though the linked report may contain more). Overall the thesis is plausible but only modestly supported here; stronger support would require concrete evidence, modelling, and evaluation of real-world interventions and trade-offs."
+  },
+  "PostExternalValidation": {
+    "post_id": "3mo48JkafC6mFzMRn",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the report\u2019s factual / empirical claims are verifiable and supported by reliable sources: the GRAIN report and related Odyssean Institute publications exist; their collaboration and paper \u2018Resilience Reconsidered\u2019 (with ALLFED) is publicly available/accepted; trade chokepoints (Hormuz, Malacca, Suez, Panama, etc.) are well-documented as critical for energy and other flows; and the Netherlands\u2019 high\u2011intensity greenhouse horticulture is well established. One notable overstatement: the post\u2019s phrasing that \u201cTaiwan \u2026 hosts 90% of global semiconductor production\u201d is misleading \u2014 authoritative data show Taiwan accounts for a majority share of global semiconductor foundry/advanced\u2011chip capacity (estimates vary by metric: ~40\u201375% of foundry/production depending on definition and year, and ~>80\u201390% of the most advanced node capacity in some reports), so the 90% claim requires qualification (it is closer to ~60\u201370% of overall value/production and ~80\u201390% for the very most advanced processes). The rest of the empirical claims are mostly accurate or defensible. ",
+    "sources": [
+      "Odyssean Institute \u2014 GRAIN project page (Global Resilient Anticipatory Infrastructure Network).",
+      "EA Forum linkpost for GRAIN overview report (Odyssean Institute).",
+      "Odyssean Institute \u2014 Publications & 'Our 2024 in Review' (confirms horizon scan, collaboration with ALLFED, Resilience Reconsidered).",
+      "Springer / International Journal of Disaster Risk Science \u2014 'Resilience Reconsidered' (Odyssean + ALLFED) (article / acceptance).",
+      "TrendForce reporting on Taiwan foundry capacity shares (2023\u20132024 data / projections).",
+      "The Economist \u2014 'Taiwan\u2019s dominance of the chip industry' (summarizes that Taiwan produces ~60%+ of semiconductors and ~90% of the most advanced chips).",
+      "CNBC (and BCG/other industry sources) reporting that Taiwan/TSMC account for the vast majority of advanced-node chip manufacturing (context on the '90%' claim).",
+      "U.S. Energy Information Administration (EIA) \u2014 'World Oil Transit Chokepoints' (data on Strait of Hormuz flows and chokepoints).",
+      "Encyclopaedia Britannica \u2014 'Strait of Hormuz' (geography: Oman / Iran / shipping lanes).",
+      "CBS / The Netherlands in Numbers & sector reports \u2014 Netherlands greenhouse horticulture statistics (greenhouse area, exports, intensity).",
+      "Boston Consulting Group / BCG & other analyses on major maritime chokepoints and transshipment hubs (Singapore, Panama, Suez, Malacca).",
+      "UNEP Emissions Gap Report / IPCC summaries (supporting the claim that Paris NDCs have been insufficient/lagging to meet 1.5\u00b0C targets)."
+    ]
+  }
+}

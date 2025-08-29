@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "Modestly interesting to the EA/rationalist community as a signal that a previously niche welfare issue (shrimp eyestalk ablation / invertebrate welfare) is getting some public/political attention \u2014 it could help mainstream advocacy and local policy change but is not foundational. For general humanity this is a low\u2011impact, localized cultural/political tidbit with limited broader consequences unless it becomes part of a much larger movement."
+  },
+  "PostRobustness": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Don\u2019t overclaim from one post \u2014 weaken or justify the \u201cgaining attention\u201d line. One MP\u2019s Instagram post is interesting but anecdotal; either (a) soften the language (e.g. \u201cthis is the first time I\u2019ve noticed\u2026outside EA\u201d), or (b) show evidence of wider uptake (links/screenshots, other social/media mentions, dates). A single example shouldn\u2019t be presented as a trend.  \n\n2) Add concise context and citations about eyestalk ablation and why it matters. Right now readers who don\u2019t know the practice or its welfare implications won\u2019t understand why the post is notable. Add a one-sentence explainer (what the procedure is, how common it is in prawn farming, key welfare harms) and 1\u20132 reliable links or EA references so claims aren\u2019t just asserted.  \n\n3) Give a clear takeaway or next step for readers. Right now the post is only an observation. Say why readers should care and what they could do (e.g. amplify the MP\u2019s post with a link, contact the MP for follow-up, share research with local policymakers, or start awareness threads). Also briefly acknowledge the main counterarguments you\u2019d expect (industry pushback, cultural practices) or note you\u2019ll address them later \u2014 this prevents the post from looking like an own-goal.",
+    "improvement_potential": "Targets real, non-trivial weaknesses: (1) corrects an overclaim from a single anecdote, which could be embarrassing if presented as a trend; (2) asks for essential context/citations so readers understand why eyestalk ablation matters; (3) pushes for a clear takeaway and brief counterargument pre-emption so the post isn't just an unanchored observation. These fixes are actionable and needn\u2019t greatly lengthen the post, so they materially improve quality."
+  },
+  "PostAuthorAura": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don\u2019t recognize an EA/rationalist author named \u201cHenry Howard\ud83d\udd38.\u201d The name is common (and matches historical figures), but there\u2019s no clear, widely-known EA/rationalist presence or notable global public profile under that name. If you can share a link or sample work, I can re-evaluate."
+  },
+  "PostClarity": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "clarity_score": 8,
+    "explanation": "The post is concise and easy to follow: it states who Georgie Purcell is, what she posted about, and why the author finds that notable. Sentences are simple and the main point (that shrimp eyestalk ablation is being mentioned outside EA) is clear. Weaknesses: it doesn't define \"eyestalk ablation\" for readers unfamiliar with the term, provides no link/quote to the Instagram post or image context, and makes a somewhat unsupported inference (that one post implies growing attention). Adding a brief definition and a link would improve clarity and persuasiveness."
+  },
+  "PostNovelty": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "novelty_ea": 3,
+    "novelty_humanity": 7,
+    "explanation": "For EA readers the content isn\u2019t very novel \u2014 shrimp eyestalk ablation and efforts to publicise it are already discussed in EA/animal-welfare circles, so the post is mostly a small datapoint about outreach. For the general public the topic is fairly obscure; a politician publicly posting about this specific farming practice is likely new and attention-worthy to most people."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post makes a plausible but weak inference from a single anecdote to a broader trend. Strengths: the example is relevant (an elected Animal Justice Party MP posting about eyestalk ablation is noteworthy) and the screenshot link appears to provide primary-source evidence. Weaknesses: the argument is an unsubstantiated generalization\u2014no data on frequency, reach, or independent corroboration; no consideration that the post could reflect the party's existing remit rather than wider mainstream attention; missing context (engagement, other coverage). Overall the claim is under-supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "9pM6rpQ4oNZhLT8fZ",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Most factual claims in the post are supported by reliable sources: Georgie Purcell is a Member of the Victorian Legislative Council and represents the Animal Justice Party (verified on the Parliament of Victoria site and AJP pages), eyestalk ablation is a widely-documented practice in shrimp/prawn aquaculture and has been debated publicly (scientific literature, NGO campaigns and news coverage), and eating prawns at Christmas is a well-known Australian tradition. I could not directly fetch the specific Instagram post (Instagram was not accessible during checking), but Georgie Purcell publicly spoke about prawn eyestalk ablation in the Victorian Parliament (Hansard, 15 Nov 2023) and her official pages link to her Instagram \u2014 so the claim she posted about the issue on social media is plausible though not independently viewable here. The poster\u2019s subjective claim that this is \u201cthe first time I\u2019ve seen this mentioned outside of the Effective Altruism context\u201d is inaccurate: animal\u2011welfare groups (e.g., Animals Australia) and retailers/advocacy coverage have discussed eyestalk ablation publicly for years. Overall: core facts are well-supported, one specific social\u2011media post could not be directly verified and the originality claim is contradicted by prior public reporting and campaigns.",
+    "sources": [
+      "Parliament of Victoria \u2014 Ms Georgie Purcell member page (parliament.vic.gov.au)",
+      "Victorian Parliamentary Hansard \u2014 'Prawn eyestalk ablation' (Georgie Purcell), 15 November 2023 (parliament.vic.gov.au/hansard)",
+      "Animal Justice Party \u2014 Georgie Purcell profile / elected representatives (animaljusticeparty.org)",
+      "Animals Australia \u2014 'Prawn industry: Stop cutting eyes off live prawns' (animalsaustralia.org)",
+      "Wikipedia \u2014 'Eyestalk ablation' (overview and references; includes scientific literature and policy notes)",
+      "Shrimp Welfare Project \u2014 'What is eyestalk ablation?' / 'Why stop using eyestalk ablation?'.",
+      "Marine Stewardship Council (MSC) Australia \u2014 'Why do we eat prawns at Christmas?' (msc.org/en-au)",
+      "The Guardian \u2014 reporting on retailer commitments to end eyestalk ablation / prawn welfare (e.g., Waitrose/Tesco coverage, 2024\u20132025)"
+    ]
+  }
+}

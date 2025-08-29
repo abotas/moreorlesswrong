@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is primarily an operational/personnel announcement with limited strategic content. For the EA/rationalist community it matters somewhat \u2014 leadership changes at a notable EA org can affect fundraising, hiring, priorities, and signal stability or change \u2014 but the post is not making new, load-bearing claims about strategy or risk, and the author says AIM is stable and they will remain on the board. For general humanity it is trivial/irrelevant, with no broad societal implications unless the organization were far larger or central to global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing concrete transition details \u2014 readers will want to know who will run AIM day-to-day and how risk to operations/funding/programs will be mitigated. Add (at minimum) whether there is an interim or named successor, the search/handover plan and timeline, which senior staff will be accountable during the handover, and a line about fundraising/partnership continuity. If you can\u2019t share names, say so and give a clear process and dates (e.g. \u201cwe\u2019ll announce interim lead by X, finalize new CEO by Y\u201d). Offer a short town\u2011hall / AMA for staff/donors/community.\n\n2) Key reasons are too vague and use jargon \u2014 \u201ccounterfactual impact\u201d and \u201cfit for founder vs CEO\u201d are meaningful but opaque. Give a one-sentence plain-English summary of each reason in the forum post so readers can quickly assess your judgment and incentives (e.g. \u201cI believe I can have more marginal impact doing X outside AIM\u201d or \u201cI was less effective on operational leadership and better at strategy/creation\u201d). Also clarify what your board role will practically mean (time commitment, voting rights, areas you\u2019ll still influence) and how you\u2019ll avoid conflicts of interest as founder-turned-board-member.\n\n3) Reassure core stakeholders briefly \u2014 add a short sentence for staff, major donors, and partners about continuity (who to contact, whether strategic priorities or commitments change, and when you\u2019ll provide a fuller transition plan). This prevents alarm and reduces the number of follow-up queries you\u2019ll need to handle. (If you intend readers to go to your Substack for details, explicitly say which essentials you\u2019re keeping out of the forum post and why.)",
+    "improvement_potential": "The feedback identifies several substantive omissions that readers (staff, donors, partners) will reasonably view as important \u2014 who will run day\u2011to\u2011day, handover timeline, accountability, and basic reassurance about continuity \u2014 and flags opaque wording and the need to clarify the founder\u2192board role. These are the sort of \u2018own\u2011goals\u2019 that can generate unnecessary alarm and follow\u2011ups but can be fixed with a few brief additions, so acting on them would materially improve the post without excessive length. It\u2019s not a 10 because the post isn\u2019t conceptually wrong and some details may appropriately sit on the linked Substack, but it\u2019s nevertheless a high\u2011impact set of improvements."
+  },
+  "PostAuthorAura": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not identify a notable figure known as \"Joey\ud83d\udd38\" in my training data or in major EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, GiveWell, EAG speakers) or in mainstream sources. Likely a pseudonymous or low-profile individual with minimal public presence."
+  },
+  "PostClarity": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "clarity_score": 7,
+    "explanation": "Overall clear, concise and easy to follow: purpose, timing, and next steps are stated and a link gives more detail. Weaknesses: a couple of vague phrases/jargon (e.g. \"my counterfactual impact\"), a possible typo/unclear term (\"CE\"), and the listed reasons are very terse and rely on the external Substack for full understanding."
+  },
+  "PostNovelty": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine leadership transition announcement. The content \u2014 stepping from CEO to board, giving transition time, citing stability, counterfactual impact, and founder-vs-CEO fit, and linking to a fuller Substack post \u2014 is familiar to EA readers and to the general public. The only mildly specific elements are the particular personal reasons and references to EA-style reasoning (e.g., counterfactual impact), but those are common in EA discussions and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This is primarily an informal announcement rather than a detailed argument. Strengths: the post states a clear conclusion (stepping down) and gives three plausible high-level reasons (organization stability, counterfactual impact, role fit), provides a concrete timeline, and links to a longer Substack post for more detail. Weaknesses: the causal claims are under-specified and largely asserted without supporting data or concrete examples (no metrics on AIM's stability, no analysis of alternative uses of the author's time or expected benefits, no evidence of poor/good CEO fit, and no details about succession planning). For readers seeking robust justification, the reasoning is thin and the empirical evidence is minimal; it may be appropriate for an announcement but does not strongly support the underlying claims on its own."
+  },
+  "PostExternalValidation": {
+    "post_id": "mh652ZDuqf3Tgh3Cv",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s key factual claims are verifiable and well-supported: Joey (Joey Savoie) publicly announced stepping down as AIM CEO on March 15, 2025; AIM and its site corroborate the announcement, say he will transition to a board role, and list a planned last day of December 1; Charity Entrepreneurship\u2019s/AIM\u2019s history confirms Joey co\u2011founded CE (now AIM) in mid\u20112018 (~7 years). The Substack link in the post is referenced by the forum post but the Substack page could not be fetched during checking; several subjective or predictive statements in the post (e.g., \u201cAIM has been one of the most meaningful parts of my life\u201d or \u201cI have no doubt AIM will continue to scale its impact\u2026\u201d) are personal or predictive and not empirically verifiable. Minor possible discrepancy: some public pages still list Joey in an executive role (site updates can lag), but secondary AIM and EA Forum pages explicitly describe the announced transition.",
+    "sources": [
+      "EA Forum post \u2014 'Joey/AIM transition announcement' (posted Mar 15, 2025): https://forum.effectivealtruism.org/posts/mh652ZDuqf3Tgh3Cv/joey-aim-transition-announcement",
+      "Ambitious Impact (AIM) \u2014 'AIM is Seeking a New CEO' (confirms March 15 announcement and planned last day Dec 1): https://www.ambitiousimpact.com/post/aim-is-seeking-a-new-ceo",
+      "Ambitious Impact \u2014 Team & Trustees page (shows organisation, trustees including Karolina; current team listing): https://www.ambitiousimpact.com/team",
+      "Charity Entrepreneurship \u2014 About / History (shows CE founding June 2018 and Joey as co\u2011founder/CEO): https://www.charityentrepreneurship.com/about-us",
+      "Joey\ud83d\udd38 profile on EA Forum (shows Joey as co\u2011founder and long\u2011time CE/AIM leader): https://forum.effectivealtruism.org/users/joey"
+    ]
+  }
+}

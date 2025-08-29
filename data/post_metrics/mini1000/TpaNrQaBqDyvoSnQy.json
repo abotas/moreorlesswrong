@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical announcement of free career-impact workshops (including a SELF framework) that can help individuals make better, more impactful career choices. For the EA/rationalist community it\u2019s a useful, operational resource that could modestly increase the number and effectiveness of people pursuing high\u2011impact roles, but it\u2019s not a foundational or highly load\u2011bearing claim. For general humanity it\u2019s of limited direct relevance \u2014 potentially beneficial insofar as it nudges some people into more effective careers, but the scale and novelty are small."
+  },
+  "PostRobustness": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing practical/logistical details that buyers (group organizers) need to decide quickly. Add at least one-line specs for each workshop: typical length, ideal group size, online vs in-person format, basic agenda (2\u20134 bullet items), and expected concrete takeaways for participants. If you don\u2019t want to expand the post, put those as a 1\u2011page PDF or a short \u201cOrganiser info\u201d link \u2014 organisers often drop requests if they can\u2019t immediately see time/fit.\n\n2) No evidence or evaluation of impact from the pilot(s). You say you ran a pilot and ran at events, but you don\u2019t provide any outcome data or social proof. Include a sentence or two summarising pilot evaluation (e.g., N participants, satisfaction ratings, example outcomes such as hires/next steps), or a short testimonial \u2014 or link to a one\u2011paragraph \u201cimpact & evaluation\u201d note. That will substantially raise credibility and conversion.\n\n3) Audience/prerequisite ambiguity for Workshop 1 and the SELF session. Workshop 1 mentions \u201cEA\u2011familiar participants,\u201d but it\u2019s unclear how you screen or prepare mixed groups, and the SELF session claims to suit \u201cany career stage.\u201d State recommended prerequisites or pre-reading (e.g., the How to Get a Job Guide or a 10\u2011min primer), whether the workshop assumes EA framing, and whether you can adapt content for non\u2011EA communities. This reduces confusion and prevents mismatched expectations.",
+    "improvement_potential": "The feedback identifies three concrete, high-impact omissions that are likely reducing uptake: lack of organiser-facing logistical specs (length, group size, agenda), absence of any pilot outcomes or social proof, and unclear audience/prerequisite guidance. These are actionable, low\u2011burden fixes (or can be added as a one\u2011page organiser info sheet) and would materially improve conversion and prevent mismatched expectations. It loses a couple points because the post already links to a workshops page (which might contain some of this info) and because the feedback could mention a few extra minor items (e.g., accessibility, follow\u2011up support) \u2014 but overall it targets real \u2018own goals\u2019 and is very useful."
+  },
+  "PostAuthorAura": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No clear or widely recognized person/pen-name 'Probably Good' in EA or rationalist communities or in broader public discourse based on available information. Likely a pseudonymous/low-profile online handle; please provide links or more context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to understand: clear title, concise opening, three distinct workshop descriptions with stated target audiences, and explicit calls to action. Strengths include logical organization, useful headings, and concrete links. Minor weaknesses: a couple small formatting issues (e.g., missing space before the SELF Framework link), some repeated links/CTAs, and lack of brief logistical details (session length, group size, or typical agenda) that would make choice and sign-up even clearer."
+  },
+  "PostNovelty": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers this is only slightly novel \u2014 it\u2019s mainly an announcement of workshops that package well-known EA career-impact ideas (job-hunting nuts & bolts, problem selection, and the SELF acronym) rather than introducing new theoretical claims. To the general public it\u2019s a bit more novel because the EA framing (Significance, Efficacy, Leverage, Fit) and targeted longtermist/impact orientation are less common in mainstream career workshops, but the core idea of career-impact coaching and workshops is widespread."
+  },
+  "PostInferentialSupport": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is coherent and well-structured \u2014 it clearly states the offering, target audiences, and the conceptual tools (e.g. SELF framework) and links to related guides and past events, which lends some credibility. Weaknesses: The key claim (that these workshops will help people have a greater impact / think more clearly about impact) is not supported by empirical evidence. There are no outcome metrics, participant feedback, comparisons to alternatives, or details on how the pilot informed improvements. The evidence provided is mainly descriptive/anecdotal (mentions of prior pilots and events) rather than evaluative, so the claim is plausible but weakly substantiated."
+  },
+  "PostExternalValidation": {
+    "post_id": "TpaNrQaBqDyvoSnQy",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well supported by primary sources: Probably Good\u2019s website documents the three workshop types, the SELF framework, the How to Get a Job guide, that workshops are free, and contact/request details. The EA Forum post itself (May 14, 2025) makes the same statements and correctly refers to EAG London occurring in June 2025. The weaker point is independent external corroboration that Probably Good actually ran sessions at specific past events (EAGx Virtual, EAGx Nordics, EA UK): I found the claim as a self-report in the EA Forum post and the organisation\u2019s offerings page, but I could not locate independent programme pages or third\u2011party event listings explicitly naming \u201cProbably Good\u201d as a workshop host for those specific EAGx events. Overall: the core service/offering claims are well-validated; the historical/event-hosting claim is plausible but primarily self-reported and so slightly less independently verified.",
+    "sources": [
+      "Probably Good \u2014 Career Impact Workshops page (probablygood.org/workshops) \u2014 2025.",
+      "Probably Good \u2014 The SELF Framework page (probablygood.org/core-concepts/self-framework/) \u2014 2025.",
+      "Probably Good \u2014 How to Get a Job guide (probablygood.org/how-to-get-a-job/) \u2014 2025.",
+      "EA Forum post: \"New workshops on how to have a more impactful career\" by Probably Good, May 14, 2025 (forum.effectivealtruism.org/posts/TpaNrQaBqDyvoSnQy/new-workshops-on-impactful-career-planning).",
+      "EA Global: London 2025 event page (effectivealtruism.org/ea-global/events/ea-global-london-2025) \u2014 shows EAG London dates (June 6\u20138, 2025) and program structure."
+    ]
+  }
+}

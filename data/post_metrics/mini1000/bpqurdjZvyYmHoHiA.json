@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is an announcement for a high-profile, experimental panel discussion relevant to existential risk / longtermist debates. For the EA/rationalist community it\u2019s moderately important: it can shape community understanding, priorities, and network-building and may surface useful arguments or actionable ideas, but it is not a foundational or load-bearing piece of scholarship. For general humanity it is of minimal importance \u2014 it might indirectly affect broader outcomes if discussions influence major donors or policy, but the direct impact is negligible."
+  },
+  "PostRobustness": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Clarify expectations about who will be answered and how. Right now you say \u201cany forum user can write a top-level comment\u201d and that the named participants \"will respond\", but readers will reasonably wonder: will participants try to reply to every top-level comment, or only a subset? How will you prioritise which questions get answers (upvotes, relevance to the debate statement, shortness, first-come-first-served)? Actionable fix: add one sentence like \u201cParticipants plan to prioritise (a) short, focused questions tied to the debate statement, (b) top-voted comments, and (c) questions that tag a specific participant \u2014 they may not be able to reply to every top-level comment.\u201d If you have a different plan, state it. Also add a brief instruction on how to tag a participant if they want a specific person to respond.\n\n2) Add basic moderation/logistics and accessibility info. The post doesn\u2019t say who will moderate, what civility/rules apply, or whether there will be a summary/transcript for people who can\u2019t attend the 3\u20135pm GMT window. These are common issues that lead to confusion or disputes during live written events. Actionable fix: add one or two short sentences: who will moderate (or that Forum moderation rules apply), how you\u2019ll handle abuse/off-topic threads, and whether you\u2019ll post a follow-up summary or leave the thread open for replies after the window.\n\n3) Give a one-line template and an explicit encouragement to stick to it. You already recommend \u201cone idea per top-level comment\u201d \u2014 make it easier for users to comply by adding a tiny template (e.g. \u201cQuestion: [one sentence]. Context: [one-line]. Why this matters: [one sentence].\u201d) and an example or two. Actionable fix: add the template and a single example to the post so participants get higher-signal questions and the discussion is more usable.\n\nThese three small additions will reduce misunderstandings, make responses more likely to be useful, and increase participation without substantially lengthening the post.",
+    "improvement_potential": "The feedback points out clear, actionable omissions that would meaningfully reduce confusion and improve signal during the live symposium (who gets answered/how questions are prioritised; moderation/logistics and post-event accessibility; a short template to raise higher-quality top-level comments). These are concise fixes that won\u2019t bloat the post but would prevent predictable problems and user frustration \u2014 omissions the organiser would likely be embarrassed to have missed once noticed. Not existentially critical, but important for a smooth, professional event."
+  },
+  "PostAuthorAura": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the purpose, time, how to participate, and who will take part are all easy to find thanks to headings and bullet points. Strengths: concise instructions for users, clear call to action, and useful participant bios. Weaknesses: minor wording issues (e.g. \u201csigned-up participants\u201d without sign-up instructions, clunky phrasing in one sentence), slightly long bios with many links that add visual clutter, and a stray footnote marker that feels odd. These small issues prevent a top score but do not materially impede understanding."
+  },
+  "PostNovelty": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily an event announcement for a written \u2018symposium\u2019 format with well\u2011known EA figures. For EA Forum readers, the slight novelty is the specific experimental format (a time\u2011boxed, written symposium inviting top\u2011level questions from any user), but the general idea\u2014online expert panels/AMAs and debate weeks\u2014is very familiar. For the general public, the concept is common (online panels, Q&A events), and the post adds little that most people haven't seen before."
+  },
+  "PostInferentialSupport": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "reasoning_quality": 8,
+    "evidence_quality": 7,
+    "overall_support": 7,
+    "explanation": "The post is primarily an event announcement rather than an argumentative claim, and its instructions and structure are clear and logically presented (high reasoning quality). It supports its claims with relevant evidence \u2014 named participants, brief bios, and links to profiles/projects \u2014 which is appropriate for the context but limited in depth (moderate evidence quality). Weaknesses: it doesn't provide explicit confirmation of each participant's commitment or a detailed agenda, and there are no empirical claims requiring deeper evidence. Overall the announcement is well-supported for its purpose but not intended as a rigorous empirical argument."
+  },
+  "PostExternalValidation": {
+    "post_id": "bpqurdjZvyYmHoHiA",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major empirical claims in the post are easily verifiable and accurate: the EA Forum symposium post and debate-week pages exist and were posted by Toby Tremlett (Mar 14, 2025) and the symposium was scheduled for Monday March 17 (3\u20135pm GMT). The listed participants (Will MacAskill, Tyler John, Michael St Jules, Andreas Mogensen, Greg Colbourn) and the short bios are supported by reliable sources (their EA Forum profiles, institutional pages, and organisational pages). Minor imprecision: Will MacAskill\u2019s affiliations wording is slightly dated \u2014 he is/was Senior Research Fellow at Forethought (confirmed) and formerly Associate Professor at Oxford (his personal site notes Oxford appointment 2015\u20132024), so saying simply \u201cis an Associate Professor at the University of Oxford\u201d is a small temporal inaccuracy. Tyler John\u2019s description (Longview role, PhD at Rutgers, and Visiting Scholar status at Cambridge LCFI) is supported by Longview and other profiles; I could not find an official LCFI page explicitly listing him as an incoming Visiting Scholar, so that particular phrasing is plausible but less directly verifiable. Overall the post is well-supported and factually reliable aside from those small dating/wording issues.",
+    "sources": [
+      "EA Forum post: 'Existential Choices Symposium with Will MacAskill and other special guests (3-5pm GMT Monday)' \u2014 Toby Tremlett (EA Forum, 14 Mar 2025).",
+      "EA Forum: 'Announcing: Existential Choices Debate Week (March 17-23)' \u2014 Toby Tremlett (EA Forum).",
+      "Will MacAskill \u2014 personal website (williammacaskill.com), About/Home (notes Forethought role and Oxford history).",
+      "Forethought \u2014 'About / Our People' page (lists Will MacAskill as Senior Research Fellow).",
+      "Longview Philanthropy \u2014 Dr Tyler John profile (Longview.org/about/dr-tyler-john) (role and background).",
+      "Tyler John \u2014 EA Forum profile ('tylermjohn') and related writeups/podcast descriptions (supporting Longview role, PhD at Rutgers).",
+      "Michael St Jules \u2014 EA Forum user profile (MichaelStJules / Michael St Jules).",
+      "Andreas Mogensen \u2014 Oxford Faculty of Philosophy / Global Priorities Institute profile (Andreas Mogensen page).",
+      "Greg Colbourn \u2014 EA Forum profile (Greg_Colbourn) and CEEALAR / related pages (founder of CEEALAR; Pause AI involvement reported).",
+      "Day/weekday confirmation: March 17, 2025 fell on a Monday (calendar/day listings)."
+    ]
+  }
+}

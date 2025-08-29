@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a recruitment post for a specific role at IPA\u2019s Right\u2011Fit Evidence unit. It is useful to individuals in the EA/rationalist community looking for relevant jobs or partnerships and mildly relevant to those tracking how evidence/MEL capacity is distributed in global development, but it is not a foundational or broadly load\u2011bearing claim. For general humanity it is trivial: a single hire has negligible direct impact on large\u2011scale outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing pay/contract transparency \u2014 add a salary range (or band), employment type (permanent/contract/term), and key benefits. For senior roles this is now standard and will materially affect who applies; without it you'll lose senior candidates and get many irrelevant applications. If compensation varies by country/level, give bands (Associate vs Director) or at least an indicative range and note any country differences.  \n\n2) Unclear application process, eligibility, and timeline \u2014 include an application deadline, expected start date, documents required (CV, cover letter, references), stages of the process (screen, interview, case study), and any mandatory work\u2011authorization/visa constraints for each listed country. Right now people are asked to email a blurb with no sense of timing or whether IPA can sponsor visas in the specific country they\u2019d apply to. Adding this will reduce low\u2011fit queries and speed hiring.  \n\n3) Role ambiguity / scope looks unrealistic \u2014 the description mixes broad strategic leadership, heavy delivery load (4\u20136 engagements concurrently), extensive BD, and deep technical expertise across many domains. Either (a) clarify the expected split of time and concrete success metrics (e.g., % time on client delivery vs BD vs people management; billable targets if any), typical team sizes you\u2019d manage, and which responsibilities are optional at Associate vs Director level, or (b) tighten the list of core responsibilities to those that are essential. This will help candidates self\u2011select correctly and avoid later mismatched expectations.",
+    "improvement_potential": "Very useful and actionable. The three points identify major, practical omissions (no salary range, no application timeline/requirements, and unrealistic/unclear scope) that will materially reduce applicant quality and increase admin burden. Fixing them is straightforward and won't bloat the post, and the issues are exactly the kinds of 'own goals' the author would regret if raised later."
+  },
+  "PostAuthorAura": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence of prominence in EA/rationalist communities or the broader public sphere up to mid\u20112024. The name yields no notable EA publications, talks, institutional affiliation, or widespread online presence; may be a private author or pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: headings, bullet lists, and sectioning (Responsibilities, Qualifications, Location, RFE Summary) make it easy to scan and understand the role and expectations. The purpose and candidate profile are communicated clearly and the responsibilities/requirements are detailed and specific. Downsides: it's somewhat long and repetitive (the RFE summary restates earlier points), contains minor grammatical/formatting slips (e.g., \u201ckeeping me on CC\u201d, a stray parenthesis), and could be tightened for conciseness and polish."
+  },
+  "PostNovelty": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine job posting for an evidence/MEL advisory leadership role at IPA. The content describes standard responsibilities, qualifications, and organizational context (leading advisory engagements, business development, team management, MEL skills) and uses familiar sectoral language (evidence-based learning, monitoring & evaluation, RCTs, data tools). Apart from the specific employer, unit name, and Africa location, there are no new concepts, claims, or proposals \u2014 nothing that would be unexpected or novel to EA readers or the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "This is a clear, well-structured job posting: the role, responsibilities, time allocation, and qualifications are logical and internally consistent, and the rationale for the role (leading advisory engagements, business development, and unit leadership) follows sensibly from IPA/RFE's stated mission. However, empirical backing for claims about RFE's impact is weak or absent: assertions like having \u201csupported dozens of high-profile, influential funders\u201d or advancing \u201cevidence-based scaling\u201d are not quantified or evidenced, and there are no citations, examples, outcomes, or metrics to demonstrate effectiveness. Given the post's purpose (recruitment rather than academic argument), lower standards for evidence are reasonable, so overall support is moderate \u2014 the role is convincingly described, but claims about organizational impact lack supporting data."
+  },
+  "PostExternalValidation": {
+    "post_id": "GiDus6q3LQS8PAgWc",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The major empirical claims in the EA Forum post are well-supported by primary sources. The job posting and role description appear verbatim on IPA\u2019s website and the EA Forum cross-posting reproduces it. The Right\u2011Fit Evidence (RFE) unit is a real IPA advisory team (with listed case studies and team members), Andr\u00e9s Parrado and Richard (Rich) Stone are listed IPA staff, and the listed African country office locations match IPA\u2019s 'Where we work' / contact pages. The only minor uncertainty is the exact current RFE headcount: the post says ~35 staff while other IPA job listings and third\u2011party postings describe the unit as \u201capproximately 30\u201d (staff numbers plausibly fluctuate). No major claim appears contradicted by reliable sources.",
+    "sources": [
+      "EA Forum post: 'IPA Looking for Africa-based Associate Director for its Right-Fit Evidence Unit' (Effective Altruism Forum). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/GiDus6q3LQS8PAgWc/ipa-looking-for-africa-based-associate-director-for-its?utm_source=openai))",
+      "IPA job page: '(Associate) Director, Right-Fit Evidence' (Innovations for Poverty Action). ([poverty-action.org](https://poverty-action.org/associate-director-right-fit-evidence?utm_source=openai))",
+      "IPA Right-Fit Evidence unit page (overview, case portfolio, team). ([poverty-action.org](https://poverty-action.org/right-fit-evidence?utm_source=openai))",
+      "Andr\u00e9s Parrado profile \u2014 Associate Director, Right-Fit Evidence (IPA people page). ([es.poverty-action.org](https://es.poverty-action.org/people/andres-parrado?utm_source=openai))",
+      "Richard (Rich) Stone profile \u2014 Manager, Recruitment & Performance (IPA people page). ([poverty-action.org](https://poverty-action.org/people/richard-stone))",
+      "IPA 'Where we work' / country offices and contact listing (shows C\u00f4te d\u2019Ivoire, Ghana, Kenya, Nigeria, Uganda among offices). ([poverty-action.org](https://poverty-action.org/?utm_source=openai))",
+      "Devex job listing referencing RFE team size and responsibilities (third\u2011party job aggregator; notes 'approximately 30 staff based in over ten countries'). ([devex.com](https://www.devex.com/jobs/manager-right-fit-evidence-1347274?utm_source=openai))"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily an event announcement. It may be useful to EAs interested in philanthropy-aligned business models, networking, and diffusion of 'profit-for-good' ideas, but it is not a substantive or foundational argument and has limited downstream importance. For general humanity it is largely inconsequential unless the conference somehow produces widely adopted policies or companies, which is speculative."
+  },
+  "PostRobustness": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify relevance to the EA community \u2014 the post just lists speakers but doesn\u2019t explain why EAs should care. Add 1\u20132 sentences saying what themes will be covered (e.g., profit-to-charity legal/operational models, effectiveness questions, fundraising/impact tradeoffs), whether the talks will include evidence/impact-focused content, and whether any sessions are especially relevant to effective giving, cause prioritization, or charity entrepreneurship.\n\n2) Add essential logistical details that readers will expect up front \u2014 start/end times with timezone (or UTC), language, whether the livestream will be recorded and posted later, whether there will be a live Q&A, and any accessibility info (captions). Also clarify the \u201cpay-what-you-want\u201d model (is there a minimum? can you watch for free?) so people can decide quickly.\n\n3) Make the in-person registration process transparent \u2014 saying \u201cpriority is for founders, senior owners, and philanthropy / business leaders\u201d and offering a private link by DM may read as opaque gatekeeping. Either explain the selection criteria and deadline, or give a simple public sign-up/waitlist option. If you must use DM, tell people what info to include in the DM so you don\u2019t get repetitive messages.",
+    "improvement_potential": "The feedback calls out several concrete, substantial omissions that harm the post\u2019s usefulness to an EA audience (no stated relevance to EA, missing basic logistics like start/end times/timezone, language, recording/Q&A/captions, and opaque in-person sign-up). Fixing these would noticeably reduce reader friction and potential embarrassment without adding much length \u2014 making the announcement far more effective and community-appropriate."
+  },
+  "PostAuthorAura": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "I could not identify a well-known EA/rationalist figure under the name/handle 'Brad West\ud83d\udd38'. There are multiple people named Brad West in different professions, but none appear prominent in EA/rationalist spaces; overall public profile appears minimal or limited to niche/online accounts."
+  },
+  "PostClarity": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured and easy to understand: it gives the event name, date, notable speakers, a clear registration link and an in-person note with who it's aimed at. Minor weaknesses: it omits the event time/time zone, 'DM me' is ambiguous about who to contact, and the 'free \"pay-what-you-want\"' phrasing could be slightly confusing. Addressing those small details would make it near-perfect."
+  },
+  "PostNovelty": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement (a specific conference and speaker lineup). The underlying ideas \u2014 philanthropy-oriented businesses, donating profits, and public talks by high-profile ethicists \u2014 are well-known to both EA readers and the general public. The only modestly new element is the particular conference/combination of speakers and organisers, not a novel conceptual claim."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "reasoning_quality": 8,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "This is primarily an informational/announcement post rather than an argumentative piece, so there is little formal reasoning to evaluate. The post is clear, concise, and well-structured (who, what, when, where, how), which supports reader understanding (hence a relatively high reasoning score). Evidence is limited but appropriate for the genre: it lists organizers and speakers and gives a registration link, but it provides few verifiable details (e.g., speaker bios, agenda specifics, or independent confirmation) beyond that link, so evidence quality is moderate. Overall the main thrust \u2014 that a Profit for Good livestream will occur on 11 June with named participants \u2014 is reasonably well supported for an announcement, though more corroborating details would strengthen confidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "ExBMZgW8nr8kt3BPB",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the EA Forum post are well-supported by primary sources. The official School for Moral Ambition conference pages confirm the event date (June 11, 2025), that Peter Singer and the School are hosting, the livestream and in-person (Amsterdam) formats, and the listed speakers (Peter Singer, Rutger Bregman, Adam McCurdie, Alex Amouyel, Asif Saleh, etc.). Supporting evidence from Newman\u2019s Own Foundation, Humanitix, and BRAC corroborates the named speakers\u2019 roles. Minor quibbles: small title wording (e.g., Asif Saleh is commonly described as BRAC\u2019s Executive Director rather than \u201cCEO\u201d), and the EA post\u2019s phrasing of the livestream as \u201cfree \u2018pay-what-you-want\u2019\u201d is a close paraphrase of the event site\u2019s \u201cdonate what you can / pay-what-you-can livestream\u201d wording rather than a formal \u201cfree\u201d ticket \u2014 these are minor and do not undermine the post\u2019s main factual claims.",
+    "sources": [
+      "The School for Moral Ambition \u2014 \"Profit For Good Conference\" (live stream page, June 11, 2025).",
+      "The School for Moral Ambition \u2014 \"Profit For Good Conference\" (Amsterdam / programme page, June 11, 2025).",
+      "Effective Altruism Forum \u2014 Brad West post: \"Peter Singer & Rutger Bregman present the Profit for Good Conference \u2014 11 June livestream.\"",
+      "Newman's Own Foundation \u2014 press release / team page: Alex Amouyel named President & CEO (March 2023).",
+      "Humanitix \u2014 \"Our story: Adam McCurdie and Joshua Ross\" (founders / impact page).",
+      "BRAC \u2014 announcement / profile: Asif Saleh appointed Executive Director (BRAC site) and Asif Saleh profile (World Economic Forum / Wikipedia).",
+      "School for Moral Ambition / Rutger Bregman \u2014 About / book pages confirming Rutger Bregman as co-founder of The School for Moral Ambition."
+    ]
+  }
+}

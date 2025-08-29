@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a useful, transparent anecdote about the EA job market, showing hiring outcomes, compensation constraints, and the practical barriers faced by a qualified candidate. It\u2019s moderately useful to the EA/rationalist community as a data point for recruiting, retention, and career-advice discussions, but it\u2019s not foundational or widely generalisable. For humanity at large it\u2019s essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about what you want from readers. Right now the post reads like a diary of applications rather than a clear request. Say exactly which help would be most useful (e.g. introductions to remote EU/US fundraising or communications roles, CV/LinkedIn feedback, mock interviewers or work-test reviewers, referrals to organisations that pay 60k+ EUR). Add direct ways to help (link to a CV or anonymised work test, best contact method). This will dramatically increase the chance people take action.\n\n2) Ask for targeted diagnostic feedback on the apparent failure mode. You\u2019ve had many interviews and work tests but few offers \u2014 that pattern suggests a fixable issue (work-test quality, interview technique, role-fit, or compensation expectations). Explicitly invite people to review a representative work test or do a 30\u201360 minute mock interview and say you\u2019ll pay for reviewer time if helpful. Also flag plausible constraints up front (remote-only, non-German speaker, required salary) and ask whether readers think those are the main blockers.\n\n3) Tighten the signal in your public materials and this post: shorten the application list to the 4\u20136 most relevant/ambitious items and instead show clearer impact metrics on your profile (money raised, partnerships closed, growth% you drove, team size you managed, remote outcomes). Consider reframing the salary note (e.g. \"seeking >60k EUR, open to FTE or well-paid contracting\") so it doesn\u2019t immediately rule out helpful conversations. If you want quicker traction, tailor outreach to fewer target role-types (fundraising, strategic partnerships, comms) and highlight concrete wins for those buckets.",
+    "improvement_potential": "The feedback addresses several substantive weaknesses: the post lacks a clear, actionable ask; it dumps a long application list without highlighting the most relevant items or measurable impact; and it doesn\u2019t solicit targeted diagnostic help (e.g. work-test/interview reviews). Implementing these suggestions would likely substantially increase useful responses without substantially bloating the post. (Minor caveat: some recommended additions\u2014CV/work-test links or payment offers for reviewers\u2014add length or privacy considerations, but are optional and can be handled concisely.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence that 'SiobhanBall' (or 'Siobhan Ball' as a pseudonym) is a known figure in the EA/rationalist community or a public intellectual. Not associated with major EA organizations, widely cited posts, books, talks, or media coverage; appears to be an unknown or minor online pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: good structure (Context / Attempts / Please help), conversational tone, and comprehensive lists that back up the main point (seeking feedback/support). Weaknesses: the long enumerated application list is dense and could be summarized (counts, outcomes, top contenders), the ask could be sharper (specific asks or hypotheses to test), and a couple of small repetition points make it slightly less concise."
+  },
+  "PostNovelty": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a personal job-hunt update \u2014 a transparent list of applications, interviews, rejections, and funding attempts \u2014 which is common on the EA Forum and among career-focused communities. The only mildly uncommon elements are the unusually detailed public list of specific EA roles/orgs and candid salary/constraint information, which give some useful datapoints about EA hiring but don\u2019t introduce new concepts or arguments."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: the post is clear, well-structured, and transparently lists applications, outcomes, compensation constraints, and activities undertaken (networking, courses, work tests), which makes the author's personal claim\u2014that they have struggled to secure a suitably paid EA role\u2014credible. Weaknesses: the post is largely descriptive and doesn't offer systematic causal analysis of why applications failed (no employer feedback, no comparison group, no metrics on market conditions), and it is a single anecdotal data point, so it provides limited evidence for broader claims about the EA job market."
+  },
+  "PostExternalValidation": {
+    "post_id": "Q834CSBDXFa8fS9DY",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s key, checkable claims are supported by reliable public sources: the author is listed on Sentience Politics\u2019 team page; Effective Altruism\u2019s Animal Welfare Fund publicly reported a $100,000 grant to Sentience; the author gave a TEDxNHS talk in 2024; many of the organisations and job openings she names (CEA, FarmKind, Innovate Animal Ag, Forecasting Research Institute, etc.) had the kinds of roles she mentions and public job posts exist. Salary/conversion figures she gives (\u224865k CHF \u2248 $80\u201382k; 60k EUR \u2248 $69\u201370k) are consistent with exchange-rate converters. However, many statements are personal (number of applications, exact interview outcomes, private informal offer amounts, being funded individually by CEA to attend EAG London, details about redundancy and internal role responsibilities) and are not publicly verifiable or are privacy-protected; those should be treated as credible but not independently confirmed. A few minor course names (e.g., \u201cHIP\u2019s CIT\u201d) were not clearly identifiable from public sources and could not be verified. Overall: most major empirical claims that are externally checkable are well-supported; personal, private employment details are plausible but not independently confirmable from public records.",
+    "sources": [
+      "Sentience Politics \u2014 Meet the team / Siobhan Ballan (Sentience) (sentience.ch team pages). ([sentience.ch](https://sentience.ch/en/meet-the-team/?utm_source=chatgpt.com))",
+      "Effective Altruism Funds \u2014 Animal Welfare Fund payout report (shows $100,000 grant to Sentience Politics, Dec 2023). ([funds.effectivealtruism.org](https://funds.effectivealtruism.org/payouts/2022-2024-animal-welfare-fund-grants?utm_source=chatgpt.com))",
+      "TEDxNHS 2024 programme \u2014 Siobhan Ballan listed as a 2024 speaker (TEDxNHS site). ([tedxnhs.com](https://www.tedxnhs.com/previous-events/2024-forward/tedxnhs-2024-programme/?utm_source=chatgpt.com))",
+      "Centre for Effective Altruism \u2014 'Strategy Lead: University Groups' job posting (CEA careers page; confirms such role & typical hiring process). ([centreforeffectivealtruism.org](https://www.centreforeffectivealtruism.org/careers/strategy-lead-university-groups?utm_source=chatgpt.com))",
+      "FarmKind \u2014 hiring page & job listings (Head of Strategic Partnerships / Head of Growth, including stated remuneration). ([farmkind.giving](https://www.farmkind.giving/hiring-june-2025?utm_source=chatgpt.com), [effectivealtruism.nz](https://effectivealtruism.nz/job-board/head-of-strategic-partnerships-farmkind?utm_source=chatgpt.com))",
+      "Innovate Animal Ag \u2014 organisational website / about page (confirms organisation exists and hires). ([innovateanimalag.org](https://innovateanimalag.org/?utm_source=chatgpt.com))",
+      "Forecasting Research Institute \u2014 jobs and Director of Communications posting (FRI site). ([forecastingresearch.org](https://forecastingresearch.org/roles/director-of-communications?utm_source=chatgpt.com))",
+      "EA Global (EAG) travel support & CEA group funding pages \u2014 shows EAG/CEA provide travel support/grants and that CEA runs group/travel funding programs. ([effectivealtruism.org](https://www.effectivealtruism.org/ea-global/events/ea-global-london-2024?utm_source=chatgpt.com), [centreforeffectivealtruism.org](https://www.centreforeffectivealtruism.org/group-support-funding?utm_source=chatgpt.com))",
+      "Exchange-rates / currency conversion (65,000 CHF \u2192 \u2248 $81k; 60,000 EUR \u2192 \u2248 $69\u201369k) \u2014 exchange-rates.org / converters. ([exchange-rates.org](https://www.exchange-rates.org/converter/chf-usd/65000?utm_source=chatgpt.com))",
+      "BlueDot Impact \u2014 course offerings / BlueDot Impact AI governance / alignment courses (verifies the course provider the author named). ([linkedin.com](https://www.linkedin.com/posts/matthew-buchan-984752154_over-the-past-3-months-i-have-been-a-participant-activity-7328087037373288449-_l1t?utm_source=chatgpt.com))",
+      "Section (Section AI) \u2014 training / upskilling company that offers courses (verifies 'Section' exists as a training provider). ([aitechsuite.com](https://www.aitechsuite.com/tools/sectionschool.com?utm_source=chatgpt.com))"
+    ]
+  }
+}

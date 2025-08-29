@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a hiring post for a research-engineer role at an AI-alignment org focusing on singular learning theory and developmental interpretability. For the EA/AI-safety community it has moderate importance: it signals active capacity-building in a specific alignment research direction, creates an opportunity to recruit skilled contributors, and could modestly influence research tooling and experiments (e.g., scaling to ~100B models). It is not a foundational theoretical claim and would not by itself change major worldviews or policy, so its stakes are limited. For general humanity the post is of low importance \u2014 a routine hiring announcement with only indirect and speculative downstream impact unless the organisation becomes unusually central to alignment outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Fix the broken/ambiguous application links and deadline copy. The post currently contains two different Airtable URLs (one near the top, a different one in the \u201cApply Now\u201d section). That will confuse applicants and could cause lost or duplicated submissions. Action: pick a single canonical application URL, verify it works, replace both links, and optionally add a short sentence confirming you review on a rolling basis and may hire before the deadline. \n\n2) Clarify remote vs. relocation/visa commitments. The phrasing (\u201cremote,\u201d \u201cwill encourage colocating to our hubs\u2026in the next 6 months,\u201d and \u201cintend to sponsor visas in the future\u201d) is ambiguous and may deter international candidates or create false expectations. Action: state clearly whether the role can permanently remain remote, whether you expect new hires to relocate within 6 months (and what \u201cencourage\u201d means in practice), and the concrete timeline/conditions for visa sponsorship (e.g., \"we will sponsor visas for hires who relocate to our Berkeley/London/Melbourne offices within X months; sponsorship will be available starting Y date\"). If visa support is uncertain, say so plainly. \n\n3) Provide essential compensation/assessment details that applicants care about. You advertise a paid 4-hour assessment but do not state the compensation amount, whether payment is guaranteed regardless of hiring outcome, or how/when it will be scheduled; similarly, the salary range is broad for a role that scales experiments to O(100B) models but lacks details on employment type (full-time employee vs contractor), equity, and location adjustments/tax treatment. Action: specify the assessment pay (hourly or flat), confirm it is paid regardless of hiring decision, indicate whether the role is an employee position (with benefits, taxes withheld) or contractor, and clarify whether the salary range is location-adjusted or includes benefits/equity. Optionally add expected team size/runway or reporting line context to help applicants judge fit.",
+    "improvement_potential": "Very useful. The feedback catches a glaring own-goal (two different application links / ambiguous deadline) that will confuse applicants and could cost submissions, and it flags important ambiguity around remote vs. relocation/visa expectations and missing payment/employment details for the paid assessment and salary. Fixing these is high-impact and won\u2019t meaningfully bloat the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No notable presence in the EA/rationalist community \u2014 not recognized as a contributor, speaker, or frequent writer there. Globally, not a public figure; at most a small online/technical footprint (e.g., personal blog/GitHub/Medium) but no widespread recognition. If you can supply links or context, I can reassess more precisely."
+  },
+  "PostClarity": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear sections (TLDR, role, requirements, research areas, benefits, application process), explicit responsibilities and steps, and useful logistical details (salary, start date, deadline). Minor issues reduce perfection: two different application links appear (potentially confusing), some repetition (salary/benefits repeated), a small ambiguity around remote vs encouraged colocating to hubs, and a few places that could be slightly more concise. Overall the post communicates its purpose and process clearly and compellingly."
+  },
+  "PostNovelty": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "novelty_ea": 4,
+    "novelty_humanity": 7,
+    "explanation": "As a job posting the format and most content are very familiar to EA Forum readers, so overall not novel. The somewhat novel elements for that audience are the specific technical focus \u2014 applying singular learning theory (SLT) and local learning coefficient (LLC) methods to developmental interpretability and concrete safety metrics (reversibility of fine\u2011tuning, jailbreaking susceptibility, backdoor detection, weight\u2011exfiltration risk) \u2014 but those are niche refinements rather than brand\u2011new concepts. For the general educated public, the combination of SLT, developmental interpretability, and the listed safety\u2011measurement uses is fairly unfamiliar and therefore noticeably more novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured and logically presents a coherent role (responsibilities, requirements, process, compensation, benefits) that matches the stated research agenda (SLT, developmental interpretability). It cites concrete operational details (salary range, start date, application steps, names/links for staff and prior hiring impressions) which increase credibility. Weaknesses: The post does not provide evidence that singular learning theory is an effective approach to alignment (no citations, prior results, or benchmarks), nor does it give details on team size, funding runway, or past research outputs to substantiate claims about impact. Some forward-looking claims (office openings, visa sponsorship) are asserted without evidence or timelines. Overall: good practical detail for a job posting, but limited empirical or historical evidence supporting the promise of the specific research direction."
+  },
+  "PostExternalValidation": {
+    "post_id": "WvBaoBkM3DSeogtFj",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are well-supported. Timaeus is a real AI-safety research org focused on singular learning theory (SLT) and 'developmental interpretability' (confirmed on their website and blog). Public papers and posts (Lau et al. 2023; Furman & Lau 2024) substantiate the Local Learning Coefficient (LLC) research and LLC estimation at scale (verified up to ~100M parameters in published work). The organisation, leadership (Jesse Hoogland as Executive Director; Stan van Wingerden on operations/engineering), and prior hiring rounds / job postings (including the USD 70k\u2013140k salary band) are documented publicly. However, some specific details in this particular post are not directly verifiable from publicly archived sources I found: the exact application deadline (14 Sept at 11:59 PM GMT), the Oct/Nov 2025 start date, the specific Airtable application links in the prompt, and the claim of routinely scaling experiments to O(100B) parameters (this appears as an advertised responsibility/ambition but public empirical work I found documents LLC estimation up to 100M parameters; claims about larger/billion\u2011scale runs are aspirational and not clearly documented as completed). Overall: strong verification of the organisation, research focus, personnel, and LLC-related empirical claims up to documented scales; some operational/job-post specifics in the prompt are plausible but not (yet) found on public pages I checked.",
+    "sources": [
+      "Timaeus \u2014 Research page (\u2018From Theory to Practice\u2019 / Research agenda). https://timaeus.co/research/",
+      "Timaeus \u2014 'Estimating the Local Learning Coefficient at Scale' (Furman & Lau, Feb 6, 2024). https://timaeus.co/research/2024-02-06-estimating-llc/",
+      "Lau et al., 'The Local Learning Coefficient: A Singularity-Aware Complexity Measure' (arXiv, Aug 23, 2023). https://arxiv.org/abs/2308.12108",
+      "DevInterp (Developmental Interpretability) site \u2014 posts and papers listing related Timaeus work. https://devinterp.com/",
+      "Timaeus \u2014 Team page (lists Jesse Hoogland, Daniel Murfet, Stan van Wingerden, etc.). https://timaeus.co/team",
+      "EA Forum / Timaeus hiring post (Jan 27, 2025) \u2014 public job listing describing Research Engineer/Scientist roles and salary band. https://forum.effectivealtruism.org/posts/ebsvCgWwGWW57iJLB/timaeus-is-hiring-researchers-and-engineers",
+      "Timaeus blog \u2014 'Director of Operations @ Timaeus' (May 22, 2025) \u2014 mentions hubs (Berkeley, London, Melbourne) and hiring details. https://timaeus.co/blog/updates/2025-05-22-hiring",
+      "Jesse Hoogland personal site / CV (identifies him as Executive Director of Timaeus). https://www.jessehoogland.com/"
+    ]
+  }
+}

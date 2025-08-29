@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "This post announces a coordinated forecasting effort on a very high\u2011stakes scenario (rapid automation of AI R&D and a 2027 intelligence explosion). For the EA/rationalist community it is quite important: it helps aggregate expert/public judgments, improves calibration, shapes debate and prioritization, and could materially affect AI safety strategy and resource allocation if taken seriously. For general humanity it is moderately important: the underlying scenario would be hugely consequential if true, and better forecasts could inform policy and public preparedness, but the post itself is primarily a community forecasting call rather than new evidence or a policy intervention, so its direct impact on the wider public is limited."
+  },
+  "PostRobustness": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Define your terms and make milestones measurable. The post uses high\u2011impact phrases \u2014 \u201cautomating AI research,\u201d \u201cmost cognitive work,\u201d \u201cintelligence explosion,\u201d \u201csuperintelligence\u201d \u2014 without operational definitions or concrete benchmarks. Readers and forecasters need precise criteria (e.g. percentage of papers, model\u2011design iterations, or end\u2011to\u2011end tasks automated; latency/compute thresholds; concrete safety\u2011failure metrics) and date windows to give meaningful forecasts. Add explicit definitions or example testable thresholds for each key claim.  \n\n2) Surface and justify the scenario\u2019s core assumptions and plausible counterarguments. The claim that AI R&D will be largely automated and that most cognitive work will be automated within 2027\u201328 is a strong, surprising claim that depends on (at least) assumptions about compute/hardware supply, data availability, algorithmic scaling, and deployment incentives. The post should: (a) list the critical assumptions driving the scenario, (b) note the main plausible mechanisms that would slow or prevent it (hardware bottlenecks, data limits, institutional friction, regulation, coordination between states, economic frictions), and (c) point readers to which assumptions would most shift your probabilities. That makes the scenario easier to evaluate and contest.  \n\n3) Improve forecasting transparency and update plans. Explain how you selected the tournament questions, the forecasting methodology, priors, and what counts as success/failure for the project. State whether and how you will aggregate/score forecasts, publish outcomes, and update the scenario in light of new evidence. If you want useful contributions, give guidelines for proposing new questions (format, resolution criteria) and say how you\u2019ll handle ambiguous outcomes. These changes will reduce coordination costs for forecasters and make results interpretable and actionable.",
+    "improvement_potential": "This feedback targets genuine, important weaknesses: vague buzzwords (\u2019superintelligence\u2019, \u2018automating AI R&D\u2019) that must be operationalised for forecasting, missing explicit assumptions and counterfactuals, and little transparency about question selection/aggregation \u2014 all of which reduce the scenario\u2019s evaluability and credibility. Fixing these would materially improve the post and forecasting usefulness. Some added detail is needed, but it can be handled succinctly or via linked appendices, so the cost in length is manageable."
+  },
+  "PostAuthorAura": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The single name 'christian' is too common and possibly a pseudonym; there is no clear, identifiable presence tied to EA/rationalist publications, talks, or leadership. I cannot find evidence they are known within EA or more broadly. Provide a full name, username, links, or sample work to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "clarity_score": 8,
+    "explanation": "The post is concise and easy to understand: it succinctly summarizes the AI 2027 scenario, lists authors, explains the forecasting series' purpose, and includes clear calls to action and links. It is well-structured and compelling as an announcement. Minor weaknesses: it omits specifics about the milestones or how to participate in detail, uses an embedded image without alt text (hurting accessibility), and the pronoun \u201cwe\u201d/organizer identity is slightly ambiguous."
+  },
+  "PostNovelty": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Among EA/longtermist readers this is low-novelty: timelines like 'near-term automation of research', intelligence\u2011explosion scenarios, US\u2013China AI race, and alarm about misalignment are already widely discussed; the main new element is a specific 2027 anchor and a structured forecasting tournament to evaluate milestones. For the general educated public it's somewhat more novel \u2014 many have seen media coverage of fast AI progress and geopolitical risk, but fewer have encountered a coordinated Metaculus-style forecasting exercise tied to a specific 2027 automation/intelligence\u2011explosion scenario, so novelty is moderate."
+  },
+  "PostInferentialSupport": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post presents a clear, falsifiable scenario with concrete milestones and invites probabilistic forecasting (Metaculus), which is a good approach for testing bold claims. The author team is recognizable and the project structures the debate usefully. Weaknesses: The post itself offers little substantive argumentation or mechanistic explanation for the surprisingly short 2027 timeline (no discussion of compute trends, algorithmic breakthroughs, economic incentives, adoption curves, or concrete capability benchmarks). Empirical evidence is essentially absent from the post \u2014 it points to a forecasting process rather than providing data or analysis to support the central claims. As written, the scenario is interesting and testable but not well-supported by evidence or detailed reasoning."
+  },
+  "PostExternalValidation": {
+    "post_id": "mqTyTAdXiH4WXaEEv",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post accurately describes the existence, authorship, and publication of the \u201cAI 2027\u201d scenario and that a Metaculus question series was created to evaluate it \u2014 those claims are well-supported by primary sources. The scenario itself does indeed portray AI agents automating AI R&D, a US\u2013China \u2018arms race\u2019, and an intelligence\u2011explosion style outcome in mid/late 2027 (the scenario text describes coding/R&D automation in 2025\u20132026 and a geopolitics/intelligence\u2011explosion moment in August 2027). However, those are forecasts (future events) and are not empirically verifiable as of August 27, 2025; any strong assertion that \u201cmost cognitive work becomes automated by 2027\u20132028\u201d is a speculative projection rather than a fact and somewhat stronger than the scenario\u2019s phrasing (which uses e.g. \u201cability to automate most white\u2011collar jobs\u201d in a narrative/foil context). In short: the post\u2019s descriptive claims about the project are well supported; its substantive predictive claims are plausible within the scenario but remain unverified forecasts.",
+    "sources": [
+      "AI 2027 \u2014 official scenario (ai-2027.com), published April 3, 2025.",
+      "AI Futures Project \u2014 About / Projects page (AI Futures Project blog), listing \u201cAI 2027\u201d (Apr 2025).",
+      "Metaculus \u2014 \"AI 2027\" question series / tournament page (start date Jun 10, 2025).",
+      "New Yorker \u2014 \"Two Paths for A.I.\" (coverage of the AI 2027 scenario and debate), May 27, 2025.",
+      "AI Impacts / 2023 expert timeliness survey summary (aggregate expert forecasts on HLMI / AGI timelines) \u2014 context on expert disagreement about short AGI timelines."
+    ]
+  }
+}

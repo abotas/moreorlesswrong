@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a local event announcement for a small, niche community (Christian EAs in the DC area). It\u2019s useful for community-building, retention, and inclusivity within that subset, but it\u2019s not making any novel arguments or claims that would affect major EA strategies or global priorities. It has minimal relevance to the broader public."
+  },
+  "PostRobustness": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing essential logistics and eligibility info \u2014 readers need a very short summary up front of who can apply, what\u2019s paid for, travel reimbursement, age or affiliation restrictions, accessibility needs, and any COVID or safety policies. Action: add a 2\u20134 line \u201cQuick facts\u201d box (Who can apply \u2022 What\u2019s covered \u2022 Deadline & timezone \u2022 Eligibility/selection criteria \u2022 Accessibility and safety) or link to a single page with those facts. This will reduce back-and-forth and make the offer credible.\n\n2) Unclear registration/contact process \u2014 \u201ccontact JD first\u201d and \u201cjust 3 spots left!\u201d are vague. Action: give a direct registration URL or explicit next step, the full contact details for JD (email/phone or link to calendar), whether spots are confirmed vs. waitlist, and how selections will be made. State the signup deadline timezone (Aug 18 which timezone?) so people don\u2019t miss it.\n\n3) Vague agenda and purpose \u2014 \u201cgood talks\u201d/\u201cgreat time\u201d won\u2019t help people self-select. Action: include a 1\u20132 sentence purpose statement (e.g., community-building, Bible+EA integration, career stewarding) plus a brief sample schedule or topic list and any required pre-work. Also add a short note about code of conduct/expected norms so attendees know what to expect.",
+    "improvement_potential": "The feedback correctly flags important, concrete omissions (eligibility/logistics, exact signup process, agenda and norms) that will cause confusion and extra work for both readers and organizers. The suggestions are actionable and concise (a short \u201cquick facts\u201d box, explicit contact/registration link, brief purpose/schedule), so implementing them would substantially improve sign-ups and credibility without bloating the post. It\u2019s not catastrophic because a linked event page may hold some details, but keeping key facts up front is a clear and high\u2011value fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any prominent EA/rationalist figure or widely published author using the name 'JDBauman'. There are no well-known talks, major forum posts, books, or central-role associations I can find in my training data. Likely a pseudonym or a minor/anonymous contributor; please share links or context if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "clarity_score": 9,
+    "explanation": "Very clear and easy to understand: purpose, dates, location (farm near DC), cost (full-expenses paid), and how to sign up are all stated up front with a link and visuals. The post is concise and well-structured with testimonials that support interest. Minor weaknesses: the sign-up/contact procedure could be slightly more explicit (e.g. provide contact details for 'JD' and clarify time zone for listed times), and the event link is repeated."
+  },
+  "PostNovelty": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is an event/announcement, not a new argument or theory. EA readers routinely see community meetups, retreats, and identity-specific subgroups (e.g. Christian EA), so there is very little new here beyond the specific logistics. For the general public, the idea of a faith-based retreat or a community weekend is extremely common, so it\u2019s not novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "This is primarily a promotional announcement rather than an argument-driven post. The implicit thesis \u2014 that the retreat will be valuable and worth attending \u2014 is reasonable and clearly presented (dates, venue, activities), but the post offers little structured reasoning or causal justification for that claim. Evidence is limited to photos and a few brief testimonials (anecdotal social proof) rather than systematic data on outcomes, participant numbers, diversity, cost/benefit, or longer-term impact. For an event signup post this level of support is typical and adequate; for a stronger persuasive claim about effectiveness or impact, far more rigorous evidence would be needed."
+  },
+  "PostExternalValidation": {
+    "post_id": "uEa66Ds9FhQ5GRjy4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are supported by the event\u2019s primary listing: the EA for Christians (EACH) event page and the sign-up Google Form. The retreat exists, is scheduled Aug 29\u2013Sep 1 (Labor Day weekend 2025), is hosted by EA for Christians (JD Bauman), is at a DC\u2011area farmhouse in Middletown, MD, and the organizers state they cover the retreat cost (attendees cover travel). The claimed attendance range (10\u201315) is plausible given EACH\u2019s stated regional-retreat size (about 8\u201320). Two points are either incorrect or unverified: (1) \u201cfull-expenses paid\u201d is misleading\u2014EACH explicitly says attendees must pay travel to get there (the site/form say the retreat itself is free but travel is not covered); (2) \u201cJust 3 spots left!\u201d could not be verified on the public event page or form. The description \u201cjust outside Washington DC\u201d is arguable/subjective: the venue is in Middletown, MD (28\u201350 miles from DC depending on route), so it\u2019s a DC\u2011area retreat but not an immediate suburb; typical drive times are commonly under 1.5 hours outside peak multi-leg routes. Overall: well-supported with small, resolvable inaccuracies/unverified urgency claim.",
+    "sources": [
+      "EACH \u2014 EA Christian DC Area Retreat (event page), Effective Altruism for Christians (eaforchristians.org/dcretreat2025-public)",
+      "Google Form: EA Christian Summer Retreat Interest Form (US Retreat: DC\u2011Area Farmhouse Aug 29 - Sep 1) \u2014 Google Forms (docs.google.com/forms)",
+      "JDBauman profile \u2014 EA Forum (forum.effectivealtruism.org/users/jdbauman)",
+      "TravelMath / driving-time & distance Middletown, MD \u2194 Washington, DC (travelmath.com)",
+      "Rome2rio \u2014 Middletown (Frederick County), MD to Washington, DC travel estimates (rome2rio.com)",
+      "TimeandDate \u2014 Labor Day 2025 (confirms Labor Day = Mon Sep 1, 2025) (timeanddate.com)"
+    ]
+  }
+}

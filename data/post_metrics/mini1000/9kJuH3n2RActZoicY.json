@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "Low-to-moderate importance. This is a time-limited, local call-to-action for UK voters on an animal-welfare policy that could improve the lives of many farmed animals if successful, so it\u2019s useful to EAs who prioritise animal welfare. However it\u2019s not foundational to major EA or longtermist priorities (e.g. AI safety, global catastrophic risk) and has limited geographic and strategic scope. For general humanity the impact is minor \u2014 helpful for UK animal welfare but not consequential for global welfare or major policy trajectories."
+  },
+  "PostAuthorAura": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable author or pseudonym 'JDLC' in EA/rationalist spaces or in wider public sources up to my 2024-06 cutoff. No prominent posts, publications, or public profile under that name are evident on EA Forum, LessWrong, 80,000 Hours, academic databases, or mainstream outlets. If JDLC is a niche/pseudonymous or very recent contributor, please provide links or more context for a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "clarity_score": 9,
+    "explanation": "Very clear and easy to understand: a concise, actionable call-to-action with a deadline, direct link, and relevant context links (campaign, petition, debate time). It states exactly what to do and what information is needed, and includes a neutrality note. Minor improvements could be to briefly specify what 'cage usage' refers to (e.g. farm animal cages) and clarify the practical effect of MPs 'supporting the petition' or attending the debate, but these are small refinements."
+  },
+  "PostNovelty": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine call-to-action for a specific animal-welfare campaign (email your MP using a template ahead of a debate). The specific petition/debate details are timely but not conceptually novel\u2014mobilising voters via template emails to influence MPs is a very common tactic that most EAs and the general public will have seen before."
+  },
+  "PostInferentialSupport": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is clear, low-friction and time-sensitive (gives a deadline), provides direct links verifying that a petition exceeded 100,000 signatures and that a debate is scheduled, and offers a ready-made template to reduce barriers to action. Weaknesses: it offers little reasoning about how or how much emailing MPs will influence attendance, debate outcomes, or policy change, and it omits political context (MP responsiveness, party positions, likelihood of substantive change). The empirical evidence supplied only verifies the petition/debate exist; it does not establish the effectiveness of the proposed action or the broader costs/benefits of the policy change."
+  },
+  "PostExternalValidation": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims are well supported by authoritative sources: Compassion in World Farming runs the \"End the Cage Age\" campaign and posted about reaching 100k signatures; the official UK petitions site shows petition 706302 passed 100,000+ signatures and records the petition was debated; the UK Parliament \"What's On\" event and Hansard/Commons Library confirm a Westminster Hall debate on 16 June 2025 at 4:30pm. The CIWF site also encourages contacting MPs and provides letter/email templates for campaigning. Two minor, practical claims are harder to verify exactly: (a) the specific short URL ciwf.org.uk/cagesdebate could not be opened by the tool (CIWF runs similar action pages so the link is plausible), and (b) the assertion that completing the action \"takes 2 minutes and requires only name, address and email\" is plausible for typical CIWF action forms but is a subjective/operational claim that can vary by user and could not be precisely verified. Overall, the post\u2019s factual claims are well supported with only small unverifiable practical details.",
+    "sources": [
+      "Compassion in World Farming \u2014 End the Cage Age campaign page (CIWF).",
+      "Compassion in World Farming \u2014 \"End the Cage Age petition reaches major milestone\" news (22 Apr 2025).",
+      "UK Government & Parliament petitions \u2014 \"End the use of cages and crates for all farmed animals\" (petition 706302) page (petition.parliament.uk/706302).",
+      "UK Parliament \"What's on\" event page \u2014 Westminster Hall debate: 16 June 2025 at 4:30pm (whatson.parliament.uk/event/cal52161).",
+      "House of Commons Library briefing \u2014 \"Debate on an e-petition relating to the use of cages and crates for farmed animals\" (Commons Library, CDP-2025-0121).",
+      "Hansard \u2014 \"Farmed Animals: Cages and Crates\" Westminster Hall debate transcript (16 June 2025).",
+      "Compassion in World Farming \u2014 \"UK Government respond to our End the Cage Age petition\" news (20 Feb 2025).",
+      "Compassion in World Farming \u2014 campaigning/letter-writing guidance (CIWF get-involved / letter-writing resources)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "9kJuH3n2RActZoicY",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Clarify realistic impact and what you are actually asking MPs to do. Say explicitly that this is a petition debate (not a binding vote) and describe the practical actions an MP can take (attend, speak, publicly back the petition, sign an EDM or press for legislation) and what the campaign hopes the debate will achieve. Readers should know what change this email is plausibly meant to produce.  \n\n2) Tell people how to make their message effective and who it will influence. Explain that only constituents usually influence an MP (so include full postcode/address), recommend personalising the template (even one sentence about why it matters to you doubles credibility), and encourage asking the MP to do a specific thing (e.g. attend and publicly support the petition). This prevents wasted effort from non-constituents and increases uptake among readers.  \n\n3) Add a short transparency/privacy note about the form and your affiliation. Say clearly that the form is run by CIWF, that it will share contact details with MPs (and CIWF), and link to CIWF's privacy/petition pages. Also restate your non-affiliation (you already did) and, if relevant for the forum, mention that this is single-issue campaigning rather than partisan advocacy. These tiny additions reduce surprises and increase trust.",
+    "improvement_potential": "The feedback identifies important, concrete omissions that materially reduce the post's usefulness: it should say this is a petition debate (not a binding vote), tell readers that MPs are mainly influenced by constituents (so include full postcode) and how to ask for specific actions, and add a brief privacy/transparency note about who runs the form and data sharing. These are not catastrophic errors, but they are critical fixes that would make the call-to-action far more honest and effective while adding very little length."
+  }
+}

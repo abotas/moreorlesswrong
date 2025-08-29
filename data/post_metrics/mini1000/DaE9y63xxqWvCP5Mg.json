@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "A pleasant, accessible call-to-action for farmed animal welfare that aligns with EA concerns about moral circle expansion and effective giving, but it is not original, evidence\u2011heavy, or foundational. If widely read it could modestly increase interest, donations, or dietary changes that benefit large numbers of chickens (so the potential downstream impact is non\u2011trivial), yet the post itself is mostly advocacy/education rather than a load\u2011bearing argument or new analysis\u2014so it matters somewhat to EAs and a little less to the general public."
+  },
+  "PostRobustness": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Tighten up the evidence and acknowledge important nuances. Several big claims are left unsupported or presented as simpler than they are (e.g. \u201cnearly ten times more chickens killed,\u201d \u201cthe most impactful improvement\u2026has ever happened,\u201d and the implication that cage-free is unambiguously better). Before publishing, add citations for those statistics and summarize peer\u2011reviewed findings that complicate the picture (mortality, injurious pecking, behavioral tradeoffs in some cage\u2011free systems, how welfare is measured). Replace blanket statements with qualified ones and a short note that animal\u2011welfare metrics (preference tests, affective state measures, productivity outcomes) can conflict. This both improves credibility and reduces obvious pushback from informed readers.  \n\n2) Clarify what you mean by \u201cLorax\u201d and apply a consistent selection framework. Right now you list people who are admirable but don\u2019t explain the criteria that would make someone a Lorax (e.g. scale of impact, moral clarity, policy wins, public influence, cost\u2011effectiveness). Either (a) pick a clear, short set of criteria and evaluate candidates against them, or (b) explicitly state you\u2019re using a loose/celebratory definition and explain why a collective title is preferable. Concrete suggestion: include a one\u2011paragraph rubric (3\u20134 criteria) and use it to justify whether an individual, organization, or movement deserves the label.  \n\n3) Anticipate the most plausible counterarguments and make the call\u2011to\u2011action more evidence\u2011directed. Readers will ask: \u201cHow does advocacy compare to meat reduction, plant\u2011based/clean\u2011meat tech, or working on other causes?\u201d and \u201cWhich actions actually move welfare outcomes?\u201d Add a short prioritized list of recommended actions with citations or pointers to efficacy evidence (e.g. expert charity evaluators, major corporate campaign results, effective policy instruments). Briefly acknowledge likely industry and cultural resistance and a sentence or two on how advocates can avoid perverse outcomes (e.g. pushing a switch that increases bird mortality). This keeps the post persuasive without lengthening it much and makes the \u2018be a Lorax\u2019 advice practically useful.",
+    "improvement_potential": "The feedback identifies real, nontrivial weaknesses: unsupported/highly assertive claims (statistics and \u2018most impactful\u2019 wording), an inconsistent/unclear use of the Lorax label, and a weak evidence\u2011link between advocacy asks and actual welfare outcomes. These are the kinds of obvious pushbacks informed readers will seize on, so fixing them would materially improve credibility and reduce embarrassing errors \u2014 and can be done concisely (citations, a short rubric, and a prioritized evidence\u2011based call to action) rather than bloating the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "Mark McDonald is a common name and (as of my 2024-06 knowledge cutoff) there is no well-known EA/rationalist figure by that name. I am not aware of major EA writings, talks, or roles tied to this name; globally the name does appear for various professionals/authors but not as a widely recognized public figure. If you can share links or works attributed to this Mark McDonald, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "clarity_score": 7,
+    "explanation": "Generally clear and easy to follow: a friendly, well\u2011structured piece that sets up the Lorax metaphor, narrows to chickens, describes welfare problems, and issues a concrete call to action. Strengths: accessible language, good signposting (lists, headings), and practical next steps. Weaknesses: occasional digressions and repetition (several long paragraphs and side discussions about other voiceless groups and potential 'Lorax' candidates), uneven tone (playful vs. policy/evidence), and relatively light use of prioritized evidence or impact framing \u2014 it could be more concise and more sharply argued for an EA audience."
+  },
+  "PostNovelty": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the post\u2019s claims and recommendations are well\u2011trodden in animal\u2011welfare and EA circles: the \u2018speak for the voiceless\u2019 framing, focusing on chickens because of scale and welfare problems, citing animal welfare science, the cage\u2011free movement, and directing readers to ACE/Humane League are all familiar. The primary modestly novel element is the playful Lorax metaphor and the broad checklist of voiceless groups as context \u2014 a stylistic/consolidating move rather than an original substantive claim. For a general educated reader this frame and the specific examples may feel slightly fresher, but the core ideas remain mainstream."
+  },
+  "PostInferentialSupport": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post has a clear, coherent argument (chickens are a large, voiceless population suffering measurable welfare harms and thus need advocates) and cites relevant experts and fields (animal welfare science, Temple Grandin, Animal Charity Evaluators). It lays out plausible mechanisms (cage confinement, selective breeding causing leg problems) and practical steps for readers. Weaknesses: The argument is mainly persuasive rather than analytical \u2014 it does not engage important counterarguments or trade\u2011offs (e.g., economic constraints, cultural factors, cost\u2011effectiveness vs other causes). Evidence is mostly secondary/popular sources and organizational materials rather than systematic, peer\u2011reviewed or quantitative analyses; key claims (scale of suffering, magnitude of welfare improvements from specific interventions, comparative impact) are asserted without rigorous data. Overall, the thesis is plausible and moderately supported for an advocacy piece, but would need stronger, more systematic empirical backing and consideration of objections to reach a high evidentiary standard."
+  },
+  "PostExternalValidation": {
+    "post_id": "DaE9y63xxqWvCP5Mg",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major empirical claims in the post are well supported. Global slaughter numbers (~70\u201375 billion chickens/year) versus ~8.2 billion people give ~9x more chickens killed than people (claim \u201cnearly ten times\u201d) \u2014 supported by FAO-based compilations (Our World in Data) and reporting. Claims about broiler chickens suffering leg/ musculoskeletal problems from very fast growth and about battery cages preventing basic behaviours are supported by peer\u2011reviewed welfare literature and expert commentary (e.g., Temple Grandin). The description of the recent corporate/NGO cage\u2011free movement and the role of organisations like The Humane League, Mercy for Animals and HSUS is accurate; Animal Charity Evaluators\u2019 repeated recommendation of The Humane League is also verifiable. Caveats: (a) some normative statements (e.g., \u201cthe most impactful improvement \u2026 ever happened\u201d) are opinionated and hard to prove empirically; (b) the welfare impact of moving from cages to cage\u2011free has tradeoffs (e.g., possible changes in mortality, keel\u2011bone fractures) and depends on system design and management \u2014 empirical literature (and Our World in Data\u2019s synthesis) documents both large net welfare gains and important remaining harms; (c) numeric estimates (e.g., total chickens slaughtered, chick\u2011culling counts) vary slightly by data source and year, so precise ratios depend on the year and dataset used.",
+    "sources": [
+      "Our World in Data - \"How many animals get slaughtered every day\" (FAO-based dataset / 2023 summary)",
+      "Sentient Media - \"How Many Chickens Are Killed Every Year?\" (summary article with FAO-based and industry estimates)",
+      "Knowles et al. / Kestin et al. literature summarized in: \"Lameness and its relationship with health and production measures in broiler chickens\" (Animal, 2019) \u2014 PubMed Central (shows 14\u201350% lameness estimates and association with pain)",
+      "Review: \"Assessment of Welfare Problems in Broilers: Focus on Musculoskeletal Problems Associated with Their Rapid Growth\" (review article, open access on PMC)",
+      "Grist interview with Temple Grandin (2015) \u2014 Temple Grandin describes operant/ motivation tests for hens and comments on cages vs cage\u2011free",
+      "Our World in Data - \"Do better cages or cage\u2011free environments really improve the lives of hens?\" (evidence synthesis on cage vs cage\u2011free tradeoffs)",
+      "The Humane League - Annual Reports (2023/2024) and organisational pages documenting corporate cage\u2011free campaigns and impact claims",
+      "Animal Charity Evaluators (ACE) - Recommended Charity listings (The Humane League recommended across multiple years)",
+      "EU Council Directive 1999/74/EC and coverage (ban on conventional battery cages phased out by 1 Jan 2012) \u2014 e.g., FoodSafetyNews / EU documentation"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful capacity-building announcement for the EA/AI-safety ecosystem: a Cooperative AI track helps fund and focus research on cooperation-relevant capabilities and multi\u2011agent behavior, which is relevant to longtermist and AI-safety concerns. However the scale is small (up to ~6 fellows, modest stipends), so it\u2019s incremental rather than foundational \u2014 helpful but not load-bearing. For general humanity the direct impact is negligible; any benefits are long-run and speculative, and the referral bounty is minor."
+  },
+  "PostRobustness": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Referral bounty: missing guardrails and operational details that create real risks of gaming, nepotism, and disputes. Actionable fixes: (a) state clear eligibility rules (who may be a referrer, max bounties per referrer, whether self-referrals or referrals of current collaborators are allowed); (b) describe verification and tie-break rules (how you verify the referral, what happens if multiple people refer the same candidate, when payment is made, timeline); (c) add safeguards for quality (e.g. require a short justification from the referrer about fit, or require the referrer not be the candidate's direct supervisor) and a dispute-resolution contact; (d) note tax/IE/charity logistics (how international payments are handled, whether you will send 1099s or equivalent, and how charity donations are processed). Including this will reduce confusion and reputational risk. \n\n2) Vague definition of the Cooperative AI track and selection criteria \u2014 this will lower applicant quality and increase wasted applications. Actionable fixes: (a) add 3\u20136 concrete example project descriptions or past project analogues that count as strong fits; (b) state explicit evaluation criteria (e.g., novelty of research question, technical competence, fit with cooperative-AI themes, potential for publication/impact); (c) list mentors/advisors or the kinds of mentorship and resources the track uniquely provides beyond the general fellowship (e.g., targeted lectures, compute/data access, connection to Cooperative AI Foundation reviewers). This helps applicants self-select and improves downstream cohort fit. \n\n3) Logistical ambiguity about location, visas, and stipend/benefits. Actionable fixes: (a) clarify whether remote participation is allowed or required relocation is expected, and whether you will assist with visas/relocation costs beyond the housing allowance; (b) specify how \"Berkeley or London TBC\" will be decided and when applicants will be told; (c) clarify stipend disbursement schedule and any expectations (full\u2011time commitment, working hours) so applicants can assess feasibility. Small additions here substantially reduce back-and-forth questions from applicants.",
+    "improvement_potential": "The feedback identifies several substantive, actionable gaps that could cause real reputational and operational problems (gaming/nepotism around bounties, vague track definition causing low-quality or misaligned applications, and logistical uncertainty around location/visas/stipend). Each point gives concrete, modest fixes that won\u2019t overly bloat the announcement but would materially improve clarity, reduce disputes, and improve applicant self-selection. Not fatal to the post, but important to fix\u2014hence a high score short of a 9\u201310 reserved for catastrophic errors."
+  },
+  "PostAuthorAura": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable presence of Du\u0161an D. Ne\u0161i\u0107 (Dushan) in the EA/rationalist community or the wider public sphere. The name does not match central or well-known EA figures, frequent contributors on EA Forum/LessWrong, or notable public intellectuals up to my 2024-06 knowledge cutoff. If this is a pseudonym or a niche/very recent figure, provide links or context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: headings, bullets and links make the main points (new Cooperative AI track, research focus, eligibility, logistics, deadline, and $300 referral bounty) easy to find. Minor weaknesses: a few small ambiguities (location 'TBC', how referrals are verified and paid, selection criteria), slightly awkward phrasing ('do everything together with the general cohort'), and some duplicated links/info that could be tightened for brevity."
+  },
+  "PostNovelty": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers this is mostly an expected program announcement: fellowships, thematic tracks (Cooperative AI), and modest referral bounties are familiar patterns within the EA/AI-safety community, so the post is only slightly novel in its specific details. For the general public it's somewhat more novel because Cooperative AI and PIBBSS are niche; however the core idea\u2014adding a themed research track to a fellowship and offering referral payments\u2014is commonplace and not conceptually original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "This is primarily an informational announcement rather than an argumentative post. The structure and logic are clear (what the track is, who should apply, logistics, and a referral bounty), so the reasoning is solid for its purpose. However, empirical evidence is minimal \u2014 there are links to the fellowship and Cooperative AI Foundation but no data on past outcomes, selection criteria, expected impact, or rationale for the bounty size \u2014 so claims about benefits or effectiveness are weakly supported. Overall the announcement is credible and useful, but not strongly evidenced for claims about impact or value."
+  },
+  "PostExternalValidation": {
+    "post_id": "GDrFJFtRZh2uuKF9j",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are verifiable and accurate. PIBBSS\u2019s official fellowship page and the Cooperative AI Foundation pages confirm: (a) a dedicated Cooperative AI track supported by the Cooperative AI Foundation, (b) the research areas listed, (c) the 3-month June\u2013September 2025 timing, (d) stipend $3,000/month plus a $1,000/month accommodation allowance, and (e) the Cooperative AI track will select up to six fellows. The announcement post on LessWrong / EA Forum (authored by a PIBBSS organizer) explicitly states the $300 referral bounty; however, I could not find the $300 bounty described on the PIBBSS main fellowship page (the bounty appears announced in the forum/post by the organizer). There is a minor deadline discrepancy: the forum/LessWrong post says the application closes Jan 26, 2025, while the PIBBSS fellowship page shows the (extended) deadline as 23:59 GMT Jan 27, 2025. Overall: mostly well-supported by trustworthy sources, with small inconsistencies (deadline) and one detail (referral bounty) present in announcement posts rather than the central fellowship page.",
+    "sources": [
+      "PIBBSS Fellowship page (official) \u2014 PIBBSS: 'The Fellowship' (page showing Cooperative AI track, stipend, housing allowance, duration, up to 6 fellows, application deadline extended to Jan 27, 2025). \u2014 ([pibbss.ai](https://pibbss.ai/fellowship/?utm_source=openai))",
+      "Cooperative AI Foundation \u2014 Research Grants 2025 (research areas and priorities referenced by the post). \u2014 ([cooperativeai.com](https://www.cooperativeai.com/grants/2025?utm_source=openai))",
+      "LessWrong / GreaterWrong post 'Apply to the 2025 PIBBSS Summer Research Fellowship' (crossposts / announcement; shows Jan 26 deadline and mentions Cooperative AI track). \u2014 ([greaterwrong.com](https://www.greaterwrong.com/posts/qohzWNLdMi9KYz5Cq/apply-to-the-2025-pibbss-summer-research-fellowship?utm_source=openai))",
+      "EA Forum post 'PIBBSS Fellowship 2025: Bounties and Cooperative AI Track Announcement' by Du\u0161an D. Ne\u0161i\u0107 (organizer) \u2014 contains the $300 referral bounty text and Cooperative AI track description. \u2014 ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/GDrFJFtRZh2uuKF9j/pibbss-fellowship-2025-bounties-and-cooperative-ai-track?utm_source=openai))",
+      "LessWrong / EA historical bounty post (earlier PIBBSS bounty example for context) \u2014 shows that bounty programs have been used previously (different amounts in earlier years). \u2014 ([lesswrong.com](https://www.lesswrong.com/posts/8uxbDaWBuygSfiuES/pibbss-fellowship-bounty-for-referrals-and-deadline?utm_source=openai), [forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/rNhWqG3gHgXeWLhrT/pibbss-fellowship-bounty-announcement-and-deadline-extension?utm_source=openai))"
+    ]
+  }
+}

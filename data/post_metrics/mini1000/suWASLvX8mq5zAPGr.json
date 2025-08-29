@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a credible, small-scale grassroots funding request that could meaningfully improve the lives of ~200 widows in one Kenyan sub-county and is useful for donors or practitioners interested in concrete local interventions. However, it is not foundational to major EA debates (e.g., longtermism or AI safety), nor does it change high\u2011level priorities \u2014 its scope, budget (~$4.9k) and impact are localized and modest in the context of global priorities. It is therefore of minor relevance to the EA/rationalist community and of limited significance for humanity at large, though valuable to the direct beneficiaries and to funders focused on grassroots development or women\u2019s empowerment."
+  },
+  "PostRobustness": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak or missing evidence that an office will produce the claimed outcomes. The post asserts that a physical office will help 200+ widows and quotes a cost per widow (~$24.59) but gives no baseline, target outcomes, timeline, or causal logic showing how the office (versus cheaper alternatives) raises incomes/decision-making. Actionable fixes: add a short M&E section in the post with (a) baseline numbers (current incomes, participation rates, service coverage), (b) 1\u20133 concrete, measurable targets (e.g., # women trained, % income change expected, records digitized) with a timeline, and (c) an explanation of why a physical office is necessary vs. hub-and-spoke, rotating clinics, or mobile/phone-based coordination. Cite any evidence or pilot results that link offices or similar interventions to the promised outcomes. \n\n2) Insufficient budget transparency and unclear value-for-money calculation. You link to a PDF but the post itself should succinctly show the budget breakdown and explain the $24.59/widow figure. Reviewers will judge quickly on whether money is being spent sensibly. Actionable fixes: include a one-paragraph summary of the budget (rent/renovation, furniture, equipment, first-year operating costs) and state whether the $4,917 is one-off or includes recurring costs. Show the arithmetic behind $24.59 (e.g., 4,917 \u00f7 200 = 24.585) and clarify the time horizon (cost per widow served per year, one-off, or total over X years). Add quotes/estimates or receipts where available and a small contingency line (e.g., 5\u201310%).\n\n3) Missing governance, accountability, and verification details. EA funders care about who runs the program, fiduciary capacity, and how funds will be tracked and audited. The post lacks registration/legal status, basic safeguarding/financial controls, and independent verification of impact or need. Actionable fixes: state the organization\u2019s legal status (registered CBO/NGO or not), give at least one local partner or referee (name and contact or link), describe simple financial controls (separate bank account, receipt requirements, quarterly reporting), and offer verification evidence (photos of current meeting/borrowed spaces, short beneficiary testimonies, or an audit/finance contact). If you don\u2019t have registration, propose a fiscal sponsor or explain how donors can provide funds safely. These three improvements will make the ask much more publishable to the EA community without lengthening the post too much.",
+    "improvement_potential": "Solid, targeted, and actionable feedback on three of the most important weaknesses: weak causal link between an office and outcomes, opaque budgeting/VfM, and missing governance/verification. Addressing these would materially improve the post and fundraising prospects without much extra length. It could be slightly improved by explicitly asking for sustainability/recurrence assumptions and a brief risk/alternative-options section, but overall this feedback identifies the major own-goals the author should fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "MA Gerry (possibly a pseudonym) does not appear to be a recognized name in the EA/rationalist community or in broader public discourse. I could find no evidence of notable publications, talks, affiliations, or online presence that would indicate familiarity among EA audiences or general global recognition. Ratings reflect likely obscurity/absence of a public profile."
+  },
+  "PostClarity": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: introduction, ask, organisation background, theory of change, proposal purpose, links, and contact info are all present and easy to find. Strengths: concise request amount, targeted beneficiary number, concrete use of funds, and clear calls for feedback/funding. Weaknesses: minor grammatical/formatting issues (e.g., name/role punctuation, spacing), a few awkward phrasings that reduce fluency, and limited on-page detail about the budget breakdown, timeline, and measurable outcomes (though a full proposal link is included). Fixing those would raise clarity and persuasive force."
+  },
+  "PostNovelty": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is a straightforward grassroots grant request for a small, practical intervention (establishing an office) to support common activities (VSLAs, trainings, advocacy). EA readers regularly see similar project proposals, cost-effectiveness framing, and community-led development efforts, so the ideas and claims are not new to that audience. For the general public it is also quite familiar \u2014 women\u2019s empowerment, small NGO fundraising, and requests for modest infrastructure are common \u2014 though the specific local details (Samia Sub-County widows group, exact budget) provide only minor novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The proposal is coherent and plausible \u2014 a local, widows-led group seeking a modest, clearly-scoped office to improve coordination, record-keeping, and training delivery has an intuitive logic and fits common development models (VSLA, training). The post gives a simple Theory of Change and a per\u2011person cost estimate, and links to more materials. Weaknesses: The causal chain and assumptions are not fleshed out (how the office will change measurable outcomes), there is no baseline or prior impact data from NbWG, no monitoring & evaluation plan, no budget breakdown or sustainability/risk analysis in the post, and the claim of being \u201cevidence-backed\u201d is unsupported by citations. Overall the argument is plausible but under\u2011evidenced and would benefit from concrete metrics, prior results, M&E, budget detail, and references to relevant studies."
+  },
+  "PostExternalValidation": {
+    "post_id": "suWASLvX8mq5zAPGr",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims in the post are plausible and partly verifiable. Independent public records show the group and founder (Michael Gerry Agundah / Nambula(n) Buchiro Women Group) listed on MIT Solve with numbers that match the post\u2019s scale (MIT Solve lists ~210 widows and subgroup structure), and the EA Forum post itself documents the $4,917 ask and the ~$24.59 per-widow arithmetic (4,917/200 \u2248 24.59). The post\u2019s program model (VSLA + training) is supported by randomized evaluations and meta-analyses showing VSLAs improve savings, business activity and women\u2019s decision-making (PNAS/IPA, JDE). Weaknesses: many organizational facts (\"50 active members\", \"operate without a central office\", first donor received, local name-translation) are self-reported and not independently verifiable from government or news sources; the GoGetFunding campaign page was referenced on the EA Forum post but was not reachable via my query during verification. The claim that the model is \u201cevidence-backed\u201d is supported in general (VSLAs have positive effects on savings, business outcomes and women\u2019s empowerment) although large trials find mixed effects on household consumption/food security. Overall: credible and supported on core points (existence, scale ~200, budget math, evidence base for VSLA-style interventions), but several details rely on the group\u2019s self-reporting and lack additional independent verification online.",
+    "sources": [
+      "Effective Altruism Forum post: \"Empowering 200+ Widows in Rural Kenya Through a Functional Office \u2013 NbWG Grant Application\" (EA Forum) \u2014 the post under evaluation.",
+      "MIT Solve profile: Nambula Buchiro Women Group / Michael Gerry Agundah (solve.mit.edu) \u2014 lists Nambula(n) Buchiro/WApp and gives ~210 widows and subgroup details.",
+      "IPA/Poverty Action (summary) and PNAS paper: \"Impact of savings groups on the lives of the rural poor in Ghana, Malawi, and Uganda\" (cluster RCT evidence summarized by IPA; PNAS paper DOI:10.1073/pnas.1611520114) \u2014 evidence that VSLAs increase savings, microenterprise outcomes and women's empowerment but show mixed effects on consumption.",
+      "Journal of Development Economics (2016): \"Impact of Village Savings and Loan Associations: Evidence from a cluster randomized trial\" \u2014 RCT evidence on VSLA impacts (savings, investments, some welfare measures).",
+      "Kenya National Bureau of Statistics (KNBS) \u2014 2019 Kenya Population and Housing Census (for county-level demographic / marital-status data availability).",
+      "CARE (program summary): \"Microsavings through Village Savings and Loan Associations (VSLAs)\" \u2014 program-level evidence and implementation notes on VSLA effects and uptake."
+    ]
+  }
+}

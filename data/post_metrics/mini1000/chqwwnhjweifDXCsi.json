@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a moderately important community-facing piece: it prompts discussion and data-gathering about a core EA problem (how to prioritise between causes under deep philosophical uncertainty). The post itself is not a novel or foundational argument, so its direct impact is limited, but the poll could meaningfully inform EA meta-prioritisation and community norms. For general humanity it is peripheral \u2014 unlikely to change large-scale outcomes outside the EA/rationalist ecosystem."
+  },
+  "PostRobustness": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing poll specifics and call to action \u2014 The post doesn\u2019t include the poll question text, answer options, a link to respond, target audience, or a deadline. Readers can\u2019t participate or judge the poll\u2019s value. Action: embed or link the poll, show the exact question and response options (or state that it\u2019s open-ended), and add a deadline and note on who you want responses from.\n\n2) Vague framing and ambiguous terms \u2014 Key phrases like \u201cfundamental philosophical assumptions,\u201d \u201ccause-prioritisation,\u201d and \u201chow you personally deal with this difficulty\u201d are open to widely different interpretations (e.g., donation vs. career vs. advocacy decisions; moral uncertainty vs. empirical uncertainty). Action: narrow the scope or provide brief definitions/examples so respondents answer the same question (or explicitly say you welcome multiple interpretations and separate answers by type).\n\n3) Priming and representativeness concerns \u2014 Leading by linking Marcus Davis\u2019s post (and the newsletter) could prime respondents toward particular arguments, and the newsletter audience may not represent broader EA views. Action: either neutralize framing (present short, balanced alternatives to prime both sides) or acknowledge priming and sampling limits in the post and in any reporting of results.",
+    "improvement_potential": "This feedback identifies clear, actionable, and important omissions: the post fails to include the poll link/question/options/deadline (so readers can\u2019t participate), uses ambiguous framing that will yield inconsistent responses, and neglects priming/sampling bias from linking the newsletter/Marcus Davis. Fixing these would materially improve the post and is achievable without much extra length. It\u2019s not a fatal flaw (the topic stands), so not a 10, but it\u2019s a substantial set of mistakes that the author should correct."
+  },
+  "PostAuthorAura": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand, well-structured, and provides clear context (linking to the newsletter and relevant Forum post) and a straightforward prompt. Its argument for why cause-prioritisation matters is concise and compelling. Weaknesses: it repeats a bit (the urgency/choice point could be tightened), makes a strong unstated assumption (\u201cno neutral position\u201d), and doesn\u2019t specify the poll mechanics or response options, which would make the ask even clearer."
+  },
+  "PostNovelty": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "Within the EA community the core claim \u2014 that deep philosophical uncertainty complicates cause prioritization and that we should wrestle with how to act under that uncertainty \u2014 is already widely discussed (moral uncertainty, diversification, robustness, and prior Forum posts like Marcus Davis\u2019s). So the post is not very novel to EA readers. To the general public it\u2019s somewhat less familiar because the specific framing and stakes (EA-style cause priors, tractability vs importance trade-offs) are more specialized; but the underlying idea (uncertainty makes choosing priorities hard) is still a fairly common philosophical/practical observation, so it\u2019s only modestly novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post raises a legitimate and important point \u2014 that philosophical uncertainty complicates cause prioritization and yet choices must be made \u2014 and it links to a relevant Forum post and an 80,000 Hours article. However, the argument is mostly rhetorical and underdeveloped: key terms (e.g. \u2018\u2018cause prioritisation,\u2019\u2019 \u2018\u2018philosophical assumptions,\u2019\u2019 measures of impact) are not defined, alternative positions are not considered, and no concrete method for resolving the tension is proposed. Empirical support is minimal (only two references, neither providing data bearing directly on the claim), and there is no systematic evidence showing how much philosophical uncertainty affects prioritization in practice or what strategies work best. Overall the claim is plausible but weakly supported by reasoning and evidence in this post."
+  },
+  "PostExternalValidation": {
+    "post_id": "chqwwnhjweifDXCsi",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are verifiable and accurate: the Toby Tremlett forum poll post exists and is dated 15 Jul 2025; Marcus A. Davis\u2019s Forum post on uncertainty in cause\u2011prioritisation exists (3 Jul 2025) and matches the description; and the claim that differences in problem importance and tractability strongly affect impact is supported by 80,000 Hours\u2019 'Your choice of problem is crucial' article. One small gap: I could not find a public page-copy of the July 2025 EA Newsletter that lists the poll (the EA Newsletter archive index is general), but Toby Tremlett is the newsletter content lead and the forum post and podcast metadata state the poll was linked in the July newsletter \u2014 so the newsletter linkage claim is very plausible though I couldn\u2019t retrieve a direct archived newsletter page showing the link.",
+    "sources": [
+      "EA Forum \u2014 'July \u201925 EA Newsletter Poll' by Toby Tremlett (15 Jul 2025). (EA Forum post listing showing the poll).",
+      "EA Forum \u2014 'We should be more uncertain about cause prioritization based on philosophical arguments' by Marcus A. Davis (3 Jul 2025).",
+      "80,000 Hours \u2014 'Why the problem you work on is the biggest driver of your impact' / 'Your choice of problem is crucial' (article describing importance/neglectedness/tractability framework).",
+      "EffectiveAltruism.org \u2014 EA Newsletter archives (Effective Altruism Newsletter project page / archive index).",
+      "EA Forum \u2014 'EA Organization Updates: July 2025' by Toby Tremlett & Dane Valerie (mentions Marcus A. Davis activity).",
+      "Apple Podcasts listing \u2014 'July \u201925 EA Newsletter Poll' (podcast metadata referencing the poll was linked in the July newsletter)."
+    ]
+  }
+}

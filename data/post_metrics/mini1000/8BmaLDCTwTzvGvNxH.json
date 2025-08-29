@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an event announcement for a regional EA conference. It\u2019s useful for people in or connected to the Nordics/Baltics (networking, capacity-building, mentoring, workshops on mental health, policy, grant-writing), and moderately valuable for EA community growth and local coordination. It is not a load-bearing or novel argument and has limited broader implications, so it\u2019s minor importance overall. For general humanity it\u2019s effectively trivial."
+  },
+  "PostRobustness": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing/ambiguous logistical details (high priority). The post does not state the conference dates or location details beyond \u201cOslo,\u201d and gives mixed signals about the deadline (says \u201cOnly two weeks till applications close!\u201d and separately lists \u201cApply by April 8\u201d). Readers need clear, unambiguous facts up front: conference dates, venue, exact application deadline (with timezone), expected notification date, estimated acceptance rate or target number of attendees, and whether there is a registration fee. Actionable fix: add a short facts box or one-paragraph summary near the top with these essentials and correct the deadline language.\n\n2) Unclear selection & travel-support criteria (important for non-local applicants). The post says you prioritise Nordics/Baltics and that travel support \u201ccan be requested,\u201d but gives no guidance on how decisions are made (e.g., what qualifies as a connection to the region), how much travel support covers, and whether international applicants should realistically expect funding. This is a common source of wasted applications and disappointed people. Actionable fix: state the travel-support budget/range (or typical examples), the selection criteria or scoring priorities, whether you aim to fund all selected attendees or only those who couldn\u2019t otherwise come, and explicit encouragement/roles for international mentors (if you want them).\n\n3) Tone and positioning could be tightened to avoid confusion or unintended deterrence. Phrases like \u201cone of the (admittedly less impressive) fjords\u201d feel off-tone for an official announcement and may distract readers. Also the paragraph about who the event is for repeats similar points; instead focus on one clear pitch to locals and a one-sentence note for experienced internationals. Actionable fix: remove the joke about fjords, shorten the \u201cwho is this event for\u201d section to a concise eligibility statement, and add a one-line sentence clarifying why an international attendee should apply (e.g., mentor roles, targeted workshops, networking goals).",
+    "improvement_potential": "The feedback correctly identifies major, high-impact omissions (no conference dates/venue details, ambiguous deadline, and unclear travel-support/selection criteria) that could confuse readers and cause wasted applications \u2014 these are 'own-goal' mistakes the author would be embarrassed about. The tone suggestions are also useful. The suggestions are actionable and mostly short to fix (add a facts box, clarify funding/criteria, tighten wording), so implementing them would substantially improve the post without much lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record of a notable EA/rationalist presence or public profile for \u2018Amalie Farestvedt \ud83d\udd38\u2019 up to my 2024-06 cutoff. No obvious publications, talks, or high-visibility posts on major EA/rationalist venues or mainstream media; the name may be a pseudonym or a very low-profile individual. If you want a more definite answer, I can search current web sources."
+  },
+  "PostClarity": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: short intro, explicit who-it's-for section, strong calls to action, and helpful details (topics, travel support, satellite events). Weaknesses: minor repetition (multiple \"apply now\" prompts), a few awkward phrasings and small formatting issues (e.g. missing space after a colon), and one casual aside (\"admittedly less impressive\") that slightly undercuts tone. Concise enough for an event post but could be tightened by removing redundancies and polishing wording."
+  },
+  "PostNovelty": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is essentially an event announcement\u2014a very common genre on the EA Forum. The only mildly new elements are logistical/locational (first time in Norway) and some thematic emphasis (mental-health sessions, Nordic policy focus), but the core content and claims are familiar and unsurprising to EA readers and the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "The post is clear, well-structured, and presents plausible, coherent reasons why EAGxNordics could be valuable (target audience, program highlights, mental-health and skills workshops, travel support). However, it mostly lists features and asserts benefits without empirical backing or outcome data. Evidence is limited to named speakers and session titles and contains a few unsupported general claims (e.g., Nordic leadership in evidence-based policy) but no attendance figures, testimonials, impact evaluations, or comparative information. As a promotional announcement this is reasonably persuasive, but as an evidentiary argument for the event's value it is only moderately supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "8BmaLDCTwTzvGvNxH",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's factual claims are supported by primary sources (the event organiser\u2019s site and EA Global pages). EAGxNordics \u201925 is scheduled for 25\u201327 Apr 2025 in Oslo (Rebel); the program page lists the named speakers/workshops (Tim LeBon; Ewelina Tur; Kiryl Shantyka; Emil Wasteson) and policy-oriented sessions. The claim that EAGxNordics is an established regional EAGx (this is the fourth edition: 2019, 2023, 2024, 2025) is supported by past event pages. Travel support is offered, but the post\u2019s specific statement that \u201crooms have been booked at a nearby hostel for all travel support recipients\u201d is not corroborated by the organiser\u2019s public FAQ/accommodation pages (which say attendees generally must book/pay for their own accommodation and give hostel discount/promo-code options). There is also a small inconsistency in application-deadline dates between the organiser FAQ (states submit by 8 April) and the EA Global event listing (states application deadline 15 April). Overall: most major claims check out, with minor unsupported/contradicted details about hostel rooms and a deadline discrepancy.",
+    "sources": [
+      "EAGxNordics\u201925 \u2014 Official site (Home & Program pages). EAGxNordics.org \u2014 Program: lists talks/workshops (Tim LeBon; Ewelina Tur; Kiryl Shantyka; Emil Wasteson); Accommodation & FAQ pages (travel support, accommodation guidance, application deadline stated as 8 April).",
+      "EAGxNordics 2025 \u2014 EffectiveAltruism.org (EA Global event listing) \u2014 event page (25\u201327 Apr 2025), travel support info, lists application deadline as 15 April.",
+      "EAGxNordics 2019 \u2014 EA Forum postmortem (shows 2019 Stockholm event) \u2014 supports history of prior EAGxNordics.",
+      "EAGxNordics 2023 & 2024 \u2014 EA Global event pages (Stockholm 2023; Copenhagen 2024) \u2014 supports that 2025 is first Norway host and that prior years were in Sweden/Denmark.",
+      "Rebel Oslo event listing \u2014 Rebel.no (venue page confirming Rebel, Universitetsgata 2, Oslo as venue).",
+      "Accommodation page \u2014 EAGxNordics.org (shows hostel suggestions and promo codes; states attendees must book/pay their own accommodation; references Travel Support Policy).",
+      "Springer chapter: 'Evidence-Based Policymaking in Nordic Countries' \u2014 academic literature noting institutionalised use of evidence and policy-learning practices in Nordic countries.",
+      "Transparency International \u2014 Corruption Perceptions Index 2024 (shows Nordic countries rank highly on CPI), supporting the post\u2019s claim that Nordics/Baltics are recognised for strong evidence-based governance/quality of institutions."
+    ]
+  }
+}

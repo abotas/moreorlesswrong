@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a useful, pragmatic firsthand report for people in or entering the EA/AI policy ecosystem\u2014especially early-career researchers deciding whether to pursue short research fellowships and how to get the most out of them. It contains actionable tips (mentor matchmaking, scope, using office time, applying to roles during the fellowship) that can affect career choices and short-term productivity, but it is anecdotal and not foundational to core EA or AI-safety arguments. If its conclusions were false it would mainly mislead prospective fellows rather than change major policies or beliefs. For the general public it has essentially no broad impact."
+  },
+  "PostAuthorAura": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "'Yadav' is a common surname and, without a given name, works, or links, there is no identifiable EA/rationalist author by that single name. Judged as unknown in EA circles and globally. Provide more details (first name, publications, links) to reassess."
+  },
+  "PostClarity": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "clarity_score": 8,
+    "explanation": "Well-structured, chronological and easy to follow with clear headings, concrete examples, and actionable takeaways. The main points and advice are explicit and accessible to the target audience. Weaknesses: a few informal asides and minor repetitions make it slightly wordy in places; the intro could include a short summary of key takeaways for quicker scanning."
+  },
+  "PostNovelty": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the post is practical, experience-based advice about doing a short research fellowship (orientation, mentor/RM roles, drafting cycle, peer feedback, end-of-program sprint) and common career tips (don\u2019t feel pressured to finish, apply early, use office time and peers). Those points are familiar to EA Forum readers and to many professionals. The only mildly novel elements are the concrete, fellowship-specific details (Pivotal\u2019s mentor matching, Projects in Progress format, LISA office culture) and the explicit framing about non-paper outputs for policy-facing work \u2014 useful specifics but not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured (chronological + takeaways), internally coherent, and offers clear, actionable observations about how the fellowship worked for the author (mentor/RM roles, PiP, office value, timeline). Advice follows logically from the described experience. Weaknesses: It is a single-person, anecdotal account with no systematic data, counterfactuals, or triangulation. Claims about what fellows typically do or what is 'most valuable' are not empirically supported and may not generalise. Overall: informative and plausible for readers seeking a lived experience, but weak empirical evidence limits how strongly the account supports broader conclusions or policy-like recommendations."
+  },
+  "PostExternalValidation": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's concrete, checkable claims are well supported by public sources. Pivotal\u2019s website confirms the core factual claims about the fellowship: it is a 9\u2011week, in\u2011person London programme hosted at the London Initiative for Safe AI (LISA) with a ~\u00a35,000 stipend, meals and relocation support, and fellows work with mentors and research managers (Pivotal FAQ/team pages). The Pivotal Q1 2025 dates (Feb 3\u2013Apr 4, 2025) align with the author\u2019s timeline and the SSRN paper (Gaurav Yadav et al.) dated April 14, 2025 corroborates the author\u2019s research output and Pivotal affiliation. The cohort size (~15) is consistent with Pivotal\u2019s 2024 fellows list. ERA and GovAI programme pages corroborate the general fellowship practices the author describes (mentor + research management, work\u2011in\u2011progress meetings, community events). \n\nLimitations / weaker points: several items are personal/anecdotal (exact timing of the author\u2019s offer in December, the author\u2019s specific trip to Oxford, statements like \u201cmost people finished their projects post\u2011fellowship,\u201d and mention of specific office snacks like Huel) \u2014 these are plausible but not documented on public pages and are therefore treated as anecdote rather than independently verified fact. A historical claim that Pivotal \u201cused to do mentor matching but now you apply directly to a mentor\u201d is consistent with current Pivotal application guidance (which requires applying to a mentor) but I could not find an authoritative public changelog describing the prior matching process, so that specific historical change is only partially verifiable.",
+    "sources": [
+      "Pivotal Research \u2014 Research Fellowship (Pivotal Research website; fellowship overview & FAQ; Q1 2025 page)",
+      "Pivotal Research \u2014 Q1 2025 Research Fellowship announcement (dates Feb 3\u2013Apr 4, 2025) \u2014 Pivotal / EA Forum announcement",
+      "Pivotal Research \u2014 2024 Fellows (Pivotal Research website; cohort listing)",
+      "Pivotal Research \u2014 About / Team (lists Research Managers and Operations & Community Manager)",
+      "SSRN: \"Product Liability as a Model for UK AI Security\" \u2014 Gaurav Yadav, Robert Reason, Morgan Simpson (SSRN abstract_id=5216191; posted 6 May 2025; written April 14, 2025)",
+      "ERA Fellowship \u2014 About & Programme pages (erafellowship.org; describes mentorship, research management, work\u2011in\u2011progress events)",
+      "GovAI \u2014 Fellowship / Research Fellows pages (describes supervisor pairing, Q&A sessions and work\u2011in\u2011progress meetings)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "zoT8AxzEnjWruFCgE",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Overgeneralisation / missing target-audience guidance. You present the fellowship as broadly unambiguously valuable but don\u2019t say who will actually get the most out of it. Add a short \u201cWho this is for\u201d section (e.g. early-career vs mid-career, legal vs technical backgrounds, UK vs non-UK) and note opportunity costs and alternatives (self-directed research, short courses, part-time roles). This helps readers judge if your experience is relevant to them and avoids the implicit claim that \u2018being a fellow\u2019 is always net-positive.\n\n2) Lack of concrete, actionable takeaways. The post is a useful narrative but would be much more helpful if it included specific, repeatable guidance. Add: (a) a 9-week suggested schedule with rough hours/week and priorities for weeks 1\u20133, 3\u20136, 6\u20139; (b) a short checklist for picking a mentor (availability, expertise, expected hands-on time, examples of past mentees); and (c) an outreach template you used (you mention one sentence but don\u2019t show it). Readers will value concrete heuristics they can copy.\n\n3) Overlooked practical pitfalls and mitigations. You don\u2019t mention common downsides that would be critical for applicants: compensation and relocation costs, IP/publication restrictions, mentor mismatch, burnout, and how to keep momentum post-fellowship. Add a brief \u201crisks and how I mitigated them\u201d subsection with actionable items (e.g. ask funder about IP/pay before accepting; have a backup mentor list; set a post-fellowship 6-month plan with concrete milestones; limit social commitments during the sprint).",
+    "improvement_potential": "The feedback identifies real, material gaps\u2014the post reads as generally positive but lacks target-audience guidance, concrete, copyable heuristics, and practical risk/mitigation details. These are the kinds of 'own goals' (overgeneralisation, lack of actionable advice, omission of common downsides) that would embarrass the author if flagged. Implementing the suggestions would substantially raise the post\u2019s usefulness without requiring a large rewrite (they can be added as short sections or checklists)."
+  }
+}

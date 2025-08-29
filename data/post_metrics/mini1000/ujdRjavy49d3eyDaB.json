@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a useful but not foundational announcement for the EA/rationalist community: it expands forecasting practice, talent discovery, and recruitment opportunities (and may modestly strengthen forecasting capacity useful for EA-relevant work), but it\u2019s an operational/practical opportunity rather than a load-bearing argument or discovery. For general humanity it\u2019s trivial \u2014 a modest prize forecasting contest with negligible direct impact on global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify eligibility, identity verification, data use, and legal/tax implications. Right now you say the contest is global and that winners must complete identity verification, but you don\u2019t say whether residents of particular countries are excluded, whether minors or Bridgewater/Metaculus employees may enter, or what information will be shared with Bridgewater. Explicitly state: any country/age restrictions or sanctions-related exclusions; what identity documents are required and who sees them; whether Bridgewater will get matched forecasts + identities (and for what purposes \u2014 recruitment, model training, trading); and whether prize payments are subject to withholding/taxes for international winners. If these answers live on another page, link to them and summarize the key points in the post. Action: add a short \u201cEligibility & Privacy\u201d FAQ block with bolded answers or links. \n\n2) Give concrete contest logistics and expected time commitment. Readers need to know whether this is a once-a-week, multi-round tournament, how many questions per round, whether warmups count, and the exact kickoff date/time (include time zone). Also briefly summarize scoring and what type of forecasting (probability estimates, ranges, etc.) is used so people can decide quickly whether to join. Action: add a 3\u20135 line \u201cHow it runs\u201d summary (kickoff time zone, rounds per week, sample question format, scoring link) so potential participants aren\u2019t forced to click through multiple pages to assess the commitment. \n\n3) Explain prize distribution changes and fairness concerns. You note there\u2019s no guaranteed $50 minimum this year, which materially changes incentives, but you don\u2019t explain the expected payout structure or how many prizes are likely to be awarded. State whether there is a published payout schedule, how ties are handled, and whether undergraduates competing on both boards can win in both categories. Also add a sentence addressing potential perception issues (e.g., Bridgewater using performance for recruiting) so participants understand the tradeoffs. Action: include a short \u201cPrizes & recruiting\u201d paragraph that summarizes payout mechanics, dual\u2011eligibility rules for undergrads, and whether performance data may influence hiring.",
+    "improvement_potential": "The feedback correctly identifies important omissions that materially affect whether people should sign up (eligibility/tax/privacy, time commitment/format, and changed prize mechanics). These are actionable, high-impact fixes that won\u2019t bloat the post if implemented as a short FAQ/summary and would prevent confusion or unpleasant surprises for winners. It could be slightly stronger by checking that some answers already exist on linked pages and recommending summarizing rather than duplicating them."
+  },
+  "PostAuthorAura": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The single name 'christian' is too common and possibly a pseudonym; there is no clear, identifiable presence tied to EA/rationalist publications, talks, or leadership. I cannot find evidence they are known within EA or more broadly. Provide a full name, username, links, or sample work to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: the purpose, registration link, date, prize amounts, and the two-leaderboard setup are easy to find and understand. Strengths include logical sections, explicit links, and concise headings. Weaknesses: some repetition (Open vs. Undergraduate details repeat), a slightly vague sentence about the removed \"$50 minimum\" that could be clarified for lay readers, and minor excess wording about recruiting opportunities. Tightening those points would make it exceptional."
+  },
+  "PostNovelty": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement rather than a new idea. For EA Forum readers (familiar with Metaculus, forecasting and industry partnerships) the content is routine \u2014 a recurring contest, prize pool, and recruitment tie\u2011ins are unsurprising. For the general educated public it's slightly more novel because forecasting competitions and a partnership with a major hedge fund may be unfamiliar, but the basic concept (a global contest with prizes and internships/recruiting) is common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "reasoning_quality": 9,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is clear, well-structured and internally consistent; it provides concrete, actionable details (dates, prize amounts, registration link, leaderboards) and links to contest rules and last year\u2019s questions/results. Weaknesses: Empirical claims beyond the contest mechanics\u2014e.g., that outstanding performance will lead to recruiting opportunities\u2014are asserted but not documented with evidence or past examples. Also there is no independent corroboration of Bridgewater\u2019s role or data on prior contest impact/participant outcomes. For an announcement this is largely sufficient, but claims about downstream opportunities would benefit from supporting evidence or examples."
+  },
+  "PostExternalValidation": {
+    "post_id": "ujdRjavy49d3eyDaB",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are well supported by primary sources from Metaculus and Bridgewater: the Bridgewater x Metaculus contest (Feb 3\u2013Mar 31, 2025), the $25,000 total prize pool split into two $12,500 leaderboards (Open and Undergraduate), the single set of ~50 questions across rounds, registration requirement, warmup/practice questions, prize eligibility/top\u2011125 rule, identity verification/tax form requirements, and that Bridgewater may contact high performers about recruiting. Metaculus\u2019s \u201cHow it works\u201d and official contest rules explicitly confirm these points. The only claim I could not verify (and which appears likely incorrect) is that \u201clast year\u2019s competition was limited to participants in the United States\u201d \u2014 I could not find any 2024 rule or announcement restricting the 2024 Bridgewater x Metaculus contest to U.S. participants; 2024 Metaculus pages and partner posts do not state a US\u2011only restriction. Given that single unverified/likely inaccurate statement, I rate the post 8/10 (well\u2011supported overall, with one notable caveat).",
+    "sources": [
+      "Metaculus \u2014 Bridgewater x Metaculus (tournament landing page, 2025). https://www.metaculus.com/bridgewater/ (contest landing/announcement, Feb\u2013Mar 2025)",
+      "Metaculus \u2014 How it works: Bridgewater Open Forecasting Tournament (detailed rules & 'How it works', Jan 2025). https://www.metaculus.com/bridgewater/how-it-works/",
+      "Metaculus \u2014 Official Competition Rules for the Bridgewater Open Forecasting Tournament (contest rules; eligibility, prizes, prize distribution, Bridgewater contact). https://www.metaculus.com/bridgewater/contest-rules/",
+      "Metaculus \u2014 Bridgewater Forecasting Contest (2025 tournament page showing dates, prize pool, rounds/questions). https://www.metaculus.com/tournament/32567/ (tournament feed/page)",
+      "Metaculus \u2014 Bridgewater Forecasting Contest 2024 (archive/tournament page for last year's contest). https://www.metaculus.com/tournament/bridgewater-2024/ (shows 2024 contest page; no explicit US\u2011only notice found)",
+      "Bridgewater Associates \u2014 announcement & careers mention of partnership with Metaculus (confirms recruiting/opportunities). https://www.bridgewater.com/ (news item: 'Bridgewater and Metaculus Team Up on Forecasting Contest')",
+      "Pensions & Investments \u2014 The Largest Hedge Fund Managers 2024 (ranking showing Bridgewater as the largest hedge\u2011fund manager by AUM in mid\u20112024). https://www.pionline.com/largest-hedge-funds/2024"
+    ]
+  }
+}

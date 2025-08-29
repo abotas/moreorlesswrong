@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a reasonably useful, operational question for the EA/rationalist community: better, quick systems for collaborative truth-seeking could materially improve decision quality, reduce time wasted on adversarial debates, and improve organizational culture across many EA orgs and projects. It\u2019s not foundational to core EA or longtermist claims, so its absence wouldn\u2019t break major arguments, but it would meaningfully affect how well groups make and update decisions (moderate importance). For general humanity the idea is only mildly important: many teams and organizations could benefit from better group-decision methods, but the topic is narrow and primarily operational rather than addressing large-scale societal or existential risks (minor importance)."
+  },
+  "PostRobustness": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing key constraints and success criteria \u2014 make the request actionable. You don\u2019t say how many people, how often, what \u201csuccess\u201d looks like (consensus, improved belief calibration, a decision, or just reduced rancor), or whether the output must be binding. Different methods work for a 4\u2011person task force versus a 40\u2011person org meeting. Action: add 1\u20132 concrete scenarios (e.g. \u201cone-hour remote session for 6\u201310 participants to either (a) converge on one tactical decision, or (b) surface and prioritize the real cruxes of disagreement\u201d) so responders can give tailored suggestions.  \n  \n2) Vague claims about research and debates weaken credibility. You say debates tend to entrench people and vaguely recall research \u2014 that\u2019s fine as intuition, but it\u2019s easy for readers to dismiss the post as under-researched. Action: either (a) remove the handwave about research, or (b) cite one or two sources or concrete examples. Also briefly list any methods you\u2019ve already tried (e.g., structured debate, moderated Q&A, anonymous comments) and why they didn\u2019t meet your constraints \u2014 this prevents repeat suggestions and invites more targeted alternatives.  \n  \n3) Overlooks or under-engages with prior-art and scalable adaptations (own-goal: framing double-crux as only one-on-one). There are many group deliberation and facilitation techniques that might fit (Delphi, nominal group technique, structured deliberation, red\u2011team/blue\u2011team, breakout pairwise double\u2011crux, mapping cruxes collectively). Action: clarify what you\u2019ve ruled out and why, and ask explicitly for suggestions that scale (e.g., \u201cmethods that scale to N=6\u201320, keep sessions \u22481 hour, and produce either a prioritized list of cruxes or a binary decision\u201d). Including this will reduce generic replies and surface practical, immediately applicable systems.",
+    "improvement_potential": "Strong, actionable feedback that highlights major omissions (missing constraints/success criteria, weak sourcing, and failure to engage existing scalable methods). Addressing these points would substantially improve the post\u2019s clarity and signal-to-noise without adding much length. Not a 10 because the post\u2019s core request isn't wrong\u2014just under-specified\u2014so fixes are important but not catastrophic."
+  },
+  "PostAuthorAura": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record (up to 2024-06) of a notable EA/rationalist author or public intellectual using the handle 'EffectiveAdvocate\ud83d\udd38'. It appears to be a pseudonymous username or minor forum account with little or no visible impact; provide links if you want a targeted reassessment."
+  },
+  "PostClarity": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured (TL;DR, background, explicit requirements) and communicates the problem, constraints (one-hour, remote, group), and candidate ideas clearly and concisely. Minor weaknesses: it could clarify ambiguous terms (what exactly is meant by a \u201csystem\u201d vs. a facilitation protocol), indicate typical group size and stakes, and give examples of past attempts or failure modes to make the request more targeted."
+  },
+  "PostNovelty": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For the EA Forum audience this is fairly familiar territory\u2014double-crux, structured facilitation, deliberative methods, and proposals to replace adversarial debate with truth-seeking are well-known, so the post\u2019s request is only mildly novel (notably the emphasis on a one-hour, remote, group-scalable protocol). For the general public it\u2019s moderately novel: while mediation, facilitation, and collaborative problem\u2011solving are common, the specific combination\u2014a quick, systematic, truth\u2011seeking session designed to scale double-crux\u2011like techniques to groups and remote work\u2014is less likely to have been widely considered."
+  },
+  "PostInferentialSupport": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post has a clear problem statement, sensible constraints, and coherent desiderata (collaborative, group-scalable, quick). The author shows awareness of existing approaches (debates, double-crux) and their limitations, and asks a well-scoped question. Weaknesses: Claims are supported mainly by anecdote and vague memory of 'research' with no citations. There is little engagement with relevant literature or existing facilitation frameworks (e.g., deliberative methods, dialogue mapping, structured decision protocols), no empirical examples or pilot data, and no concrete success metrics. Overall, the proposal is well-motivated and logically framed but poorly evidenced."
+  },
+  "PostExternalValidation": {
+    "post_id": "DqvQRYaTMJ9ndzuvF",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's empirical claims are reasonably supported by peer\u2011reviewed or reputable sources. Evidence from field experiments and reviews shows that adversarial/competitive debating and exposure to opposing views can produce self\u2011persuasion or increased polarization (i.e., debates sometimes entrench rather than resolve disagreement). Double\u2011crux is a documented technique developed/used by CFAR/LessWrong and is primarily framed for dyadic use (though group/trio variants exist). The claim about Will MacAskill proposing \u201canti\u2011debates\u201d (truth\u2011seeking alternatives to competitive debate) is supported by secondary reporting and EA Forum discussion but I could not find a single clear primary source (e.g., a standalone MacAskill post) easily \u2014 so that part is plausible but only partially verified. The poster's anecdote about remote online debates harming culture is plausible but anecdotal and not empirically established by the post itself. Overall: well\u2011supported for the main empirical points, with a few specifics (MacAskill primary source, generalization to all debates/contexts) only partially verifiable.",
+    "sources": [
+      "Schwardmann, P.; Tripodi, E.; van der Weele, J.J., \"Self\u2011Persuasion: Evidence from Field Experiments at Two International Debating Competitions\" (CESifo working paper / preprint; data & press coverage 2019\u20132022) \u2014 shows competitive debates induce self\u2011persuasion and do not lead to convergence. (CESifo working paper + press: Phys.org / EurekAlert).",
+      "Bail, C. A., et al., \"Exposure to opposing views on social media can increase political polarization,\" Proceedings of the National Academy of Sciences (PNAS), 2018 \u2014 shows exposure to opposing views on social platforms can increase polarization.",
+      "M\u00e4kinen, J.; et al., \"Deliberation and polarization: a multi\u2011disciplinary review,\" Frontiers in Political Science (2023) \u2014 literature review showing deliberation sometimes reduces and sometimes increases polarization; presence of facilitation and sample composition matter.",
+      "CFAR (Center for Applied Rationality) Handbook and workshop materials / CFAR website \u2014 describes Double Crux as a core technique, with instructions and framing primarily for one\u2011on\u2011one use (with internal/trio variants noted).",
+      "LessWrong post \"Double Crux \u2014 A Strategy for Resolving Disagreement\" (original explanatory post on LessWrong / GreaterWrong) \u2014 primary community account of the Double Crux method and notes on variants.",
+      "\"What Our Politics Needs Now: Anti\u2011Debates\" (Emerge) and EA Forum posts referencing MacAskill's proposal \u2014 secondary sources describing Will MacAskill\u2019s suggestion of \"anti\u2011debates\" (truth\u2011seeking alternatives) though a single clear original MacAskill post was not located in this search."
+    ]
+  }
+}

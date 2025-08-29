@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a well-written, practical personal account about anxiety, prioritization, and sustainable working practices that will be useful and relatable to many in EA. It can help reduce burnout, normalize mental-health conversations, and modestly influence culture and individual behavior in the community \u2014 important but not foundational to EA\u2019s core claims or strategies. For humanity at large it offers sensible, common-place self-care and prioritization advice that can help some people but isn\u2019t novel or high-impact at population scale."
+  },
+  "PostRobustness": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overfocus on individual fixes, under-addressing organizational/systemic causes \u2014 The post mainly gives individual-level coping tactics (prioritization, social activities, precommitments) but glosses over what organizations and managers should change to reduce the load that produces the Trap. Readers who are burning out because of structural issues (chronic understaffing, unrealistic KPIs, hostile culture) will find these suggestions insufficient and may feel blamed. Actionable fix: add a short section acknowledging structural causes and concrete examples of org-level interventions (e.g., explicit role/goal redesign, headcount or contractor options, mandatory time-off policies, manager triage practices, escalation routes for unsustainable workloads). Provide one or two brief templates (e.g., sample wording for a manager conversation or a policy ask) so readers can act beyond self-help.\n\n2) Unclear triage: when to experiment vs when to seek professional help \u2014 You suggest experimentation for anxious-but-functioning people and a total stop for depressed-and-dysfunctional readers, but you don\u2019t give clear, actionable signs for distinguishing these states or what to do next. That risks people delaying clinically necessary care or trying to \u2018\u2018fix\u2019\u2019 severe problems with scheduling hacks. Actionable fix: add a short, specific triage checklist (e.g., changes in sleep/appetite, suicidal thoughts, inability to perform basic tasks for X weeks, severe panic attacks) and explicit next steps (contact therapist/GP, crisis hotline, taking medical leave). Link to authoritative resources and say plainly: if X signs are present, stop experimenting and get professional help.\n\n3) Vague operational guidance for prioritization and stopping rules \u2014 The argument that \u2018\u2018make the list finite\u2019\u2019 and \u2018\u2018precommit to stopping\u2019\u2019 is good, but currently anecdotal. Readers will benefit from concrete, transferable tools: how to set capacity budgets, how to draw the prioritization line, what stopping rules look like in practice, and how to communicate tradeoffs to stakeholders. Actionable fix: add 2\u20133 concrete frameworks or templates (for example: a capacity budget spreadsheet with hours per week per priority; a simple rule like \u201cno more than 2 high-priority projects per quarter\u201d; sample calendar-based precommitment language; short scripts for saying no to requests). Keep these succinct \u2014 one-paragraph examples each \u2014 so they improve practical value without bloating the post.",
+    "improvement_potential": "This feedback targets real blind spots and potential harms in the post: (1) the risk of implying burnout is an individual failing when many drivers are organizational, (2) insufficient guidance to distinguish anxiety that can be self-managed from clinical depression/crisis, and (3) lack of compact, transferrable tools for prioritization and stopping rules. Addressing these would materially improve usefulness and safety without needing to turn the piece into a long how\u2011to manual\u2014short added sections and one\u2011paragraph templates would suffice. It isn\u2019t a fatal flaw in the original essay, so it\u2019s not a 10, but these are high\u2011value, actionable fixes the author should take seriously."
+  },
+  "PostAuthorAura": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "Pseudanon appears to be a pseudonymous/forum handle with little visible footprint in mainstream EA/rationalist outlets. Not a known author, speaker, or organizer in EA circles and has no notable public presence or citations as of 2024."
+  },
+  "PostClarity": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well structured: the TLDR, headings (Trap / Limits / Acceptance / Community), concrete recommendations (prioritise, recognise/ respect limits, practise 'Grace and Space') and personal narrative make the main argument easy to follow and persuasive. Weaknesses are length and some distracting asides/footnotes (e.g. long tangents like the basketball history, multiple embedded links) that slightly reduce conciseness and could interrupt flow for some readers. Tightening or moving some footnotes into a single resources section would improve concision without harming clarity."
+  },
+  "PostNovelty": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the post is a synthesis of well\u2011known ideas (prioritization, boundary setting, self\u2011compassion, scheduling non\u2011work activities, seeking social support) and cites mainstream sources (80k, Sapolsky, Scarcity, Julia Wise). For EA readers the framing and prescriptions are familiar \u2014 the only mildly fresh elements are the specific EA\u2011tailored framing (the \u2018infinite list\u2019/moral\u2011stakes angle) and the author\u2019s personal mantra/tactics. For general readers it\u2019s slightly more novel but still largely conventional self\u2011help/productivity/mental\u2011health advice dressed in EA examples and anecdotes."
+  },
+  "PostInferentialSupport": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically organized, acknowledges caveats, and gives a coherent, plausible framework (impossible goals + intolerance of unmet goals \u2192 anxiety; use prioritization, limits, acceptance, community to reduce harm). The author explicitly frames the piece as personal experience, recommends experimentation, and links to relevant literature. Weaknesses: Conclusions rest largely on a single author\u2019s anecdote and intuitive arguments rather than systematic evidence; causal claims (e.g. which specific changes reduced anxiety) are not tested or disentangled. References are relevant background reading but not presented as empirical support for the specific prescriptions. Overall, the argument is persuasive as reflective advice but weak as an evidence-backed claim about what reliably reduces anxiety for others."
+  },
+  "PostExternalValidation": {
+    "post_id": "MvSixF2yBfhBRN6g2",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post is personal reflection and advice, not empirical argument; where it makes factual or referential claims those are largely accurate and verifiable. The author\u2019s cited resources and episodes (Randy Nesse 80,000 Hours episode; the Howie episode; Sapolsky lecture; Scarcity book; Julia Wise EA post; Draft Amnesty Week) exist and match the descriptions. Population-level statements about high rates of anxiety/depression in young people are consistent with public data (e.g. recent U.S. adolescent reports showing ~20% with a current diagnosed condition). Weak points: (a) causal claim that the author\u2019s anxiety was \u201ccaused primarily by work-related stress\u201d is a personal clinical/causal judgement and not externally verifiable; (b) claims about an \u201cexistential crisis\u201d at CEA shortly after the author arrived are vague and not possible to confirm without dates/identity; (c) many normative statements are subjective (advice) rather than empirical. Overall: verifiable references and prevalence claims check out, no major factual errors found \u2014 hence \u201cwell-supported.\u201d",
+    "sources": [
+      "80,000 Hours podcast \u2014 Randy Nesse: 'Why evolution left us so vulnerable to depression and anxiety' (80000hours.org/podcast/episodes/randy-nesse-evolutionary-medicine-psychiatry/). (Episode transcript and summary examined.)",
+      "80,000 Hours podcast \u2014 'Having a successful career with depression, anxiety, and imposter syndrome' (Howie episode). (Episode page and transcript).",
+      "80,000 Hours resources \u2014 'Handling mental illness in your career' (80,000 Hours resources page referenced in the post).",
+      "Robert M. Sapolsky \u2014 'The Biology and Psychology of Depression' (Stanford lecture / YouTube transcript and summaries).",
+      "National Center for Health Statistics / HRSA \u2014 'Adolescent Mental and Behavioral Health, 2023' (data brief: ~20% of U.S. adolescents with a current diagnosed mental/behavioral condition; used to check prevalence claim).",
+      "Frontiers in Psychiatry (2024) \u2014 'Rising global burden of anxiety disorders among adolescents and young adults: trends, risk factors, and the impact of socioeconomic disparities and COVID-19 (1990\u20132021)' (epidemiological trends supporting rising prevalence).",
+      "EA Forum \u2014 'You have more than one goal, and that's fine' (Julia Wise) \u2014 post cited by the author; verified on EA Forum / author site.",
+      "EA Forum \u2014 'Announcing: Draft Amnesty Week (Feb 24 - March 2)' (EA Forum announcement) \u2014 verifies event and dates the author referenced.",
+      "EA Forum \u2014 'We are in triage every second of every day' (Holly Elmore) \u2014 verified post referenced by the author.",
+      "Phoenix Suns / 'Seven Seconds or Less' coverage (historical summaries / sports reporting) \u2014 verifies the basketball footnote about the Suns' 'Seven Seconds or Less' era under Mike D'Antoni and Steve Nash."
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "PostValue": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "value_ea": 6,
+    "value_humanity": 7,
+    "explanation": "This is a practically important, action-oriented question about translating African research into scalable local solutions. For the EA community it is moderately important: it can inform funding/prioritization in global health, capacity-building, and development causes, but it is not foundational to core longtermist/AI-safety claims. For general humanity it is fairly important: overcoming these barriers could materially improve health, livelihoods, and innovation across a large population, so progress here has substantial near- to medium-term benefits. The post itself is a prompt rather than a novel theory, so its influence depends on follow-up research, implementation, and funding decisions."
+  },
+  "PostRobustness": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Too high\u2011level / unclear ask and audience \u2014 Your post states a problem but doesn\u2019t say what you want from readers. Actionable fix: narrow the scope (pick a region, country, or sector like diagnostics or maternal health) and state a specific request (e.g., examples of funding models, offers to pilot a fellowship, introductions to tech\u2011transfer offices). This makes replies usable and reduces vague brainstorming.\n\n2) Important structural barriers are missing or underemphasised \u2014 You list funding, infrastructure, regulation and connections but omit researcher incentives, procurement/manufacturing ecosystems, IP/tech\u2011transfer capacity, and political/market barriers that often block translation. Actionable fix: add a short paragraph acknowledging these system\u2011level constraints and ask for targeted input on them (e.g., how to change academic promotion criteria, build local manufacturing, or reform procurement to adopt local innovations).\n\n3) No evidence or concrete examples \u2014 The post would be much stronger with 2\u20133 short, referenced case studies (successes and failures) to ground recommendations. Actionable fix: cite well\u2011documented African examples (or ask readers to suggest them) and request evidence on what worked (metrics, timelines, funding models). This both avoids obvious counterarguments and gives respondents a concrete basis for recommendations.",
+    "improvement_potential": "The feedback identifies key weaknesses: the post is vague about audience and ask, misses important system\u2011level barriers (incentives, procurement, IP/tech\u2011transfer), and lacks concrete examples/evidence. Each point is actionable and would materially improve the post without requiring excessive lengthening. It\u2019s not a 10 because the original post is a reasonable high\u2011level prompt rather than a factual claim that is clearly wrong, but these fixes are critical to make responses useful and targeted."
+  },
+  "PostAuthorAura": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No known presence of 'emmannaemeka' in EA/rationalist publications, forums, or major public media up to my 2024-06 knowledge cutoff. Likely a private or pseudonymous online user; provide links for reassessment."
+  },
+  "PostClarity": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, concise, and easy to understand: it states the problem, lists concrete barriers, and asks three clear, actionable questions. Strengths include a focused title, a short set of bullet points outlining obstacles, and direct prompts for responses. Minor weaknesses: it could be slightly more specific about the scope (which research fields, countries, or stakeholder types), provide one or two illustrative examples or definitions (e.g., what the author means by 'translational science' in this context), and signal what kinds of answers would be most useful (policy, funding models, case studies, contacts)."
+  },
+  "PostNovelty": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "The post raises a well-trodden problem (research-to-implementation gaps, funding, infrastructure, regulatory hurdles, and industry/government linkages) that EA readers and development researchers have frequently discussed, so it\u2019s not novel for that audience. For the general public it\u2019s somewhat less familiar but still a common development-sector theme; the only mildly novel aspect is the explicit focus on translational science capacity-building framed as a community call-to-action rather than a policy brief."
+  },
+  "PostInferentialSupport": {
+    "post_id": "NCKoRWbWpuXYYaDrY",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a clear, coherent problem statement and plausible, commonly cited barriers (funding, infrastructure, policy, networks). It frames actionable questions and invites community input, which is appropriate for a forum post. Weaknesses: The argument is largely anecdotal and descriptive rather than analytic \u2014 it lacks empirical data, citations, or concrete examples to substantiate the claims or to show the scale and relative importance of the listed barriers. There is little discussion of prior interventions, mechanisms linking barriers to outcomes, or trade-offs between potential solutions. To be better supported it would need referenced evidence (case studies, metrics), examples of successful translational efforts in Africa, and a clearer theory of change or prioritized interventions."
+  }
+}

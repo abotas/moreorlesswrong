@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "For the EA/rationalist community (especially animal advocacy and longtermist actors) this is relatively important: it connects two high\u2011leverage domains (AI timelines and animal welfare) and could meaningfully change organisational strategy, hiring, fundraising, and cause prioritisation if the core claims (near\u2011term TAI) are correct. The recommendations are practical and load\u2011bearing for animal advocates deciding how to allocate effort under short AI timelines. For general humanity the post is much less impactful \u2014 it\u2019s a niche strategic note for a specific advocacy community. While the underlying facts about TAI would be hugely important for everyone, this particular post mainly influences a subset of advocates and so is of modest public significance."
+  },
+  "PostAuthorAura": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Jamie Harris is a common name and I have no clear evidence that a person by this name is a known figure in the EA/rationalist community or globally. Could be a pseudonym or a private/obscure author. Provide a link or more context (works, affiliation) if you want a more precise assessment."
+  },
+  "PostClarity": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear and well-structured: it states a concise thesis, uses headings and numbered sections, provides concrete options for action, and cites evidence. Strengths include logical flow, helpful examples, and actionable recommendations. Weaknesses: it is long and occasionally repetitive, leans on jargon/assumptions (e.g. TAI timelines) that could use brief definitions for non-expert readers, and the many footnotes and links sometimes interrupt the narrative flow. Appropriate for an EA/forum audience but could be tightened for broader readability."
+  },
+  "PostNovelty": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "novelty_ea": 3,
+    "novelty_humanity": 8,
+    "explanation": "For EA Forum readers this is mostly a re-framing and synthesis of ideas already circulating in longtermist/animal\u2011advocacy discussions (short AGI timelines, cultivated meat, AI welfare, shifting priorities) \u2014 modestly novel in its specific tactical checklist but not groundbreaking. For the general public these connections are quite new: linking near\u2011term transformative AI to concrete animal\u2011advocacy strategy shifts (and to AI welfare/all\u2011inclusive safety) is an uncommon, surprising perspective that most educated non\u2011EA readers are unlikely to have considered."
+  },
+  "PostInferentialSupport": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured, acknowledges uncertainty and caveats, cites relevant sources (expert polls, scaling trends, example projects) and lays out multiple, internally consistent response options for advocates. It reasons plausibly from accelerating AI capability to material strategic implications for animal advocacy and notes trade-offs and risks. Weaknesses: Key claims rely on trend extrapolation and expert opinion rather than robust causal evidence; some empirical claims (e.g. timelines, specific capability thresholds) are stated with limited quantification and may be cherry-picked. The links between TAI scenarios and concrete animal outcomes are often speculative and not systematically modeled, and the proposed strategic pivots lack cost-effectiveness or prioritization analysis. Overall the post makes a reasonable cautionary case but is not yet decisive or highly rigorous."
+  },
+  "PostExternalValidation": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s core empirical claims about rapid recent capability gains, faster/cheaper coding and scientific-reasoning performance, and shifting expert timelines are well supported by public benchmarks, research, and expert statements. Specifically: (a) analyses of training compute show a rapid scaling trend (Our World in Data); (b) public benchmarks (GPQA on vals.ai) show state-of-the-art models attaining strong performance on graduate\u2011level question sets; (c) SWE\u2011bench and related evaluations document large advances in multi\u2011step/code-completion tasks; and (d) a recent paper (METR/Measuring AI Ability to Complete Long Tasks) finds frontier models reach ~50\u2011minute 50%-task\u2011completion horizons and extrapolates faster long\u2011horizon capabilities. Expert opinion surveys and public statements from leading lab CEOs (summary by 80,000 Hours; statements by Sam Altman and Demis Hassabis) also report non\u2011negligible probabilities of transformative systems within this decade. That combination supports the post\u2019s central empirical point that transformative AI within a few years is a realistic possibility. Weaknesses/uncertainties: timeline estimates remain highly uncertain and sensitive to definitions (what counts as \u201ctransformative\u201d or \u201cAGI\u201d); claims about sentience, extinction, or the exact direction of impacts on factory farming/wild animals are necessarily speculative and not empirically established (they are plausible scenarios, not near\u2011term certainties). Overall: the empirical trend claims are well\u2011supported, but downstream impact projections are plausible but uncertain and should be treated as contingent scenarios rather than established facts.",
+    "sources": [
+      "Our World in Data \u2014 Since 2010, the training computation of notable AI systems has doubled every six months (Jan 21, 2025).",
+      "vals.ai \u2014 GPQA benchmark pages (examples: 2025-03-11, 2025-05-05, 2025-07-22 leaderboards showing high accuracy on graduate-level questions).",
+      "OpenAI \u2014 Introducing SWE\u2011bench Verified (Aug 13, 2024) and SWE\u2011bench leaderboards / commentary showing rapid progress on multi\u2011step coding tasks.",
+      "arXiv: 'Measuring AI Ability to Complete Long Tasks' (Mar 18, 2025) \u2014 reports ~50 minute 50%-task\u2011completion horizon and trend doubling in multi\u2011step task horizon.",
+      "80,000 Hours \u2014 'Shrinking AGI timelines: a review of expert forecasts' / 'When do experts expect AGI to arrive?' (Mar 2025) \u2014 summary of expert groups and their timeline estimates.",
+      "Sam Altman \u2014 'Reflections' (blog.samaltman.com/reflections) \u2014 public comments by OpenAI CEO about approaching AGI and 2025/agents framing.",
+      "CNBC / reporting of Demis Hassabis (Google DeepMind CEO) \u2014 interview: 'Human\u2011level AI will be here in 5 to 10 years' (Mar 17, 2025).",
+      "Additional SWE\u2011bench / software engineering agent literature (SWE\u2011rebench / SWE\u2011smith papers and public leaderboards summarised in 2024\u20132025 commentary)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "TY2f2Ts2EdsDAP35y",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstates confidence in \u201cTAI soon\u201d without robust scenario/probability framing. Action: add a short, explicit scenario analysis (e.g. 3\u20135 scenarios with rough probabilities or bands) showing how your recommended actions change across timelines. Cite main model-uncertainty/constraints (diminishing returns, compute bottlenecks, regulation) and say which claims are robust across most scenarios versus which depend on fast timelines. This prevents the post being dismissed as timeline dogma and makes recommendations actionable for readers who disagree on timing.\n\n2) Skips a clear account of comparative advantage and opportunity cost for animal advocates. Action: explicitly evaluate (briefly) which types of animal-advocate actors are plausibly well-placed to influence AI outcomes (e.g. policy/lobbying groups vs. individual campaigners vs. orgs with technical capacity) and give concrete, low-effort pilots for each class (e.g. 3\u20136 month tests: donate a staff-week to AI-policy coalition; run an AE/animal-evaluations prompt for models; small donor outreach to AI-aligned funders). This will turn vague calls to \u201cshift\u201d into practical decision rules organisations can use.\n\n3) Underplays important countervailing risks and backfire vectors when interacting with AI-development (capability vs. values tradeoffs). Action: add a short risk section listing the main ways interventions could backfire (e.g. accelerating capabilities, reputational backlash, regulatory capture, misaligned incentives) and for each recommend mitigations or low-regret alternatives (e.g. focus on governance/policy, public goods model-evals, non-capability-enhancing advocacy). That will make the post less of an own-goal and more useful as a safe roadmap.",
+    "improvement_potential": "The three points identify substantive, actionable blind spots rather than nitpicks. The post does gesture at uncertainty, comparative advantage, and backfire risks, but it lacks concise, explicit treatments that readers need to judge and act on. Adding a short scenario/probability framing, a brief mapping of comparative advantages with concrete low-effort pilots, and a compact risk/mitigation checklist would materially increase credibility and usefulness without greatly lengthening the post. These changes fix important persuasion and practical-implementation weaknesses that could otherwise lead to reader pushback or misguided actions."
+  }
+}

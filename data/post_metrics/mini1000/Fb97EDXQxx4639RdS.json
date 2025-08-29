@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a useful, practical project proposal with moderately high upside for communities that depend on discoverability and collaboration (including some EA networks). If built and widely adopted it could reduce duplication, increase cross\u2011movement coordination, and help people find relevant local events and opportunities. However, it is not foundational to EA or global decision\u2011making: many technical pieces already exist, adoption and curation/incentive problems are the main barriers, and it would not by itself change major long\u2011term priorities (e.g., AI safety, global health). For general humanity the benefit is smaller \u2014 it could improve civic engagement and grassroots coordination in places where uptake is strong, but it\u2019s unlikely to be transformative at scale without substantial sustained network effects and funding."
+  },
+  "PostRobustness": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Overconfidence in \u201cLLMs will solve newsletter -> structured events\u201d and insufficient attention to data quality, duplication, legality, and upkeep. Why it matters: newsletters are messy, paywalled or private, multilingual, and often contain ambiguous or promotional text that LLMs will misparse; republishing newsletter content or scraping websites raises copyright and privacy/GDPR issues. Fixes: run a small extraction benchmark (e.g., 100 newsletters) to measure precision/recall before committing; prefer ingesting structured sources first (iCal, RSS, schema.org/Event, Eventbrite/Meetup APIs) and fall back to LLMs with human-in-the-loop verification; require opt-in ingestion for newsletters (confirm with the sender) and build clear DMCA/opt-out and data-deletion processes; get basic legal review for scraping/republishing and plan for multilingual NLP costs and continuous model/label-maintenance. \n\n2) No clear, very small MVP and success metrics \u2014 risks building a big system with low value. Why it matters: without a tight scope you\u2019ll burn volunteer time and never prove demand. Fixes: pick one city or topic (e.g., Berlin social entrepreneurship), onboard 5\u201310 partner orgs who agree to provide event feeds or paste events into a simple form, and build a minimal UI that surfaces events and records clicks/RSVPs. Use that pilot to track concrete metrics (events ingested, extraction accuracy, user signups, click-to-attend rate) and iterate. Explicitly list the minimal tech stack (RSS/ICal + small extraction LLM + manual verification dashboard) so contributors know the immediate work. \n\n3) Insufficient attention to incentives, governance, and moderation. Why it matters: aggregated feeds will be noisy, gamable, and require curation; projects won\u2019t hand over newsletters unless they see benefit or control. Fixes: design an onboarding flow that gives orgs control (preview how their events appear, opt-in/opt-out, attribution), create simple moderation/quality rules and an appeals process, and define a lightweight governance/maintenance model (who runs servers, who reviews data, how funding sustains ops). Make partnership templates and a contributor role spec (curator, developer, LLM-tagger) so people can take concrete ownership rather than treating it as \u2018your\u2019 project.",
+    "improvement_potential": "The feedback catches multiple major, practical blindspots the author hasn\u2019t addressed (data quality/duplication/legal risk, lack of a tiny measurable MVP, and incentives/governance/moderation). These are the kinds of \u2018own goals\u2019 that would derail implementation or embarrass the project lead if overlooked. The suggestions are actionable (benchmark extraction, prefer structured sources, pilot a city/topic, partner orgs, opt-in/legal processes, curator roles) and concise, so implementing them would substantially strengthen the post and the project plan. (Minor gap: could mention federated standards/ActivityPub and basic anti-spam/security considerations.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record of a notable author named Julian Nalenz in my training data up to 2024-06 \u2014 no obvious presence in EA/rationalist forums (LessWrong, EA Forum), academic databases, or mainstream media. The name may be a pseudonym, very new, or extremely niche; if you can share links or context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "clarity_score": 7,
+    "explanation": "The post communicates a clear, compelling high-level idea (an aggregator that extracts events from newsletters/websites using LLMs) and includes useful context, examples, links, and a concrete ask (help, collaborators, contact). Strengths: readable narrative, explicit problem (discoverability), proposed MVP (newsletter -> structured events), open-source intent and audience call-to-action. Weaknesses: a bit repetitive and long-winded in places, uses unexplained jargon (e.g. HRT, \u201cmeta movement\u201d), and is light on concrete next steps, success metrics, and technical/organizational priorities\u2014making it less immediately actionable for potential collaborators."
+  },
+  "PostNovelty": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "novelty_ea": 4,
+    "novelty_humanity": 3,
+    "explanation": "The high-level problem (discoverability, duplicated projects) and the solution class (aggregator/meta\u2011platform for events/organizations) are already well-known among EAs and the wider public. What adds some originality is the concrete combination: crowdsourced newsletter signups + LLM-based extraction of structured event data, semantic/natural\u2011language matching for personalized feeds, and an explicitly open\u2011source/federated \u2018meta\u2011movement\u2019 framing focused on holistic regenerative transformation. Those are incremental and timely refinements rather than fundamentally new concepts, so it\u2019s moderately novel for an EA audience and only slightly novel to the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post presents a clear, plausible problem (discoverability/duplication) and a straightforward technical approach (aggregate newsletters + LLMs to extract structured events). The argument is logically organized and the plan to start small (events) is sensible. However it omits many important considerations: no empirical evidence that discoverability is the binding constraint, no user-research or demand validation, no pilot or accuracy estimates for LLM extraction (especially multilingual and messy inputs), and little discussion of legal, privacy, moderation, incentive, or scaling challenges. The single supporting citation is a tooling repo (Firecrawl), not empirical validation. Overall the idea is reasonable and likely feasible in principle, but currently under-supported by evidence and missing key risk and implementation analyses."
+  },
+  "PostExternalValidation": {
+    "post_id": "Fb97EDXQxx4639RdS",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Mostly plausible but somewhat optimistic. Strengths: the core diagnosis (discoverability/problem fragmentation) is supported by evidence of rapid newsletter growth and information overload, and concrete tooling already exists to crawl, parse and semantically match content (examples: Firecrawl for website-to-LLM-ready data, commercial and AI email-parsers, and mature vector/semantic-search stacks). Open-source event platforms and self\u2011hostable vector databases exist, so an open-source, self\u2011hosted proof\u2011of\u2011concept is realistic. Weaknesses / overclaims: the post understates practical limitations \u2014 LLMs can perform event/information extraction but are not uniformly robust (research shows performance gaps vs task-specific models and sensitivity to prompts, and event extraction remains an active research area), and operational costs (LLM inference, scaling, maintenance) and legal/privacy concerns (aggregating newsletter content) can be nontrivial. Claims that \u201cserver costs should be minor\u201d or that \u201cfunding should not be an issue\u201d are speculative and context-dependent. Overall: the high-level feasibility claim is well supported; implementation details and reliability at scale are more uncertain and require careful engineering and evaluation.",
+    "sources": [
+      "Firecrawl GitHub repository (mendableai/firecrawl) \u2014 shows website crawling + LLM extraction features. (GitHub)",
+      "Xu et al., 'Large Language Models for Generative Information Extraction: A Survey' (Frontiers / arXiv, 2023\u20132024) \u2014 summarizes LLM capabilities and limitations for information extraction.",
+      "Gao et al., 'Exploring the Feasibility of ChatGPT for Event Extraction' (arXiv 2023) \u2014 empirical finding that ChatGPT/LLMs can struggle with complex event extraction and are sensitive to prompts.",
+      "Mailparser / Parseur (commercial email-parsing services) \u2014 examples of existing tools that extract structured data from emails/newsletters.",
+      "Pinecone documentation and pricing / semantic-search guides \u2014 demonstrates mature vector/semantic search tooling and free/small-tier options for prototypes.",
+      "FOSSASIA Open Event (open-event-server) \u2014 example open-source event-management platform (self-hostable) showing that event infrastructure exists in open source."
+    ]
+  }
+}

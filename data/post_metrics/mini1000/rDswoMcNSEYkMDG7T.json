@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical, community-oriented post seeking advice about building an independent educational tool. It's useful to EA/rationalist members who run small projects or care about improving informal education and measurement, and could lead to modest improvements in outreach or pedagogy. However it isn't making foundational claims or changing high\u2011stakes strategy, so its broader impact is limited. For general humanity the post is peripheral \u2014 the underlying idea (teaching cognitive biases) can be valuable, but the specific request for feedback on a small project has low global significance."
+  },
+  "PostRobustness": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No clear, testable theory of change or measurement plan. The post never says how the site is supposed to produce long\u2011term impact (awareness \u2192 changed reasoning \u2192 better decisions \u2192 social value) or how you\u2019ll test whether that chain holds. Actionable fix: add a one\u2011paragraph theory of change and 2\u20134 concrete, prioritized success metrics (e.g., pre/post bias score, short\u2011term behavior proxies, retention, users reached in target population). Say whether you plan A/B tests, pre/post quizzes, or an RCT and what minimum effect size would matter.\n\n2) Unclear target audience and comparative advantage. Right now the project reads as broadly for \u201cpeople\u201d \u2014 that makes it hard to judge effectiveness or scaling. Actionable fix: specify the primary user (students? policy teams? EA orgs? managers?), the unmet need you uniquely satisfy, and concrete channels to reach them. If you don\u2019t have a unique channel, consider partnering with institutions (courses, companies, EA orgs) or focus on a narrow niche where independent work has clear leverage.\n\n3) Vague ask + insufficient context for helpful feedback. The four open questions are fine for conversation, but they don\u2019t let readers give targeted, actionable advice. Actionable fix: include current traction (monthly users, retention, demographics), biggest constraints (time, money, outreach), and 2\u20133 specific asks (e.g., \u201cplease comment on my proposed pre/post quiz,\u201d \u201chelp recruit 50 participants for a pilot study,\u201d or \u201cfeedback on partnership pitch\u201d). This will produce far more useful responses and avoids wasting readers\u2019 time.",
+    "improvement_potential": "The feedback pinpoints three central, high\u2011impact weaknesses: no testable theory of change/metrics, an unclear target audience and comparative advantage, and a vague ask/lack of traction/context. These are the sorts of 'own goals' that make it hard for readers to give useful advice and are relatively cheap to fix (a short TOC, 2\u20134 metrics, target user and constraints). It\u2019s actionable and concise. It misses minor things (e.g., calling out existing site claims/evidence or suggesting specific partnership types/examples), but overall addresses the key mistakes the author should fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "No recognizable figure named Vladimir Loginov in EA/rationalist circles \u2014 not a known speaker, organizer, or frequent contributor. The name is common (there are multiple professionals/academics with that name), but none are widely prominent or public intellectuals; likely a minor or private online presence or a pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand, well-structured, and makes concrete asks (links to the project and three clear questions). It gives useful context without unnecessary detail. Weaknesses: it could be more specific about target users, desired kinds of feedback, success metrics or timeline \u2014 those details would make the argument about effectiveness and the call to action more compelling."
+  },
+  "PostNovelty": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This post is mostly routine for the EA Forum \u2014 people frequently share small independent projects, ask for feedback, and debate impact measurement and EA relevance. The specific project (interactive simulations/roleplays for cognitive biases) is mildly distinctive in format, but the core ideas (teaching biases, soliciting early feedback, worrying about effectiveness) are common. To a general audience it's slightly more novel because interactive bias-training is less ubiquitous than the general concept of educational side-projects, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: the post presents a coherent, honest account of the author\u2019s experience and raises relevant questions about feasibility, feedback, and impact. It correctly highlights common trade-offs (rewarding but hard, uncertain impact) and invites constructive input. Weaknesses: the argument is largely anecdotal and exploratory rather than analytical \u2014 there is no empirical evidence (usage metrics, learning outcomes, comparisons to alternatives), no engagement with existing literature or counterarguments, and no cost/benefit or scalability analysis. As a result the claims are plausible but weakly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "rDswoMcNSEYkMDG7T",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are verifiable and accurate: the EA Forum question exists and the Cognitive Bias Lab website (run by Vladimir Loginov) is live and contains the interactive simulations, role\u2011plays/AI coaching, practice games, and states the project is free and CC BY\u2011NC licensed. The author identity and background are corroborated on the site's About page and his personal portfolio. Weaknesses: a few statements are subjective or self\u2011reported (e.g., \u201cbuilt in spare hours,\u201d \u201cindependent\u201d in the sense of funding/organizational structure), and metrics like \u201clearners from 60+ countries\u201d appear self\u2011reported on the site without public audit. \u201cFree and open\u201d is supported for content (CC BY\u2011NC) but there is no clear evidence the site\u2019s codebase is open\u2011source. Overall the core empirical claims are well supported by primary sources, with a few unverifiable personal or internal metrics.",
+    "sources": [
+      "EA Forum \u2014 'Are independent educational projects the way to go?' by Vladimir Loginov (EffectiveAltruism.org). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/rDswoMcNSEYkMDG7T/are-independent-educational-projects-the-way-to-go?utm_source=openai))",
+      "Cognitive Bias Lab \u2014 Home page (cognitivebiaslab.com) \u2014 shows features, '100% free', 'Licensed under CC BY\u2011NC', 'Join learners from 60+ countries', counts of biases/categories. ([cognitivebiaslab.com](https://www.cognitivebiaslab.com/?utm_source=openai))",
+      "Cognitive Bias Lab \u2014 About page (cognitivebiaslab.com/about) \u2014 author: Vladimir Loginov; background and mission statement. ([cognitivebiaslab.com](https://www.cognitivebiaslab.com/about/?utm_source=openai))",
+      "Cognitive Bias Lab \u2014 Bias Study Simulations page (cognitivebiaslab.com/bias-study-simulations) \u2014 lists interactive simulations and references to classic studies. ([cognitivebiaslab.com](https://www.cognitivebiaslab.com/bias-study-simulations/?utm_source=openai))",
+      "Cognitive Bias Lab \u2014 Role\u2011Play / AI debiasing page (cognitivebiaslab.com/practice/role-play-debias) \u2014 documents AI role\u2011play, Custom GPT integration and interactive debiasing practice. ([cognitivebiaslab.com](https://www.cognitivebiaslab.com/practice/role-play-debias/))",
+      "Cognitive Bias Lab \u2014 Practice hub (cognitivebiaslab.com/practice) \u2014 flashcards, tests, games and AI coaching described. ([cognitivebiaslab.com](https://www.cognitivebiaslab.com/practice/?utm_source=openai))",
+      "Vladimir Loginov \u2014 personal portfolio / resume (vladimir-loginov.com/my-resume/) \u2014 corroborates education and product management background referenced on the site. ([vladimir-loginov.com](https://vladimir-loginov.com/my-resume/?utm_source=openai))"
+    ]
+  }
+}

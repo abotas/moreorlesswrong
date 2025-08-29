@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "For the EA/AI-safety community this is moderately important operational news: it affects funding channels, support quality, and field\u2011building for university AI safety groups and could meaningfully change organizer experience and recruitment into the field. It is not a foundational doctrinal claim about AI risk, so it\u2019s not load\u2011bearing for most major decisions. For general humanity it is essentially irrelevant \u2014 an administrative change with negligible direct impact on the public or global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing transition details that matter to readers and organizers. The post says funding is being passed to Kairos but gives no timeline, list of which groups/recipients are affected, how much funding is being transferred, or what will happen to active grants. Actionable change: add a brief transition plan (who is affected, deadlines, whether existing grants continue unchanged, how organizers should expect money/mentorship to be handed over, and contact points for urgent questions).\n\n2) No summary of why Kairos was chosen or how Open Philanthropy vetted them. Saying Kairos has a \u201cstrong team and a substantive track record\u201d is plausible but not informative for readers used to EA-style scrutiny. Actionable change: include 2\u20134 concrete reasons/evidence for the decision (e.g., metrics, examples of groups supported, governance structure, safeguards, any due-diligence process), and state whether Open Philanthropy retains any oversight or reporting requirements after the handoff.\n\n3) Overlooks risks and next steps for groups not covered and governance/accountability questions. Readers will reasonably worry about centralisation of funding, conflicts of interest, and how to apply if they aren\u2019t currently funded. Actionable change: add a short FAQ-style sentence on (a) whether new or unaffiliated groups can apply to Kairos, (b) what accountability/reporting structures will be in place under Kairos, and (c) what Open Philanthropy will do if problems arise (e.g., fund misuse or mission drift).",
+    "improvement_potential": "The feedback correctly identifies substantial omissions that would matter to organizers and interested readers (transition logistics, which groups/amounts are affected, vetting rationale, and accountability/recourse). It\u2019s actionable and concise, so implementing it would materially improve clarity and reduce organiser confusion. It\u2019s not a 9\u201310 because some operational details may reasonably live on Kairos\u2019 linked post or be handled in follow-ups, and the omissions don\u2019t make the announcement incorrect \u2014 but they are important enough that leaving them out is a significant oversight."
+  },
+  "PostAuthorAura": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence this name/pseudonym is a known figure in the EA or rationalist communities or the broader public. I could not find notable publications, citations, talks, or a visible public profile under 'abergal'; appears to be unknown or a minor/anonymous online user."
+  },
+  "PostClarity": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "clarity_score": 8,
+    "explanation": "The post is overall clear, concise, and well-structured: it states the action (closing Open Philanthropy\u2019s university group funding), the recipient (Kairos), the rationale (Kairos is well-positioned with a strong team and track record), and reassures readers about continued support for student groups. It could be improved by adding a few practical specifics (exact timeline, what \"most\" means, effects on existing grants/contacts, and next steps for organizers) to remove minor remaining ambiguity."
+  },
+  "PostNovelty": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers this is mainly an administrative/news update about who will run existing university AI-safety grants; it builds on previously announced shifts (e.g., passing EA group funding to CEA) and doesn\u2019t introduce new concepts or arguments, so it\u2019s not very novel. For the general public the specific news (Open Philanthropy transferring university AI-safety group funding to Kairos) is likely unfamiliar and thus moderately novel as factual information, but it still isn\u2019t a particularly original idea or policy proposal."
+  },
+  "PostInferentialSupport": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post gives a clear, coherent rationale consistent with Open Philanthropy\u2019s prior approach of moving small grants programs to specialist organizations, and it sensibly emphasizes continuity of support and the value of student groups. It also links to Kairos\u2019 announcement so readers can see their plans. Weaknesses: The central claim that \"Kairos is well\u2011positioned\" and can provide better active support is asserted without concrete evidence\u2014no metrics, examples of past outcomes, organizer feedback, comparative analysis, or governance/oversight details are presented. The reasoning is plausible but not rigorously substantiated for an external reader; better support would include objective performance data, explicit selection criteria, and specific examples of Kairos\u2019 track record and capabilities."
+  },
+  "PostExternalValidation": {
+    "post_id": "84emBPD7z3oWQxpKK",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major factual claims in the post are well supported by primary sources. Open Phil\u2019s announcement (by abergal) that it is closing its university group funding program for AI-safety groups and handing monetary support to Kairos is corroborated by (a) the EA Forum post by abergal, (b) Kairos\u2019s own Pathfinder announcement saying OP is handing off support, and (c) Open Philanthropy\u2019s grants database showing a substantial grant to Kairos (Oct 2024). Kairos\u2019s launch post and program pages (SPAR, FSP/Pathfinder) substantiate the claim that Kairos runs relevant mentorship/support programs and has an operational track record. The only mildly subjective claim \u2014 that Kairos \u201chas (in our opinion) a strong team and a substantive track record\u201d \u2014 is supported by Kairos\u2019s program history and by Open Phil\u2019s funding decision but remains evaluative rather than purely factual. Overall the post\u2019s empirical assertions are accurate and well-documented.",
+    "sources": [
+      "EA Forum \u2014 \"Open Philanthropy is passing AI safety university group funding to Kairos\" (post by abergal).",
+      "EA Forum \u2014 \"Introducing the Pathfinder Fellowship: Funding and Mentorship for AI Safety Group Organizers\" (post by Agust\u00edn Covarrubias / Kairos).",
+      "Open Philanthropy grants database \u2014 \"Kairos Project \u2014 AI Safety University Group Support\" (recommended grant, Oct 2024; ~$886k).",
+      "Open Philanthropy \u2014 \"Open Philanthropy university group funding\" (program page; notes the program is closed and points groups to Kairos/CEA).",
+      "EA Forum \u2014 \"Upcoming changes to Open Philanthropy's university group funding\" (Open Phil post describing handing EA group funding to CEA and continued AI safety funding until transfer).",
+      "EA Forum \u2014 \"Introducing Kairos: a new AI safety fieldbuilding organization (the new home for SPAR and FSP)\" (Kairos launch post describing SPAR and FSP).",
+      "Kairos official site \u2014 kairos-project.org (program descriptions: SPAR, Pathfinder/FSP).",
+      "EA Forum / job post \u2014 \"Kairos is hiring ...\" (describes SPAR/FSP scale: SPAR rounds, number of mentors/participants).",
+      "Agust\u00edn Covarrubias profile and posts (Kairos co-director) \u2014 EA Forum / GreaterWrong profiles and interview (background on Kairos leadership and programs)."
+    ]
+  }
+}

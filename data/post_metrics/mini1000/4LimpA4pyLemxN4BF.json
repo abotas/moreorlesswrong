@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This post is a timely, high\u2011leverage advocacy and framing piece for an under-explored corner of alignment: whose values we lock into powerful AI systems (including animals and future digital minds). For the EA/AI safety community it is fairly load\u2011bearing \u2014 it highlights a neglected strategic risk/opportunity (value lock\u2011in, moral scope) and argues for coordinated research, outreach and funding that could materially change priorities and corporate/regulatory practice. For general humanity the claim is moderately important: if taken seriously it could affect the moral landscape that governs vast numbers of present and future sentient beings, but tractability and timing are uncertain and the post is more programmatic than technically foundational, so its direct practical impact is less certain."
+  },
+  "PostRobustness": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the core normatively and operationally precise (big undefined assumption). You assert we should build a \u201csentient\u2011centric AI\u201d but don\u2019t define sentience, how different sentient beings\u2019 interests are weighed, or what it would mean in practice for models/agents. This leaves readers unsure whether you mean (a) maximizing aggregate welfare, (b) giving equal consideration to all sentients, (c) a precautionary rule-set, etc. Actionable fixes: add a short, explicit subsection that (i) defines the working conception(s) of sentience you\u2019ll use, (ii) sketches a concrete decision rule or aggregation principle (or explicitly list plausible alternatives and tradeoffs), and (iii) gives one or two concrete, realistic examples of how those rules change an AI recommendation/decision compared to a human\u2011centric baseline. That will make the proposal much more actionable and let readers judge tractability and political feasibility.\n\n2) Address the capability\u2011gain / opportunity\u2011cost and coordination counterarguments head\u2011on with evidence and a clear risk mitigation plan. The post downplays concerns that MA work could (a) divert scarce funding from safety, (b) accelerate capabilities via model training/data collection, or (c) be politically unrealistic to implement at company scale. Actionable fixes: (i) provide concrete evidence or a short literature summary on whether typical MA interventions (benchmarks, policy advocacy, label creation) are likely to increase capabilities; (ii) prioritize and list 2\u20134 interventions that are low\u2011risk from a capabilities perspective (e.g., governance, standards, public benchmarks and auditing tools that don\u2019t require large compute, stakeholder engagement), and explain why these are compatible with mainstream AI safety work; and (iii) propose concrete ways to coordinate with existing AI safety actors (e.g., shared technical safety checklists, joint sign\u2011on principles) to reduce perceived opportunity costs.\n\n3) Strengthen the empirical case and make the ask more specific (big empirical/credibility gap). You estimate MA funding at ~\\$4\u20135M but give no sources; the argument that the field is \"much more neglected\" depends on that figure. Also the proposed goals and metrics are ambitious but vague. Actionable fixes: (i) add a brief, cited funding/actor map (even a one\u2011paragraph table of known orgs, budgets or funding ranges, and gaps) or promise that your next post will include it and give a timeline; (ii) narrow your proposed interventions to a short prioritized list (e.g., 3 highest\u2011priority, high\u2011tractability actions) with specific calls to action (who should fund what, what deliverable, and by when); and (iii) replace open\u2011ended long\u2011term metrics (\"amount of money companies allocate\") with a few measurable near\u2011term milestones (e.g., adoption of an MA benchmark by X companies, number of joint signatories to an ethical pledge, publication of a technical report on sentience assessment within 12\u201318 months). These changes will make the post more convincing and easier for potential supporters to act on.",
+    "improvement_potential": "Targets the post\u2019s biggest weaknesses: vague normative claims (what 'sentient\u2011centric' means and how to aggregate interests), lack of engagement with key counterarguments (capability gains, opportunity costs, coordination), and weak empirical grounding (uncited funding estimates and broad metrics). The suggestions are concrete and actionable, would materially increase credibility and tractability, and need not bloat the post excessively. Addressing them would avoid obvious \u2018own goals\u2019 and make the call to action far more persuasive."
+  },
+  "PostAuthorAura": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a recognisable figure named 'Ronen Bar' in major EA/rationalist venues (LessWrong, EA Forum, EA organizations) or among well-known EA writers/speakers. There is no clear public/profile-level presence under that name in mainstream media or widely cited public intellectual circles. It may be a private individual, a niche academic, or a pseudonym, but it is not a known EA or global public figure."
+  },
+  "PostClarity": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "clarity_score": 7,
+    "explanation": "Overall the post is clear and well-structured: it states a central claim early, uses headings, gives concrete examples, counters objections, and lists actionable goals and interventions. Strengths include a readable organization, explicit vision and theory-of-change, and concrete short/long-term goals. Weaknesses: it sometimes repeats points, contains long paragraphs and background detail that reduce conciseness, and leans on a few unsupported claims (e.g., rough budget estimates) that weaken argumentative precision. The key term \u201cMoral Alignment\u201d is introduced but not sharply defined, and the tractability and prioritization arguments could be tightened for greater persuasiveness."
+  },
+  "PostNovelty": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "novelty_ea": 4,
+    "novelty_humanity": 7,
+    "explanation": "For EA Forum readers the core claims \u2014 worry about value choice for AI, speciesism, value-lock in, and the need to fund work on animals and digital minds \u2014 are already familiar; the specific branding as a unified \"Moral Alignment\" movement and the concrete movement/benchmarks framing add some fresh emphasis but are not highly original. For the general educated public the post is substantially more novel: explicitly arguing that alignment should be sentient\u2011centric (including non\u2011human animals and future digital minds), highlighting a large funding gap, and proposing a coordinated movement are ideas many outside EA/AI\u2011safety circles are unlikely to have seen articulated together."
+  },
+  "PostInferentialSupport": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is logically organized, identifies a clear normative gap (broader-than-human values), and sketches plausible pathways (movement-building, corporate engagement, benchmarks). It usefully reframes alignment as a values-choice problem and anticipates some counterarguments. Weaknesses: Many central claims rest on unquantified or anecdotal premises (e.g., the claim that only ~\\$4\u20135M targets non-human MA, that AI actors are especially receptive, or that MA work is low versus capability-risk). Tractability and impact are asserted rather than demonstrated; the post provides few systematic data, no counterfactual or cost-effectiveness analysis, and limited empirical evidence showing interventions would shift industry behaviour or materially reduce risks. Overall: an interesting, coherent position with reasonable intuitions but weak empirical backing and important untested assumptions, so support is modest rather than strong."
+  },
+  "PostExternalValidation": {
+    "post_id": "4LimpA4pyLemxN4BF",
+    "emperical_claim_validation_score": 4,
+    "validation_notes": "Mixed but substantially overstated neglect in one key area. Claims that Moral Alignment is an under\u2011resourced niche are directionally plausible (the field is nascent and fragmented), and claims about anthropocentric/speciesist biases in current AI are well supported by peer\u2011reviewed literature. However, the post\u2019s headline numerical claim \u2014 \u201conly a few organizations work for non\u2011humans in this field, with a total budget of 4\u20135 million USD (not accounting for academic work)\u201d \u2014 is contradicted by public funding announcements (e.g., Earth Species Project announced $17M in grants in Oct 2024; several other institutional commitments and new centres have multi\u2011million funding). The LessWrong/EA estimates that \u201cAI safety spending by major funds in 2024 was a bit more than $100M\u201d is broadly consistent with public funder disclosures (Open Phil, SFF, AISF, Frontier Model Forum, etc.). In short: (a) qualitative claims that Moral Alignment is an emerging, under\u2011served area are plausible and supported; (b) the specific budget estimate for non\u2011human MA actors (USD 4\u20135M) is inaccurate given several multi\u2011million commitments; (c) claims about anthropocentric bias in models are supported by peer\u2011reviewed and conference literature. Recommendation: revise the numerical funding statements and re-assess neglect after accounting for large grants (ESP, new university centres, philanthropy) and include up\u2011to\u2011date grant totals.",
+    "sources": [
+      "Earth Species Project \u2014 press release: 'Earth Species Project Secures $17M in Grants' (Oct 17, 2024).",
+      "Forbes \u2014 'This Nonprofit Wants To Use AI To Understand Animal Communication' (Oct 17, 2024).",
+      "AI for Animals \u2014 conference / AI, Animals, and Digital Minds (June 2024) and AIADM 2025 event pages.",
+      "Effective Altruism Funds \u2014 Animal Welfare Fund grants (Jan\u2013Mar 2025) (shows AI for Animals grant $37,000).",
+      "Springer / AI and Ethics \u2014 'Speciesist bias in AI: how AI applications perpetuate discrimination and unfair outcomes against animals' (Aug 29, 2022).",
+      "Springer / AI and Ethics \u2014 'Speciesism in natural language processing research' (2024).",
+      "MDPI scoping review \u2014 'Anthropocentrism and Environmental Wellbeing in AI Ethics Standards' (2024/2025).",
+      "LessWrong / GreaterWrong post \u2014 'An overview of the AI safety funding situation' (2024) (funding estimates cited by the author).",
+      "Open Philanthropy \u2014 'Our Progress in 2024 and Plans for 2025' (describes proposed ~$40M+ technical AI safety allocations in 2024).",
+      "Survival and Flourishing Fund \u2014 public grants lists (2023\u20132024) showing multi\u2011million disbursements to AI safety projects.",
+      "AI Safety Fund (AISF) \u2014 November 2024 update (first disbursements \u2248 $3M).",
+      "London School of Economics (LSE) \u2014 announcement of the Jeremy Coller Centre for Animal Sentience (multi\u2011year \u00a34M commitment, Mar 25, 2025)."
+    ]
+  }
+}

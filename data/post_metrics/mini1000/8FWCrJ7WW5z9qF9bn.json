@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "Practical, low-stakes guidance for increasing engagement on the EA Forum. Useful for community moderators and authors (encourages comments and clearer calls to action) but not foundational to EA theory, strategy, or major decisions. Virtually irrelevant outside the Forum."
+  },
+  "PostAuthorAura": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: it states the main point (polls increase comments), gives step\u2011by\u2011step instructions for adding and interacting with polls, and includes useful implementation notes. Minor weaknesses: occasional brief jargon (e.g. \u201cone axis\u201d) that could confuse newcomers, and some image/table placeholders might render oddly outside the forum which could interrupt flow. Otherwise well\u2011structured and appropriately concise."
+  },
+  "PostNovelty": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a how-to / product-announcement about a forum poll widget. For EA Forum readers it\u2019s largely obvious or already-known (low novelty). For the general public the specific UI details (dragging an avatar on an axis, forced comment prompt, showing vote-strength on comments) are mildly uncommon but overall follow familiar poll/comment patterns used elsewhere."
+  },
+  "PostInferentialSupport": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post makes a plausible, well-structured case that embedding polls can increase discussion because voting prompts users to comment and screenshots provide a clear call-to-action. Instructions are clear and the causal mechanism is sensible. However, the evidence is largely anecdotal \u2014 no data, metrics, comparisons, or tests are offered to substantiate the claim that polls measurably increase comments or discussion quality. The post also doesn't consider potential downsides (biasing discussion, oversimplifying issues) or provide scope/generalizability. Stronger support would require before/after stats, A/B tests, or user feedback."
+  },
+  "PostExternalValidation": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post match official EA Forum documentation and internal metrics. The Forum \"how to\" / user-manual and the DIY Debate Week announcement describe the slider poll UI, inserting a poll via the editor toolbar, being able to add multiple polls, drafts not starting the countdown until publish, the drag-avatar slider, an option to leave a comment after voting, the percentage/strength shown on comments, and quoting the poll title on comments \u2014 all verbatim or nearly so. Forum internal metrics (debate-week retrospective) show the slider/poll-driven debate weeks produced large numbers of votes and many comments, supporting the claim that polls encourage comments/discussion. Two small caveats: (a) phrasing differences matter \u2014 the manual says users are given the option to leave a comment after voting (not that they are forced to \u201cexplain\u201d their vote), and (b) I could not find a clear public source explicitly confirming the poll default duration = \u201c7 days\u201d (that detail may be true in the UI but isn\u2019t easily located in the public docs I checked).",
+    "sources": [
+      "Forum user manual \u2014 EA Forum (\"Polls\" section). forum.effectivealtruism.org posts/Y8gkABpa9R6ktkhYt (Apr 2022).",
+      "DIY debate week (April 28 - May 4th) \u2014 Toby Tremlett & Will Howard, EA Forum (Apr 16, 2025). forum.effectivealtruism.org posts/pAYSK7voaNeDRDFCs",
+      "All Forum events (I\u2019ve been involved in) retrospective \u2014 Toby Tremlett, EA Forum (May 28, 2025) (debate-week metrics showing votes & comments). forum.effectivealtruism.org posts/z8s3XBHZmHxbvgfa8",
+      "EA Forum update (June 2025) \u2014 EA Forum (notes that users can run their own polls). forum.effectivealtruism.org posts/vXkCyz4fPgAbnaSB7"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "8FWCrJ7WW5z9qF9bn",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify vote visibility, editability, and privacy. The post currently implies but doesn\u2019t explicitly state whether votes are public or anonymous, whether other users can see who voted which way, and how the \u201cchanged your mind\u201d indicator works. These are major UX/privacy details that affect whether people will feel comfortable voting and commenting. Action: add an explicit FAQ line stating (a) whether votes are tied to user accounts or anonymous, (b) whether other users can see who voted and their percentage, (c) whether voters can change their vote and how vote-history is displayed on comments, and (d) whether poll admins can delete or export vote data.\n\n2) Add brief, practical guidance on poll design to avoid bias and bad incentives. Polls can create anchoring, bandwagon effects, and misleading signals if worded or placed sloppily. Action: include a short \u201cDo / Don\u2019t\u201d list (e.g., do use polls for simple, well-defined choices; don\u2019t use them for complex or highly uncertain claims; avoid leading labels; label endpoints clearly; avoid using poll percentages as evidence). Offer one or two neutral example phrasings and one bad example to make the point concrete.\n\n3) Cover moderation, abuse and accessibility risks (and simple mitigations). The post omits how to handle brigading, low-quality comment prompts, or multiple polls cluttering a thread, and it doesn\u2019t mention accessibility (alt text or mobile behavior). Action: add a concise \u201cRisks & Best Practices\u201d paragraph: how to flag/remove poll comments, recommended default duration for sensitive polls, whether to limit the number of polls per post in practice, and a note to add alt text for the screenshots and test mobile appearance. If there are built-in moderation tools (reporting, hiding votes), say so.",
+    "improvement_potential": "The feedback points identify important omissions that would affect user behavior and trust\u2014especially vote visibility/privacy and moderation controls\u2014which are likely things readers will care about and might be irritated to discover only after voting. The design-bias and accessibility suggestions are also practical, low-cost additions that improve signal quality and inclusiveness. Implementing them wouldn\u2019t require a long rewrite but would materially reduce user confusion and potential abuse, so these are critical but not catastrophic fixes."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a practical, operational request about coordinating a tax-efficient donation swap \u2014 useful advice for a small subset of donors in specific countries and could slightly increase donations to a particular fund. It\u2019s not a foundational argument or broadly applicable policy: limited scope, short-term, and already resolved in this case, so low-to-minor importance for the EA community and trivial for general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Major missing discussion of tax/legal risk (quid pro quo). You should explicitly say whether the swap preserves each donor\u2019s tax deduction and warn readers to check with an accountant. Many tax authorities disallow deductions if donations are effectively reimbursed or if there is a reciprocal agreement \u2014 that could invalidate the entire point of the swap. Actionable fix: add a short line saying you are NOT offering reimbursement, explain the intended structure (both parties make independent donations and keep receipts), and recommend donors confirm with their tax advisor or provide a link to authoritative guidance for AUS/US/UK/NL.\n\n2) Lack of logistics/trust details. The post doesn\u2019t say how you\u2019ll match people, what evidence you\u2019ll exchange, timings, exchange-rate/fee handling, or what happens if someone reneges. Readers need these to decide whether to commit. Actionable fix: specify (a) a minimum/maximum per partner, (b) whether you\u2019ll share donation receipts publicly or privately, (c) a target timeline for both sides to donate, (d) who covers transaction fees/currency conversion, and (e) a simple fallback (e.g. only partner with people you trust or use small, incremental swaps first). If you don\u2019t want to manage logistics, say so and invite people to DM to arrange details.\n\n3) Update and verify the charity/tax-effectiveness list and be precise about eligibility. You\u2019ve crossed out one fund but several items (fund names, DGR/501c3/Gift Aid eligibility) can change and differ by country. Actionable fix: either (a) link to an authoritative source showing current tax-deductible status in each relevant jurisdiction, or (b) list only charities/funds you\u2019ve personally verified and include the relevant registration type (e.g. Australian DGR item number, US 501(c)(3) EIN, UK charity number). That prevents confusion and post-edit churn.",
+    "improvement_potential": "Very high. The feedback calls out genuine, high-risk omissions: the tax/legal quid-pro-quo risk (which could invalidate donors' deductions), the lack of logistics/trust details (which are essential for people to commit safely), and the need to verify the charities' tax-deductible status. Fixing these three items would markedly reduce legal and practical risks without much added length if done succinctly, so the post currently risks serious embarrassment or user harm if left unaddressed."
+  },
+  "PostAuthorAura": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "Mitchell Laughlin is not a recognized central figure in the EA/rationalist community based on available information \u2014 there are no well-known books, talks, org roles, or widely-cited posts under that name in major EA/rationalist venues as of mid\u20112024. Could be a pseudonym or a minor/occasional contributor; overall public presence appears minimal."
+  },
+  "PostClarity": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to understand for the intended EA audience: the title and opening state the request, the edit signals it\u2019s been resolved, and the post lists which charities count as tax-effective in Australia. Strengths: concise, well-structured, uses familiar terminology, and gives concrete amounts. Weaknesses: minor ambiguities about current need (edit implies it\u2019s closed), and it omits practical swap logistics (timeline, preferred split per partner, and contact method), which would help make the ask fully actionable."
+  },
+  "PostNovelty": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "novelty_ea": 2,
+    "novelty_humanity": 5,
+    "explanation": "Among EA readers this is very familiar \u2014 donation swaps and cross\u2011border tax\u2011effective giving are common topics and practices in the community, so the post is not novel (score ~2). For the general public the specific idea of arranging a tax\u2011driven donation swap across countries and the list of tax\u2011effective EA charities is moderately novel \u2014 many educated people understand tax incentives for charitable giving but would be less likely to have considered or organised this exact swap mechanism (score ~5)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post presents a simple, logically coherent idea: swap donations so each donor can give to their preferred charity while receiving tax benefits where they are resident. That reasoning is straightforward and makes intuitive sense. However, the post omits important caveats and supporting detail (legal/tax compliance, how receipts and donor intent are handled, potential anti-abuse or charity policy issues), which weakens the argument\u2019s robustness. The empirical support is limited: it lists charities reputed to be tax-effective in Australia and cites GWWC in passing, but provides no authoritative references to tax rules, examples of successful swaps, or procedural guidance. Overall the suggestion is plausible and practically useful in many cases, but under-supported by evidence and missing discussion of key risks and mechanics."
+  },
+  "PostExternalValidation": {
+    "post_id": "AkafSjEv7Ju22zcN3",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are accurate and verifiable. Evidence shows the EA Animal Welfare Fund (AWF) is an EA Funds product (not an Australian DGR) and Giving What We Can / EA Funds recommend using country-specific donation routes (US, UK, Netherlands) for tax-effective giving \u2014 matching the author\u2019s claim that AWF is not tax-effective in Australia and is tax\u2011effective via certain foreign routes. Effective Altruism Australia (EAA) and partner platforms do allow Australian donors to give tax\u2011deductibly to many of the listed global-health / effective-charity recipients (Against Malaria Foundation, Malaria Consortium, GiveDirectly, New Incentives, Helen Keller Intl, etc.) by regranting, which supports the author\u2019s list. A remaining ambiguity is that many donors in Australia give tax-effectively via local fundraising partners (e.g., EAA or GWWC partners) rather than each listed organisation holding its own Australian DGR endorsement \u2014 the post doesn\u2019t always make that distinction explicit. Also, availability of some funds (e.g., GiveWell All Grants Fund via particular tax routes) has changed recently, which the post partly notes (crossed\u2011out edit); donors should check current donation-routing before acting.",
+    "sources": [
+      "Effective Altruism Funds \u2014 Animal Welfare Fund (EA Funds): https://funds.effectivealtruism.org/funds/animal-welfare",
+      "Giving What We Can \u2014 Tax deductibility of donations by country (includes guidance for US, UK, Netherlands, and Australia): https://www.givingwhatwecan.org/get-involved/tax-deductibility",
+      "Giving What We Can \u2014 Australia / Effective Altruism Australia partnership and recommendation to use EAA for tax\u2011deductible Australian donations: https://www.givingwhatwecan.org/get-involved/tax-deductibility/australia and https://www.givingwhatwecan.org/charities/effective-altruism-australia",
+      "Effective Altruism Australia \u2014 recommended charities (Against Malaria Foundation, Malaria Consortium, etc.) and explanation of how Australians can donate tax\u2011deductibly to GiveWell Top Charities via EAA: https://effectivealtruism.org.au/what-are-the-best-charities/ and https://effectivealtruism.org.au/FAQ/",
+      "GiveWell \u2014 Tax deductibility of donations to GiveWell worldwide (Top Charities Fund / All Grants Fund information and country-specific routing): https://www.givewell.org/about/donate/tax-deductibility",
+      "EA Forum post by Giving What We Can about retiring initiatives (notes on changes to Australian tax\u2011deductible donation routes effective June 30, 2025): https://forum.effectivealtruism.org/posts/f7yQFP3ZhtfDkD7pr/gwwc-is-retiring-10-initiatives",
+      "Australian government guidance on Deductible Gift Recipients (DGR) and ABN Lookup / DGR list (how to verify DGR status): https://www.ato.gov.au/businesses-and-organisations/not-for-profit-organisations/getting-started/getting-endorsed-for-tax-concessions-or-as-a-dgr/is-my-organisation-eligible-for-dgr-endorsement/ and https://abr.business.gov.au/Tools/DgrListing/"
+    ]
+  }
+}

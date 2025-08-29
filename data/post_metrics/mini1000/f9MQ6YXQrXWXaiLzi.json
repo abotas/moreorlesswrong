@@ -1,0 +1,38 @@
+{
+  "PostValue": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "For the EA/rationalist community this is moderately important (\u22486). It isn\u2019t a foundational theory, but if the analysis is largely correct it meaningfully affects strategy for farmed-animal advocacy (and related climate/environment litigation) in the US and demonstrates a scalable AI-enabled workflow for rapid policy triage \u2014 a tool that could be widely useful across EA causes. However, the report is AI-generated and only partially spot-checked, so its conclusions are not yet load-bearing without verification. For general humanity it\u2019s of minor importance (\u22483): the findings concern a specific US bill and sector (factory farming) with implications for animal welfare and emissions, but the direct human welfare/longterm consequences are limited compared with higher\u2011priority global risks; plus the analysis\u2019 unverified nature reduces its immediate practical impact."
+  },
+  "PostRobustness": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Major reliance on unvalidated AI output \u2014 you admit you spot-checked only and trust o3 \"80\u201390%\". For a legal/policy claim this large, that\u2019s an own goal: readers will treat your summary as factual when subtle wording in statutes can reverse interpretations. Actionable fixes: (a) Run a structured validation pass \u2014 have at least one subject-matter expert (legislative analyst, agricultural economist, or environmental lawyer) review the executive summary and a random sample of the bill-to-analysis mappings; (b) publish traceable provenance for each high-level claim (quote the exact bill section(s) the AI used and paste the AI\u2019s excerpted rationale); (c) add explicit confidence labels (e.g., high/moderate/low) per claim and flag anything you did not manually verify. 2) Too little attention to alternative interpretations, implementation pathways, and limits \u2014 the post treats headline effects (e.g., \u201centrenches CAFOs\u201d, \u201cregulatory dilution\u201d) as if they follow directly and immediately from the text. Big countervailing factors are missing: whether provisions are permissive vs. mandatory, required rulemaking, appropriations constraints, state-level preemption limits, and practical enforcement timelines. Actionable fixes: (a) for each cross-cutting theme, list the specific bill provisions that drive it and note whether they require agency rulemaking, appropriations, or judicial interpretation; (b) add a short section enumerating the main plausible counterarguments or dampening mechanisms (e.g., budget limits, existing agency practice, state action, litigation avenues) so readers can judge net effect. 3) Missing methodological transparency and reputational risk \u2014 readers need enough detail to judge the AI analysis process and your claims' credibility. Actionable fixes: (a) publish the exact prompt(s), chunking approach, model settings (temperature, max tokens, system vs. user messages), and how you aggregated chunk outputs into the executive summary; (b) explicitly label the executive summary as AI-generated output that has not been fully validated and state whether you plan to update it after expert review; (c) consider delaying strong normative or outreach claims until at least minimal external validation is done to avoid spreading possible large errors.",
+    "improvement_potential": "The feedback correctly flags major weaknesses that could embarrass the author (heavy reliance on unvalidated AI output, lack of provenance, and failure to consider alternative/implementation paths). It gives clear, actionable fixes (expert spot-checks, quoting bill sections, confidence labels, publishing prompts/settings) that would substantially increase credibility without needing to overturn the core effort. These are critical improvements \u2014 addressing them will prevent major misinterpretation and reputational risk, though they don't imply the report's central claims are necessarily false."
+  },
+  "PostAuthorAura": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Steven Rouk' is a known figure in the EA/rationalist community or a publicly recognized author by mid-2024. No notable publications, talks, citations, or presence on major EA/rationalist platforms (EA Forum, LessWrong, 80,000 Hours) or mainstream media were found; the name may be obscure or a pseudonym. If you can provide links or context (works, usernames, topics), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, easy to follow, and clearly communicates purpose, methods, key takeaways, and caveats. Strengths include a concise executive summary, links to full reports, and transparent disclaimers about AI limitations. Minor weaknesses: it initially withheld specific findings (which it later added), uses jargon (e.g., CAFOs) without definition, and could briefly summarize a few concrete examples or key citations in the body to reduce the need to open external docs."
+  },
+  "PostNovelty": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers the core ideas are only mildly novel: people in EA/longtermist/farmed-animal circles already think about how legislation, subsidies, and regulatory changes affect CAFOs and many are aware of using AI tools for text analysis. The most original element for that audience is the practical proof\u2011of\u2011concept of chunking a 130k\u2011word bill and using an o3 model to produce a focused policy scan for animal impacts. For the general public the post is more novel \u2014 lay readers are less likely to have seen a machine\u2011assisted, issue\u2011specific analysis of a major bill or to have connected H.R.1\u2019s technical provisions to farmed\u2011animal outcomes \u2014 though the substantive conclusions (subsidies/regulatory rollbacks favoring factory farming) are not surprising to policy-savvy observers."
+  },
+  "PostInferentialSupport": {
+    "post_id": "f9MQ6YXQrXWXaiLzi",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out a coherent, plausible set of mechanisms (subsidies/insurance/tax incentives, permitting changes, litigation rules) by which H.R.1 could favor CAFOs, and transparently describes methods and limitations. Weaknesses: The core analysis is entirely AI-generated and only spot-checked by the author, with few concrete citations, section references, or quoted bill text in the post; methodology (prompts, rubric, validation checks) and independent expert review are largely absent. That makes the logical framing reasonably structured but the empirical support thin and non-verified \u2014 useful as a hypothesis-generating starting point but not as strong evidence that the bill will have the asserted effects without further validation."
+  }
+}

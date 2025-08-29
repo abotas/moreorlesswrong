@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a clear, accessible synthesis of an important empirical idea (Ajeya Cotra\u2019s \u201csandwiching\u201d) and a concrete experiment (Bowman et al.) that tests scalable oversight techniques. It isn\u2019t original research or a decisive result, but it\u2019s useful for the EA/AI-safety community because it helps operationalize and popularize an actionable experimental approach to a core problem (oversight of models more capable than non-expert humans). If the general approach succeeds, it meaningfully improves confidence in scalable oversight methods; if it fails, it signals important limits. For the general public it\u2019s informative outreach but not transformational \u2014 helpful for awareness but not directly load-bearing for societal decisions."
+  },
+  "PostAuthorAura": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name 'Writer' is generic or a possible pseudonym and is not a recognizable identifiable author. No clear presence or works linked to EA/rationalist circles or the broader public; cannot assess further without a real name, notable works, or links."
+  },
+  "PostClarity": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and easy to follow: it defines the problem, presents the sandwiching idea, gives a concrete example and cites an experiment and sources. Strengths include clear sectioning, concrete examples, and links to papers. Weaknesses are a few small copyediting issues (e.g. a duplicated sentence, stray punctuation), occasional mild repetition and some informal asides that slightly reduce conciseness, but these don't prevent comprehension or dilute the core argument."
+  },
+  "PostNovelty": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "novelty_ea": 2,
+    "novelty_humanity": 6,
+    "explanation": "For an EA/alignment audience this is largely expository: it summarizes well-known proposals (RLHF extensions, debate, iterated amplification/recursive reward modeling) and re\u2011packages Ajeya Cotra\u2019s \u2018sandwiching\u2019 idea plus the Bowman et al. experiment. Those ideas and the paper are already familiar in the community, so novelty is low. For the general public the combination of technical oversight proposals and the concrete \u2018sandwiching\u2019 experimental test is fairly novel \u2014 most educated non\u2011specialists will not have encountered these specific concepts or the empirical demonstration \u2014 hence a moderate novelty score."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically organized, clarifies the problem, describes sandwiching clearly, and cites a concrete experimental paper that demonstrates a proof-of-concept (non-experts assisted by a model outperforming either alone). It also notes several important caveats from the experiment. Weaknesses: The argument relies on extrapolation from narrow, low-stakes, highly simplified tasks (MMLU and short-story questions) to the much harder setting of supervising broadly superhuman systems. Key external\u2011validity gaps include the use of ground-truth answers rather than real experts, restricted interaction types (chat only), lack of adversarial/high\u2011stakes scenarios, and remaining failure modes (over\u2011deference, hallucinations). The evidence therefore supports sandwiching as a promising early empirical method but is insufficient to conclude it will scale to the most challenging future oversight problems."
+  },
+  "PostExternalValidation": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are accurate and well-supported by primary sources. The post correctly cites (and summarizes) OpenAI\u2019s RLHF summarization work (Stiennon et al. 2020), OpenAI\u2019s recursive book\u2011summarization/recursive decomposition work (Wu et al. 2021 / OpenAI blog), OpenAI\u2019s 2022 work on model-generated critiques (Saunders et al. 2022), Ajeya Cotra\u2019s 2021 \u201csandwiching\u201d proposal on the Alignment Forum, and the Anthropic/partners proof\u2011of\u2011concept sandwiching experiment (Bowman et al., \u201cMeasuring Progress on Scalable Oversight\u201d, arXiv:2211.03540). The post\u2019s high\u2011level descriptions of debate, iterated amplification, and recursive reward modeling map to the cited literature (Irving/Christiano/Amodei 2018; Christiano et al. 2018; Leike et al. 2018).\n\nMinor caveats: a numeric phrasing in the video text \u2014 \u201chumans were shown these critiques \u2026 they found about 50% more flaws than unassisted evaluators\u201d \u2014 appears to be a paraphrase of the Saunders et al. results; the Saunders paper demonstrates that model critiques meaningfully increase human flaw\u2011detection on summarization tasks but the paper\u2019s presentation of effect sizes is reported in its experiments (the paper is the correct primary source). Other later work (e.g., the 2024 \u201cLLM Critics Help Catch LLM Bugs\u201d paper / OpenAI\u2019s CriticGPT reporting) shows related and sometimes larger effect sizes (e.g., critics preferred/used 60+% of the time on code), so using \u201cabout 50%\u201d as an approximate summary is reasonable but should be treated as an approximate figure rather than a precise universal multiplier. Overall the post is well\u2011supported (most claims verifiable in the cited papers); small numeric/summary phrasing choices are the main sources of uncertainty.",
+    "sources": [
+      "Stiennon et al., Learning to summarize from human feedback, NeurIPS 2020 / arXiv:2009.01325",
+      "Wu et al., Recursively Summarizing Books with Human Feedback (OpenAI), arXiv:2109.10862; OpenAI blog 'Summarizing books with human feedback' (Sept 23, 2021)",
+      "Saunders et al., Self\u2011critiquing models for assisting human evaluators (OpenAI), arXiv:2206.05802 (2022)",
+      "Samuel R. Bowman et al., Measuring Progress on Scalable Oversight for Large Language Models, arXiv:2211.03540 (2022)",
+      "Ajeya Cotra, 'The case for aligning narrowly superhuman models', Alignment/AI Forum (Mar 5, 2021)",
+      "Irving, Christiano & Amodei, 'AI safety via debate', arXiv:1805.00899 (2018)",
+      "Christiano et al., 'Supervising strong learners by amplifying weak experts' (Iterated Amplification), arXiv:1810.08575 (2018)",
+      "OpenAI / later work on critic models: 'LLM Critics Help Catch LLM Bugs' (McAleese et al.), arXiv:2407.00215 (2024) \u2014 for context on follow\u2011up results showing critic models can substantially help humans detect errors"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "rdc69nDvgPfK3d3bw",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstating generalizability from current 'sandwich' experiments to future broadly superhuman AIs. The post implies success on narrow tasks (MMLU / story questions) meaningfully predicts that oversight techniques will scale to arbitrary superhuman systems. That\u2019s a large, non-obvious claim. Actionable: add an explicit, short caveat section listing what sandwiching can and cannot test (e.g. it probes human+model collaboration on narrow, static tasks and human calibration to model outputs) and emphasize which failure modes it doesn\u2019t capture (distribution shift, goal misgeneralization, inner alignment/deception, long-horizon planning). Prefer framing the paper as a useful but limited empirical step rather than a strong proof-of-concept for general scalability.  \n\n2) The writeup glosses over how much the experimental simplifications matter. The MMLU / 5-minute story setup removes many real-world difficulties (open-endedness, access to tools, expert adjudication, and multi-step planning). Actionable: either briefly note why each simplification could bias results (e.g. multiple-choice format inflates recoverability; forbidding external verification increases reliance on model confidence), or suggest one-two concrete follow-ups readers can understand quickly (run open-ended tasks, include expert adjudication, let participants use web search/interpretability tools, or allow model fine-tuning) so readers know how the baseline should be strengthened.  \n\n3) Little discussion of strategic or adversarial model behavior. Current LLMs in these experiments behave cooperatively and aren\u2019t incentivized to deceive; future superhuman systems might strategically manipulate overseers. Actionable: add a paragraph recommending experiments that test for manipulation and calibration (adversarial prompts, simulated incentives to hide errors, measuring overconfidence and conditional confidence, multi-agent adversarial setups) and note that sandwiching must be complemented by adversarial/interpretability evaluations to be informative about deceptive alignment risks.",
+    "improvement_potential": "The feedback targets key omissions that materially affect how readers should interpret the video: overstated generalizability from narrow sandwiching results, under-emphasis of how experimental simplifications bias outcomes, and failure to consider strategic/deceptive model behaviour. These are actionable, concise fixes (a short caveat, brief notes on each simplification, and a paragraph recommending adversarial tests) that would substantially reduce the risk of readers being misled without greatly lengthening the post."
+  }
+}

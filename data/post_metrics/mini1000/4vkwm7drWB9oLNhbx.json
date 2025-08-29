@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a practical, operational post aimed at improving EA outreach and conversational strategy. It isn't advancing foundational theory, but it is moderately useful for community builders \u2014 it can reduce wasted effort, help quickly identify cruxes, and improve recruitment/retention. Its conclusions being true would matter for how EAs allocate social capital and run outreach, but they don't change core EA epistemics or cause priorities. For general humanity the impact is minimal outside better-targeted EA engagement (and there are modest risks of oversimplification or gatekeeping)."
+  },
+  "PostRobustness": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify and justify the \"trunk\" \u2014 big unstated assumption: you treat caring about strangers, wanting to do more good, and comparability as the core entry-criteria. Many readers will plausibly disagree (e.g., impartiality/scale/longtermism or deontological commitments are core for them). Action: add a short paragraph that (a) defines precisely what you mean by \u201ctrunk\u201d (criteria for inclusion), (b) explains why you ranked these three items before others, and (c) acknowledges that some EAs reasonably place other norms (longtermism, impartiality, population ethics) on the trunk. This prevents readers from feeling you\u2019ve already smuggled in a controversial ordering.  \n\n2) Don\u2019t dismiss institutional distrust as a secondary concern \u2014 many people\u2019s first reaction to EA is governance, conflicts of interest, or power-concentration, and treating those as merely \u201cup the tree\u201d risks alienating them. Action: either (a) move a short, concrete script earlier in the post for briefly acknowledging institutional concerns (e.g., \u201cthat\u2019s a fair place to start \u2014 we should check governance and funding sources; would you like a 60\u2011second sketch?\u201d), or (b) add 2\u20133 sentences explaining why you suggest postponing that debate in low-cost conversations and when it\u2019s appropriate to take it up. This makes your recommendation pragmatic rather than dismissive.  \n\n3) Tighten the guidance on comparability and effectiveness \u2014 you concede metrics are imperfect but then undervalue plausible moral/measurement objections (prioritarianism, value pluralism, measurement uncertainty). Action: add concrete, short rebuttals or scripts (one-line responses) for the most common comparability objections and a clear rule-of-thumb for when to stop the conversation versus when to escalate to a deeper debate. Also give one or two non-technical examples showing when imperfect metrics are nevertheless decision-useful (and when they aren\u2019t). This will make your advice usable in 60\u201390 second table conversations rather than sounding overconfident.",
+    "improvement_potential": "The feedback pinpoints real, non-trivial weaknesses that could undermine the post\u2019s persuasiveness and turn off readers (smuggling a controversial ordering of \u2018core\u2019 beliefs; seeming to dismiss governance concerns; being vague about how to handle comparability objections). The suggested fixes are concrete and low-cost (short clarifications, a brief script, 1\u20132 one-line rebuttals and a rule-of-thumb) and would materially improve usability and reduce embarrassment for the author \u2014 but they don\u2019t imply the post is fundamentally broken, so a top score isn\u2019t warranted."
+  },
+  "PostAuthorAura": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence in my training data or major EA/rationalist venues under the name 'OGTutzauer\ud83d\udd38'. Likely a pseudonymous or very small-scale online user; not a known EA figure or public intellectual. If you can supply links or context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: the tree metaphor is introduced up front, sections are logically ordered (trunk, branches, then specific trunk-check questions), and the \"Concede / Debate briefly\" framing makes the guidance actionable. Language is accessible and examples are concrete. Minor drawbacks: a few places are slightly wordy or informal, the core trunk assumptions could be stated more explicitly and earlier as a compact checklist, and some arguments (e.g. on comparability or institutional trust) could be tightened. Overall very clear and practical for its intended audience."
+  },
+  "PostNovelty": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA readers this is largely a repackaging of well-known outreach heuristics (tower-of-assumptions style framing, core EA commitments like altruism/effectiveness/comparability, and common counters to sceptics). The specific \u2018trunk/branches\u2019 ordering and suggested concessions are practical and mildly useful but not conceptually new. For the general public the tree metaphor and the prioritized list of conversational moves may be somewhat unfamiliar and practically helpful, but the underlying ideas (care about others, do more good, compare interventions, trust institutions) are fairly familiar, so only modestly novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, pragmatic structure (trunk vs branches), useful heuristics for prioritizing conversational targets, and sensible concessions vs brief debate strategies. Its reasoning is coherent and grounded in practical experience; it identifies realistic social costs and common interlocutor objections. Weaknesses: The choice of \"trunk\" components is asserted rather than rigorously justified, some normative claims are simplified, and a few rebuttals gloss over harder philosophical issues. Evidence is mostly anecdotal and limited to a few illustrative links rather than empirical tests of the method's effectiveness or systematic literature; therefore the thesis is plausible and practically useful but not strongly empirically supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "4vkwm7drWB9oLNhbx",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are supported by reliable sources: (a) there are large, documented differences in charity cost\u2011effectiveness (Giving What We Can\u2019s charity comparisons and GiveWell work). (b) research and reputable reporting support the claim that prosocial acts tend to increase wellbeing for givers (PBS summary of research). (c) QALYs and similar metrics are known to be imperfect and debated in the literature. (d) the organisations and figures named (80,000 Hours, Giving What We Can, Will MacAskill, Open Philanthropy) play the roles the post claims. Weaknesses: many of the post\u2019s central claims are normative or descriptive of community norms (e.g., \u201cthe trunk that almost all EAs accept\u201d) and aren\u2019t strictly empirical; they\u2019re plausible but not falsifiable by simple data. Also statements about what convinces particular skeptics are experiential/anecdotal (author\u2019s local group), so they can\u2019t be broadly validated. Overall: well-supported for the empirical building blocks cited, but some central claims are subjective or normative and not strictly verifiable.",
+    "sources": [
+      "Giving What We Can \u2014 Comparing charities: How big is the difference? (GivingWhatWeCan.org charity-comparisons). (See multiple cost-effectiveness examples / case studies). \u2014 https://www.givingwhatwecan.org/charity-comparisons (turn4search1 / turn4search7)",
+      "PBS NewsHour \u2014 \"The science behind why doing good makes us feel good\" (summary of research showing acts of kindness increase wellbeing). \u2014 https://www.pbs.org/newshour/show/the-science-behind-why-doing-good-makes-us-feel-good (turn0search0)",
+      "Wikipedia \u2014 Quality-adjusted life year (QALY) (discussion of debate and limitations of QALYs). \u2014 https://en.wikipedia.org/wiki/Quality-adjusted_life_year (turn0search13)",
+      "Effective Altruism Forum \u2014 \"The Meat Eater Problem\" (example of an EA forum post discussing second\u2011order / moral tradeoffs that complicate simple metrics). \u2014 https://forum.effectivealtruism.org/posts/T3P4oX6F8tMh4h55s/the-meat-eater-problem (turn0search1)",
+      "Open Philanthropy \u2014 About / Press Kit (history, funders, and role of Good Ventures / Cari Tuna & Dustin Moskovitz). \u2014 https://www.openphilanthropy.org/about-us (turn2search0) and https://www.openphilanthropy.org/press-kit (turn2search1)",
+      "80,000 Hours \u2014 About (mission, role as an EA organisation that advises on high\u2011impact careers). \u2014 https://80000hours.org/about/ (turn1search0)",
+      "William (Will) MacAskill \u2014 profile & publications (EA philosopher, co\u2011founder of Giving What We Can / 80,000 Hours; author of What We Owe the Future). \u2014 Wikipedia / author site: https://en.wikipedia.org/wiki/William_MacAskill ; https://williammacaskill.com (turn3search12 / turn3search2)"
+    ]
+  }
+}

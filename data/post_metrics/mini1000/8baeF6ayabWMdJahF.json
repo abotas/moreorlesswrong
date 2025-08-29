@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a useful, community-oriented post announcing attendance at an AVA summit and listing thoughtful questions for learning. For the EA/rationalist community it has minor importance: it can help with networking, surfacing on-the-ground questions about animal advocacy in Africa, and might lead to incremental improvements in programs or collaborations, but it is not making load-bearing claims or presenting new evidence. For general humanity it is essentially irrelevant: a personal trip and learning plan with very limited direct impact on broad human outcomes unless it eventually feeds into much larger, concrete interventions."
+  },
+  "PostRobustness": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make your goals and outputs concrete and measurable. Right now the post reads like a list of interesting questions but doesn\u2019t say what you will actually produce or how you\u2019ll judge success. Before publishing, state 1\u20132 concrete commitments (e.g., conduct X interviews, publish a 1,500\u20132,000 word trip report with source-linked summaries of at least 10 organizations, or produce a short dataset comparing capacity metrics across N organisations). Say how you\u2019ll operationalize the \u201cEA lens\u201d (which cost-effectiveness metrics or outcome measures you\u2019ll use). This helps readers judge value and increases follow-up engagement.\n\n2) Reduce the risk of appearing extractive or Kenya/Africa-uninformed by foregrounding local leadership and consent. The tone currently centers your learning rather than mutual benefit. Add a sentence or two about how you\u2019ll engage respectfully: pre-contact local orgs, ask permission before publicising interviews, credit and share outputs with participants, and ideally include plans to give back (e.g., donate speaker notes, capacity-building time, or distribute findings to local stakeholders). This both avoids ethical pitfalls and strengthens credibility with EA and Kenyan audiences.\n\n3) Acknowledge major contextual trade-offs and avoid pan-African generalizations. Your questions imply Africa as a single context and focus on scaling \u201canimal welfare\u201d without flagging likely trade-offs with livelihoods, food security, or culturally important practices. Either narrow your stated geographic scope (e.g., Kenya / East Africa) or explicitly note heterogeneity and say you\u2019ll look for harms and trade-offs (impact on smallholder incomes, nutritional risks, political/legal constraints). Also state you\u2019ll be looking for negative externalities and local perspectives on feasibility, not just \u201cwhat works\u201d in theory.\n\nImplementing these three changes will make the post clearer, less extractive, and more useful to EA readers and Kenyan stakeholders while keeping it short and publish-ready.",
+    "improvement_potential": "The feedback targets three substantive weaknesses: lack of concrete outputs or success metrics, risk of appearing extractive toward Kenyan/African partners, and problematic pan\u2011African generalization without acknowledging trade\u2011offs. Fixing these would materially improve clarity, credibility, and ethical posture without greatly lengthening the post \u2014 i.e., critical but not catastrophic changes the author should make."
+  },
+  "PostAuthorAura": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of mid-2024 there is no widely available information linking this name to notable activity in the EA/rationalist community or the wider public. The name appears uncommon and may be a pseudonym; no well-known publications, talks, citations, or profiles are associated with it in major EA, academic, or mainstream sources. If you can provide links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "clarity_score": 8,
+    "explanation": "The post is very readable and well-structured: clear intro, explicit EA framing, a numbered list of focused questions, and a concise call-to-action. It communicates purpose and audience effectively. Minor weaknesses: some small typos/capitalization ('i'), a long set of overlapping questions that could be prioritized or condensed, and slight repetition in places \u2014 overall clear and compelling but could be tightened for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post is largely an event announcement and a list of exploratory questions \u2014 a common format on EA Forum. Applying an EA lens to animal advocacy and asking about local adaptation, species gaps, and system barriers in Africa is useful but not conceptually new to EA readers. For the general public, the Africa-specific focus and intersection of EA principles with grassroots animal advocacy are a bit less familiar, but the ideas remain broadly unsurprising and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out a clear, focused set of questions and an EA-aligned approach (cost-effectiveness, evidence, scalability), which is a logically coherent plan for learning and inquiry. Weaknesses: It offers virtually no empirical evidence, baseline data, or concrete examples to justify the claim that the summit will produce high-impact insights; many assertions are aspirational and unspecified (e.g., what counts as \"exceptional efficiency\" or \"tangible\" ecosystem strengthening). In short, the reasoning is sensible as a proposed learning agenda but the empirical support for the main thesis is minimal, so the claim is plausible but weakly substantiated."
+  },
+  "PostExternalValidation": {
+    "post_id": "8baeF6ayabWMdJahF",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "Major empirical claims in the post are well-supported by primary sources. The AVA (Animal & Vegan Advocacy) Summit official website and public event listings confirm an inaugural AVA Summit in Nairobi, Kenya on July 17\u201320, 2025, hosted at the Emara Ole Sereni Hotel, and describe AVA\u2019s mission as focused on systemic change to reduce/remove animals from the food system and other human uses. The author\u2019s personal claims about this being their first AVA summit and their planned lines of inquiry are personal statements and not independently verifiable, but they do not conflict with available evidence. No reliable sources were found that contradict the post\u2019s key factual claims.",
+    "sources": [
+      "AVA Summit Kenya 2025 \u2014 AVA Summit (official event page), AVASummit.com (AVA Summit Kenya / africa2025)",
+      "AVA Summit \u2014 Home / About (official site describing AVA mission and events), AVASummit.com",
+      "AVA Summit Africa event listing (Jul 17\u201320, 2025 \u2014 Emara Ole Sereni Hotel), AVASummit.com/event-details/ava-summit-africa",
+      "AVA Summit Kenya ticket/event listing (egotickets) corroborating dates and venue"
+    ]
+  }
+}

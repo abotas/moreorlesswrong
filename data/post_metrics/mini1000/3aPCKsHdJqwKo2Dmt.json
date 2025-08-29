@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful, actionable piece of movement\u2011building advice whose main claims matter moderately for the EA community. University groups are a tractable, neglected lever for recruiting and retaining high\u2011impact people; if the underlying counterfactual\u2011EA assumptions hold, then successful organizers can have outsized downstream effects. However the post is tactical rather than foundational \u2014 it depends on larger assumptions about EA\u2019s effectiveness and career impacts and is one of many ways to build influence \u2014 so it\u2019s not a linchpin for the entire movement. For general humanity the direct impact is small (though nonzero): scaling university organizing could matter in the long run, but that is speculative and indirect."
+  },
+  "PostRobustness": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstates counterfactual impact and leans on selection\u2011biased anecdotes. The post treats high upside examples (Stanford alumni, Campus Centre NPV calc) as broadly generalisable. Recommend: tone down global claims (e.g. don\u2019t imply \u2018one organizer can double your impact\u2019 without strong caveats), explicitly list the key assumptions behind the cited NPV numbers (discount rate, who counts as \u201chighly engaged\u201d, top\u2011school effects), and either provide a plausible range/uncertainty or replace the anecdote with more systematic evidence or multiple contrasting examples (including failed groups).\n\n2) Omits plausible harms and common counterarguments. You briefly note opportunity cost and AIS concerns, but you don\u2019t address risks like echo chambers/value capture, burnout and reputational harms from poorly run groups, or that broad groups can be a suboptimal use of scarce movement\u2011building talent in low\u2011potential schools. Recommend adding a short section that names the main risks and gives concrete mitigations (invite external critics, rotate leadership, set norms to avoid gatekeeping, guardrails for recruitment, realistic time budgeting and burnout prevention).\n\n3) Claims of tractability and succession are under\u2011specified and thus offer weak guidance. Saying \u201cit\u2019s easier now\u201d and \u201cyou can be the successor\u201d isn\u2019t actionable for readers deciding whether to commit. Recommend adding 3\u20135 concrete, compact items readers can use: expected weekly time commitment ranges for different organizer roles, an outline checklist for succession (timeline, shadowing, documentation templates), and links to exact CEA resources/funding streams and contact points. This will make the post more persuasive without lengthening it much.",
+    "improvement_potential": "Strong, targeted, and actionable. The feedback correctly calls out the post's biggest weaknesses (selection\u2011biased, high\u2011variance impact claims; missing discussion of real harms; and vague advice about tractability/succession) and gives concrete, low\u2011burden fixes (add caveats/assumptions or uncertainty ranges; name risks and mitigations; include compact, actionable templates and links). Addressing these would substantially reduce misleading overclaiming and make the post more useful without much extra length."
+  },
+  "PostAuthorAura": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff I have no record of Noah Birnbaum as a recognized figure in the EA/rationalist community or in broader public life. The name does not appear among well-known EA authors, forum contributors, public speakers, or widely cited academics; it may be a private individual or pseudonym. If you can provide links or sample works, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, numbered points, evidence (links and anecdotes), and explicit counters make the argument compelling. Weaknesses: occasional informal/uneven formatting and jargon (e.g., AIS, counterfactual EAs) that aren\u2019t defined, some repetition and speculative asides that could be tightened, and a few long paragraphs that reduce conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For the EA Forum audience this is mostly a synthesis of well-known arguments and practical advice (force-multiplication, counterfactual alumni impact, CEA Groups Team support, common pitfalls like succession and brain\u2011drain). The post cites existing Uni Groups Team estimates and repeats familiar anecdotes and counters, so it has low novelty for experienced readers. For the general educated public the EA\u2011specific framing (treating preserving EA as an existential\u2011risk mitigation strategy, counterfactual NPV of \u201ccracked\u201d alumni, and detailed tradeoffs about AIS/AI timelines) is somewhat less familiar, so the ideas are moderately novel but not radically original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a clear, coherent argument (force multiplication, neglectedness, tractability, individual benefits) and anticipates some counterarguments; it draws on the author's organizing experience and relevant EA Forum references. Weaknesses: Key claims rest on plausible but informal inference and optimistic assumptions (e.g. large counterfactual impact per alumni, ease of creating 'cracked' EAs) without rigorous counterfactual or cost-effectiveness analysis. Evidence is mainly anecdotal and selective (organizer conversations, one illustrative Stanford anecdote, and internal CEA estimates) rather than systematic empirical data, so the thesis is persuasive for sympathetic readers but not strongly established for skeptical or general audiences."
+  },
+  "PostExternalValidation": {
+    "post_id": "3aPCKsHdJqwKo2Dmt",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s major empirical claims are supported by public EA sources and CEA documentation: CEA\u2019s Groups Team and group-support funding exist and have publicly-described programs; the Uni Groups Team\u2019s 2021 post (cited by the author) indeed makes the high\u2011impact / NPV-style argument and records the Stanford anecdote; there is substantial forum discussion documenting problems with succession, groups going dormant, and the recent growth and spin\u2011out of many AI\u2011safety university groups. However, several quantitative claims (specific NPV numbers, the 20% discount / $2M/year phrasing) are model\u2011based and approximate and cannot be verified as precise facts beyond the Uni Groups Team\u2019s rough estimates; claims that \u201cmany groups have shut down recently\u201d and that organizers left specifically due to \u201cbrain drain to AIS groups\u201d are plausible and echoed in community discussion and funding shifts, but are mainly anecdotal and not supported by comprehensive, publicly-available counts. Overall: well\u2011supported for qualitative claims and documented program changes; weaker for precise numerical claims and for population\u2011level claims (no rigorous dataset found).",
+    "sources": [
+      "A huge opportunity for impact: movement building at top universities \u2014 Uni Groups Team / EA Forum (Dec 14, 2021).",
+      "Group support funding \u2014 Centre for Effective Altruism (CEA) official page (CEA Group Support Funding).",
+      "CEA\u2019s Community Building Grants are becoming more targeted; the EA Infrastructure Fund will start evaluating grants for some EA groups \u2014 EA Forum (post summarizing CEA/EAIF changes).",
+      "University EA Groups Need Fixing \u2014 Dave Banerjee / EA Forum (Aug 3, 2023) \u2014 documents organizer experiences and groups' problems (succession, epistemics, funding concerns).",
+      "AI Safety University Organizing: Early Takeaways from Thirteen Groups \u2014 EA Forum (documents rapid growth of university AI safety groups; cites ~70 groups in recent years).",
+      "Open Philanthropy is passing AI safety university group funding to Kairos \u2014 EA Forum (announcement about funding transitions for AI safety university groups).",
+      "Redwood Research \u2014 Team page (confirms Buck Shlegeris and Nate Thomas affiliations referenced in Stanford anecdote).",
+      "Kelsey Piper \u2014 Wikipedia / Vox author pages (confirms Kelsey Piper founded/ran Stanford EA and became a full-time EA\u2011adjacent journalist)."
+    ]
+  }
+}

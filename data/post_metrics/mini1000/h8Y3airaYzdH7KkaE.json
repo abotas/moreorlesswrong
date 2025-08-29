@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "For the EA/rationalist community this is a high-importance, practical idea: if feasible it could materially reshape how talent is steered toward high-impact causes (AI safety, biosecurity, global health), improving marginal returns on human capital and augmenting tools like 80,000 Hours. It isn't foundational to EA theory, but it is a potentially load-bearing operational innovation with substantial governance, measurement, and incentive-design challenges. For general humanity the idea is impactful but more contingent: a working dynamic allocation system could raise global welfare and crisis response capacity at scale, but feasibility, authoritarian/privacy risks, and distributional/ethical concerns limit its straightforward benefit."
+  },
+  "PostRobustness": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Weak/unspecified impact measurement and incentive design \u2014 The post treats \u201cimpact-weighted salaries\u201d and algorithmic matching as if impact is readily measurable. That\u2019s a major assumption: metrics can be noisy, gamed, create perverse incentives, and produce moral hazard. Actionable fix: add a short section acknowledging measurement limits and outline concrete mitigations (multi-dimensional metrics, independent audits, counterfactual evaluation, robustness to gaming, and randomized pilots before scaling). Cite or link to relevant literature on impact evaluation and metric gaming and propose specific pilot metrics and evaluation plans. \n\n2) Insufficiently concrete safeguards against authoritarian and privacy risks \u2014 Saying \u201cavoid authoritarian pitfalls\u201d without concrete design or governance proposals is an own goal. The system could easily become coercive, surveilling, or discriminatory. Actionable fix: specify mandatory design constraints (voluntary opt\u2011in, consent and data minimization, explainability, appeal/redress mechanisms, decentralized or multi-stakeholder governance, legal protections) and concrete technical approaches (e.g., differential privacy, federated data, open audits). Give examples of harms to avoid and concrete governance structures to test in pilots. \n\n3) Overlooks real-world frictions and existing analogs \u2014 The post claims novelty relative to 80k Hours but doesn\u2019t engage existing matching systems (LinkedIn/Workday, Singapore programs, gig platforms) or labor-market frictions (credentialing, employer preferences, migration law, transition costs). Actionable fix: add a brief comparison to existing systems and explain the unique added value. Propose a realistic rollout path: narrow pilots (EA orgs, volunteer pools, emergency response teams), employer partnerships, and measurable success criteria before claiming scalability. Also acknowledge algorithmic bias risks and propose fairness checks.",
+    "improvement_potential": "Addresses the post\u2019s biggest blind spots \u2014 unrealistic assumptions about impact measurement/incentives, lack of concrete anti\u2011authoritarian/privacy safeguards, and failure to engage existing systems and frictions. These are actionable, high\u2011priority fixes that would prevent obvious \u2018own goals\u2019 and substantially strengthen credibility without requiring an overhaul of the core idea."
+  },
+  "PostAuthorAura": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no evidence in my training data of a notable EA/rationalist author or public intellectual using the name 'teatonglu'. The handle does not appear as a recognized contributor on major EA/rationalist outlets (LessWrong, EA Forum, 80,000 Hours, OpenPhil) nor as a widely cited author or media figure \u2014 likely an unknown or minor online user."
+  },
+  "PostClarity": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured and easy to follow: it states a clear proposal, lists concrete differentiators from existing career advice, and poses useful open questions. Weaknesses are that key terms and mechanisms (e.g., how matching or 'impact-weighted salaries' would work) are left vague and ethical/governance trade-offs are only briefly noted, so it's high-level rather than operational."
+  },
+  "PostNovelty": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Among EA Forum readers this package of ideas is largely familiar \u2014 career advising (80,000 Hours), cause prioritization, discussions of AI for labor markets, impact-weighted pay, and concerns about coercion/authoritarianism have all been floated. The specific combination and emphasis on continuous, real\u2011time updates and decentralized incentive mechanisms is modestly new but not groundbreaking for that audience. For the general educated public the framing is more novel: while job\u2011matching algorithms and workforce planning exist, using dynamic, society\u2011wide, impact\u2011weighted role allocation governed by decentralized incentives (and aimed explicitly at EA-style priorities) is less commonly considered, so it rates as moderately novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post presents a plausible and appealing high-level idea and correctly identifies some important desiderata (continuous updating, personal fit, incentives), but the arguments are underspecified and leave key mechanism questions unanswered (how impact is measured/attributed, incentive design, privacy, autonomy, gaming, labor-market frictions). Empirical support is essentially absent \u2014 no studies, pilots, or concrete analogues are cited (the Singapore mention is speculative). Overall the concept is worth exploring but currently weakly supported by reasoning and almost entirely unbacked by evidence; it needs concrete mechanisms, references to related real-world systems, and pilot/experimental results to be persuasive."
+  },
+  "PostExternalValidation": {
+    "post_id": "h8Y3airaYzdH7KkaE",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Major claims are generally plausible and supported by existing evidence: AI-driven job-matching and recommendation systems are in production (LinkedIn, Singapore\u2019s MyCareersFuture) and research/industry reports show AI can enable dynamic workforce planning and scheduling. Machine learning can partly predict burnout and person\u2013job fit moderates algorithmic-management effects, so \u201cpersonal fit optimization\u201d is feasible in principle. However, there is little evidence of a single, large-scale, voluntary system that continuously reallocates citizens across societal priorities (e.g., nationwide dynamic role allocation for AI safety/biosecurity) operating via impact-weighted salaries; analogous incentive schemes (impact-weighted accounts, social-impact bonds / pay-for-success) exist but have mixed results and important measurement, governance, and equity critiques. There are documented authoritarian risks from algorithmic governance and surveillance if such systems are centrally controlled. Overall: most technical and operational building blocks exist (evidence supports feasibility), but scalability, effectiveness for broad social-priority allocation, incentive-design (impact\u2011weighted pay), and governance/safeguards have limited or mixed empirical support.",
+    "sources": [
+      "GovTech \u2014 MyCareersFuture (MyCareersFuture product page describing AI-powered job matching; Government Technology Agency, Singapore; page updated 8 July 2025).",
+      "LinkedIn: \"Deep Job Understanding at LinkedIn\" (Li et al., arXiv preprint, 2020) \u2014 example of large-scale algorithmic job-matching / job-understanding engineering.",
+      "McKinsey & Company: \"The critical role of strategic workforce planning in the age of AI\" (Feb 26, 2025) \u2014 industry analysis on AI-enabled workforce planning and dynamic allocation.",
+      "McKinsey: \"Smart scheduling: How to solve workforce-planning challenges with AI\" (Nov 1, 2022) \u2014 applied examples of AI improving scheduling and deployment.",
+      "Research on algorithmic management and worker wellbeing (e.g., Griesbach et al., 'Algorithmic Control in Platform Food Delivery Work', 2019; Rosenblat & Stark 2016) \u2014 evidence of harms and the moderating role of person\u2013job fit.",
+      "Peer-reviewed studies on predicting burnout with machine learning (examples: BMC Health Services Research 2024 study; PubMed articles 2021\u20132023) \u2014 ML can partly predict burnout from rich data but is imperfect and context-dependent.",
+      "Academic work on dynamic role/task allocation (robotics / human-robot teams) showing algorithms for dynamic multi-agent task allocation (e.g., Choudhury et al., arXiv 2020; Fusaro et al., arXiv 2021) \u2014 technical feasibility in constrained domains.",
+      "Harvard Business School Impact\u2011Weighted Accounts Initiative / Impact-Weighted Accounts Framework (IWA / IWAF) and Impact Economy Foundation \u2014 shows development of methods to monetise/measure social impact for organisations, but at org/accounting level rather than individual salaries.",
+      "Reviews/critiques of pay-for-success / social impact bonds (RAND/academic reviews; SSIR analyses; scoping reviews 2022\u20132023) \u2014 evidence is mixed and highlights measurement, selection and perverse-incentive problems.",
+      "Freedom House 'Freedom on the Net' (2021, 2023) and reporting on digital/algorithmic authoritarianism (e.g., Wired, TIME) \u2014 documents risks of algorithmic governance and state surveillance if systems are centrally controlled.",
+      "Case studies from the COVID-19 response and NHS examples (e.g., UK redeployment studies; UCL \"Shift Partner\" case) \u2014 show rapid redeployment was used in crises and AI tools for staffing/shift optimization are being piloted, but poor planning harmed workers when done ad hoc."
+    ]
+  }
+}

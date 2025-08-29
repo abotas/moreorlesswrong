@@ -1,0 +1,59 @@
+{
+  "PostValue": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a practical, well-sourced synthesis of effective-environment approaches aimed at funders and potential movers (dietary change, high-impact donations, policy and tech advocacy). For the EA community it is moderately important: not foundational to EA's highest-priority cause areas, but useful and actionable for directing funds, careers, and advocacy toward under\u2011funded, high\u2011leverage interventions (e.g. alternative proteins, policy advocacy). For general humanity it is of modest importance: good public-facing guidance that could change some individual behaviour and giving, but not a novel or world-shifting thesis and its high-impact claims rely on contested estimates and context-dependent tractability."
+  },
+  "PostRobustness": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add clear, concrete caveats and sources for the \u201c$/ton CO2 avoided\u201d claims. The post leans heavily on single evaluator estimates (Founders Pledge / Giving Green / GFI) and presents cost-per-ton figures in a way that can easily be misread as precise. Before publishing, (a) explain the methodology briefly (counterfactual, additionality, attribution, time horizon), (b) include uncertainty ranges and common failure modes (over-attribution, double-counting, donor displacement), and (c) link to the exact pages or appendices that show the calculations. Also suggest a simple heuristic for readers (e.g. how to interpret cost-per-ton numbers and when to treat them as low-confidence). This will prevent the post from sounding like it promises cheap, certain abatements it doesn\u2019t prove. \n\n2) Soften and nuance the claims about animal agriculture as \"the\" primary driver of deforestation/biodiversity loss. The post makes strong, generalized statements (e.g. livestock = 78% terrestrial biodiversity loss; meat is the main driver of deforestation) without sufficient context. Before publishing, (a) cite broader, recent syntheses (IPBES, FAO, Our World in Data syntheses) and indicate geographic variation (e.g. Amazon cattle vs. soy for feed vs. smallholder systems), (b) distinguish between terrestrial vs. marine drivers (fishing is the leading marine threat), and (c) acknowledge trade-offs and risks from scaling alternative proteins (land-use displacement, supply-chain impacts). Reword absolutist sentences to reflect where the evidence is strongest and where contested. \n\n3) Add a short \u201ckey uncertainties & plausible counterarguments\u201d section. The post repeatedly recommends systemic approaches (policy, tech, alternative proteins) but doesn\u2019t systematically address major plausible counterarguments\u2014e.g. political feasibility limits of carbon pricing, rebound effects of cheaper clean energy, safety/waste/timeline issues around nuclear/SMRs, and limits of donations (marginal impact declines, funding crowd-out). A compact list (2\u20134 bullets) summarizing the main objections and your best responses will (a) strengthen credibility, (b) reduce pushback from informed readers, and (c) keep the post short while covering critical weaknesses.",
+    "improvement_potential": "The feedback targets genuine, high-impact weaknesses: overstated precision on $/ton numbers, overgeneralised claims about animal agriculture, and the lack of a concise uncertainties/counterarguments section. Fixing these would materially raise the post\u2019s credibility and reduce the risk of reader pushback, and can be done succinctly (methodology caveats, cited syntheses, and a short bullets section) without bloating the piece. The suggestions are actionable and proportionate; they\u2019re not nitpicks but address major own-goal risks of overclaiming and under\u2011nuancing."
+  },
+  "PostAuthorAura": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "author_fame_ea": 4,
+    "author_fame_humanity": 3,
+    "explanation": "Likely the name of the French Effective Altruism collective/handle rather than a prominent individual. Recognizable to francophone EA participants and sometimes appears for local events/translations, but not a widely known author or central figure in the global EA/rationalist movement; limited public presence outside that community."
+  },
+  "PostClarity": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "clarity_score": 8,
+    "explanation": "Well structured and readable: strong TL;DR, clear headings, explicit decision criteria (impact/tractability/neglectedness), concrete recommendations and supporting links make the argument easy to follow and persuasive. Weaknesses: the post is long and somewhat dense (many links/images and some untranslated/French-specific references can overwhelm readers), occasional repetition and minor formatting/link issues reduce polish, and a few claims would benefit from clearer numeric context or explanation of methodological limits."
+  },
+  "PostNovelty": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers this is mostly a synthesis of well-known EA/environmental positions (focus on systemic change, policy and tech advocacy, neglectedness/tractability framework, Giving Green/Founders Pledge recommendations, and emphasis on plant-based/alternative protein interventions). The specific packaging and some claimed cost-per-ton figures (e.g. ~$3/ton for GFI) are not original to EA but are useful references \u2014 overall not novel. For the general educated public the piece is moderately novel: it combines mainstream environmental facts (planetary boundaries, climate/biodiversity impacts) with less-common EA-style cost-effectiveness framing (quantified donations vs. lifestyle trade-offs, explicit priority on funding high-impact orgs like GFI/CATF and advocacy/industry-targeted interventions). That quantitative donation-centric framing and some specific org recommendations may be new to many non-EA readers, but the substantive points themselves are broadly circulated in policy and NGO discourse."
+  },
+  "PostInferentialSupport": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is logically structured, uses a clear EA-style framework (impact, tractability, neglectedness), and makes plausible, well-linked arguments that donating and systemic interventions can outperform many individual actions. It cites reputable sources (Stockholm Resilience Centre, Our World in Data, Carbon Brief) and reputable evaluators (Giving Green, Founders Pledge), and it explicitly notes uncertainty and limitations. Weaknesses: Several key quantitative claims (e.g. $/ton CO2 avoided by particular charities, GFI \u2248 $3/ton, 35% freshwater decline, percentage contributions of livestock to emissions/biodiversity loss, disease attribution) rely on secondary analyses, internal reports, or single sources with substantial model uncertainty and limited transparency in methods. Some links are to non-peer-reviewed or proprietary documents (Drive links), and a few claims lack nuance or caveats about context and uncertainty. Overall: The main thesis is well-reasoned and moderately well-supported, but the empirical strength depends heavily on model-based charity cost-effectiveness estimates that carry large uncertainties and should be treated cautiously."
+  },
+  "PostExternalValidation": {
+    "post_id": "gZfgNfjTNWa3atwLT",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s major empirical claims are supported by reputable sources (planetary\u2011boundaries framework; extreme heat examples like Lytton 49.6\u00b0C; agriculture/livestock as a major driver of deforestation and biodiversity loss; donations-to-policy charities often being cheaper per tCO2e than current DAC; air pollution and lead burden). However a few specific figures are uncertain or misinterpreted: the \u2018\u201835% drop in extractable freshwater since 1970\u2019\u2019 is not supported by mainstream accessible datasets (recent GRACE studies show abrupt declines since ~2014 but not a simple 35% since 1970); the \u201c2,500 armed conflicts ongoing worldwide\u201d is incorrect (UCDP/ACLED show tens\u2013dozens of active conflicts, thousands of events, but not 2,500 separate armed conflicts); the Saudi example is misread (Saudi statements describe raising capacity toward ~13 Mt/day by 2026\u201327, not an announced global peak production in 2027); and some % estimates about livestock (20% of emissions / 78% of European terrestrial biodiversity loss) are context\u2011dependent \u2014 different studies and methodologies give lower or higher numbers. The post is overall well\u2011sourced and cautious in places, but several headline numbers should be qualified or updated before treating them as precise facts.",
+    "sources": [
+      "Steffen et al., Science 2015 \u2014 'Planetary Boundaries' (Stockholm Resilience Centre).",
+      "Environment and Climate Change Canada / news coverage \u2014 Lytton, BC record 49.6\u00b0C (June 2021).",
+      "Founders Pledge \u2014 'Climate & lifestyle: donations and offsetting' (report & calculations on <$10/tCO2e benchmarks).",
+      "Giving Green \u2014 Deep dive: The Good Food Institute; Giving Green methodology (cost\u2011effectiveness heuristics, top recommendations).",
+      "Good Food Institute (GFI) \u2014 analyses on emissions reductions from plant\u2011based and cultivated meat (CE Delft LCA/TEA summaries).",
+      "IOP Science (2015) \u2014 'Impacts of European livestock production' (paper reporting large livestock contribution to several impacts, including the 78% terrestrial biodiversity figure for Europe).",
+      "FAO 2013 \u2014 'Tackling climate change through livestock' (livestock ~14.5% estimate and discussion of uncertainties).",
+      "IEA \u2014 'Transforming industry through CCUS' and related industry emission breakdowns (industry share ~1/4 of direct CO2; steel and cement large subsectors).",
+      "World Resources Institute / Global Forest Review / WWF analyses \u2014 agriculture (particularly cattle ranching and soy) as leading drivers of tropical deforestation (Amazon examples).",
+      "World Health Organization (WHO) \u2014 lead poisoning fact sheet (UNICEF finding: ~1 in 3 children with elevated BLL; WHO/IHME burden estimates: ~0.9\u20131.5 million deaths attributed in recent years) and ambient/household air pollution mortality estimates (~4.2M ambient; ~6.7M combined estimates depending on year).",
+      "Institute for Health Metrics and Evaluation (IHME) / GBD 2021 & NASA GRACE publications \u2014 evidence of recent abrupt declines in terrestrial freshwater storage (post\u20112014/2015) rather than a simple '35% since 1970' figure.",
+      "Climeworks / Financial Times / industry press \u2014 direct air capture costs ~US$600\u20131,000/t today (company and reporting note targets to decline to a few hundred $/t over coming decade).",
+      "Uppsala Conflict Data Program (UCDP) and ACLED \u2014 conflict statistics (dozens of active armed conflicts; ACLED records many events but not 2,500 distinct ongoing armed conflicts).",
+      "Carbon Brief / M\u00e9t\u00e9o\u2011France analyses and peer\u2011reviewed attribution work \u2014 heatwave frequency projections (2003\u2011type extremes becoming much more frequent in Europe under observed warming)."
+    ]
+  }
+}

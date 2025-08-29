@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a practical, moderately high-leverage communications recommendation for EA-aligned orgs: if correct, AEO can noticeably improve discoverability, fundraising, and the accuracy of AI-mediated public understanding of EA ideas. It is not foundational to EA theory or strategy (so not critical), but it is a useful operational lever with low-to-moderate cost and clear implementation steps. For general humanity the effect is smaller \u2014 it could raise the signal-to-noise of AI answers modestly, but the post is mainly tactical rather than system-changing."
+  },
+  "PostRobustness": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overgeneralizes how LLMs find and use web content \u2014 make the audience/limits explicit. The post treats \u201cAI assistants\u201d as a single channel that will reliably crawl and cite your public pages, but in reality systems vary (closed models with no browsing, RAG systems that use curated corpora, SGE/Perplexity-style retrievers, etc.). Action: add a short, concrete taxonomy (which kinds of assistants will benefit from AEO and why) and tone down blanket statements like \u201csearch engines are no longer the primary entry point.\u201d Replace absolutes with qualifiers and cite model/tool-specific behaviors or providers\u2019 docs.  \n\n\n2) Presents specific tactics (schema.org, FAQs, Wikidata/Wikipedia) as more universally effective than evidence supports. Many LLMs don\u2019t directly index schema or may weight signals differently; claiming these will make models \u201ccite\u201d you is optimistic. Action: add one paragraph saying these are plausible heuristics rather than proven fixes, and include an experiment plan (example: baseline queries \u2192 implement schema/FAQ \u2192 retest across 3 tools; KPIs: appearance in answers, citation rate, factual accuracy, donation conversion). That keeps recommendations practical without overstating confidence.  \n\n\n3) Misses important strategic and ethical trade-offs. The post lightly notes unpredictability but omits risks from deliberate optimization (gaming/monopolization of answers), equity (larger orgs gain outsized advantage), and opportunity cost (time spent optimizing vs program work). Action: add a short risks-and-mitigation subsection with concrete guardrails \u2014 e.g., prioritize AEO for a small set of high-leverage pages, commit to transparent sourcing and rapid corrections if AI misrepresents you, and propose community norms (open trackers, shared templates) to avoid arms-race dynamics.",
+    "improvement_potential": "The feedback correctly flags three substantial issues: (1) the post overgeneralizes how heterogeneous LLMs retrieve and cite web content, (2) it overstates the proven effectiveness of specific tactics (schema, FAQs, Wikidata) without caveats or testing plans, and (3) it underplays strategic and ethical trade-offs (gaming, inequity, opportunity cost). The suggested fixes are concrete and actionable (add a taxonomy, qualify claims and add an experiment plan, add mitigation/guardrails) and wouldn\u2019t unduly bloat the post, so addressing them would materially improve accuracy and reduce potential embarrassment."
+  },
+  "PostAuthorAura": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "No known association with the effective altruism/rationalist community \u2014 I am not aware of a notable EA figure named Elizabeth \u00c1lvarez. The name is relatively common and there are multiple individuals with that name in journalism, academia, and fiction, but none appear to be a widely recognized public intellectual or a central EA contributor. If you can provide a work, affiliation, or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: the post defines AEO, situates it relative to SEO/GEO, uses headings and concrete examples, and gives actionable, low-cost steps plus risks and next steps. Weaknesses: a bit long and occasionally repetitive, assumes some familiarity with LLM behavior and impact pathways without hard evidence, and could be tighter by prioritizing recommendations and adding concrete metrics or short examples to boost persuasiveness."
+  },
+  "PostNovelty": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "The core claim \u2014 that organisations should adapt content so LLMs/AI assistants can retrieve and cite it \u2014 is a straightforward extension of well\u2011known SEO/communications practices (structured data, clear FAQs, accessible HTML, Wikidata/Wikipedia presence). EA readers familiar with longtermist/AI discussions and nonprofit communications are likely already aware of the underlying risks and the need to influence public discourse, so the post is only mildly novel in framing and applying these tactics to EA goals. For the general public the idea is moderately novel: marketers and tech press have discussed 'AEO/GEO' and optimizing for AI, but many educated laypeople haven\u2019t considered the practical, schema\u2011level steps or the specific strategic case for mission-driven organisations. The most original element is explicitly linking AEO as a strategic lever for EA impact (fundraising, advocacy, accuracy in AI outputs) and proposing community tools (visibility tracker, shared FAQ resources)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is logically organized, makes a plausible causal chain (rising use of LLMs \u2192 need for machine-legible content \u2192 practical AEO steps), and gives concrete, actionable recommendations plus sensible caveats. It cites reputable sources (McKinsey, Pew, an arXiv paper) to establish the trend toward AI-first information-seeking and connects to standard web practices (schema, knowledge graphs). Weaknesses: It relies on plausible but partly speculative claims about downstream impacts (fundraising, policy influence) without empirical tests or case studies showing AEO measurably increases AI citations, donations, or advocacy outcomes. It also under-emphasizes heterogeneity in LLM behavior (closed models, different retrieval pipelines) and lacks quantitative cost\u2013benefit estimates. Overall the thesis is reasonable and usefully argued, but evidence for real-world impact is incomplete."
+  },
+  "PostExternalValidation": {
+    "post_id": "6Mos9jukfPzFQPWkm",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s core empirical claims are well-supported: (a) generative-AI/chatbot use is growing and is concentrated among younger people (Pew; other surveys); (b) search/answer interfaces that synthesize web sources (Perplexity, Google SGE/AI Overviews, chat+search features) have emerged and change how content is consumed; and (c) academic work (GEO) and industry guidance (structured data / schema.org) show that content format, structure, and citations affect whether AI systems surface or cite a source. However, there are a few inaccuracies or overstatements: the specific McKinsey stat the post cites (\u201cover 30% of Gen Z respondents reported using generative AI tools as a first stop\u2026\u201d) does not appear in McKinsey\u2019s 2024 organizational survey (that report focuses on organizations and workplace adoption), so that specific phrasing/figure lacks a clear source. Also the post\u2019s reference for GEO appears to misname the authors (the widely-cited GEO paper is Aggarwal et al., arXiv/KDD). Overall the practical recommendations (HTML over PDFs, use of FAQ/HowTo schema, clearer Q&A headings, public Wikidata/Wikipedia presence) are consistent with Google/industry guidance and the GEO research findings that structured, readable content and explicit citations improve visibility in generative-engine outputs.",
+    "sources": [
+      "McKinsey & Company \u2014 The state of AI in early 2024: Gen AI adoption spikes and starts to generate value (May 30, 2024).",
+      "Pew Research Center \u2014 How Americans use ChatGPT / Pew short reads (multiple reports, e.g., 2023\u20132025 updates showing younger adults and teens are more likely to use ChatGPT).",
+      "Aggarwal P. et al., 'GEO: Generative Engine Optimization' (arXiv:2311.09735; KDD 2024 proceedings) \u2014 empirical results showing GEO methods can increase visibility in generative-engine responses.",
+      "Google Search Central \u2014 Structured data docs and feature guides (FAQPage, HowTo, intro to structured data) and blog posts on changes to FAQ/HowTo rich results (Google Developers).",
+      "Google Search Central \u2014 File types indexable by Google / PDFs in Google Search results (guidance that PDFs are indexable but structured-data features are implemented via HTML/JSON-LD).",
+      "Perplexity AI (product description / documentation and public reporting) \u2014 example of a generative answer engine that returns synthesized answers with citations (shows how AI-driven tools surface web sources).",
+      "ACM / KDD proceedings listing for GEO (GEO accepted/published in KDD 2024) \u2014 confirms peer-reviewed presentation of GEO research."
+    ]
+  }
+}

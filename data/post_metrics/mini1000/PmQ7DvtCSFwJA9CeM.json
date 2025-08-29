@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a time-sensitive fundraising plea for two GiveWell-recommended charities. It is useful and actionable for individuals looking to give right now (especially within the EA community), but it does not advance foundational arguments or change major policy/worldview choices. If acted on, it can directly fund cost\u2011effective interventions and save lives, but the post itself has limited scope and reach and is not strategically critical."
+  },
+  "PostRobustness": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix inconsistent / misleading numbers and arithmetic. Several claims contradict each other (e.g. \u201c$1 per child per year\u201d but later \u201c$100 can protect ~67 children\u201d \u2014 $100 at $1/child would protect ~100 children). Also the statement \u201cCan save a life for approximately $3,500\u201d is ambiguous and risks being conflated with your $3,500 campaign goal. Before publishing, reconcile every per-child / per-life / per-cycle number, show the calculation used (e.g. $ per child = total program cost divided by beneficiaries; cost-per-life-saved = based on estimated lives averted in a season), and avoid implying equivalence between your campaign goal and program cost-per-life unless that is actually true. 2) Add precise sourcing and definitions for efficacy and cost figures. EA readers expect citations: link to the relevant GiveWell pages, primary studies, or program reports for claims like \u201creduces child mortality by up to 24%,\u201d \u201creduces malaria cases by up to 75%,\u201d and the per-cycle or per-child cost figures. Also define terms such as \u201ctreatment cycle\u201d (how many cycles per season, which age groups are covered, whether cost includes distribution/monitoring), and clarify whether the mortality/case-reduction figures are relative reductions, point estimates, or upper-bound estimates from specific trials. 3) Be transparent about the fundraising mechanism and fees. Say whether those JustGiving pages are official charity pages or personal fundraisers, whether donations go directly to the charities, what platform/processing fees (including crypto via Giving Block) apply, and whether donations are tax-deductible for major jurisdictions. Small trust-related details like this materially affect donation decisions and reduce friction for skeptical donors. Addressing these three issues will make the post much clearer, more credible, and more likely to convert readers into donors.",
+    "improvement_potential": "Targets clear, high-impact errors (contradictory arithmetic, ambiguous $/life wording) that would embarrass the author if unnoticed; also correctly demands citations and donation-mechanism transparency that matter for trust. Fixes are straightforward and won't greatly bloat the post, so implementing them would substantially improve credibility and conversion."
+  },
+  "PostAuthorAura": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No notable presence in EA/rationalist circles or in the broader public as of my 2024-06 knowledge cutoff. 'Agent Village (bot)' appears to be a niche or pseudonymous bot/account with minimal reach; I could reassess with a link or more context."
+  },
+  "PostClarity": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "clarity_score": 8,
+    "explanation": "Well-structured, urgent and easy to follow with clear headings, concrete stats, and direct calls to action \u2014 links and donation steps are prominent. Weaknesses are minor: duplicated links/numbering, some awkward formatting (extra dashes), and a couple of ambiguous or unsupported phrasings (e.g., \"can save a life for approximately $3,500\" and the $100 \u2192 ~67 children figure) that reduce precision."
+  },
+  "PostNovelty": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "novelty_ea": 1,
+    "novelty_humanity": 2,
+    "explanation": "This is a routine fundraising appeal for well-known, GiveWell-recommended interventions (vitamin A supplementation and seasonal malaria chemoprevention) with standard cost-effectiveness figures and donation links. EA readers will find nothing new \u2014 both the charities and the metrics are widely discussed in the community. For the general public it\u2019s also a very familiar type of charity pitch; the only mildly specific elements are the exact cost-per-life-saved numbers and the use of crypto giving, which aren\u2019t particularly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post makes a clear, logically consistent case (promote GiveWell-recommended interventions that are high-impact per dollar) and uses concrete, relevant statistics to motivate donations. Weaknesses: Key empirical claims (24% mortality reduction, $1 per child, 75% reduction in cases, ~$3,500 per life saved) are presented without citations or discussion of underlying assumptions, uncertainty, or context (baseline mortality, geographic scope, coverage). For an EA audience the numbers are plausible and consistent with GiveWell/primary-trial summaries but the lack of sources and nuance (e.g., variation by setting, how cost-per-life-saved was calculated) weakens the evidentiary support."
+  },
+  "PostExternalValidation": {
+    "post_id": "PmQ7DvtCSFwJA9CeM",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are supported by trustworthy sources. Evidence-based points that check out: (1) both Malaria Consortium SMC and Helen Keller International (VAS) are GiveWell-recommended/top charities; (2) vitamin A supplementation trials have reported up to a ~24% reduction in all-cause child mortality in meta-analyses (older RCT meta-analyses), and GiveWell reports per-dose delivery costs of about $1\u2013$1.10; (3) SMC trials and program-scale studies report very large reductions in clinical malaria (commonly up to ~70\u201380%) and per-cycle delivery costs around $1.3\u2013$1.4, so the post\u2019s \u201c~$1.50 per cycle\u201d and \u201cup to 75%\u201d efficacy are reasonable summaries; (4) GiveWell\u2019s modeled cost-per-life-saved for SMC and VAS falls in the low-thousands (GiveWell states roughly $2k\u2013$7k per death averted depending on location), so the post\u2019s ~$3,500-per-life figure is a plausible point estimate but uncertain and location-dependent. Caveats / minor problems: (a) the post contains a numerical inconsistency \u2014 it claims VAS costs \u201c~$1 per child per year\u201d but also says \u201c$100 can protect ~67 children\u201d (that implies \u2248$1.49/child); GiveWell/analyses put per-dose delivery at \u2248$1.00\u2013$1.10 so $100 would protect ~90\u2013100 children, not ~67; (b) the single-number \u201c$3,500 to save a life\u201d compresses GiveWell\u2019s much wider location-dependent range ($2k\u2013$7k or ~$1k\u2013$8.5k in GiveWell\u2019s VAS page); (c) the fundraising totals and percentages are verifiable via the cited JustGiving pages but may change over time (the JustGiving snapshot I viewed shows totals very close to the post but with small differences, likely due to timing/currency conversions). Overall: well-supported claims with a few oversimplifications and one clear arithmetic/inconsistency in the $100 -> 67 children line.",
+    "sources": [
+      "GiveWell \u2014 Helen Keller International\u2019s Vitamin A Supplementation Program (GiveWell charity page).",
+      "PubMed / Imdad et al. systematic review/meta-analysis: 'Vitamin A supplements for preventing mortality, illness, and blindness in children aged under 5' (reports ~24% reduction). https://pubmed.ncbi.nlm.nih.gov/21868478/",
+      "Founders Pledge summary of HKI VAS (cost per capsule ~ $1.10).",
+      "GiveWell \u2014 Seasonal Malaria Chemoprevention (SMC) technical/program page (cost-per-cycle estimates ~$1.32\u2013$1.37; cost-per-death-averted ~ $2,000\u2013$7,000).",
+      "GiveWell blog/example: 'How Much Does It Cost To Save a Life?' (example using Malaria Consortium; $3,000 donation -> ~1 life saved in their Nigeria example).",
+      "WHO \u2014 Updated WHO recommendations and field guidance on Seasonal Malaria Chemoprevention (notes ~75% prevention in trials / high efficacy).",
+      "Systematic review/meta-analysis of SMC (PMC / NCBI \u2014 shows large reductions in clinical malaria, e.g. rate ratio \u22480.27 \u2248 ~73% reduction).",
+      "Malaria Consortium \u2014 'What is seasonal malaria chemoprevention?' (states trials show up to 75% prevention and program-level info).",
+      "JustGiving \u2014 Claude Sonnet fundraiser page for Helen Keller International (snapshot showing ~US$1,501 total at time of access).",
+      "JustGiving \u2014 Claude Sonnet fundraiser page for Malaria Consortium (snapshot showing ~US$502.26 total at time of access)."
+    ]
+  }
+}

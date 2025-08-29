@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a useful, relatable datapoint for the EA/rationalist community about burnout, time allocation, and the difference between busyness and impact. It can modestly influence community norms, retention, and individual choices about volunteering versus personal life, but it is anecdotal rather than foundational strategy or evidence. For general humanity it\u2019s sensible personal-advice with limited novelty or large-scale implications."
+  },
+  "PostRobustness": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Be concrete about what you mean by \u201cworked too much\u201d and \u201clow value.\u201d Right now the post is mainly a confession; readers (and other EAs) will get more out of it if you give one or two short, specific examples: name a project or type of activity, the approximate weekly hours it consumed, and why you now judge it as low-impact (no traction, duplicated effort, poor allocation of your comparative advantage, opportunity cost). If you don\u2019t want to name projects, state a clear metric you used (e.g. zero measurable outputs after X months, or getting <Y hours of deep work per week) so readers can map your conclusion to their own situation. Suggestion copyable into the post: \u201cFor example, I spent ~10 hrs/week on X for 18 months and saw no measurable traction on Y, which made me reassess the value of that time.\u201d\n\n2) Address the main counterarguments and trade-offs you likely overlooked. Many readers will wonder: what about community gaps, momentum loss, or career effects if multiple people step back? Briefly acknowledge these risks and describe how you handled them (delegation, succession, pausing vs quitting, trial reductions) or why you think they\u2019re acceptable in your case. Actionable phrasing: one short paragraph saying whether you transitioned responsibilities, tested a reduced-hours trial, or have a plan if important tasks fall through. That reduces potential pushback and makes your reflection more useful.\n\n3) Give 2\u20133 practical heuristics readers can apply immediately. Right now the post tells people to \u201cconsider cutting back\u201d but doesn\u2019t help them decide. Useful, compact heuristics you could add: a) caps (e.g. don\u2019t exceed X hours/week on extracurricular EA work while in full-time study/job), b) impact check every 3\u20136 months (list: outcomes produced, unique value you add, personal wellbeing), c) red flags that you\u2019re doing too much (consistent drop in relationships, creativity, or sleep). Keep them short \u2014 a sentence each \u2014 so the post stays brief but becomes actionable.",
+    "improvement_potential": "Good, actionable feedback that points out the post\u2019s main weaknesses: vagueness about what \u201ctoo much\u201d and \u201clow value\u201d meant, failure to address trade-offs (community gaps, succession), and lack of concrete heuristics for readers. These are the kinds of \u2018own goals\u2019 that make a reflection less useful than it could be, and fixing them would substantially improve the post without making it long. The suggestions are concise and directly applicable, so implementing them would meaningfully raise the post\u2019s usefulness."
+  },
+  "PostAuthorAura": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence up to my 2024-06 knowledge cutoff that Lucas Lewit-Mendes is a recognized figure in the EA/rationalist community or more broadly \u2014 no notable publications, talks, organizational roles, or a clear online footprint. Could be a private individual or pseudonym; not known publicly."
+  },
+  "PostClarity": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "clarity_score": 8,
+    "explanation": "The post is straightforward, well-structured and easy to follow: it states the problem, gives brief background, reflects on causes, and offers a clear personal resolution. It is appropriately concise and readable, but has a small typo (\"negelected\") and could be marginally stronger by giving a bit more concrete detail or examples about which projects were low-value or how the new time allocation will work in practice."
+  },
+  "PostNovelty": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "The core ideas \u2014 EA community members burning out on side projects, conflating effort with impact, and choosing to prioritise relationships and cut back \u2014 are very familiar within EA circles (frequent posts/discussions). For the general public this is even less novel: work\u2011life balance and regrets about overworking are widespread and well\u2011trodden themes. The post's personal framing and modest time-budget suggestion are not conceptually new."
+  },
+  "PostInferentialSupport": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is clear, coherent and candid; it identifies plausible mechanisms (confusing effort for impact, diminished creativity when overworked) and gives a concrete, modest plan. Weaknesses: it is an anecdotal reflection with no empirical data, limited causal argumentation, and little engagement with alternative explanations or counterevidence, so the claim is plausible but not well-supported as a general recommendation."
+  },
+  "PostExternalValidation": {
+    "post_id": "CGHwrEcEEKLSpnYY7",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Most of the post\u2019s statements are first\u2011person, subjective claims about the author\u2019s own time use and feelings (e.g., \u201cover the past 4\u20135 years I\u2026\u201d, \u201csometimes this became 10\u201315 hours per week\u201d, \u201cI\u2019ve never felt burnt out\u201d), which are not verifiable from public sources. I could not locate a public EA Forum post with that exact title, though the author (Lucas Lewit\u2011Mendes) does have an EA Forum profile and other posts. Independent, reputable literature and EA\u2011community writing support the general substantive claim that sustained overwork can reduce creativity, harm wellbeing, and increase health risks (so the cautionary conclusion is well supported), but the specific numeric and experiential claims in the post are inherently personal and lack external verification. Therefore the accuracy judgment is \u201cmixed/uncertain.\u201d",
+    "sources": [
+      "Lucas Lewit\u2011Mendes \u2013 EA Forum profile (EA Forum user page; shows author exists and has posts)",
+      "Burnout: What is it and how to Treat it. \u2014 EA Forum (discussion summarising evidence and community experience around burnout)",
+      "80,000 Hours: 'Bad habits among people trying to improve the world' \u2014 EA Forum / 80,000 Hours commentary (on overworking and using hours as proxy for impact)",
+      "WHO / ILO joint press release: 'Long working hours increasing deaths from heart disease and stroke' (17 May 2021) \u2014 World Health Organization",
+      "Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours (WHO/ILO Joint Estimates) \u2014 PubMed / Environment International / Lancet\u2011cited meta\u2011analyses"
+    ]
+  }
+}

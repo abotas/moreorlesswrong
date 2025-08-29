@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "For the EA community this is moderately important: verifying a claim that a charity can 'save a life for $1,600' could materially shift funding decisions and allocation of marginal donations, so scrutiny and due diligence matter. However it is not foundational to EA/worldview or to major longtermist questions, and the scale/capacity of a single charity is limited. For general humanity it is of minor importance: if true it could save some lives, but it\u2019s unlikely to change global outcomes or systems on its own."
+  },
+  "PostRobustness": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Demand direct evidence of mortality impact and the study design. The claim \"save a life for $1,600\" hinges on showing people who would otherwise have died were in fact kept alive. Ask the charity for: (a) raw outcome data (deaths and person-time) and where/when it was collected, (b) the study design or attribution strategy (RCT, matched comparison, before/after with controls, regression discontinuity, etc.), (c) sample sizes and statistical uncertainty. If they only have plausibility arguments or quality-of-life measures, treat the \"lives saved\" number as speculative.\n\n2) Verify the counterfactual, assumptions and cost breakdown behind the $1,600 figure. Specific questions: (a) exactly how they define \"a life saved\" (death averted vs life-year/DALY), (b) baseline risk/probability of death without the intervention, (c) whether they count only direct program costs or include fundraising/overhead and fixed costs, (d) unit costs and scalability (does cost per beneficiary rise or fall with scale?), and (e) whether they model substitution effects or donor fungibility. Large changes in any of these assumptions can easily turn $1,600 into $5k+.\n\n3) Look for independent verification, transparency and generalisability concerns. Ask for third-party evaluations, audits, or replication attempts and for documentation you can inspect (monitoring protocols, cause-of-death verification, beneficiary lists). Consider plausible counterarguments they may be underestimating (selection of lowest-cost/high-impact cases, short follow-up that misses later deaths, non-random programme rollout, and reporting biases). If these are unresolved, either treat donations as higher-risk or restrict them until better evidence is available.\n\nBonus tactical suggestion: send the above questions to the charity and to the Happier Lives Institute reviewer and compare answers; if responses are partial, don't assume legitimacy \u2014 push for data and an explicit counterfactual model before donating several thousand more.",
+    "improvement_potential": "The feedback hits the main omissions: the author treats a '$1,600 lives saved' claim as credible without requesting primary mortality data, an attribution design, or a clear counterfactual and cost breakdown. The suggested checks (study design, raw outcomes, baseline risk, unit/fixed costs, verification, and bias concerns) are highly actionable and would prevent the author making a basic own-goal by taking an unexplained headline figure at face value. It doesn\u2019t require a long rewrite \u2014 just adding these specific questions or requests to the post (or asking the charity/HLI directly) would substantially improve its quality and protect against major mistakes."
+  },
+  "PostAuthorAura": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No known presence under the handle 'wibnlypando47' in EA/rationalist communities or public sources; appears to be a pseudonymous/rare online account with no notable publications, talks, or citations. Provide links or context if you want a more specific check."
+  },
+  "PostClarity": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "clarity_score": 7,
+    "explanation": "The post is short, direct, and easy to understand: it asks whether Taimaka is legitimate and whether their claim of saving a life for ~$1,600 is plausible, provides relevant links, and compares to other EA estimates. Weaknesses: it doesn't define key terms (what 'save a life' means or which metric/formula from GiveWell is being used), omits supporting data or timeframe for the $1,600 figure, and has minor wording issues \u2014 details that would help experts give a precise answer."
+  },
+  "PostNovelty": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "novelty_ea": 2,
+    "novelty_humanity": 5,
+    "explanation": "For an EA Forum audience this is not very novel \u2014 people here frequently debate small charities' cost-per-life claims, compare GiveWell-style calculations, and scrutinize new entrants with summaries from groups like HLI. The only mildly new element is the specific Taimaka claim of ~$1,600 per life, but the form of the question and evaluation approach is common. For the general public it's moderately novel: non\u2011EA readers are less likely to have seen detailed cost\u2011per\u2011life comparisons or GiveWell-style evaluation methods, so the specific framing and figures are somewhat original to that audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "The post raises a relevant question and cites the charity and a Happier Lives Institute summary, but it does not present a structured argument or the methodological details needed to justify the extraordinary claim that Taimaka can reliably 'save a life' for ~$1,600. Key reasoning gaps include no clear counterfactual, no breakdown of costs or number-needed-to-treat, no description of the causal pathway to avert death, and unquestioned reliance on the charity's headline claim and an HLI page focused on wellbeing rather than mortality. Empirical evidence is very limited in the post: no impact evaluations (RCTs or quasi-experimental), no mortality or event-rate data, no independent external review showing lives saved, and no sensitivity/uncertainty analysis. Overall, the claim is poorly supported by the content provided; more detailed, independent evidence (mortality impact, cost-per-life-saved calculation, monitoring/verification, external replication) would be required to raise confidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "76JFQqGJxY3nqvmqH",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Strengths: Taimaka is a real 501(c)(3) (EIN 84-3964208) and is evaluated by independent groups (GiveWell recommended grants to Taimaka in 2024\u20132025 and published a public CEA; Happier Lives Institute and Founders Pledge have published favourable but different analyses). Taimaka\u2019s own materials state a cost-per-life-saved range of ~$1,597\u2013$4,453 (so the ~$1,600 figure appears on their public impact page). Weaknesses / caveats: independent GiveWell modelling for the grant implies a cost per death averted closer to ~$4,200\u2013$4,300 (GiveWell\u2019s model estimates ~375 deaths averted for an annual cost of ~$1.596M \u2192 \u2248 $4.26k/death), and GiveWell notes substantial uncertainty in key inputs (untreated mortality, treatment effect, coverage). Other EA-relevant estimates (GiveWell\u2019s general guidance) put the cost to save a life for top-recommended interventions in roughly the $3k\u2013$5.5k range. Thus the post\u2019s headline claim (Taimaka can save a life for ~$1,600 \u201cusing GiveWell\u2019s formula\u201d) is partly true (Taimaka reports a lower-bound figure \u2248 $1,597) but is optimistic relative to GiveWell\u2019s independent estimate for the funded program (~$4.3k). Overall most major empirical claims are supported but important modelling uncertainty and definitional differences remain.",
+    "sources": [
+      "Taimaka \u2014 Impact page (taimaka.org/impact) \u2014 shows $1,597\u2013$4,453 cost-per-life-saved and $94 cost-per-child.",
+      "GiveWell \u2014 'Taimaka - Acute Malnutrition Treatment in Gombe State, Nigeria' (GiveWell grants summary, published June 2025) \u2014 explains GiveWell's recommendation and links to CEA and discusses uncertainty. (givewell.org/research/grants/taimaka-acute-malnutrition-treatment-in-gombe-state-nigeria-november-2024-and-program-monitoring-march-2025).",
+      "GiveWell \u2014 Taimaka CEA (public Google Sheets linked from GiveWell page) \u2014 shows annual cost ~$1,595,995 and adjusted deaths averted ~375 (implying \u2248 $1,595,995 / 375 \u2248 $4,256 per death averted). (GiveWell CEA Google Sheet linked from GiveWell grant page).",
+      "GiveWell \u2014 'How Much Does It Cost To Save a Life?' (April/Feb 2024) \u2014 GiveWell\u2019s general benchmark that many top programs cost roughly $3,000\u2013$5,500 per life saved and explanation of why per-life numbers can be higher than per-unit costs. (givewell.org/how-much-does-it-cost-to-save-a-life.html).",
+      "Happier Lives Institute \u2014 'Does a well-fed infancy make for a more felicitous life? How treating malnutrition impacts happiness' (Nov 2024) and HLI Taimaka summary (Dec 2024) \u2014 independent wellbeing-centred CEA concluding Taimaka appears promising but noting high uncertainty. (happierlivesinstitute.org/report/how-treating-malnutrition-impacts-happiness-a-charity-evaluation-of-taimaka/ and happierlivesinstitute.org/taimaka-summary).",
+      "ProPublica / GuideStar / Charity Navigator entries for Taimaka (EIN 84-3964208) \u2014 evidence Taimaka is a registered US 501(c)(3) nonprofit. (ProPublica Nonprofit Explorer; GuideStar profile)."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful capacity-building announcement rather than a novel argument or evidence piece. For the EA/AI-safety community it has modest importance: it helps grow talent and diversify the field (especially in India), which is valuable for long-term pathways and community-building, but the post itself is not load-bearing for major decisions or theory. For general humanity it is of low importance \u2014 training more people in AI safety is beneficial in aggregate, but a single program announcement has minimal direct impact on broad outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix the timeline/selection-date error and make schedule clear. The post currently says \u201cApplications Close\u201d and \u201cParticipants Notified\u201d both on May 10th \u2014 that looks like a typo and will confuse applicants. State realistic dates (e.g., applications close May 10, notifications by May 17) and include timezone(s) for synchronous sessions and deadlines. Also say how many people you\u2019ll accept and whether there will be rolling admissions or waitlists.\n\n2) Add credibility and concrete program logistics. As written, the program is vague about who will teach/mentor, how projects are supervised, and what participants will produce. Readers (and applicants) want to know: instructors/mentors (names + short bios or affiliations), partner organizations or funders, cohort size, selection criteria, example project topics, assessment/certification, and what support (compute, datasets, stipends) you provide. Even brief bullets for each will greatly increase trust and reduce questions.\n\n3) Avoid misleading comparisons / clarify inspirations. Saying projects are \"inspired by top global programs (e.g., BlueDot, Atlas)\" risks confusing or overstating links to those organizations (BlueDot is an epidemiology firm; \u201cAtlas\u201d is ambiguous). Either remove or replace with accurate, relevant examples from AI safety education (or explain in one sentence what you mean by \u201cinspired by\u201d). Also clarify the intended audience: you call it India-rooted yet a \"Global Cohort\" \u2014 state whether non-India applicants are welcome and how you\u2019ll handle timezone/language differences.\n\nImplementing these three fixes will remove the largest credibility and clarity risks and reduce follow-up questions from applicants.",
+    "improvement_potential": "Targets the post\u2019s biggest clarity and credibility problems: the obvious timeline typo (an own-goal that will confuse applicants), lack of instructors/mentors, cohort size, selection criteria and support details (which undermine trust), and a misleading/ambiguous name-drop (BlueDot/Atlas) plus unclear audience/timezone policy. Fixing these is high-impact and wouldn\u2019t bloat the post much \u2014 the suggestions are specific and actionable, so applying them would materially improve applicant understanding and reduce follow-ups."
+  },
+  "PostAuthorAura": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find any identifiable public profile, publications, or notable contributions under the handle 'adityaraj@eanita'. It appears to be a private email/username or obscure pseudonym with no visible presence in EA/rationalist channels or the broader public record. Provide links or more context for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, easy to read, and contains clear headings, logistics (dates, format, time commitment), and a prominent call-to-action, making it highly comprehensible and persuasive for prospective applicants. Minor weaknesses: a small timeline ambiguity (participants notified 'by' the same day applications close), light on specific curriculum/instructor or selection-criteria details, and a bit of promotional repetition \u2014 improvements here would make it fully clear and even more compelling."
+  },
+  "PostNovelty": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an events/program announcement rather than a new idea. EA Forum readers will find it quite familiar \u2014 many similar AI-safety bootcamps, cohorts, and beginner-friendly programs already exist. The only mildly novel angle is the India-rooted, global cohort emphasis and outreach framing, but the core claims (free 10-week intro, projects, small groups) are standard. For the general public it's slightly more novel because AI-safety-specific training and India-focused initiatives are less ubiquitous, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post is clear, well-structured and makes a coherent case for why a free, beginner-friendly 10-week program could help build capacity and community in AI safety (it states goals, target audience, format, time commitment, and practical project work). Weaknesses: The core claims (that the program will meaningfully 'build a movement', equip participants for impactful work, and boost India\u2019s leadership) are asserted rather than demonstrated. There is almost no empirical evidence or concrete supporting details \u2014 no curriculum syllabus, instructor credentials, partner organizations, past outcomes or metrics, selection criteria beyond general motivation, or evaluation plan. Some name-dropping of programs (BlueDot, Atlas) is not explained. Overall: plausible and organized as a recruitment post, but weakly supported as an argument that the program will achieve the significant impacts claimed."
+  },
+  "PostExternalValidation": {
+    "post_id": "DYbxFGaFvhnBrQAoD",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported by public sources: the EA Forum announcement exists and matches the text; AI Safety India has a functioning website (including the Fundamentals of Safe AI program page), a LinkedIn organisation page naming Aditya R., and the posted Airtable application link is referenced on multiple pages. Related programs named as inspirations (BlueDot / Atlas) exist in the AI-safety/education space (though calling them \u201ctop global programs\u201d is subjective). Weaknesses: I could not open the Airtable form from this environment (Airtable blocked), some internal program details (exact group sizes, session scheduling, and whether the program actually ran on the stated June 1 \u2192 mid\u2011August schedule or participant outcomes) are only asserted by the organisers and public posts; where claims are subjective (e.g., \u201cIndia\u2019s AI ecosystem is growing faster than ever\u201d) I cite general news showing growing AI activity in India but note it\u2019s a qualitative claim.",
+    "sources": [
+      "EA Forum post: Applications Open: AI Safety India Phase 1 \u2013 Fundamentals of Safe AI (Global Cohort) \u2014 Effective Altruism Forum (Apr 28, 2025).",
+      "AI Safety India \u2014 official site (aisafetyindia.com) \u2014 Home and Fundamentals of Safe AI pages.",
+      "AI Safety India \u2014 LinkedIn company page (shows organisation, staff including Aditya R., and posts by selected participants).",
+      "GreaterWrong / LessWrong mirror of the announcement (Fundamentals of Safe AI \u2013 Applications Open).",
+      "BlueDot / Bluedot AI Safety Fundamentals Community (evidence of a BlueDot AI safety community).",
+      "Atlas Fellowship (program pages showing an Atlas fellowship / training program in related domains).",
+      "India AI / AI safety policy coverage (e.g., news coverage and India AI Safety Institute references) \u2014 supports the broader claim of growing AI activity in India."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical program announcement for recruiting and converting mid\u2011career professionals into higher\u2011impact EA-aligned roles. The post is not foundational or paradigm\u2011shifting for EA theory or strategy, but it is moderately important operationally: it helps the talent pipeline, capacity building, and career support (the cited outcomes \u2014 ~38 of 143 transitioned, ~70 taking concrete steps) suggest a nontrivial but limited effect. If the claims are wrong, the loss is mostly modest (misallocated time/expectations) rather than catastrophic. For general humanity the impact is small because the audience is narrow and the scale limited."
+  },
+  "PostRobustness": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Outcome claims need much more clarity and humility \u2014 currently the headline numbers (e.g. \u201c38 participants out of 143 transitioned into high\u2011impact careers\u201d) are ambiguous and imply causation. Actionable changes: define exactly what \u201ctransitioned\u201d means (job title, organization type, time window after the program), report the follow\u2011up period, say whether those changes are directly attributable to IAP (vs. self\u2011selection), and indicate how you tracked outcomes (survey response rate, independent verification). If you don\u2019t have strong causal evidence, rephrase to be explicit about correlation/self\u2011selection and consider saying \u201cparticipants who completed the program later took X steps\u2026\u201d instead of implying the program caused the transitions.  \n\n\n2) Add the practical details applicants need to decide whether to apply \u2014 omission of these is an \u201cown goal\u201d because they are among the first questions a reader will have. Actionable changes: state program cost (or explicitly say it\u2019s free), expected cohort size, selection criteria and acceptance rate (or at least how you choose participants), exact weekly time commitment including 1:1 time, time\u2011zone / scheduling constraints for live sessions, facilitator names and short bios or qualifications, and whether any materials or job\u2011search help are conditional on payment/placement. Either put these in the post or add a short \u201cQuick facts\u201d bulleted box linking to the FAQ.  \n\n\n3) Disclose potential conflicts of interest and selection bias around talent\u2011directory marking and outcomes. Actionable changes: explain how marking a profile in HIP\u2019s Talent Directory works, whether employers pay for placements or access, and what safeguards you have to avoid favoritism. Also acknowledge selection bias (participants are self\u2011selected, likely already motivated/able to switch) and briefly note how that limits the generalizability of your success rates. This builds credibility and helps potential applicants evaluate expected return on their time.",
+    "improvement_potential": "Strong, actionable critique that targets major credibility and applicant\u2011decision failures in the post: ambiguous outcome claims that imply causation, missing practical applicant details (cost, cohort size, timezones, facilitator credentials), and undisclosed conflicts/selection bias around the talent directory. Fixing these would materially improve trustworthiness and usefulness to readers without unreasonable lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could find no evidence that 'High Impact Professionals' is a recognized author or persona within the EA/rationalist community (no notable posts on EA Forum/LessWrong/80,000 Hours or frequent citations). Likewise there is no sign of broad public recognition \u2014 appears to be a small/obscure entity or pseudonym with minimal online footprint."
+  },
+  "PostClarity": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to understand: it states the purpose, target audience, concrete dates/deadline, program format, objectives, and outcomes with useful statistics. It makes a clear, compelling case for applying. Minor weaknesses are occasional formatting/typography hiccups, a slightly promotional tone, and some repetition that could be trimmed for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an announcement for a familiar type of EA career-development program; EA Forum readers have seen many similar posts (program descriptions, calls for applications, and alumni outcome claims), so it\u2019s not very novel. The only modestly new elements are the specific outcome metrics (conversion numbers/pledges) and the targeting of mid-career/senior EA-aligned professionals with a talent-directory signal. To the general public the EA framing and pledge/statistics may be somewhat unfamiliar, but the idea of an impact/career accelerator is commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post lays out a clear, internally consistent logic connecting program activities (coaching, action plans, networking) to the intended outcomes, and it provides concrete outcome-style metrics (numbers of participants, transitions, and pledges). Weaknesses: The argument implicitly attributes participant outcomes to the program without addressing selection effects, attribution, or counterfactuals. The evidence is thin on definitions (what counts as a 'transition' or 'concrete action'), verification methods, timing, and long-term impact; sample sizes are modest and likely subject to self\u2011reporting bias. Overall, the claims are plausible and somewhat encouraging but not rigorously supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "zqnjGpZknBsABnuzo",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / uncertain. The core claims that High Impact Professionals (HIP) runs a 6\u2011week Impact Accelerator Program, that a new round was open for applications, and the program format/dates are well supported by HIP\u2019s own website and the EA Forum announcement. However, the quantitative claims about numbers of participants, career transitions, and giving pledges are self\u2011reported by HIP and are inconsistent across HIP/EA Forum posts and pages (numbers change across different announcements and the public site metrics). I found no independent third\u2011party audit or published methodology that verifies the specific counts (e.g., 38 of 143 transitioned; 70 taking concrete actions; 18 + 8 pledges). Because the key empirical claims are internal, evolving, and not independently verifiable from external sources, I rate the post as partially supported but not fully validated.",
+    "sources": [
+      "EA Forum \u2014 \"Applications Open for Impact Accelerator Program for EA Professionals\" (High Impact Professionals), Mar 31 2025 \u2014 post text with the claims being evaluated. https://forum.effectivealtruism.org/posts/zqnjGpZknBsABnuzo/applications-open-for-impact-accelerator-program-for-ea",
+      "High Impact Professionals \u2014 Impact Accelerator Program page (program description, format, \u2018IAP by the numbers\u2019 on site; current snapshots show program exists and core format). https://www.highimpactprofessionals.org/impact-accelerator-program",
+      "High Impact Professionals \u2014 homepage / Our impact so far (site metrics such as career changes and giving pledges that differ from the EA Forum post). https://www.highimpactprofessionals.org/ (see 'Our impact so far' numbers)",
+      "EA Forum \u2014 \"Winter 2025 Impact Accelerator Program for EA Professionals\" (High Impact Professionals), Nov 20 2024 \u2014 an earlier announcement showing different participant/transition/pledge counts (illustrates evolving/self\u2011reported metrics). https://forum.effectivealtruism.org/posts/Dc9RFZKHRDJqAdj7J/winter-2025-impact-accelerator-program-for-ea-professionals-1",
+      "High Impact Professionals \u2014 Open roles / organizational description (includes other reported impact numbers in job posting text; further shows internally reported, varying metrics). https://www.highimpactprofessionals.org/open-roles"
+    ]
+  }
+}

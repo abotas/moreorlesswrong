@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "value_ea": 2,
+    "value_humanity": 1,
+    "explanation": "This is a minor operational/question-of-curiosity post about how often the GWWC pledge counter updates. It may matter slightly to people tracking pledge growth or to admins, but it isn't foundational to EA principles, strategy, or major decisions and has negligible impact on broader humanity."
+  },
+  "PostRobustness": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "robustness_score": 5,
+    "actionable_feedback": "1) Missing reproducing details \u2014 include the exact URL you looked at, the time (and timezone) you saw the count, and whether you were signed in. That lets answerers check the page themselves and see caching behavior; the embedded image link may not load for everyone.\n\n2) No sign of basic troubleshooting \u2014 try and report quick checks before asking: open DevTools \u2192 Network (filter XHR/ws) and reload to see if the count is fetched from an API or a websocket; inspect page source for a JS variable or setInterval; check response headers for cache-control/age. Telling readers what you already tried will make answers more targeted and reduce back-and-forth.\n\n3) Clarify the question scope and suggest plausible causes \u2014 say whether you mean \"updated immediately on every new pledge\" or \"updated within a minute/hour,\" and note that CDN or server-side caching is a common reason for non-live counts. If you want a definitive answer, propose contacting GWWC staff or looking for a public API/endpoint (include any API URLs you find).",
+    "improvement_potential": "Practical, actionable feedback that would meaningfully improve the question (adds reproducible details and shows prior troubleshooting). These points reduce back-and-forth and help answerers test caching/refresh behavior. Not a disaster if missing, so not at the very top of the scale, but fixing them would noticeably improve the post's quality and answerability."
+  },
+  "PostAuthorAura": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence of prominence under the handle 'zeshen\ud83d\udd38' up to mid\u20112024. The name/pseudonym does not match any well\u2011known EA/rationalist authors, frequent contributors, or widely cited publications, nor a recognizable public figure. If you can share links or contexts (platform, writings), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "clarity_score": 8,
+    "explanation": "Very clear and easy to understand: a short, specific question with a screenshot and an explicit example number. It asks precisely whether the displayed count updates immediately or on a schedule. Minor weaknesses: it doesn't define the GWWC acronym for non\u2011insiders and could slightly clarify whether it means 'live on the public page' vs. back\u2011end updates (or whether pending/verified pledges are included)."
+  },
+  "PostNovelty": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is a straightforward, practical question about whether a website counter updates in real time. It raises no new conceptual claims or unusual perspectives; both EA readers and the general public commonly encounter and have considered questions about live/update frequency of counters on websites."
+  },
+  "PostInferentialSupport": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post merely asks whether the displayed pledge count is updated live and provides a single screenshot showing '9993'. There is no argumentation, hypothesis, or logical structure to evaluate, and the lone image provides no time stamps, change history, or methodology. This is insufficient evidence to support any claim about update frequency; properly supporting such a claim would require repeated timestamped observations, server/API documentation or logs, or confirmation from the site operators."
+  },
+  "PostExternalValidation": {
+    "post_id": "mzTrMAE3RHRwTwtAb",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Well-supported overall: Giving What We Can (GWWC) publicly displays a running member/pledger count on its website and pledge pages, and an EA Forum answer points to a public GWWC dashboard that shows a near\u2011real\u2011time number. That supports the poster\u2019s basic claim that a numeric pledge count (e.g. ~9,993) appears on GWWC pages and that a public dashboard exists. However, GWWC\u2019s site does not publish an explicit, authoritative statement of the exact refresh interval, so the EA Forum answer\u2019s statement \u201cit updates every hour or so\u201d appears plausible (the public dashboard is the live source) but is not documented on the official FAQ or about pages; the precise update frequency therefore remains unverified. Also, a single snapshot number (9993) is time\u2011dependent and cannot be independently confirmed now without a timestamp. ",
+    "sources": [
+      "Effective Altruism Forum \u2014 \"How often is the GWWC pledge count updated?\" (EA Forum thread quoting a dashboard link).",
+      "Giving What We Can \u2014 \"About us / Members\" (shows public member/pledger totals on the GWWC site).",
+      "Giving What We Can \u2014 \"The \ud83d\udd3810% Pledge\" / Pledge page (public pledge counts shown on the pledge page).",
+      "Giving What We Can \u2014 FAQ: \"How do I view my pledge progress / report donations on my Pledge Dashboard?\" (describes the Pledge Dashboard; no explicit refresh-interval documented).",
+      "Giving What We Can \u2014 Blog: \"10,000 pledgers and the impact of strategic giving\" (GWWC announcement of milestone, demonstrating counts change over time).",
+      "Wikipedia \u2014 \"Giving What We Can\" (summary of membership milestones and public counts)."
+    ]
+  }
+}

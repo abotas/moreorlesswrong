@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a practical, location-specific request for volunteer advice. It can be quite useful for the author and others planning similar placements (local impact, potentially better use of donated resources), and it may yield practical lessons for small-scale interventions, but it is not foundational to EA cause prioritization or global policy. If wrong or acted on poorly it could harm a local community, so advice quality matters, but the overall scale and scope of impact are limited."
+  },
+  "PostRobustness": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Provide key context you omitted \u2014 budget, exact location/region (or likely city), language ability, skills, and how much time per week you\u2019ll actually have. Without that, most replies will be generic and unhelpful. Action: add these details to the post so responders can give tailored recommendations (e.g., what kinds of projects are realistic and which charities operate in that area).\n\n2) Avoid assuming hardware donations (e.g., hippo rollers) are the right first step. Big mistake: proposing in-kind goods before a local needs assessment. Actionable guidance: commit to a community-led needs assessment on arrival, research evidence of the item\u2019s adoption/impact, consider local procurement or cash transfers instead, and pilot any distribution with a small group plus a maintenance/training plan.\n\n3) Address sustainability, safeguarding, and logistics up front. Big overlooked risks: creating dependency, failing to plan for maintenance/long-term funding, child-protection and legal/regulatory issues (working with minors, imports, taxes). Action: state that you\u2019ll coordinate with local schools/NGOs, get basic safeguarding training and background checks, plan an exit strategy and monitoring/metrics for any project, and check customs/permits before bringing goods.",
+    "improvement_potential": "This feedback identifies major, common mistakes (lack of context, proposing in-kind donations before needs assessment, and ignoring sustainability/safeguarding/logistics) and gives concrete, actionable fixes. Addressing these points would substantially improve the post and reduce risk of harm, while not imposing unreasonable length. It could be slightly improved by explicitly suggesting the most useful minimal context fields (e.g., estimated monthly budget, likely city, Malagasy/French proficiency, and weekly hours available) and by mentioning checking for reputable local partner organisations to coordinate with."
+  },
+  "PostAuthorAura": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that an author known as 'InTheSky' is a recognized figure in the EA/rationalist community or more broadly. The name appears to be a pseudonymous username with no widely cited publications, talks, or major posts tied to it. If you can provide links or context (forum, article, platform), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "clarity_score": 7,
+    "explanation": "The post is concise and easy to understand\u2014clear context (two years in Madagascar as an English teacher), a straightforward request for advice, and a concrete idea (hippo rollers). It could be clearer about key specifics that would enable targeted recommendations: what \u201cresources\u201d means (money, time, skills, networks), exact or typical location, language ability, budget constraints, goals/metrics for success, and any prior contacts or commitments. Including those details would make responses more actionable."
+  },
+  "PostNovelty": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is mostly a routine volunteer/advice-seeking post \u2014 EA readers have seen many similar threads about how to spend time and money while volunteering abroad and about cost-effective interventions. The only mildly novel elements are the specific country (Madagascar) and the suggestion of hippo rollers, but neither is a new concept; overall the main idea is common rather than original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post contains sensible high-level instincts (be guided by the community; look for practical small interventions) but offers very little structured reasoning: no needs assessment, no consideration of comparative cost\u2011effectiveness, scalability, or sustainability, and no plan for monitoring or evaluating impact. Empirical support is essentially absent \u2014 no citations, data, or evidence that hippo rollers or other suggested interventions are effective or appropriate in Madagascar. Overall the proposal is plausible as an initial question but weakly supported as a plan for using resources effectively."
+  },
+  "PostExternalValidation": {
+    "post_id": "vFTrnCBWeYfqPpJzf",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Strengths: Key empirical premises in the post are well supported \u2014 Madagascar has limited access to safely managed/basic water and very low sanitation coverage (JMP/SDG/World Bank/UNICEF data), many international NGOs (UNICEF, WaterAid, M\u00e9dair, ADRA, etc.) are active there, and Hippo Water Rollers have been distributed and used in Madagascar by NGOs. There is solid peer\u2011reviewed evidence that repeated manual water carrying is associated with musculoskeletal harm, which makes wheel/roller solutions plausibly beneficial. Weaknesses: rigorous, peer\u2011reviewed impact evaluations of Hippo Rollers (especially randomized or large observational studies in Madagascar) are sparse; much of the evidence about Hippo Roller benefits comes from NGO reports and program descriptions rather than high\u2011quality impact evaluations. Also, summary statistics on \u201curban\u201d versus \u201crural\u201d water access depend strongly on indicator definitions (basic vs. safely managed), so specific local conditions should be confirmed for the exact placement.",
+    "sources": [
+      "SDG6 Data \u2014 Madagascar country snapshot (JMP/SDG monitoring): '22% of the population in Madagascar uses a safely managed drinking water service' (2022).",
+      "World Bank press release: 'Madagascar: $220 Million to Improve Basic Water and Sanitation Services and Supply' (June 2022) \u2014 notes low access to basic water (54.4%) and very low basic sanitation (12.3%).",
+      "UNICEF Madagascar \u2014 WASH programme page (discusses low rural improved water access ~36% and sanitation challenges; NGO partnerships).",
+      "Hippo Roller (hipporoller.org) \u2014 reports on Hippo Water Roller deployments and projects in Madagascar (2015 report; 2024 program update).",
+      "Polity / background on Hippo Water Roller distribution and claims (reports ~39,000 rollers distributed across African countries including Madagascar).",
+      "PMC review: 'Domestic water carrying and its implications for health: a review and mixed methods pilot study' (2010) \u2014 documents physical load and links to spinal/musculoskeletal pain from water carrying.",
+      "PubMed (2018) cross\u2011country study: 'Carrying water may be a major contributor to disability from musculoskeletal disorders...' (large cross\u2011sectional survey across low\u2011income settings) \u2014 supports health burden of water carrying.",
+      "UNICEF press release (19 Aug 2022): 'Close collaboration between UNICEF and NGOs: ADRA Madagascar, Medair Madagascar and WaterAid Madagascar to improve access to water, hygiene and sanitation services.'"
+    ]
+  }
+}

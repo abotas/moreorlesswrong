@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This post describes a practical, potentially high-leverage tooling improvement for the EA/GCR/AI-safety ecosystem: AI-driven wargaming could cheaply scale scenario exploration, fill expert gaps, and surface obscure failure modes that organizations might miss. That makes it moderately important for the EA community \u2014 it\u2019s a useful methodological advance that could influence how groups prepare for and reason about tail risks, but it isn\u2019t a foundational theoretical claim and depends heavily on LLM fidelity, expert oversight, and uptake by decision-makers. For general humanity the impact is smaller: the tool could improve emergency preparedness if widely adopted, but that outcome is uncertain and the work has limited direct effect on most people. Note also important limitations/risks (hallucinations, overconfidence in AI-generated scenarios, and dual\u2011use concerns) which affect practical value."
+  },
+  "PostRobustness": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Over-reliance on LLM outputs without clear validation or human-in-the-loop safeguards \u2014 The post treats the Forecaster and Game\u2011Master LLMs as producing usable outcomes but doesn\u2019t describe how you will (or already do) validate those outcomes. Actionable fixes: add a short section on evaluation (backtesting against historical exercises, expert adjudication of a sample of runs, calibration tests for probabilistic outputs, and automated checks for hallucination/contradiction). Describe human-in-the-loop gating for any high-stakes judgments and what failure modes you monitor (miscalibration, repeated logical errors, omission of key actors).  \n\n2) Missing treatment of model robustness and adversarial/strategic behaviour \u2014 Wargames about high\u2011stakes actors (states, firms, rogue AIs) require modelling incentives and strategic adaptation; LLMs are poor at reliably simulating these and are vulnerable to distributional shift. Actionable fixes: (a) explicitly acknowledge limits on modelling strategic agents and list planned mitigations (ensembles, separate game\u2011theory modules, rule\u2011based constraints, expert players for key roles); (b) add adversarial testing (red\u2011teaming scenarios where actors act optimally or deceptively) and sensitivity analyses over priors and key parameters; (c) report uncertainty ranges rather than deterministic narratives.  \n\n3) Insufficient treatment of security, privacy, and misuse risks from an open Telegram bot and repo \u2014 Publicly releasing scenario tooling and chat transcripts can create actionable playbooks or be abused for social engineering. Actionable fixes: describe access controls and data handling policies (who can run sensitive scenarios, logging/retention, anonymization), add a threat model and red\u2011team plans, and commit to withholding operationally sensitive outputs (or running them only in locked environments). Also remove/flag any actionable operational or financial advice (your VXX comment) or mark it explicitly as non\u2011professional. \n\nAddressing these three points would reduce major credibility and safety gaps and make the post far more compelling for an EA audience.",
+    "improvement_potential": "The feedback hits the most important blind spots for an EA audience: lack of validation/human\u2011in\u2011the\u2011loop procedures, poor treatment of strategic/adversarial modelling, and security/privacy/misuse risks from an open Telegram bot and repo (plus the eyebrow\u2011raising finance tip). Addressing these would materially improve credibility and reduce safety risks without requiring huge additions to the post. It\u2019s not a 10 because the core idea isn\u2019t invalidated and some other topics (e.g., data provenance, evaluation metrics, prompt engineering) could also be flagged, but overall this is high\u2011impact, actionable critique."
+  },
+  "PostAuthorAura": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any prominent EA/rationalist figure named 'NunoSempere' (may be a pseudonym). There are no recognizable publications, talks, or community leadership roles tied to that name in major EA/rationalist venues or in academic and mainstream sources up to my 2024-06 knowledge cutoff. It appears to have little or no public presence."
+  },
+  "PostClarity": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear title, TOC, and sections that state the goal, how the tool works, limitations, and next steps. The core argument\u2014that AI can scale and improve wargaming\u2014is made with concrete examples and practical learnings. Weaknesses include a few typos/awkward phrasings (e.g. \u201citerate of iterating\u201d), occasional jargon and speculative asides (financial trading advice, SentinelOS) that distract from the main point, and some sections (Learnings) that could be trimmed or tightened for conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For an EA/longtermist audience this is only moderately novel: people in the space have already discussed and prototyped using LLMs/agents to automate simulations, red\u2011teaming, and scenario exploration, so the high\u2011level idea (scale wargaming with AI, include expert agents, vary scenarios) is familiar. The specific implementation choices (telegram bot, separate \u201cForecaster\u201d + \u201cGame Master\u201d LLM pipeline, ACTION/INFO/FEED interface, and operational lessons like SentinelOS) add practical detail but aren\u2019t conceptually groundbreaking. For the general educated public the post is more novel: the notion of using generative AI to run many interactive, structured wargames for global catastrophic risks and to systematically sample weird/unknown scenarios is relatively new and uncommon outside specialist communities."
+  },
+  "PostInferentialSupport": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post identifies real pain points with traditional wargaming (time, staffing, scenario variation) and gives a plausible mechanism by which LLMs could reduce those frictions (automating role-play, sampling many scenarios, retaining background detail). It describes a concrete implementation and reports some practical learnings from playtests. Weaknesses: The core causal claims (AI meaningfully improves fidelity, finds more useful \u2018grains of truth\u2019, and meaningfully improves response capabilities) are asserted with few systematic tests, no quantitative comparisons, no validation of LLM outputs against domain experts, and little discussion of key failure modes (hallucination, bias, adversarial manipulation, calibration). Some recommendations are anecdotal or outside the team\u2019s expertise (e.g., specific financial hedges). Overall the idea is plausible and worth exploring, but the post provides only limited empirical support and insufficient rigorous evaluation to strongly back its main thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "dwMYQ2SkkNB7YXmKo",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most concrete, checkable claims in the post are supported: the grim repository and README exist and document a Telegram bot using LLMs; Sentinel published the blog post; practitioners (Eli Lifland / Curve) have run tabletop AGI exercises; NATO guidance and other organisations report that wargames require substantial prep; and government/academic dashboards (e.g., bird-flu trackers) and recent projects (Johns Hopkins APL) show AI can accelerate wargaming. Weak/uncertain claims: the 5\u2013100\u00d7 quantitative scaling figure is speculative and unsupported by published empirical evidence; many operational anecdotes (e.g., specific outreach to WHO/CEPI/Gates) are unverifiable from public sources; and some technical assertions (e.g., benefits/limits of particular radio bands in emergencies) are directionally correct but context-dependent. Overall: credible and well-grounded on tool existence and the general potential for AI to scale wargaming, but several quantitative or causal claims are aspirational rather than empirically demonstrated.",
+    "sources": [
+      "GitHub - SentinelTeam/grim (README). https://github.com/SentinelTeam/grim (accessed 2025) \u2014 repo and README describing the Telegram bot and use of Anthropic/Claude.",
+      "Scaling Wargaming for Global Catastrophic Risks with AI \u2014 Sentinel blog (Jan 18, 2025). https://blog.sentinel-team.org/p/scaling-wargaming-for-global-catastrophic (post under evaluation).",
+      "AI #92: Behind the Curve \u2014 TheZvi (Nov 28, 2024). https://thezvi.wordpress.com/2024/11/28/ai-92-behind-the-curve/ (describes The Curve conference and tabletop exercises involving Eli Lifland).",
+      "Generative AI Wargaming Promises to Accelerate Mission Analysis \u2014 Johns Hopkins APL (Mar 3, 2025). https://www.jhuapl.edu/news/news-releases/250303-generative-wargaming (independent project reporting AI can speed up wargame setup/analysis).",
+      "NATO Wargaming Handbook (public release) \u2014 guidance on preparation, set-up and resource needs for wargames (discusses significant prep, training, IT/testing). (See summaries / official NATO wargaming material).",
+      "Bird Flu Risk Dashboard (birdflurisk.com) \u2014 example dashboard cited in the post. https://birdflurisk.com/ (accessed 2025).",
+      "DashFLUboard / academic dashboards and CDC H5N1 surveillance pages \u2014 examples of dashboards used in avian influenza monitoring and their public-health utility. CDC H5N1 monitoring page (updated 2025): https://www.cdc.gov/bird-flu/h5-monitoring/.",
+      "FCC 47 CFR \u00a797.301 (Authorized frequency bands for Amateur Service) \u2014 shows which bands amateurs may use and implies ELF/VLF submarine bands are not generally allocated to amateurs. https://www.law.cornell.edu/cfr/text/47/97.301.",
+      "Very Low Frequency (VLF) and Extremely Low Frequency (ELF) references (technical summaries) \u2014 VLF/ELF are used for military submarine comms and require large infrastructure, explaining practical civilian limits (see technical summaries on VLF/ELF)."
+    ]
+  }
+}

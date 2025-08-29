@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a local, tactical animal\u2011welfare protest announcement aimed at pressuring one supermarket to change shrimp\u2011handling practices. If successful it could modestly reduce suffering and raise awareness among attendees, and it may be of interest to EA members who do animal advocacy. However it is not foundational to EA priorities (AI, longtermism, global health) and has very limited scale and systemic impact on humanity overall."
+  },
+  "PostRobustness": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing evidence for major claims \u2014 add sources and precise facts.\n- Action: add links or citations for last year\u2019s turnout/impact, the supermarket commitments you cite (which supermarkets, what exactly they committed to, and when), and the Iceland admission (quote + link to the statement/press release). If you can\u2019t source a direct admission, hedge the language (e.g. \u201cICAW says eyestalk ablation occurs in parts of their supply chain\u201d) or remove the claim. Also replace the sensational phrasing (\u201ccutting shrimps eyes off and suffocating them to death\u201d) with brief, accurate terminology (e.g. \u201ceyestalk ablation\u201d and the relevant welfare harms) and a one-line explanation for non-expert readers.\n\n2) Unclear, unfocused ask \u2014 make one concrete, measurable demand.\n- Action: state a single, specific call-to-action you will present publicly to Iceland (for example: \u201cpublish a time-bound plan to end eyestalk ablation across all shrimp suppliers within 12 months, with third\u2011party verification\u201d). Give attendees a one\u2011sentence script/ask to use and suggest 1\u20132 concrete deliverables (letter drop, petition signatures, photo op) so the protest has a clear success metric to report back.\n\n3) Missing logistical and reputational details for participants.\n- Action: add concise practical info: exact meetup spot (map pin), who to contact on the day (phone or organiser name), expected activities (leafleting, chanting, delivering a letter), guidance on legal/venue rules and nonviolent conduct, whether any permits were obtained, and whether the event is coordinated with ICAW or independent. Also consider softer wording and a short note on how you\u2019ll avoid alienating EAG attendees (e.g. short, factual signs; avoid graphic images) to reduce backlash and make the protest more effective.",
+    "improvement_potential": "The feedback pinpoints the post\u2019s most important weaknesses: potential factual/claim errors (risking embarrassment or misinformation), lack of a concrete public ask (so the protest may look unfocused and have no measurable outcome), and missing practical/reputational details that matter for participant safety and effectiveness. The suggested fixes are specific and actionable and wouldn\u2019t bloat the post unduly. It\u2019s not a 10 only because the post is fundamentally an event invite rather than an argument \u2014 so the errors aren\u2019t catastrophic, but they are serious and worth fixing."
+  },
+  "PostAuthorAura": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence in EA/rationalist forums, publications, or speaker lists and no notable coverage in academic or mainstream media. Likely a pseudonymous/social account with no public prominence."
+  },
+  "PostClarity": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "clarity_score": 8,
+    "explanation": "Clear and easy to follow: gives a concise purpose, relevant background, concrete ask, logistics (date/time/place) and a sign-up link. The argument is persuasive and the call to action is explicit. Minor weaknesses: slightly graphic/emotive wording, small ambiguities about exact organisers/roles and timeline expectations, and a couple of phrasing/formatting inconsistencies that could be tightened for maximum concision."
+  },
+  "PostNovelty": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "novelty_ea": 3,
+    "novelty_humanity": 3,
+    "explanation": "The post is mainly an event announcement for a protest\u2014organizing targeted campaigns against specific supply\u2011chain animal welfare practices is a well\u2011worn tactic among EA/animal advocacy circles, so it\u2019s not very novel to EA Forum readers. The most novel element is the specific focus on shrimp eyestalk ablation and staging the protest as an annual pre\u2011EAG action, which is somewhat niche but not a fundamentally new idea. For the general public, animal\u2011welfare protests are common, though the detailed issue (eyestalk ablation of shrimp) is relatively obscure, yielding a low\u2013moderate novelty level."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post presents a simple, plausible argument (public protest can pressure retailers to change supply\u2011chain practices) and offers a concrete call to action. However, the causal claims and success story are asserted rather than demonstrated: no sources or specifics are given for the claim that \u201cthe majority of UK supermarkets have committed\u201d or that last year\u2019s action materially influenced Tesco. The factual point about Iceland/H. Walker is potentially verifiable but unreferenced. Overall the reasoning is coherent but informal and not rigorously defended, and the empirical evidence is sparse, anecdotal, and under\u2011documented."
+  },
+  "PostExternalValidation": {
+    "post_id": "nHbuCuuH6Akhi87ab",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well supported by independent sources. The Lu.ma event page and multiple news outlets confirm the June 6, 2025 protest (\u224870+ attendees) organised by the International Council for Animal Welfare. Major UK supermarkets (e.g., Tesco, Waitrose, Co\u2011op, M&S, Morrisons, Ocado and others) publicly committed in 2024\u2013mid\u20112025 to phase out eyestalk ablation and/or move to electrical stunning. Iceland was publicly targeted by ICAW protests in June 2025 and subsequently (mid\u2011July 2025) announced a timetable to eliminate eyestalk ablation and adopt electrical stunning. Small caveat: I could not find a verbatim public quote in mainstream coverage where Richard Walker himself \u201cadmits\u201d (word-for-word) eyestalk ablation occurs in Iceland\u2019s supply chain \u2014 however Iceland\u2019s corporate statements and press coverage acknowledge the issue and Iceland later set a timetable to remove the practice. Overall: claims are mostly accurate and corroborated, with only a minor attribution/wording uncertainty about a direct Richard Walker quote.",
+    "sources": [
+      "Lu.ma event page: 'The Annual Shrimp Protest (unofficial)' (event listing) \u2014 lu.ma/h642roud. (shows event text, date, organisers, and attendance).",
+      "Mercy For Animals blog: 'World\u2019s First Shrimp Welfare Demo Just Took Place in London' (May 30, 2024) & Mercy For Animals 2024 impact posts (documents protest of Tesco and link to Tesco policy).",
+      "SeafoodSource: 'Tesco lays out new shrimp-welfare policy banning eyestalk ablation' (26 Aug 2024) \u2014 documents Tesco commitments.",
+      "The Guardian: 'Waitrose to stop selling suffocated farmed prawns, as campaigners say they feel pain' (15 Feb 2025) \u2014 documents Waitrose commitment and notes other retailers' moves.",
+      "Grocery Gazette / Food Manufacture: 'Iceland targeted by protesters over prawn welfare practices' / 'Iceland sets 2027 deadline to eliminate prawn eyestalk ablation' (June\u2013July 2025) \u2014 reports the June 6 protest (70+ people) and Iceland\u2019s later commitment timetable.",
+      "The Grocer: 'Iceland becomes latest retailer to pledge prawn welfare improvement plan' (14 July 2025) \u2014 reporting Iceland\u2019s timetable to eliminate ablation and introduce electrical stunning.",
+      "Iceland Foods corporate sustainability statement: 'Iceland Foods Confirms New Timetable For Prawn Welfare' (Iceland 'Doing it Right' page) \u2014 official company announcement of timetable.",
+      "International Council for Animal Welfare (ICAW) website / press materials \u2014 describes ICAW\u2019s shrimp-welfare campaign and organising role."
+    ]
+  }
+}

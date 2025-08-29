@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical, concrete how-to for running a bookclub focused on animal advocacy and effective communication. For the EA/EAA community it has modest value: useful for community-building, onboarding, and skill development in persuasion and sustainable activism, but it is not foundational to major EA priorities or high\u2011stakes decisionmaking. For general humanity the impact is limited and local: it may nudge some people toward reduced animal product consumption but is not strategically important at scale."
+  },
+  "PostAuthorAura": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Indra Gesink \ud83d\udd38' is a known figure in the EA/rationalist community (no major posts, talks, or citations) or a publicly prominent author. The name may be a pseudonym or a minor/anonymous online contributor with little detectable public footprint (based on information available up to my 2024-06 cutoff)."
+  },
+  "PostClarity": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "clarity_score": 7,
+    "explanation": "Well-structured and readable overall: clear sections, an explicit program, and concrete reflection questions make the purpose (share a runnable bookclub format) apparent. Weaknesses are verbosity, some repetition and occasional awkward phrasing/run\u2011on sentences that make parts harder to skim or absorb quickly. The core argument is present but sometimes buried in long contextual anecdotes; trimming and tightening would improve conciseness and punch."
+  },
+  "PostNovelty": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a practical, how-to writeup for running a specific bookclub (logistics, session plan, reflection questions) rather than a novel theoretical claim. For EA readers, similar formats, facilitation tips, and discussions of Leenaert\u2019s book are already common, so novelty is low. For the general public, a tailored bookclub format with curated reflection prompts, an EA framing (Update Project, bridging EA and animal advocacy), and the idea of author Q&As is somewhat less familiar but still a moderately ordinary idea \u2014 useful but not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is well-structured, coherent and draws on facilitator experience to give plausible, actionable design choices (session structure, group size, norms, reflection prompts). It reasons clearly about why personal stories, time for introductions, and mixed analytic/personal formats support behaviour change and community-building. Weaknesses: Claims about impact (scaling, increased veganism, EA credibility) are largely speculative or anecdotal. Evidence is limited to a few anecdotes (one organizer founded a group), self-reported evaluation comments, and topical references; there are no systematic pre/post measures, control/comparison, sample sizes, or long-term follow-up. Overall, the format seems practically promising but is weakly empirically supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s externally verifiable, empirical claims are supported by trustworthy sources: Tobias Leenaert\u2019s book How to Create a Vegan World is a real, published book; Effective Altruism\u2019s \u201cImpact Books\u201d program (via impactbooks.store) does provide free-book discount codes for EA groups; an active Dutch EA animal\u2011advocacy group called \u201cEAAN / Effective Animal Advocacy Netherlands\u201d exists and public event pages and EA Netherlands pages show Ruben van den Bulck as an organiser/contact; and OPIS (Organisation for the Prevention of Intense Suffering) runs webinars and publishes guides. Those are the main factual claims a reader would check and they are corroborated. Many other claims in the post are first\u2011person or operational (e.g. \u201cI ran it 3 times\u201d, specific drop\u2011out fractions, that Tobias personally okayed sharing reflection questions, exact details of the Q&A logistics) and aren\u2019t publicly verifiable from third\u2011party sources; they should be treated as the author\u2019s report. I found no evidence directly contradicting the verifiable claims, but several of the post\u2019s empirical-sounding statements are personal/organisational anecdotes that cannot be independently confirmed from public sources. Overall: well-supported for the key external claims, but several important statements are unverifiable personal reports rather than independently documented facts.",
+    "sources": [
+      "How to Create a Vegan World \u2014 Lantern Publishing book page (Tobias Leenaert).",
+      "How to Create a Vegan World \u2014 Barnes & Noble product page (book bibliographic details).",
+      "Effective Altruism: 'Receive a book of ideas related to effective altruism \u2014 Get a copy for free through the Impact Books program' (effectivealtruism.org).",
+      "Impact Books FAQ / program pages (impactbooks.store) \u2014 explains discount-code / free-book workflow used by EA groups.",
+      "EA Netherlands \u2014 Join a group / EAAN mention (effectiefaltruisme.nl) \u2014 describes EAAN (Effective Animal Advocacy Netherlands) as an active group.",
+      "EAAN event listings (e.g. Luma event pages) showing 'EAAN: Effective Animal Advocacy Netherlands' and contact info listing 'Ruben' / rubenvandenbulck contact details.",
+      "EA Netherlands / EA UnConference post listing contact ruben@effectiefaltruisme.nl (EA forum/EA Netherlands event post) showing Ruben\u2019s involvement in Dutch EA organising.",
+      "Organisation for the Prevention of Intense Suffering (OPIS) \u2014 webinar and news pages (preventsuffering.org) documenting OPIS webinars and publications.",
+      "Holly Elmore \u2014 'We are in triage every second of every day' (EA Forum and author\u2019s blog) \u2014 confirms Holly Elmore\u2019s writing/activity referenced in the post.",
+      "Original EA Forum post being evaluated: 'Organising Bookclub: How to Create a Vegan World' by Indra Gesink (effectivealtruism.org forum post)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "EdquGJC4swcAoPdZD",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No rigorous evaluation plan / overconfident impact claims. You repeatedly assert that the bookclub produces onboarding, behaviour change and other benefits but have only anecdote and a vague post-course survey. Before publishing, add a short, concrete evaluation plan (or link the form you mentioned): specify pre/post metrics (e.g. self-reported dietary behaviour, intentions, confidence in influencing others, community engagement), sample questions, timing (immediate + 3\u20136 month follow-up), and what success looks like. This both strengthens credibility and makes it easy for others to copy your setup.\n\n2) Weak guidance on facilitation for contentious/diverse groups (own-goal risk). You plan to mix EA newcomers, animal advocates and internationals but provide little concrete facilitator guidance for managing ideological conflict, strong emotions, cultural differences, or safeguarding (e.g. triggering stories, eating-disorder risk). Add a short facilitator checklist: explicit ground rules, how to handle someone dominating or getting upset, scripts for parking contentious topics, confidentiality guidance, a process for admitting and addressing critiques of EA, and when to refer participants to external support. This prevents the bookclub from alienating folks or creating harm.\n\n3) Unclear/readability & accessibility tradeoffs in session design. You note some weeks are \u2018intensive\u2019 and discourage reading ahead, but the program doesn\u2019t give clear page/chapter budgets, accommodations, or asynchronous options. Make the meeting plan more actionable: specify pages/chapters per session with estimated reading time, optional catch-up materials (summaries or recordings), timezone/sign-up best practices (e.g. poll + one rotating evening), and an explicit policy on commitment/dropouts. Small clarifications will reduce confusion and dropouts and make it easier for others to replicate.",
+    "improvement_potential": "The three points target high-impact weaknesses: (1) credibility \u2014 unsupported impact claims could undermine the post and are easily fixed by linking the survey/form and specifying simple pre/post metrics; (2) safety/facilitation \u2014 mixing EA, animal-advocacy and international participants creates real risks (conflict, triggering material, eating-disorder issues) and a short facilitator checklist or scripts is a compact, important remedy; (3) replicability/dropout \u2014 clearer session reading budgets, catch-up options and a commitment policy would materially reduce confusion and attrition. These fixes are actionable, would substantially improve trustworthiness and usability, and don\u2019t require large additions to the post."
+  }
+}

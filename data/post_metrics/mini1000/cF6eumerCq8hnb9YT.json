@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "For the EA/rationalist community this is moderately important: it reinforces a practical, actionable point about career choice (directly doing high\u2011impact work or earning-to-give) that could change individual allocation of talent/time, but it isn't novel or foundational to EA theory. For general humanity it is of minor importance: a helpful reminder for privileged people who can choose careers, but limited in scope because many lack the economic freedom to act on it and it doesn't by itself change large systems."
+  },
+  "PostRobustness": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak evidence and imprecise core claim \u2014 define \u201cimportant\u201d and back up the central normative claim. Right now you move from a general observation about life regrets to an implicit prescription that work should be something you\u2019ll \u201clook back on with pride,\u201d and assume EA-style impact is the relevant standard. Either (a) give evidence/references for the claim that people regret not doing high\u2011impact work (cite empirical studies or literature on life regrets and meaning, and EA career frameworks like 80,000 Hours), or (b) reframe it as a personal heuristic rather than an objective standard. Also explicitly define what you mean by \u201cimportant\u201d (direct vs indirect impact, earning-to-give, systems change, longevity risks) and give concrete ways a reader could evaluate whether a role meets that bar (e.g., counterfactual impact, scale, tractability, neglectedness). Actionable edits: add 1\u20132 citations and a short decision checklist for assessing job impact, or reword the post to present your position as a personal rule-of-thumb with examples. \n\n2) Overlooks feasibility and legitimate constraints \u2014 you briefly mention economic breathing room but don\u2019t engage with the many real barriers people face (caregiving, mental health, structural discrimination, visa/risk constraints, local labor markets). This makes the piece feel prescriptive and risks alienating readers who can\u2019t simply switch into EA-style work. Actionable edits: add a paragraph acknowledging common constraints, and offer realistic alternatives for constrained readers (earning-to-give, targeted volunteering, developing transferrable skills, part\u2011time pivots, pro-bono projects). Link to practical resources (career transition guides, earning-to-give calculators, skill-building pathways) so readers have next steps rather than only a normative rebuke. \n\n3) Tone risks moralizing and missing tradeoffs \u2014 the post reads like a binary injunction (either prioritize loved ones or prioritize high-impact work), but most readers need guidance on balancing both. You should soften prescriptive language and address tradeoffs explicitly (burnout risks, value of social capital and relationships for long-term impact, diminishing returns of extra work). Actionable edits: replace hard lines with conditional language (e.g., \u201cif you care about global impact, consider\u2026\u201d), include a short section on balancing relationships and impact (examples where family/time complements long-term effectiveness), and give one or two concrete, low-friction next steps (a short self-reflection exercise or a 3-question checklist) so the piece feels practical and compassionate rather than judgmental.",
+    "improvement_potential": "The feedback correctly identifies the post's main weaknesses: an imprecise central claim (what counts as \u201cimportant\u201d), lack of evidential support or clear evaluative criteria, and an insufficient treatment of feasibility and tone that risks moralizing. These are substantive problems that would materially improve the post if fixed, and the suggested fixes are concrete and could be implemented without bloating the post (a couple citations, a short checklist, and a brief paragraph acknowledging constraints and tradeoffs). One minor caveat: the author may have intended a short, provocative prompt rather than a fully argued position, so demanding heavy evidence may be optional; still, the recommended clarifications would reduce the risk of alienating readers and strengthen the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "author_fame_ea": 5,
+    "author_fame_humanity": 2,
+    "explanation": "Jeff Kaufman appears to be a known contributor within EA/rationalist spaces (occasional/regular posts and discussions on community forums), so somewhat known to people who follow those forums but not a leading or highly prominent EA figure. Globally he has very low public recognition. Identification is uncertain and may be a pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, succinct, and easy to follow. The main point \u2014 that people should consider spending their working hours on work they can look back on with pride, including high\u2011impact EA paths or earning-to-give \u2014 is stated directly and supported with relevant links. It briefly acknowledges a key counterpoint (economic constraints). Minor weaknesses: it assumes some familiarity with EA concepts and could more explicitly address tradeoffs and counterarguments, but overall it communicates its argument clearly and concisely."
+  },
+  "PostNovelty": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "The post mainly restates well-known EA and career-advice themes: weighing time with loved ones vs working, aiming to spend your career on something you\u2019ll be proud of, and the earning-to-give option. Those points are very familiar to EA/rationalist readers (low novelty). For a general educated audience the explicit framing\u2014thinking of your 'tens of thousands of hours' at work in terms of global impact and switching into directly valuable or earning-to-give roles\u2014is somewhat less common but still close to mainstream career/self-help and philanthropy discussions (moderate-low novelty)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post makes a plausible, intuitively appealing argument \u2014 that people should consider spending their career hours on work they will be proud of and that there are high\u2011impact professional options (direct impact or earning-to-give). It acknowledges an important caveat (economic privilege). However the argument is informal and underdeveloped: it doesn't quantify tradeoffs, address key counterarguments (well\u2011being, burnout, comparative advantage, uncertainty of impact), or provide a structured model of opportunity cost. Empirical support is essentially absent (only links to related posts/resources, no data or studies), so overall the thesis is weakly supported despite reasonable intuition."
+  },
+  "PostExternalValidation": {
+    "post_id": "cF6eumerCq8hnb9YT",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's empirical claims are well-supported. Reliable sources confirm (a) there are large, tractable global problems (infectious disease and other causes of death: WHO), (b) extreme/global poverty still affects hundreds of millions (World Bank), (c) farmed animal suffering is enormous (Our World in Data: ~80+ billion land animals slaughtered/year), (d) existential/anthropogenic risks (nuclear, engineered pandemics, unaligned AI) are treated as non\u2011negligible by specialist researchers (Toby Ord), (e) donations to top global-health charities can be highly cost\u2011effective (GiveWell/AMF analyses), and (f) many people lack short\u2011term financial \u201cbreathing room\u201d (Federal Reserve surveys). Weaknesses: the \u201cdeathbed regret\u201d line is anecdotal (Bronnie Ware) and normative rather than empirical; some items (e.g., \u201cAI\u2011supported totalitarianism\u201d) are plausible but hard to quantify and rest on projection/uncertainty rather than settled data; earning\u2011to\u2011give has both strong supporting evidence for impact in some cases and notable criticisms/caveats (see GiveWell evidence and critiques of EA\u2019s practical pitfalls). Overall the post\u2019s empirical claims are accurately framed and supported, though a few claims are speculative or normative and not strictly verifiable.",
+    "sources": [
+      "WHO \u2014 The top 10 causes of death (WHO fact sheet, updated 7 Aug 2024).",
+      "WHO \u2014 Global Health Observatory: Cause-specific mortality, 2000\u20132021.",
+      "World Bank \u2014 June 2025 update to global poverty lines / extreme poverty estimates (World Bank factsheet, Jun 5 2025).",
+      "Our World in Data \u2014 'More than 80 billion land animals are slaughtered for meat every year' (data & article, 2024/2025 update).",
+      "Toby Ord \u2014 The Precipice: coverage and summaries (e.g., New Yorker/Axios summaries of Ord's 1-in-6 century risk estimate; book: The Precipice, 2020).",
+      "GiveWell \u2014 charity evaluations and cost\u2011effectiveness (e.g., Against Malaria Foundation cost-per-life estimates; Deworm the World reviews).",
+      "Federal Reserve \u2014 'Report on the Economic Well\u2011Being of U.S. Households' (annual SHED reports, 2023\u20132024/2025 summaries showing many lack $400 emergency funds).",
+      "Bronnie Ware \u2014 'Regrets of the Dying' / Top Five Regrets (original blog/book; coverage in The Guardian and other outlets).",
+      "Wired \u2014 'The Deaths of Effective Altruism' (critical coverage illustrating practical criticisms & risks of naive earning-to-give applied in some cases).",
+      "80,000 Hours \u2014 organization/book explaining the '80,000 hours' career-hours framing (background on the 'earning-to-give' / high-impact careers idea)."
+    ]
+  }
+}

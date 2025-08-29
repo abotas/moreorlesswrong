@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Practically useful for EA-aligned donors thinking about US democracy as a cause area: it collects concrete donation targets and invites crowdsourced vetting, so it could influence allocation decisions in 2025. However, it is not a rigorous, load-bearing analysis (no effectiveness, counterfactual, or risk assessment), is US\u2011focused, and so is of moderate importance to the EA community and only minor relevance to humanity broadly unless it leads to large redirected funding or high-impact follow\u2011up analysis."
+  },
+  "PostRobustness": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Define what \u201ceffective\u201d means and the decision criteria you want answers judged by. Right now the post is just a name-list with no objective for. Ask respondents to evaluate opportunities on a short checklist (e.g. intended outcome(s), causal mechanism, additionality/marginal impact, cost-effectiveness or plausible order-of-magnitude impact per $1k\u2013$100k, absorption capacity, risk of backlash/negative externalities, and urgency/timeline). This will focus answers and make crowd-sourced recommendations comparable.\n\n2) Turn the list of org names into short profiles (or ask contributors to do so) rather than leaving readers to guess differences. For each org, request 3\u20135 facts: primary strategy (litigation, policy advocacy, state-level field work, rapid response, research, journalism), geographic scope, recent major wins/losses or relevant evidence, overall budget and where extra marginal donations would be deployed (unrestricted vs earmarked), and any known risks. That will prevent bandwagoning and make it possible to prioritize donations.\n\n3) Explicitly surface and ask respondents to address major counterarguments/risks you currently omit. Examples: the partisan framing of \u201cliberal democracy\u201d (how to avoid signaling bias), the possibility that funding litigation or national orgs provokes backlash or crowd-out more effective local groups, tax/registration constraints on large donors, and whether non-grant options (e.g. funding research, local election infrastructure, civic tech, independent journalism, or state legislator support) could be higher-impact. Request evidence or plausible causal stories for each recommendation so answers aren\u2019t just gut-level endorsements.",
+    "improvement_potential": "Addresses key, nontrivial omissions: no decision criteria (so answers won\u2019t be comparable), no org context (encourages bandwagoning), and no attention to counterarguments/downsides (backlash, crowd-out, partisan framing). Implementing these would materially improve answer quality without forcing the OP to write a long post (they can ask respondents to supply the details). Omitting them makes the post much weaker and risks embarrassing oversights, but it doesn\u2019t render the question invalid, so a score below the maximum is appropriate."
+  },
+  "PostAuthorAura": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No widely recognized EA/rationalist figure by the name \u201celectroswing\u201d \u2014 likely a pseudonymous or minor online handle with no notable publications, speaking roles, or broad visibility in EA or public discourse based on available information."
+  },
+  "PostClarity": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand: the title and question are explicit, and the bulleted list of organizations and invitation to add context are clear and concise. It could be improved by specifying what \u201ceffective\u201d means (metrics, timeframes, funding constraints), by offering brief notes on how these groups differ or why they were chosen, and by clarifying the 2025-specific context. The footnote formatting is also slightly awkward but not obstructive."
+  },
+  "PostNovelty": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "novelty_ea": 3,
+    "novelty_humanity": 3,
+    "explanation": "This is mainly a short, crowdsourced compilation of well-known civil\u2011liberties and democracy organizations and an open question soliciting further leads. For EA Forum readers this is not very novel\u2014people familiar with 80,000 Hours/longtermism and political\u2011risk/democracy work will have seen similar lists and framing\u2014so the novelty is low. For the general public it\u2019s also not highly original: the organizations are publicly prominent and the idea of donating to safeguard democracy is commonplace. The only mildly novel element is the specific 2025 framing and the explicit solicitation for effectiveness-focused comparisons, but the post contains no new arguments or unconventional proposals."
+  },
+  "PostInferentialSupport": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "reasoning_quality": 2,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "Strengths: the post provides a concise, crowd-sourced starting list of reputable organizations and links, and correctly frames itself as incomplete. Weaknesses: it presents no criteria for inclusion, no argument about why these groups are effective, no comparative analysis, and no empirical evidence of impact, cost-effectiveness, or recent performance. As written it is a useful prompt for discussion but provides almost no reasoning or evidence to support any claim that these are the most effective donation opportunities."
+  },
+  "PostExternalValidation": {
+    "post_id": "AMpBmN4mfBbmor7Kr",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post\u2019s core empirical claims are well-supported: the listed organizations exist and publicly describe missions that align with \u201csafeguarding liberal democracy\u201d (ACLU; Democracy Forward; Protect Democracy; State Democracy Defenders; Focus for Democracy; Defending Rights & Dissent). There is independent evidence of renewed donor and organizational activity around U.S. democracy defense in 2024\u20132025 (e.g. the Democracy 2025 coalition, press coverage of philanthropy shifting toward democracy/local journalism). Weaknesses: the post does not make detailed causal / effectiveness claims (and therefore cannot be validated or falsified here), the assertion that the items were \u201ccrowdsourced (with permission) from Bountied Rationality\u201d is a claim about provenance that is only supported by the EA Forum post itself, and the list is explicitly incomplete with no ranking of effectiveness. Overall: factual existence and relevance checks out; claims about effectiveness are not made and so remain unassessed.",
+    "sources": [
+      "80,000 Hours \u2014 Safeguarding liberal democracy (profile). ([80000hours.org](https://80000hours.org/problem-profiles/liberal-democracy/?utm_source=chatgpt.com))",
+      "EA Forum post by electroswing \u2014 \u201cWhat are effective donation opportunities for safeguarding liberal democracy in the US in 2025?\u201d (Apr 2025). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/AMpBmN4mfBbmor7Kr/what-are-effective-donation-opportunities-for-safeguarding?utm_source=chatgpt.com))",
+      "Democracy Forward \u2014 homepage and Democracy 2025 coalition / press release (Democracy 2025 launched as a multimillion-dollar coalition to defend against expected threats). ([democracyforward.org](https://democracyforward.org/))",
+      "Focus for Democracy \u2014 About / Who We Are (organization that vets and channels donor funding; claimed donor network and dollars). ([focus4democracy.org](https://www.focus4democracy.org/who-we-are?utm_source=chatgpt.com))",
+      "State Democracy Defenders \u2014 organization site and press releases (State Democracy Defenders Action / Fund pages and litigation/press activity). ([statedemocracydefenders.org](https://statedemocracydefenders.org/?utm_source=chatgpt.com))",
+      "ACLU \u2014 official site / mission (civil liberties, voting-rights work). ([aclu.org](https://www.aclu.org/))",
+      "Protect Democracy \u2014 official site (mission: defend rule of law, free & fair elections). ([protectdemocracy.org](https://protectdemocracy.org/))",
+      "Defending Rights & Dissent \u2014 official site (mission: defend dissent, civil liberties). ([rightsanddissent.org](https://www.rightsanddissent.org/))",
+      "Financial & philanthropy reporting on donor interest in democracy/local journalism (Financial Times: philanthropy shifting toward democracy-defence concerns, Press Forward/local-journalism funding). ([ft.com](https://www.ft.com/content/078e3bd4-9a68-4ed2-8bea-3ce35cc477cf?utm_source=chatgpt.com), [en.wikipedia.org](https://en.wikipedia.org/wiki/Press_Forward?utm_source=chatgpt.com))"
+    ]
+  }
+}

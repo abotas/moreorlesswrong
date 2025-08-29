@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "axopu2creSnRtTk3L",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "The post raises an interesting and potentially useful meta-point: words (individual lexical items and their operational definitions) are under-studied and can shape cognition, coordination, and political/technical systems in important ways. If pursued rigorously, this could inform better tooling for discourse, AI interpretability, and social coordination \u2014 topics relevant to EA concerns (communication, institutional design, alignment). However, the piece is largely speculative, loosely argued, and lacks concrete evidence or actionable frameworks, so it is not currently load-bearing for major EA decisions. For general humanity the idea is intellectually stimulating and could affect education and lexicography over time, but it is unlikely to have immediate or large-scale impact as presented."
+  },
+  "PostRobustness": {
+    "post_id": "axopu2creSnRtTk3L",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Define terms and operationalize your core claims. The post hinges on bold ideas \u2014 \u201cwords (not language) are fundamental,\u201d \u201csingle words are AGI,\u201d \u201cwords have laws\u201d \u2014 but you never define what you mean by a \u2019word\u2019, by \u2019size\u2019 or \u2019scope\u2019 of a word, or by \u2019AGI\u2019 in this context. Actionable: add short, precise definitions (e.g., lexeme vs. concept vs. name), pick 2\u20133 measurable properties you mean by word \"size\" (semantic range, polysemy, contextual entropy, network centrality), and show how your claims could be falsified (e.g., corpus measures, priming experiments, A/B framing tests). Without this the arguments read as metaphor not analysis.\\n\\n2) Tone down sweeping causal claims and provide mechanisms/evidence or plausible alternatives. You repeatedly assert causal effects (words create worlds, single words destabilize systems, taxonomy would change learning) without mechanism or engagement with confounders (institutions, incentives, technologies, grammar/pragmatics). Actionable: for each strong causal claim, either (a) present one concrete, well-documented example or study that plausibly supports it, or (b) reframe as a hypothesis and propose a concrete test (e.g., longitudinal corpus study linking a word's rise to policy shifts; experimental priming that changes behavior). Explicitly acknowledge alternative explanations and the limits of inference from correlation in historical examples.\\n\\n3) Engage the relevant literatures and give a compact roadmap. The post currently ignores major work in linguistics, psycholinguistics, semiotics, philosophy of language, social science, and computational semantics \u2014 which makes many claims seem reinvented or under-argued. Actionable: cite 5\u201310 key references (e.g., work on framing effects, Sapir\u2013Whorf debates, distributional semantics/word embeddings, speech-act theory, diffusion of innovations) and add a short practical roadmap (1 paragraph) for what a project to \"taxonomize words\" would actually do first \u2014 prioritized deliverables, metrics, and low-cost pilots (corpus analysis, crowdsourced disambiguation taxonomy, prototype ontology for 10 high-value words). This both anchors the idea and keeps the post shorter and more publishable.",
+    "improvement_potential": "The feedback identifies the post\u2019s core, embarrassing weaknesses: undefined key terms, sweeping causal claims without mechanisms or falsifiability, and ignoring extensive relevant literatures. It offers concrete, high-impact fixes (operational definitions, measurable properties, tests, citations, and a short project roadmap) that would materially improve credibility without forcing huge expansions of length. It isn\u2019t a perfect checklist (could name a few canonical papers/models to cite), but it targets the major mistakes the author should be most concerned about."
+  },
+  "PostAuthorAura": {
+    "post_id": "axopu2creSnRtTk3L",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff there is no indication that the handle 'daniloooo' is a recognized EA/rationalist author or public intellectual. Likely a pseudonymous/minor online account with negligible prominence."
+  },
+  "PostClarity": {
+    "post_id": "axopu2creSnRtTk3L",
+    "clarity_score": 4,
+    "explanation": "The post contains many interesting observations and useful examples (the TL;DR and specific illustrations like 'pinniped' and basketball help), but it reads as a long, loosely organized stream-of-consciousness. Key terms are often undefined, claims are repetitive or under\u2011argued, formatting and tone are inconsistent, and the overall argument lacks a clear, concise throughline. Significant editing for structure, tighter thesis statements, and clearer definitions would make it much easier to follow."
+  },
+  "PostNovelty": {
+    "post_id": "axopu2creSnRtTk3L",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Most claims are re\u2011phrasings or applications of well\u2011known ideas from linguistics, semiotics, cognitive science, memetics, framing research, ontology engineering and continental philosophy (Wittgenstein, Saussure, Deleuze, actor\u2011network, WordNet/FrameNet/ConceptNet, framing effects). EA readers are likely already familiar with the importance of framing, conceptual clarity, and taxonomy, so the post\u2019s core move (push for operationalizing and instrumenting 'words') is low\u2011novelty for that audience (score ~3). For the broader public the package is moderately novel (~5) because the explicit proposal to treat individual everyday words as engineered, instrumented systems (words-as-AGI, words paired with data\u2011structures to \u201ccollapse complexity,\u201d formal taxonomies for abstract terms) is less commonly discussed outside academia and tech circles. The most novel bits are the provocative metaphors/claims \u2014 single words as AGI/autonomous evolving systems, and the concrete call to build rigorous definition architectures and data\u2011paired measurement tools for abstract words \u2014 but those ideas still build on many existing concepts rather than breaking wholly new ground."
+  },
+  "PostInferentialSupport": {
+    "post_id": "axopu2creSnRtTk3L",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post contains an interesting and wide-ranging set of intuitions about the power of words, with some plausible observations (semantic shift, taxonomy vs. abstract concepts, words shaping perception). However the arguments are often metaphorical, loosely defined, and jump from anecdotes to broad claims (e.g. individual words as AGI) without clear premises or formalization. Empirical support is sparse: there are a few references to philosophers and an essay, one internal link, and illustrative examples, but no citations to relevant literatures (linguistics, cognitive science, psycholinguistics, semantics, sociolinguistics) or data, and key terms are not operationalized or made testable. The post is provocative and generative but remains speculative; stronger support would require clearer definitions, engagement with existing research, and empirical or formal evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "axopu2creSnRtTk3L",
+    "emperical_claim_validation_score": 4,
+    "validation_notes": "Most of the post is speculative/philosophical and mixes a few verifiable facts with many overstated or unsupported empirical claims. Supported / corroborated points: (a) words and word-meanings change over time and can be used to persuade/mislead (extensive empirical literature on framing, misinformation); (b) there are well-developed formal efforts to taxonomize and operationalize words (lexicography, corpora, WordNet, FrameNet, ontologies/semantic-web). Contradicted or unsupported points: (a) specific factual claims are incorrect or exaggerated (e.g., pinniped species \u224834, not \u201cabout 45\u201d); (b) historical claim about \u201centropy\u201d being established in 1965 is wrong (term coined by Clausius in 1865); (c) the claim that \u201cwe don\u2019t study words formally\u201d is false given long-standing lexicography, corpora and computational lexicons; (d) highly extraordinary metaphors (e.g., \u201cindividual words are AGI\u201d) have no empirical support and read as rhetorical. Overall: a largely philosophical essay with some correct empirical anchors but many factual mistakes and many untestable assertions, so I rate verification as low-to-moderate.",
+    "sources": [
+      "Lazer, D. M. J., et al., \"The science of fake news,\" Science, 2018 (review of misinformation research).",
+      "Tversky, A. & Kahneman, D., \"The Framing of Decisions and the Psychology of Choice,\" Science, 1981 (framing effects literature).",
+      "Princeton WordNet project (WordNet) \u2014 Princeton University lexical database (WordNet project page).",
+      "FrameNet project \u2014 International Computer Science Institute, Berkeley (FrameNet project description).",
+      "Britannica, \"Lexicography\" and Oxford English Dictionary history (overview of formal study of words/dictionaries).",
+      "Britannica, \"Carl Linnaeus\" (history of taxonomic classification and binomial nomenclature).",
+      "Britannica / Wikipedia, \"Pinniped\" \u2014 current authoritative sources list ~33\u201334 extant pinniped species (not ~45).",
+      "Entropy (history) \u2014 Clausius coined 'entropy' in 1865 (historical accounts; e.g., Wikipedia 'Entropy' etymology section / Clausius 1865).",
+      "Berners-Lee, T., Hendler, J., & Lassila, O., \"The Semantic Web,\" Scientific American, 2001 (semantic-web / ontology motivation).",
+      "Gruber, T.R., \"Toward Principles for the Design of Ontologies Used for Knowledge Sharing\" (1993) \u2014 definition/use of ontologies in knowledge representation."
+    ]
+  }
+}

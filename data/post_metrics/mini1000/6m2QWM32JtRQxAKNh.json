@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a local community-building announcement: useful and positive for strengthening EA networks, collaboration, and project formation in Spain, but not load\u2011bearing for major EA/longtermist conclusions or global priorities. If true, it modestly improves local coordination and retention; if false or cancelled, the broader EA movement and humanity are essentially unaffected."
+  },
+  "PostRobustness": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about selection criteria, process, and timeline. Right now readers don\u2019t know how attendees will be chosen (first-come, organizers\u2019 invite list, merit / project fit, diversity goals, etc.). This invites perceptions of favoritism and will discourage people who need to plan travel. Actionable fixes: add a short paragraph stating (a) selection criteria (e.g. engagement level, current projects, willingness to contribute), (b) whether you will prioritise geographic spread, underrepresented groups, early-career people, or people with high marginal impact, (c) whether organisers/volunteers get priority, (d) the date applicants will be notified, and (e) your cancellation / refund policy. If you plan to offer bursaries, state how to apply and roughly how many or how much support is available (even ranges) or else say that funding is limited and decisions will be made case-by-case.\n\n2) Add clear accessibility, inclusion, and safety information. A weekend retreat in a countryside villa can exclude people with mobility needs, caregiving duties, dietary restrictions, neurodivergence, or mental-health constraints if you don\u2019t proactively address this. Actionable fixes: add a short section that (a) confirms whether the venue is wheelchair accessible and what transport looks like, (b) lists how to request dietary and other accommodations (and that you\u2019ll make reasonable efforts), (c) states whether children/caregivers are welcome or whether childcare is available, (d) links to a code of conduct/harassment policy and explains how reports will be handled, and (e) notes emergency/medical arrangements and whether you\u2019ll require proof of travel insurance for out-of-region attendees. If you can\u2019t provide certain accommodations, say so explicitly so applicants can self-select.\n\n3) Be specific about privacy, photos, and expectations of participation. Retreats often involve sharing sensitive ideas and personal conversations. Actionable fixes: add a sentence on whether sessions are on/off the record, whether photos will be taken and how they\u2019ll be used (and how to opt out), and what level of pre- or post-retreat contribution you expect from attendees (e.g. lightning talk, workshop facilitation, reading prep). Also mention any data handling for the application form (who sees responses, how long you keep them).\n\nThese changes are relatively short but will reduce confusion, improve trust, increase accessibility, and lower the chance of hurt feelings or complaints after selection.",
+    "improvement_potential": "This feedback flags several important omissions (selection criteria/timeline, accessibility/inclusion, and privacy/expectations) that materially affect applicants\u2019 willingness and ability to apply and could lead to perceptions of favoritism or exclusion. The suggestions are concrete and concise, easy to add without bloating the announcement, and would reduce confusion and post-event complaints\u2014so they are high-impact improvements though not catastrophic errors."
+  },
+  "PostAuthorAura": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find an identifiable public profile or body of work for the name/handle 'AnthonyL' in EA/rationalist forums, publications, or mainstream sources. It may be a pseudonym or private individual; there is insufficient evidence of contribution or recognition. If you provide links or context (posts, articles, affiliations), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: strong title, clear dates, location, target audience, goals, logistics (cost, links, deadline) and a direct call-to-action. The use of headings and bullets makes it easy to scan and understand. Minor weaknesses: small redundancies (\"from Spain and/or based in Spain\"), slightly odd footnote formatting and repeated images, and a few missing specifics that some readers might want (exact villa location, selection criteria, details on travel funding). Fixing those would make it near-perfect."
+  },
+  "PostNovelty": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement \u2014 a first national EA retreat in Spain \u2014 which is locally new but not conceptually novel. EA readers routinely see posts about meetups, regional retreats, hub-building, and calls for applications; the only modestly original element is the scale/location (bringing Madrid and Barcelona hubs together and framing it as a national retreat). To general readers, the idea of organizing a community retreat with workshops and shared meals is very common, though the specific focus on Spanish EA coordination is a somewhat local novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a clear, plausible case for why a national retreat could be valuable (community-building, cross-hub collaboration, sparking projects), lays out concrete logistics, target audience, and links to schedule and application, and cites a prior (smaller) retreat as precedent. Weaknesses: The causal claim that this retreat will achieve the stated goals is asserted rather than demonstrated \u2014 there are no success metrics, evaluation plans, selection criteria, or evidence about what made prior events effective. Empirical support is limited to one anecdotal 2019 retreat and general statements about active hubs, rather than data on impact, attendee outcomes, or demand. Overall: reasonable and low-risk proposal but not strongly supported by evidence or rigorous reasoning about how the stated outcomes will be produced or measured."
+  },
+  "PostExternalValidation": {
+    "post_id": "6m2QWM32JtRQxAKNh",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported by primary sources. The EA Forum announcement itself (May 29, 2025) and the linked Google Form confirm the event dates (July 25\u201327, 2025), location (Casa Rural Guadalupe\u2011Herrador near Zaragoza), intended size (\u224820\u201324 people), application deadline (June 8, 2025) and that food/accommodation are covered. The venue\u2019s own website corroborates that Casa Rural Guadalupe\u2011Herrador is a real rural house capable of hosting up to ~24 people. The existence and activity of EA Barcelona and EA Madrid hubs is supported by their Meetup pages and the EA Barcelona site/contact page (which lists Melanie Brennan and Anthony Lara, matching organizers named in the post). One small empirical claim \u2014 the footnote about a prior June 2019 retreat in C\u00e1ceres organized by Pablo Melchor, Jaime Sevilla and Pablo Villalobos with ~12 attendees \u2014 is plausible (organizers cited are verifiably active in Spanish EA) but I could not find independent public documentation of that specific 2019 retreat beyond the Forum post\u2019s claim. Because the core, actionable claims about the 2025 retreat are directly verifiable, but one historical footnote lacks independent corroboration in public sources, I rate the post 8/10 (well\u2011supported).",
+    "sources": [
+      "EA Forum post: \"Announcing the First National EA Retreat in Spain!\" (May 29, 2025) \u2014 forum.effectivealtruism.org/posts/6m2QWM32JtRQxAKNh",
+      "Google Form: \"Application Form for the EA Spain Retreat 2025\" (forms.gle / Google Forms) \u2014 confirms dates, location, capacity, deadline and organisers (Casa Rural Guadalupe\u2011Herrador; July 25\u201327, 2025; apply by June 8, 2025).",
+      "EA Spain Retreat 2025: Info Pack (Google Doc) \u2014 linked from the Forum post / form.",
+      "EA Spain Retreat: Draft schedule (Google Doc) \u2014 linked from the Forum post / form.",
+      "Casa Rural Guadalupe\u2011Herrador official site \u2014 casaguadalupe.com (venue listing, capacity up to ~24; Caba\u00f1as de Ebro, Zaragoza).",
+      "EA Barcelona official site / contact (lists Melanie Brennan and Anthony Lara as organisers) \u2014 eabarcelona.org (About / Contact).",
+      "Effective Altruism Barcelona Meetup page (group presence and activity) \u2014 meetup.com/effective-altruism-barcelona",
+      "Effective Altruism Madrid / Altruismo Eficaz Madrid Meetup page (group presence and activity) \u2014 meetup.com/effective-altruism-madrid",
+      "Pablo Melchor profile (EA community / eahub) \u2014 eahub.org/profile/pablo-melchor (supports his involvement in Spanish EA/Ayuda Efectiva).",
+      "Jaime Sevilla EA Forum profile and posts (active Spanish\u2011speaking EA community member) \u2014 forum.effectivealtruism.org/users/jsevillamol and related posts"
+    ]
+  }
+}

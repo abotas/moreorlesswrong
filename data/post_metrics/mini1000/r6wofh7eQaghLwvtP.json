@@ -1,0 +1,48 @@
+{
+  "PostValue": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a useful trip-/post\u2011event report for EA organizers and student groups (especially in Latin America): it documents attendance, prep practices, workshops, networking outcomes, and lessons for community building. However it contains no novel research, arguments, or high\u2011stakes claims\u2014useful operationally but not load\u2011bearing for EA theory, strategy, or global priorities\u2014so it has minor importance for the EA community and negligible importance for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unsupported / unclear data claims and missing denominators. You say EA UPY represented \u201capproximately 17.6% of the total attendees\u201d and list 34 members attended, and that \u201c28 attendees had completed at least the introductory EA course,\u201d but you never give the total number of conference attendees nor define the denominators for percentages. That makes the statistics hard to trust. Actionable fix: state the conference total attendance number, show how each percentage was calculated (e.g., 34 / 193 = 17.6%), and add response rates for any surveys cited. If you don\u2019t have the total, remove the percent or reword to avoid implying precise coverage.\n\n2) Overreliance on positive anecdotes and omission of systematic feedback / counterevidence. The post is almost entirely positive personal stories and highlights, which creates selection bias and makes impact hard to judge. Key missing items: any negative feedback, logistical problems, costs (time/money), or missed opportunities. Actionable fix: add a brief \u201cMethods\u201d or \u201cFeedback summary\u201d section that reports how you collected feedback (survey sample size and questions, who was interviewed), include top negative themes (even if minor), and summarize quantified satisfaction metrics (e.g., % who found networking useful, % who would attend again). If you don\u2019t have formal survey data, explicitly label the quotes as illustrative anecdotes.\n\n3) Lack of measurable follow-up plan and potential coordination risks left unaddressed. You claim \u201cexpected impact\u201d and follow-up work but give no concrete KPIs, owners, or timeline, and you don\u2019t address potential downsides (e.g., appearance of crowding at a regional event, resource strain on UPY, need for local collaboration). Actionable fix: add 2\u20134 specific, measurable next steps (e.g., \"collect post-event survey by May 15 with X questions; aim to convert Y connections into ongoing collaborations within 6 months; host 3 follow-up workshops by Q4\"), assign responsible people, and briefly note how you\u2019ll manage risks (coordination with other Mexican EA groups, budgeting for travel/support). Also check consent for named quotes and photos or anonymize if consent was not obtained.",
+    "improvement_potential": "The feedback flags several substantive, high-impact problems: unsupported percentages and missing denominators (which undermine credibility), clear selection bias from relying on positive anecdotes without reporting methods or negative themes, and absence of concrete follow-up KPIs/owners/timelines (which makes claimed \"expected impact\" vague). These are the kinds of \"own-goal\" errors the author would likely be embarrassed about and are relatively straightforward to fix without bloating the post\u2014add the conference total and calculation, a brief methods/response-rate note and any negative themes (or label quotes as illustrative), and a few measurable next steps plus consent/anon notes. The feedback is practical and focused on the most important credibility and accountability issues, so addressing it would materially improve the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence in major EA/rationalist channels, publications, or conferences under this name. Likely a pseudonymous or minor account with no notable recognition within EA circles or the wider public. If you can share a link or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and easy to follow: clear headings, concrete participation data, specific activities, and illustrative quotes make the purpose and outcomes obvious. It reads more like a thorough event report than an argumentative piece, which works but leads to some repetition and length; a tighter summary of key metrics (and the total attendee number to contextualize the 17.6%) and fewer repeated phrases would improve conciseness and impact. Minor issues: a couple of empty/broken image slots and limited critical evaluation of follow-up actions."
+  },
+  "PostNovelty": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is primarily a descriptive conference report about EA UPY\u2019s participation in EAGx CDMX (attendance numbers, workshops, meetups, personal anecdotes, and logistical preparation). For EA readers, this is familiar content (local chapter write-ups, event takeaways, and coordination tips are common), so it has low novelty. For the general public it\u2019s even less novel \u2014 ordinary event reporting with no new theories, claims, or broadly original proposals. The only mildly uncommon elements are specific local practices (e.g., adapted Career Planning Program, high percentage of group attendance), but these are incremental/operational details rather than novel ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured and the arguments are coherent and plausible \u2014 it documents concrete preparatory activities, attendance counts (34 members, role breakdowns), specific meetups/panels, and multiple participant testimonials which support the claim that the event was valuable for EA UPY. Weaknesses: The claims about impact and effectiveness rely heavily on self-reports and anecdotes, with limited external or quantitative follow-up evidence. Some useful numbers are given but key context (e.g., total conference attendance to validate the 17.6% figure) and objective outcome metrics (subsequent collaborations, hires, projects, or measurable learning gains) are missing. There is potential self-selection and confirmation bias and causal claims about long-term benefits are speculative without longitudinal data. Overall, the post provides reasonable qualitative support but lacks rigorous empirical evidence to strongly substantiate longer-term impact claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "r6wofh7eQaghLwvtP",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Major, externally verifiable claims are well supported: the event date and venue (March 14\u201316, 2025 at Universum, UNAM) and the overall attendance figure (182) are confirmed by the EAGx CDMX organisers. The post\u2019s descriptions of topics covered (AI governance, biosecurity, animal welfare, meetups/panels) match the event program/retrospective. However, group-level numbers in the EA UPY post (34 EA UPY attendees; breakdowns, 28 having completed an introductory EA course; 10 volunteers) appear to be internal counts reported by the group and are not independently verifiable from public sources. There is also a small arithmetic discrepancy: the post claims EA UPY represented \u201capproximately 17.6%\u201d of attendees \u2014 if 34 EA UPY attendees and the organiser-reported total of 182 are both used, the share is 34/182 = 18.7% (\u22481.1 percentage points higher than 17.6%). Overall: most high\u2011level factual claims are corroborated, but some internal numeric claims lack external corroboration and one percentage appears to be miscomputed.",
+    "sources": [
+      "EAGx CDMX 2025 Retrospective \u2014 EA Forum (Apr 22, 2025) \u2014 shows dates, venue and total attendees = 182. (forum.effectivealtruism.org/posts/HYcvbnoKNahFZ2ZMW/eagxcdmx-2025-retrospective)",
+      "EAGxCDMX 2025 event page \u2014 EffectiveAltruism.org / EA Global events (event listing for 14\u201316 Mar 2025 at Universum, UNAM). (effectivealtruism.org/ea-global/events/eagxcdmx-2025)",
+      "EAGx CDMX 2025 \u2013 EA UPY Perspective \u2014 EA Forum (the post being evaluated: lists 34 EA UPY attendees and 17.6% claim). (forum.effectivealtruism.org/posts/r6wofh7eQaghLwvtP/untitled-draft-qpz9)"
+    ]
+  }
+}

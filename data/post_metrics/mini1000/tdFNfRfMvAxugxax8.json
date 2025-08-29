@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is primarily an informational/flag-post rather than a novel argument. For the EA community it is moderately useful (5) because it identifies a non\u2011EA initiative that could be a valuable partner or influence on global AI governance and thus is worth investigating and engaging with \u2014 but it is not foundational and depends entirely on GAIGA's future effectiveness and positions. For general humanity it is of minor importance (3): the alliance could matter a lot if it succeeds at shaping global AI governance, but this post merely publicises the initiative and contains no evidence that GAIGA will be decisive, so the immediate impact is limited."
+  },
+  "PostRobustness": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak sourcing and provenance \u2014 the post claims GAIGA is \u201cfrom outside the EA community,\u201d \u201cborn out of the World Federalists Movement,\u201d and \u201cinspired in part by The Precipice\u201d but provides no evidence. Before publishing, include explicit citations (leadership bios, founding statement, funding sources, key people, and any press or founding documents) or remove/soften these claims. Actionable: link to Robert Whitfield\u2019s bio, GAIGA founding docs, funders, and any public statements tying it to WFM or The Precipice.\n\n2) No assessment of alignment or key trade-offs \u2014 readers will want to know why EAs should care and what the risks are. The post skips whether GAIGA\u2019s goals, methods, and political orientation align with EA priorities (technical AGI risk vs. broader governance), or whether its multi\u2011stakeholder approach risks diluting technical safety or exposing EA-aligned recommendations to regulatory capture. Actionable: add 1\u20132 sentences evaluating how GAIGA\u2019s stated aims match EA concerns, list plausible downside scenarios (mission drift, political agenda, slow/overbroad regulation), and suggest specific things EAs could check (policy proposals, membership composition, decisionmaking rules).\n\n3) No clear ask or next step for readers \u2014 the post is just a pointer. Make it useful: say what you want from the forum (signal interest, do due diligence, coordinate engagement) and propose concrete next steps. Actionable: recommend one or two options (e.g., attend GAIGA event and report back, ask the author to contact GAIGA for clarifying questions, or start a short due\u2011diligence checklist readers can use) and include direct links to the most relevant pages (events, contact, who\u2019s involved).",
+    "improvement_potential": "The feedback hits the main weaknesses of the post: unsupported provenance claims (an own\u2011goal that could embarrass the author), lack of EA\u2011relevance/risks analysis, and absence of a clear ask or next step. Each point is actionable and can be addressed with only a small addition to the post (links, a sentence or two of evaluation, and a clear CTA). The rating isn't higher because the issues aren't fatal \u2014 the post is a harmless pointer \u2014 but fixing them would substantially improve credibility and utility for EA readers."
+  },
+  "PostAuthorAura": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record of a notable EA/rationalist author named 'JordanStone' in available sources up to 2024-06. The name appears to be a pseudonym or a low-profile/anonymous author with no widely cited publications, talks, or organizational roles. If you can share links or context (posts, articles, platforms), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "clarity_score": 8,
+    "explanation": "The post is clear, concise, and easy to follow: it states the purpose (sharing GAIGA), provides links, a short summary and a website quote. It makes its point\u2014this is an external initiative worth EA attention\u2014without unnecessary detail. Weaknesses are minor formatting/footnote oddities (the stray numbered footnote and final sentence are confusing), and it could be slightly clearer about why readers should engage (credibility, specific asks or implications for EA) or give more context on the organisers."
+  },
+  "PostNovelty": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post mainly announces and links to an existing initiative (GAIGA) and notes it as an engagement opportunity. The existence of AI governance alliances and the idea of unifying fragmented communities are well-worn topics within EA/longtermist circles, so it's not conceptually new to that audience. For the general public it may be new as a specific organisation, but the underlying ideas (multi\u2011stakeholder AI governance alliances, engaging non\u2011EA actors) are common and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This post is mostly an informative share rather than a structured argument. Strengths: the claims are coherent and supported by a primary source link (GAIGA website), a named leader, and a short quotation that make the initiative plausible and worth attention. Weaknesses: there is little substantive reasoning or critical analysis (no criteria for why GAIGA is important, no comparison to alternatives, no discussion of risks or limitations). Empirical evidence is minimal \u2014 no independent sources, no track record, no concrete examples of impact, no membership or funder details \u2014 so the claims about GAIGA\u2019s significance and potential are weakly supported. Overall the post is useful as a pointer but does not provide rigorous evidence or argumentation to strongly support its implied thesis that GAIGA is a major or ready-to-engage actor in AI governance."
+  },
+  "PostExternalValidation": {
+    "post_id": "tdFNfRfMvAxugxax8",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported. The Global AI Governance Alliance (GAIGANow) exists and its website and About text match the quoted mission/aims; the site is explicitly connected to the World Federalist Movement / Institute for Global Policy (WFM\u2011IGP). Robert Whitfield is documented as Chair of the One World Trust and Chair of WFM/IGP\u2019s Transnational Working Group on AI \u2014 and WFM/IGP materials and One World Trust materials show active involvement in AI governance work \u2014 so the post\u2019s linkage of GAIGA to WFM and to Whitfield is strongly supported. However, I could not find an explicit page on GAIGANow naming Robert Whitfield as the formal leader of GAIGA itself (the GAIGANow site does not appear to list a leadership roster), so the precise claim \u201cled by Robert Whitfield\u201d is plausible and indirectly supported (via WFM\u2019s role and Whitfield\u2019s leadership in WFM/One World Trust) but not directly confirmed on GAIGANow. The statement that it \u201carose from outside the EA community\u201d is reasonable (WFM/IGP is a separate, older global\u2011federalist NGO) but is somewhat interpretative rather than strictly empirical. The footnote claiming inspiration from The Precipice is speculative and not substantiated by public materials I found.",
+    "sources": [
+      "GAIGANow \u2014 Global AI Governance Alliance homepage (gaiganow.org) \u2014 site content and About pages (2025).",
+      "GAIGANow \u2014 'About Us' and related pages (gaiganow.org/about-us, gaiganow.org/icc) showing WFM/IGP linkage (2025).",
+      "World Federalist Movement - Institute for Global Policy \u2014 Transnational Working Group on AI page (wfm-igp.org/what-we-do/transnational-working-groups/twg-on-ai) (2023\u20132024).",
+      "One World Trust \u2014 'Our People' / Trustees page showing Robert Whitfield as Chair of Trustees (oneworldtrust.org/the-trustees.html).",
+      "One World Trust \u2014 AI Governance project and blog posts (oneworldtrust.org/project/ai-global-governance; One World Trust webinar listing with Robert Whitfield) (2023\u20132024).",
+      "WFM/IGP blog by Robert Whitfield: 'Engaging with AI Global Governance' (wfm-igp.org/blog/engaging-with-ai-global-governance) \u2014 describes Whitfield's chair role in TWG on AI (2023).",
+      "Democracy Without Borders / related reporting referencing Robert Whitfield as chair of One World Trust and of WFM TWG on AI (democracywithoutborders.org, 2024).",
+      "EA Forum post referenced: 'Sharing the Global AI Governance Alliance' by JordanStone (EffectiveAltruism.org forum post)."
+    ]
+  }
+}

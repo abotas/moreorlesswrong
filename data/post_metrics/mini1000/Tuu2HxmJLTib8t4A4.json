@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a common career-choice/meta question useful to the poster and a modest number of people in EA weighing where to allocate talent. It can influence individual decisions and thereby marginally affect distribution of effort across important domains, but it isn\u2019t proposing new, widely load\u2011bearing theory or evidence that would change major EA strategies. For general humanity it\u2019s largely a personal career question with negligible direct impact."
+  },
+  "PostRobustness": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the comparison decision-relevant by defining key assumptions and the metric precisely. \"Impact\" and \"top 10%\" are too vague for cross-field comparison \u2014 specify a time horizon (short vs long-term), whether you care about expected value or tail risk, and the units you care about (lives saved, QALYs, x-risk reduction, policy influence, dollars leveraged). Action: add one-sentence answers to these (e.g., \u201cI care most about expected lives saved over the next 50 years, weighting extreme catastrophic risks by expected value\u201d) or explain which tradeoffs you accept.\n\n2) Account for differences in leverage, tractability, and counterfactuals rather than treating fields as fungible. Being a top 10% medical researcher vs top 10% AI-safety researcher or engineer implies very different team sizes, replacement rates, and marginal impact. Action: ask or estimate (a) your probability of reaching top 10% in each field given your background, (b) how replaceable that contribution is (would someone else do it?), and (c) the typical leverage (how many people your work affects per unit effort). Without those, the question is underspecified.\n\n3) Narrow the scope and give concrete candidate roles/subfields. \u201cEngineering,\u201d \u201cmedical scientist,\u201d \u201cAI safety,\u201d and \u201cgovernance\u201d are huge buckets with internal variance. Action: pick a few specific career paths (e.g., \u2018AI-safety researcher at a top lab,\u2019 \u2018clinical trialist for vaccine development,\u2019 \u2018biomedical device engineer at a scale-up,\u2019 \u2018AI governance policy lead in a multilateral institution\u2019) and ask for comparisons on expected impact, tractability, and personal fit. This will produce useful, actionable feedback instead of high-level speculation.",
+    "improvement_potential": "The feedback identifies the key, substantive flaws: the question is underspecified (vague metric, horizon, and what \u2018top 10%\u2019 means), ignores counterfactuals/leverage/tractability, and uses overly broad categories. Fixing these would make answers actionable without greatly lengthening the post. It misses a few secondary points (e.g., personal fit and alternative paths like earning-to-give), but overall gives high-impact, practical guidance."
+  },
+  "PostAuthorAura": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No recognizable presence under the name 'AhmedWez' in my training data up to mid\u20112024 \u2014 not a known EA/rationalist author, speaker, or frequent contributor on major community platforms (LessWrong, EA Forum, 80000 Hours), nor a publicly noted intellectual or widely cited author. If this is a pseudonym or very new/obscure handle, visibility may be limited."
+  },
+  "PostClarity": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "clarity_score": 7,
+    "explanation": "The post is overall clear and easy to understand: it states a concrete question, defines \"impact\" with a reliable link, and specifies the assumption of being in the top 10% with other factors constant. Weaknesses: it conflates very different, broad categories (e.g. \"Engineering\" vs \"AI safety\"), gives no timeframe or personal constraints, and is short on details that would make the comparison answerable (e.g. which engineering field, risk preferences, geographic focus). It's concise but could be improved by specifying scope, metrics, and background to make responses more precise."
+  },
+  "PostNovelty": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This is a very common EA/80,000 Hours\u2013style career-choice question comparing impact across domains; EA Forum readers have seen many similar threads (hence low novelty). For the general public it's somewhat less familiar\u2014combining a top\u201110% performance assumption with the EA/80k impact definition and including 'AI safety' vs governance vs medical science is moderately novel\u2014but the basic comparison of career impact is still a fairly common idea."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post states a clear question and gives a usable definition of 'impact,' but it presents no comparative arguments, logic, or empirical data to support any conclusion. It fails to operationalize key variables (timeframe, counterfactuals, tractability), provide domain-specific causal pathways, or cite evidence about scale, probability, or marginal effect of being top 10% in each field. To be useful it would need structured criteria, quantitative estimates or case studies, and discussion of uncertainty and assumptions."
+  },
+  "PostExternalValidation": {
+    "post_id": "Tuu2HxmJLTib8t4A4",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "The post itself makes almost no empirical claims \u2014 it asks a subjective question and cites 80,000 Hours\u2019 definition of \u201cimpact,\u201d which is accurately represented. That definition and 80k\u2019s emphasis on comparing problems by scale/neglectedness/tractability are verifiable. However, the post\u2019s implicit premise \u2014 that you can cleanly compare the world-level impact of becoming \u201ctop 10%\u201d in Engineering vs Medical Scientist vs AI Safety vs Governance \u2014 is empirically weak. Empirical evidence shows (a) health interventions and biomedical research produce measurable DALYs/lives-saved and have well-studied cost-effectiveness (GBD, DCP3, WHO), (b) governance and policy interventions can have very large effects but are hard to attribute and measure, and (c) AI-safety/longtermist arguments rely much more on expert judgement, scenario analysis, and precautionary reasoning than on robust, directly measurable outcomes. Also, research on expertise shows \u201ctop percentiles\u201d of skill don\u2019t map uniformly to impact across fields (deliberate practice/skill explains different shares of performance across domains). Overall: the post\u2019s factual pieces (80k definition) check out, but the main question is inherently not strongly empirically verifiable \u2014 evidence for relative ranking is mixed and depends on many normative and uncertain counterfactual assumptions.",
+    "sources": [
+      "80,000 Hours \u2014 'Key ideas' / career guide (definition of social impact and advice on high-impact careers).",
+      "80,000 Hours \u2014 'Cluelessness: can we know the effects of our actions?' (article on longtermism and uncertainty).",
+      "WHO Global Health Observatory \u2014 Mortality & Global Health Estimates / Leading causes of death (2021 data summary).",
+      "Institute for Health Metrics and Evaluation (IHME) \u2014 Global Burden of Disease (GBD) results and GBD 2021 / Lancet GBD 2021 paper (GBD results tool, key findings).",
+      "Disease Control Priorities / NCBI Bookshelf \u2014 reviews on cost\u2011effectiveness of health interventions (examples and DALY cost-effectiveness ranges).",
+      "Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014) \u2014 'Deliberate Practice and Performance' meta-analysis (Psychological Science / PubMed) \u2014 shows practice explains varying shares of performance across domains.",
+      "Royal Society Open Science (2019) \u2014 'The role of deliberate practice... revisiting Ericsson' (replication/reanalysis literature on expertise).",
+      "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation (2018) \u2014 multi\u2011author report (Cambridge / arXiv) describing AI dual\u2011use risks and why AI safety is a plausible high\u2011impact area.",
+      "Nick Bostrom \u2014 'Existential Risks' / 'Superintelligence' (foundational longtermist arguments about AI risk and existential risk importance).",
+      "Open Philanthropy coverage (e.g., Time article about Cari Tuna / Open Phil\u2019s grantmaking focus) \u2014 documents philanthropic emphasis on AI safety and governance.",
+      "OECD \u2014 Health at a Glance 2023 (examples of policy\u2011level causes of mortality and how policy affects population health)."
+    ]
+  }
+}

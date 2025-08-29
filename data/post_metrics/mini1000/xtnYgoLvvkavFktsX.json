@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a timely, practical nudge for people/teams in the EA/AI-safety ecosystem to apply for LTFF seed funding. It\u2019s not a foundational argument or transformative new idea, but it could meaningfully affect individual career moves, small projects, or early-stage orgs that might have outsized impact \u2014 so moderately important within EA. For general humanity the post is low-impact: it's narrowly targeted, time-limited, and any downstream effects (funding more AI-safety work) are indirect and speculative."
+  },
+  "PostRobustness": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing application logistics and evaluation criteria \u2014 readers need concrete, decision-relevant facts before they\u2019ll scramble to apply. Add (or link to) 2\u20133 quick bullets: typical grant size range, expected timeline for decisions, how long/what format the application should be, whether late/partial submissions will be considered, and 2\u20133 things that make an application competitive. If you\u2019re a fund manager, say who reviews applications and how you handle conflicts of interest. These details will reduce applicant friction and lower low-quality/irrelevant submissions.\n\n2) Mixed/unclear urgency messaging \u2014 the post tells people to apply \u201cin the next 24 hours\u201d but also says you\u2019ll consider applications \u201cover the next few days\u201d unless overwhelmed. That contradiction creates confusion and may push people to submit rushed, low-quality apps. Clarify whether submitting in the next day materially improves chances, or just remove the 24\u2011hour pressure and state the real cutoff and any late\u2011submission policy.\n\n3) Overbroad topic list and an unsupported strong claim \u2014 the sweeping line \u201cthere has not been a better time to work on AI safety\u201d is fine as a personal view but comes across as unsupported hype. Either briefly justify it (1\u20132 supporting reasons/links) or tone it down. Also consider pruning or grouping the long list of example topics into 2\u20133 prioritized areas you most want to fund vs. other areas you\u2019re merely open to; that will help applicants self-select and make higher\u2011signal proposals.",
+    "improvement_potential": "The feedback pinpoints concrete, high-impact omissions and an own\u2011goal in tone/urgency. Missing logistics (grant sizes, timeline, application format, late\u2011submission policy, reviewer/conflict handling) are decision\u2011relevant facts that will materially change whether people apply and the quality of applications. The mixed urgency is an avoidable confusion that could produce rushed, low\u2011signal submissions. The advice to justify or tone down the sweeping claim and to prioritize the topic list will help applicants self\u2011select and produce higher\u2011signal proposals. These fixes are practical and won\u2019t require much extra length, so implementing them would meaningfully improve the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient context to identify a well-known EA/rationalist figure named 'calebp'. The handle appears to be a generic username used across platforms; there is no clear, widely recognized EA/rationalist or public intellectual associated with that exact name. If you can provide a link, platform, or sample writings I can reassess their prominence."
+  },
+  "PostClarity": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "clarity_score": 8,
+    "explanation": "Overall clear and effective: there is a prominent call to action with a repeated, unambiguous deadline, a concise list of prioritized topics, and helpful links for applying and background. Weaknesses: minor formatting/footnote oddities and casual phrasing (e.g. \u201cclear-ish\u201d), some repetition of links and announcements, and it assumes EA/AI-safety familiarity \u2014 it could be slightly more persuasive by briefly explaining the application process and selection criteria."
+  },
+  "PostNovelty": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an administrative nudge/announcement rather than a new idea. EA readers will be very familiar with LTFF, grant rounds, and the listed AI-safety priorities, so it\u2019s not novel for that audience. To the general public it\u2019s slightly more novel because funding calls specifically targeted at AI safety and the enumerated niche priorities may be unfamiliar, but the core content (apply for funding; here are topical priorities) is commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "This is primarily an actionable announcement and persuasive nudge rather than a rigorous argument. Strengths: clear, concise call-to-action, lists concrete priority areas, and links to relevant resources (reports, discussion posts, application form) which make it easy to follow up. Weaknesses: the central claim that \u201cnow is the best time to work on AI safety\u201d is asserted with little empirical backing and rests on subjective judgments about community sentiment and funding availability; there is no data on funding amounts, acceptance rates, or comparative opportunity costs. The supplied links are relevant but do not decisively support the strongest claims, so the post provides moderate practical support for applying but limited evidential justification for its broader thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "xtnYgoLvvkavFktsX",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major administrative claims in the post are well supported: LTFF did switch back to grant rounds and announced a Q1 2025 round with deadline EOD Feb 15, 2025; the post\u2019s application link and deadline match the LTFF announcement. The post\u2019s claim that LTFF expects the clear majority of funded projects to focus on AI aligns with the LTFF announcement. Linked evidence for the suggested priority areas (AI threat communication, AI security, protocols for extracting safe outputs from powerful models) exists (examples: RAND report on securing model weights; arXiv paper on protocols robust to subversion). Weaknesses: subjective claims (e.g., \u201cthere has not been a better time to work on AI safety\u201d) are opinion and not strictly empirical; statements about how LTFF will treat late applications or exactly which projects will be funded are internal operational judgments and not independently verifiable beyond the public announcement. Overall: most empirical claims are directly verifiable and accurate; a few are subjective or depend on internal LTFF decisions.",
+    "sources": [
+      "EA Forum \u2014 'Quick nudge to apply to the LTFF grant round (closing on Saturday)' by calebp (Feb 14, 2025) \u2014 EA Forum post announcing deadline and priorities. (https://forum.effectivealtruism.org/posts/xtnYgoLvvkavFktsX/quick-nudge-to-apply-to-the-ltff-grant-round-closing-on)",
+      "EA Forum \u2014 'Announcing the Q1 2025 Long-Term Future Fund grant round' (Dec 20, 2024) \u2014 official LTFF announcement describing switch to grant rounds, deadline Feb 15, 2025, and that the clear majority of projects supported will focus on AI x-risk. (https://forum.effectivealtruism.org/posts/aBkALPSXBRjnjWLnP/announcing-the-q1-2025-long-term-future-fund-grant-round)",
+      "EA Funds grant application form (paperform) \u2014 LTFF application link referenced in the post (paperform page for Long-Term Future Fund). (https://av20jp3z.paperform.co/?fund=Long-Term%20Future%20Fund)",
+      "RAND Corporation (2024) \u2014 'Securing AI Model Weights: Preventing Theft and Misuse of Frontier Models' (report & playbook) \u2014 supports claim about need to secure AI systems. (https://www.rand.org/pubs/research_reports/RRA2849-1.html)",
+      "arXiv:2312.06942 \u2014 'AI Control: Improving Safety Despite Intentional Subversion' (v5) \u2014 supports the point about protocols to get useful safety research out of powerful models that may try to subvert checks. (https://arxiv.org/abs/2312.06942)",
+      "Good Ventures \u2014 'An update from Good Ventures' (2024) and related EA Forum discussion \u2014 documents recent shifts in major funders' priorities (background for claim re: Open Phil/Good Ventures divestments). (https://www.goodventures.org/blog/an-update-from-good-ventures/, EA Forum linkpost summarizing the update)"
+    ]
+  }
+}

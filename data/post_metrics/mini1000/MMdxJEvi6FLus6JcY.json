@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "This is a practical, well-documented after-action report that is moderately useful to the EA/rationalist community\u2014especially emerging regional groups\u2014because it contains actionable lessons (funding approach, participant screening via small fee, programming/venue tips, capture of discussions) that improve community building and event design. Those improvements can modestly increase retention, coordination, and local capacity, which matter for scaling EA engagement but are not foundational to EA theory or major policy. For general humanity the post is essentially irrelevant: it\u2019s local, operational, and has negligible direct impact on global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak evidence for main claims \u2014 add objective outcomes and follow-up data. The post asserts the retreat \u201ccreated deeper community connections\u201d and lasting impacts, but mostly cites anecdotes. Before publishing, include clear, concise metrics (e.g., proportion of community who attended vs invited; retention/engagement at 1\u20133 months post-retreat; number of collaborations or projects initiated; number of follow-up meetings) or at least a brief plan for measuring these. Add the top 3 survey questions and high-level results (response rate, N) rather than only quotes. This will make the claimed benefits credible and useful to other organizers.\n\n2) Unclear trade-offs and selection bias around participant screening. You recommend stricter pre-selection or knowledge prerequisites, but the report earlier frames growth and newcomer exposure as goals. Explain the trade-offs explicitly and provide actionable alternatives: (a) run parallel beginner and advanced tracks rather than excluding newcomers; (b) require short pre-reads or a 20\u201330 min onboarding session for novices; (c) use a simple application form describing goals and commitment to reduce no-shows while remaining accessible. Also clarify how participants were recruited and whether the sample is representative of the 90-member network (so readers can judge generalizability).\n\n3) Budget and logistics need clearer accounting. Some numbers are confusing (CEA offered $48/attendee for up to 20 attendees, you had 22 attendees, and the post lists partial costs like $241 food and ~$11 pp). Include a short line-item budget or per-person cost and state what the grant covered vs. participation fees vs. other expenses. Also note any cost constraints that shaped program choices (e.g., commuting vs staying overnight). This makes the post far more actionable for others planning retreats.",
+    "improvement_potential": "The feedback identifies three central weaknesses that materially harm the post\u2019s usefulness and credibility: reliance on anecdotes without outcome data, unaddressed trade-offs/selection bias in participant screening, and unclear budgeting. These are critical for other organizers to judge generalisability and replicate the event. Fixing them (adding a few metrics and survey items, clarifying recruitment and trade-offs, and a short line\u2011item or per\u2011person budget) would substantially improve the post\u2019s value yet wouldn\u2019t require a large increase in length."
+  },
+  "PostAuthorAura": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence in EA/rationalist circles or broader public sources under this name. Appears to be a pseudonym or minor online handle with no notable publications, talks, or citations; little-to-no public profile. If you can share links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow \u2014 clear headings (Summary, Context, Funding, Programming, Venue, What Worked, Improvements) guide the reader and the narrative gives concrete, actionable lessons and examples. It communicates the main points and takeaways effectively and includes useful specifics (attendance, agenda link, costs, quotes). Weaknesses are minor: one or two awkward/grammatical sentences, occasional repetition and slightly long paragraphs, and a few small clarifications would help (e.g., funding terms vs. 22 attendees, tighter wording in places). Overall it\u2019s clear and practically useful."
+  },
+  "PostNovelty": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an operational after-action report about running a community retreat. Most recommendations (screening via a small fee, pre-selection/track suggestions, schedule/facilitator prep, better documentation) are standard event-planning lessons that many EA groups have already shared. The 'Topic Wall' is a mildly distinctive facilitation detail, and the local specifics (Jakarta venue, funding amounts, Indonesian logistics) are new contextually, but the core ideas are not conceptually novel for EA readers. For a general audience the post is slightly more specific than typical but still covers familiar community-building/event design practices."
+  },
+  "PostInferentialSupport": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "The post is logically organized, transparent about goals, methods, and shortcomings, and draws reasonable inferences from observed outcomes (attendance, activities, participant feedback). It uses concrete operational details (budget, venue, schedule) and direct participant quotes to support claims. However, evidence is largely anecdotal and descriptive (22 people, a few survey comments) with no systematic pre/post measures, response rates, or counterfactuals; some causal claims (e.g., the participation fee reduced no-shows or the retreat produced lasting engagement) are asserted without robust data. Overall the conclusions are plausible and fairly supported for an internal community report but weak for strong generalization or causal claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "MMdxJEvi6FLus6JcY",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Strengths: The core claims that a 3-day EA Indonesia retreat took place (Apr 11\u201313, 2025), with 22 participants, and that the organisers published a write-up on the EA Forum are directly verifiable (the EA Forum post is the primary source). External sources corroborate that EA Indonesia has received funding from Meta Charity Funders and that CEA operates a Group Support Funding programme that commonly funds retreats; CEA staff (Dion Tan) is also publicly listed and is referenced by the post. The venue (The PodKost, Kota Tua / PodKost listings) exists near Jakarta Kota station, matching the post\u2019s description. Weaknesses / caveats: Many of the numerical and internal-administration claims come from the organisers\u2019 self-report (participant knowledge breakdown, exact per-meal catering cost, total spend, exact member count \u201cover 90\u201d, and the hiring of a 0.5 FTE Lead Community Builder) and are not independently verifiable from public sources. A notable potential discrepancy: the post states they \u201creceived $48 per attendee for a maximum of 20 attendees\u201d from CEA\u2019s Group Support Funds, whereas CEA\u2019s publicly posted guidelines list a much lower default allowance for retreats (they \u201csometimes cover: retreats up to USD $15/person for a two\u2011night retreat\u201d); this raises a question about whether the $48 figure reflects an exceptional/adjusted award or a misremembered figure. Overall: most high\u2011level claims (that the retreat occurred, its basic structure, CEA/MCF involvement, venue choice) are credible and supported by public sources; several specific numeric and staffing claims rely on the organiser\u2019s report and either cannot be independently confirmed or appear to conflict with CEA\u2019s published guideline example, so I rate the post as moderately well\u2011supported but with important unverifiable details.",
+    "sources": [
+      "EA Forum post: 'EA Indonesia First Retreat: Lessons from Jakarta' by YudhistiraGowo (Jun 8 2025).",
+      "Centre for Effective Altruism \u2014 Group Support Funding (official guidance page) (shows retreat funding guidance, including the example cap of ~$15/person for two-night retreats).",
+      "EA Forum: 'Insights and Best Practices for CEA Group Support-Funded Retreats' (Amalie Farestvedt, Oct 13 2024) (analysis of GSF retreat budgets and typical funding patterns).",
+      "EA Forum: 'Meta Charity Funders: Second round retrospective' (shows MCF funded EA Indonesia in that round).",
+      "Listings for 'The PodKost' / 'The PodKost Kota Tua' (local accommodation listings showing PodKost near Jakarta Kota / venue features)."
+    ]
+  }
+}

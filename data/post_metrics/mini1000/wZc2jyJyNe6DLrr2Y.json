@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a moderately important, actionable fieldbuilding plea for the EA/AI-safety community. If Arkose\u2019s impact claims are true (accelerating senior ML researchers into safety at low cost), keeping it running is a useful way to relieve a known talent bottleneck and would modestly improve the pipeline of experts \u2014 but it isn\u2019t foundational to the whole field and other actors could partly substitute. For general humanity the direct impact is small and highly indirect (via marginal improvements to AI-safety work), so its importance is minor."
+  },
+  "PostRobustness": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Strengthen your impact evidence and causal claims. Right now you lean heavily on a 79% \u2018accelerated involvement\u2019 stat from a ~52% immediate-response survey; that\u2019s vulnerable to selection and social-desirability bias and doesn\u2019t show durable, causal impact. Actionable fixes: report the full 6-month follow-up response rate and results (not just images), give concrete outcome metrics (e.g. how many callers later published AI-safety work, changed jobs, joined safety teams, or produced concrete deliverables), and estimate conversion rate from call\u2192meaningful engagement. If possible, compare outcomes against a simple control (e.g. similar people who didn\u2019t get a call) or explicitly acknowledge limits and uncertainty in your estimates. Share a couple of anonymized mini case studies to illustrate high/low impact calls.\n\n2) Provide clear unit economics, budget breakdown, and fundraising plan. Asking for $200k with an expected 300\u2013800 calls leaves funders unsure about marginal cost, scalability, and resilience. Actionable fixes: show cost per call and what components drive that range, a one-page budget (staff, outreach, ops, platform, research), and a fundraising threshold / contingency plan (what happens at $50k/$100k/$200k). Explain sustainability: how will you avoid the same cliff next year? Funders want to know ROI and whether their funds close a temporary gap or buy long-term value.\n\n3) Preempt plausible counterarguments and transparency concerns. Readers will ask: why are one-on-one calls the best lever vs. fellowships, paid research roles, or training resources? Are you cherry-picking people already likely to switch? And you note you can\u2019t share all impact analysis publicly, which can reduce trust. Actionable fixes: add a short paragraph comparing Arkose to plausible alternatives and why calls are cost-effective for the specific talent bottleneck, describe your selection criteria and how you avoid only engaging already-converted people, and commit to sharing anonymized aggregate results or a data summary for funders (or offer to share full analysis under NDA). Also fix minor clarity issues (the footnote says \u201cOf 51%\u201d while text says 52%).",
+    "improvement_potential": "Targets the post\u2019s biggest credibility weaknesses: over-reliance on a biased immediate-response stat, missing durable outcome metrics, opaque unit economics, and lack of contingency/sustainability detail. These are the sorts of 'own goals' that could undermine fundraising. The suggested fixes are specific and actionable (report follow-up response rates, conversion-to-impact metrics, cost-per-call and budget breakdown, selection criteria, and offer anonymized data/NDAs). Implementing them would materially strengthen the ask without requiring excessive lengthening of the post; fixing the small footnote inconsistency is also an easy but important polish."
+  },
+  "PostAuthorAura": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a widely recognized EA/rationalist author named \u2018Arkose\u2019 (up to my 2024-06 knowledge cutoff). The name does not correspond to a central or well-known contributor, nor to major publications or talks within EA circles. It appears to be a pseudonym or a minor/obscure online handle with no notable global public presence."
+  },
+  "PostClarity": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the post states who Arkose is, the problem they address, evidence of impact, the funding need ($200k), and concrete ways to help. Strengths include logical flow, clear ask, and succinct presentation of metrics. Weaknesses: minor redundancy (repeated contact/Manifund links), a small inconsistency/ambiguity in the survey response rates/footnote, and the embedded images lack alt-text or summarized numbers for readers who can\u2019t view them. Tightening wording and fixing the survey-note inconsistency would make it near-perfect."
+  },
+  "PostNovelty": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a fundraising/operations update rather than a new idea. The core claims \u2014 that one-on-one outreach can accelerate researchers into AI safety, that fieldbuilding is talent-constrained, and that the org needs emergency funding \u2014 are familiar to EA Forum readers. Some modestly distinctive elements are the focus on senior/mid-career ML professionals (rather than students), the concrete survey metric (79% reporting accelerated involvement), and the use of conditional public commitments (Manifund). For the general public the niche focus on AI-safety fieldbuilding and the specific intervention may be slightly less familiar, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, plausible theory of change (identify experienced ML professionals, give targeted conversations to accelerate engagement in AI safety), reports a substantial number of calls, and provides immediate post-call survey results that indicate positive self-reported effects. The ask and expected scale (300\u2013800 calls for $200k) are stated explicitly. Weaknesses: The evidence is primarily self\u2011reported and subject to selection and nonresponse bias (only ~52% completed the immediate survey), there is no control or counterfactual to show the calls caused faster engagement, limited or no long-term outcome data (e.g., job moves, papers, sustained involvement), and limited public transparency about the impact analysis and budget. Overall, reasoning is coherent but relatively high\u2011level; empirical support is suggestive but insufficient to firmly establish long\u2011run impact or cost\u2011effectiveness."
+  },
+  "PostExternalValidation": {
+    "post_id": "wZc2jyJyNe6DLrr2Y",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s quantitative claims (number of calls, survey percentages, outreach stats, funding ask and the imminent closure) are directly documented in Arkose\u2019s own public posts and website (the EA Forum post, an June 23 'Arkose is Closing' followup, and Arkose.org pages). Arkose later archived its site and explicitly states it closed in June 2025, which verifies the claim that it was at-risk / did wind down. However, the impact figures (e.g. \u201c79% reported the call accelerated their involvement\u201d, response rates ~51\u201352%, 2.3% outreach response, 179 calls from NeurIPS/ICML/ICLR outreach) are self-reported survey and operational metrics from Arkose and have limited independent corroboration; non-response bias, selection effects, and lack of shared raw data or methodology reduce how strongly external sources can verify causal impact. The Manifund fundraiser link is referenced in the post but the project page itself was not directly retrievable during checking. Overall: claims are well-documented by Arkose (high internal consistency and later closure confirmed), but key impact/causal claims rely on Arkose\u2019s internal surveys and therefore are plausible but not independently confirmed.",
+    "sources": [
+      "Arkose may be closing, but you can help \u2014 EA Forum (post by Arkose, May 1, 2025).",
+      "Arkose is Closing \u2014 EA Forum (post by Arkose, June 23, 2025) \u2014 includes updated totals (311 calls; 78% accelerated).",
+      "Arkose \u2014 About (arkose.org/about) \u2014 archival site stating Arkose closed in June 2025.",
+      "Arkose \u2014 Operations Lead (arkose.org/operations-lead) \u2014 earlier program statistics (e.g. 188 calls; 79% accelerated among n=99).",
+      "Arkose homepage / resources (arkose.org/index) \u2014 describes call programme, resources and donation/Manifund reference.",
+      "Manifund homepage (manifund.org) \u2014 platform referenced by the post for donations."
+    ]
+  }
+}

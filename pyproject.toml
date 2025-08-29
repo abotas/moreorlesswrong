@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "json-repair>=0.50.0",
     "matplotlib>=3.10.5",
     "openai>=1.101.0",
     "pandas>=2.3.2",
@@ -12,7 +13,10 @@ dependencies = [
     "psycopg2-binary>=2.9.10",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.1",
     "scipy>=1.16.1",
+    "statsmodels>=0.14.5",
     "streamlit>=1.48.1",
     "watchdog>=6.0.0",
+    "xgboost>=3.0.4",
 ]

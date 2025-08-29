@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical recruitment post for animal-advocacy roles that matters to EA members looking for jobs or tracking talent flow into animal welfare, but it is not conceptually load\u2011bearing or likely to change major decisions or worldviews. For general humanity it is marginally relevant (some incremental animal-welfare impact if hires succeed) but not broadly important."
+  },
+  "PostRobustness": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Add pay/contract transparency and eligibility details. The post omits salary bands, FTE (full\u2011time/part\u2011time) and contract length, and whether you will sponsor work visas or require local right\u2011to\u2011work. EA readers strongly expect a salary range and clear information on employment terms \u2014 include a pay band, whether roles are permanent/temporary, expected start date, and whether applicants must be UK/EU/Brussels\u2011based or only able to work certain hours/timezones.\n\n2) Fix confusing organisation/location signals and links. Several role links point to opencages.org while the post is branded \u201cAnima International,\u201d and the phrasing \u201cremote, based in Brussels\u201d is ambiguous. Clarify which organisation is hiring each role (if these are partner orgs or sister projects, say so), correct/update any mistaken links, and make location/line\u2011management details explicit (e.g. \u2018remote, must be based in the UK and able to attend occasional London meetings\u2019 or \u2018remote; Brussels\u2011based team lead\u2019).\n\n3) Add key application logistics (webinar schedule and timeline). You list a close date but give no webinar dates/time, selection timeline, or expected notification/start dates. Either link to the webinar sign\u2011up and timeline in the post or state when webinars will run and when candidates can expect next steps. This reduces back\u2011and\u2011forth and increases applicant quality.",
+    "improvement_potential": "Strong, practical feedback. Point 1 (pay/contract/eligibility) addresses a common and important omission for EA job posts \u2014 salary bands, FTE, contract length, visa sponsorship and location/working\u2011hours requirements are usually expected and materially affect applicant quality. Point 2 catches an own\u2011goal: inconsistent branding/links and ambiguous location phrasing are confusing and could look sloppy or misleading. Point 3 (webinar schedule/timeline) is less critical but still useful for reducing applicant questions. These fixes are high\u2011impact and can be implemented with only small additions to the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I found no evidence that 'Anima International' is a known author or pseudonym in EA/rationalist spaces (EA Forum, LessWrong, major EA publications) or among public intellectuals. The name more commonly refers to an animal-protection NGO in some regions; there is no visible authorial footprint or citations. If you can share links or context (a specific article, forum post, or bio), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "clarity_score": 9,
+    "explanation": "The post is very clear: roles are listed with short, concrete descriptions, location/remote info, direct links, deadline, and a contact email. It's concise and easy to scan. Minor weaknesses: small potential confusion from phrasing like \u201cremote, based in Brussels,\u201d inconsistent link domains, and no mention of salary/level or application steps (and a slightly informal sentence about applicants \u201cafraid you won\u2019t make the cut\u201d), but these do not substantially harm overall clarity."
+  },
+  "PostNovelty": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a straightforward recruitment announcement for an animal-advocacy NGO. EA Forum readers frequently see similar job posts (policy, campaigning, communications, ops; remote/Brussels/UK), so there's very little new or original content \u2014 at best minor novelty in the specific roles and that they offer prep materials/webinars. For the general public this is routine (a common job ad), so essentially no novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "reasoning_quality": 2,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "This is primarily a recruitment announcement rather than an argument-driven post. The claims (e.g., that these roles offer a chance to have 'significant impact for animals') are asserted without supporting argumentation or empirical evidence in the post itself. Strengths: clear role descriptions, links to detailed job pages, and mention of support materials/webinars for applicants. Weaknesses: no data or examples demonstrating past impact, no metrics or rationale showing why these roles will be especially effective, and no citations of research or outcomes within the post. As a job ad it is adequate; as a piece meant to justify the impact claims it provides weak support."
+  },
+  "PostExternalValidation": {
+    "post_id": "oJgxZJeNx9bwLvQjK",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the EA Forum post are accurate and verifiable: the four job listings (Global Policy Generalist on Anima International; Campaigner, Communications Generalist, Operations Generalist on Open Cages) were posted on the organisations\u2019 websites, listed the stated locations/remote requirements, offered support materials and webinars, and had an application deadline of 4 May 2025. Minor issues: the EA post gives an email of join@animainternational.org while the organisation\u2019s public job/contact pages show contact@animainternational.org (or cloudflare-protected mailto links) \u2014 a small discrepancy but not one that undermines the core claims. Also, job pages now show \u201cApplications closed\u201d after the deadline, which is expected given the date.",
+    "sources": [
+      "Anima International \u2014 Global Policy Generalist job page (animainternational.org/global-policy-generalist) \u2014 job description, webinars, materials list, deadline 4 May 2025. (see animainternational.org/global-policy-generalist).",
+      "Open Cages \u2014 Campaigner job page (opencages.org/open-position-campaigner) \u2014 role description, \u2018Fully remote (UK based)\u2019, deadline 4 May 2025.",
+      "Open Cages \u2014 Communications Generalist job page (opencages.org/open-position-communications-generalist) \u2014 role description, webinars/materials, deadline 4 May 2025.",
+      "Open Cages \u2014 Operations Generalist job page (opencages.org/open-position-operations-generalist) \u2014 role description, webinar schedule and materials.",
+      "EA Forum post by Anima International (EA / GreaterWrong mirror) \u2014 recruitment announcement including links and email join@animainternational.org (ea.greaterwrong.com post, Apr 4, 2025).",
+      "Anima International \u2014 Contact page (animainternational.org/contact) \u2014 organisation contact email shown as contact@animainternational.org.",
+      "Euractiv JobSite listing for Global Policy Generalist \u2014 corroborates the Anima job posting and deadline (jobs.euractiv.com entry)."
+    ]
+  }
+}

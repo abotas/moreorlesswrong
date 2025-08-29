@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a readable, candid set of personal reflections about donor reasoning, deference, public criticism, and coordinating with large funders. It\u2019s useful to the EA community as a modest contribution to norms and practice (how to balance deference vs independent reasoning, when to publicize criticisms, rough heuristics for spend-down), and could slightly influence other donors\u2019 behavior or community culture \u2014 but it is not presenting new evidence or foundational arguments, so its impact is limited. For general humanity it\u2019s essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big reputational/epistemic risk from \u2018defer less / be mean-and-accurate\u2019 stance. You treat reduced deference and blunt public criticism as a group-level good without sufficiently acknowledging (or mitigating) the large, plausible harms: destroying relationships that enable private information-sharing, discouraging orgs from cooperating, and propagating mistakes if your public claims are wrong. Actionable fixes: (a) explicitly state the evidence basis and confidence for each public criticism (numbers, sources, degrees of uncertainty), (b) confirm you did not use private/confidential information and explain how you verified that, (c) offer each criticized org a right-to-reply and/or anonymize sensitive details, and (d) add a short calibration paragraph reflecting how often you expect to be wrong and what the net expected value of publishing is (i.e., weigh epistemic benefits vs relationship costs).\n\n2) Donation-sizing looks like an intuition-heavy black box. You list relevant factors (DAF, personal savings, future earnings, AI timelines) but never show the decision rule or sensitivity analysis you used \u2014 that makes it hard for readers to learn from your process and flags possible own-goal inconsistency (advocating careful reasoning but acting on feeling). Actionable fixes: (a) include a brief, explicit decision framework (e.g., assumed discount rate, probability of high future income, target spend-down range) and the numerical sensitivities that would change your choice, (b) show the concrete math that maps those assumptions to a spend-down rate, even if in an appendix or a short table, and (c) note tax/DAF constraints and any norms (catch-up vs smoothing) you considered so readers can see tradeoffs rather than just the final feeling-based choice.\n\n3) Coordination logic re: SFF is underdeveloped. You treat SFF declining your money as a licence to reduce donations to SFF grantees and justify it by relative scale (\u2018I\u2019m small\u2019), but you don\u2019t check whether SFF\u2019s grants actually change marginal funding needs or whether coordinated giving would increase leverage. Actionable fixes: (a) explain why SFF\u2019s grant does/doesn\u2019t change an org\u2019s marginal need (ask the org or SFF for marginal-impact guidance), (b) if you want to be cooperative, describe the concrete coordination step you tried and why it failed (include any communications), and (c) if you decide not to coordinate, state an explicit principle for when you will reduce donations to orgs that have received large funder grants (e.g., based on marginal impact thresholds) so your decision is reproducible and defensible.",
+    "improvement_potential": "The feedback targets several real, high-impact weaknesses: reputational/epistemic risks from deliberately \u2018defer less / be mean\u2019 choices, an intuition-driven (opaque) donation-sizing decision that conflicts with the author\u2019s stated epistemic norms, and underdeveloped coordination reasoning around SFF. The suggested fixes are practical and would materially reduce the chance of embarrassing own-goals (e.g., publicizing incorrect claims, damaging private-information channels, or appearing inconsistent). Some suggestions would lengthen the post, but most can be implemented concisely (confidence ranges, short calibration paragraph, a brief decision-rule and sensitivity bullets, and a one-line summary of SFF communications), so the feedback is both important and actionable."
+  },
+  "PostAuthorAura": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No recognizable presence under the name 'MichaelDickens' in EA/rationalist circles or the broader public. No known publications, talks, or citations tied to that handle; may be a pseudonym or a private/obscure user. Provide links or context if you want a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and readable \u2014 headings, short sections, and concrete examples make it easy to follow. The author's main points (defer less, be more critical, donation-sizing uncertainty, thoughts on diversification and SFF cooperation) are communicated clearly, with honest tradeoffs. Weaknesses: a few places are vague or hedged (e.g. donation-sizing ends with \"felt reasonable\" rather than a clear rule), and some jargon/acausal-trade language may confuse readers unfamiliar with EA-specific terms. Overall clear and engaging but could be tightened or made more specific in spots."
+  },
+  "PostNovelty": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Most points are familiar to EA readers: debates about deference, norms around public vs private criticism, DAF spend-down questions, and interacting with SFF/S-process are common topics in the community. The post is mainly personal reflections rather than introducing new arguments. The relatively more original bits are the explicit tradeoff argument for deliberately deferring less to increase total group reasoning and the framing of donations as an (acausal-style) trade to compensate those who chose direct work over earning \u2014 interesting twists but extensions of already-discussed EA ideas. For the general public, elements like donor-advised funds, SFF/S-process mechanics, and the acausal-trade framing will feel notably newer."
+  },
+  "PostInferentialSupport": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is transparent, self-aware, and lays out relevant tradeoffs (deference vs independent reasoning, niceness vs useful criticism, crowd coordination with SFF). The author consistently acknowledges uncertainty and limits, and gives a plausible, readable decision procedure. Weaknesses: most claims are personal judgments without empirical backing (the 75%/99% credences are unexplained), the donation-sizing and diversification ideas are not formalized or tested, and the post often stops at intuitions rather than supplying data, counterfactuals, cost-effectiveness estimates, or evidence that the chosen approach improves group outcomes. Overall the reasoning is coherent but informal; the empirical support is weak, so the main thesis (that the author\u2019s choices were reasonable and how they balanced tradeoffs) is only modestly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "AqyxHEX54yi55oHrm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post is opinion and self-report. All the verifiable, external factual claims are supported: the EA Forum post and the cross-post on mdickens.me exist and match the quoted lines; Oliver Habryka\u2019s relevant Forum comment exists and is plausibly the one referenced; the Survival & Flourishing Fund (SFF) and its S-process are public and match the description. Claims that are inherently subjective or private (e.g., the author\u2019s stated credences \u2014 \u201c99% confident\u201d, \u201c75% confident\u201d \u2014 his private conversation with SFF in which they \u2018declined\u2019 to add his money, and details of his DAF holdings) cannot be independently verified from public sources; they should be treated as self-report. Given that the post\u2019s empirical content is limited and the public claims check out, I rate it as well-supported but not perfectly verifiable due to unavoidable private/self-reported items.",
+    "sources": [
+      "Thoughts on My Donation Process \u2014 Michael Dickens (mdickens.me), Dec 04, 2024. (post text matches the content quoted).",
+      "Thoughts on My Donation Process \u2014 EA Forum (MichaelDickens), Dec 04, 2024. (EA Forum cross-post of the same material).",
+      "Where I Am Donating in 2024 \u2014 EA Forum (MichaelDickens), Nov 19, 2024. (the author\u2019s main donation writeup that the Thoughts piece refers to).",
+      "The EA community does not own its donors' money \u2014 Effective Altruism Forum (Oliver Habryka and thread of comments), Jan 2023. (the comment the author cites exists in this thread).",
+      "Survival and Flourishing Fund \u2014 About / S-process and S-Process 2024 application page (survivalandflourishing.fund). (confirms SFF is a public regranting/funder-coordination entity and documents the S-process)."
+    ]
+  }
+}

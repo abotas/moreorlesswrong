@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful, morale- and outreach-oriented anecdote rather than a novel, load-bearing argument. For the EA/rationalist community it has moderate importance: it provides concrete evidence that low-cost public-facing writing can produce outsized charitable donations and cultural attention (the Daily Show episode, thousands of readers and donations), so it can influence decisions about doing outreach and content creation. For general humanity the piece is of minor relevance \u2014 it helped a niche welfare cause and illustrates how ideas spread, but it does not change major policy or foundational beliefs and has limited large-scale impact."
+  },
+  "PostRobustness": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Strongly justify and qualify your key empirical and moral claims. You repeatedly assert precise cost\u2011effectiveness (\"$1 prevents 1,500\u202615,000 shrimp\") and strong moral conclusions about shrimp suffering without linking to the underlying calculations, sources, or uncertainty ranges. Before publishing, add citations to the studies/models you rely on (or an appendix with the back\u2011of\u2011the\u2011envelope math), and include a short sensitivity analysis or caveats (e.g., assumptions about stunner reuse, baseline counterfactuals, and the contested scientific evidence on shrimp sentience). Readers will reasonably treat these numbers as extraordinary claims that need substantiation. 2) Tone down causal attribution and avoid taking undue credit. The post implies a direct causal chain from your blog \u2192 Daily Show \u2192 large donations. That may be true in part, but it\u2019s a strong claim and invites skepticism. Replace sweeping causal language with more cautious phrasing, describe the chain of events and other actors involved (Dustin Crummett, producers, donors), and provide hard metrics (clicks, fundraising totals, timelines, sample sizes) where possible. Also verify you have consent to name and attribute specific donation amounts to individuals and avoid implying you personally caused each donor\u2019s gift. 3) Remove distracting ad\u2011hominem/jokey content and clarify survey methodology. Mocking opponents, nicknames (\"Very Failed Substacker Lyman Shrimp\"), and flippant asides undercut credibility for many readers. Trim or tone down those lines. Similarly, you report survey demographics and outcomes without describing sample size, response rate, and selection bias\u2014add a one\u2011sentence methodological note (n, how readers were recruited, how questions were asked) or remove the specific percentages if the sample is too small/biased. These edits will make the post feel more rigorous and persuasive to EA readers while keeping your anecdotal, motivational tone.",
+    "improvement_potential": "Targets major credibility and embarrassment risks: unsupported cost\u2011effectiveness numbers, overclaiming causal attribution/credit, potential privacy/consent issues, and presenting survey results without methodology. Fixing these would substantially strengthen the post without destroying its tone; they\u2019re critical improvements though they don\u2019t overturn the essay\u2019s core message."
+  },
+  "PostAuthorAura": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Pseudonymous/niche online author with a small or occasional presence in EA/rationalist spaces rather than a well-known figure; not a frequent speaker or central community leader and has no notable mainstream/global visibility. Identification is uncertain due to pseudonymity."
+  },
+  "PostClarity": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "clarity_score": 7,
+    "explanation": "The post is generally easy to follow and has a clear central thesis \u2014 that broadcasting good ideas can have large real-world effects \u2014 supported by vivid anecdotes (Daily Show, donations, survey). Strengths include an engaging narrative voice and concrete evidence. Weaknesses are repeated points, several distracting tangents (Biblical analogy, detailed survey stats, personal asides) and uneven tone, which make it feel a bit rambling and longer than necessary; tightening and cutting some details would improve conciseness and argumentative focus."
+  },
+  "PostNovelty": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post mainly makes a familiar point to EA readers \u2014 that public-facing writing and outreach can move money and minds \u2014 and recounts an anecdote about a blog leading to media attention and donations for shrimp welfare. EA audiences already discuss outreach, cause-prioritization, and invertebrate welfare, so the core claims are not new. For the general public the specific story (shrimp welfare being extremely cost\u2011effective and picked up by The Daily Show) is somewhat surprising, but the overall idea that broadcasting good ideas can have outsized impact is common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post makes a clear, plausible argument that broadcasting ideas can have outsized effects and gives concrete, contemporaneous examples (Daily Show coverage, 23k readers, named donors, survey replies/testimonials) and candid caveats about uncertainty. Weaknesses: The argument relies heavily on anecdotes and self\u2011selected survey data, lacks rigorous causal evidence or counterfactuals (e.g., how much of the donations/awareness were directly caused by the author vs. other amplifiers), and overgeneralizes from a single successful case. Overall the claim is plausible and modestly supported, but not rigorously demonstrated."
+  },
+  "PostExternalValidation": {
+    "post_id": "viSRgubpKDjQcatQi",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s central empirical claims about the Shrimp Welfare Project (SWP) are supported by independent sources: SWP\u2019s claim of ~1,500 shrimps helped per $/year (and much larger multi-year totals from each stunner), the existence of free electrical stunner programs and their ~\\$60k\u2013\\$80k unit cost, Rethink Priorities\u2019 work on shrimp welfare, and third\u2011party writeups and discussions (EA Forum, LessWrong, Vetted Causes, news coverage). The Daily Show did run a segment referencing the Shrimp Welfare Project (podcast/episode descriptions confirm Ronny Chieng testing EA/shrimp welfare). Several named individuals\u2019 endorsements/donations are independently documented (Richard Hanania\u2019s piece explicitly states a \\$1,000 donation; Richard Y. Chappell\u2019s post states a \\$1,000 donation). However, a few claims are not verifiable from public sources or are author\u2011internal: the author\u2019s exact Substack view count (23,000 reads) and survey statistics; the claim that a Daily Show producer specifically discovered the author\u2019s blog (causal provenance); and some named donations (e.g., Michael Huemer, Garrett Jones) lack an explicit public record I could find. Overall: strong evidence for the SWP technical/cost\u2011effectiveness claims and for widespread attention/discussion; weaker or unverifiable evidence for some attributional and private\u2011donation details. ",
+    "sources": [
+      "Shrimp Welfare Project \u2014 (Shr)Impact and homepage (shrimpwelfareproject.org) \u2014 shows 1,500 shrimps helped per $/year and stunner program details. (See 'Shr( )Impact' and home pages).",
+      "Rethink Priorities \u2014 'Welfare considerations for farmed shrimp' (rethinkpriorities.org) \u2014 review of shrimp welfare scale and threats.",
+      "Global Seafood / Responsible Seafood Advocate \u2014 'Shrimp Welfare Project offers free electrical stunners...' (news coverage describing stunner cost and program).",
+      "Vetted Causes review of Shrimp Welfare Project (vettedcauses.com) \u2014 independent cost\u2011effectiveness commentary and caveats.",
+      "The Daily Show: Ears Edition / episode descriptions (podcast listings referencing Ronny Chieng testing effective altruism / Shrimp Welfare Project) (e.g., GlobalPlayer / iHeart listings).",
+      "Richard Hanania \u2014 'I Am Paying Reparations to the Shrimp' (richardhanania.com / Substack) \u2014 explicitly states a \\$1,000 donation in response to Bentham\u2019s Bulldog post.",
+      "Richard Y Chappell \u2014 'Refusing to Quantify is Refusing to Think' (goodthoughts.blog / EA Forum repost) \u2014 states a \\$1,000 donation inspired by the post.",
+      "EA Forum & LessWrong threads (Effective Altruism Forum / Astral Codex Ten / LessWrong) \u2014 show wide discussion, crossposts, and that Scott Alexander\u2019s site community referenced/linked the shrimp post.",
+      "EA Forum posts about the Shrimp Welfare Project & 'Two Years of Shrimp Welfare Project' (effectivealtruism.org / forum posts) \u2014 SWP impact summaries and fundraising/commitment numbers."
+    ]
+  }
+}

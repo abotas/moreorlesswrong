@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is an operational hiring post for a niche but tractable intervention (eradicating New World screwworm) that matters relatively more to animal-welfare and global-health/practical EA interests than to core EA/longtermist theory. If successful, the Director could accelerate a concrete, regionally important eradication effort with welfare and economic benefits in South America, so it\u2019s modestly useful to people looking for high-impact animal-welfare career opportunities or grant targets. However the post isn\u2019t foundational to major EA or global priorities, has limited global scale, and would not materially change big-picture decisions (e.g., AI safety, existential risk). Hence modest importance for the EA community and low importance for general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Missing a concise impact case and success metrics \u2014 readers (and strong applicants) will want to know why this role matters and how success will be judged. Add a 2\u20133 sentence summary at the top that: (a) states the concrete outcome you\u2019re pursuing (e.g., policy adoption, eradication programme launched, number of countries engaged), (b) explains high-level evidence that this is tractable/important, and (c) lists 2\u20134 success metrics or milestones for the first year. This prevents the post from looking like a generic hiring ad and helps attract mission-aligned applicants.\n\n2) Unclear resourcing, authority, and stability \u2014 candidates will worry about whether the Director will have the budget, team, and decision-making power needed. State: funding horizon and likelihood of renewal, operating budget and travel budget (or range), whether the Director will hire staff/contractors, reporting lines (who they report to / governance), and what volunteer capacity/support the organisation will provide. If the 1-year contract is contingent on fundraising, say so and describe contingency plans.\n\n3) Incomplete logistical/job detail that will reduce applicant quality \u2014 clarify exact language requirements, work arrangement, and benefits. Specify whether the salary is USD gross or net, whether local cost-of-living/location adjustments apply, expected travel frequency, visa support, PTO/health/other benefits (or say if none), and the selection timeline/process (interview rounds, start date). These small clarifications materially improve applicant fit and reduce back-and-forth.",
+    "improvement_potential": "The feedback points to real, high-impact omissions that would meaningfully reduce applicant quality and confidence: a brief impact/success summary would prevent the ad feeling generic, and clarifying funding/authority and key logistics answers top candidate concerns. These are not fatal errors but are important for recruiting a strong Director. (Note: some details may already be in the linked full job description, so the poster should prioritise surfacing the most decision-relevant facts in the short forum post.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a well-known EA/rationalist author named Aaron Bergman up to my 2024-06 cutoff. There is no prominent presence on major EA/rationalist venues (EA Forum, LessWrong, 80,000 Hours) or obvious high-profile publications/citations tied to that name. He appears to be either unknown in EA circles or a very minor/occasional contributor; globally he has no notable public profile. If you have links or context (articles, social accounts, pseudonym details), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: the post states who Screwworm Free Future is, the role being hired, key logistics (salary, hours, contract length, location), language preferences, and provides a link to the full job description. Strengths include good structure, translations (ES/PT) for the target region, and clear calls to apply/share. Minor weaknesses: some repetition across language sections and repeated links make it slightly longer than necessary, and a few finer details (start date, reporting line, benefits) are omitted but likely covered in the linked JD."
+  },
+  "PostNovelty": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily a straightforward job announcement for a specific volunteer-led NGO rather than a new argument or idea. The only mildly uncommon elements are the niche subject (screwworm eradication in South America), the multilingual outreach, and that it\u2019s the organisation\u2019s first paid hire \u2014 but those are operational details rather than novel conceptual claims, so overall novelty is very low for both EA readers and the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "reasoning_quality": 8,
+    "evidence_quality": 7,
+    "overall_support": 8,
+    "explanation": "Strengths: The post is clear, well-structured and logically presents the role, responsibilities, language preferences, logistics (salary, hours, contract length, location) and links to the organisation and full job description. It makes a straightforward, easily verifiable claim (they are hiring) and provides actionable next steps. Weaknesses: It offers limited evidence about organisational track record, funding stability, expected impact or success metrics for the role, and no external validation (e.g. endorsements, past accomplishments, or budget/funding sources) that would strengthen confidence in the position\u2019s sustainability or importance."
+  },
+  "PostExternalValidation": {
+    "post_id": "rfxtgLqKAKQLzngeG",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major empirical claims in the post are well-supported and verifiable: Screwworm Free Future exists and describes the stated mission; the EA Forum job post and the project\u2019s Google Doc job description substantiate the hiring announcement, salary ($60,000), 1-year full-time contract, remote/South America preference, and application instructions (apply by March 1). Broader factual context invoked by the project (that screwworm / Cochliomyia hominivorax is a serious livestock/wildlife pest, that Panama/COPEG sterile\u2011fly barrier and recent northward spread are policy-relevant issues) is corroborated by USDA/APHIS and peer\u2011reviewed sources. Weaknesses/uncertainties: some numeric claims on the project website (e.g., implausibly large figures such as \u201c89.2B wild mammals potentially affected\u201d) are either unexplained or unsupported by primary sources and should be treated with caution. Overall: most central organizational and hiring claims are accurate and verifiable; a few background figures on the project site lack clear sourcing.",
+    "sources": [
+      "EA Forum \u2014 \"Screwworm Free Future is hiring for a Director\" (post; Jan 29, 2025).",
+      "Screwworm Free Future \u2014 https://screwworm.org/ (organisation website; mission and program pages).",
+      "Job Description (public Google Doc) \u2014 \"Job Description - Project Director at SFF\" (linked from the EA Forum post).",
+      "EA Forum \u2014 \"Launching Screwworm\u2011Free Future \u2013 Funding and Support Request\" (founding/funding post describing volunteer origins and goals).",
+      "USDA APHIS \u2014 \"New World Screwworm Outbreak in Central America and Mexico\" (APHIS outbreak & Panama/sterile fly barrier information).",
+      "Parasites & Vectors (peer\u2011reviewed) \u2014 \"Demographic and historical processes influencing Cochliomyia hominivorax population structure across South America\" (2024) \u2014 supports regional economic impact estimates (~$3.6B) and eradication history.",
+      "National Geographic \u2014 \"Inside the program that breeds billions of screwworm flies each year\" (background on COPEG / sterile insect technique and the Panama barrier)."
+    ]
+  }
+}

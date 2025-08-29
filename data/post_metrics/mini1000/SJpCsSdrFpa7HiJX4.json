@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a helpful, practical collection of norms and personal lessons for newcomers rather than a novel or foundational argument. For the EA community it has modest value: it can improve communication, reduce reputational and interpersonal harms, and help with recruitment and retention, but it doesn't change major cause-priority judgments or technical work. For general humanity it is largely trivial \u2014 pleasant human-interest/advice content with little broad societal impact."
+  },
+  "PostRobustness": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make your \u201cdon\u2019t repeat vague claims\u201d point actionable. Right now you diagnose echo-chambering well but leave readers with only a vague admonition. Add 1\u20132 concrete communication rules-of-thumb and a short, copy-paste template people can actually use when relaying uncertain claims (e.g. \u201cI heard X from [source]; I haven\u2019t checked this myself; here\u2019s the link; my current credence is ~__%; take with caution\u201d). That costs almost no space and directly reduces the very mistake you describe.\n\n2) Hedge or source factual/quantitative claims that readers might take as empirical. A few places read as confident facts but are uncertain or anecdotal (the \u201cabout twice as many men as women\u201d line, the GiveWell prioritization summary, the \u201814 bees\u2019 reference). Either add a reliable citation for each claim, mark them clearly as personal impressions, or remove them. This prevents the post from becoming an unintentional vector for the same overconfident signals you warn about.\n\n3) Tighten the entrepreneurship advice with a short risk-screening checklist rather than only an anecdote. Readers will benefit from a 3\u20134 item checklist they can apply quickly (e.g. legal risk? consult counsel; reputational risk to orgs you care about? escalate/decline; criminal exposure? stop; upside vs personal career downside? require go/no-go threshold). That preserves your helpful warning while giving newcomers a practical decision rule instead of only intuition.",
+    "improvement_potential": "Targeted, practical, and low-cost suggestions that address the post\u2019s main weak spots: vague relay of uncertain claims, un-sourced factual statements that could become the very echo-chamber mistakes the author warns about, and lack of concrete decision rules for risky entrepreneurial ideas. Implementing these would materially reduce embarrassing \u2018own goals\u2019 and make the advice more actionable without significantly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find any notable presence of 'Sam Anschell' in my training data up to mid\u20112024: no prominent posts on EA forums/ LessWrong, no widely cited EA writing, no major talks or organizational roles. If this is a pseudonym or very new author, please provide links or context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, with clear headings, concrete examples, and actionable advice that make its main points easy to follow. It communicates tone and lessons effectively and balances anecdote with recommendations. Weaknesses: occasional inside-jargon, long illustrative tangents (podcast lists, footnotes, links) and some playful asides may slightly distract or require prior EA familiarity for full clarity, so it is not perfectly concise for complete newcomers."
+  },
+  "PostNovelty": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of this post is familiar, practical onboarding advice (use caveats, practise epistemic humility, avoid edgy jokes, cut the jargon, don\u2019t risk legal/reputational harm, mind power dynamics, ask for help). For EA readers these are well-trodden themes; the only mildly novel bits are a few concrete, personal anecdotes and specific EA-culture calls (e.g., the \u201814 bees\u2019 reference, nuance about GiveWell\u2019s value judgments, the tax-arbitrage scheme example, and local gender imbalance warnings). To a general audience the EA-specific cultural details are somewhat new, but the overall lessons are commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "The post presents a coherent, well-structured set of practical recommendations grounded in the author\u2019s experience and plausible social reasoning (strengths: clarity, acknowledges uncertainty and caveats, uses concrete examples). However, most claims are anecdotal or illustrative rather than systematically argued, and several assertions (e.g., scale of echo-chamber effects, gender imbalance impacts, relative prevalence of offensive communication) lack empirical backing or citations. The linked resources and specific examples add some credibility, but overall the evidence is thin and selectively observed, so the advice is moderately supported but not rigorously demonstrated."
+  },
+  "PostExternalValidation": {
+    "post_id": "SJpCsSdrFpa7HiJX4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s empirical claims are accurate and verifiable. Key verifiable points: (1) Rethink Priorities\u2019 Welfare Ranges produce median estimates implying ~1 human \u2248 14 bees (median bee welfare ~0.071 relative to human). (2) EA community surveys consistently show ~65\u201375% men (i.e., roughly twice as many men as women). (3) GiveWell explicitly uses age-dependent moral weights (peak value for ~5-year-olds; newborn and 40\u2011year weights are lower) and funded the R.I.C.E. kangaroo mother\u2011care grant (GiveWell\u2019s estimate ~$2,500 per neonatal death averted in that program). (4) Pesticide\u2011suicide prevention (e.g., Sri Lanka pesticide bans and WHO/Lancet modelling) has strong empirical evidence of large, very cost\u2011effective reductions in suicide, consistent with the author\u2019s suggestion that such programs can be extremely cost\u2011effective. The author\u2019s comparative claim that RICE KMC and pesticide\u2011suicide prevention \u201clikely save more lives per dollar on the margin than GiveWell\u2019s four top recommended charities\u201d is plausible in some settings (supported by GiveWell\u2019s KMC estimate and the pesticide\u2011ban literature) but is context\u2011dependent (depends on scale, marginal room for funding, and country-specific burdens) and thus appropriately hedged by the author. Overall: well-supported with some uncertainty where the author makes cross-program marginal comparisons.",
+    "sources": [
+      "Rethink Priorities \u2014 Welfare Range Estimates (Bob Fischer / Moral Weight Project).",
+      "EA Survey 2024 \u2014 Demographics (EA Forum) / EA Survey 2019 summary (Rethink Priorities).",
+      "GiveWell \u2014 Moral weights (age-weighting) (GiveWell 'What are GiveWell\u2019s current moral weights?').",
+      "GiveWell \u2014 r.i.c.e. Kangaroo Mother Care grant (November 2022 grant page).",
+      "GiveWell \u2014 Our Top Charities (cost\u2011effectiveness summaries showing ~ $3k\u2013$5k per life saved estimates for top programs).",
+      "WHO / The Lancet Global Health 2020 \u2014 modelling on cost\u2011effectiveness of banning highly hazardous pesticides to prevent pesticide self\u2011poisoning.",
+      "PubMed / PLOS / studies on Sri Lanka pesticide regulation and suicide reduction (e.g., Pearson et al. ecological analysis showing large suicide reductions after pesticide bans).",
+      "Centre for Pesticide Suicide Prevention (CPSP) \u2014 annual report and country work summary (Sri Lanka case)."
+    ]
+  }
+}

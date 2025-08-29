@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "7bASeA48kRR868oY4",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post is a useful, practical recommendation: EarlyModernTexts makes important classical works easier and faster to read, which can improve training in moral, political, and philosophical reasoning for students and thinkers. That helps clarify background ideas used in EA/rationalist arguments, but it is not foundational to EA or AI\u2011safety conclusions and would not materially change major decisions if false. For general humanity the impact is modest \u2014 it improves access to classic texts and education quality but is not broadly consequential for societal outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "7bASeA48kRR868oY4",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Add a clear caveat about fidelity and interpretation. The post currently presents EarlyModernTexts (EMT) as a straightforward replacement for originals. But Bennett\u2019s work is explicitly interpretive: he modernizes wording, omits tangential flourishes, and sometimes rewrites sentence structure to make arguments clearer. That can change nuance or hide contested readings (especially for technical terms and argumentative moves). Action: insert one short paragraph saying EMT is an excellent first-pass/teaching edition but not a neutral facsimile \u2014 link to Bennett\u2019s \u201cOn Translating\u2026\u201d (you already have it) and advise readers to consult the original or a scholarly critical edition when doing close interpretive or scholarly work.\n\n2) Soften/qualify strong claims and fix overgeneralizations. Lines like \u201cthey aren\u2019t abridged\u201d and \u201cmeaning can be understood more quickly and accurately\u201d are too categorical and invite pushback. Action: rephrase to something like: \u201cBennett generally keeps paragraph/ sentence alignment and usually does not abridge substantive arguments, but he will omit tangential material and occasionally rephrase passages for clarity.\u201d If you want to keep the pedagogical claim, change it to a qualified recommendation (e.g., \u201cuseful for students and quick comprehension\u201d).\n\n3) Give readers concrete guidance on when and how to use EMT, and note alternatives. The post would be more actionable if it told readers when EMT is the right resource (e.g., first read, teaching, audiobooks) and when to prefer other editions (e.g., detailed scholarship, citation, philological work). Action: add a short \u201cHow I use these texts\u201d paragraph (e.g., first pass \u2192 read EMT \u2192 check original/critical edition for contested claims), and mention reasonable alternatives/resources (critical editions, facsimiles on Internet Archive/Project Gutenberg, other modern translations) so readers know next steps if they want deeper study.",
+    "improvement_potential": "Good, targeted feedback that catches the post's main weak spots: overstated fidelity claims and lack of guidance on appropriate uses. These are plausible 'own goals' (claiming EMT is a neutral, non\u2011abridged replacement could embarrass the author if contested). The fixes are concise and actionable (add a short caveat, soften categorical claims, and one short paragraph on when to use EMT vs. scholarly editions) and would noticeably improve accuracy without greatly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "7bASeA48kRR868oY4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence in my training data (up to mid\u20112024) that Arjun Panickssery is a known figure in the EA/rationalist community or a publicly prominent person. The name does not appear among well\u2011known EA authors, organizers, or widely cited academics; if this is a pseudonym or a minor/occasional online writer, their presence appears minimal."
+  },
+  "PostClarity": {
+    "post_id": "7bASeA48kRR868oY4",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the post has a concise recommendation, explicit examples of original vs modernized text, links to sources, and an explanation of the editor's method. The historical aside about changing punctuation is informative and mostly readable, but slightly longer than necessary and could be tightened. Minor formatting/typographical hiccups (e.g. stray commas/bolding) and a small ambiguity about the terms \u201cmodernized\u201d vs \u201ctranslated\u201d slightly reduce polish, but they don't materially harm comprehension."
+  },
+  "PostNovelty": {
+    "post_id": "7bASeA48kRR868oY4",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This is mostly an informative recommendation of a well\u2011known resource (EarlyModernTexts) and explanation of Bennett\u2019s modernization methods. EA Forum readers (who often engage with classical philosophy and reading primary sources) are very likely already familiar with the idea of using modernized or annotated editions, so it\u2019s not novel (score low). For the general public the specific site and details about prosodic vs. syntactic punctuation and Bennett\u2019s sentence\u2011by\u2011sentence \u2018translation\u2019 are somewhat less widely known, but still not highly original \u2014 it\u2019s a straightforward pointer to an existing, established resource rather than a new claim or theory."
+  },
+  "PostInferentialSupport": {
+    "post_id": "7bASeA48kRR868oY4",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post states a clear problem (archaic punctuation and style can impede comprehension), gives concrete illustrative examples of confusing historical punctuation, and shows parallel original/modernized passages to demonstrate how EarlyModernTexts improves readability. It also documents Bennett\u2019s stated methods and some accessibility features (audio, EPUB). Weaknesses: The argument is largely pragmatic and informal rather than rigorously defended \u2014 there is no empirical evidence that modernized texts measurably improve comprehension or learning, no independent scholarly endorsement or critique is cited, and the claim that these editions are \u201coften assigned to undergrads\u201d is unsupported. Potential counterarguments about fidelity/interpretive bias from modernization are acknowledged only briefly (transparency note) and not evaluated. Overall the recommendation is plausible and reasonably argued, but rests on illustrative examples and authority rather than systematic evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "7bASeA48kRR868oY4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well supported. EarlyModernTexts is indeed Jonathan Bennett\u2019s project, Bennett prepared the modernized/\u201ctranslated\u201d versions and explained his method in a short paper (and on the site); the site documents the editorial conventions (brackets, dots, four\u2011point ellipses, bullets), provides many of the named authors and texts, and offers narrated audio versions of several works. Historical claims about older punctuation being prosodic (comma/semicolon/colon as pauses) and Simon Daines\u2019s Orthoepia (1640) recommending pause\u2011units are supported by reference works. Evidence also shows Bennett died in 2024 and that instructors commonly assign his versions. A small inaccuracy: the post says \u201cHe doesn\u2019t always indicate omissions,\u201d but Bennett\u2019s site explicitly describes the four\u2011point ellipsis and how omissions/additions are marked, so omissions are marked according to the site\u2019s documented conventions. Overall: well supported with one minor misleading phrasing and a few subjective/general statements (e.g., \u201coften assigned to undergrads\u201d) that are nevertheless corroborated by multiple course sites.",
+    "sources": [
+      "EarlyModernTexts \u2014 How Have the Texts Been Modified? (FAQ 'How'). earlymoderntexts.com/faqs/how. (site documents brackets, small dots, four\u2011point ellipsis, bullets, examples).",
+      "Jonathan Bennett, 'On Translating Locke, Berkeley, and Hume into English' (PDF). earlymoderntexts.com/assets/jfb/translating.pdf. (Bennett explains his translation/modernization method and omissions/additions).",
+      "EarlyModernTexts \u2014 Texts list. earlymoderntexts.com/texts. (catalog of authors/texts available on EMT).",
+      "EarlyModernTexts \u2014 Audio page. earlymoderntexts.com/audio (lists narrated texts including Leviathan, The Prince, A Vindication of the Rights of Woman, Meditations, Hume's Enquiry, Locke's Second Treatise).",
+      "Wikipedia / obituary summary: Jonathan Bennett (philosopher) (1930\u20132024). (confirms Bennett\u2019s authorship and death March 31, 2024).",
+      "Canadian Philosophical Association 'In Memoriam: Jonathan Bennett' (confirms date & details). acpcpa.ca/articles/in-memoriam-jonathan-bennett (April 2024).",
+      "Encyclopaedia Britannica \u2014 'Punctuation in English since 1600' (explains early punctuation as elocutionary/prosodic and cites Daines and Puttenham). britannica.com/topic/punctuation/Punctuation-in-English-since-1600",
+      "Folger/Shakespeare/short-title catalog entry for Simon Daines, Orthoepia Anglicana (1640). (catalog records and descriptions of the work and date).",
+      "Project Gutenberg \u2014 Pride and Prejudice (Jane Austen). gutenberg.org/files/1342/1342-h/1342-h.htm (shows original opening with comma: 'It is a truth universally acknowledged, that...').",
+      "Project Gutenberg \u2014 Moby\u2011Dick (Herman Melville), chapter passage showing comma after 'This august dignity I treat of, is not...' gutenberg.org/ebooks/2489 (chapter text).",
+      "Britannica article on history of punctuation and punctuation as elocutionary practice (summarizes Puttenham, Daines, Ben Jonson shift to syntactic punctuation). britannica.com/topic/punctuation",
+      "Examples of course syllabi using Bennett\u2019s versions (showing EMT is assigned in undergraduate courses), e.g. Phil/Modern/Modern-Sp25 and other university course pages referencing 'Jonathan Bennett's Early Modern Texts'. (woldww.net class pages and similar syllabi)."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Practically useful for the EA/rationalist community as a corrective to common rhetorical and philosophical mistakes about longtermism \u2014 it helps reduce harmful polarization, clarifies that concern for future generations doesn\u2019t require endorsing contentious moral theories, and could modestly influence discourse and fundraising/prioritisation within EA. It is not foundational scholarship or new empirical evidence, so its truth or falsehood wouldn\u2019t radically alter core EA arguments. For general humanity it is of minor importance: it might slightly shape public debate about extinction and intergenerational obligations if widely read, but it\u2019s unlikely to materially change policy or collective outcomes on its own."
+  },
+  "PostRobustness": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak engagement with critics \u2014 you risk talking past Nathan Robinson and others by characterising their views as nihilistic without engaging their strongest arguments. Actionable fix: quote and briefly summarize Robinson\u2019s central normative points (not just provocative lines), respond to them on their own terms, and acknowledge plausible non-utilitarian reasons someone might reject longtermism (e.g. democratic legitimacy, value pluralism, the non-identity problem). This will reduce straw-manning and make your rebuttal more persuasive. \n\n2) Overlooked political and trade-off objections \u2014 the post treats concern for the long-term as mainly a philosophical or moral choice, but many left-leaning objections are political and pragmatic (resource allocation, present suffering vs distant benefits, elite capture, legitimacy of technocratic risk interventions). Actionable fix: add a short section acknowledging these concerns and explain concretely how longtermist priorities can (a) avoid crowding out present needs, (b) be implemented democratically, and (c) be protected from capture by powerful actors. Use at least one concrete example (e.g. how to balance climate policy vs x-risk mitigation budgets) to show you\u2019ve considered trade-offs. \n\n3) Argumentative gaps on population ethics and the economic argument for indirect concern \u2014 some claims are under-supported (e.g. person-affecting views imply caring about future generations via macroeconomics; the list of losses if humanity dies is persuasive but philosophically thin). Actionable fix: either (a) tighten the argumentative chain with citations and a brief model/empirical references showing how demographic/economic dependence generates present-day reasons to care about future generations, or (b) trim the emotive catalogue of extinction harms and replace it with an explicitly defended normative claim (e.g. why continuity of persons/culture matters morally) so the post doesn\u2019t rely mainly on rhetorical force.",
+    "improvement_potential": "The feedback identifies real, non-trivial weaknesses: straw-manning critics (own-goal), neglecting political/pragmatic trade-offs left-leaning readers care about, and making under-supported claims about population/economic reasoning and extinction harms. Each point is actionable and could be addressed concisely, improving credibility and persuasion without massively lengthening the piece."
+  },
+  "PostAuthorAura": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff I find no notable presence for 'Danny Wardle' in Effective Altruism/rationalist circles or in broader public discourse. Not listed among known EA authors/speakers or widely cited; could be a private/emerging author or a pseudonym. Provide links or context if you want a re-check."
+  },
+  "PostClarity": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "clarity_score": 8,
+    "explanation": "Well-structured and readable: the post uses clear headings, concrete examples, and accessible definitions of technical terms (longtermism, utilitarianism, total view), and it follows a logical arc (diagnose polarisation \u2192 critique extreme critics \u2192 show why population ethics don\u2019t undermine caring for the future). Weaknesses: a few paragraphs are slightly repetitive or rhetorically charged, some readers unfamiliar with niche terms might want briefer signposting, and a couple of tangents (e.g. the inflation example, flippant asides) could be tightened for concision."
+  },
+  "PostNovelty": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "Most claims are familiar to EA/longtermist audiences \u2014 critiques of anti-longtermist polemic, defenses that caring about future generations doesn't require utilitarian/total views, and warnings about polarisation are common in forum debates. The clearest somewhat-fresh moves are the practical person\u2011affecting/economic argument (even an indirect interest in future cohorts) and the \u2018misapplying moral philosophy\u2019 analogy to future selves, which may be new to some non\u2011specialists. For the general public these points are moderately novel but not highly original given existing media debates about longtermism, tech philanthropy, and extinction."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logical and well structured \u2014 it clearly states the thesis, situates longtermism, identifies common objections (utilitarianism, the total view), and offers plausible counterarguments (person\u2011affecting views still give reasons to care about future people; practical intergenerational concerns such as pensions/economic effects). It usefully warns against dismissing intergenerational ethics on the basis of association with particular actors or philosophical extremes. Weaknesses: Many key claims rest on appeals to intuition or analogy rather than systematic argumentation or empirical data (e.g., why extinction is bad beyond intuitive listing of losses; why short\u2011term priorities should yield to longtermist priorities in practice). The engagement with opposing arguments (e.g., Robinson\u2019s reasons for neutrality, substantive population\u2011ethics debate) is superficial. Quantitative trade\u2011offs, empirical evidence about risks or policy impacts, and deeper engagement with the philosophical literature are largely absent. Overall: a persuasive popular piece with reasonable reasoning but limited evidential support and insufficient depth for a strong academic case."
+  },
+  "PostExternalValidation": {
+    "post_id": "GatvBck3xYrq8KAwJ",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major empirical claims are verifiable and well supported.  Strengths: (1) the basic definition and genealogy of longtermism (MacAskill, Ord, EA) is accurate. (2) The Greaves & MacAskill wording about \u2018ignoring the first 100 (or even 1,000) years\u2019 appears in their (2019) \u2018case for strong longtermism\u2019 and is discussed in EA coverage. (3) Toby Ord\u2019s substantive probability estimates (e.g. AI \u2248 1/10, engineered pandemics \u2248 1/30, climate and nuclear \u2248 1/1,000) and his point that current spending on targeted existential-risk reduction is tiny (<0.001% of world product) are reported in The Precipice and summaries. (4) Nathan Robinson\u2019s and \u00c9mile P. Torres\u2019s quoted positions (Robinson: \u201cIf, in the very long run, our species goes extinct, I do not think that is a matter of moral concern.\u201d; Torres\u2019s pro\u2011extinction sympathies/qualifications) are present in the cited Current Affairs and Guardian pieces. (5) The claim that major EA/longtermist funders include tech-billionaire\u2013backed philanthropies (e.g., Dustin Moskovitz / Good Ventures / Open Philanthropy; Sam Bankman\u2011Fried/Future Fund historically) is supported by reporting. (6) The link between demographics/age-structure and inflation (i.e., \u201ctoo many dollars chasing too few goods\u201d as demand\u2011pull inflation) is supported by IMF and other econ literature, though the macro effect is contested in detail. Caveats / Limitations: some statements are normative or interpretive rather than strictly empirical (e.g., \u201clongtermism presents those groups with a convenient excuse to ignore the present\u201d), and phrases like \u201c(some) racists\u201d are imprecise \u2014 there is documented controversy (e.g., Nick Bostrom\u2019s old email) but characterizing that as representative requires caution. Also, probabilities and priority judgements (which risks are \u2018most important\u2019) are expert judgments and contested across scholars; the post\u2019s summaries of Ord/MacAskill are accurate but reflect disputed estimates. Overall: the empirical claims are largely accurate and verifiable, with a few points that need nuance rather than being flatly wrong.",
+    "sources": [
+      "William MacAskill \u2014 Longtermism (author website / Effective Altruism resources).",
+      "Hilary Greaves & William MacAskill, \"The Case for Strong Longtermism\" (Global Priorities Institute working paper; includes the 'ignore the first 100 (or even 1,000) years' passage in earlier versions).",
+      "Toby Ord, The Precipice: Existential Risk and the Future of Humanity (covers Ord's probability estimates, spending on existential risk, and priorities).",
+      "Effective Altruism article: \"Longtermism: An Introduction\" (EA.org).",
+      "Nathan J. Robinson, \"We Should Be Neither 'Anti\u2011Natalist' Nor 'Pro\u2011Natalist'\" and other Current Affairs pieces (quotes and positions cited).",
+      "\u00c9mile P. Torres \u2014 Guardian interview: 'What if everybody decided not to have children?' (The Guardian, July 22, 2023) and Torres\u2019s response on Medium.",
+      "Stanford Encyclopedia of Philosophy \u2014 entry on the Repugnant Conclusion / population ethics (explains total vs person\u2011affecting views).",
+      "Toby Ord / EA Forum summaries and posts (e.g., 'Clarifying existential risks and existential catastrophes') regarding definitions of existential vs extinction risk.",
+      "Open Philanthropy / Good Ventures / reporting on EA donors (coverage of Dustin Moskovitz / Cari Tuna and past SBF / Future Fund ties).",
+      "IMF Finance & Development article: Juselius & Tak\u00e1ts, 'Age and Inflation' (discussion of demographic structure and inflationary pressure)."
+    ]
+  }
+}

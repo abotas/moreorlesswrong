@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "Interesting and potentially useful as a publicity/ transparency nudge: a charity\u2011adjusted billionaire ranking could modestly change reputational incentives, highlight real giving, and be a low\u2011cost tool for fundraising advocacy. However it is not foundational to EA or AI policy, is easy to game or legally ambiguous (donor\u2011advised funds, retained control, timing), and would probably have only a small effect on the biggest donors\u2019 behavior. For general humanity it\u2019s mostly a novelty with limited practical impact."
+  },
+  "PostAuthorAura": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence in my training data (up to mid\u20112024) that 'JP Addison\ud83d\udd38' is a recognized figure in the EA/rationalist community or widely known publicly. Likely a pseudonymous or low\u2011profile online account with no major publications, talks, or citations found."
+  },
+  "PostClarity": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "clarity_score": 7,
+    "explanation": "The post is readable, conversational, and the central idea (a billionaire ranking that discounts irrevocably donated assets) comes across quickly. However it reads more like a riff or pitch than a fully developed argument: transitions and punctuation are a little choppy, the incentives/definitions aren\u2019t spelled out precisely, and it relies on rhetorical questions rather than evidence. With a tighter structure (clear definition, one-paragraph rationale, and a concrete example) it would be clearer and more persuasive."
+  },
+  "PostNovelty": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For EA readers this is a fairly obvious incentive tweak \u2014 EAs often discuss reputational levers, the Giving Pledge, and ways to change incentives for big donors \u2014 so it\u2019s not very novel to suggest adjusting rankings to reflect irrevocable donations. For the general public it\u2019s somewhat more original: people have debated billionaire pledges and net worth accounting, but an explicit, polished \u2018charity\u2011adjusted billionaire league table\u2019 as a behavioral nudge/PR product is moderately new and not something most lay readers have likely considered in detail."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post offers a plausible intuition \u2014 status on leaderboards can motivate behavior \u2014 but the argument is thin and largely speculative. It lacks a clear causal mechanism, fails to consider important countervailing factors (tax/legal realities, control concerns, existing reputational incentives, potential gaming or perverse incentives), and doesn't engage with relevant literature on social signaling or elite philanthropy. Empirically there is essentially no evidence provided: no data, case studies, surveys, or natural experiments that would show leaderboard-adjustment changes giving behaviour. The idea could be worth low-cost piloting (e.g., a vanity site) but as presented it is weakly supported and would need targeted evidence and fuller reasoning to be convincing."
+  },
+  "PostExternalValidation": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's factual claims are verifiable and well-supported: Bloomberg\u2019s Billionaires Index exists and Bloomberg (and multiple reputable news outlets) published the hypothetical calculation that \u201chad Buffett kept the shares\u201d his net worth would be ~US$400B as of April 30 and about US$67B more than Elon Musk (reported mid\u2011May 2025). Buffett\u2019s large, multi\u2011decade donations (totaling ~US$50\u201360B and a reported US$6B gift in 2025) are documented. Bloomberg\u2019s index and methodology are transparent and update daily. Caveats: the post\u2019s blanket statement that donated stock is no longer owned \u201cin any legal or practical or economic sense\u201d is an oversimplification \u2014 legally irrevocable gifts transfer ownership, but in practice donors can retain influence via donor\u2011advised funds or family foundations (so whether a ranking \u201cshould\u201d remove donated assets depends on legal form and control). The suggestion that charity\u2011adjusted league tables would change behavior is plausible but speculative and not empirically demonstrated in the post. Overall: core numeric claims are well supported; normative/speculative claims need nuance or evidence.",
+    "sources": [
+      "Bloomberg Billionaires Index \u2014 Warren E. Buffett profile (Bloomberg.com)",
+      "Bloomberg Billionaires Index methodology page (Bloomberg.com, Apr 2025)",
+      "NDTV \u2014 'Warren Buffett Would Be $67 Billion Richer Than Elon Musk If...' (May 16, 2025) \u2014 referencing Bloomberg",
+      "The Straits Times \u2014 'If Warren Buffett had been less giving, he would be $87 billion richer than Elon Musk' (May 16, 2025) \u2014 referencing Bloomberg",
+      "Hindustan Times \u2014 'Warren Buffett would have been richer than Elon Musk today if\u2026' (May 2025) \u2014 referencing Bloomberg",
+      "CNBC \u2014 'Warren Buffett\u2019s charitable giving exceeds $50 billion' (coverage of Buffett donations, June 2023) and 'With $6 billion donation, Buffett has now given away over $60 billion' (July 2025)",
+      "Associated Press \u2014 'Warren Buffett announces $6 billion in donations to five foundations' (AP News, June 2025)",
+      "National Philanthropic Trust / NPTrust \u2014 'What is a Donor\u2011Advised Fund?' and DAF guidance (explains irrevocable gift + donor advisory role)",
+      "IRS guidance on charitable trusts/private foundations (treatment of irrevocable charitable trusts)",
+      "Nonprofit Quarterly \u2014 analysis noting Bloomberg index and philanthropy (discussion of how rankings treat giving)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "Gx9w3gLHoK2PHB7T6",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unclear and probably wrong incentive story \u2014 clarify the behavioral mechanism you expect. Right now you suggest \u2018charity-adjusted\u2019 rankings could motivate donations, but you don\u2019t say whether removing donated assets from rankings would increase or decrease giving. People who care about status might donate less if donations make them drop on a leaderboard; others might donate more if rankings reward giving. Fix: add a short paragraph that (a) states the mechanism you expect, (b) runs 1\u20132 quick thought experiments (e.g. Buffett/Gates-style outright gifts vs pledges; a status-seeking tech founder), and (c) cite or acknowledge relevant literature on status/signalling and wealthy donor behavior or say explicitly that this is speculative. This avoids the post looking like it skipped the most important behavioral question. \n\n2) Overstated claim about ownership and control \u2014 tighten the legal/economic definitions. You write that donated stock is no longer owned \u201cin any legal or practical or economic sense,\u201d which is false in many common cases (donor-advised funds, family foundations, dual-class shares, retained voting control, pledges vs completed transfers). Fix: explicitly define the inclusion rule you\u2019d use for the ranking (e.g., exclude only assets irrevocably transferred to independent charities with legally enforceable loss of control; treat DAFs and pledges as still owned until distributed; treat foundations controlled by the donor as still owned). Give one clear, simple example rule so readers understand what \u201ccharity-adjusted\u201d concretely means. \n\n3) Feasibility and gaming risks \u2014 address data, valuation, and manipulation. A lux-looking site idea is fine, but the post omits how you\u2019d get trustworthy data on donations/pledges, how to value illiquid donated assets, and how to prevent gaming (moving assets into affiliated charities, hiding pledges, timing transfers). Fix: add 3\u20134 sentences on practical methodology (data sources you\u2019d rely on, how to treat pledges vs actual transfers, how to handle private stock or family foundations) and mention obvious gaming risks and how your methodology would try to mitigate them (e.g., treat DAFs/family foundations as retained control, require legal confirmation of irrevocable transfers). This will make the proposal look actionable rather than naive.",
+    "improvement_potential": "The three points identify substantive, non-trivial mistakes and potential embarrassments: the post never settles the key behavioral mechanism (could cut or boost donations depending on how rankings treat gifts), it makes a false blanket claim about donated assets\u2019 legal/economic status (ignoring DAFs, pledges, retained control, etc.), and it skips obvious data, valuation, and gaming problems that would make a public \u2018charity-adjusted\u2019 leaderboard na\u00efve. Fixing these would materially improve credibility and reader usefulness and can be done with only a short paragraph plus a few sentences of methodology\u2014so high impact for modest added length."
+  }
+}

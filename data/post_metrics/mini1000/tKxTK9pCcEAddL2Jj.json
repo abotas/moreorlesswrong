@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "Practical, actionable tips for EAG(x) attendees and organisers that can modestly improve networking efficiency (profile wording, batch-processing attendee CSVs, and known Swapcard limitations). Useful for people who attend many EA events or manage attendee data, but not foundational to EA strategy, longtermism, or broader decision-making. Essentially a niche productivity/resource post; irrelevant to general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Major privacy / legal oversight \u2014 you don\u2019t warn readers about handling personal data. Actionable fix: add a short explicit paragraph saying (a) check the event\u2019s data-sharing policy and local laws (e.g. GDPR) before downloading/sharing the CSV, (b) keep the file local and encrypted if needed, delete it after use, and don\u2019t re-publish attendees\u2019 PII, and (c) never paste attendee bios or entire rows into third-party LLM services unless you have consent. Mention the risk of accidental public exposure and give one-sentence guidance how to avoid it. \n\n2) Ethics & fairness concern \u2014 the post assumes everyone can/should programmatically sift profiles, which creates an advantage and could be perceived as exploitative. Actionable fix: acknowledge this trade-off and add two short mitigation suggestions: offer your scripts as an opt-in tool (or anonymized examples) rather than a polished competitive advantage, and suggest organisers add better official features (export options, improved filters) or share an official, well-documented CSV for transparency. \n\n3) Weak / brittle filtering heuristics presented without alternatives \u2014 advising sorting by raw text length or simple includes risks surfacing irrelevant/verbose profiles and encourages misrepresentation (e.g., changing job title for visibility). Actionable fix: replace or supplement the length heuristic with concrete, higher-quality strategies: keyword/regex matching, weighted scoring (e.g. +3 for exact expertise match, +1 for related terms), simple semantic-relevance via embeddings or LLM scoring (with a privacy warning), and an example filter rule or pseudo-formula. Also add a one-line note discouraging dishonest profile edits (e.g. fake titles) and recommending using profile summary fields for discoverability instead.",
+    "improvement_potential": "Strong, actionable feedback. The privacy/GDPR warning is a major omission and should be fixed \u2014 that alone could be embarrassing if readers misuse sensitive data. The ethics/fairness point is relevant (programmatic sifting creates an advantage) and worth a brief acknowledgement; the suggested mitigations are reasonable and short. The critique of simple heuristics (sorting by text length) is accurate and the suggested alternatives are practical. Overall the recommendations identify real \u2018own-goals\u2019 and can be incorporated without greatly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable presence for 'OlyaBabe' in EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, major EA blogs) or in academic/public outlets up to my 2024-06 knowledge cutoff. Likely a pseudonymous or very minor online persona; share links or context if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured (clear headings, bullets, and a step-by-step process) and conveys practical, actionable tips that are easy to follow. Strengths: readable layout, concrete workflow, link to implementation. Weaknesses: a few small language/typo issues (e.g. \u201cfew hundreds\u201d), a couple of vaguely phrased points (filter examples and the \u2018maybe avoid\u2019 line), and some minor formatting oddities (escape characters, emoji note) that slightly reduce polish. Overall concise and understandable with only minor improvements needed."
+  },
+  "PostNovelty": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post is mostly practical, tactical advice about using Swapcard and a straightforward workflow (export CSV, script filters, render Markdown, review in Obsidian). EA readers are very likely to have seen or used similar processes (spreadsheets, small scripts, LLM-assisted filtering), so it\u2019s not conceptually novel. For the general public it\u2019s slightly more novel because the specific Swapcard/app workflow and the packaged script+Obsidian approach may be unfamiliar, but the underlying ideas (export data, programmatic filtering, improve profiles) are common and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is logically structured, pragmatic, and coherent \u2014 it clearly explains why exporting the spreadsheet, filtering, sorting, and reformatting makes reviewing many profiles easier, and it includes caveats and an implementation link. Weaknesses: Evidence is mostly anecdotal and underspecified (\"a few hundreds\" profiles, no metrics on time saved or outcomes, no user testing or comparisons), and Swapcard criticisms are asserted without supporting documentation or broader user feedback. The advice is plausible and practically useful, but would be better supported with concrete sample sizes, quantitative results, or systematic user validation."
+  },
+  "PostExternalValidation": {
+    "post_id": "tKxTK9pCcEAddL2Jj",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most factual claims in the post are accurate and verifiable: Swapcard is commonly used at EA events for agenda/1:1 scheduling; Swapcard supports meeting booking, exporting attendees, and organizers can create/export CSV/Excel attendee lists; the platform historically used infinite scroll (and now has an organizer toggle). Several UI complaints are subjective but consistent with the platform\u2019s behavior. One clear factual inaccuracy: the post\u2019s statement that Swapcard is \u201conly available online, no cache in the app\u201d is contradicted by Swapcard\u2019s documented offline features (digital badges, offline badge-scanning and SwapAccess cached registrants). The claim that filters are \u201conly OR\u201d is plausible in some configurations but not definitively documented as a universal constraint; sorting options are limited to the set described (plus custom-field sorts), which matches Swapcard docs. Overall: good support for most empirical points, a few inaccuracies/overstatements and some items are subjective UX observations.",
+    "sources": [
+      "Effective Altruism - EA Global (page describing Swapcard use at EA events). (Source ID: turn0search3)",
+      "Swapcard Help \u2014 Booking meetings with other attendees / Booking meetings guide (documents meeting/1:1 scheduling features). (Source ID: turn0search5)",
+      "Swapcard Help \u2014 Creating Meeting Slots / Meetings feature overview (organizer meeting slots & rules). (Source ID: turn0search1)",
+      "Swapcard Help \u2014 Export your event data & Exporting my Contacts (shows exporting attendee/contact data, Excel/CSV export). (Source IDs: turn2search5, turn4search4)",
+      "Swapcard Product Updates \u2014 Infinite scroll toggle (release notes showing infinite scroll behavior and that organizers may toggle it). (Source IDs: turn0search0, turn0search8)",
+      "Swapcard Help \u2014 Offline Mode / Exhibitor Lead Capture & SwapAccess docs (documents offline scans, cached badges, SwapAccess cached registrants and offline syncing). (Source IDs: turn1search1, turn1search3, turn1search6)",
+      "Swapcard Help \u2014 People / Creating and managing the participants page (describes filters, custom fields, visible fields in attendee list, and available sort options like completeness/first/last/registration/custom fields). (Source ID: turn4search3)",
+      "Swapcard Product Updates \u2014 Removal of Tags / filter-related product changes (shows evolution of tagging/filtering features). (Source ID: turn4search0)"
+    ]
+  }
+}

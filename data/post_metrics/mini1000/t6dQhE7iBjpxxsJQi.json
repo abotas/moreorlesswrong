@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a practical hiring announcement for a small, EA-aligned org. It could modestly increase Probably Good\u2019s capacity to help people find impactful careers (useful to job-seekers and the EA talent pipeline), but it\u2019s not a foundational argument or evidence that would shift major EA strategies. For general humanity it\u2019s effectively trivial\u2014useful only to a tiny, specific audience and unlikely to have broad impact."
+  },
+  "PostRobustness": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No compensation / seniority / contract clarity \u2014 add a salary band (or at least FTE range), contract type (permanent vs fixed-term), expected hours / FTE, and seniority level. EA readers strongly prefer pay transparency and this materially affects who applies. Actionable: include a salary range (e.g. \u201c\u00a340k\u2013\u00a355k FTE / pro rata for part-time\u201d), whether the role is permanent, and whether you expect full-time or part-time.  \n\n2) Unclear location/eligibility/timezone and visa policy \u2014 say explicitly whether you hire globally, whether candidates must be able to work UK/Europe hours, and whether you can sponsor visas. This avoids wasting applicants\u2019 time and increases applicant quality. Actionable: add one sentence like \u201cWe hire remotely worldwide; applicants must be able to overlap 3\u20134 hours with UK time (BST) / we cannot sponsor work visas\u201d (or the true policy). Also give an expected start date and outline the timeline after the deadline.  \n\n3) Ambiguous role scope, authority, and success metrics \u2014 the Head of Growth title implies leadership but the description reads hands-on. Candidates need clarity on reporting lines, management responsibility, decision authority (budget/strategy), and immediate priorities. Actionable: add 2\u20133 bullet points for each role describing (a) who the role reports to, (b) whether they will manage staff or contractors, (c) the top 3 goals for the first 3\u20136 months, and (d) concrete success metrics (e.g. X% increase in lead volume, Y conversion rate improvement, or operational SLA targets).  \n\nAddressing these three items will significantly reduce unqualified or confused applications and improve conversion of high-quality candidates.",
+    "improvement_potential": "The feedback hits the major, practical omissions that matter a lot to applicants (pay band, FTE/contract type, timezone/visa policy, and clearer scope/authority/metrics). These are the kinds of \u2018own-goal\u2019 items that reduce application quality and deter good candidates\u2014especially in the EA community where pay transparency is expected. Implementing them would significantly improve the post with only a small increase in length. It\u2019s not a 10 because the post\u2019s core offer isn\u2019t wrong, but these are critical fixes the author should make."
+  },
+  "PostAuthorAura": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No clear or widely recognized person/pen-name 'Probably Good' in EA or rationalist communities or in broader public discourse based on available information. Likely a pseudonymous/low-profile online handle; please provide links or more context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "clarity_score": 9,
+    "explanation": "Very clear and easy to follow: purpose, roles, responsibilities, and deadline are presented in a well-structured, concise way with helpful links. Minor weaknesses: some marketing-y repetition and a few missing specifics that affect decisiveness (salary range, seniority level/hours, timezone expectations), but those don't substantially harm overall clarity."
+  },
+  "PostNovelty": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine hiring announcement for two operational/marketing roles at an EA-adjacent org. For EA Forum readers, similar posts (orgs recruiting, remote roles, growth/ops positions, flexible hiring) are common; the only slightly uncommon details are the specific mix of responsibilities and explicit mention of tools like Claude/Airtable/Zapier. For the general public it\u2019s entirely ordinary \u2014 job ads with similar descriptions are ubiquitous, so there\u2019s effectively no novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This is primarily a hiring announcement rather than an argument-driven post. The claims are clear and the roles are described in concrete terms (responsibilities, tools, flexibility), so the reasoning is straightforward and well-structured for its purpose. However, there is little to no empirical evidence or justification that these hires are needed or will succeed at scaling impact (no metrics, no rationale for timing, no compensation or team context, no evidence of past hiring outcomes). For an announcement that mainly aims to attract applicants the level of detail is acceptable, but as support for the broader claim that these hires will help more people build impactful careers the evidence is weak."
+  },
+  "PostExternalValidation": {
+    "post_id": "t6dQhE7iBjpxxsJQi",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the post are well-supported: the EA Forum announcement exists and matches the text (including the 27 July deadline), and independent job-board copies of the two role descriptions (Operations Specialist; Marketer / Head of Growth) corroborate the responsibilities, tools, and timelines. The organization\u2019s contact email (team@probablygood.org) and site are also confirmed. Minor issues: some job-board copies show a 28 July closing date (one secondary site) and the Ashby-hosted job pages require JavaScript so their raw HTML wasn\u2019t viewable; Probably Good\u2019s 'Work with us' page now states they are not currently hiring (likely reflecting the roles closing after the July deadline). These small discrepancies don\u2019t materially contradict the post\u2019s core claims. ",
+    "sources": [
+      "EA Forum post: 'We\u2019re hiring an Operations Specialist & a Marketer / Head of Growth' \u2014 Effective Altruism Forum (page showing the announcement and 27\u2011July deadline). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/t6dQhE7iBjpxxsJQi/we-re-hiring-an-operations-specialist-and-a-marketer-head-of))",
+      "Job listing mirror: 'Marketer / Head of Growth' \u2014 Rise job page (detailed role description; timeline showing close on 27 July; posted July 11, 2025). ([app.joinrise.co](https://app.joinrise.co/jobs/probably-good-marketer-head-of-growth-7vmf))",
+      "Job listing mirror: 'Marketer' \u2014 Freelancing For Good job post (role details; 'Closes: 28 July 2025'). ([freelancingforgood.com](https://freelancingforgood.com/job/probably-good-marketer/))",
+      "Job listing mirror: 'Operations Specialist' \u2014 DynamiteJobs copy (role details; timeline closing 27 July 2025, with converted timezone). ([dynamitejobs.com](https://dynamitejobs.com/company/probablygood/remote-job/operations-specialist?utm_source=openai))",
+      "Probably Good \u2014 Contact page (confirms contact email team@probablygood.org). ([probablygood.org](https://probablygood.org/contact/?utm_source=openai))",
+      "Probably Good \u2014 homepage / organization information (confirms org existence and mission). ([probablygood.org](https://probablygood.org/?utm_source=openai))",
+      "Ashby job pages referenced in the post (jobs.ashbyhq.com links seen in the EA Forum post; pages require JavaScript to view). ([jobs.ashbyhq.com](https://jobs.ashbyhq.com/probably-good/f396e53f-fb2d-44cb-ba7f-3844a006c7d3?utm_source=E42aqDkbab))"
+    ]
+  }
+}

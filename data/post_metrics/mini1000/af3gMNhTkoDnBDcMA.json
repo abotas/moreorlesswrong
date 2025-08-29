@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "This post addresses a central, practical fault\u2011line in EA cause prioritization \u2014 how to trade off animal suffering versus human lives \u2014 so it is highly relevant to donor decisions, organizational strategy, and moral modelling within the movement. It isn\u2019t novel (the issues raised are well\u2011known and debated), but if taken seriously it could meaningfully shift marginal funding and ethical weights, making it load\u2011bearing for many EA choices. For general humanity the piece is of minor importance: it engages philosophical trade\u2011offs that largely affect charitable allocation and moral theory rather than immediate, large\u2011scale public policy or survival risks."
+  },
+  "PostRobustness": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Major empirical omission: you repeatedly treat animal-welfare interventions as marginal (\"final 2% of life\") and ignore that many interventions have huge scale, tractability, and systemic effects (corporate cage-free campaigns, policy wins, shifts to plant-based/alternative-protein markets) that can reduce billions of animal-years of suffering. Fix: add concrete counterfactual numbers and citations (ACE/CAE, GiveWell analyses, examples of corporate/policy wins) and show the likely impact of a marginal $5k donation in both cause areas instead of relying on intuition.  \n\n2) Methodological hole on comparability: you claim suffering and flourishing are incommensurable but don\u2019t engage EA methods that address this (moral uncertainty, expected-value calculations, sensitivity analysis, and published exchange-rate attempts). Fix: either (a) present an explicit, transparent exchange-rate or decision rule (with priors and sensitivity ranges) you\u2019d accept, or (b) adopt a moral-uncertainty framework and show how different plausible weightings change the recommendation. Don\u2019t leave the reader with only a blunt claim of incommensurability.  \n\n3) Unsupported appeal to species-preferring intuition: you assert \"life-saving speciesism\" is justified but don\u2019t defend it philosophically or model how much weight it should get. Fix: either (a) give a principled argument (e.g., person-affecting grounds, threshold accounts, continuity of interests) and translate that into a numerical weight for comparison, or (b) acknowledge the burden of proof and show robustness checks: under what speciesist weightings does funding animals still look worse/better than funding human life\u2011saving? Concrete, quantified sensitivity checks will make the post publishable rather than merely polemical.",
+    "improvement_potential": "The feedback targets the post's three biggest weaknesses: empirical under\u2011counting of animal interventions' scale/tractability, failure to engage EA decision frameworks for comparability, and an unsupported appeal to speciesist intuition without quantitative weighting. Fixing these would substantially strengthen or correct the argument without requiring excessive length. It stops short of showing the post is entirely wrong (so not a 10) but flags critical, publishability\u2011level omissions (hence an 8)."
+  },
+  "PostAuthorAura": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No recognizable presence of an author named 'tootlife' in EA/rationalist communities or mainstream sources up to mid\u20112024. The handle appears to be a social\u2011media pseudonym with no widely known publications or public profile; provide links or context if you mean a specific person."
+  },
+  "PostClarity": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and easy to follow: clear intro, two numbered critiques, anticipatory counters, and direct questions. It communicates its central trade-off and moral intuition effectively and uses readable examples. Weaknesses: it's somewhat verbose and rhetorically charged in places, relies on contested terms (e.g., \"value,\" \"units\" of suffering) without precise definitions, and could tighten repetitions and quantify key assumptions to improve precision."
+  },
+  "PostNovelty": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "Most of the main moves in this post (incommensurability of suffering, privileging human lives via life-years/ripple effects, defending a form of species preference, and challenging ITN-style weighting) are well-trodden in EA and moral philosophy literature \u2014 EA readers will have seen similar arguments and replies many times. For the general public the specific EA framing and cost-effectiveness trade-off focus is somewhat less familiar, so the combination is moderately novel, but the underlying moral intuitions are common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear, logically structured, and raises two important philosophical challenges \u2014 the incommensurability of different kinds of suffering and the idea that saving a human life produces long-term positive value beyond mere suffering-aversion. It anticipates common counterarguments and frames the issue as a real opportunity-cost trade-off, which is valuable for EA discussion. Weaknesses: The core claims rest largely on intuition and normative assertion rather than engagement with empirical or formal analyses. The author does not provide data on comparative scale or cost-effectiveness (e.g., apples-to-apples QALY/DALY-style or animal-year calculations), nor address existing EA and utilitarian literature on how to weight sentience, uncertainty, and aggregation. Important considerations are omitted or underdeveloped: the vast aggregate number of farmed animals, empirical tractability and cost-effectiveness of animal campaigns, uncertainty/expected-value approaches, and defenses of non-speciesist comparisons. Given these gaps, the argument is philosophically interesting and partially persuasive but not sufficiently supported to overturn the current balance of evidence and practice."
+  },
+  "PostExternalValidation": {
+    "post_id": "af3gMNhTkoDnBDcMA",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are supported by trustworthy data but some statements are oversimplified or normative. Evidence strongly supports: (a) the scale claim that tens of billions of farmed animals are affected annually (far more individuals than the ~0.7\u20130.8 billion people in extreme poverty), and (b) that highly cost\u2011effective human life\u2011saving interventions (e.g., malaria bednets/AMF) can save lives at the low\u2011thousands of dollars per life. Evidence also supports that corporate cage\u2011free campaigns have produced many corporate commitments and (by multiple estimates) large numbers of hen\u2011years per dollar \u2014 i.e., they can be tractable and cost\u2011effective. However, there are important caveats the post downplays: (1) \u201canimal suffering\u201d metrics (hen\u2011years, animal\u2011years) and their conversion to human lives require philosophical moral weights and vary across methods (so quantitative comparisons depend on normative choices), (2) some claims (e.g., \u201cfinal 2% of a farm animal\u2019s life\u201d) are rough approximations and depend on species/production system (broilers have very short lives; layers live months\u2013years), and (3) corporate cage\u2011free progress varies by region/sector and faces supply, disease, and implementation challenges. Overall: empirical foundations are solid for the scale and the existence of a real trade\u2011off, but precise exchange rates used in the post are normative and model\u2011dependent rather than purely empirical.",
+    "sources": [
+      "Our World in Data \u2014 \"How many animals get slaughtered every day?\" (interactive/2022/2024 data summary) \u2014 shows ~73\u201383 billion land animals slaughtered per year (majority chickens).",
+      "FAO / FAOSTAT (data summarized by Our World in Data and Faunalytics) \u2014 livestock slaughter statistics (chickens ~70\u201375 billion/year, pigs ~1.4 billion, cattle ~300+ million; aggregated ~80+ billion land animals/year).",
+      "World Bank \u2014 Global poverty updates (Sept 2024 / June 2025 factsheets) \u2014 extreme poverty headcount ~0.7\u20130.84 billion people in recent estimates (depending on poverty line and PPP update).",
+      "GiveWell \u2014 \"How Much Does It Cost To Save a Life?\" (Apr 2024) and GiveWell AMF grant summaries (e.g., AMF LLIN DRC June 2024) \u2014 typical modelled cost per life saved in recent GiveWell work: roughly $3,000\u2013$7,000 (varies by grant/model).",
+      "Happier Lives Institute \u2014 AMF comprehensive summary (cost/WELLBY discussion) \u2014 models that include positive welfare (WELLBYs) and show how human life\u2011saving interventions incorporate positive ripple effects in models.",
+      "Open Philanthropy \u2014 grant writeup on The Humane League (corporate cage\u2011free campaigns) \u2014 estimates of hen\u2011years spared per dollar and discussion of tractability/neglectedness.",
+      "Animal Charity Evaluators \u2014 research brief: \"What is the effect of cage\u2011free corporate outreach on egg\u2011laying hens' welfare?\" \u2014 summarizes evidence on corporate follow\u2011through and hen\u2011years per dollar estimates.",
+      "Open Wing Alliance / Compassion in World Farming / Humane League EggTrack reports (2023\u20132024) \u2014 data showing many corporate cage\u2011free commitments and high reported fulfillment rates for commitments due by 2023, but regional/sector variation exists.",
+      "Agriculture Dive and industry coverage (2023\u20132024) \u2014 reporting on supply constraints, bird\u2011flu and cost challenges for cage\u2011free rollout and some companies revising timelines; illustrates practical implementation limits.",
+      "Scientific/industry sources on chicken lifespans and slaughter ages (e.g., peer\u2011reviewed broiler studies, USDA/National Chicken Council data) \u2014 broiler chickens typically slaughtered ~5\u20138 weeks; commercial layers culled after ~1\u20133 years (contrasting with natural lifespans)."
+    ]
+  }
+}

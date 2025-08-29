@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical career-choice post for the EA community because the author currently occupies a high\u2011leverage operational role (1,000+ staff, ~$50M/yr impact) and their choice about staying, switching to earning\u2011to\u2011give, founding something new, or retiring could materially affect beneficiaries and the author\u2019s lifetime impact. However, it is primarily a personal decision-seeking-advice post rather than a general, load\u2011bearing theoretical claim: it doesn\u2019t introduce novel arguments or evidence that would shift many other debates in EA. For general humanity the relevance is very limited\u2014it pertains to one person\u2019s career tradeoffs rather than issues with broad systemic consequences."
+  },
+  "PostRobustness": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing counterfactual / marginal-impact reasoning (big own-goal). You treat the org\u2019s $50M impact and its growth as if it were (close to) your impact, but that could be very far from the truth. Actionable fix: explicitly model your marginal contribution under 2\u20133 scenarios (e.g. high/medium/low). Ask: if you left tomorrow, what would happen to output in 1 year / 3 years / 5 years? What fraction of growth/strategy/operations is tied to you vs systems/teams/market? Use simple numbers (e.g. you account for 5%/20%/50% of impact) and show how that changes the decision. This will avoid the trap of assuming staying = highest impact by default and help prioritise options like sabbatical, part-time, or succession planning.\n\n2) Financial plan is under-specified and risky to base life decisions on as-written. \"Early retirement\" based on $700k + inheritance needs explicit assumptions about withdrawal rates, asset allocation, expected returns, inflation, healthcare, taxes, spouse and longevity. Actionable fix: add a short sensitivity analysis (4%, 3%, 2.5% withdrawal rules; 10/30/50% downside market scenarios; worst-case healthcare costs) or run a simple Monte Carlo / retirement calculator. State whether you\u2019ve modelled donation goals (earning-to-give tradeoffs) and how spending shocks would affect options. If you want to avoid length, at least state the concrete financial assumptions you\u2019ll rely on before quitting (safe withdrawal rate, liquidity, emergency buffer, health insurance plan).\n\n3) No clear decision framework or low-regret experiments. The post presents many options but lacks a decision rule or a plan to learn cheaply. Actionable fix: propose and commit to 1\u20132 low-regret experiments you can do before permanently leaving (e.g. 6\u201312 month sabbatical with explicit success criteria, move to 60% time as an exec, take an IC contract role for 12 months, start a small pilot organisation with capped funding, or try earning-to-give for a year). For each experiment define: what you\u2019ll measure, what would count as \u201cstay\u201d vs \u201cleave permanently,\u201d and how it updates your counterfactual impact estimate. This both reduces burnout risk and produces evidence for the big choice.",
+    "improvement_potential": "The feedback hits the two biggest 'own-goals' \u2014 conflating org impact with personal marginal impact, and treating an early-retirement financial plan as settled without concrete assumptions \u2014 and gives concrete, actionable fixes. The third point (low-regret experiments) is also highly practical. Addressing these would substantially improve the post. It misses a few secondary angles (e.g., spouse/healthcare specifics, philanthropic timing/commitments, skill-decay and signalling risks), so I stop short of 10."
+  },
+  "PostAuthorAura": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "Ambiguous identifier \u2014 \u2018Barth\u2019 by itself is not a recognizable EA/rationalist author or handle. There are well-known historical figures with the surname Barth (e.g., theologian Karl Barth), but as given (possibly a pseudonym) I cannot identify a specific contemporary EA writer \u2014 treat as effectively unknown in EA and having at most a minor online presence. If you provide a first name, context, or a link, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow\u2014clear summary, background, concrete personal numbers, and a concise list of options and questions. It could be tightened by removing minor repetition and making key assumptions (e.g., passive-income sustainability, how 'impact' is measured) more explicit, but overall the argument and choices are presented clearly and logically."
+  },
+  "PostNovelty": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post\u2019s central ideas are familiar to EA readers: FIRE + doing-good tradeoffs, manager leverage vs individual-contributor work, earning-to-give/volunteering/starting orgs, and burnout from large-scale people management. The personal details (age, savings, a $50M-impact org) make the case concrete but don\u2019t introduce a new conceptual claim. For the general public it's slightly more novel because fewer people explicitly frame retirement choices in terms of measured social-impact leverage and EA-style tradeoffs, but the core dilemmas (retire early, switch careers, volunteer, found an org) are still common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out clear personal constraints, values, and alternatives, shows self-awareness (biases, preferences), and frames a sensible decision problem. Weaknesses: it lacks a clear decision framework (counterfactuals, marginal impact per dollar/time, risks), provides no attribution analysis of the claimed $50M impact, and does not bring external empirical evidence comparing the likely effectiveness of the listed options (Earning to Give, volunteering, founding orgs, career reset). Overall the reasoning is thoughtful but informal; the empirical support is minimal, so the main thesis (which option will be most impactful) is under-supported and would benefit from quantified tradeoffs, attribution analysis, and reference to evidence about relative effectiveness."
+  },
+  "PostExternalValidation": {
+    "post_id": "CJXgZcYF6gyRn4ccv",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Most of the post is first\u2011person, self\u2011reported information (years worked, inheritance amount, current net worth, employer size, revenue/impact, retirement date) and cannot be independently verified from public sources without the organization\u2019s name or documentation. Where the author makes an explicit empirical/financial implication \u2014 that $700k (plus inheritance) will let them \u201ccompletely retire\u201d on passive income from Jan 1, 2026 and sustain them to age 85\u201390 \u2014 that is neither proven nor disproven by the post itself: whether $700k is sufficient depends crucially on unstated assumptions (annual spending, portfolio allocation, withdrawal rate, expected returns, sequence\u2011of\u2011returns risk, inflation, taxes, health/longevity). Established retirement research shows (a) the conventional \u201c4% rule\u201d is only a rule\u2011of\u2011thumb derived from historical scenarios and is less reliable for very long horizons / early retirement, (b) safe initial withdrawal rates and required portfolio sizes vary a lot with time horizon and market conditions, and (c) sequence\u2011of\u2011returns risk and longevity risk matter for early retirees. Without more numeric details, the author\u2019s financial\u2011sustainability claim is plausible in some scenarios and risky in others. Similarly, the claim about managing an organization delivering $50M/year and 20\u201325% growth is plausible for some real organizations but is not verifiable from the post alone. In short: key factual assertions are mostly unverified (self\u2011reported) and the financial claim is conditional on assumptions; evidence about withdrawal rates, longevity, and risk suggests caution. ",
+    "sources": [
+      "Vanguard \u2014 \"A guide to retirement withdrawal strategies\" (investor.vanguard.com) \u2014 discussion of the 4% rule and factors that affect safe withdrawal rates.",
+      "Investopedia \u2014 \"Safe Withdrawal Rate (SWR) Method\" \u2014 overview and limitations of the 4% rule and factors affecting sustainability.",
+      "Trinity Study (Cooley, Hubbard, Walz) \u2014 \"Sustainable withdrawal rates from your retirement portfolio\" (1998 summary / research) \u2014 foundational analysis behind safe withdrawal research (often cited as the Trinity Study).",
+      "William P. Bengen \u2014 \"Determining Withdrawal Rates Using Historical Data\" (Journal of Financial Planning, 1994) and Bengen overview \u2014 origin of the 4% rule and later updates/comments by the author.",
+      "Morningstar / AP reporting \u2014 reporting on contemporary updates suggesting somewhat lower safe withdrawal guidance than 4% for some new retirees (context that 4% is contested under current conditions).",
+      "U.S. Social Security Administration \u2014 Period Actuarial Life Table (2022 table used in 2025 Trustees Report) \u2014 life\u2011expectancy data showing remaining years at age 31 and the variability of longevity (used to show planning horizon to ages 80+).",
+      "Poynter / fact\u2011checking guidance \u2014 verification best practices (corroborate objective facts; subjective claims and self\u2011reports require named sources) \u2014 demonstrates inability to externally verify anonymous/self\u2011reported professional and financial claims without named organizations or documentation.",
+      "Investopedia / Nasdaq / Charles Schwab articles on sequence\u2011of\u2011returns risk and why early retirement / longer horizons make fixed rules like 4% riskier \u2014 supports the conditional nature of the author\u2019s retirement sufficiency claim."
+    ]
+  }
+}

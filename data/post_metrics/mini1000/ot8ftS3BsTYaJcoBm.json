@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "value_ea": 7,
+    "value_humanity": 8,
+    "explanation": "This post is an important, actionable near\u2011term analysis: it translates proposed USAID cuts into concrete mortality forecasts (hundreds of thousands to millions of excess deaths), which materially affects advocacy, policy prioritization, and resource allocation decisions in global health \u2014 all of high interest to many in EA. It is not a foundational longtermist argument, but it is load\u2011bearing for near\u2011term cause prioritization and political advocacy. For general humanity, the stakes are very large: if the estimates are broadly correct, the cuts would produce a major humanitarian crisis. The verdict is sensitive to modelling assumptions, attribution, and counterfactuals (how much funding is reinstated, program adaptions, and overlap between programs), so conclusions should be treated as important but uncertain inputs to policy and campaigning."
+  },
+  "PostRobustness": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Aggregation / double-counting risk: The post sums forecasts from five program areas but doesn\u2019t explain whether and how overlaps between populations and causes of death were handled (e.g., malnutrition increases TB/HIV mortality; the same individuals could be affected by multiple program cuts). Actionable fix: add an explicit aggregation protocol (e.g., how overlapped risk was counted or de-duplicated), or present a combined estimate derived from a model that jointly accounts for comorbidity and overlap. If that\u2019s infeasible, present the sector totals separately and provide a conservative combined bound (e.g., assume X\u2013Y% overlap) plus a short sensitivity table showing how combined deaths change with different overlap assumptions.  \n\n2) Strong causal assumptions about funding\u2192mortality mapping: The forecasts appear to assume funding cuts translate directly into proportional service loss and mortality increases, without modelling likely substitution (other donors/governments stepping in), non\u2011linear program effects, or mitigation/adaptation over time. Actionable fix: make the causal pathway explicit and justify the linearity or non-linearity assumptions. Add alternative scenarios (e.g., partial substitution, rapid local scale-up, delayed effects) with probabilities or clear narrative priors. At minimum, label the main estimates as contingent on \u201cno meaningful replacement or mitigation\u201d and provide a plausibility argument/evidence for that assumption.  \n\n3) Lack of methodological transparency and sensitivity/uncertainty drivers: The one- and five-year ranges are large but the post doesn\u2019t summarise how those intervals were generated or which parameters drive most of the uncertainty. Actionable fix: include a short methodological appendix or bullets that specify key inputs, uncertainty sources (coverage, effectiveness, baseline mortality), and how the probabilistic ranges were obtained. Provide a brief sensitivity analysis (e.g., tornado chart or top 3 parameters) or one-paragraph summary of which assumptions would need to change to materially alter the headline numbers.",
+    "improvement_potential": "Very useful \u2014 the three points identify major, potentially embarrassing flaws (likely double\u2011counting when summing program-specific death estimates; strong, implicit causal/linearity assumptions about funding\u2192mortality; and lack of transparency about how uncertainty was generated). Addressing them would materially improve credibility and could substantially change the headline numbers, and the suggested fixes are actionable without requiring an unwieldy expansion of the post (appendix, brief sensitivity table, clear caveats)."
+  },
+  "PostAuthorAura": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "No clear evidence that 'jakeeaton' is a well-known EA/rationalist figure. The name (possibly a pseudonym) does not appear to correspond to central authors, organizers, or widely-cited contributors in EA/rationalist spaces; at best it suggests a minor/occasional online presence. Globally there is no indication of public prominence."
+  },
+  "PostClarity": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "clarity_score": 8,
+    "explanation": "The post is generally clear and easy to follow: it gives strong context, a concise purpose, bolded headline estimates, and a well-structured program-by-program breakdown with links to deeper analyses. Weaknesses are minor: a few subjective phrases (e.g. \u201ceffectively dead\u201d), some unexplained acronyms (though linked), and no brief summary of key modelling assumptions or whether multi-year figures are cumulative/counterfactual in the opener \u2014 small gaps that make the argument slightly less self-contained. Overall it is well organized and compelling but could be tightened and made a bit more explicit about methods."
+  },
+  "PostNovelty": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For an EA/longtermist audience this is only mildly novel: the core claim (that large aid cuts will cause significant excess deaths) and the practice of forecasting policy impacts are familiar, and organizations like CGD and global\u2011health modelers have produced similar estimates. The most original aspects for that audience are the transparent, probabilistic, sector\u2011by\u2011sector aggregation across five USAID program areas and the specific numeric ranges. For the general public the piece is more novel \u2014 while the broad idea that cutting aid costs lives is common, concrete, aggregated death forecasts across multiple programs (with uncertainty ranges) are less likely to have been seen by an average educated reader."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "Strengths: The piece takes a transparent, expert-driven approach, produces probabilistic ranges, and cites sector- and country-level cut estimates (CGD) rather than just intuition. It sensibly focuses on programs plausibly tied to near-term mortality (HIV, malaria, nutrition). Weaknesses: The public write-up here glosses over key modeling assumptions (e.g., the relationship between funding loss and service coverage, timing, and non\u2011linearity), doesn\u2019t show how dependencies or overlaps (HIV/TB comorbidity, double\u2011counting) were handled, and gives limited treatment of possible substitution by other donors or governments. The underlying evidence quality likely varies by sector and relies on scenario assumptions that are uncertain; aggregating heterogeneous forecasts into a single mortality range amplifies uncertainty. Overall, the thesis is plausible and usefully quantified, but the support is moderate and sensitive to important unshown assumptions and potential methodological gaps."
+  },
+  "PostExternalValidation": {
+    "post_id": "ot8ftS3BsTYaJcoBm",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Strengths: The post\u2019s core factual claims about massive USAID program terminations, the FY2026 Presidential request of ~$3.8B for Global Health (\u224860%+ cut), and CGD\u2019s sector- and country-level estimates are well documented by multiple reputable sources (KFF/CRS/USGLC/CGD/major press). The EA/Asterisk piece accurately reports the commissioned forecasts and the arithmetic that sums the five sub-forecasts into the total 1-year and 5-year ranges. Weaknesses / caveats: the headline mortality totals are model-based projections from the commissioned forecasters (and thus are contingent on assumptions about the scale/duration of cuts, waivers, country responses, and model structure). Independent modelling studies reach similar qualitative conclusions (large numbers of excess deaths) but differ substantially in magnitude and timeframe. Therefore the post is well-supported on factual context (cuts, program cancellations, CGD estimates, disruptions on the ground) and correctly reports its commissioned forecasts, but the quantitative death forecasts should be treated as uncertain, assumption-sensitive projections rather than settled empirical facts.",
+    "sources": [
+      "EA Forum post: \"Forecasting the Mortality Impacts of USAID Cuts\" (jakeeaton, 15 May 2025) \u2014 reproduces sub-forecast totals and links to Asterisk pieces. (EA Forum / Effective Altruism).",
+      "Center for Global Development (Charles Kenny & Justin Sandefur), \"New Estimates of the USAID Cuts\" (blog, 20 Mar 2025) \u2014 sector- and country-level cut estimates. (CGD).",
+      "KFF (Kaiser Family Foundation), \"Administration Releases Additional Details of Fiscal Year 2026 Budget Request\" (fact sheet, 4 Jun 2025) \u2014 documents $3.8B FY2026 Global Health Programs request and compares to FY2025. (KFF).",
+      "EveryCRSReport.com / CRS summary, \"Department of State, Foreign Operations, and Related Programs: FY2026 Budget and Appropriations\" \u2014 notes FY2026 proposal of $3.8B for Global Health Programs (~60% decrease). (CRS summary).",
+      "USGLC (U.S. Global Leadership Coalition) International Affairs Budget Update \u2014 table showing FY25 enacted vs FY26 request with $10.03B \u2192 $3.8B (GHP) (USGLC budget tracker).",
+      "Reuters, AP, CNN, The Guardian reporting (Mar\u2013May 2025) \u2014 multiple articles documenting mass cancellations/terminations of USAID awards (Rubio\u2019s announcement ~83% of programs cancelled), intent to fold remaining programs into State Department, and on-the-ground disruptions (e.g., clinic closures in South Africa). (Reuters / AP / CNN / The Guardian).",
+      "UNAIDS / PEPFAR country updates and modelling coverage (Feb\u2013Mar 2025) \u2014 reporting service disruptions and staff impacts in South Africa after US funding suspension (UNAIDS feature stories).",
+      "Lancet / university reporting summarized in UCLA news and ISGlobal (June\u2013July 2025) \u2014 peer-reviewed modelling study projecting large additional global deaths (reporting ~14 million additional deaths by 2030 if cuts persist), illustrating independent model support for large-scale impacts while showing wide uncertainty between studies. (Lancet study reported via UCLA/ISGlobal coverage).",
+      "eClinicalMedicine / modelling coverage and STAT/CIDRAP summaries (early 2025) \u2014 modelling studies projecting tens of thousands to hundreds of thousands of excess HIV deaths in specified countries under PEPFAR interruptions; demonstrates variation across models and scopes. (eClinicalMedicine/STAT/CIDRAP coverage)."
+    ]
+  }
+}

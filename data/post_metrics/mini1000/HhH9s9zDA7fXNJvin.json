@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a timely, practical, and useful logistical post for people in the EA/AI-safety/fieldbuilding community \u2014 helps with planning, deadlines, and outreach (especially the note clarifying that EAGx events are open to non\u2011EA AIS people). It\u2019s not foundational or theory\u2011changing: its truth or falsity has limited downstream impact beyond attendance and coordination. For general humanity it\u2019s essentially irrelevant."
+  },
+  "PostAuthorAura": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record (up to my 2024-06 cutoff) of an author or pseudonym 'ENAIS' being a known figure in the EA/rationalist community or the wider public. No notable posts, talks, publications, or citations under that name appeared in the sources I was trained on. If you can provide links or context (where you saw this name), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: a straightforward bulleted event list with dates, deadlines and links is highly comprehensible and accomplishes the goal. Minor weaknesses: the title says March\u2013July but the list continues into August/October, some deadline formatting is inconsistent and one or two phrases (e.g. 'AIS') assume prior knowledge. The short message to AIS attendees is useful but could be tightened for concision."
+  },
+  "PostNovelty": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a practical event roundup\u2014a common and straightforward post type on the EA Forum and in EA newsletters\u2014so it\u2019s not very novel to EA readers. The only slightly original element is the explicit reminder that EAGx events are open/appealing to AI-safety-interested non-EA people, but that\u2019s a modest community-specific clarification. For the general public, a curated list of niche EA/AI-safety events is a little less familiar, but the idea of an events roundup itself is still routine."
+  },
+  "PostInferentialSupport": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "reasoning_quality": 8,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is clear, well-structured and achieves its modest aim (a curated list of events) \u2014 each item has a link and dates/deadlines where known, and the author transparently flags caveats (AI Safety bias, missing events). That makes the basic claim \u2014 that there are many upcoming retreats/conferences in Mar\u2013Jul 2025 \u2014 well supported. Weaknesses: The compilation method is informal and not systematic, so coverage completeness is unknown; some deadlines and details are marked uncertain; and the side claim that non-EA AI\u2011safety people are often deterred from attending is anecdotal and unsupported by evidence beyond personal observation. Overall, the post is a useful, reasonably well-supported practical resource but not a rigorous or comprehensive survey."
+  },
+  "PostExternalValidation": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the listed events, dates and locations are verifiable from primary sources (EA event pages, organisers\u2019 sites and major organisers). I was able to confirm EAGxCDMX (Mar 14\u201316, 2025; apply by Feb 24), EAGxPrague (May 9\u201311; apply by Apr 18), EA North (Sheffield, Apr 26), Cooperative AI Summer School (Marlow Jul 9\u201313; apply by Mar 7), AI for Good Global Summit (Geneva Jul 8\u201311), Compassionate Future Summit (near Berlin Aug 21\u201325), EAGxBerlin (Oct 3\u20135) and EAGxNordics (Apr 25\u201327). Two small inaccuracies / ambiguities: (1) the post lists EAGxNordics application deadline as Apr 8, but the official EAGxNordics page shows Apr 15 (or suggests Apr 15 application deadline); (2) the post lists EA Global: London application deadline as May 18, but the EA Global event page shows an application deadline of May 25, 2025 (the EA Forum event page had an earlier May 18 date, which explains the discrepancy). The EA Germany community-building retreat (21\u201323 Mar at a DJH youth hostel) appears in an organisers\u2019 infosheet (Google Doc) referenced by the post; I could not fully render the doc in the tool but the document exists and is titled \u201cInfosheet \u2013 Community Building Retreat March 2025,\u201d which supports the claim. Overall: most major claims are accurate and supported by authoritative pages; a few deadline dates are slightly off or inconsistent between secondary posts and the official event pages, so this is well-supported but not flawless.",
+    "sources": [
+      "EAGxCDMX 2025 event page \u2014 EffectiveAltruism.org (EAGxCDMX 14\u201316 Mar 2025; apply by Feb 24).",
+      "EAGxNordics 2025 event page \u2014 EffectiveAltruism.org (25\u201327 Apr 2025; application deadline listed Apr 15).",
+      "EAGxPrague 2025 event page \u2014 EffectiveAltruism.org (9\u201311 May 2025; application deadline Apr 18).",
+      "EA Global: London 2025 event page \u2014 EffectiveAltruism.org (EA Global: London 6\u20138 Jun 2025; application deadline shown May 25, 2025).",
+      "EA Forum post: 'EA Global: London 2025' \u2014 Forum event listing (shows apply-by May 18 on forum post).",
+      "EA North \u2014 EA Forum post 'EA North is happening in Sheffield on Saturday 26 April' (26 Apr 2025 details).",
+      "AI for Good Global Summit 2025 \u2014 ITU / AI for Good site (Palexpo Geneva 8\u201311 Jul 2025).",
+      "Cooperative AI Summer School 2025 \u2014 CooperativeAI.com (Marlow 9\u201313 Jul 2025; deadline Mar 7).",
+      "Compassionate Future Summit 2025 \u2014 EA Forum & compassionate-future.org (Berlin-area 21\u201325 Aug 2025).",
+      "EAGxBerlin 2025 event page \u2014 EffectiveAltruism.org (3\u20135 Oct 2025; applications open / apply-by Sep 7 listed).",
+      "Google Docs: 'Infosheet \u2013 Community Building Retreat March 2025' (document for EA Germany Community Building Retreat; DJH youth hostel referenced in the newsletter)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "HhH9s9zDA7fXNJvin",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Verify deadlines, registration links and important logistics before posting. Several items either lack clear registration links (AI for Good), have tentative dates (Cooperative AI Summer School page has a question-mark), or explicitly say \u201cnot sure about the deadline.\u201d That risks people missing applications. Action: check each event page for the official application/registration deadline, ticket cost, eligibility criteria (student/EA/community slots), and add or correct links. Mark anything unconfirmed clearly and give an ETA for when you\u2019ll confirm.\n\n2) Clarify target audiences and outreach advice for AIS people. The short note \u201cyou don\u2019t have to be interested in EA to attend\u201d is useful but vague and could be misleading (some EAGx/EAG events have different ticket types, community-run tracks, or visa/support processes). Action: briefly state for each event whether it\u2019s open to non-EA attendees, whether scholarships/community grants are available, and give one-sentence outreach guidance (e.g., \u201cwhen advertising to non-EA AIS members, say: \u2018open to all with an interest in AI research/safety; scholarships available\u2014link\u2019\u201d). If you can\u2019t verify, remove prescriptive advice and add a link to the event\u2019s \u2018who should attend\u2019 / contact page.\n\n3) Reduce bias or be explicit about scope / improve discoverability. You already note an AI-safety bias, but readers will benefit from either narrowing the title/intro to reflect that bias or adding minimal metadata so people can filter quickly. Action: change the title or first line to indicate this is mainly AI-safety/Europe-centric events, or add two quick tags per event (region, primary audience e.g. \u201cAI safety / EA / general research\u201d, and application deadline). Consider adding a one-line call for additions with a simple form or comment thread so the list can be updated without lengthening the post.",
+    "improvement_potential": "The feedback hits the main practical weaknesses: uncertain deadlines/links (real risk of people missing applications), vague audience guidance that could mislead non\u2011EA AIS folks, and lack of metadata/scope labels that reduce usefulness. Fixing these would materially improve the post without bloating it. Minor caveat: verifying every detail takes organizer effort, but the suggested changes are sensible and not nitpicky\u2014worth doing."
+  }
+}

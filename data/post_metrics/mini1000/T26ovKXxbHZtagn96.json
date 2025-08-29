@@ -1,0 +1,26 @@
+{
+  "PostValue": {
+    "post_id": "T26ovKXxbHZtagn96",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This is a high-value, timely trade-off analysis for the AI safety / EA community: it directly bears on advocacy strategy, governance priorities (open weights, model release policies), and triage between near-term bio-risk harms and long-term loss-of-control risks. The post is not foundational or definitive, but it meaningfully influences important decisions about whether to push for or against open-weight releases and what mitigations to demand, so it should shape EA debates and policy recommendations. For general humanity the piece is moderately important because its conclusions imply very large expected harms and affect public-risk management (CBRN and pandemic risk, plus downstream effects on existential risk), but its technical, uncertain, and community-focused nature limits immediate broad impact."
+  },
+  "PostAuthorAura": {
+    "post_id": "T26ovKXxbHZtagn96",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of mid-2024 there is no clear evidence that 'Ryan Greenblatt' is a recognized figure in the EA/rationalist community or a publicly known author. I could not identify notable EA Forum/LessWrong posts, talks, or widely cited publications under that name; overall appears to be unknown or a minor/private author rather than a public figure."
+  },
+  "PostClarity": {
+    "post_id": "T26ovKXxbHZtagn96",
+    "clarity_score": 7,
+    "explanation": "Overall the post is well-structured and readable for an EA / technical-policy audience: it lays out the question, gives a clear normative conclusion, provides quantitative estimates, discusses implications and mitigations, and flags uncertainties. Strengths include logical organization, explicit caveats, and concrete recommendations. Weaknesses: it's fairly long and dense in places, uses jargon and acronyms (CBRN, ASL-3, RSP, ARA) without full in-text definitions, leans on quantitative claims that aren\u2019t fully justified in-line, and has some rhetorical tension (e.g. saying open weights are net-positive for long-run risks but not advocating for them). These make it a little harder for non-expert readers and add mild ambiguity to the argumentation."
+  },
+  "PostInferentialSupport": {
+    "post_id": "T26ovKXxbHZtagn96",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post lays out a clear, structured cost\u2013benefit framework, acknowledges key uncertainties and countervailing effects, and highlights plausible mechanisms by which open weights both raise CBRN risks and help alignment/research. The author is careful to caveat their claims and to discuss mitigations and policy implications. Weaknesses: Many of the crucial quantitative claims (e.g. ~100k expected deaths/year, a >0.1% annual increase in pandemic risk, 30% AI-takeover probability, 35% chance particular deployed models exceed thresholds, and mitigation multipliers like 2\u20133x reductions) are asserted with little empirical support or transparent elicitation. The evidence base is limited to a few public signals (Anthropic\u2019s announcement, the Virology Capabilities Test) and a number of speculative inferences about future dynamics. The net-benefit conclusion therefore depends heavily on contested priors about existential risk and on unvalidated numerical estimates. To strengthen the argument would require more transparent probability elicitation, sensitivity analyses, and empirical validation of the key links (how model capabilities translate into misuse, and how much open weights accelerate alignment research)."
+  }
+}

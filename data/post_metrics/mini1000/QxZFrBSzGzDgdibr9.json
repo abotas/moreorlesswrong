@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "Useful, pragmatic report for EA community organizers: gives actionable data on format, retention, costs, engagement, and trade-offs between multiweek intro programs and short crash courses. If broadly generalisable, it could meaningfully affect local outreach and volunteer time allocation, so it's of moderate importance for community-building decisions. It is not foundational to EA theory or high\u2011stakes cause prioritization, and its sample is small and context-specific. For general humanity the post is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the claims and outcome metrics rigorous and consistent\n- Problem: The post makes comparative claims (\"more accessible than our traditional 5-week program\", \"energize participants more\") but provides only small-sample, short-term self-report data and some inconsistent numbers (e.g., \u201c20 people completed\u201d vs. \u201cTotal 23 responders from 3 Crash Courses\u201d). That makes it hard for readers to judge effectiveness or generalize.\n- Actionable fixes: (a) Reconcile and report consistent counts (courses run, signups per course, completions per course, survey respondents). (b) Add conversion metrics that matter to EA community growth (e.g., % attending follow-up events at 3/6/12 months, % signing up for advising/career services, sustained engagement in groups, donations or career moves if trackable). (c) Clearly label all data as self-report/short-term and avoid causal language unless you ran a comparison or A/B test; if possible run an A/B (same recruitment funnel) or randomized pilot to compare crash vs intro program.\n\n2) Address organizer willingness and scalability head-on\n- Problem: Organizers rated willingness much lower for the crash course (5.5 vs 8.5) and the project required high upfront effort (360 paid hours), which threatens scalability. The post notes costs but doesn\u2019t present cost-per-participant or a clear plan to reduce organizer load.\n- Actionable fixes: (a) Include cost-per-completed-participant and hours-per-course (paid vs volunteer) so readers can judge ROI. (b) Propose concrete operational changes to reduce organizer burden (use free venues, standardized facilitator packs, split facilitation roles, recruit co-host students, reduce food logistics, or run one city with volunteers while piloting remote delivery). (c) If recommending wider roll-out, add a plan to pilot fewer courses with reduced setups (and pre-commit organizers) before scaling.\n\n3) Clarify content trade-offs and retention strategy\n- Problem: The post argues the crash course sparks curiosity but sacrifices information density. It underweights plausible counterarguments: a shallow course can produce curious-but-unsustained participants, misunderstandings about priority reasoning, or alienate people due to emphasis choices (e.g., heavy AI focus).\n- Actionable fixes: (a) Explicitly state intended learning outcomes (e.g., \"spark curiosity\", \"accurate baseline understanding of core ideas\") and what you will not aim for. (b) Add concrete follow-up pathways and materials (curated reading list, short online modules, a 1-hour post-course check-in at 1 month) to convert curiosity into sustained engagement. (c) Consider offering two tracks or breakout options (overview vs deep-dive on cause areas) or make core slides available so participants can self-study the omitted depth.\n\nImplementing these three fixes will make your retrospective much more actionable, credible, and useful for other groups considering adopting the crash-course format.",
+    "improvement_potential": "The feedback identifies the post\u2019s main weaknesses (inconsistent counts, weak outcome metrics, and a scalability/organiser-cost problem) and gives concrete, actionable fixes that would materially improve credibility and usefulness without bloating the post. It also flags an embarrassing own-goal (conflicting numbers). It misses only a few finer points (e.g., response bias/nonresponse detail), so it\u2019s highly useful but not absolutely critical."
+  },
+  "PostAuthorAura": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that Iska Knuuttila is known within EA/rationalist circles or as a public figure more broadly. The name does not appear among well-known EA authors, forum contributors, or major academic/media sources. It may be a pseudonym or a private/obscure individual; provide links if you want a re-assessment."
+  },
+  "PostClarity": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: good TL;DR, logical headings (why, schedule, sessions, results, improvements), concrete metrics, and actionable takeaways. Weaknesses: some minor redundancy and uneven concision (a few repetitive sentences), the respondent table is awkwardly formatted, and a couple of small phrasing/grammar rough spots; tightening a few sections and clarifying a couple metrics (e.g., signups vs. completions across cohorts) would make it excellent."
+  },
+  "PostNovelty": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily a practical case study of a well-known idea (weekend/\u2019crash\u2019 intro courses modeled on other EA groups). For EA readers the post offers useful local data (attendance, retention, costs, organizer willingness, and tactical takeaways) but few genuinely new concepts \u2014 the format, trade-offs (accessibility vs. depth), and follow-up practices are already familiar in the community. For the general public the specific EA content might be unfamiliar, but the overall idea of short intensive intro courses, workshops, and community follow-ups is commonplace, so the post is not highly novel to a general audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: the post gives a coherent, plausible argument with concrete operational details (schedule, costs, hours), participant ratings, follow-up actions, and organizer feedback that support the claim that a crash-course format can be more accessible and spark engagement. Weaknesses: the sample is small and partly unclear (mixing cohorts/respondents), evidence is largely self-reported and short-term, there is limited or no rigorous comparison to the multi-week Intro Program (no clear retention or learning-by-metric baselines), and selection/response biases and confounders are not addressed. The conclusions are reasonable but tentative given these data limitations."
+  },
+  "PostExternalValidation": {
+    "post_id": "QxZFrBSzGzDgdibr9",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the verifiable, external claims in the post are supported by public sources: EA Finland listed and ran three weekend crash-course events in spring 2025 (dates/locations), the programme page and university event listing confirm the two-day format and dates, the short film \u201cWriting Doom\u201d (used in the AI session) exists and was a Grand Prize winner in the Future of Life Institute contest, and 80,000 Hours\u2019 cause\u2011prioritisation material (used in the course) is publicly available. However, the post\u2019s numeric and survey details (20 completed participants, 34 signups, ratings like 8/10 or 8.73/10, 360 paid working hours, exact cost breakdown of \u20ac2,300, and organizer willingness scores) are internal, self\u2011reported metrics appearing in the EA Forum post and cannot be independently confirmed from public records. The claim that the format was \"modeled after EA Bergen's weekend course\" is plausible (EA Bergen runs intro programs) but I found no public, explicit documentation of a specific EA Bergen weekend crash-course to directly corroborate that attribution. Overall: event existence, schedule, and referenced external materials are well supported; internal outcome numbers are credible but rely on the author\u2019s self\u2011report and are not externally verifiable.",
+    "sources": [
+      "EA Forum post \u2014 \"Organizing EA Crash Courses: A Retrospective from EA Finland\" by Iska Knuuttila et al. (June 24, 2025). (source consulted: EA Forum post content provided; online copy: https://forum.effectivealtruism.org/posts/QxZFrBSzGzDgdibr9/organizing-ea-crash-courses-a-retrospective-from-ea-finland) \u2014 web.run ref: turn0search0",
+      "EA Finland \u2014 Crash Course program page (dates/locations: Helsinki 29\u201330 Mar 2025; Tampere 5\u20136 Apr 2025; Jyv\u00e4skyl\u00e4 12\u201313 Apr 2025). \u2014 https://www.altruismi.fi/en/intensiivikurssi \u2014 web.run ref: turn1view0",
+      "Kide registration event pages for the three crash-course events (Helsinki / Tampere / Jyv\u00e4skyl\u00e4) (registration platform used by EA Finland). \u2014 https://kide.app (event pages) \u2014 web.run refs: turn2view0, turn2view1, turn2view2",
+      "Student Union of the University of Helsinki (HYY) event listing \u2014 Effective Altruism Crash Course (Helsinki event page confirming March 29\u201330, 2025). \u2014 web.run ref: turn0search4",
+      "Future of Life Institute \u2014 \"Superintelligence Imagined\" creative contest page (lists \"Writing Doom\" as Grand Prize winner). \u2014 https://futureoflife.org/project/superintelligence-imagined/ \u2014 web.run ref: turn7search0",
+      "Future of Life Institute podcast / coverage \u2014 Suzy Shepherd on 'Writing Doom' (background on the short film used in the course). \u2014 web.run ref: turn7search1",
+      "Coverage and listings for the short film \"Writing Doom\" (festival/film pages / Letterboxd) confirming the film's existence and distribution. \u2014 web.run refs: turn5search3, turn5search4",
+      "80,000 Hours \u2014 pages on problem rankings / cause prioritisation and updates (used as course material the post says). \u2014 https://80000hours.org/ and relevant update pages \u2014 web.run refs: turn6search1, turn6search0",
+      "EAGxNordics 2025 event page / program (the post referenced directing participants toward EAGx and local EA events). \u2014 https://www.eagxnordics.org/ and EA Global EAGx listing \u2014 web.run refs: turn8search0, turn8search1",
+      "EA Finland annual report / updates post on EA Forum (mentions trying weekend crash courses in spring 2025). \u2014 web.run ref: turn0search3"
+    ]
+  }
+}

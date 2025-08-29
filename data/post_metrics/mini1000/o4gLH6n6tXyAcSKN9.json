@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily an event/course announcement targeted at a narrow audience (medical students and doctors interested in high\u2011impact careers). It could be useful to some people in EA or longtermist-adjacent career paths and might influence individual career choices, but it is not a foundational or widely load-bearing claim and has limited scope and scale. For general humanity it is essentially trivial."
+  },
+  "PostRobustness": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix the basic factual inconsistency and tidy the headline details. The post says both a \u201c6-week virtual Career Fellowship\u201d and a \u201cfive-week programme.\u201d That undermines credibility and will confuse applicants. State the correct length and dates clearly in the key takeaways (e.g., \u201c6-week programme, runs Apr\u2013May 2025\u201d) and keep that consistent throughout.\n\n2) Add a short logistics summary so readers can decide immediately whether to apply. Include: whether the course is free or paid, expected weekly time commitment (hours), number of available spots, selection criteria (competitive? first-come-first-served?), whether sessions are recorded and how you handle global time zones, and any prerequisites. Put this as a 3\u20136 bullet mini-section under \u201cAbout\u201d or \u201cNext steps\u201d so it doesn\u2019t bloat the post but answers the most common questions.\n\n3) Provide one or two lines of evidence or concrete outcomes to justify the course\u2019s value for an EA/impact-minded audience. For example: brief alumni outcomes or metrics (e.g., % who changed roles, improved clarity on career plans, participant satisfaction score), one short testimonial, or a link to a syllabus/session list so readers know what tools/ frameworks you actually teach. If you don\u2019t have outcome data, say so and state the kinds of outcomes you aim to measure \u2014 readers appreciate transparency.",
+    "improvement_potential": "Strong, actionable feedback that catches a clear own-goal (the 5\u2011week vs 6\u2011week inconsistency) which undermines credibility, and requests concise logistical and outcome details that EA readers will expect. Fixing these points will materially improve clarity and trust without bloating the post. It isn\u2019t catastrophic (the main message stands), so not a 9\u201310, but it\u2019s high-impact and should be implemented."
+  },
+  "PostAuthorAura": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "High Impact Medicine is a niche EA/rationalist handle/project focused on applying EA thinking to medical careers. Recognized by people interested in EA and medicine but not a frequent high-profile voice across the wider EA community; effectively unknown outside that niche."
+  },
+  "PostClarity": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "clarity_score": 7,
+    "explanation": "Strengths: well-structured (Key takeaways, About, Who should apply, Next steps), clear call to action, date and audience given, and useful links. Weaknesses: inconsistency about programme length (Key takeaways says 6-week; About says five-week), some minor repetition of links/points, and a few missing details (time commitment, cost/selection criteria) that would improve completeness."
+  },
+  "PostNovelty": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is an event/course announcement rather than a novel argument or idea. EA readers will find it routine (familiar format and themes like career fellowships, 80k-style tools, and Hi\u2011Med\u2019s previous cohorts). For the general public it\u2019s also common \u2014 career-planning courses for medical professionals are widespread. The only mildly novel element is the explicit EA/high\u2011impact medicine framing and use of specific EA-adjacent resources, but that\u2019s a small variation on well-known offerings."
+  },
+  "PostInferentialSupport": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear about its purpose, audience, and content, and cites well-known source materials (80k, Probably Good, Clearer Thinking) and prior experience running five cohorts, which makes the course claim plausible. Weaknesses: It provides no outcome data, participant feedback, curriculum detail, or evaluation metrics to substantiate effectiveness; no sample sizes, selection criteria, or follow-up on impact are given. Overall, the announcement is logically coherent and credible at a surface level but lacks empirical evidence to strongly support the claim that the course meaningfully improves career planning or impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "o4gLH6n6tXyAcSKN9",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most key claims in the post are verifiable: the EA Forum announcement (Mar 12, 2025) exists and states the application deadline (March 19) and that the cohort will run online in April\u2013May 2025; the Hi\u2011Med website and application form corroborate the programme, target audience, and that applications are open. Hi\u2011Med\u2019s site and a pilot report also confirm the programme draws on materials from 80,000 Hours, Probably Good / Global Challenges Project, and Clearer Thinking. However, there are small factual inconsistencies within the post and between sources: the post alternately describes the course as a \u201c6\u2011week\u201d and a \u201cfive\u2011week\u201d programme, while Hi\u2011Med\u2019s public course page describes it as a 5\u2011week programme; the forum post claims \u201cwe already conducted five cohorts\u201d but the Hi\u2011Med course page (at time of checking) states \u201cwe\u2019ve run four cohorts so far.\u201d These discrepancies are minor but lower confidence in flawless accuracy.",
+    "sources": [
+      "EA Forum post \u2014 \"Announcing the 2025 spring cohort of Hi\u2011Med's Career Planning Course\" (High Impact Medicine, Mar 12, 2025).",
+      "High Impact Medicine \u2014 Career Planning Course page (Hi\u2011Med site) \u2014 shows programme description (5\u2011week) and number of cohorts stated on site.",
+      "Hi\u2011Med Google Form: \"Hi\u2011Med Career Planning Course Application 2025\" \u2014 application form content (shows programme length listed as 6\u2011week in form and other logistical details).",
+      "High Impact Medicine \u2014 \"Insights from our Career Fellowship Pilot Programme\" (Hi\u2011Med blog/post) \u2014 documents sources used in curriculum (80,000 Hours, Global Challenges Project, Clearer Thinking, etc.).",
+      "EA Forum post \u2014 \"Announcing the 2025 summer cohort of Hi\u2011Med's Career Planning Course\" (Jul 3, 2025) \u2014 demonstrates similar announcements and recurring cohort schedule."
+    ]
+  }
+}

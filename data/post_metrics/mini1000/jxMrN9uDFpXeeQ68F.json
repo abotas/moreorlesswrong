@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This paper documents a robust moral\u2011judgment asymmetry that plausibly helps explain public resistance to harm\u2011reduction framing (people penalize \u2018scaling down\u2019 as signaling bad character). For EA causes that rely on harm\u2011reduction messaging (animal welfare, public\u2011health interventions, drug policy) the finding is practically useful: it points to predictable persuasion pitfalls and suggests simple, actionable changes to communications and advocacy. However, it is not foundational to EA\u2019s core theories (e.g., longtermist or AI arguments) and has limited transformational impact on global outcomes by itself. Generalizability limits (U.S. samples, lab measures, context dependence) mean the result is important for strategy and messaging but not a high\u2011stakes, world\u2011changing discovery."
+  },
+  "PostRobustness": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overgeneralization / causal overclaim: You say this bias \u201cprobably causes some of the resistance against harm reduction.\u201d The paper shows an asymmetry in moral judgments in vignette experiments, not that this is a major cause of resistance in real-world policy debates. Action: soften causal language (e.g., \u201cmay contribute\u201d), explicitly acknowledge that the experiments establish an effect in controlled settings not causation in complex advocacy contexts, and either (a) add an argument for why the mechanism would generalize to harm-reduction debates or (b) call for direct tests in the animal-advocacy domain.\n\n2) Missing external-validity and effect-size information: The post doesn\u2019t say the samples are US adults, vignette-based, and it omits effect sizes and boundary conditions (e.g., cultural differences, domains where the effect is stronger). Action: add a short caveat about sample and method, report the paper\u2019s effect sizes or give a qualitative sense of magnitude, and note limits (e.g., lab v. real-world, different moral foundations across audiences). This will prevent readers from assuming the bias is large and ubiquitous.\n\n3) Overlooking alternate explanations and weak intervention plan: Resistance to harm reduction can stem from reasons other than a \u2018moral-character signaling\u2019 bias (slippery-slope fears, distrust of actors proposing compromise, rule-based moral views, efficacy concerns). And simply \u201cgiving it a catchy name\u201d may not be effective. Action: briefly acknowledge plausible alternative explanations and propose concrete, testable advocacy tactics (e.g., experimentally compare messaging frames that emphasize competence/efficacy vs. moral character, use upward-scaling examples to normalize trade-offs, pilot messaging with target audiences). If you want to recommend naming the bias, suggest piloting whether the name reduces pushback before promoting it broadly.",
+    "improvement_potential": "Targets the post\u2019s major weaknesses: causal overclaim, missing external-validity/effect-size info, and simplistic intervention advice. The suggestions are concrete and would materially improve accuracy and usefulness without unduly lengthening the post; they correct potential \u2018own-goals\u2019 (overstating causation, failing to note sample/limits, and offering untested tactics)."
+  },
+  "PostAuthorAura": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "I do not recognize 'emre kaplan\ud83d\udd38' as a notable author or handle within the EA/rationalist community \u2014 no prominent EA forum posts, publications, talks, or leadership roles for that name/handle appear in my training data (through mid\u20112024). There are people named Emre Kaplan in other domains (e.g., regional athletes or academics) with limited public profiles, but none who are widely known globally. If you mean a specific user account or a different spelling, please share a link or more context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "clarity_score": 7,
+    "explanation": "Overall clear and easy to follow: the title and short summary state the paper and the suggested application (animal\u2011advocate naming/awareness). The included abstract gives the core finding (an asymmetry when 'scaling up' vs 'scaling down'). Weaknesses: the post assumes readers see the connection to harm reduction without spelling it out, offers no concrete next steps or examples, and the images are uncaptioned. A bit more context and an explicit, plain\u2011language link to animal\u2011advocacy scenarios would make it stronger."
+  },
+  "PostNovelty": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "novelty_ea": 6,
+    "novelty_humanity": 3,
+    "explanation": "The empirical finding \u2014 an asymmetry where people are reluctant to \u2018scale down\u2019 condemnation (interpreting mitigation as downplaying and thus signaling bad character) \u2014 is a useful, somewhat specific contribution to moral-psychology literature. EA readers familiar with behavioral science will recognize related concepts (moral grandstanding, motivated moral reasoning, contrast effects) so this is moderately novel to them (not a groundbreaking new category but a neat, actionable framing). For the general public, the idea is fairly unsurprising and overlaps with common intuitions about absolutist moral judgments and resistance to compromise, so it\u2019s not very novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "reasoning_quality": 6,
+    "evidence_quality": 7,
+    "overall_support": 6,
+    "explanation": "Strengths: The cited paper reports a clear, internally consistent psychological effect across seven experiments (N \u2248 6,075) with pre-registered-like replication of the asymmetry (scaling-up vs scaling-down), plus plausible moderators (moral\u2011character focus, perceived importance) and observer-judgment data that bolster a social\u2011signaling account. That gives good internal validity and converging evidence for the basic bias. Weaknesses: The EA post extrapolates from vignette/experimental findings about generic moral transgressions to real-world resistance to harm\u2011reduction policies without direct tests. Generalizability is uncertain (vignettes \u2192 real behavior, US samples \u2192 other populations; domain specificity to harm reduction vs other moral/political drivers like disgust, identity, or ideology). The applied recommendation (branding the bias to reduce resistance) is plausible but speculative and unsupported by intervention evidence. Overall: convincing evidence for the psychological asymmetry itself, but only moderate support for the stronger claim that this is a primary cause of resistance to harm\u2011reduction and for the proposed mitigation strategy."
+  },
+  "PostExternalValidation": {
+    "post_id": "jxMrN9uDFpXeeQ68F",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The core empirical claims in the EA Forum post accurately reflect a peer\u2011reviewed paper published March 2025: Geiser, Silver & Small reported seven experiments (N \u2248 6,075 U.S. adults) documenting an asymmetry in moral condemnation when people \u201cscale up\u201d versus \u201cscale down\u201d comparisons (i.e., reluctance to downplay lesser transgressions). Multiple authoritative sources (journal record, PubMed entry, university news releases, authors\u2019 pages) corroborate the study, its sample size, and the main pattern (larger asymmetry for character\u2011implicating judgments and evidence that observers\u2019 judgments mirror the effect). However, the post\u2019s additional causal claim \u2014 that this bias \u201cprobably causes some of the resistance against harm reduction\u201d \u2014 is speculative. The paper documents a general psychological asymmetry in moral judgment but does not directly test harm\u2011reduction attitudes or show that this mechanism causes opposition to harm\u2011reduction policies. Linking the lab/online findings to specific policy resistance (e.g., harm\u2011reduction programs) is plausible as an application, but requires direct empirical evidence (e.g., experiments or field studies measuring whether the same asymmetry predicts or reduces support for harm\u2011reduction measures).",
+    "sources": [
+      "Geiser AE, Silver I, Small DA (2025). Reluctance to Downplay: Asymmetric Sensitivity to Differences in the Severity of Moral Transgressions. Psychological Science, 36(3):184\u2013203. DOI: 10.1177/09567976251314972.",
+      "PubMed entry for 'Reluctance to Downplay' (PMID 40106716) \u2014 abstract confirming 7 experiments and N = 6,075 (2025).",
+      "Yale School of Management news/summary: 'Reluctance to Downplay: Asymmetric Sensitivity to Differences in the Severity of Moral Transgressions' (Geiser, Silver, Small), publication notice (2025).",
+      "USC Marshall news: 'New Study Explores People's Reluctance to Publicly Downplay Moral Transgressions' \u2014 summarizes study and context (2025).",
+      "Amanda Geiser \u2014 Research page listing the Psychological Science paper and PDF (author webpage, 2025).",
+      "Ike Silver \u2014 personal research page listing the Psychological Science publication and linking to PDF (2025)."
+    ]
+  }
+}

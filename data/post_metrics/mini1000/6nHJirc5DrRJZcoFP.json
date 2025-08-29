@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful, actionable field-building post for the EA/AI\u2011safety community: it lays out a clear theory of change and concrete event formats that could plausibly increase recruitment, coordination, and policy engagement. That makes it moderately important for planning and resource allocation within the movement, though it isn\u2019t a foundational theoretical claim \u2014 its impact depends on execution and uptake. For general humanity it\u2019s of minor importance: better conferences could indirectly improve AI safety work long\u2011term, but the post itself is practical guidance with limited direct bearing on most people or high\u2011stakes global outcomes unless scaled and implemented effectively."
+  },
+  "PostRobustness": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add clear, testable TOC details (metrics, budget, feasibility). The post makes strong claims about impact but gives no numbers or pilot evidence. Before publishing, include (or promise a follow-up with) concrete targets and feasibility checks: expected attendance and conversion rates (e.g. % who join movement/seek jobs), per-attendee budget for each format, required organizer capacity, and a short plan for 1\u20132 low-cost pilots to validate assumptions. Readers care about whether these events are cost\u2011effective relative to other fieldbuilding.\n\n2) Rework the audience/selection plan to address trade-offs, risks, and mitigations when mixing policymakers, industry, security, and ethicists. The post both underestimates the harms of badly managed cross\u2011community events (information leakage, lobbying/capture, political polarisation, safety research misuse) and gives only a vague rationale for excluding frontier company staff. Either justify the exclusion with clear criteria or propose concrete safeguards: application vetting, NDAs or closed/off\u2011the\u2011record tracks, separate sessions for sensitive content, conflict\u2011of\u2011interest rules, and an explicit plan for private briefings vs public panels. This is an own goal area \u2014 vague statements here will provoke strong pushback.\n\n3) Tighten the outreach recommendations and remove or contextualise dubious tactics. \"Target policymakers with local ads\" and broad paid\u2011ad recruitment for serious movement engagement are plausibly ineffective or risky (costly, low signal, privacy/ethics concerns). Replace these claims with specific, realistic channels and experiments: partnerships with think tanks, targeted invitations via policy offices, alumni networks, fieldbuilder referrals, and A/B tested low\u2011budget ad pilots with pre-specified success thresholds. If you want to keep ads as an option, recommend running small pilots and reporting the metrics rather than asserting their usefulness.",
+    "improvement_potential": "Targets key blind spots: it calls out the lack of testable TOC and feasibility (metrics, budgets, pilots), flags a serious own-goal risk from mixing policymakers/industry/security/ethics without safeguards, and questions dubious outreach tactics (local ads, broad paid recruitment). Addressing these would materially strengthen credibility and reduce reputational/legal/policy risks, and can be done without bloating the post much."
+  },
+  "PostAuthorAura": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient evidence of prominence. The handle \"gergo\" (or Gerg\u0151) is common and may be a pseudonym; no widely recognized EA/rationalist leadership, frequent speaking, major publications, or notable online footprint tied to that single name. If you can supply links or context (forum posts, articles, affiliation), I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: clear TL;DR, a Theory of Change, and distinct sections (online, one-day, three-day, and high-profile events) with target audiences and outreach strategies. Strengths include concrete, actionable recommendations and logical flow. Weaknesses are minor repetition (duplicate lines and footnotes), occasional informal digressions and phrasing quirks (e.g. duplicated numbering, 'See the graph shown below here' with no visible graph), and some long paragraphs that could be tightened for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For an EA/AI-safety audience the post is mostly iterative \u2014 it repackages well-known event formats (EAGx-style, summits, regional multi-day conferences) and common community-building TOCs. The few somewhat original touches are pragmatic outreach tactics (using paid ads to recruit talent and even narrowly target policymakers, explicit segmentation of audiences, and the \u2018building bridges\u2019 high\u2011profile cross\u2011community event with gatekeeping for company lobbyists), but these are incremental rather than groundbreaking. To the general educated public the combination of a structured theory of change for conferences and a concrete blueprint for cross\u2011disciplinary bridge events is moderately novel and useful, though still intuitive."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post lays out a clear, plausible theory of change (networking \u2192 coordination \u2192 capacity), is well-structured, segments audiences and event formats thoughtfully, and acknowledges caveats and trade-offs. It draws on relevant practical experience and existing event models (EAGx, hackathons, IASEAI) and gives actionable outreach/logistics advice. Weaknesses: The arguments are largely qualitative and anecdotal rather than empirical \u2014 there are few hard data or outcome metrics (e.g., conversion of attendees into sustained AI\u2011safety work, cost-effectiveness, or risks of capture). Some claims (e.g., precise targeting of policymakers via ads, geographic recommendations) are asserted without evidence. The more ambitious proposals lack discussion of measurement, counterfactuals, opportunity costs, and potential harms. Overall, the thesis is plausible and usefully detailed but under-supported by rigorous evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "6nHJirc5DrRJZcoFP",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Overall the post is mostly accurate about the existence of relevant organisations, platforms, and recent conferences (IASEAI, Apart Research hackathons, EA Summits/ EAGxVirtual using Swapcard, PIBBSS, AI Safety Camp, MIRI workshops, and 80,000 Hours\u2019 shift). Several concrete factual claims are well-supported by public sources. However the post overstates at least one empirical point: the claim that Apart Research\u2019s hackathons are \"the only multi-day online programming on offer in the AI Safety movement\" is false \u2014 there are multiple multi-day/ multi-week online AI-safety programs and virtual conferences (e.g., EAGxVirtual 2024, AI Safety Camp, MIRI multi-day workshops, IASEAI offered large online attendance). Another minor unsupported/unclear claim is that EAGxVirtual crews used the Icebreakers platform specifically \u2014 EAGxVirtual\u2019s agenda was run in Swapcard (Swapcard is widely used for virtual conference networking), and while 'icebreaker' tools/platforms exist, I could not find direct evidence that EAGxVirtual used a product called \u201cIcebreakers.\u201d Other speculative or normative claims (e.g., where a conference \u201cshould\u201d be held, or political strategy recommendations) are opinions rather than empirical claims. Given the generally correct factual grounding but a few significant overstatements/mischaracterizations, a 7/10 (well-supported) is appropriate.",
+    "sources": [
+      "Apart Research \u2014 AI Safety Entrepreneurship Hackathon (apartresearch.com, event page Jan 17\u201320, 2025).",
+      "EAGxVirtual 2024 event page \u2014 EffectiveAltruism.org (EAGxVirtual 15\u201317 Nov 2024; agenda available in the Swapcard app).",
+      "Swapcard official site and product pages \u2014 Swapcard (swapcard.com) describing AI-powered matchmaking and meeting scheduling used by virtual conferences.",
+      "IASEAI conference (IASEAI'25) \u2014 official site (iaseai.org) and program/call-to-action describing IASEAI\u201925 in Paris and Stuart Russell\u2019s role (Feb 2025).",
+      "AI Safety Camp \u2014 official site (aisafety.camp) describing multi-week online research camp offering part-time multi-week programming.",
+      "Machine Intelligence Research Institute (MIRI) \u2014 'Research Workshops' page listing multi-day AI-safety workshops (intelligence.org/workshops).",
+      "PIBBSS \u2014 fellowship announcements on Alignment Forum / GreaterWrong and PIBBSS fellowship pages (pibbss.ai / alignmentforum.org posts).",
+      "CEA \u2014 'Announcing EA Summits' post on the EA Forum (forum.effectivealtruism.org) describing EA Summits pilot and attendance stats.",
+      "80,000 Hours \u2014 'We're shifting our strategic approach...' (80000hours.org, April 2025 post announcing more focus on AGI/AI).",
+      "White House \u2014 Remarks by Vice President J.D. Vance at the Artificial Intelligence Action Summit (Feb 11, 2025), and corroborating news coverage (CNN/CNBC/TechCrunch) showing Vance's framing of AI policy and cultural/ideological concerns.",
+      "News coverage of Paris AI Action Summit, Mistral and Yann LeCun\u2019s influence in France (Politico, Euronews, TechCrunch, Financial Times) documenting Mistral\u2019s political support and LeCun\u2019s prominence in the French AI ecosystem."
+    ]
+  }
+}

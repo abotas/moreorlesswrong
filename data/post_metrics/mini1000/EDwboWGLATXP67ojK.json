@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is a timely, actionable outreach opportunity to push a major donor (the UK) toward more cost\u2011effective aid. For the EA/rationalist community it's moderately important: not foundational theory but a practical way to influence policy and potentially amplify impact, especially if many submissions coordinate. For general humanity the potential upside is meaningful (more effective aid could help many people), but the effect is uncertain and limited by the consultation's influence, political constraints, and the UK being one of many donors, so overall impact is modest rather than transformational."
+  },
+  "PostRobustness": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Correct and clarify the deadline and its timezone \u2014 high priority. The post says \u201ccloses in four days on Tuesday January 7th\u201d (and gives no year or time). If that\u2019s wrong or out of date the call-to-action is useless and harms credibility. Replace with an exact ISO-style deadline (YYYY-MM-DD and time) and link to the committee\u2019s webpage that shows the deadline so readers can verify.  \n\n2) Give concrete, reusable submission help (one-pager or template + evidence pointers). As written the post only says you can make a submission but doesn\u2019t explain what to write, where to put it in the consultation, or what arguments/evidence the Committee finds useful. Add: a short template people can paste (2\u20134 paragraphs), 3\u20135 bullet points of EA-relevant arguments/claims to include, and 1\u20132 high-quality citations or sources to support them. This both raises the quality of responses and makes it much more likely people will actually submit.  \n\n3) Add logistics and credibility for the workshop so people know what to expect. Say who is running it, when (date/time, timezone), platform/link, how long it will take, whether you\u2019ll produce a joint submission or help individuals submit, and an RSVP/contact method. Also state whether non-UK residents/organizations can submit (and cite the Committee\u2019s guidance if possible). Without these details people are less likely to attend or trust the effort.",
+    "improvement_potential": "Strong, targeted suggestions that correct time-sensitive errors and materially increase conversion and trust. Fixing the deadline/timezone is high-priority because a wrong or vague deadline makes the CTA useless and harms credibility. Adding a short pasteable template and 1\u20132 citation links meaningfully lowers friction and raises submission quality without needing a long post. Specifying workshop logistics and who\u2019s running it addresses a clear credibility/attendance barrier. These are critical improvements that noticeably boost impact, though they stop short of identifying any fatal flaw that would make the post unusable."
+  },
+  "PostAuthorAura": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 3,
+    "explanation": "Ben Anderson is an extremely common name and I could not identify a clearly notable figure by that name within the EA/rationalist community \u2014 effectively unknown in EA circles. Globally, there are multiple people named Ben Anderson (e.g., journalists/filmmakers) with modest or niche recognition, but no single Ben Anderson stands out as a widely known public figure. If you can provide a link, affiliation, or notable works, I can give a more specific rating."
+  },
+  "PostClarity": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to understand: it states the committee, links the consultation, gives a deadline and a simple call to action (workshop + submit). Strengths are concise structure and useful links. Weaknesses: minor grammatical awkwardness ('to do' \u2192 'to do so'), and it lacks logistical details about the workshop (time, platform, how to sign up) which would make the call to action fully actionable."
+  },
+  "PostNovelty": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the content is procedural advocacy \u2014 a call to respond to a government consultation and an offer of a small workshop to help people submit. EA Forum readers routinely discuss policy engagement, promoting cost\u2011effectiveness, and organising submission drives, so this is not a new idea for that audience (score low). For the general public, participating in parliamentary consultations and community help sessions is less common but still a familiar civic activity; the only somewhat novel elements are the specific UK consultation, deadline, and the EA\u2011framed workshop, not any original conceptual claim."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post is a clear, plausible call-to-action (timely deadline, links to the consultation, offers a workshop), but it offers little argumentative development: it doesn't justify why submissions will be effective, provide examples of past impact, or explain what 'cost\u2011effective' changes to UK aid would look like. Evidence is minimal (links only) with no empirical support for the key claims about influence or likely benefits, so the thesis is only weakly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "EDwboWGLATXP67ojK",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major factual claims about the committee, the existence of an active consultation, the ability for anyone to submit evidence, and the author\u2019s workshop are well supported by primary sources. The EA Forum post (Jan 3, 2025) correctly reported the committee\u2019s call for evidence and the then-deadline of Tuesday 7 January 2025, and the event page confirms the author\u2019s workshop on 7 January. The UK Parliament inquiry page later shows the submission deadline recorded as 14 January 2025 (i.e. the deadline was apparently extended after the post), so the post\u2019s statement about \u2018closes in four days on Tuesday January 7th\u2019 was accurate at the time of posting but the public record was subsequently updated. ICAI\u2019s summary confirms the claim that their prior consultation received 234 responses, supporting the author\u2019s example of prior impact (the author\u2019s estimate that his group constituted ~20\u201325% of those responses is plausible but not verifiable from public lists). Claims about very high ROI for immunisation and the value of modest evaluation spending are supported by peer-reviewed and institutional analyses (e.g., Ozawa et al./Health Affairs and World Bank/CGD discussions), but several of the specific percentage improvements cited in the post (e.g., \u201c40\u201360%\u201d efficiency gains from benchmarking/pooling, \u201c20\u201330%\u201d efficiency gains from an Evidence & Impact Unit, and the precise claim that \u201c<1% of project costs\u201d will reliably produce \u201c50%+\u201d operational effectiveness increases) are presented without direct, attributable citations in the post and are context-dependent \u2014 evidence shows large returns from evaluation and immunisation but exact percentages vary by context. Overall: most key empirical claims are accurate or reasonably supported, with a few numeric estimates that are plausible but not fully substantiated by a single authoritative source.",
+    "sources": [
+      "EA Forum post: 'Help Make UK Aid More Cost Effective (Another Opportunity)' by Ben Anderson \u2014 EffectiveAltruism.org (Jan 3, 2025)",
+      "EA Forum event page: 'Help Make UK Aid More Cost Effective' (workshop) \u2014 EffectiveAltruism.org (event: Tuesday 7 January 5:00\u20135:30pm GMT)",
+      "UK Parliament \u2014 International Development Committee: 'The FCDO's approach to value for money' inquiry (committees.parliament.uk) \u2014 inquiry page showing call for evidence and submission guidance (page dated showing submissions accepted until Tuesday 7 January 2025)",
+      "UK Parliament \u2014 same inquiry page / publications area (committees.parliament.uk) \u2014 later notice showing 'The deadline for submissions was Tuesday 14 January 2025' (evidence of deadline update/extension)",
+      "UK Parliament guidance: 'Give evidence to a select committee' / 'Submitting written evidence' \u2014 explains anyone can submit and that submissions are usually published online permanently (parliament.uk guidance on written evidence)",
+      "ICAI: 'Summary of results from ICAI\u2019s 2024 public consultation' \u2014 ICAI independent report (confirms the consultation received 234 responses)",
+      "Ozawa S., et al., 'Return On Investment From Immunization Against 10 Pathogens In 94 Low- And Middle-Income Countries, 2011\u201330' \u2014 Health Affairs (2016) (supports very large ROI for immunisation; ROI estimates often >20:1 depending on methodology)",
+      "World Bank / Development Impact Fund / DIME materials and Center for Global Development analyses (CGD) \u2014 discuss impact-evaluation investment returns and note that modest (order-of-1%) spending on evaluation can produce sizable operational gains in some contexts (supporting the general claim that small evaluation investments can yield large improvements, while cautioning that exact percentages are context-dependent)"
+    ]
+  }
+}

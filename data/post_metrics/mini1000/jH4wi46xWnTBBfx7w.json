@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Moderately valuable for the EA community: improving a clear, well-crafted public-facing explainer on AI x-risk (especially one featuring a known educator) can help outreach, friend-to-friend persuasion, and reduce common messaging mistakes \u2014 useful but not foundational to EA strategy or AI safety research. For general humanity the impact is minor: a good 12-minute video could shift some viewers' understanding or concern, but it\u2019s one outreach asset among many and not critical to broader outcomes unless it reaches a very large audience."
+  },
+  "PostAuthorAura": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I do not recognize 'melissasamworth' as a known figure in the EA/rationalist community based on my training data (up to 2024-06), and I have no evidence of notable public or academic prominence. They may be an obscure or pseudonymous online author; provide links or context if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: it states the purpose, target audiences, expected time commitment, and a clear call to action. Strengths include audience segmentation, friendly tone, and concrete next steps. Weaknesses: some repetition (the core message about the ~12-minute video and survey appears twice), minor jargon (e.g. \"LessWrong users\") that could confuse non-EA readers, and the CTA references a link but doesn\u2019t show it in the excerpt\u2014could be tightened for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is largely a routine outreach/feedback request for an educational AI x-risk video. The ideas\u2014making a ~12-minute explainer, tailoring messaging to different audiences, soliciting feedback via survey, and using a known communicator (Rob Miles)\u2014are common in the EA community. For the general public these are extremely familiar practices, so there is virtually no originality."
+  },
+  "PostInferentialSupport": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post is clear and logically structured \u2014 it identifies target audiences, the proposed intervention (a ~12 minute Rob Miles overview video), and asks for feedback. Those arguments are straightforward and plausible. However, the post relies on anecdotal claims (\u201cwe've heard\u201d, \u201cwe've gotten feedback\u201d) without presenting data about audience needs, prior testing, or why a 12-minute video is the right format. There is little empirical evidence that the proposed video will achieve the stated goals or that the script addresses key misconceptions. Overall the proposal is reasonable and worth investigating, but current support is weak because empirical backing and concrete evaluation plans are missing."
+  },
+  "PostExternalValidation": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are verifiable and accurate. The EA Forum post itself exists and matches the quoted text; aisafety.info is an active project with public pages describing its mission and that it\u2019s run by a global team (and recommending Rob/Robert Miles\u2019 channel), Rob (Robert) Miles is publicly associated with the project and runs the Robert Miles AI Safety channel and Discord, and aisafety.info is fiscally sponsored by Ashgro Inc (a registered 501(c)(3) / EIN 88-4232889). Claims about time estimates for reading the script / completing the survey and the statement that they\u2019ve \u201cheard\u2026 content is too technical\u201d are self-reported and not independently verifiable, but are plausible and consistent with broader community discussion that accessible outreach is needed and that explaining AI x\u2011risk to lay audiences is difficult. Overall: well-supported with a few modest self-reports that can\u2019t be externally proven.",
+    "sources": [
+      "EA Forum post by melissasamworth: \"Feedback wanted! On script for an upcoming ~12 minute Rob Miles video on AI x-risk.\" (Effective Altruism Forum). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/jH4wi46xWnTBBfx7w/feedback-wanted-on-script-for-an-upcoming-12-minute-rob?utm_source=chatgpt.com))",
+      "AISafety.info \u2014 home and project pages (mission, recommendations, volunteer pages). ([aisafety.info](https://aisafety.info/?utm_source=chatgpt.com))",
+      "AISafety.com / map & how-we-help pages (partner project / Robert Miles recommended). ([aisafety.com](https://www.aisafety.com/?utm_source=chatgpt.com))",
+      "Rob (Robert) Miles \u2014 podcast/interview listings and channel references (Robert Miles AI Safety). ([theagishow.com](https://www.theagishow.com/2082819/episodes/14655506?utm_source=chatgpt.com), [robertmilesai.ruclips.net](https://robertmilesai.ruclips.net/?utm_source=chatgpt.com))",
+      "Ashgro Inc (fiscal sponsor) \u2014 Guidestar / ProPublica nonprofit records and Ashgro site describing fiscal sponsorship; EIN 88-4232889. ([guidestar.org](https://www.guidestar.org/Profile/88-4232889?utm_source=chatgpt.com), [projects.propublica.org](https://projects.propublica.org/nonprofits/organizations/884232889?utm_source=chatgpt.com), [ashgro.org](https://www.ashgro.org/home?utm_source=chatgpt.com))",
+      "Community / outreach context supporting the claim that explaining AI x\u2011risk is difficult (LessWrong posts and analyses on persuasion/communication; PauseAI writeup on psychology of x\u2011risk). ([lesswrong.com](https://www.lesswrong.com/posts/5cWtwATHL6KyzChck/?utm_source=chatgpt.com), [pauseai.se](https://pauseai.se/psychology-of-x-risk?utm_source=chatgpt.com))",
+      "Academic overviews of catastrophic AI risk (context that x\u2011risk is a live topic motivating outreach). ([arxiv.org](https://arxiv.org/abs/2306.12001?utm_source=chatgpt.com))"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "jH4wi46xWnTBBfx7w",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make it trivially easy to act: include the actual survey link and the script link in the post (not just text like \u201cSubmit your feedback\u201d), state a clear deadline, and state the expected time commitment up front. Right now readers may skip this because they can\u2019t find the link or don\u2019t know how long/urgent it is. \n\n2) Clarify and tighten the ask and audience. The post repeats almost the same paragraph twice for two audiences \u2014 condense that into one short paragraph that (a) says exactly who you want feedback from (e.g. general public, EA-savvy, editors, fact-checkers), (b) lists the kinds of feedback you want (tone, factual accuracy, persuasion, length, shareability), and (c) gives a short one-paragraph summary of the script\u2019s claim structure so reviewers know what they\u2019re evaluating without reading the whole script first. This will reduce reader friction and produce more useful responses.\n\n3) Explain how feedback will be used and any privacy/conflict details. Say who will see responses, whether feedback will be quoted/public, whether respondents can remain anonymous, and what the timeline for iteration/filming is. If you can offer any small incentive (honorarium, acknowledgement), mention it. Without this, people may be reluctant to spend ~20 minutes providing detailed input.",
+    "improvement_potential": "Addresses major, actionable friction points that would substantially reduce responses: missing links/deadline (prevents easy action), redundant audience text (wastes reader attention), and lack of info on how feedback will be used/privacy (reduces willingness to spend time). Fixes are concise and wouldn\u2019t bloat the post. (Minor note: the post already states the expected time, so that part is partly redundant.)"
+  }
+}

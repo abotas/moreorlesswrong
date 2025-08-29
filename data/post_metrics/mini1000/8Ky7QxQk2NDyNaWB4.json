@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a practical, tactical post about improving the value of an AI-safety/ethics conference (better networking tooling and more policymaker attendance). If true, the recommendations could modestly improve fieldbuilding and accelerate useful connections, so it matters to conference organizers and engaged EAs but is not foundational to core EA or AI-safety arguments. It has negligible direct impact on general humanity."
+  },
+  "PostAuthorAura": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient evidence of prominence. The handle \"gergo\" (or Gerg\u0151) is common and may be a pseudonym; no widely recognized EA/rationalist leadership, frequent speaking, major publications, or notable online footprint tied to that single name. If you can supply links or context (forum posts, articles, affiliation), I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "clarity_score": 8,
+    "explanation": "The post is overall clear and easy to follow: it states a concise thesis (networking was poorly facilitated and policymakers were under\u2011represented), gives concrete suggestions (use a networking app like Swapcard), and is well\u2011structured with headings. Weaknesses: some claims are asserted without supporting evidence (the 70\u201390% value estimate, attendee government counts), there is minor repetition and a couple of small typos (e.g. \"Stuart Russels's\"), and the argument could be strengthened with specific examples or data and a clearer call to action for organisers."
+  },
+  "PostNovelty": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "The post raises familiar, widely-discussed points: conferences underdeliver on structured networking, are improved by attendee/scheduling apps (e.g. Swapcard), and should recruit policymakers. Among EA readers these critiques and proposed fixes are common in fieldbuilding discussions (so mildly novel at best); to the general public they are routine observations about conferences and event design."
+  },
+  "PostInferentialSupport": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post presents a clear, plausible argument (networking is the main value of such conferences and could be improved with attendee-matching tools, and policymakers were underrepresented) but relies heavily on assertions and anecdote rather than systematic reasoning. Key claims (e.g. 70\u201390% of value, only a couple of government attendees out of ~650) are unsupported, potential downsides or alternatives are not considered, and causal links (apps => substantially better outcomes) are assumed rather than demonstrated. Evidence is weak: no participant survey data, usage statistics, comparative examples, or sources. The thesis is plausible but poorly substantiated; adding attendance data, post-conference surveys, and examples of successful app-driven networking would materially strengthen the case."
+  },
+  "PostExternalValidation": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Most core factual claims in the post are verifiable and accurate: IASEAI \u201925 was held Feb 6\u20137, 2025 in Paris at the OECD La Muette (and Stuart Russell is listed as IASEAI president/pro tem and a speaker). The conference organiser\u2019s materials and press reporting indicate ~700+ in\u2011person attendees and substantial online attendance (not ~650 as the author loosely recounted). The author\u2019s description of Swapcard\u2019s capabilities is accurate. However, the author\u2019s reported claim (second\u2011hand) that \u201cout of the ~650 participants, only a couple of people had any government affiliation\u201d is contradicted by conference materials and OECD press noting government and G7/UN representatives (multiple named government/UN participants and related events were held at the venue). Because most objective facts check out but a central empirical claim about government representation appears false/unverified, I rate this a 6 (mostly-supported but with an important factual error).",
+    "sources": [
+      "IASEAI \u2014 Conference page (IASEAI '25, Feb 6\u20137, 2025; OECD La Muette, Paris) \u2014 IASEAI official site",
+      "IASEAI \u2014 IASEAI\u201925 Call to Action / Event highlights (reports 700+ in-person, 1,400+ virtual attendees) \u2014 IASEAI official site",
+      "IASEAI \u2014 Program overview / speakers (lists Stuart Russell, Amandeep Singh Gill, Yoshua Bengio, Maria Ressa, Max Tegmark, etc.) \u2014 IASEAI official site",
+      "IASEAI \u2014 Official statement (Feb 7, 2025) \u2014 IASEAI official site",
+      "OECD media advisory mentioning IASEAI \u201925 (Feb 6\u20137) and G7 representatives / government ministers at related events \u2014 OECD",
+      "Swapcard \u2014 product/features pages (networking & matchmaking, 1:1 meetings, interactive floorplans, session booking, attendee profiles, feedback & analytics) \u2014 Swapcard official site",
+      "MIT AIRisk blog \u2014 attendee account referencing IASEAI conference attendance (contemporary writeup) \u2014 MIT AIRisk blog",
+      "Wikipedia \u2014 International Association for Safe & Ethical AI (IASEAI) entry summarising IASEAI \u201925 (inaugural conference Feb 6\u20137, 2025) \u2014 Wikipedia"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "8Ky7QxQk2NDyNaWB4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Don\u2019t make big quantitative claims without backing them \u2014 tone down or justify \u201c70\u201390% of the value\u201d of networking. Either present that as a personal estimate and explain the basis (e.g. time allocation, number of useful contacts made vs talks attended), or remove the numeric claim. Readers will distrust precise percentages that have no data and it weakens your broader criticism.\n\n2) If you recommend Swapcard (or any tooling), address realistic downsides and implementation details. As written the post treats a networking app as a turnkey fix. Add a short paragraph on common objections and how to handle them: privacy/data concerns, licence cost, staff/time to curate attendee profiles and manage scheduling, onboarding first-time users, and equitable access for people who aren\u2019t heavy networkers or who can\u2019t pre-book meetings. Better: include a 3\u20135 item checklist organisers can use (procure app, run pre-conference onboarding email with profile examples, reserve on-site helpdesk, set aside some pre-bookable \u2018open networking\u2019 slots, offer walk-up meeting spaces) so the suggestion is practical.\n\n3) Don\u2019t rely on hearsay about policymakers \u2014 verify or reframe and give concrete outreach ideas. The \u201conly a couple government people\u201d claim comes across as anecdote; either confirm numbers with organisers or rephrase as an observation from attendees. More importantly, include realistic, actionable ways to get policymakers in the room (targeted invitations from organisers, travel stipends, short policy-focused sessions and one-pagers, partner with relevant ministries/think tanks, schedule meetings that fit officials\u2019 time constraints). That turns a criticism into guidance organisers can act on.",
+    "improvement_potential": "Targets clear credibility and practical-implementation weaknesses: the unsupported 70\u201390% quantitative claim undermines trust, recommending Swapcard as a turnkey fix misses realistic costs/privacy/onboarding tradeoffs, and relying on hearsay about policymakers is risky. Fixing these would substantially strengthen the post without requiring major restructuring."
+  }
+}

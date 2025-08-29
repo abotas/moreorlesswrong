@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a timely announcement of a niche career\u2011planning fellowship for medical students/doctors interested in high\u2011impact work. It is practically useful for individuals deciding career moves and modestly valuable to the EA/medical-aligned community (helps recruit and train a small cohort), but it is not a foundational argument or evidence that would shift major EA strategies. Its direct impact on general humanity is negligible unless a participant later produces outsized effects, which is possible but unlikely on average."
+  },
+  "PostRobustness": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Fix the clear factual inconsistency and add precise scheduling details. The post says both \u201c6-week\u201d (top) and \u201cfive-week\u201d (About). Pick one and state exact start/end dates, number of live sessions, expected weekly time commitment (hours), and the timezone(s) for live events. EA readers care about time commitment before deciding to apply. \n\n2) Add the key logistical and evidence details EA readers expect. Briefly state cost (or that it\u2019s free), number of available spots, selection criteria/process, and whether scholarships are available. Give summary evidence from past cohorts (cohort sizes, retention, satisfaction scores or concrete outcomes such as percentage who changed roles or completed stated goals). Include short instructor/organiser credentials or a link to bios, and disclose any conflicts of interest. If you want to keep the post short, add a one-line \u201cWhy this works / evidence\u201d and link to a short FAQ or one-page outcomes summary. \n\n3) Make eligibility and application access explicit. Clarify exactly who should apply (e.g., students considering medicine vs licensed doctors), whether non-medical people are eligible, and what materials applicants must submit. Ensure all links are publicly accessible (no view-permission issues) and say when applicants will be notified. These changes will reduce friction and avoid follow-up questions.",
+    "improvement_potential": "The feedback pinpoints several major, concrete omissions and a clear factual inconsistency (6-week vs five-week) that readers would notice and that materially affect whether someone can decide to apply. It asks for essential logistical details (dates, sessions, time commitment, timezones), costs/slots/selection, outcome data and instructor credentials, and clarity on eligibility and link access \u2014 all high-value fixes that reduce follow-up questions and increase trust. Not a 10 because the announcement\u2019s core claim isn\u2019t wrong, but these are critical, high-priority corrections and additions the author should make."
+  },
+  "PostAuthorAura": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "High Impact Medicine is a niche EA/rationalist handle/project focused on applying EA thinking to medical careers. Recognized by people interested in EA and medicine but not a frequent high-profile voice across the wider EA community; effectively unknown outside that niche."
+  },
+  "PostClarity": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "clarity_score": 6,
+    "explanation": "The post is generally easy to follow: clear headings, a stated deadline, target audience, and direct application links make it actionable. However, there are notable clarity issues \u2014 it says both \"6-week\" and \"five-week\" in different places, and the naming is slightly inconsistent (Hi\u2011Med vs High\u2011Impact\u2011Medicine). There is also a bit of repetitive wording around applying. Fixing the duration inconsistency and tightening wording would make it much clearer."
+  },
+  "PostNovelty": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement for a recurring career-planning fellowship rather than a new idea or claim. EA readers will find it routine (career-advice course using well-known sources like 80,000 Hours, Probably Good, etc.), so very little is novel. For the general public it's slightly more novel only insofar as the niche combination of medical careers and EA-style high\u2011impact planning is less familiar, but the concept of fellowships and career courses is common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: clear, coherent description of course purpose, target audience, and provenance (five prior cohorts; curriculum draws on reputable EA-relevant sources like 80k and Clearer Thinking), which makes the program plausible and relevant. Weaknesses: no empirical outcomes, participant numbers, retention or impact metrics, testimonials, curriculum detail, or comparison to alternatives are provided \u2014 so claims about effectiveness are unsubstantiated. Overall the announcement is credible as an offering but poorly supported as evidence that it achieves the stated high-impact career planning outcomes."
+  },
+  "PostExternalValidation": {
+    "post_id": "GRH6jcqjoDAC4xHJY",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Most core claims are verifiable: the Hi\u2011Med application form for the 2025 Career Planning Course is live and describes a 6\u2011week online programme running roughly mid\u2011August to mid/late\u2011September 2025 (supports the post's dates and online format). ([docs.google.com](https://docs.google.com/forms/d/e/1FAIpQLScXLIUiVP2K9B8L7UWRQYjg8nfPHjgxfucBjkbV_yl3fkpZFA/viewform)) The EA Forum announcement itself (the post you provided) explicitly states the July 19 deadline and August\u2013September timing. ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/GRH6jcqjoDAC4xHJY/announcing-the-2025-summer-cohort-of-hi-med-s-career?utm_source=chatgpt.com)) Hi\u2011Med\u2019s public site also advertises the Career Planning Course and the application opportunity. ([highimpactmedicine.org](https://www.highimpactmedicine.org/?utm_source=chatgpt.com)) However, there are internal inconsistencies between sources: the official course page and earlier Hi\u2011Med writeups repeatedly describe the programme as a five\u2011week course and state they have run \u201cfour cohorts so far,\u201d whereas the EA Forum post (and the current Google Form) refer to a 6\u2011week programme and the EA post claims five past cohorts \u2014 these contradictions mean some empirical statements in the post (programme length and exact number of prior cohorts) are not consistently supported by Hi\u2011Med\u2019s own public materials. ([highimpactmedicine.org](https://www.highimpactmedicine.org/career-fellowship?utm_source=chatgpt.com), [docs.google.com](https://docs.google.com/forms/d/e/1FAIpQLScXLIUiVP2K9B8L7UWRQYjg8nfPHjgxfucBjkbV_yl3fkpZFA/viewform)) The claim that course materials draw on 80,000 Hours / Clearer Thinking / related resources is supported by Hi\u2011Med\u2019s descriptions and the application form ( e.g., checkboxes / references to 80,000 Hours and Clearer Thinking). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/nPKr9AAuTnCX7uJy7/how-and-why-we-set-up-the-high-impact-medicine-career?utm_source=chatgpt.com), [docs.google.com](https://docs.google.com/forms/d/e/1FAIpQLScXLIUiVP2K9B8L7UWRQYjg8nfPHjgxfucBjkbV_yl3fkpZFA/viewform)) Overall: key actionable facts (application open, links exist, online Aug\u2013Sep 2025) are supported; factual/confidence issues arise from inconsistent statements about course length and the number of past cohorts. ",
+    "sources": [
+      "Hi\u2011Med Google Form: 'Hi\u2011Med Career Planning Course Application 2025' (docs.google.com/forms) \u2014 confirms 6\u2011week programme and timeframe mid\u2011August to end\u2011September 2025. (web.run id: turn2view0)",
+      "EA Forum post: 'Announcing the 2025 summer cohort of Hi\u2011Med's Career Planning Course' (forum.effectivealtruism.org/posts/GRH6jcqjoDAC4xHJY) \u2014 original announcement with July 19 deadline and Aug\u2013Sep timing. (web.run id: turn0search2)",
+      "Hi\u2011Med Career Planning Course page (highimpactmedicine.org/career\u2011fellowship) \u2014 describes a 5\u2011week programme and states 'We've run four cohorts so far'. (web.run id: turn4search0)",
+      "Hi\u2011Med homepage / program listing (highimpactmedicine.org) \u2014 advertises the Career Planning Course and application. (web.run id: turn0search1 / turn4search2)",
+      "Hi\u2011Med background/post: 'How and why we set up the High Impact Medicine Career Fellowship' (EA Forum / Hi\u2011Med writeups) \u2014 documents pilot details and references use of external resources (80,000 Hours, Clearer Thinking). (web.run id: turn4search3)",
+      "Hi\u2011Med 'Insights from our Career Fellowship Pilot Programme' (highimpactmedicine.org) \u2014 pilot description indicating a five\u2011week pilot and cohort history. (web.run id: turn3search0)"
+    ]
+  }
+}

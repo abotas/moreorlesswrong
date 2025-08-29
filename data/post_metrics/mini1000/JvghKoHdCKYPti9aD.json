@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "The post is a useful, well\u2011argued synthesis emphasizing systemic and game\u2011theoretic drivers of escalating disaster risk\u2014topics directly relevant to EA concerns about systemic/longterm risks and governance. It is not highly novel or evidence\u2011heavy, nor does it present new mechanisms or hard solutions, so it is not foundational for EA priorities but is moderately influential in shaping emphasis toward prevention and systemic reform. For general humanity it highlights important problems and could help nudge discourse, but as an opinion piece its practical impact is limited unless translated into concrete policies or new institutions."
+  },
+  "PostRobustness": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Avoid declaring a \u2018hard landing\u2019 as inevitable without showing the causal chain or uncertainty. The post makes a very strong forecast but provides little quantitative or model-based backing. Either (a) tone down the certainty to a plausible warning (e.g., \u201csignificant risk of a hard landing unless\u2026\u201d) or (b) add a short, concrete causal chain and refer to a probabilistic estimate or model (e.g., integrated assessment studies, systemic risk papers) that links current trends to the claimed systemic reorganisation. Even a sentence acknowledging key uncertainties will improve credibility.\n\n2) Tighten the game-theory/metacrisis claims and give 1\u20132 concrete policy levers or governance changes. You repeatedly invoke competitive/evolutionary dynamics that block collective action but don\u2019t say how those dynamics can be shifted. Readers will be left wondering what you actually want changed. Either (a) give one or two credible interventions (e.g., treaty enforcement mechanisms, new international financing or technology-governance institutions, binding standards for critical infrastructure, multinational R&D governance) and briefly explain why they would alter the incentives, or (b) flag the political feasibility limitations up front. This will make the critique actionable rather than only diagnostic.\n\n3) Address selection bias and obvious counterarguments succinctly. The post leans on impressions from one conference and a few dramatic examples (small islands) while overlooking countervailing evidence (areas where Sendai or insurance/adaptation/tech have improved resilience). Add a short paragraph acknowledging plausible counterarguments \u2014 progress in some domains, potential of technologies or finance to mitigate risks \u2014 and state why those responses are insufficient or require different framing. This both strengthens the argument and reduces the risk of an \u201cown goal\u201d accusation that you ignored feasible mitigations.\n\nSmall editorial fixes that would help overall: define \u2018metacrisis\u2019 briefly for readers who aren\u2019t familiar, reduce hyperbolic language unless supported, and cite one or two empirical sources for the central numeric claims (e.g., the $2T cascading loss figure) so readers can follow up.",
+    "improvement_potential": "The feedback pinpoints the post\u2019s biggest own-goals: overstated inevitability, vague game-theory claims, and selection bias from relying on a single conference and dramatic examples. Each suggestion is practical and concise (tone down certainty or add a short causal/probabilistic chain; give 1\u20132 concrete policy levers or note feasibility limits; acknowledge counterarguments and cite key figures). Implementing these would substantially raise credibility without substantially lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Matt Boyd is a common name and I am not aware of a widely recognized EA/rationalist figure by that name up to my 2024-06 cutoff. No clear association with major EA organizations, publications, or public-facing work; likely unknown in EA circles and not globally famous. If you can supply context (links, works, or affiliation), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: a concise TLDR with clear bullet points, concrete examples (small islands), and a clear bottom line. Strengths include logical flow, useful links, and a focused critique. Weaknesses: some jargon and high-level terms (\"metacrisis\", \"polycrisis\", \"game-theoretic and evolutionary drivers\") are not fully unpacked, a few assertions feel under-evidenced (e.g. $2 trillion figure framed as \"arguably\"), and the piece repeats meta-comments about the blog/Part II that slightly dilute focus. Overall clear but could improve by defining key terms and tightening a couple of claims."
+  },
+  "PostNovelty": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Most of the post\u2019s core claims \u2014 that disaster losses are rising, cascades matter, single\u2011issue responses are insufficient, and that underlying systemic drivers (competition, perverse incentives, connectivity/exponential tech) create harder-to-manage risks \u2014 are already familiar to EA/longtermist and systemic\u2011risk audiences. The framing/critique of the UNDRR as missing a \u2018metacrisis\u2019 and calling the likely outcome a \u201chard landing\u201d is a blunt synthesis but not a fundamentally new idea for that readership. For the general public the combination of concepts (metacrisis, systemic bind, technological acceleration creating novel vulnerabilities, and a near\u2011term \u201chard landing\u201d framing) is moderately novel \u2014 many lay readers will not have seen these threads integrated into a single, policy\u2011oriented critique."
+  },
+  "PostInferentialSupport": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "Strengths: The post correctly highlights important and often-neglected angles (systemic risk, cascading failures, game\u2011theoretic incentives, disproportionate impacts on small islands) and the argument is coherently organized. Weaknesses: The central claims (that current disaster strategies are 'doomed to fail' and that a 'hard landing' is likely) are presented as broad, causal conclusions without rigorous argumentation or mechanism\u2011level detail. The reasoning relies on high\u2011level assertions and analogies rather than formal causal chains or counterfactuals; potential rebuttals (existing countermeasures, adaptation successes, timescales) are not engaged. Evidence quality is mixed: the post links to reputable sources (UNDRR, World Bank) for some factual claims, but many key claims (e.g., $200B vs $2T cascading costs, 80% prevention pivot, the accelerating role of exponential technologies in creating unmanageable new vulnerabilities) are asserted without robust empirical substantiation, quantification, or citation to peer\u2011reviewed analyses or modelling. Overall, the thesis is plausible and worth investigating further, but currently under-supported by the evidence and depth of reasoning presented."
+  },
+  "PostExternalValidation": {
+    "post_id": "JvghKoHdCKYPti9aD",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s factual claims are well-supported by authoritative sources: UNDRR\u2019s Global Assessment Report (GAR 2025) supports the ~$180\u2013200 billion annual direct losses and the much larger (~$2.3 trillion) estimate when indirect/cascading costs are included; the Sendai Framework was adopted by 187 states in 2015; GP2025 took place in Geneva 2\u20136 June 2025 with several thousand participants and issued outcome guidance to accelerate implementation through 2030; the World Bank / other donors emphasised shifting finance toward prevention though the specific \u2018\u2018World Bank pivot to prioritize 80% of disaster funding toward prevention\u2019\u2019 claim is not supported by available World Bank statements or GP2025 outputs and appears to conflate different figures (e.g., Japan\u2019s reported ~80% allocation to preparedness). The post\u2019s interpretive claims about limited attention to \u201cexponential technologies\u201d and the \u201cmetacrisis\u201d are partly subjective: the GP2025 agenda included sessions on science & technology and a few references to AI, while ASRA\u2019s Paris symposium (7\u20139 June 2025) did explicitly address systemic risks. Overall: most empirical points are accurate or reasonably stated, but the specific 80% World Bank claim is unsupported and several broader claims are interpretive rather than strictly empirical.",
+    "sources": [
+      "UNDRR Global Assessment Report (GAR) 2025 \u2014 'Resilience Pays' (GAR2025) (UNDRR).",
+      "GP2025 (8th Global Platform for Disaster Risk Reduction) \u2014 official site / programme (UNDRR).",
+      "IISD ENB summary and daily reports on GP2025 (Geneva, 2\u20136 June 2025) (IISD Earth Negotiations Bulletin).",
+      "The Geneva Call for Disaster Risk Reduction \u2014 Co-Chairs' Summary (UNDRR news, 7 June 2025).",
+      "World Bank \u2014 'Improving Lives and Building Resilience in Vanuatu' (VIRIP / Cyclone Pam losses = $450M \u2248 64% of GDP).",
+      "World Bank blog: 'Preparing for disasters saves lives and money' (notes ~10% of disaster aid is prevention and Japan allocates ~80% of its disaster budget to preparedness).",
+      "World Bank blog / materials on 'Investing in prevention: A new World Bank Group approach to crisis' (World Bank communications on prevention emphasis).",
+      "UN News / UNDRR historical reporting on the Sendai Framework adoption (187 countries, March 2015).",
+      "ASRA (Accelerator for Systemic Risk Assessment) \u2014 'Currents of Change' symposium (Paris, 7\u20139 June 2025) announcements."
+    ]
+  }
+}

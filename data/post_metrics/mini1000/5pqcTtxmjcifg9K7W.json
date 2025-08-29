@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is primarily a practical, individual donor question about which ACE\u2011recommended animal charity to support. It matters modestly to EA donors who prioritise animal welfare because it could influence allocation of some donations and provoke discussion about ACE metrics and the 'meat\u2011eater problem', but it is not a foundational argument or new research finding for EA strategy. For general humanity it is of limited importance: the topic is ethically interesting but the post itself doesn't change large policy or scientific conclusions and rests on contested premises (e.g. treating all mammals and birds as equivalent to humans). If the underlying claim were established and widely accepted it would have larger implications, but this post does not establish that."
+  },
+  "PostRobustness": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unclear / unsupported moral and scientific assumptions \u2014 you treat \u201call mammals and all birds\u201d as morally equal to humans and assert the New York Declaration proves this. That\u2019s a huge normative claim and a stronger empirical claim than the citation supports. Actionable fixes: explicitly state your ethical framework (e.g. sentience-weighted utilitarianism), separate descriptive claims about consciousness from prescriptive moral conclusions, and either (a) tone down absolute language about equality or (b) add argumentation showing why evidence of certain kinds of consciousness should imply equal moral weight. Replace the sweeping phrase \u201cwe have already proved that all mammals and all birds are equal to humans\u201d with a calibrated claim and cite specific findings relevant to your decision rule.\\n\\n2) Missing a clear, operational cost\u2011effectiveness decision rule \u2014 you ask \u201cwhich is most effective\u201d but never define how you\u2019ll compare charities in practice (SADs? cost per SAD? probability-adjustment for uncertainty? counterfactual impact? room for funding?). Actionable fixes: pick a precise metric (e.g. expected SADs averted per $), explain how you\u2019ll treat uncertainty (use expected value or a robust-uncertainty approach), and list the concrete evidence you need (ACE cost-per-SAD estimates, program scale, counterfactuals, room for funding). If ACE doesn\u2019t provide a single ranking, say you\u2019ll (i) use ACE\u2019s internal cost-effectiveness estimates where available, (ii) estimate missing figures using comparable program costs, or (iii) contact ACE/charities for marginal impact estimates. This will make your donation decision replicable and allow readers to evaluate it.\\n\\n3) Problematic dismissals and mischaracterizations \u2014 you dismiss Faunalytics, Wild Animal Initiative, and aquatic/shrimp work on flimsy grounds and you misstate the \u201cmeat-eater problem.\u201d Actionable fixes: (a) correct or nuance the statement about the meat-eater problem (give a citation and explain the mechanism you mean), (b) don\u2019t rule out research/advocacy orgs out of hand \u2014 explain why you think marginal dollars for research won\u2019t change outcomes for your chosen metric and, if possible, show numbers, and (c) reconsider or justify excluding work on aquatic animals and wild-animal welfare by addressing scale vs. uncertainty tradeoffs (many small\u2011minded animals number vastly more and could be high expected-value targets despite uncertainty). If you want a short post, trim or remove broad negative judgments and instead say which specific additional evidence would make you change your mind.",
+    "improvement_potential": "The feedback identifies the post\u2019s main flaws: an overclaimed empirical/moral premise (\u2019all mammals and birds equal to humans\u2019), the lack of any operational cost\u2011effectiveness decision rule, and sloppy dismissals/mischaracterizations of other orgs and the \u2018meat\u2011eater problem\u2019. These are major issues that would mislead readers and could embarrass the author if uncorrected. The suggested fixes are actionable (state ethical framework, define metric such as expected SADs per $, handle uncertainty, use ACE estimates or request marginal-impact numbers) and would substantially improve the post without gratuitous lengthening. It isn\u2019t perfect \u2014 it could be slightly more concrete (e.g. propose a simple worked example or exact questions to ask ACE/charities) \u2014 but overall it targets the critical errors. "
+  },
+  "PostAuthorAura": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Cannot identify a notable figure from the single-letter name 'S'. Insufficient information to tie this to any known EA/rationalist author or public intellectual. Provide a full name, pen name context, or sample works/links for a meaningful assessment."
+  },
+  "PostClarity": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "clarity_score": 6,
+    "explanation": "The post's overall aim is clear (find the most cost\u2011effective animal charity from evaluator recommendations, preferably measured in suffering\u2011adjusted days), and it lists specific charities and personal constraints. However the writing is somewhat rambling and unstructured, mixes background claims (e.g. about animal consciousness) with preferences and criticisms, uses nonstandard terminology (\"meat\u2011eater problem\") and has a few factual/phrasing confusions, which makes the argument harder to follow. With a tighter structure\u2014explicit goal, evaluation metric, shortlist, and ranked objections\u2014the post would be much clearer and more concise."
+  },
+  "PostNovelty": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers the post mostly strings together familiar EA/animal-welfare ideas (ACE, SADs, cost-effectiveness comparison, concerns about invertebrate consciousness, Wild Animal Initiative vs factory farms, and the \u2018meat-eater\u2019 framing). None of those claims are especially original within animal-focused EA. For the general public, however, the combination of concepts (the ACE metric of suffering-adjusted days, treating all mammals and birds as morally equivalent per the NY Declaration, and the specific cost\u2011effectiveness question about ACE-recommended charities) is moderately novel \u2014 many non\u2011EA people won\u2019t have considered these evaluation frameworks or the specific debate over aquatic invertebrates and charity prioritization."
+  },
+  "PostInferentialSupport": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post has a clear goal (maximize reduction in animal suffering) and correctly looks to ACE-style charity evaluations, but its argumentation contains several important logical gaps and unsupported leaps. Key problems: it treats the New York Declaration as decisive proof that all mammals and birds have human-equivalent moral status (conflating evidence of consciousness with moral parity); it asserts the \u201cmeat\u2011eater problem\u201d (that donations to human charities can be net\u2011negative for animals) without modeling counterfactual effects or market responses; it rejects certain organisations on a priori grounds while failing to use ACE's published cost\u2011effectiveness data or provide any SADs-per-dollar comparisons. Empirical support is very weak: the only citation is a background note to a declaration, and there are no charity\u2011level impact numbers, cost\u2011effectiveness estimates, or references to ACE reports or primary studies. Overall the main claim (wanting to donate to the single most effective ACE\u2011recommended animal charity) is reasonable as a goal, but the post does not provide the logical or empirical support needed to identify which charity that is."
+  },
+  "PostExternalValidation": {
+    "post_id": "5pqcTtxmjcifg9K7W",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s factual claims are verifiable and mostly accurate (ACE\u2019s 2024 list of 11 recommended charities; ACE\u2019s use of Suffering\u2011Adjusted Days (SADs) where possible but not producing a single SAD-based ranked ordering; GiveWell\u2019s decision not to research animal charities and referral to ACE/Open Phil). The New York Declaration on Animal Consciousness exists and states there is \"strong scientific support\" for attributing conscious experience to other mammals and to birds and a \"realistic possibility\" for many other taxa \u2014 but the post overstates this as proving all mammals/birds are \"equal to humans\" or conscious \u201cat the level of humans.\u201d The post\u2019s normative claim about the meat\u2011eater problem (that donating to human charities may be net\u2011negative because of increased animal suffering) correctly identifies a debated EA concept, but it is not an established empirical fact \u2014 it is a theoretical concern with contested empirical parameters. The post\u2019s factual listing of named charities (Aquatic Life Institute, Shrimp Welfare Project, DVF, GFF, \u00c7HKD, LIC, Sinergia Animal, The Humane League, Faunalytics, New Roots Institute, Wild Animal Initiative) and their general descriptions align with public sources. Evidence on decapod (shrimp/crab/lobster) sentience is substantial enough that some governments (e.g., UK) and scientific reviews treat decapods as plausibly sentient, so skepticism of shrimp-focused work is not fully supported by current scientific/legal developments.",
+    "sources": [
+      "The New York Declaration on Animal Consciousness \u2014 NYU launch text (April 19, 2024).",
+      "Animal Charity Evaluators \u2014 \"Announcing our 2024 Charity Recommendations\" (ACE blog, 2024).",
+      "Animal Charity Evaluators \u2014 Recommended Charity Fund distribution and list (ACE, 2024).",
+      "Animal Charity Evaluators \u2014 \"Highlights from Our 2024 Charity Evaluations AMA\" / explanation of Suffering\u2011Adjusted Days (ACE blog, 2024).",
+      "Animal Charity Evaluators \u2014 \"Our approach to assessing cost\u2011effectiveness\" and 2023 evaluation methods (ACE website).",
+      "GiveWell \u2014 FAQ: Why doesn't GiveWell recommend organizations focused on animal suffering? (GiveWell FAQ, Dec 2022).",
+      "Aquatic Life Institute \u2014 About / mission and focus on aquatic animals (ALI website).",
+      "Shrimp Welfare Project \u2014 organisation site and ACE recommendation (Shrimp Welfare Project website; ACE review cited by SWP).",
+      "UK government / Defra announcement & LSE review \u2014 inclusion of decapod crustaceans and cephalopods under the Animal Welfare (Sentience) framework (GOV.UK; LSE report background, 2021\u20132022).",
+      "Faunalytics \u2014 'What We Do' and mission (Faunalytics.org About page).",
+      "Wild Animal Initiative \u2014 mission and research focus on wild animal welfare (WAI website).",
+      "EA Forum \u2014 'Meat\u2011eater problem' topic and related posts (EA Forum entries discussing the meat\u2011eater problem)."
+    ]
+  }
+}

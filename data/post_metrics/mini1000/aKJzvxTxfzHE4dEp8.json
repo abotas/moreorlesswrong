@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an operational announcement/recruitment post for an EA conference. If true, it modestly affects who attends and marginally influences networking, hiring, and community-building within EA \u2014 useful to people deciding whether to apply but not foundational to EA theory or strategy. It has essentially no broader impact on general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be clearer about capacity, marginal costs, and commitments. Saying it\u2019s \u201crelatively cheap\u201d to add attendees and asking people not to avoid applying because they might \u201ctake someone else\u2019s spot\u201d risks creating no-shows or confusion about how many people you can actually accept. Actionable fixes: state the venue capacity or target headcount, explain which marginal costs are negligible (e.g. catering minimums) versus which still matter (badges, staff time, swag), and state your registration/no\u2011show/payment policy so applicants know what commitment is expected.  \n\n2) Clarify the admissions bar and prioritisation criteria. Claiming an ~84% acceptance rate and that \u201cmany people clearly meet the bar\u201d can be read as either too permissive or misleading. Actionable fixes: briefly summarise the explicit criteria you use (or link to a short bulleted list) and explain how you prioritise when demand exceeds capacity (e.g., geographic diversity, newcomers, career stage, travel grant recipients). That will reduce uncertainty for readers and avoid undermining the purpose of having an admissions process.  \n\n3) Give practical logistical/financial info or clear links. Potential applicants often need to know whether travel grants, childcare support, accessibility accommodations, and registration fees are available before applying. Actionable fixes: add one short paragraph or direct links about travel funding availability, registration costs and deadlines, how to request accommodations, and whether accepted applicants must register by a certain date to hold a spot.  \n\nMinor wording suggestion: avoid paternalistic phrasing like \u201cour team has the best context \u2014 defer to our judgement\u201d; instead invite questions and give transparent decision rules so readers can judge for themselves.",
+    "improvement_potential": "Targets real \u2018own-goal\u2019 risks (encouraging low-commitment applications, creating confusion about capacity/priority) and gives concrete, short fixes that would materially improve clarity and reduce no-shows. These changes are high\u2011impact and wouldn\u2019t need much extra length; they address important trust and logistical issues without overturning the post\u2019s main message."
+  },
+  "PostAuthorAura": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 3,
+    "explanation": "Identity unclear (may be a pseudonymous handle). No recognizable presence in EA/rationalist circles (score 1). Globally, likely only a minor online or niche presence (score 3). If you mean the screenwriter Robert Harling (Steel Magnolias), that person is better known in film/theatre circles but not a major global public figure."
+  },
+  "PostClarity": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to understand: clear TL;DR, headings, and calls to action make the purpose and deadlines obvious. The main arguments (high acceptance rate, low marginal cost to add attendees, benefits of attending) are persuasive and supported with data/links. Weaknesses: some repetition and wordiness across sections, minor redundancy in calls to apply, and a couple of phrasing choices that could be tightened for greater concision."
+  },
+  "PostNovelty": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement/recruitment post \u2014 a very common genre on the Forum. Most readers familiar with EA and EAGs will have seen similar calls, logistics notes, and arguments to apply. The few mildly novel details are operational (the ~84% acceptance-rate disclosure, the policy tweak to weigh EA context less for experienced hires, and the note that catering/venue costs make adding attendees cheap). Those are interesting but not conceptually original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "The post is generally well-structured and addresses plausible barriers (perceived high admissions bar, cost concerns) with relevant arguments (high acceptance rate, low marginal catering costs, value from hiring/mentorship). However, several claims are framed as suspicions or rely on internal judgment without backing data or clear causal evidence. The evidence cited is sparse and largely anecdotal or summary-level (an 84% acceptance rate, some attendance trends, and unspecified survey analyses), so the conclusions are plausible but not strongly substantiated."
+  },
+  "PostExternalValidation": {
+    "post_id": "aKJzvxTxfzHE4dEp8",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are verifiable and supported by official CEA / EA Global communications: the event dates (Feb 21\u201323, 2025) and application deadline (9 Feb 2025) are confirmed; the admissions-post figures (\u224884% approval rate in 2024) and the year-by-year applicant counts and trends (2022\u21922023\u21922024 decline) are published; the 2024 Bay Area event being GCR\u2011focused and the 2025 Bay Area event not being GCR\u2011focused are confirmed; CEA\u2019s 2024 cost-per-attendee (~$1,900) and plan to reduce it for 2025 are publicly reported. Two claims are internal/prognostic and thus less directly verifiable externally: the statement that current contracts make it \u201crelatively cheap\u201d to add attendees is plausible and consistent with CEA\u2019s published cost figures but is an internal operational judgment; the claim that the Bay Area event is \u201con track to be one of our biggest ever US EAGs\u201d is a projection (not an independently verifiable outcome prior to the event). Overall, authoritative primary sources from CEA confirm the key factual claims, while a few operational/projection statements rely on internal context and cannot be independently confirmed ahead of the event.",
+    "sources": [
+      "EA Global: Bay Area 2025 \u2014 EffectiveAltruism.org (Event page, shows dates and application deadline: 21\u201323 Feb 2025; application deadline 9 Feb 2025).",
+      "What is the admissions bar for EA Global? \u2014 EA Forum (CEA post; gives 2024 approval rate \u224884.45% and year-by-year applicant counts and notes policy change re: weighing EA context less for experienced applicants).",
+      "EAG Bay Area: We want more attendees! Apply by Feb. 9 \u2014 EA Forum (the forum post being evaluated; reiterates claims and links to EA Global pages).",
+      "EA Global: Bay Area 2024 (Global Catastrophic Risks) \u2014 EffectiveAltruism.org (confirms 2024 Bay Area was GCR\u2011focused).",
+      "Update on EA Global costs and 2024 CEA Events Team activities \u2014 EA Forum (CEA update: 2024 program served ~2,870 attendees, cost-per-attendee \u2248$1,900 in 2024 and target <$1,500 for 2025; plans to expand to ~3,500 in 2025).",
+      "Review of EA Global Bay Area 2024 (Global Catastrophic Risks) \u2014 EA Forum (attendee survey results indicating most respondents would likely have attended without the GCR focus, supporting the post's survey-summary claim)."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "PostValue": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This post is a practical, curated directory of incubators, funds, communities and support for AI-safety-oriented entrepreneurship. It isn't a foundational theoretical claim, but it's materially useful for EA-aligned founders and people trying to bootstrap projects \u2014 it lowers friction, points to funding and networks, and can modestly accelerate the creation of safety-focused startups. That makes it moderately important for the EA / rationalist community. For general humanity it's of minor importance: useful only insofar as it indirectly increases the chance of more AI-safety projects existing, but the post itself has limited direct impact on broad public outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing selection, vetting, and maintenance info \u2014 add a short preface that says (a) when the list was last updated, (b) your inclusion criteria (e.g. safety focus vs. loosely related), and (c) any affiliations/conflicts of interest. Actionable: add a one-line \"last updated\" timestamp, and annotate each entry with a 1\u20132 sentence justification (what it does, who it's for, and whether it is explicitly x-risk/safety-focused). This prevents readers from assuming equal relevance or vetting across items.\n\n2) Lack of prioritisation and reader guidance \u2014 the list is long but undifferentiated. Actionable: group entries by type and stage (e.g. \"pre-founder / community\", \"incubators & residencies\", \"seed/VC\", \"ops/support\"), add 3\u20135 recommended starting points (e.g. for founders, for funders, for people exploring), and highlight the top ~5 highest-impact or highest-relevance entries. This will make the resource actionable instead of overwhelming.\n\n3) No risk notes or conflict warnings for dual-use incentives \u2014 some incubators/VCs will fund projects that look beneficial but can be dual-use or accelerate risky capabilities. Actionable: add a short risk tag for any program that (a) explicitly pursues \"transformative\" or general AI startups, (b) has ambiguous incentives, or (c) could fund dual-use work. Also consider adding a sentence encouraging readers to do basic due diligence on VCs/incubators and linking to a short guide/checklist (or include 3 quick questions to ask a program before applying).",
+    "improvement_potential": "The feedback identifies several substantive omissions for a curated resource list\u2014no timestamp, no inclusion criteria or conflicts, lack of prioritisation, and no dual\u2011use/risk flags\u2014which are plausible 'own goals' (readers may assume equal vetting or miss risk signals). The suggestions are actionable and would substantially increase the post's reliability and usefulness without breaking its purpose; they could be implemented compactly (short timestamps, 1\u20132 sentence annotations, grouped headings, a few top recommendations and brief risk tags)."
+  },
+  "PostAuthorAura": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "Chris Leong is not a well-known figure in the EA/rationalist community \u2014 not associated with major EA organisations, recurring forum authors, or prominent talks/publications I recognize. Globally there is no notable public profile under that name (several private individuals share it), so overall public fame appears minimal. If you have a specific link or context (forum posts, articles, employer) I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: a short purpose statement followed by clearly labelled sections of curated links. It communicates its main point (why both a post and a wiki) succinctly and is appropriately concise for a resource list. Improvements would be small: add one-line summaries for many links, make some headings/terminology (e.g. \u201cdef/acc\u201d) clearer, and fix minor formatting inconsistencies to help readers quickly assess relevance."
+  },
+  "PostNovelty": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This post is primarily a curated resource list of existing articles, incubators, VCs, communities and support channels for AI-safety-focused entrepreneurship. For EA Forum readers (who already follow AI safety/longtermist discussions) the content and framing are very familiar \u2014 mostly low novelty aside from the particular combination of links and a few newer program mentions. For the general public it\u2019s somewhat more novel because the ecosystem of AI-safety incubators, dedicated VCs and support programs is specialized and many people haven\u2019t seen a consolidated directory, but it still isn\u2019t proposing new concepts or original arguments."
+  },
+  "PostInferentialSupport": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "This post is primarily a curated resource list rather than an argumentative essay. It is well\u2011structured and practically useful (clear categories, many relevant links), which gives it middling reasoning marks for organization and relevance. However it offers little in the way of argumentative development: it doesn't justify the core claim that entrepreneurship is an effective route to AI safety, doesn't prioritize or evaluate listed options, and gives no criteria for inclusion. Empirical evidence is limited to links to organisations and programs rather than outcome data, evaluations, or comparative analysis, so claims about impact or effectiveness are weakly supported. Overall the piece is a helpful starting directory but provides limited evidential support or rigorous reasoning for the central thesis that AI safety entrepreneurship should be pursued or how best to do so."
+  },
+  "PostExternalValidation": {
+    "post_id": "JpA7xWKhj5DYpaRpm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s concrete claims are verifiable and accurate: the named incubators, funds, accelerators, community projects, and support organisations exist and the cited descriptions match their public materials (examples: EF\u2019s def/acc program, Catalyze Impact incubation, Seldon accelerator, AE Studio\u2019s alignment activity, Juniper\u2019s AI Assurance Tech Report, Menlo/Anthropic Anthology Fund and Menlo\u2019s lead on Goodfire Series A, Ashgro fiscal sponsorship, Rethink Priorities Special Projects, Apart Research hackathon, Nonlinear coaching, etc.). A few items are ephemeral/community (Slack channels, Discord invite links) or phrased as normative/causal (e.g., whether a given program will reduce x\u2011risk) and so are harder to independently verify or are contingent; Polaris/Polaris Ventures has multiple similarly\u2011named entities so exact branding/context can be ambiguous. Overall the post is well-supported by authoritative primary sources and press coverage, with only minor unverifiable/temporal details.",
+    "sources": [
+      "Entrepreneur First def/acc announcement / Sifted profile of def/acc (May 2024) \u2014 Sifted article on def/acc. ([sifted.eu](https://sifted.eu/articles/def-acc-entrepreneur-first?utm_source=openai))",
+      "Matt Clifford LinkedIn post introducing def/acc at EF. ([linkedin.com](https://www.linkedin.com/posts/mattcliffordef_today-were-announcing-a-new-programme-at-activity-7198351541034971137-9sxO?utm_source=openai))",
+      "Catalyze Impact \u2014 AI Safety Incubation program page. ([catalyze-impact.org](https://www.catalyze-impact.org/apply?utm_source=openai))",
+      "Seldon Accelerator (official site: 'We take on AGI risk with technology' / apply pages). ([zeldon.ai](https://zeldon.ai/?utm_source=openai), [seldonlab.com](https://seldonlab.com/apply?utm_source=openai))",
+      "AE Studio alignment pages and 'Neglected Approaches' agenda / research form. ([ae.studio](https://ae.studio/ai-alignment?utm_source=openai), [next.ae.studio](https://next.ae.studio/blog/essay/ae-studios-alignment-agenda-the-neglected-approaches-approach?utm_source=openai))",
+      "AI Assurance Tech (AIAT) Report (aiat.report) \u2014 published market/report (Juniper Ventures authorship). ([aiat.report](https://www.aiat.report/?utm_source=openai))",
+      "Juniper Ventures homepage (states it publishes the AI Assurance Tech Report). ([juniperventures.xyz](https://juniperventures.xyz/?utm_source=openai))",
+      "Goodfire funding and Menlo Ventures lead on $50M Series A (PR Newswire / Goodfire blog / coverage). ([prnewswire.com](https://www.prnewswire.com/news-releases/goodfire-raises-50m-series-a-to-advance-ai-interpretability-research-302431030.html?utm_source=openai), [goodfire.ai](https://www.goodfire.ai/blog/announcing-our-50m-series-a?utm_source=openai))",
+      "Menlo Ventures 'Anthology Fund' (Menlo site & TechCrunch coverage of Menlo/Anthropic $100M fund). ([menlovc.com](https://menlovc.com/anthology-fund?utm_source=openai), [techcrunch.com](https://techcrunch.com/2024/07/17/menlo-ventures-and-anthropic-team-up-on-a-100m-ai-fund/?utm_source=openai))",
+      "Ashgro (fiscal sponsorship for AI safety projects) \u2014 official site & FAQ + GuideStar/ProPublica filings. ([ashgro.org](https://www.ashgro.org/home?utm_source=openai), [projects.propublica.org](https://projects.propublica.org/nonprofits/organizations/884232889?utm_source=openai))",
+      "Rethink Priorities \u2014 Special Projects / fiscal sponsorship & incubation service pages and announcement. ([rethinkpriorities.org](https://rethinkpriorities.org/our-services/special-projects/?utm_source=openai))",
+      "Apart Research \u2014 'Hackathon for AI Safety Startups' event pages (August 2024 / January 2025 editions). ([apartresearch.com](https://www.apartresearch.com/event/ais-startup-hackathon?utm_source=openai), [apartresearch.com](https://apartresearch.com/sprints/ai-safety-entrepreneurship-hackathon-2025-01-17-to-2025-01-20?utm_source=openai))",
+      "Nonlinear \u2014 free coaching & career advice pages. ([nonlinear.org](https://www.nonlinear.org/coaching.html?utm_source=openai))",
+      "AI Safety Founders \u2014 official website / LinkedIn presence. ([aisfounders.com](https://aisfounders.com/), [linkedin.com](https://www.linkedin.com/company/ai-safety-founders?utm_source=openai))",
+      "Halcyon Futures / Halcyon Ventures \u2014 official site detailing incubation, VC, and mission. ([halcyonfutures.org](https://halcyonfutures.org/?utm_source=openai), [guidestar.org](https://www.guidestar.org/profile/93-3537739?utm_source=openai))",
+      "Safe Artificial Intelligence Fund (SAIF) \u2014 saif.vc and TechCrunch coverage of Geoff Ralston launching SAIF. ([saif.vc](https://www.saif.vc/?utm_source=openai), [techcrunch.com](https://techcrunch.com/2025/04/17/former-y-combinator-president-geoff-ralston-launches-new-ai-safety-fund/?utm_source=openai))",
+      "Mythos Ventures \u2014 official site and reporting on fund (mission: prosocial technologies in AI era). ([mythos.vc](https://www.mythos.vc/?utm_source=openai), [traded.co](https://traded.co/vc/deal/mythos-ventures-raises-14-million-from-over-50-investors-for-seed-stage-ai-startups/?utm_source=openai))",
+      "Metaplanet (Jaan Tallinn\u2019s fund) \u2014 official site and profile describing long-term/deep-tech investing. ([metaplanet.com](https://metaplanet.com/about-us?utm_source=openai), [crunchbase.com](https://www.crunchbase.com/organization/metaplanet-holdings?utm_source=openai))",
+      "Polaris Ventures / CERR context \u2014 EA Forum references and third\u2011party profiles (Polaris has multiple similarly-named entities; site references exist though specifics vary). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/revisions/topics/center-for-emerging-risk-research?utm_source=openai), [dnb.com](https://www.dnb.com/business-directory/company-profiles.polaris_ventures.5a125ac6444beb658a169e7a8088f869.html?utm_source=openai))",
+      "EA Forum / LessWrong mirror showing the same 'AI Safety & Entrepreneurship v1.0' post and cross\u2011post context. ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/JpA7xWKhj5DYpaRpm/ai-safety-and-entrepreneurship-v1-0?utm_source=openai), [lesswrong.com](https://www.lesswrong.com/posts/WbBe7LKNwv7fBgqii/untitled-draft-q9kf?utm_source=openai))"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "PostValue": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Practical, actionable guidance for AI-safety university groups that matters for fieldbuilding: targeting grad students, protecting researcher time, upskilling, governance outreach, succession, and wellbeing are useful if timelines are short. The post is not foundational theory or decisive evidence about risk, but it is moderately load\u2011bearing for how university groups allocate scarce effort and could affect the researcher/policy pipeline. For general humanity its direct impact is small unless widely adopted at scale or paired with other changes \u2014 useful but not critical."
+  },
+  "PostRobustness": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Over\u2011reliance on a single short\u2011timelines framing without contingency planning. The post treats short timelines as a dominant fact and builds firm recommendations on that basis, but many EA readers will reasonably assign substantial probability to longer timelines. Actionable fix: add a brief decision framework that ties each recommendation to explicit timeline thresholds or probabilities (e.g., \u201cIf P(AGI < 5 years) > X, do A; if P(AGI 5\u201315 years) > Y, do B\u201d), and flag which activities are robust across timelines (low\u2011cost, high\u2011optional\u2011value). This prevents the post from looking fragile to alternate priors and helps readers apply advice conditional on their own beliefs. \n\n2) Risk of elitism / damaging group sustainability from prioritizing grad students and \u2018selective upskilling\u2019 without guardrails. The post recommends focusing scarce resources on grad students and highly skilled people but gives little guidance about selection criteria, how to avoid creating an exclusionary culture, or how to keep a recruitment pipeline and community resilience long\u2011term. Actionable fix: add 3\u20135 concrete guardrails (e.g., transparent selection criteria, rotating fellowship slots for early\u2011career students, mentorship pathways from undergrads to grads, minimum proportion of events accessible to newcomers) and give an explicit rule of thumb for when to allocate marginal organizer effort to recruitment vs. selective programs. \n\n3) Advocacy advice is too general and misses plausible legal/political pitfalls and practical messaging guidance. The cautions about Open Phil and \u2018left\u2011coding\u2019 are useful but the post doesn\u2019t provide concrete, low\u2011burden steps student groups should follow before doing advocacy (or protests), nor does it provide pragmatic bipartisan framing guidance or a clear escalation process. Actionable fix: include a 1\u2011page checklist for any advocacy action (funding terms review, legal/lobbying check, coordination with Kairos/other orgs, statement of measurable policy ask, escalation path and sign\u2011offs), plus 3 concise framing principles and two example messages tailored to conservative and centrist audiences. This will make the warnings actionable rather than just rhetorical.",
+    "improvement_potential": "The three points target real, consequential blind spots: (1) treating short timelines as a given biases all recommendations\u2014adding a simple decision framework and marking robust actions would make advice usable across priors; (2) prioritizing grads/selective upskilling risks elitism and harming long\u2011term recruitment\u2014concrete guardrails would prevent obvious community/PR mistakes; (3) advocacy cautions are sensible but too high\u2011level\u2014an advocacy checklist and concise bipartisan framing would turn vague warnings into actionable safeguards. Each fix is practical and wouldn\u2019t unduly bloat the post, so incorporating them would substantially improve clarity, applicability, and risk management."
+  },
+  "PostAuthorAura": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no indication that 'Josh Thorsteinson \ud83d\udd38' is a recognized figure in the EA/rationalist community or more broadly. The name (and the orange diamond) may be a pseudonym or minor online handle, but there is no evidence of notable publications, talks, or widespread citation; likely unknown in EA circles and has no meaningful public presence."
+  },
+  "PostClarity": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, a concise summary, and actionable, prioritized recommendations make the post straightforward to read and use. Strengths: good organization, practical steps for organizers, and attention to community/wellbeing. Weaknesses: occasional unexplained jargon (e.g. \"left-coded\"), some claims (the short-timelines assumption and its implications) could be stated or justified more explicitly up front, and a few sections are a bit long or repetitive\u2014trimming or tighter signposting would make it even more concise and compelling."
+  },
+  "PostNovelty": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Most recommendations are pragmatic, actionable, and drawn from conversations already common within EA/AI-safety circles (short timelines framing, prioritizing grad students, upskilling programs, protecting researcher time, succession docs, and governance emphasis after 80k\u2019s update). For an EA Forum audience this is mostly an organized synthesis rather than new theory or surprising claims. For the general educated public, the package is moderately novel: the specific framing that university groups should reorganize rapidly for 2\u20133 year impact horizons, tactics like responding to RFCs as training, and the advocacy cautions (left\u2011coding risk, coordinated community clearance) are less likely to have been widely considered outside the field."
+  },
+  "PostInferentialSupport": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "The post is well-structured and presents a coherent, pragmatic strategy consistent with its core premise (short timelines). Recommendations (prioritizing grad students, upskilling, protecting researcher time, succession planning, community wellbeing, cautious advocacy) follow logically from that premise and from common experience running student groups. However, several important inferential steps are speculative (e.g., equating job automation timelines with researcher obsolescence and AIs doing alignment research) and the guidance often depends on contested assumptions about timelines. Empirical support is thin: the author cites respected commentators (Ajeya Cotra, Daniel Kokotajlo) and an 80,000 Hours update, but there is little systematic evidence or evaluation of which group activities actually produce the claimed downstream impacts. The recommendations are plausible and actionable, but would be better supported with outcome data, case studies, or sensitivity analysis to different timeline scenarios."
+  },
+  "PostExternalValidation": {
+    "post_id": "2H6kub6cNptYsgCA8",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s concrete empirical claims are verifiable and accurate. Key forecasts and community-updates are well-sourced: Ajeya Cotra\u2019s 13-year median for the \u201899% of fully remote jobs\u2019 operationalization appears in the Nov 10, 2023 LessWrong dialogue; Ajeya\u2019s later comment deferring to hands\u2011on evaluation by METR/Redwood engineers is on record; METR/RE\u2011Bench/HCAST work (2024\u20132025) supports the claim that model capabilities on longer/harder tasks have advanced rapidly; 80,000 Hours did move AI governance above technical safety in their Aug 2024 update; Arkose, BlueDot Impact, ARENA and TAIG/technical AI governance resources exist and are funded/active. A few statements are oversimplified or normative rather than strictly empirical: e.g., the blanket wording that Open Phil grantees \u201care not allowed to engage in political or lobbying activities\u201d is too absolute (grant terms vary by funding vehicle and Open Phil publishes both (a) 501(c)(3)-style grants that typically restrict use of funds for lobbying and (b) grants via other vehicles including advocacy funds), so the author\u2019s caution is reasonable but should be qualified. Minor claims about student\u2011group causal influence on particular professor signings or that organizers historically become the field\u2019s most impactful researchers are plausible but anecdotal and harder to directly verify. Overall the empirical backbone is solid, with a few places that need nuance.",
+    "sources": [
+      "LessWrong \u2014 \"AI Timelines\" (habryka; Daniel Kokotajlo, Ajeya Cotra, Ege Erdil) \u2014 Nov 10, 2023. (Ajeya median = 13 years for the 99% fully-remote jobs question).",
+      "Ajeya Cotra comment (LessWrong / GreaterWrong comments) \u2014 Ajeya states she now defers to METR/Redwood engineers for hands\u2011on capability judgements. (see Ajeya comments thread).",
+      "METR et al., \"Measuring AI Ability to Complete Long Tasks\" \u2014 arXiv preprint (Mar 18, 2025) \u2014 introduces the 50%-task-completion time-horizon metric and documents rapid increases in model time-horizons.",
+      "METR \u2014 \"HCAST: Human-Calibrated Autonomy Software Tasks\" \u2014 arXiv (Mar 21, 2025) \u2014 benchmark showing current agents struggle on >4 hour tasks.",
+      "METR \u2014 RE\u2011Bench / blog: \"Evaluating frontier AI R&D capabilities of language model agents against human experts\" (Nov 22, 2024) \u2014 RE\u2011Bench results comparing agents and human experts on ML R&D tasks.",
+      "METR \u2014 Claude 3.7 preliminary evaluation / METR autonomy evals guide (METR website) \u2014 details on time-horizon estimates for recent models.",
+      "80,000 Hours \u2014 \"Updates to our research about AI risk and careers\" (Aug 2024) \u2014 moved AI governance/policy to the top-ranked career path.",
+      "Open Philanthropy \u2014 Grants database and \"How to apply for funding\" (OpenPhilanthropy.org) \u2014 shows grants to BlueDot Impact, and indicates grant agreements / expectations (grantee terms vary; Open Phil publishes many grant pages).",
+      "Open Philanthropy \u2014 pages on grant publishing and governance (describes use of different fund vehicles, and that terms/agreements are used).",
+      "CAIS (Center for AI Safety) \u2014 \"Statement on AI risk\" (safe.ai) \u2014 public open letter referenced in the post with many academic and industry signatories.",
+      "LessWrong \u2014 \"Key takeaways from our EA and alignment research surveys\" \u2014 documents that EA/alignment communities skew left politically in survey results.",
+      "Arkose.org \u2014 Arkose (field\u2011building nonprofit) site and \"Opportunities\" page (offers calls and resources referenced in the post).",
+      "Open Philanthropy grant page(s) for BlueDot Impact (2022\u20132025) \u2014 evidence of BlueDot Impact funding and field\u2011building programs.",
+      "ARENA \u2014 Curriculum page (ARENA educational/upskilling curriculum referenced by the post).",
+      "TAIG (Stanford) \u2014 \"Open Problems in Technical AI Governance\" (taig.stanford.edu) \u2014 resource for technical AI governance referenced in the post."
+    ]
+  }
+}

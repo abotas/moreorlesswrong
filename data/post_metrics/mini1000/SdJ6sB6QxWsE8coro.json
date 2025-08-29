@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a practical organisational strategy for a national EA group. It matters moderately to the EA/rationalist community because it affects coordination, outreach, and program quality in Germany (potentially improving recruitment, reducing duplication with CEA, and increasing the impact of a cohort of committed individuals). Those effects are useful for funders, local organisers, and prospective participants but are not foundational to EA theory or high\u2011stakes cause prioritisation. For general humanity the post is of low importance: even if well executed it would only modestly change outcomes via better-directed activity from a relatively small group of people in one country."
+  },
+  "PostRobustness": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Lack of concrete, pre-registered metrics and decision-rules. You say you will \u201cimprove metrics\u201d and set target values, but the strategy gives no baselines, concrete KPIs, thresholds for success/failure, or evaluation timelines. That makes it hard to judge whether the changes you propose (e.g. handing programmes to CEA, reducing 1\u20111 capacity, running a weekend seminar) actually improved impact. Actionable fixes: (a) list 4\u20136 primary KPIs (examples: applications per cohort; completion rate; % of participants who report taking at least one EA-relevant step at 6 months; % who change career / join high-impact roles at 12 months; cost per activated person), with current baseline numbers and realistic 2025 targets; (b) state how you\u2019ll measure counterfactuals (e.g. short surveys asking \u201cwould you have engaged without EAD?\u201d or a matched comparison / waiting-list control for at least one programme); (c) decide and publish decision rules (e.g. if completion < X% after 2 iterations, pivot/stop; if employer-of-record net counterfactual value < Y \u20ac, discontinue). Pre-specifying these will make the strategy testable and reduce perceived arbitrariness.\n\n2) Handing core functions to CEA lacks a concrete transition plan and risks losing German-language, cultural, and community-specific value. The strategy assumes CEA can deliver equivalent value and that reduced German-run offers won\u2019t harm trust or accessibility, but doesn\u2019t specify ownership, SLAs, language/localisation, or fallback plans. Actionable fixes: (a) add a short transition appendix that specifies which activities EAD will retain vs hand over, who owns day-to-day operations, and who is responsible for German-language facilitation and community-health escalations; (b) negotiate and summarize a Memorandum of Understanding (MOUs) or roles/responsibilities with CEA that covers referral pathways, data-sharing/privacy, reporting cadence, and minimum service levels; (c) identify a small set of continuity indicators (e.g. referral response time, % of German participants served in German) and a contingency trigger to re-expand EAD operations if outcomes worsen.\n\n3) Targeting Begabtenf\u00f6rderwerke (gifted-students) is plausible but underspecified and potentially risky (selection bias, privacy/consent, elitism). The strategy treats access and high promise as given without evidence. Actionable fixes: (a) add evidence or a rapid pilot design: run a small randomized or A/B outreach to N\u224830\u2013100 scholarship holders to test recruitment rate, conversion to engagement, and 6\u2011month outcomes before scaling; (b) document the recruitment/legal pathway (how will you contact them, obtain consent, and avoid violating partner rules or data-protection laws?); (c) clarify inclusion/anti-elitism safeguards and consider parallel experiments with other promising but less selective cohorts (e.g. top STEM undergrads, public policy masters) so you\u2019re not over-investing in a single narrow funnel.",
+    "improvement_potential": "Addresses three substantive omissions that materially weaken the strategy: no pre-specified KPIs/decision rules, no concrete transition plan with CEA risking loss of local-language/cultural value, and an underspecified, potentially ethically/legally risky pilot for Begabtenf\u00f6rderwerke. The suggestions are actionable and would substantially improve the strategy without requiring unreasonable additions to the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No recognizable presence of 'Sarah Tegeler' in EA/rationalist circles or major EA publications/events as of mid\u20112024. Not a known public intellectual or widely published author under that name; may be a private/pseudonymous individual or very new author. Ratings are provisional\u2014provide links or context if you have specific works to reassess."
+  },
+  "PostClarity": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and highly comprehensible: it opens with a clear summary, uses logical headings (vision, mission, challenges, four focus areas, programmes), and links actions to a theory of change. The main arguments \u2014 prioritising international collaboration, targeted outreach, a smaller committed community, and better metrics \u2014 are presented clearly and supported by concrete programme-level plans and risks. Weaknesses: the document is long and occasionally repetitive, some sections are vague about concrete KPIs and timelines, and there is scattered jargon/assumptive knowledge (CEA, OSP, Begabtenf\u00f6rderwerke) that could hinder quick scanning for newcomers."
+  },
+  "PostNovelty": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is largely an incremental, operational strategy document rather than a set of new ideas. EA readers will find most proposals very familiar (collaborating with CEA, refining outreach, improving metrics, cohort/retreat formats, raising admission bars). The mildly novel elements are country-specific operational choices \u2014 targeting Germany's Begabtenf\u00f6rderwerke scholarship holders, explicitly handing local-group support to CEA, and reassessing the employer-of-record role \u2014 but these are pragmatic adaptations rather than conceptually new ideas. To the general public it reads as routine nonprofit/organizational strategy and is not novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post lays out a coherent, plausible strategy that directly responds to identified problems (declining applications, duplication with CEA, lower retention), and it uses prior program experience to motivate specific changes (e.g. handing certain programmes to CEA, raising admission criteria, focusing follow-up). It also sensibly prioritises measurement and acknowledges risks. Weaknesses: Empirical support is thin and mostly descriptive\u2014few quantitative baselines, no counterfactual or cost\u2013benefit analyses, and no clear success thresholds. Key choices (e.g. targeting Begabtenf\u00f6rderwerke, opening programmes to all European time zones, value of employer-of-record) are not supported with conversion/impact estimates or pilot results. The Theory of Change and some metrics are referenced but not shown in detail, and many claims rely on plausible intuitions rather than rigorous evidence. Overall: the strategy is reasonably well-reasoned and iterative, but under-supported by strong empirical evidence and concrete targets; it would benefit from clearer KPIs, pilot data, and counterfactual / cost-effectiveness analyses."
+  },
+  "PostExternalValidation": {
+    "post_id": "SdJ6sB6QxWsE8coro",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most high\u2011level and organisational claims in the post are well supported by authoritative sources: the EA Forum strategy post is publicly posted (Apr 28, 2025), EAD\u2019s staff size, programmes (Intro Program, Career Planning Programme), EAGxBerlin history (2022\u20132025) and collaboration with CEA/CEA\u2019s Organiser Support Programme (OSP) are verifiable on EAD and CEA pages. Strengths: (1) the strategy post itself is public; (2) EAD\u2019s website confirms team size, programmes, and the Intro/Career programs; (3) EAGxBerlin took place in 2022\u20132024 and is scheduled for 2025; (4) CEA runs OSP and retreats as described. Weaknesses / unverifiable items: several numerical and operational metrics reported in the post appear to be internal (e.g., \u201c99 applications and 77 1\u20111s in 2024\u201d; \u201cwe hired 12 grantees \u2026 last year\u201d; \u201cwe keep 6% of the grant\u201d) and are presented without independent public corroboration beyond EAD\u2019s own posts/pages \u2014 these are plausible but not independently verifiable from public sources. One specific claim appears inconsistent with broader CEA data: the post says EAGxBerlin is \u201cone of the 5 yearly recurring EAGx events,\u201d while CEA reporting indicates many more EAGx events (CEA supported ~11 EAGx events in 2024 and planned to expand the program), so that phrasing is ambiguous or misleading. Overall: most organisational facts and programme plans are supported by reliable sources, but internal numerical claims and the \u201c5 recurring EAGx events\u201d statement cannot be independently confirmed and/or are inconsistent with CEA reporting.",
+    "sources": [
+      "EA Forum \u2014 \"EA Germany's Strategy for 2025\" by Sarah Tegeler (Apr 28, 2025)",
+      "Effektiver Altruismus (EAD) \u2014 Team page / \"Team EN | Effektiver Altruismus\" (shows four permanent staff)",
+      "Effektiver Altruismus (EAD) \u2014 \"Who we are / Wer wir sind\" (organisation, funding notes, transparency pages)",
+      "Effektiver Altruismus \u2014 Career Planning Programme page (Course info for Aug\u2013Oct 2025)",
+      "EA Forum \u2014 \"EA Germany\u2019s Career Planning Programme\" (post describing three iterations since 2023)",
+      "EA Global / EffectiveAltruism.org \u2014 EAGxBerlin event pages (2022, 2023, 2024) confirming EAGxBerlin took place since 2022",
+      "Centre for Effective Altruism (CEA) / EA Forum \u2014 \"Update on EA Global costs and 2024 CEA Events Team activities\" (CEA reporting that ~11 EAGx events were supported in 2024 and program expansion plans)",
+      "Centre for Effective Altruism \u2014 Organiser Support Programme (OSP) information & EA Forum posts about OSP (descriptions of OSP and retreats)",
+      "Effektiver Altruismus (EAD) \u2014 Programs / Offers pages (describing Employer-of-Record / fiscal sponsorship and other programmes)"
+    ]
+  }
+}

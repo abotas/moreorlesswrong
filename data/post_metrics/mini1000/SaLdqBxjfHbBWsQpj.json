@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a useful, pragmatic call for collaborators that addresses clear methodological gaps in the meat\u2011reduction literature (real-world, observed outcomes outside student samples). For the EA community (animal welfare/climate/behavioural interventions) it could materially improve evidence about what works and thereby inform programmatic and corporate decisions \u2014 so it has moderate importance. For general humanity the post itself is low impact: reducing meat consumption at scale would be highly valuable, but this recruitment post is preliminary and uncertain in its downstream effects unless it leads to large, successful, scalable trials."
+  },
+  "PostRobustness": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about what partners must provide and what you will provide. Right now you ask for \u201cchampions\u201d but don\u2019t say what authority, resources, or commitments a partner needs (e.g., permission to change menus/prices, procurement control, access to sales/consumption data, staff time, budget for subsidizing items, legal/contract help). You should add a short \u201cWe can cover X, we need Y\u201d or an \u201cIdeal partner profile\u201d bullet list (e.g., cafeteria operator with menu control, access to transaction data, ability to run a 4\u20138 week pilot). This will make it much easier for busy potential partners to self-identify.\\n\\n2) Call out ethics, approvals, and reputational/legal risks up front and say how you will handle them. Several proposed interventions (replacing foods in workplaces/hospitals, offering food to patients or retirement-home residents, changing pet food) raise IRB/consent, clinical/nutritional, liability, dietary-restriction, union, and reputational concerns. Either (a) state you have IRB experience and a plan for consent/opt-outs and stakeholder engagement, or (b) request that partners handle approvals and list which approvals you expect them to provide. Also briefly sketch mitigation strategies (e.g., small voluntary pilots, signage and opt-out, nutritional reviews for patients, legal review) so potential partners aren\u2019t scared off by perceived risks.\\n\\n3) Narrow/prioritize and offer concrete, low-friction pilot designs. You currently list several interesting but very different studies, which makes it unclear where partners could start. Propose 1\u20132 prioritized, low-risk pilots (for example: a 4-week price-subsidy A/B test in one workplace cafeteria with sales data and an opt-out option; or a voluntary tasting/sampling period for hybrid products) with basic measurement plans (primary outcome, sample size ballpark, timeline, data needed). This both lowers activation energy for partners and reduces back-and-forth. If you have funding or are willing to pay for product samples/subsidies, say so.",
+    "improvement_potential": "The feedback points identify clear, consequential omissions in the post: who exactly partners must be/what authority/resources they must have, how ethical/regulatory/reputational risks will be handled, and the lack of concrete, low-friction pilot designs to lower partner activation energy. Addressing these would materially increase the post\u2019s clarity and partner uptake and avoid obvious reputational/operational pitfalls the authors would likely regret having left unmentioned. Each suggestion is actionable and can be implemented concisely, so they improve the post substantially without unnecessary verbosity."
+  },
+  "PostAuthorAura": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable public profile or notable presence for 'MMathur\ud83d\udd38' in EA/rationalist forums, academic databases, or mainstream social media. Likely a pseudonymous or obscure account. Provide a link or more context if you want a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to understand: clear problem statement (overreliance on hypothetical outcomes and university samples), concrete ask (partners/champions at real-world institutions), and specific study ideas and offers. The post is compelling because it gives concrete examples and an explicit contact. Minor weaknesses: a bit long and link-heavy, some small repetition (contact info appears twice), and it could be slightly more explicit about what partner organizations would need to provide (permissions, logistics, sample size expectations) and geographic or timeline constraints."
+  },
+  "PostNovelty": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers this is low-novelty: the problems (overreliance on hypothetical outcomes, campus bias) and interventions (cafeteria swaps, price nudges, trials) are well-known and frequently discussed in EA/behavioural\u2011science circles. A few specific study ideas (e.g., post\u2011hospital meal\u2011prep RCTs, retailer\u2011monitored vegan dog\u2011food trials, tasting\u2011threshold hybrid swaps) are somewhat specific and applied, but not conceptually new. For the general public these ideas are slightly more novel because the emphasis on rigorous randomized, non\u2011hypothetical tests in real institutional settings and some of the target populations (hospital discharge, retirement homes, pet\u2011food RCTs) will be less familiar, though the core strategies remain mainstream experimental public\u2011health and market interventions."
+  },
+  "PostInferentialSupport": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a clear, logical argument \u2014 identifies two plausible gaps in the meat-reduction literature (reliance on hypothetical/intentional outcomes and overreliance on university samples), cites a large reading/meta-analysis effort and a prior lab study showing intention\u2013behavior gaps, and proposes concrete, testable real-world interventions while offering experimental expertise. Weaknesses: The claims rest mainly on an internal/meta-analytic reading rather than fully reported, peer-reviewed synthesis in this post (methods and selection criteria are not shown), and empirical evidence that the specific proposed interventions will work is sparse or speculative. Practical barriers (stakeholder incentives, compensation effects, external validity of suggested settings) are acknowledged implicitly but not analyzed. Overall: a well-reasoned and plausible call for collaborators, but the empirical case for which interventions are most promising and for the size of likely effects is only moderately supported in the post itself."
+  },
+  "PostExternalValidation": {
+    "post_id": "SaLdqBxjfHbBWsQpj",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported: the Humane & Sustainable Food Lab at Stanford exists; the lab\u2019s randomized documentary trials (Mathur et al. 2021) finding increased intentions but little change in actual consumption are peer\u2011reviewed and public; the team\u2019s large meta\u2011analysis (Green, Smith & Mathur) and accompanying EA Forum summaries are public and document that most prior studies rely on hypothetical/intent outcomes and that many evaluated interventions use university populations. The authors\u2019 statement that they \u201cread ~1000 studies\u201d is supported by their supplement/OSF note that they excluded 900+ studies. One specific numeric claim \u2014 \u201cAs of December 2023, there had been 11 meat reduction studies featuring randomized evaluations, \u226525 per arm, delayed outcomes, and observed (rather than self\u2011reported) consumption data, with just two outside universities\u201d \u2014 is ambiguous. The published preprint/paper reports 35 papers (41 studies) meeting their broader inclusion criteria; the \u201c11\u201d figure may refer to a narrower subset (objectively observed/measured consumption only) but I could not find a public table enumerating exactly 11 such studies. Overall: most claims are verifiable and accurate; the lone unclear point is the provenance of the \u201c11 studies\u201d count (likely a narrower filter) so I downgrade slightly for that ambiguity.",
+    "sources": [
+      "Humane and Sustainable Food Lab (FoodLab Stanford) \u2014 official lab website (FoodLabStanford.com).",
+      "EA Forum \u2014 'The Humane and Sustainable Food Lab is looking for collaborators' (job/collaboration post quoting the claims).",
+      "EA Forum \u2014 'Meaningfully reducing meat consumption is an unsolved problem: meta-analysis' (summary of the meta-analysis and methods; notes ~900+ excluded studies).",
+      "PubMed / Appetite entry for the meta-analysis (Green SA, Smith B, Mathur MB \u2014 'Meaningfully reducing consumption of meat and animal products is an unsolved problem: A meta-analysis' \u2014 lists 35 papers/41 studies, SMD = 0.07).",
+      "OSF project page and data repository for the meta-analysis (authors\u2019 code/data; shows the review materials and excluded studies).",
+      "Mathur MB et al., 'Effectiveness of a Theory\u2011Informed Documentary to Reduce Consumption of Meat and Animal Products: Three Randomized Controlled Experiments' (Nutrients 2021 / PMC) \u2014 documents increased intentions but no decrease in measured consumption in rigorous designs.",
+      "EA Forum \u2014 earlier project posts (e.g., 'Environmental & health appeals are the most effective vegan outreach strategies', Dec 11 2023) describing study selection, unobtrusive/observed outcome counts, and the dominance of university studies.",
+      "BMC Public Health / BMC Nutrition Stanford dining\u2011hall experiments (examples of work measuring observed meat consumption in university cafeterias)."
+    ]
+  }
+}

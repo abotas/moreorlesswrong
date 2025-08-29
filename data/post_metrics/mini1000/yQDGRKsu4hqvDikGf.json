@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This post is primarily an announcement of expanded educational resources on utilitarianism (study guides, glossary entries, and several substantive guest essays). For the EA/rationalist community it is moderately important: it improves pedagogy, clarifies key objections (utility monster, interpersonal comparisons, EV fanaticism), and provides useful expositions (Harsanyi, political philosophy, business ethics) that can inform debates and teaching \u2014 but it does not introduce new, load-bearing empirical claims or radically change priorities. For general humanity the importance is minor: the materials could help public understanding of consequentialist ethics over time, but the direct near-term impact on broad human outcomes is limited."
+  },
+  "PostRobustness": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Tone, claims, and credibility: The post reads promotional (e.g. \u201cmasterfully explains\u201d, \u201cinvaluable\u201d) without giving readers ways to evaluate those claims. Actionable fixes: tone down superlatives or back them with evidence (e.g. short author bios, relevant credentials, peer/reader endorsements, or examples of classroom adoption). Add a brief note on editorial standards and the review process for guest essays (were they peer-reviewed, copy-edited, or lightly edited?), and link to author pages so readers can judge expertise quickly.\n\n2) Missing transparency about intellectual-property and accuracy risks for the proposed chatbot: you say a custom GPT could be trained on the \u201cmajor works\u201d and the site contents and would give \u201cquite reliable answers,\u201d but you don\u2019t address copyright, hallucination risk, or safety/mitigation. Actionable fixes: remove the confident claim that it would be \"quite reliable\" or qualify it; mention the need to clear copyright or restrict to public-domain / licensed texts; flag the risk of AI hallucination and propose concrete mitigations (source-citing responses, human-in-the-loop, test-suite of common objections, guardrails for harmful outputs). If you keep the idea, add a one-paragraph sketch of legal/technical steps and fallback (e.g. a strictly-cited FAQ is lower-risk first step).\n\n3) Weak call-to-action and missing support for teacher/adopter uptake: you ask whether professors use study guides but give no convenient way for them to respond or adopt the materials. Actionable fixes: add a short clear CTA (e.g. a one-question survey link or email contact) and offer ready-to-use resources to lower adoption friction (sample syllabus blurb, slide deck, assignment suggestions, editable PDF/HTML conversions). Also indicate format/accessibility status (which pieces are PDF-only, which have HTML, translation progress) so instructors can plan.",
+    "improvement_potential": "The feedback targets important, actionable weaknesses: (1) promotional tone and unsupported superlatives that undermine credibility, (2) a notable omission about legal and reliability risks for the proposed chatbot (copyright, hallucinations, safety mitigations), and (3) a missed opportunity to convert educator interest into adoption via a simple CTA and ready-to-use materials. Points (1) and (2) could embarrass the author if raised later and are high-impact; all three fixes are practical and wouldn\u2019t bloat the post, so addressing them would materially improve trustworthiness and utility."
+  },
+  "PostAuthorAura": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence of a recognizable EA/rationalist profile for 'Richard Y Chappell\ud83d\udd38'. Not a known community leader, frequent author, or speaker; appears to be a pseudonymous or little\u2011known individual with minimal public presence."
+  },
+  "PostClarity": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: clear headings, bullets, and links make what\u2019s new and why it matters immediately apparent. It occasionally assumes background knowledge (some technical terms and philosophers) and is a bit wordy in places (long parentheticals and footnote markers), so a little trimming and simpler signposting would make it even more concise and accessible."
+  },
+  "PostNovelty": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA Forum readership this is mostly incremental \u2014 familiar topics (Singer, Harsanyi, typical utilitarian objections, policy applications) presented as new site content; the only mildly novel bits are the particular collection of accessible pedagogical resources and the GPT-chatbot suggestion. For the general public some pieces (clear study-guides on Singer, an accessible take on Harsanyi\u2019s theorems, and a focused discussion of 'expected-value fanaticism') will be less familiar, but the underlying ideas are well-trodden in philosophy and EA circles, so the overall novelty is modest."
+  },
+  "PostInferentialSupport": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear and well-structured, laying out concrete additions (study guide, glossary expansions, four guest essays) and explaining their content and intended purpose, which makes the claim that the site has materially improved plausible. Weaknesses: The broader evaluative claim\u2014that the site is now \"comprehensive and respectable/near-final\"\u2014is asserted rather than demonstrated. There is little empirical or external evidence (no usage data, peer reviews, adoption by instructors, citation counts, or comparative benchmarks) and no systematic argument showing coverage of the field. The author does acknowledge some lacunae, which helps credibility, but overall the support is primarily descriptive and subjective rather than evidential."
+  },
+  "PostExternalValidation": {
+    "post_id": "yQDGRKsu4hqvDikGf",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Nearly all of the post\u2019s factual claims are verifiable and accurate. The new Peter Singer study guide, the expanded glossary entries (utility monster, interpersonal comparisons, self\u2011sacrifice), and the several guest essays (Marcus Schultz\u2011Bergin on political philosophy; Petra Kosonen on expected\u2011value fanaticism; Gustafsson & Kowalczyk on Harsanyi; Brian Berkey on business ethics) are all present on utilitarianism.net. The Harsanyi essay is currently provided as a PDF (the page links to a PDF). The site offers Spanish and German translations (live); Portuguese is described as forthcoming and is not yet a full site translation on utilitarianism.net. Minor caveat: some wording in the post (e.g., calling certain glossary items \u201cleftover\u201d versus \u201cnot in the top nine\u201d) is interpretive rather than empirical, but the concrete content claims are supported by the site pages cited below.",
+    "sources": [
+      "Study Guide: Peter Singer's Animal Liberation: 'All Animals are Equal' \u2014 https://utilitarianism.net/peter-singer-animal-liberation/ (utilitarianism.net)",
+      "Glossary \u2014 utilitarianism.net (entries: Utility monster, Interpersonal Utility Comparisons, Self\u2011sacrifice). https://www.utilitarianism.net/glossary/",
+      "Utilitarian Political Philosophy \u2014 Marcus Schultz\u2011Bergin (guest essay). https://www.utilitarianism.net/guest-essays/utilitarian-political-philosophy/",
+      "Expected Value Fanaticism \u2014 Petra Kosonen (guest essay). https://www.utilitarianism.net/guest-essays/expected-value-fanaticism/",
+      "Harsanyi\u2019s Utilitarian Theorems without Tears \u2014 Johan E. Gustafsson & Kacper Kowalczyk (guest essay page links to PDF). https://www.utilitarianism.net/guest-essays/harsanyi-utilitarian-theorems/",
+      "Utilitarianism and Business Ethics \u2014 Brian Berkey (guest essay). https://www.utilitarianism.net/guest-essays/utilitarianism-and-business-ethics/",
+      "Objections to Utilitarianism (main page / 'top' objections listing) \u2014 https://www.utilitarianism.net/objections-to-utilitarianism/",
+      "Spanish translation (Utilitarismo.net) \u2014 https://utilitarismo.net/ (utilitarianism.net Spanish mirror)",
+      "German translation (Utilitarismus.net) \u2014 https://utilitarismus.net/ (utilitarianism.net German mirror)",
+      "EA Forum linkpost referencing the utilitarianism.net updates (Richard Y. Chappell). https://forum.effectivealtruism.org/posts/EoWtjsvMATHXxLpfG/utilitarianism-net-updates"
+    ]
+  }
+}

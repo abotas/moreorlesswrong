@@ -1,0 +1,48 @@
+{
+  "PostValue": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful curated resource for onboarding and keeping EA/AI-safety community members up to date, so it modestly aids field-building and recruitment. However it is not load-bearing: it doesn't present novel arguments, research, or policy recommendations, and could be replaced by other good curated lists. Its direct impact on general humanity is minimal beyond marginally improving public awareness."
+  },
+  "PostRobustness": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No transparency about selection criteria or curatorship \u2014 The post presents a ranked/\u2018top\u2019 list but doesn\u2019t say how items were chosen, who curated them, or whether there were exclusion criteria or conflicts of interest. Actionable fix: add a one\u2011paragraph methodology on the page and post (who made the list, their expertise, how items were evaluated, inclusion/exclusion rules, and any affiliations). This reduces perceived bias and makes the resource credible to EA readers.\n\n2) Unclear target audience and lack of guidance on skill level or intent \u2014 The list mixes formats and difficulty levels but gives readers no way to know which resources are best for beginners vs. advanced practitioners or for different goals (e.g., research, policy, community building). Actionable fix: add simple tags/labels (beginner/intermediate/advanced; research/policy/intro/outreach) and a short \u201cstarter pack\u201d (3\u20135 items) for newcomers and a separate \u201cdeep dive\u201d list for people who already know the basics.\n\n3) No versioning / update & moderation plan \u2014 The post claims the page will be kept current but doesn\u2019t state how often it will be updated, who is responsible, or how community suggestions are vetted. Actionable fix: state an update cadence (e.g., quarterly), name the maintainers or editorial process, and offer a clear submission/PR process (or show how community suggestions are reviewed). Consider adding a changelog or timestamp on each entry so readers know when items were last reviewed.",
+    "improvement_potential": "The feedback identifies three clear, actionable credibility gaps (selection methodology, audience/signposting, and update/moderation plan) that readers care about and that are easy to fix with brief additions to the page. These are not fatal to the resource, but they are important \u2018own goals\u2019 that undermine trust for EA audiences; addressing them would greatly improve usefulness without substantially lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a notable figure named Bryce Robertson in the EA/rationalist communities as of mid\u20112024\u2014no prominent posts, talks, or affiliations are associated with that name. Likewise there is no detectable global public presence. If this is a pseudonym or a very recent/niche author, share links or more context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "clarity_score": 8,
+    "explanation": "Clear, well-structured announcement: purpose, link to the new page, list of formats, filtering feature, and call for feedback are all easy to follow. Minor weaknesses: no concrete example recommendations are shown in the post (only screenshots), a bit of small repetition (multiple AISafety.com links), and it could be slightly more compelling by highlighting a few top picks or criteria for selection."
+  },
+  "PostNovelty": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a curated, filterable resource list \u2014 a useful but incremental product. EA/longtermist readers will find it unsurprising because similar curated lists and newsletters for AI safety already circulate (LessWrong, Alignment Newsletter, existing AISafety content, etc.). For the general public it's slightly more novel (a central, curated hub for AI-safety learning), but still a common type of web resource rather than a new idea or claim."
+  },
+  "PostInferentialSupport": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "This is primarily an announcement of a curated resource. The core claim\u2014that a single, filterable page of recommended AI-safety newsletters, books, podcasts, etc. is useful to newcomers and people trying to stay informed\u2014is plausible and the post provides clear descriptions of features (categories, filtering, screenshots). That makes the reasoning straightforward and internally coherent. However, the post supplies almost no empirical evidence or transparency about curation: no selection criteria, no curator credentials, no usage metrics, no user testing or external validation, and no comparison with other similar resources. Because the supporting evidence is thin and the methodology opaque, the overall support for the implicit claim that these are the \u201ctop\u201d or that the page materially improves learning/uptake is limited."
+  },
+  "PostExternalValidation": {
+    "post_id": "wupfzGioFDDLz49aq",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "All major factual claims in the post are verifiable: AISafety.com has a 'Stay informed' page that was added and lists recommended Articles, Blogs, Books, Forums, Newsletters, Podcasts, Twitter/X accounts, and YouTube channels; the page provides checkboxes/filters by format and includes a feedback/suggest-correction flow. The announcement on LessWrong (crossposted to EA Forum) by Bryce Robertson (4 Mar 2025) matches the site content. Minor subjective claims (e.g. which entries count as 'top recommended') are editorial judgments made by the site and are not objective errors.",
+    "sources": [
+      "AISafety.com \u2014 Stay informed page (\"Stay informed\"), accessed Aug 2025: https://www.aisafety.com/stay-informed",
+      "LessWrong post by Bryce Robertson & S\u00f8ren Elverlin, \"Top AI safety newsletters, books, podcasts, etc \u2013 new AISafety.com resource\" (4 Mar 2025): https://www.lesswrong.com/posts/vxSGDLGRtfcf6FWBg/top-ai-safety-newsletters-books-podcasts-etc-new-aisafety",
+      "EA Forum mirrored announcement (Bryce Robertson, 4 Mar 2025): https://ea.greaterwrong.com/posts/wupfzGioFDDLz49aq/top-ai-safety-newsletters-books-podcasts-etc-new-aisafety"
+    ]
+  }
+}

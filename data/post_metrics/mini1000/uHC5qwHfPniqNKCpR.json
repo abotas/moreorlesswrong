@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "For the EA/rationalist community this is moderately important: GiveWell is a major allocator and norm-setter for effective giving, so their serious exploration of family planning could shift funding priorities and inspire further research or donations. However, this post is mainly an update/podcast announcement and not a substantive evidence breakthrough, so its immediate load-bearing impact is limited. For general humanity the post itself is of minor importance: family planning is a high-impact domain, but this announcement is organizational (and preliminary), so it only matters to the extent GiveWell\u2019s subsequent funding or recommendations change real-world support."
+  },
+  "PostAuthorAura": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "author_fame_ea": 8,
+    "author_fame_humanity": 5,
+    "explanation": "GiveWell is a well-established nonprofit research organization (founded ~2007) that is highly influential within the effective altruism and evidence-based philanthropy communities for its charity evaluations and grant recommendations. It is widely used and respected by EAs and major donors, though it is not a household name \u2014 it is known in philanthropic/professional circles and occasionally covered in mainstream media, but not broadly famous to the general public."
+  },
+  "PostClarity": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear opening, concise bullets outlining program types, evaluation challenges, and trade-offs, plus useful links and a call to action. Weaknesses: a bit repetitive about \"complexity\" and costs, and it lacks concrete examples or preliminary findings that would make the argument more compelling; phrasing could be tightened in a few places."
+  },
+  "PostNovelty": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "This is primarily an organizational update rather than a presentation of new conceptual claims. The idea that GiveWell is expanding into family planning and will apply its cost-effectiveness methods is newsy for readers who follow GiveWell closely, but the underlying points (family planning involves targeting, logistics, need to avoid coercion, supply\u2011chain problems, tradeoffs between reach and cost, and that funding gaps may arise from cuts to foreign aid) are well\u2011known within EA/ global health circles and fairly familiar to the general public. The most novel aspects are the explicit framing that monitoring to prevent coercion materially raises program costs and the specific announcement that GiveWell plans initial grants in this area \u2014 which is more of a practical/organizational novelty than a theoretical one."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a coherent, plausible case for investigating family planning\u2014arguments about increased research capacity, the area\u2019s complexity (informed consent, targeting trade-offs, logistics, stockouts), and the value of initial learning grants are logically sound. It appropriately flags ethical and operational challenges and the need for sophisticated monitoring. Weaknesses: This is a high-level announcement rather than a research report\u2014there is little to no empirical evidence, data, or citations presented to substantiate claims (e.g., no cost\u2011effectiveness estimates, no referenced studies or RCTs, no details of the modeling or expert input). Assertions such as the scale of funding gaps from anticipated aid cuts are unsubstantiated here. Overall, the reasoning is reasonable but underspecified, and the empirical support is weak, so the main thesis (that GiveWell should advance work on family planning and is well positioned to do so) is plausible but not well supported by evidence in this post."
+  },
+  "PostExternalValidation": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s empirical claims are well supported by primary sources. GiveWell\u2019s podcast episode (recording date, speakers, and summary), their April 2025 \u201cValuing Contraception\u201d modeling work, and the All Grants Fund / response-to-foreign-aid-cuts materials directly corroborate the organisation-level claims about (a) investigating family planning, (b) doing evidence review and modeling, (c) considering initial grants, and (d) timing (episode recorded June 24, 2025). GiveWell\u2019s concerns about anticipated USAID / U.S. foreign-aid cuts and resulting family-planning gaps are substantiated by multiple independent outlets and analyses (Guttmacher, KFF, Reuters). The post\u2019s qualitative claims about the operational complexity of family-planning programs (risk of coercion, need for stronger monitoring, supply-chain/stockout problems, trade-offs in reaching underserved populations) are consistent with WHO/UNFPA guidance and peer-reviewed literature on contraceptive stockouts and coercion. Weaknesses: several of the numerical/threshold claims (e.g., the ~\\$20/year preliminary cost-effectiveness threshold, the internal timeline \u201cpast year and a half,\u201d and staff/team growth) are GiveWell\u2019s own internal/modeling outputs and are necessarily provisional; GiveWell itself labels the contraception valuation as highly uncertain. Overall: the post is accurate and well-grounded, though some empirical quantities are preliminary and self-reported. ",
+    "sources": [
+      "GiveWell Conversations podcast: 'Advancing GiveWell\u2019s Work on Family Planning' (episode page / transcript) \u2014 GiveWell Transistor (episode page showing \"recorded on June 24, 2025\").",
+      "GiveWell \u2014 'Valuing Contraception in GiveWell\u2019s Cost-Effectiveness Analysis' (published April 2025) \u2014 GiveWell (describes the model, the ~\\$20/year preliminary threshold, uncertainty).",
+      "GiveWell \u2014 'All Grants Fund' (page, Last updated July 2025) \u2014 GiveWell (shows funding vehicle referenced in the post).",
+      "GiveWell \u2014 'USAID Funding Cuts: Our Response and How to Help' & 'Response to Foreign Aid Cuts' pages (June 26, 2025 / related pages) \u2014 GiveWell (documents GiveWell\u2019s forecasts, grants made in response, and reasoning about gaps).",
+      "Guttmacher Institute \u2014 'Foreign Aid Cuts Will Lead to 34,000 More Pregnancy-Related Deaths in Just One Year' (March 2025) and 'Just the Numbers: The Impact of US International Family Planning Assistance, 2024' (Feb 2025) \u2014 evidence on scale of US FP assistance and impacts of cuts.",
+      "KFF (Kaiser Family Foundation) \u2014 'The Trump Administration\u2019s Foreign Aid Review: Status of U.S. Family Planning and Reproductive Health Efforts' (timeline & analysis, 2025) \u2014 documents scope of USAID award cancellations and impacts.",
+      "Reuters \u2014 'Contraceptives for poorest countries stuck in warehouses after US aid cuts' (June 6, 2025) \u2014 reporting on stranded contraceptive stockpiles following US aid changes.",
+      "WHO \u2014 'Family planning: a global handbook for providers' and broader WHO guidance (rights-based and technical guidance on family planning) \u2014 authoritative guidance on informed, voluntary choice in FP services.",
+      "UNFPA \u2014 'Human Rights-based Approach to Family Planning: Support Tool' (2024) and UNFPA supply-chain pages \u2014 guidance on rights-based FP and supply-chain strengthening/Last Mile Assurance.",
+      "Systematic reviews / peer-reviewed literature: (a) 'Contraception supply chain challenges: a review of evidence from low- and middle-income countries' (2017) and (b) 'The impacts of contraceptive stock-outs on users, providers, and facilities: A systematic literature review' (2020) \u2014 evidence that stockouts and supply-chain issues are common and consequential.",
+      "Guttmacher / academic literature on coercion in family planning: 'Achieving the Goal of the London Summit on Family Planning By Adhering to Voluntary, Rights-Based Family Planning' (Guttmacher, 2014) and other studies (e.g., qualitative work on contraceptive coercion) \u2014 documents historical and continuing concerns about coercion and the need for monitoring and safeguards."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "uHC5qwHfPniqNKCpR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Treatment of coercion and informed consent is too shallow \u2014 make this central and specific. The post acknowledges the risk of coercion but gives no concrete plan for detection, prevention, or remediation. Actionable fixes: briefly summarize the monitoring and accountability measures GiveWell and grantees will use (e.g., independent informed-consent audits, routine client exit surveys with randomized follow-up, community complaints mechanisms, third\u2011party safeguarding reviews, mandatory staff training and certification, pre-specified harm triggers that pause activities). If space is limited, link to a short appendix or forthcoming note with these protocols.\n\n2) Cost-effectiveness and comparators are insufficiently clear. The post claims GiveWell is \"modeling the benefits of contraception\" but provides no high\u2011level assumptions or how these grants will be compared to GiveWell\u2019s existing portfolio. Actionable fixes: add one sentence on the dominant assumptions driving your model (e.g., which outcomes you value and the time horizon), and state how you plan to compare family\u2011planning opportunities to malaria/micronutrient/etc. (e.g., same cost-per-DALY framework, threshold, or exploratory analyses). If you're not ready to publish numbers, say when/how you will publish model inputs and sensitivity analyses.\n\n3) Downplays political, cultural, and selection\u2011bias risks and lacks transparency about grant selection. The post briefly mentions logistical tradeoffs but doesn't address likely political backlash, donor restrictions, or the risk that programs easiest to evaluate aren't those that best serve client preferences. Actionable fixes: acknowledge these foreseeable counterarguments explicitly and state guardrails (e.g., criteria for choosing pilot geographies, plans for community engagement and local partner selection, steps to avoid choosing only highly monitorable but low-value programs). Also commit to publishing criteria and a timeline for initial grant decisions to reduce perceived arbitrariness.",
+    "improvement_potential": "The feedback targets genuine, high\u2011impact omissions (safeguards against coercion, how cost\u2011effectiveness is being modeled and compared, and transparency about political/cultural risks and grant selection). These are precisely the points that could become reputational or methodological own\u2011goals for GiveWell if left vague, and the suggested fixes are concrete and could be handled with one or two sentences or a linked appendix rather than bloating the post. The critique is actionable and proportional to reader time, so adopting it would materially strengthen the post."
+  }
+}

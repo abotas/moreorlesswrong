@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "value_ea": 4,
+    "value_humanity": 4,
+    "explanation": "This is a practical hiring call for a technically important but narrowly scoped initiative: making cheap, POC blood lead testing widely available would be valuable (reducing childhood neurotoxicity, enabling interventions, large social/economic benefits). However, the post itself is not a foundational argument or new evidence \u2014 it\u2019s operational (seeking talent) and its ultimate impact depends on successful R&D, regulatory approval, manufacturing, and adoption. So it\u2019s moderately useful/interesting to EA audiences and to general humanity, but not high\u2011load\u2011bearing on its own."
+  },
+  "PostRobustness": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Be concrete about the role logistics and expectations \u2014 currently the post is very high level. Add employment type (employee/contractor), location or remote policy, expected time commitment and tenure, salary or pay range, start date/notice period, and a brief description of the application process. Reason: this filters for realistic applicants and avoids wasting time for both sides.\n\n2) Add technical success criteria and current status \u2014 the cost/accuracy targets are ambitious but vague. State the current technology readiness (prototype/data if any), what you mean by \u201caccurate\u201d (LOD, sensitivity/specificity, agreement vs venous ICP-MS), target regulatory pathway (e.g., CLIA-waived, FDA 510(k)), and the milestone timeline you expect the hire to deliver. Reason: candidates need to judge feasibility and whether their skills match the stage of the project.\n\n3) Explain available resources, partnerships, and commercialization plan \u2014 list committed funding or runway, lab/factory access, existing industrial or clinical partners, and basic assumptions behind the <$3/test cost (manufacturing volume, consumables, distribution). Also briefly note major deployment barriers (regulatory, reimbursement, user adoption) you expect to confront. Reason: this prevents the post from overpromising and helps attract candidates who can realistically close the gaps.",
+    "improvement_potential": "The feedback points out major, actionable omissions that materially reduce the post's effectiveness: lack of role logistics (employment type, location, pay, time commitment), lack of technical/readiness details (what 'accurate' means, current prototype/data, regulatory path), and lack of resource/partnering information (funding, lab access, assumptions behind <$3/test). These are the kinds of 'own-goals' that will waste reader time and deter qualified candidates or invite unrealistic applicants; fixing them is high\u2011value and would not substantially bloat the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff there is no prominent author named Lauren Gilbert in EA/rationalist circles and no significant global public profile. The name appears to be shared by multiple private individuals; provide links or context if you have a specific person in mind and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "clarity_score": 9,
+    "explanation": "The post is concise, well-structured, and easy to understand \u2014 clear mission, success criteria, and candidate qualities. Minor weaknesses: it omits practical application details (how/where to apply, location, timeline/compensation), some phrasing is high-level/subjective (e.g. \u201cbuild trust\u201d, \u201cstrong judgment\u201d), and the abbreviation \u201cPb\u201d might not be familiar to all readers."
+  },
+  "PostNovelty": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "novelty_ea": 4,
+    "novelty_humanity": 3,
+    "explanation": "The core idea\u2014developing an affordable, point\u2011of\u2011care lead test\u2014is valuable but not new. Diagnostics folks and many in EA/longtermist circles are already aware of lead as a high\u2011impact environmental health problem and the benefits of cheap, rapid tests; there have been prior devices (e.g., LeadCare) and known challenges (capillary contamination, regulatory/commercial hurdles). What\u2019s somewhat distinctive is the specific, operational ask (hiring a mid\u2011career technologist to drive commercialization with a <$3 per\u2011test target), but that is an implementation detail rather than a novel conceptual insight."
+  },
+  "PostInferentialSupport": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "reasoning_quality": 4,
+    "evidence_quality": 1,
+    "overall_support": 3,
+    "explanation": "Strengths: the post states a clear, concrete vision and specific, realistic product targets and candidate qualities, so the argument for hiring a technically experienced lead is coherent. Weaknesses: it provides no empirical or documentary evidence about technical feasibility, market demand, cost structure, regulatory pathway, or past progress \u2014 key gaps for assessing whether the goal (<$3, capillary, point-of-care, accurate) is achievable. As a hiring announcement the reasoning is serviceable, but as an argument that the project is viable it is weak due to lack of supporting evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "m6GxyLMwtD5bDynz7",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed/partly supported. It is accurate that point-of-care, finger\u2011stick (capillary) blood lead tests exist and have been widely used (e.g., LeadCare), and there is active research and prize-funded work aiming to make inexpensive point\u2011of\u2011care lead sensors. HOWEVER current commercial point\u2011of\u2011care kits cost >> $3/test (retail shows ~$13\u2013$25/test), capillary sampling is known to be prone to contamination and commonly requires confirmatory venous testing (CDC/WHO guidance), and there have been high\u2011profile accuracy failures and recalls (Magellan/LeadCare) showing regulatory and reliability challenges. Academic and startup work (and prizes) make a low\u2011cost <$3, accurate, non\u2011clinical deployable device plausible in future, but that claim is not currently validated by existing products or market prices. Major empirical strengths: existence of POC capillary tests and active R&D. Major weaknesses: current per\u2011test costs, documented accuracy/recall/regulatory problems, and the clinical need for venous confirmation at low BLLs (CDC BLRV 3.5 \u00b5g/dL).",
+    "sources": [
+      "FDA press release: FDA warns Americans about risk of inaccurate results from certain lead tests (May 16, 2017) \u2014 Magellan/LeadCare warning and fingerstick/venous guidance. (FDA)",
+      "FDA recall page: Magellan Diagnostics, Inc. Expands Voluntary Recall of LeadCare\u00ae Test Kits (FDA recall notice; 2021\u20132022 lots).",
+      "DOJ / FDA press release: Magellan Diagnostics Agrees to Plead Guilty and Pay $42 Million to Resolve Criminal Charges (May 21, 2024) \u2014 settlement over concealed malfunction in LeadCare devices.",
+      "CDC: Testing for Lead Poisoning in Children \u2014 explains capillary vs venous testing, contamination risk, and confirmatory venous testing recommendations.",
+      "CDC: Update of the Blood Lead Reference Value (BLRV) \u2014 BLRV = 3.5 \u00b5g/dL (updated Oct 28, 2021) and lab advisory implications.",
+      "Peer-reviewed study (Minnesota 2011\u20132017): high false\u2011positive rate of capillary tests vs venous confirmatory testing (PubMed, 2018 study summary).",
+      "Commercial listings for LeadCare II test kits (examples: McKesson / medical suppliers / retail pages showing LeadCare II test\u2011kit prices \u2248 $600\u2013$1,150 per kit of 48 tests \u2192 \u2248 $13\u2013$24 per test).",
+      "Lead Detect Prize / SensiLead (Sept 2024 coverage) and MIT News (May 2024) \u2014 examples of active research and prize efforts developing lower\u2011cost sensors (water/blood sensor R&D and prototype devices).",
+      "WHO / NCBI guidance: WHO clinical guidance stating venous blood best for diagnosis and capillary acceptable for screening but must be confirmed (WHO/NCBI book chapter)."
+    ]
+  }
+}

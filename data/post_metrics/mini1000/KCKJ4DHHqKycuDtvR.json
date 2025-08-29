@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "Moderately useful for the EA/rationalist community as practical, time-sensitive advice about where to plug funding gaps caused by a US aid freeze. If correct, it could prevent the shutdown of some high-impact global health projects (e.g., malaria trials), so it matters for donation allocation decisions, but it is not foundational to EA/worldview or longtermist priorities and its net effect depends a lot on cost\u2011effectiveness and opportunity costs. For general humanity the post is of minor importance: it could have tangible local benefits if it mobilizes funds, but it does not change large-scale outcomes or policy."
+  },
+  "PostAuthorAura": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Tyler Kolota' is a known figure in the EA/rationalist community or more broadly (no notable publications, talks, citations, or presence on major EA sites/forums). Likely an unknown or minimal/anonymous online presence."
+  },
+  "PostClarity": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "clarity_score": 7,
+    "explanation": "Overall the post is readable, brief, and the main idea (raising short-term funds to cover gaps from the US foreign aid freeze) is clear. Strengths: concise call for feedback, an illustrative example, and a recommended alternative fund in an edit. Weaknesses: some phrasing is awkward or vague (e.g. \"over-all fund,\" comparison to bed-nets), the argument about cost-effectiveness is underdeveloped and would benefit from clearer criteria or concrete numbers, and the post could more clearly state the specific question or decision it wants community input on."
+  },
+  "PostNovelty": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA audience this is not very novel: filling short-term funding gaps, debating cost\u2011effectiveness of bridge funding, and recommending rapid\u2011response philanthropic vehicles are common topics. For the general public it is somewhat more novel \u2014 the specific idea of privately bridging a US foreign\u2011aid freeze to keep high\u2011impact RCTs/projects running (and the nuances about cost\u2011effectiveness) is less widely considered, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post advances a plausible, cautiously worded thesis (short-term bridge funding can be highly cost-effective if it prevents shutdowns of high-impact projects) and acknowledges uncertainty, which is sensible reasoning. However the argument is underdeveloped: it lacks structured analysis of counterfactuals, selection criteria, moral hazard or opportunity costs. Evidence is weak\u2014essentially a single anecdote about a $225k shortfall\u2014and there are no systematic data or quantitative estimates to support claims about frequency, scale, or cost-effectiveness. Overall the claim is possible but poorly supported by the provided evidence and would need more concrete data and comparative vetting to be convincing."
+  },
+  "PostExternalValidation": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are well-supported. The Foreign Aid Bridge Fund / \"Unlock Aid\" emergency fundraiser existed and its site explicitly lists the $225,000 West Africa RCT example quoted in the post; major news outlets and sector organizations (AP, Science, Reuters, WHO, KFF) independently reported that the January 2025 U.S. foreign-aid freeze caused widespread disruption to malaria programs, clinical trials, and supply chains. The Life You Can Save Rapid Response Fund recommendation is accurate. Limitation: the specific $225,000 randomized-trial example appears on the Bridge Fund's own site and I could not find independent reporting that verifies that exact trial or amount, so that particular detail relies on the fund's self-report. Overall: claims are credible and mostly verifiable, but a few granular examples are only documented by the fundraiser itself rather than independent sources.",
+    "sources": [
+      "Foreign Aid Bridge Fund \u2014 foreignaidbridgefund.org (page listing Unlock Aid examples, incl. the $225,000 RCT example). (Found via web search.)",
+      "AP News \u2014 \"Emergency fundraisers offer a lifeline to groups who've lost foreign aid\" (reports Unlock Aid and other emergency funds).",
+      "The Life You Can Save \u2014 Rapid Response Fund page (Rapid Response Fund launched with Founders Pledge; recommended by author).",
+      "WHO \u2014 \"Malaria progress in jeopardy amid foreign aid cuts\" (11 April 2025) (documents disruptions to malaria services after US aid cuts).",
+      "Science/AAAS \u2014 \"\u2018It\u2019s tectonic\u2019: U.S. foreign aid freeze deals a blow to research around the globe\" (reports halted trials and research disruption).",
+      "Reuters \u2014 \"US aid freeze sows disruption in HIV, malaria product supply chains\" (Feb 2025) (reports supply-chain and program interruptions).",
+      "KFF \u2014 Fact-sheet: \"The Trump Administration's Foreign Aid Review: Status of the President's Malaria Initiative (PMI)\" (summarizes PMI disruptions and waivers)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "KCKJ4DHHqKycuDtvR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing concrete criteria and evidence for cost\u2011effectiveness. The post asserts the fund \u201cmay be very high\u201d value but gives no framework or numbers. Before publishing, add (a) explicit criteria for what kinds of projects you\u2019d fund (e.g., randomized evidence, DALYs averted per dollar, urgent cash\u2011flow gap likely to cause permanent shutdown), (b) 1\u20132 worked examples with numbers (cost to bridge, expected impact conditional on the bridge), and (c) a simple decision rule for donors (e.g., only fund projects with >=X expected DALYs/$ or with high probability the bridge prevents permanent termination). This keeps the ask credible to EA readers who expect quantification. \n\n2) Overlooks key counterfactuals and sustainability risks. You don\u2019t address whether a short bridge actually changes long\u2011term outcomes (will the project restart, or does the pause simply shift timelines?) or whether donations crowd out other donors/lead to moral hazard. Fix by explicitly stating the counterfactual reasoning you\u2019ll use when evaluating requests (probability the project resumes if bridged vs. shuts down permanently; likelihood of replacement funding; downside if funds are wasted). Require applicants to state their counterfactuals and exit criteria, and summarize these for donors. \n\n3) Lack of transparency and vetting/coordination with existing funds. The post doesn\u2019t say how organizations are selected, how funds are monitored, or why a new collection is better than directing donors to existing rapid response vehicles (you do edit to recommend TLCS later). Before posting, either (a) present a clear vetting process and plan for monitoring/reporting, or (b) pivot to recommending and comparing existing mechanisms (The Life You Can Save Rapid Response Fund, GiveWell\u2019s disaster/bridge processes, direct contact with grantees). Donors need to know fees, legal/admin arrangements, and how you\u2019ll prevent duplication of effort.",
+    "improvement_potential": "The feedback identifies the most important shortcomings for an EA audience: no quantification or decision rule, missing counterfactual reasoning, and lack of vetting/coordination with existing rapid\u2011response mechanisms. Fixing these would substantially raise credibility and avoid obvious 'own goals' (claiming high value with no numbers; duplicating existing funds) and can be done succinctly rather than bloating the post."
+  }
+}

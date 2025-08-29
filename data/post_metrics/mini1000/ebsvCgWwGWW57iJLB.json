@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a hiring announcement for a small AI-alignment research org (Timaeus) focused on singular learning theory and developmental interpretability. For the EA/rationalist community it has moderate importance: it signals capacity-building in alignment research, is directly useful to job-seekers, potential collaborators, and funders, and could incrementally accelerate research in a promising niche \u2014 but it is not a foundational or highly load-bearing claim. For general humanity the post is low importance: hiring at a single org has minimal direct impact on broad public outcomes unless those hires lead to major, widely consequential breakthroughs (which is possible but speculative)."
+  },
+  "PostRobustness": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify compensation and paid-assessment terms. The USD70k\u2013140k range is very broad and risks signaling underpay for senior hires (Research Lead) or being unclear about differences by role/location. Specify typical salary bands per role and by region (e.g., Research Lead / Scientist / Engineer in US / UK / EU / remote), whether equity/bonuses are offered, and whether salaries are full-time employee vs contractor rates. Also state the exact pay amount for the \u201cpaid, 4\u2011hour\u201d assessment(s) so candidates can decide whether to invest time. Action: add a short compensation section with role-by-region bands, equity/bonus info, and the assessment stipend amount.  \n\n2) Make location, relocation and visa policy explicit. Saying the org will \u201clikely\u201d be in Berkeley or London and will \u201cintend to sponsor visas in the future\u201d is vague and creates uncertainty for international candidates. State whether hires are expected to relocate, when visa sponsorship will be available, and whether employees can remain fully remote permanently. Action: add one sentence per scenario (fully remote option, expected relocation window, visa sponsorship timeline and who pays relocation costs).  \n\n3) Give candidates concrete details about research resources, publication/IP policy, and safety constraints. Applicants deciding whether to join need to know practical constraints: expected compute budget and model sizes you\u2019ll provide or reimburse, access to commercial model APIs or internal clusters, data/privacy restrictions, whether work will be published/open-source or behind NDAs, and any safety review process for experiments (esp. for work on large models). Action: add a brief bullets section summarizing compute & data access, publication/IP norms, and safety/oversight expectations.",
+    "improvement_potential": "The feedback targets three concrete, high-impact omissions that could materially harm recruiting: vague compensation signaling (especially for senior roles), unclear remote/relocation/visa policy for international applicants, and missing practical research constraints (compute, publication/IP, safety) that researchers need to evaluate offers. Fixing these would prevent obvious misunderstandings and reduce applicant churn/misfits; they\u2019re not merely stylistic and would likely embarrass the authors if raised by candidates. Implementing them would modestly lengthen the post but yield substantial clarity and trust."
+  },
+  "PostAuthorAura": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no record in my training data of Tatiana K. Nesic Skuratova as a known contributor within the EA/rationalist community or as a public figure. The name appears to be obscure (or possibly a pseudonym); no prominent publications, talks, or citations are evident. If you can provide links or context (works, affiliations), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear TL;DR, distinct sections (roles, responsibilities, requirements, research areas, benefits, and application process), and concrete deadlines and salary range. Minor weaknesses: some repetition (salary, apply links), occasional jargon/abbreviations (e.g. SLT, LLC, \"devinterp\") that may confuse non\u2011specialist readers, and a small inconsistency/ambiguity about the timing of visa sponsorship/offices. Overall clear and compelling for the target technical audience, slightly verbose in benefits and minor wording issues."
+  },
+  "PostNovelty": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a standard hiring announcement for an alignment lab \u2014 the format, roles, and processes are very common on the EA Forum and among alignment orgs. The only somewhat distinctive content is the explicit focus on singular learning theory (SLT) and developmental interpretability; those are relatively niche but already discussed within the EA/alignment community and represent an incremental research emphasis rather than a brand\u2011new idea. For the general public the technical focus (SLT, devinterp, LLCs, etc.) is relatively unfamiliar, so the post is somewhat more novel to that audience, but it remains a routine job posting rather than a novel conceptual contribution."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is clear, well-structured and internally consistent \u2014 it states roles, responsibilities, process, compensation, timeline, and research focus (SLT & developmental interpretability). It provides actionable links (website, blog, application, staff profiles) and transparency about assessments, benefits, and diversity accommodations. Weaknesses: It offers little concrete evidence of the organisation's research track record or of prior empirical successes applying singular learning theory to alignment (no publications, benchmarks, or specific results cited). Some claims are vague or forward-looking (e.g. offices/visa plans, scaling to 100B models) without substantiating capacity or infrastructure. Overall: As a hiring announcement the main claim (\u201cwe are hiring\u201d) is well-supported; as a claim about research credibility and impact the post provides only limited evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "ebsvCgWwGWW57iJLB",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major empirical claims in the post (the job opening, roles/counts, start date, salary range, application deadline and form, research focus on singular learning theory and developmental interpretability, named contacts, and Ashgro fiscal sponsorship) are supported by Timaeus\u2019 official blog post and matching EA Forum / LessWrong announcements. Key corroborating evidence: the Timaeus blog post (Jan 17, 2025) lists the same positions, start date (April 2025), salary range (USD70k\u2013140k), and application deadline (13 Feb); the EA Forum repost (Jan 27, 2025) reproduces the same details; Ashgro (fiscal sponsor) names Jesse Hoogland and references Timaeus; Jesse Hoogland\u2019s personal site and conference pages list him as Timaeus Executive Director; an Airtable application form is linked from the post. Limitations: most claims are self-reported by Timaeus (so they are well-supported as accurate descriptions of the organization\u2019s announcement and hiring plan) but future/conditional claims (e.g., \u201cwill likely be located in Berkeley or London within six months\u201d, \u201cwill sponsor visas\u201d, actual hires/start dates) are plans rather than independently verifiable outcomes. Also public company-registration records (Endole) show a UK incorporation record for \u201cTimaeus Research\u201d dated 3 June 2025, which is consistent with organizational evolution but indicates some governance/formal-incorporation details post\u2011date of the hiring post. Overall: the post is accurate as an announcement from Timaeus and is corroborated by multiple official sources; uncertainty remains only for future outcomes and the usual limits of self-reported organizational plans.",
+    "sources": [
+      "Timaeus \u2014 Open Roles @ Timaeus (Timaeus blog, Jan 17, 2025): https://timaeus.co/blog/updates/2025-01-17-hiring",
+      "EA Forum \u2014 'Timaeus is hiring researchers & engineers' by Tatiana K. Nesic Skuratova (Jan 27, 2025): https://forum.effectivealtruism.org/posts/ebsvCgWwGWW57iJLB/timaeus-is-hiring-researchers-and-engineers",
+      "Timaeus \u2014 homepage / research pages (mission, SLT / developmental interpretability): https://timaeus.co/ and https://timaeus.co/research",
+      "Ashgro (fiscal sponsor) \u2014 Ashgro project page referencing Timaeus and Jesse Hoogland: https://www.ashgro.org/ (page includes Timaeus / Jesse Hoogland mention)",
+      "Jesse Hoogland personal site (states role as Executive Director, Timaeus): https://www.jessehoogland.com/",
+      "Endole / UK company profile \u2014 Timaeus Research (incorporation record, 3 Jun 2025): https://open.endole.co.uk/insight/company/16491491-timaeus-research"
+    ]
+  }
+}

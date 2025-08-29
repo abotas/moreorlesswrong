@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "value_ea": 7,
+    "value_humanity": 4,
+    "explanation": "For the EA/rationalist community this is relatively high\u2011importance: GiveWell is a major allocator of marginal philanthropic dollars, and timely information about large USAID funding gaps and where highly cost\u2011effective interventions (e.g., SMC, bednets, malnutrition treatment) are at risk meaningfully affects donor decisions and short\u2011term allocation of resources. It\u2019s not a foundational theoretical claim for longtermist or AI safety agendas, but it is load\u2011bearing for near\u2011term global\u2011health philanthropic strategy. For general humanity the post is of moderate but limited importance: the underlying story (large US aid cuts) is highly consequential for millions, but this particular post is primarily an operational fundraising/response update from one NGO rather than new evidence or a systemic policy analysis, so its direct impact on broader public understanding and policy is modest."
+  },
+  "PostRobustness": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify and reconcile the headline numbers about cuts and scope. Right now the post mixes different sources and scopes (USAID grants, USA government global health funding, and total foreign assistance) and cites highly divergent estimates ( ~34% vs ~76\u201388% ). That will confuse readers and undermine credibility. Action: pick one clear framing (e.g., \u201cUSAID program cancellations\u201d vs \u201cUS global health budget\u201d), show the most likely range, explain why sources disagree, and add a single short, transparent caveat about uncertainty. Replace or annotate the Rubio tweet/press-quote numbers with a brief, authoritative synthesis (e.g., CGD/NPR/IHME) so readers aren\u2019t left with conflicting impressions. \n\n2) Provide concrete decision criteria and counterfactual reasoning for redirecting GiveWell funds to urgent gaps. The post says GiveWell has directed ~$15M and is evaluating ~$100M of potential grants but doesn\u2019t explain how you decide which gaps to fill, how you estimate marginal cost-effectiveness under this shock, or why urgent short-term funding beats alternatives (e.g., advocacy, longer-term resourcing, crowd-in from other donors). Action: add a short paragraph (1\u20133 sentences) summarizing the key decision rule(s) you used (e.g., estimated lives saved per $, time-sensitivity, risk of program collapse), plus one illustrative example quantifying expected impact (or uncertainty bounds) for an SMC grant versus the typical Top Charity grant. This will preempt the obvious counterargument that urgent reallocation could be less cost-effective than sticking with normal grantmaking. \n\n3) Improve transparency on past allocations and safeguards against harmful side effects (fungibility, sustainability, crowd-out). Readers will reasonably ask: how was the ~$15M spent, what monitoring/contingency exists, and how will GiveWell avoid creating dependency or crowding out other funders? Action: include a two-sentence summary listing how the ~$15M was allocated (by program/country or percentage), whether those grants are unrestricted or conditional, and what monitoring/exit plans you have. Also acknowledge the risk of fungibility and explain one way you\u2019re mitigating it (e.g., funding time-limited surge costs, tying funds to procurement that would not be covered otherwise, or prioritizing interventions with clear marginal benefits).",
+    "improvement_potential": "The feedback targets real, high-impact weaknesses: mixed/ambiguous headline numbers that undermine credibility, lack of decision rules or counterfactual reasoning for redirecting funds, and insufficient detail on how the $15M was spent and safeguards against harmful side effects. Fixing these would materially improve the post\u2019s clarity and defensibility and can be done with a few concise sentences each, so the benefit is large relative to the modest added length."
+  },
+  "PostAuthorAura": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "author_fame_ea": 8,
+    "author_fame_humanity": 5,
+    "explanation": "GiveWell is a well-established nonprofit research organization (founded ~2007) that is highly influential within the effective altruism and evidence-based philanthropy communities for its charity evaluations and grant recommendations. It is widely used and respected by EAs and major donors, though it is not a household name \u2014 it is known in philanthropic/professional circles and occasionally covered in mainstream media, but not broadly famous to the general public."
+  },
+  "PostClarity": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "clarity_score": 8,
+    "explanation": "Clear, well-structured update: purpose, context, actions GiveWell is taking, concrete numbers ($15M directed, ~$100M under review), and clear calls to action with links. Strengths: logical flow, useful specifics, and accessible calls to donate or follow the podcast. Weaknesses: somewhat dense with links and long footnotes that may overwhelm casual readers, occasional repetition and long sentences make it slightly less concise than ideal. Overall easy to understand and compelling, but could be tightened and the footnotes simplified or summarized for broader readability."
+  },
+  "PostNovelty": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA Forum readership this is low-novelty: it reports an expected, predictable response from GiveWell (prioritizing cost-effective programs, reallocating emergency funds, fundraising, and tracking specific gaps like SMC). EA readers are likely already aware that US aid cuts would threaten malaria nets/SMC and that GiveWell would mobilize short-term grants and communication. For the general public it's modestly more novel: the concrete linkage of large USAID cuts to specific, highly cost\u2011effective interventions, the amounts GiveWell has already directed (~$15M) and is evaluating (~$100M), and the detailed operational response (podcast episodes, fund recommendations) may be new information to many people, but the core idea \u2014 charities stepping in to fill government funding gaps \u2014 is common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, coherent argument linking large proposed USAID/US government aid cuts to risks for well\u2011known, highly cost\u2011effective global health programs (SMC, nets, malnutrition treatment). It cites reputable aggregate funding sources (KFF, IHME), acknowledges uncertainty, and documents GiveWell\u2019s concrete responses (\u2248$15M deployed, >$100M pipeline), which bolsters credibility. Weaknesses: The causal claim that cuts have destabilized programs is plausible but not rigorously demonstrated \u2014 the post relies mainly on reporting (tweets, news, CGD estimates) and programmatic description rather than systematic empirical evidence of program interruptions, health impacts, or counterfactuals. Key quantitative gaps remain (how many people/beneficiaries affected, how much shortfall by program, timeline, mitigating funding from other donors). Overall: Reasoning is logical and transparent but somewhat high\u2011level; evidence is mixed \u2014 authoritative for budget context but thin on direct outcome data \u2014 so the post provides moderate support for its main thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "u9ENn4GvbfJEnXkip",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major empirical claims are well supported by reliable sources. Key points \u2014 KFF\u2019s enacted U.S. global health budget figures (~$12\u2013$13B in FY2022\u201324), IHME\u2019s Financing Global Health estimates for total development assistance for health (~$64B in 2023) and IHME\u2019s US-bilateral component (~$14.6B), widespread reporting that the administration announced cancellation of ~5,200 USAID awards (Rubio: ~83%) and court filings / agency statements saying a much larger share of awards by dollar value were targeted (reports quoting ~76\u201392%) \u2014 are documented in high-quality sources. GiveWell\u2019s own webpage and podcast exist and GiveWell\u2019s self\u2011reported grantmaking in response to the cuts (their early figure ~$15M, later updated on their site as a larger total) is verifiable on GiveWell\u2019s site. Two minor caveats reduce a perfect score: (1) IHME\u2019s figures can be presented in several ways (total U.S. DAH in 2023 is commonly reported around $20.6B while $14.6B corresponds to a particular bilateral/flow component), so the GiveWell wording is slightly ambiguous; and (2) several numerical claims were true as snapshots in a rapidly changing situation (e.g., \u2018\u2018so far directed ~$15M\u2019\u2019 was an early figure later updated). Overall the post is well-supported by trustworthy, contemporaneous reporting and data sources.",
+    "sources": [
+      "GiveWell \u2014 'USAID Funding Cuts: Our Response and How to Help' (GiveWell webpage, updated; grants list).",
+      "KFF \u2014 'U.S. Global Health Budget Figures' (KFF global health budget tracker; enacted figures for FY2022\u20132024).",
+      "Institute for Health Metrics and Evaluation (IHME) \u2014 'Financing Global Health 2023' / IHME VizHub (DAH flows, 2023; total DAH ~64B; US DAH components including $14.6B bilateral figure).",
+      "Center for Global Development \u2014 Kenny & Sandefur, 'The USAID Cuts: Little Sign of Mercy for \"Life-Saving\" Health Programs' (March 14, 2025) \u2014 estimate that cancelled awards represent ~34% of USAID programming by dollar value.",
+      "NPR \u2014 'The Trump administration kills nearly all USAID programs' (Feb 26, 2025) \u2014 court filing quotes Pete Marocco saying ~92% by dollar value; reporting on scale of terminations and alleged ~$60B \u2018savings\u2019.",
+      "CNN / The Guardian (coverage of Secretary of State Marco Rubio\u2019s March 10, 2025 announcement that ~83% of USAID programs/awards were cancelled).",
+      "Axios / Reuters (reporting on State Department/USAID filings and numbers showing thousands of awards terminated and dollar-value figures).",
+      "Washington Post / Reuters (reporting on disruptions to health and humanitarian programs, e.g., in Sudan \u2014 evidence the cuts destabilized global health programming)."
+    ]
+  }
+}

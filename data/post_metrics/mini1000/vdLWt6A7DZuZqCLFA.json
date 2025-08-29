@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "value_ea": 6,
+    "value_humanity": 1,
+    "explanation": "This is a useful operational update for the EA community: it affects grant availability, donor allocation decisions, and which EA projects may get funded (so it could meaningfully influence short\u2011to\u2011medium term EA project trajectories). However it is not a foundational argument about strategy or evidence for EA priorities\u2014its scope is primarily organizational and marginal\u2014so it matters moderately for EAs but negligibly for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify the projection assumptions and fund accounting. Right now the post says \u201cwe would approve ~$3.5M in grants over 2025\u201d and that available balance is $2.6M, but it\u2019s unclear whether the $3.5M is (a) committed/approved vs paid-out, (b) for the whole calendar year or a rolling pipeline, and (c) net of expected incoming donations or multi-year pledges. Actionable fix: add one short sentence that states the assumptions used to get $3.5M (e.g. \u201cbased on current applications + our historical approval rate, this is the sum of grant commitments we expect to make in 2025; typical disbursement schedule is X months, and we currently expect Y in new donations/pledges this year\u201d), and clarify what you mean by \u201cavailable fund balance\u201d (cash on hand, restricted funds, committed but unpaid grants, etc.). This will prevent readers/donors from misinterpreting your urgency.  \n\n2) Be explicit about how you changed your funding bar and what that means in practice. The post currently says you \u201craised our bar\u201d but gives no concrete sense of how selection changed or what kinds of projects are now excluded. That reduces credibility and makes it hard for applicants/donors to judge. Actionable fix: add 1\u20132 brief examples of the kinds of grants you\u2019re now turning down (or a short, concrete description of the new prioritisation\u2014e.g. \u201cwe now prioritise projects meeting X, Y, Z or grants >$A that show B\u201d), and a short metric such as recent acceptance rate, median grant size, or number of applicants per funded project. If you can\u2019t be specific for confidentiality reasons, say so and explain why.  \n\n3) Tone down or qualify speculative impact claims and pre-empt obvious counterarguments. A few claims (e.g. \u201cwe expect Ark to advise millions of dollars in donations within the next year\u201d) are plausible but highly uncertain and could invite pushback about optimistic forecasting or crowding out other funders. Actionable fix: add brief caveats or evidence (e.g. \u201cbased on their pipeline X, previous founder track record Y, and initial donor conversations Z\u201d), and include one sentence addressing a likely counterargument: that donors might prefer to support other funds or that Open Phil\u2019s withdrawal might be temporary/offset by other funders. A short \u201cwhy give to EAIF vs alternatives\u201d paragraph (2\u20133 lines) would materially increase trust without lengthening the post much.",
+    "improvement_potential": "The feedback targets three clear credibility and clarity risks that readers (and donors) would legitimately flag: unclear accounting/projections that could misstate urgency, vague claims about raising the funding bar that undercut transparency, and speculative impact claims that invite pushback. Fixing these would materially improve trust and reduce the chance of embarrassing misunderstandings, and the suggested fixes are concise and actionable without appreciably lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Jamie Harris is a common name and I have no clear evidence that a person by this name is a known figure in the EA/rationalist community or globally. Could be a pseudonym or a private/obscure author. Provide a link or more context (works, affiliation) if you want a more precise assessment."
+  },
+  "PostClarity": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear TL;DR, logical sections (situation, causes, room for funding), concrete numbers and examples that support the main claim. The argument that EAIF is now more funding-constrained is compelling and backed by data (grants made, balance, projection) and illustrative grants. Minor weaknesses: the projection methodology and exactly how much the funding \"bar\" was raised aren\u2019t fully explained, a few long sentences and footnotes/anon references interrupt flow, and some readers might want a brief timeline or clearer distinction between one-off versus ongoing commitments. Overall clear and concise with a few areas that could be tightened."
+  },
+  "PostNovelty": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Most of the post is an operational update about one fund\u2019s finances and grantmaking choices \u2014 factual, specific, and primarily of interest for coordination rather than presenting novel ideas or arguments. EA readers may find the concrete details (the shift from unconstrained to constrained, dollar amounts, and the role of Open Phil\u2019s pullback increasing demand) somewhat new but not conceptually original. For the general public, the notion that a charity/fund has become more funding-constrained and is asking for donations is very common and unremarkable."
+  },
+  "PostInferentialSupport": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a clear, logical chain\u2014granting has increased, reserves have fallen, projected approvals would nearly exhaust funds, and the fund has therefore raised its bar\u2014backed by concrete headline financial figures. The causes offered (more demand from established orgs after Open Phil changes; successful outreach increasing high-quality applications) are plausible and consistent with the observed outcomes. Weaknesses: Key causal claims and projections lack transparent methodology and independent verification (e.g., how the ~$3.5M projection was calculated), and many supporting examples are anecdotal, anonymized, or rely on applicants\u2019 own modelling. Some claims (impact of specific grantees, scale-up estimates) are speculative or insufficiently evidenced. Overall, the main thesis that EAIF is now more funding constrained is reasonably well supported by the presented facts, but the evidential backing for the drivers, scale, and specific impact estimates is moderate rather than strong."
+  },
+  "PostExternalValidation": {
+    "post_id": "vdLWt6A7DZuZqCLFA",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major factual claims are credible and are reported by EAIF/EA Funds themselves (the EA Forum post and the EA Funds site). Key corroborations: (a) the update post (May 3, 2025) explicitly reports the $1.9M (2024), $0.9M (so far in 2025), and $2.6M current balance; (b) EA Funds\u2019 website and payout reports corroborate many recent grants (e.g. Rethink Wellbeing $50k) and earlier payout totals (March 2024 payout report showing ~$1.39M paid through 31 Mar 2024); (c) the announced merger of EA Funds with CEA is documented by EA Funds/CEA. However, several line-item figures in the post (the exact 2024 total of $1.9M, the $0.9M in 2025 so far, the $2.6M balance and specific grants to Ark Philanthropy [$280,265] and the anonymous ~$393,510 recipient) appear only in EAIF\u2019s own update and are not independently itemized elsewhere in public third\u2011party records I could find (the EA Funds grants database exists but its CSV/API was not accessible for a full independent reconciliation). Overall: claims are plausible and mostly consistent with EAIF/EA Funds public reports, but fine-grained verification of every dollar amount requires access to EAIF internal payout ledger or the full downloadable grants CSV.",
+    "sources": [
+      "EA Forum \u2014 \"Update: EAIF is now more funding constrained\" (Jamie_Harris), May 3, 2025. (EAIF update post).",
+      "EA Funds \u2014 Effective Altruism Infrastructure Fund (fund page; featured grants and payouts).",
+      "EA Funds \u2014 \"March 2024: EA Infrastructure Fund grant recommendations\" payout report (total grants paid out $1,386,854 through Mar 31, 2024).",
+      "EA Forum \u2014 \"EAIF isn\u2019t *currently* funding constrained\" (November 2024 post referenced in the update).",
+      "EA Forum \u2014 \"EA Funds and CEA are merging\" (merger announcement / target spinout date).",
+      "EA Funds \u2014 Grants database page (grants listing / CSV download link; public grants listing).",
+      "Rethink Wellbeing \u2014 Services / CBT Lab (confirms the program EAIF funded and described).",
+      "Ark Philanthropy \u2014 organization website (background on Ark Philanthropy referenced in the EAIF post).",
+      "Open Philanthropy \u2014 \"EA Funds \u2014 Operating Expenses (2025)\" grant page (context on EA Funds funding sources and funder relationships)."
+    ]
+  }
+}

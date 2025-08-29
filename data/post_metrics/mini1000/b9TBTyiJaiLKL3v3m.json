@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical post for people running EA/AI-safety student groups: clear, actionable lessons on scope, succession, task systems, and motivation that can improve retention and effectiveness of local organising. It\u2019s not foundational to core EA or AI-safety theory or high-stakes policy, but it is moderately load-bearing for community-building and talent\u2011pipeline decisions (small-to-medium scale impact if widely applied). For general humanity the content is narrowly targeted and has negligible global significance beyond better student clubs."
+  },
+  "PostRobustness": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Provide concrete evidence and specific metrics to back key claims. Many of your conclusions (e.g. \u201ctalks didn\u2019t deliver value,\u201d \u201cmost engaged participants preferred socials,\u201d \u201csuccession was luck\u201d) are plausible but anecdotal. Add a few simple data points or concrete examples: attendance numbers for talks vs socials, a short excerpt from post-event surveys, time logs showing how much admin consumed, or one-paragraph case studies of a successful/failed handover. Even two or three numbers or a short survey question + % will make the advice far more persuasive and actionable.\n\n2) Distinguish personal constraints from general recommendations and address obvious counterarguments. A lot of the post reads like \u201cthis is what worked for me,\u201d which is fine, but readers will want to know when the advice does or doesn\u2019t apply. Add an explicit short section (or inline tags) that flags which points are rooted in your personal preferences/constraints (e.g. low tolerance for logistics, Oxford-specific calendar pressures, being embedded in a pre-existing society) and which you think generalize. For important recommendations (e.g. \"do one thing well\" or \"cells vs leadership\"), briefly state the main counterarguments and contexts where the opposite might be better (e.g. smaller schools, more experienced organizer teams, funding or faculty involvement). This prevents over-generalization and anticipates pushback.\n\n3) Turn high-level recommendations into a few bite-sized, copy-pasteable templates. You repeatedly advise early succession planning, explicit roles, and thresholds, but don\u2019t give readers immediate tools to act. Add 2\u20133 short templates: a one-paragraph role description for a \"Community Ops\" role (lists 3 tasks + expected hours/week), a 5-item handover checklist (accounts, recurring tasks, key contacts, metrics to track, first 4 weeks plan), and an example success-threshold (e.g. \u201cIf average talk attendance < 15 after 3 events and socials attendance > 20, switch to 2 talks + 6 socials\u201d). Also include a suggested minimal task-tracking setup (e.g. Trello columns and recurring-card examples). These keep the post short but raise its practical value massively.",
+    "improvement_potential": "The feedback targets the post\u2019s two biggest weaknesses: lack of evidence for key claims (which weakens credibility) and overgeneralization of personal experience (which risks readers misapplying advice). It also gives highly practical suggestions (short templates/thresholds/task setups) that would materially raise the post\u2019s usefulness without bloating it. Implementing these points would correct major omissions and make the write-up far more actionable and defensible, though it isn\u2019t fixing a catastrophic error in the original thesis."
+  },
+  "PostAuthorAura": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information for the author listed as 'cb'. There is no widely recognized EA/rationalist figure or global public intellectual known primarily by the handle/initials 'cb'. Provide a full name, link, or context to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured (TL;DR, context, numbered mistakes, concrete tips) and easy to follow \u2014 each mistake has a clear heading and actionable takeaways. Weaknesses: occasional hedging, small digressions and repetition make parts a bit verbose, and some paragraphs could be tightened or summed as bullet takeaways for quicker scanning."
+  },
+  "PostNovelty": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Most of the post\u2019s lessons are familiar community\u2011building and management heuristics (focus on strengths, succession planning, delegation, do one thing well, set metrics/thresholds, use task systems, pad time estimates). For EA Forum readers these are common themes in other \u2018running an EA/AI safety group\u2019 writeups, so novelty is low\u2013moderate. For the general public the ideas are still mainstream management/advice material rather than original research; only the specific AI\u2011safety/student\u2011group examples and a couple of framing choices (e.g. treating motivation descriptively, semi\u2011autonomous cell suggestion) add slight originality."
+  },
+  "PostInferentialSupport": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: clear, well-structured causal reasoning; plausible, actionable lessons; explicit awareness of biases and limits; recommends concrete process changes. Weaknesses: single-case, anecdotal basis with little systematic data or counterfactuals; few or no quantitative metrics reported; limited external evidence or comparison to alternative approaches. So the arguments are logically coherent and useful as heuristics, but empirically weak for strong generalization."
+  },
+  "PostExternalValidation": {
+    "post_id": "b9TBTyiJaiLKL3v3m",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s \u201cclaims\u201d are personal, anecdotal observations about running a student group (and so are not directly verifiable from external sources). However the post\u2019s central empirical generalisations and recommendations (e.g. underestimate time \u2192 planning fallacy; matching tasks to volunteer motivations improves satisfaction/retention; small wins/progress boosts motivation; pre-mortems reduce blindspots; succession planning improves continuity) are well-supported in the research and practitioner literature. Weaknesses: specific numeric or internal claims about the Oxford group (e.g. \u201cresearch labs where people spent ~5 hours/week over 8 weeks\u201d, \u201cmost engaged participants preferred socials over talks\u201d, or that the handover \u201cwent very well\u201d) are anecdotal and cannot be independently verified. Overall: the author\u2019s experience-based claims are plausible and align with established evidence about volunteer motivation, time-estimation bias, the value of small wins, premortems, and succession planning \u2014 but the post should be read as an evidence-informed personal report rather than an independently validated empirical study.",
+    "sources": [
+      "Buehler, R., Griffin, D., & Ross, M. (1994). The Planning Fallacy: Why We Underestimate Task-Completion Times. (summary / classic paper; planning fallacy literature).",
+      "Amabile, T. M. & Kramer, S. J. (2011). The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work. (research/book showing daily progress/small wins strongly raise motivation).",
+      "Clary, E. G. et al. (1998). Understanding and Assessing the Motivations of Volunteers: A Functional Approach. Journal of Personality and Social Psychology. (Volunteer Functions Inventory; matching volunteer tasks to motivations predicts satisfaction & retention).",
+      "Klein, G. (2007). Performing a Project Premortem. Harvard Business Review. (describes premortem technique and evidence that prospective hindsight improves identification of risks).",
+      "National Council of Nonprofits / BoardSource findings on succession planning (Leading With Intent / sector guidance). (practical evidence that many nonprofits lack formal succession plans and that planning aids continuity).",
+      "Eubank, J. M. & DeVita, J. M. (2023). Building Sense of Belonging through Informal Recreation Participation. (recent study and broader literature showing informal social activities increase student belonging and engagement; supports the post\u2019s claim that socials can be a powerful entry point).",
+      "Self-Determination Theory resources (Deci & Ryan; SDT summary). (evidence that autonomy/relatedness/competence drive intrinsic motivation, supporting claims that people do better when they own projects they care about)."
+    ]
+  }
+}

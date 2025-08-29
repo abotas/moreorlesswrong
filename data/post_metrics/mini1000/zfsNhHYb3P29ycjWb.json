@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful, practical explainer that clarifies an important class of interventions (scaffolds) that materially change LLM capabilities and therefore matter for deployment risk assessments, interpretability, and alignment work. It isn\u2019t presenting novel theoretical results but consolidates concepts and examples that are directly useful for AI-safety researchers, auditors, and engineers \u2014 so it\u2019s moderately important for the EA/AI-safety community. For general humanity the piece is of minor importance: informative but not foundational to broad public decisions or outcomes unless leveraged in specialist policy or technical work."
+  },
+  "PostRobustness": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify and tighten the definition / taxonomy of \u201cscaffolding\u201d. Right now the post oscillates between a fuzzy metaphor and a technical criterion (the buried footnote that a scaffold \u201ccalls an LLM as a subroutine\u201d). Move that definition into the main text and give a short taxonomy with clear borderline cases (e.g., system prompts vs. prompt templates, adapters/LoRA/RLHF/fine\u2011tuning, external tool APIs, multi\u2011agent orchestration). For each category say explicitly whether you count it as scaffolding and why. This removes a major source of confusion for readers and prevents readers from second\u2011guessing what you mean by many subsequent claims. Actionable edits: move footnote 2 to the intro, add 3\u20135 succinct examples of things that are and aren\u2019t scaffolding, and add one sentence explaining your decision rule (e.g., \u201ccalls the model as a subroutine\u201d + no internal weight updates). \n\n2) Add a dedicated, concrete \u201crisks & failure modes\u201d section focused on how scaffolding can change capabilities and safety risks. The post asserts scaffolding matters for evaluations but doesn\u2019t list key ways scaffolds can actively increase danger or create new attack surfaces. At minimum cover: (a) capability amplification (tool\u2011use + iterative loops producing non\u2011linear gains), (b) prompt injection and orchestration failures (agents exploiting their own wrappers), (c) RAG/data poisoning and retrieval attacks, and (d) emergent interactions between components (e.g., tool APIs + multiple agents). For each failure mode give a 1\u20132 sentence example and one mitigation idea. This addresses an obvious, highly\u2011plausible counterargument that scaffolding is just harmless engineering. \n\n3) Bolster empirical claims about limits/progress with citations and nuance. You say early predictions that scaffolding would be \u201ctrivial\u201d haven\u2019t come true, but don\u2019t explain why or cite evidence. Either (a) weaken the claim to be clearly tentative, or (b) add a short paragraph summarising plausible limiting factors (context length, noisy observations, interface bandwidth, cost/latency of orchestration, Goodharting of scaffolded metrics) with citations to the most relevant papers/examples (e.g., ReAct/Tree\u2011of\u2011Thoughts/Voyager, RAG papers, recent tool\u2011use benchmarks). Readers will trust the piece more if these empirical statements are supported and if you acknowledge the opposing view that scaffolding has in many cases produced large capability gains.",
+    "improvement_potential": "The feedback targets three high-value, actionable weaknesses: a buried/ambiguous definition (causing reader confusion), a missing concrete risks/failure\u2011modes section (leaving a notable safety gap), and unsupported empirical claims (weakening credibility). Fixing these would materially improve clarity and trustworthiness without greatly lengthening the post. The suggestions are concrete and practical (move footnote, add short taxonomy and brief failure\u2011mode bullets with 1\u20132 sentence mitigations, and add citations/nuance), so the recommended edits are likely to be implemented and helpful. The feedback isn't flagging a fatal error in the thesis, so a score below 10 is appropriate, but it does identify major 'own goals' the author should address."
+  },
+  "PostAuthorAura": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable EA/rationalist presence for an author named 'Algon' up to my 2024-06 cutoff. No major publications, talks, or widely-cited posts under that name are known to me; it may be a niche or pseudonymous poster. If you can share links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "clarity_score": 8,
+    "explanation": "The post is generally clear and well-structured: it gives a usable definition, concrete examples, and explains why scaffolding matters for capability and safety testing. Strengths include logical organization, varied examples (RAG, agents, function calls, bureaucracies) and useful references. Weaknesses are mild jargon and assumed background knowledge, some long/technical sentences and footnote-dense passages that could be tightened, and a slightly abrupt opening/closing \u2014 a one-sentence summary and a clearer boundary between scaffolding and internal model changes would improve accessibility."
+  },
+  "PostNovelty": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA/AI\u2011safety readership this is mostly a clear, well\u2011organized summary of existing concepts (RAG, agents, function calling, chain-of-thought/\u2018bureaucracies\u2019, Goodhart risks, etc.) rather than novel claims \u2014 the emphasis on exercising scaffolds during safety evaluations and the interpretability angle are useful but already discussed in the field. For the general educated public the piece is moderately novel: it collects and names a range of relatively recent technical practices around LLMs and frames them in a safety context, which many non\u2011specialists will not have seen presented together before."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "reasoning_quality": 6,
+    "evidence_quality": 6,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is clear and well-structured, gives a plausible definition and useful taxonomy of scaffolds, and links to several relevant examples/papers (RAG, agent frameworks, Minecraft Voyager, Tree-of-Thoughts, FunSearch). Its safety-relevance claims (users will build scaffolds; scaffolds reveal latent capabilities; scaffolds help interpretability) are reasonable and coherently argued. Weaknesses: The term is fuzzy and many important claims are asserted without rigorous definition, empirical quantification, or counterargument (e.g., \"simple scaffolds capture most value\", and that scaffolded reasoning is generally easier to inspect). Evidence is mixed: some cited work is strong for narrow demonstrations, but there is limited systematic empirical evidence about general limits, scaling effects, or negative side\u2011effects of scaffolding. Overall, the post offers moderate support\u2014useful conceptual framing with selective supporting examples but not a comprehensive, rigorously demonstrated claim set."
+  },
+  "PostExternalValidation": {
+    "post_id": "zfsNhHYb3P29ycjWb",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well-supported by the literature: \u201cscaffolding\u201d as external code around LLMs (e.g., chaining, RAG, tool use) is a standard concept; scaffolds (RAG, Toolformer, function-calling, agent loops, multi-LLM \u2018bureaucracies\u2019) measurably improve LLM performance in many tasks; narrow scientific advances have been achieved via scaffolded systems (FunSearch); embodied agent scaffolds (Voyager) produce large empirical gains in Minecraft; and iterative/self-refinement scaffolds can induce reward-hacking/Goodhart-like failure modes. Strengths: authors cite appropriate representative papers (PromptChainer, RAG, Toolformer, Tree of Thoughts, Voyager, FunSearch, Reflexion, papers on reward-hacking/Goodhart). Main caveats: (1) the statement that \u201ca simple scaffold can reduce error rates \u2026 by a factor of 2 or greater\u201d is true for many specific tasks and experiments (and there are examples showing much larger gains), but is imprecise as a universal claim across \u201cmany types of tasks\u201d \u2014 the magnitude of improvement depends heavily on task, model, and scaffold; (2) the provenance/origin of the exact term \u201cscaffolding\u201d in AI is indeed unclear (PromptChainer is an early related usage but not definitive as the coinage); and (3) some claims are qualitative (e.g., whether scaffolding could produce AGI) and therefore appropriately hedged in the post. Overall: well-supported and accurate for the intended explanatory audience, with a few places where more precise wording or task-by-task qualification would strengthen the empirical claims.",
+    "sources": [
+      "PromptChainer: Chaining Large Language Model Prompts through Visual Programming (Wu et al.), arXiv:2203.06566",
+      "Retrieval-Augmented Generation (RAG) \u2014 Lewis et al., arXiv:2005.11401",
+      "Toolformer: Language Models Can Teach Themselves to Use Tools (Schick et al.), arXiv:2302.04761",
+      "Tree of Thoughts: Deliberate Problem Solving with Large Language Models (Yao et al.), arXiv:2305.10601",
+      "Reflexion: Language Agents with Verbal Reinforcement Learning (Shinn et al.), arXiv:2303.11366",
+      "Voyager: An Open-Ended Embodied Agent with Large Language Models (MineDojo/Voyager) \u2014 arXiv:2305.16291 and GitHub repo",
+      "Mathematical discoveries from program search with large language models (FunSearch) \u2014 Nature, s41586-023-06924-6 (Dec 14, 2023)",
+      "OpenAI Function Calling documentation / API notes (function calling and tools) \u2014 OpenAI developer docs",
+      "Spontaneous Reward Hacking in Iterative Self-Refinement (Pan et al.), arXiv:2407.04549 (demonstrates in\u2011context reward-hacking / Goodhart-like behaviour)",
+      "Conjecture \u2014 Cognitive Emulation (CoEm) research agenda (Conjecture.dev)"
+    ]
+  }
+}

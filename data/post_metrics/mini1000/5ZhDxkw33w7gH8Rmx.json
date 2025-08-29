@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is a well-sourced, up-to-date synthesis of the global health landscape and financing that is useful background for donors, career-choosers, and EA practitioners considering health / development priorities. It helps calibrate scale (e.g. ~$10T health system, small share of external aid, rise of NCDs, large returns to basic spending in poor countries) and highlights practical levers (domestic financing, aid dependence, cost-effectiveness opportunities). However, it is primarily summary/context rather than presenting novel, load-bearing arguments or high-stakes normative claims: its conclusions won\u2019t dramatically shift core EA/longtermist frameworks or global policy on their own, and errors would mostly affect calibration rather than foundational priorities."
+  },
+  "PostRobustness": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing the most decision-relevant frame: marginal impact / cost\u2011effectiveness. The post gives useful aggregate spending and burden statistics, but readers (especially EA-minded ones) need guidance on how to translate those facts into priority decisions. Add a short, explicit section (4\u20136 sentences) explaining that total spending and total deaths are not the same as cost\u2011effectiveness or marginal benefit, and flag the standard metrics to use (DALYs/QALYs averted, cost per DALY, tractability/neglectedness). Give 2\u20133 quick examples of high\u2011ROI interventions (e.g., insecticide\u2011treated nets, childhood immunisation, vitamin A, seasonal malaria chemoprevention) with citations or links to GiveWell/DCP3/IHME so readers can immediately see how spending compares to outcomes.\n\n2) Unclear definitions and sourcing could mislead readers. Key numbers (\"~$10 trillion global health system\", \"74% of deaths from NCDs\", donor shares, OOP figures) need explicit, inline citations and brief caveats about methodology and years. Define what you mean by \"global health spending\" (healthcare vs public health vs development assistance), and note major measurement limitations (purchasing power adjustments, health vs healthcare spending distinctions). Action: annotate every headline stat with its primary source and year and add one sentence about measurement caveats so readers don\u2019t overgeneralise.\n\n3) Overlooked but important force\u2011multipliers and counterarguments around donor dynamics and allocation. The post understates how donor priorities, vertical funding, and transition dynamics shape outcomes \u2014 and it risks implying that because external aid is a small share globally it\u2019s unimportant. Add a brief paragraph (3\u20135 sentences) on: (a) how external aid can still be highly influential in LICs (examples: HIV/TB/malaria programs, Gavi/PEPFAR), (b) issues with sustainability/transition (donor withdrawal, borrowing), and (c) how funding modality (vertical vs health systems strengthening) affects long\u2011term impact. This will prevent the common misread that \"aid is small so it doesn't matter\" and give readers a clearer sense of where donations or advocacy can be most leverageable.",
+    "improvement_potential": "Very useful. The feedback pinpoints three substantive weaknesses that matter for an EA audience: the absence of an explicit marginal\u2011impact / cost\u2011effectiveness frame (which is essential for translating aggregate stats into priorities), the lack of precise inline sourcing and methodological caveats for headline numbers (risking misinterpretation), and missing nuance on donor dynamics (risking the misleading takeaway that external aid is unimportant). Each suggested fix is specific and short (a few sentences and a couple of examples/links), so would materially improve decision\u2011relevance and credibility without bloating the post. The only reason not to give a 10 is that the post isn\u2019t fundamentally wrong\u2014these are strong but corrective enhancements rather than emergency fixes."
+  },
+  "PostAuthorAura": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "No evidence that a person or handle 'DavidNash' is a recognized figure in the EA/rationalist community; the name is common and I cannot find indications of frequent publications, talks, or major public profile. If you can share links or context (platform, works), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear and well\u2011structured: logical headings, bullets, figures and links make the material easy to navigate and the data-driven approach helps comprehension. Strengths include comprehensive coverage of major areas, clear statistics and useful links/visuals. Weaknesses: it is long and somewhat repetitive, occasionally dense with jargon and numbers (which could overwhelm casual readers), and the opening promise to emphasise the \"funding side\" isn\u2019t always tightly focused \u2014 a concise executive summary and tighter signposting of the main takeaway(s) would improve argument clarity and conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This post is a well\u2011sourced synthesis of widely available facts and statistics about global health (GBD, WHO, Our World in Data, health spending breakdowns, common thematic areas). It doesn\u2019t propose new theories, models, or surprising empirical findings \u2014 mostly compiles and contextualises existing public data (e.g. ~$10T global spending, donor share, NCDs now dominating deaths). For EA Forum readers this is largely background/common knowledge (hence very low novelty). For the general educated public it\u2019s a useful consolidated overview but still not original research or novel claims \u2014 modestly informative but not novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is well-structured and logical for an overview \u2014 it covers major disease areas, financing mechanisms, and high-level relationships (e.g. spending vs life expectancy, rising share of NCDs). It generally distinguishes contexts (low vs high income) and flags where external aid matters. Weaknesses: A few causal claims are presented too simply (e.g. income\u2192health spending as purely causal) and there is limited critical discussion of countervailing effects or uncertainty. Evidence is drawn from reputable sources (Our World in Data, WHO, GBD) and includes many useful statistics, but many specific numbers lack precise citations/dates and some claims (e.g. exact donor-share thresholds by GDP per capita) are stated without direct sourcing or methodological caveats. Overall the post provides a solid, well-supported high-level summary suitable for orientation, but it is not a rigorous or exhaustive evidence review and would benefit from more explicit sourcing and nuance on causality and marginal returns."
+  },
+  "PostExternalValidation": {
+    "post_id": "5ZhDxkw33w7gH8Rmx",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Overall the post is largely accurate and draws on standard, reputable sources (WHO, IHME/GBD, FAO/UN, UNAIDS, Lancet). Major high-level claims \u2014 global health spending \u2248US$9.8T (~10% of GDP), NCDs \u224874% of deaths, steep inequalities in health outcomes, key WASH/nutrition/maternal/child figures, and the composition of financing (domestic public \u224862%, private \u224837% with the US a very large share) \u2014 are supported by WHO and other authoritative data. A few numeric details are ambiguous or depend on definitions/timeframes: (1) the post\u2019s diarrhoeal-deaths figure (~830k) differs from recent GBD/IHME estimates (\u22481.2 million in 2021) and from WHO child-specific estimates (~444k under\u20115 diarrhoea deaths); (2) the statement that \u201cexternal aid constitutes 0.3% ($27.8b) of global health expenditure\u201d depends on how \u201cexternal aid\u201d is defined (IHME\u2019s DAH estimates are substantially larger when measured as development assistance for health disbursements \u2014 e.g., dozens of billions); (3) the mental\u2011health \u201c\u224814% of global burden\u201d likely reflects share of YLDs (~14.6%) rather than total DALYs (mental disorders \u22484.9% of global DALYs in GBD 2019). These are minor/typical issues of metric choice and vintage rather than wholesale factual errors. Overall: well\u2011supported but with several place\u2011specific numbers that should be footnoted to the exact dataset and year when used for decision\u2011making.",
+    "sources": [
+      "WHO \u2014 Global spending on health: Coping with the pandemic (Global Health Expenditure Report 2023/2024) \u2014 WHO publication (global spending \u2248US$9.8T, shares by income group and financing composition).",
+      "WHO \u2014 Noncommunicable diseases fact sheet (NCDs \u224874% of global deaths).",
+      "WHO \u2014 Child mortality (under\u20115) fact sheet / Global Health Observatory (under\u20115 deaths \u22485 million; trends 1990\u20132020/2023).",
+      "Institute for Health Metrics and Evaluation (IHME) / Global Burden of Disease results & DAH Database (GBD findings on diarrhoeal disease and mental disorders; Development Assistance for Health estimates).",
+      "GBD 2019 Mental Disorders study (Lancet Psychiatry / IHME) \u2014 970 million people with mental disorders in 2019; mental disorders \u224814.6% of global YLDs and \u22484.9% of global DALYs.",
+      "Lancet NCDI Poverty Commission / 'Burden of disease among the world\u2019s poorest billion' (analysis) \u2014 evidence on disproportionate burden among the poorest billion.",
+      "WHO \u2014 Drinking\u2011water and Sanitation fact sheets (WASH statistics: ~2+ billion without safely managed drinking water; sanitation figures; WASH\u2011attributable deaths estimates).",
+      "WHO \u2014 Diarrhoeal disease fact sheet and WHO/UNICEF WASH burden pages (diarrhoea child deaths and WASH\u2011attributable deaths; note variation by year/source).",
+      "FAO / 'The State of Food Security and Nutrition in the World' (SOFI 2022) \u2014 ~828 million people affected by hunger in 2021; stunting (~149 million), wasting (~45 million), overweight (~2+ billion adults).",
+      "WHO \u2014 Air pollution fact sheets and estimates (~7 million premature deaths attributable to household+ambient air pollution annually; >90% of world exposed above older WHO guideline levels).",
+      "WHO \u2014 Road traffic injuries fact sheet and Injuries & Violence fact sheet (\u22481.2\u20131.3 million road deaths per year; ~4.4 million injury deaths total; injuries leading cause for ages 5\u201329).",
+      "UNAIDS / UN sources \u2014 People living with HIV (~38\u201340 million range depending on year) and related HIV statistics.",
+      "WHO & news releases on maternal mortality (WHO/UN estimates: ~295,000 maternal deaths referenced for 2017; more recent WHO reporting gives \u2248260,000 in 2023) \u2014 demonstrates vintage/definition sensitivity."
+    ]
+  }
+}

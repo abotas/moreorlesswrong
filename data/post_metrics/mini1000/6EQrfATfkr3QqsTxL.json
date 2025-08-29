@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "Moderate importance for the EA/rationalist community: a tailored, evidence-informed wellbeing platform could meaningfully reduce burnout, impostor syndrome, and decision paralysis, improving retention and effectiveness of people working on high-impact projects. However, it's not foundational to core EA/longtermist arguments and its ultimate value depends heavily on execution, evidence of effectiveness, and privacy/quality governance. Low importance for general humanity: the proposal is niche to EA contexts and unlikely to materially affect global outcomes beyond modest methodological spillovers or lessons for other specialized communities."
+  },
+  "PostRobustness": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing plans for clinical safety, crisis handling, and legal/ethical governance \u2014 The post glosses over serious risks of offering mental-health interventions (e.g., suicidality, worsening symptoms, scope of practice for coaches). Actionable fixes: add a clear \u2018\u2018Safety & Clinical Protocols\u2019\u2019 section that describes (a) how the platform will detect and respond to crises (automated flags, human escalation), (b) mandatory disclaimers and scope limits for non-therapeutic content, (c) referral pathways to licensed care, (d) liability/insurance arrangements, and (e) plan for external ethical review (IRB or independent clinical advisory board). Specify whether clinicians will review automated messages and how moderators will be trained.  \n\n2) No pre-specified evaluation plan or evidence standard \u2014 Relying on anonymous feedback risks rolling out untested interventions. Actionable fixes: state a concrete evaluation strategy (pilot size, pre-registered outcomes, minimal viable metrics e.g., validated wellbeing scales, engagement/retention, adverse events), timeline for pilots, and whether you\u2019ll run randomized or quasi-experimental tests. Commit to partnering with independent researchers (or publishing results) and to minimum evidence thresholds before scaling any intervention widely.  \n\n3) Unclear differentiation, sustainability, and governance of content \u2014 The post asserts EA-specific value but doesn\u2019t explain how this is meaningfully different from existing apps, nor how the project will stay free and impartial. Actionable fixes: add a short \u2018\u2018Why RISE vs existing tools\u2019\u2019 paragraph with concrete examples of EA-tailored content/features; explain funding model (how it will remain free) and data-use/business model; and expand the governance description (how content committee members are chosen, conflict-of-interest policy, and mechanisms for community co-design and moderation).",
+    "improvement_potential": "The feedback correctly flags three large, concrete omissions that materially affect safety, credibility, and viability: crisis/clinical safety and legal limits; an evaluation/evidence plan; and clear differentiation, funding, and governance. These are actionable, high-impact fixes that would substantially reduce reputational and safety risks and improve community uptake. It isn\u2019t a fatal error that makes the whole post wrong (so not a 9\u201310), but without addressing them the announcement reads significantly underdeveloped and potentially irresponsible."
+  },
+  "PostAuthorAura": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that 'Gidi Kadosh' is a recognized name in the EA/rationalist community or in wider public discourse up to my 2024-06 knowledge cutoff. The name does not appear in major EA outlets (LessWrong, EA Forum, 80,000 Hours, CEA), academic citation databases, or mainstream media as a notable author; it may be a private individual, minor online persona, or a pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: clear headline, TL;DR, organized sections (Gist, Why, Background, What, Who, Q&A) and a single concrete call-to-action. It communicates the purpose, audience, and features of RISE effectively and anticipates common questions. Minor weaknesses: a bit repetitive in places (background and value propositions), a few small clarity gaps around the relationship between VIVID and RISE, data/privacy specifics, and the content-review process, and some formatting/wording choices (e.g., the no-code footnote) could be tightened for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "novelty_ea": 4,
+    "novelty_humanity": 2,
+    "explanation": "For EA readers this is only moderately novel \u2014 the EA community already discusses burnout, impostor syndrome, and tailored wellbeing supports, and there are existing EA mental-health initiatives and peer-support channels. The somewhat new elements are the explicit focus on EA-specific issues (e.g. existential-anxiety, high-stakes career doubt), a community-curated/actionable-practices platform, and no-code customization for coaches \u2014 but these are incremental innovations rather than wholly original. For the general public this is low novelty: niche, community-specific wellbeing platforms and apps with customizable exercises, accountability features, and privacy-preserving metrics are already common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: the post makes a coherent, plausible case that EAs face particular wellbeing challenges and that a tailored, actionable, community-driven platform could meet unmet needs; it notes expert involvement, customization, and privacy concerns. Weaknesses: arguments rest largely on internal surveys, forum discussions, and plausibility rather than rigorous outcome data or pilots demonstrating the platform\u2019s effectiveness; important details about content validation, governance, evaluation methods, data security, and conflict-of-interest management are missing, so empirical support for the central claim is limited."
+  },
+  "PostExternalValidation": {
+    "post_id": "6EQrfATfkr3QqsTxL",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most core factual claims in the post are verifiable: (1) Effective Altruism community wellbeing concerns are documented in the 2023 EA Mental Health & Productivity survey; (2) VIVID exists (app/website) and lists the named founders; (3) VIVID received a regrant from the FTX 'Future Fund' (shown on the Future Fund grants page) and the Future Fund team resigned / the fund shut down after the FTX collapse; (4) the named content-committee members (Julia Wise, Ewelina Tur, Tee Barnett) are real practitioners with public profiles; and (5) VIVID\u2019s privacy policy documents anonymous/aggregate metrics and account/data deletion. Claims that are weaker / not independently verifiable from public sources: the post\u2019s statement that VIVID has been \u201ccollaborating on dozens of projects with institutions such as Stanford and Princeton, alongside governments and public health NGOs\u201d lacks clear, citable evidence naming those Stanford/Princeton projects or governmental/NGO partners; the promise \u201cfree for the EA community\u201d is a stated plan rather than a demonstrated fact. Overall, the post\u2019s major empirical foundations are supported by trustworthy sources, but some organizational-collaboration claims and future promises are currently unverified.",
+    "sources": [
+      "EA Forum \u2014 Announcing RISE: A Community-Centered Wellbeing & Growth Platform for EAs (Gidi Kadosh) \u2014 original post (EA Forum).",
+      "2023 EA Mental Health & Productivity Survey Results \u2014 Effective Altruism Forum (results and summary).",
+      "FTX Future Fund 'Our Grants, Investments, and Regrants' (archive showing a regrant to VIVID for $800,000).",
+      "News coverage of FTX Future Fund / team resignation and shutdown after the FTX collapse (e.g., Yahoo Finance coverage of the Future Fund team resigning / inability to process grants).",
+      "VIVID official website \u2014 About / Team / Impact pages (vivid.me) showing VIVID app, mission, and team members including Tal Ben\u2011Shahar and Gidi Kadosh.",
+      "VIVID Privacy Policy (vivid.me/privacy-policy) \u2014 documents data collection, aggregate/anonymous metrics and procedures for deleting user data.",
+      "Julia Wise \u2014 EA Forum profile / CEA community liaison (public EA Forum profile and writings).",
+      "Ewelina Tur \u2014 professional website / therapist profile (public 'About' page).",
+      "Tee Barnett \u2014 Tee Barnett Coaching (public website describing coaching work and training)."
+    ]
+  }
+}

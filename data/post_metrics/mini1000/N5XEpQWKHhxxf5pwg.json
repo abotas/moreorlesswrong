@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "The post is a clear, rhetorically effective case for redirecting donations to shrimp welfare by appealing to intuitive moral judgments and simple cost\u2011effectiveness math. For the EA/rationalist community it is moderately important: it\u2019s relevant to cause prioritization and moral scope questions (invertebrate sentience, huge numbers affected, high cost\u2011effectiveness), so it could influence donor choices and spur useful research or program funding \u2014 but it isn\u2019t foundational to core EA/longtermist priorities (which hinge on much larger uncertainties like AI risk) and depends on empirical uncertainties (degree of shrimp sentience, intervention scalability, accurate counterfactual impact). For general humanity it\u2019s of minor importance: it may shift some public attitudes or charitable giving regarding crustacean welfare, but it\u2019s unlikely to alter major societal decisions or have wide systemic effects."
+  },
+  "PostRobustness": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unsupported cost-effectiveness claims \u2014 the post repeatedly asserts precise conversion rates (e.g. \u201c150 shrimp per penny\u201d, \u201cstun thousands per dollar\u201d) but provides no source, breakdown, or uncertainty range. That\u2019s an own goal: readers will rightly ask how those numbers were calculated (device unit cost, shipping, training, maintenance, adoption by producers, program overhead, monitoring, counterfactuals). Actionable fix: add a brief footnote or one-paragraph appendix with the Shrimp Welfare Project\u2019s numbers and your assumptions (unit price, how many animals stunned per unit, expected lifetime, admin costs, adoption rate). Show best / central / worst-case estimates rather than a single point number. 2) Weak/inaccurate analogy between personal rescue and donation without treating opportunity cost and moral uncertainty \u2014 the argument hinges on people being willing to spend a minute to save visible shrimp, then treating time-value as directly translatable to donating money. That ignores (a) that people treat personal time and money differently, (b) opportunity costs of donations (other high\u2011impact causes), and (c) moral uncertainty about shrimp sentience or moral weight. Actionable fix: either drop the apples\u2011to\u2011apples time/donation equivalence or formalize it (show a short expected\u2011value comparison that includes credence in shrimp sentience and a simple benchmark comparison to other charitable uses of the same money). 3) Little discussion of scalability, marginal impact, and counterarguments from skeptics \u2014 critics will ask whether marginal dollars really lead to reduced suffering at scale, whether initiatives crowd out better reforms, and whether targeting shrimp diverts attention from higher\u2011value interventions. Actionable fix: add a concise paragraph addressing scalability and common objections: how the project would scale, why marginal dollars aren\u2019t just replacing other funders, and why shrimp welfare remains competitive under plausible counterfactuals. (Also consider toning down personal attacks/insults \u2014 they reduce credibility with undecided readers.)",
+    "improvement_potential": "The feedback hits the post's main own-goals: unreferenced, precise cost-effectiveness claims and an unsupported time\u2192donation analogy that invite obvious pushback. It also rightly asks for a short scalability/counterfactual paragraph and suggests toning down snark to preserve credibility. Fixes are actionable and can be implemented with minimal added length (a footnote with numbers/ranges, a one-paragraph expected-value sketch, and a brief scalability rebuttal), so addressing them would substantially strengthen the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Pseudonymous/niche online author with a small or occasional presence in EA/rationalist spaces rather than a well-known figure; not a frequent speaker or central community leader and has no notable mainstream/global visibility. Identification is uncertain due to pseudonymity."
+  },
+  "PostClarity": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: short, concrete thought experiments and simple arithmetic make the core point (small donations avert lots of shrimp suffering) compelling. Weaknesses are minor \u2014 a few informal asides, jokes and repeated restatements that slightly distract, and some key numbers are asserted without sourcing \u2014 but the argument and call to action remain well structured and understandable."
+  },
+  "PostNovelty": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "EA readers are already familiar with arguments for invertebrate/crustacean welfare, cost\u2011effectiveness framings, and simple thought experiments comparing tiny costs to large animal harms, so the post\u2019s core move is familiar rather than original. For the general public, applying this cheap cost\u2011per\u2011animal arithmetic to shrimp and arguing that ordinary intuitions about avoiding obvious cruelty imply supporting shrimp welfare is moderately novel and surprising to many people who haven\u2019t thought about crustacean welfare or donation leverage."
+  },
+  "PostInferentialSupport": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a simple, clear moral analogy (boiling lobsters) and a straightforward cost\u2011effectiveness framing that makes the case intuitively accessible. It correctly highlights that small per\u2011animal costs can make shrimp welfare high leverage if you accept the moral premises. Weaknesses: The argument rests on several unstated or unexamined premises (equivalence of lobster and shrimp sentience/moral weight; linearity of impact when scaling donations; counterfactual impact and opportunity costs). Key empirical claims (e.g. \u201c150 shrimp per penny\u201d, stunner costs/throughput) are asserted without transparent sourcing or methodology, arithmetic is glossed over, and important uncertainties and objections (sentience evidence, scalability, alternative interventions) are not addressed. Overall, a persuasive moral intuition pump but undercut by weak empirical support and lack of engagement with counterarguments."
+  },
+  "PostExternalValidation": {
+    "post_id": "N5XEpQWKHhxxf5pwg",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / partly supported. Strengths: the Shrimp Welfare Project (SWP) is a real organisation, was recommended by ACE (2023), advocates against eyestalk ablation, and has documented initiatives to buy electrical stunners (their published materials and EA Forum posts give numeric impact estimates and stunner cost/capacity figures). Pro-shrimp activism and retailer responses (protests, commitments by UK retailers to electrical stunning / ASC sourcing) are documented (e.g., Iceland protest and subsequent policy changes). The key weakness is the post\u2019s arithmetic on cost-effectiveness: the claim that a penny anesthetizes 150 shrimp (15,000 shrimp per $) and that $1,000 prevents ~15 million shrimp is not supported by SWP\u2019s own published figures. SWP\u2019s public numbers most directly cited by them are ~1,500 shrimp helped per $ (\u224815 shrimp per cent) and separate write-ups list stunners costing ~$65k (+ ~$50k ops) with estimated annual throughput that implies different per-dollar estimates (and other caveats). Independent reviewers (Vetted Causes) note uncertainty about monitoring stunner use. In short: the broad qualitative claims (shrimp welfare is an underserved, tractable cause; eyestalk ablation and suffocation are real harms; retailers are responding) are well supported, but several of the specific numerical claims and the penny / $1,000 arithmetic in the post appear to be arithmetic/consistency errors or rest on more optimistic assumptions than SWP\u2019s central published estimates justify.",
+    "sources": [
+      "Shrimp Welfare Project \u2014 (Shr)Impact (cost-effectiveness per $ = 1,500 shrimps per $; overall impact estimates).",
+      "Shrimp Welfare Project \u2014 Two Years of Shrimp Welfare Project: Insights and Impact (EA Forum) (stunner initiative; estimate: ~1,500+ shrimps per $; stunner cost ~ $65,000).",
+      "Shrimp Welfare Project \u2014 Eyestalk Ablation / Why stop using eyestalk ablation (description of practice, harms, and retailer transitions).",
+      "Animal Charity Evaluators / Shrimp Welfare Project press (SWP selected as a 2023 Recommended Charity) \u2014 SWP blog post noting ACE recommendation and impact framing.",
+      "Vetted Causes \u2014 Review of Shrimp Welfare Project (notes on cost-effectiveness estimates and limitations, esp. monitoring stunner usage).",
+      "FoodManufacture \u2014 \"Iceland hit with protest over \u2018horrifying\u2019 prawn practices\" (9 Jun 2025) (reports protest calling to end eyestalk ablation and suffocation; cites ICW/Seafish data).",
+      "FoodManufacture \u2014 \"Iceland commits to raising prawn welfare standards amid activist pressure\" (15 Jul 2025) (reports Iceland pledge to remove eyestalk ablation / switch to electrical stunning).",
+      "UK Government (DEFRA) news \u2014 \"Lobsters, octopus and crabs recognised as sentient beings\" (19 Nov 2021) (reviews LSE sentience findings and policy implications).",
+      "The Guardian \u2014 reporting on retailer moves toward electrical stunning for prawns (coverage of retailer commitments and welfare debates)."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a timely, useful announcement for the EA community \u2014 it affects who can attend, networking/coordination opportunities, and logistical details (applications, travel support, admissions transparency). Those outcomes matter for careers and collaboration but are not foundational to EA or safety research itself. For general humanity the post is essentially irrelevant beyond the small, indirect effects such a conference might have through later collaborations or funding decisions."
+  },
+  "PostRobustness": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add clear deadlines and a short timeline. Right now readers are told \u201capply now\u201d but there\u2019s no application deadline, decision date, or registration window. Include: the application deadline for NYC (and a link if deadlines differ by event), when applicants should expect to hear back, when registration opens/closes, and any re-application cutoffs. This is high\u2011impact because people need to plan travel and employers/funders need concrete dates.\n\n2) Be explicit about travel funding, visas, and accessibility. The post says travel support is a separate form but gives no eligibility, budget, or timeline. Add: (a) a link to the travel-support form, (b) who is eligible (students, international attendees, low\u2011income, etc.), (c) rough funding amounts or caps (or at least how decisions are made), and (d) whether you\u2019ll provide visa letters, childcare, captioning, remote streaming, or other accommodations. Lack of this info is a major barrier and will generate many follow\u2011ups.\n\n3) Clarify admission vs registration mechanics and the intended audience; remove the distracting footnote. Spell out what \u201cone application for all events\u201d actually means in practice: does approval for one event guarantee a seat at others or only allow registration? How does capacity/waitlist work? Who are you prioritising (emerging professionals, researchers, funders, etc.)? These clarifications will reduce confusion and fewer people will mistakenly assume they can or cannot attend. Also remove or tone down the meme footnote \u2014 it undermines the post\u2019s professionalism and may distract readers.",
+    "improvement_potential": "The feedback correctly identifies major, practical omissions that matter a lot to prospective attendees: no deadlines/timeline, missing travel\u2011fund/visa/accessibility details (and no travel\u2011support link), and unclear admission vs registration mechanics \u2014 plus the unprofessional meme footnote. Fixing these will substantially improve usability and reduce follow\u2011ups, and can be done succinctly without bloating the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that Ivan Burduk is a known figure in the EA/rationalist community or a publicly recognized author. No notable posts on core EA/rationalist platforms (e.g., LessWrong, Effective Altruism Forum, 80,000 Hours), no widely cited academic or popular publications, and no clear public profile. Possibly a pseudonym or a very obscure/private author \u2014 provide links or context if you want a deeper check."
+  },
+  "PostClarity": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: headings, bullets, and repeated calls-to-action make the purpose (announce + apply) easy to understand. The reasons for choosing NYC and the application process are stated succinctly. Minor weaknesses: a couple of slightly confusing phrasings around reapplying deadlines, some redundant links/registration prompts, and an odd/apparent joke footnote that feels out of place and could confuse readers. Otherwise appropriately concise for an announcement."
+  },
+  "PostNovelty": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is primarily an event/administrative announcement (dates, location, application process). For EA readers the only mildly new elements are procedural (one application for all 2025 in-person EA Global events, rotating East\u2011Coast venue strategy), but those are organizational details rather than novel ideas. For the general public it\u2019s a routine conference announcement with no original conceptual claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "This is primarily an announcement rather than an argumentative piece, so the reasoning is simple and generally coherent: choose NYC to try rotating East Coast locations, leverage a large local EA community, and strengthen ties to local industries. That rationale is plausible and well-structured for an event post, and the post links to relevant background (EA hub totals, prior EAGx, admissions criteria). However, it offers little empirical evidence or causal support for claims about expected benefits (e.g., how rotating locations will improve impact, projected attendance, measures of success, or lessons from prior experiments). The evidence provided is mostly links rather than data or evaluation, and claims about strengthening industry connections are stated as hopes rather than demonstrated outcomes. Overall, the announcement is convincing enough for its purpose (informing and soliciting applications) but weak as a rigorous case that NYC is the best/most impactful choice."
+  },
+  "PostExternalValidation": {
+    "post_id": "Cto6A5ytWfaicyXfH",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s factual claims are verifiable on official EA pages and forum posts: EA Global: NYC 2025 is listed on the EA site with dates Oct 10\u201312, 2025; the EA Forum announcement exists and contains the quoted text about a single application form, travel-support requests, the reason for choosing NYC, and the London reminder. The claim that NYC \u201cis one of the largest EA hubs\u201d is supported by EA Survey / forum hub summaries and by the existence of a successful EAGxNYC 2023. The EA Global admissions-bar post and EA site confirm that one application/acceptance applies across 2025 EA Global events and that travel-support decisions are handled separately. Minor issues: the Forum announcement says the London application deadline is \u201cbefore May 18\u201d while the official EA event page for London lists the application deadline as 25 May 2025 (inconsistency between announcement and event page). Also the Forum post\u2019s wording that requesting travel support \u201crequires a separate event-specific request form\u201d is plausible and consistent with EA\u2019s travel-support process being handled separately, but the exact form structure for NYC (whether a distinct extra form vs. a question in the main application) is behind the event application portal (login required) and so I could not directly confirm that precise phrasing\u2014EA\u2019s public pages do confirm travel-support requests are handled separately. Overall: claims are well-supported by authoritative EA sources, with only small verifiable discrepancies or unresolvable wording details.",
+    "sources": [
+      "EA Forum \u2014 \"Announcing EA Global: NYC 2025\" (Ivan Burduk), Mar 14 2025: https://forum.effectivealtruism.org/posts/Cto6A5ytWfaicyXfH/announcing-ea-global-new-york-city-2025",
+      "EffectiveAltruism.org \u2014 EA Global (events landing) (shows EA GLOBAL: NEW YORK CITY 10\u201312 Oct 2025 and apply links): https://www.effectivealtruism.org/ea-global",
+      "EffectiveAltruism.org \u2014 EA Global: New York City 2025 opportunity page (opportunities board; application deadline listed): https://www.effectivealtruism.org/opportunities/recYIoXgrF7D4RQqr",
+      "EffectiveAltruism.org \u2014 EA Global: London 2025 event page (lists dates 6\u20138 Jun 2025 and application deadline 25 May 2025): https://www.effectivealtruism.org/ea-global/events/ea-global-london-2025",
+      "EA Forum \u2014 \"What is the admissions bar for EA Global?\" (CEA events team; includes 2024 approval rates, that acceptance applies to all EAGs in a year, and travel-support separation): https://forum.effectivealtruism.org/posts/S6GMTQf2ryKbykpiW/ea-global-admissions-bar",
+      "EA Forum \u2014 \"EAGxNYC 2023: Retrospective\" (confirms EAGxNYC 2023 and gives metrics): https://forum.effectivealtruism.org/posts/PsES3ffAyHGCDKP9e/eagxnyc-2023-retrospective",
+      "EA Global FAQ / events pages \u2014 travel support description (notes travel-support question and separate decisions): https://www.effectivealtruism.org/ea-global (see travel support / FAQ sections)"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a narrow, tactical update about a single UK parliamentary consultation and its handling of repeated submissions. Its main points (disappointment at omission of lead, a questionable publication process, and a suggestion to diversify submission topics) matter modestly for EA advocacy strategy in the UK and for groups pushing on lead exposure, but are not foundational to EA theory or major policy outcomes. For humanity at large the post is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Check and give readers the full context before implying the committee acted poorly. The post leans on one quoted line but doesn\u2019t say how many total submissions there were, whether they were near-duplicates, or what the committee\u2019s normal practice is for publishing representative responses. Action: add the exact sentence(s) from the committee\u2019s publication policy or consultation page, report the total number of lead-related submissions (and whether they were identical), and \u2014 if you can\u2019t find that info \u2014 say so and note that you contacted the committee for clarification. This avoids an avoidable charge that the committee was unfair without documenting it.\n\n2) Ground or remove the vague expected-value claim and give concrete tactical advice. The statement \u201csubmitting\u2026is probably still worthwhile in ex ante expected value terms\u201d is asserted but unexplained. Action: either give a short rationale (e.g., low cost of submission vs small probability of influence multiplied by high impact) with a sentence or two of evidence/reasoning, or cut the sentence. Replace it with specific tactics readers can use next time (coordinate a single consolidated submission to avoid being filtered out, use short policy memos aimed at staff rather than long technical papers, contact relevant MPs/clerks directly, or partner with an NGO to submit as an organisation).\n\n3) Recommend clear next steps and a minimal template for follow-up. If the point of the post is to mobilise future action, readers need practical next moves: (a) seek clarification from the committee (suggest a one-sentence email template to ask why only the first submission was published and whether others can be made public); (b) propose creating a coordinated, consolidated submission or short briefing to send next time; (c) consider FOI or a polite public query if the committee refuses to explain. Action: add one-sentence examples (e.g. \u201cDear Secretariat \u2014 I\u2019m checking whether all consultation submissions will be published; the report says only the first on lead was published; can you confirm why and whether the other responses can be made available?\u201d).",
+    "improvement_potential": "Strong, concrete feedback that catches the post's main weaknesses: an implied charge of unfairness without documented evidence (an 'own goal' that could embarrass the author), an ungrounded expected-value claim, and lack of actionable next steps. Implementing these suggestions is low-effort (short quotes, a sentence or two of reasoning, and a brief template) but would materially improve accuracy, defensibility, and utility for readers."
+  },
+  "PostAuthorAura": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Appears to be a forum/username-level contributor (likely a pseudonym) with occasional posts within the EA/rationalist online spaces rather than a prominent author, speaker, or organization leader. No obvious broader public or academic prominence; rating is approximate given limited identifying information."
+  },
+  "PostClarity": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured, and easy to follow: it gives context (original call to submit), links to sources, states the outcome, and offers a short tactical takeaway. Strengths include clear chronology and relevant links. Weaknesses: a few bits of jargon and phrasing (e.g. \"ex ante expected value terms\", \"EA-flavoured\", \"on here by\") may be unclear to newcomers; the quoted sentence is slightly ambiguous about exactly how submissions were handled; and the tone \"worse\" is subjective. Expanding one sentence to clarify the committee's publication process and simplifying jargon would make it fully clear."
+  },
+  "PostNovelty": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "novelty_ea": 4,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily a specific event update and procedural critique rather than a new idea. The most novel parts are the factual report that the UK committee ignored repeated lead submissions and apparently published only the first submission (a procedural quirk few readers will already know) and the tactical suggestion to diversify EA-flavoured consultation submissions. Those points have limited originality for an EA audience familiar with advocacy and policymaking tactics, and are quite niche for the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the post is coherent, cites the committee report and quotes the relevant line, and draws a plausible inference that the publication process could be problematic. Weaknesses: it relies on a single example and offers little systematic evidence about how consultations work or whether submissions typically affect outcomes. The prescriptive claim that submitting is still good ex ante and that diversification is the right tactic is asserted without supporting analysis, alternative explanations, or empirical data, leaving the overall argument under-supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "FugnbdiJFBoXsyYMm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are accurate and verifiable: Ben Anderson\u2019s EA Forum call to submit on lead is real; the International Development Committee (IDC) report on the \u2018In Development\u2019 process was published (20 March 2025); the IDC report does not mention \u2018lead\u2019 or \u2018lead poisoning\u2019; the report states they received 134 submissions, published 113, and that where submissions were clear duplicates only the first submission was published. The post\u2019s quoted sentence (\u201cGiven the volume of repeat entries - over a dozen - on lead poisoning, it decided to publish only the first submission received\u2026\u201d) however does not appear verbatim in the IDC report or the published evidence pages. The report states a general duplicates policy but does not single out \u201clead poisoning\u201d or state \u201cover a dozen\u201d duplicates in the published report text \u2014 so the post\u2019s attribution of that exact phrasing to the committee is not supported by the primary source.",
+    "sources": [
+      "International Development Committee, 'The \u2018In Development\u2019 process' \u2014 4th Report of Session 2024\u201325 (HC 333), published 20 March 2025 (UK Parliament). [report PDF showing 134 submissions, 113 published; duplicates policy].",
+      "In Development \u2014 Written evidence (UK Parliament / International Development Committee) \u2014 list of published written evidence (shows published evidence pages and IND numbers).",
+      "Written evidence IND0032 \u2014 Dr David Bernard (submission recommending lead poisoning be prioritised) \u2014 published on the IDC 'In Development' written evidence pages.",
+      "EA Forum post: '3 Days to Tell the UK to Focus on Lead' by Ben Anderson (6 Dec 2024) \u2014 encourages submissions to the IDC consultation."
+    ]
+  }
+}

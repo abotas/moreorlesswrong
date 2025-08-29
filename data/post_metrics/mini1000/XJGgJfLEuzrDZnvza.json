@@ -1,0 +1,60 @@
+{
+  "PostValue": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "This is a practical, high-utility roundup for the EA community \u2014 a useful signposting resource for jobs, time-sensitive opportunities, and short org updates that can affect career choices, volunteer engagement, and coordination among EA-aligned actors. It is not conceptually load\u2011bearing or foundational to EA theory or strategy, so its importance is moderate rather than high. For general humanity the post is essentially irrelevant beyond a few isolated pieces of sectoral news."
+  },
+  "PostAuthorAura": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record or notable references to an author named 'Dane Valerie' (possibly a pseudonym) in EA/rationalist circles or the broader public up to my 2024-06 knowledge cutoff. No prominent publications, talks, or citations are attributable to that name, so they appear to have minimal or no public presence."
+  },
+  "PostClarity": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: headings, bolded deadlines, and organised lists make the newsletter easy to scan for opportunities and jobs. Links and application details are presented consistently. Weaknesses are minor: the post is long/dense (expected for a roundup), contains a few formatting/spacing glitches (e.g. missing spaces around some bracketed links) and an odd parenthetical note \"(L-0-K)\" that may confuse readers. A short top-line summary of the most time-sensitive items would improve immediate clarity."
+  },
+  "PostNovelty": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "novelty_ea": 1,
+    "novelty_humanity": 2,
+    "explanation": "This post is essentially a routine roundup of job openings, events, and organizational progress \u2014 not a presentation of new theories, arguments, or distinctive claims. For EA Forum readers this is very familiar format and content (hence minimal novelty). For the general public it contains some specific initiatives and datasets they might not have seen (e.g. Rethink Priorities' 413\u2011study database, large cage\u2011free investigation), but those are still factual updates rather than original ideas, so overall novelty is low."
+  },
+  "PostInferentialSupport": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "reasoning_quality": 8,
+    "evidence_quality": 7,
+    "overall_support": 7,
+    "explanation": "This is primarily an informational roundup rather than an argumentative piece. The post is well-structured and logically organized (opportunities, jobs, then alphabetical org updates) and does not make complex inferential claims, so the reasoning is clear and appropriate for its purpose. Evidence is generally good for a newsletter: most claims link to primary sources (job posts, org reports, research pages, blog posts, podcasts) allowing verification. Weaknesses are that many impact claims come from the organisations themselves (with limited methodological detail or independent corroboration), occasional promotional phrasing (e.g. \u201cworld\u2019s largest investigation\u201d), and no systematic critical appraisal of the evidence. Overall the update is credible and useful as a curated list of activities/opportunities, but not a rigorous evaluation of impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "I checked the post\u2019s major, load-bearing empirical claims against primary sources (organization posts, job pages, research blog posts). Nearly all sampled claims are accurate and directly supported by the cited organizations\u2019 own pages: job deadlines (Open Phil, Impact Ops), Magnify Mentoring impact numbers and ratings, Rethink Priorities\u2019 413-study database, Faunalytics\u2019 survey percentages, The Humane League / Open Wing Alliance global egg investigation and resulting company / farm outcomes, Evidence Action\u2019s decision to reduce Kenya dispenser programming, Fish Welfare Initiative\u2019s remote\u2011sensing challenge (relaunch with up to $100k), and Aether\u2019s EA Forum update. Strength: claims are drawn from primary organization posts and accurately reported. Caveats: I didn\u2019t exhaustively verify every single job listing or every minor deadline in the post (many are plausibly accurate and likely match the linked job pages), so the 9 reflects strong validation of the major empirical claims sampled rather than a word-for-word audit of every link.",
+    "sources": [
+      "Open Philanthropy \u2014 Salesforce Solutions Architect and Senior Administrator (job page; deadline July 16, 2025). (Open Phil careers). \u2014 web.run ref: turn1search0",
+      "Impact Ops \u2014 'Join Impact Ops: We're expanding our Systems team!' (EA Forum job post; application steps include July 20 deadline). \u2014 web.run ref: turn1search4",
+      "Magnify Mentoring \u2014 Impact Report (2024\u201325) (mentor/mentee counts, scores 8.87 avg, 9.13 most recent). \u2014 web.run ref: turn2search0",
+      "High Impact Medicine \u2014 'Announcing the 2025 summer cohort of Hi-Med's Career Planning Course' (EA Forum; apply before July 19). \u2014 web.run ref: turn2search1",
+      "Rethink Priorities \u2014 'Database of sources investigating interventions to reduce meat and animal product consumption' (database contains 413 sources). \u2014 web.run ref: turn3search0",
+      "Faunalytics \u2014 'Faunalytics\u2019 2025 Community Survey Results' (98% high quality; 97% recommend; 70% said work helped reduce suffering). \u2014 web.run ref: turn4search0",
+      "The Humane League / Open Wing Alliance / We Animals \u2014 Global egg investigation press release and coverage (largest-ever investigation; footage from 35\u201337+ countries; June 17, 2025). \u2014 web.run refs: turn7search1, turn7search0, turn7search2",
+      "The Humane League \u2014 'Cheesecake Factory Ends Cruel Cages Six Years Early' (Cheesecake Factory reported meeting global cage-free goal; THL cites ~185,000 hens spared). \u2014 web.run ref: turn5search0",
+      "Bulgarian national reporting & THL \u2014 coverage of Bulgarian egg farm in Kramolin closed after investigation (facility ~46k hens). \u2014 web.run refs: turn6search1, turn6search0",
+      "Evidence Action \u2014 'We're reducing our chlorine dispenser program in Kenya \u2014 here's why' (June 23, 2025): ~40% fewer people using dispensers estimate; phased reduction in footprint. \u2014 web.run ref: turn8search1",
+      "Evidence Action \u2014 'Where the pipes lead' (progress update on in-line chlorination in India). \u2014 web.run ref: turn8search0",
+      "Fish Welfare Initiative \u2014 Innovation Challenge (remote sensing) and V2 relaunch offering up to USD 100,000 (announcement). \u2014 web.run refs: turn11search0, turn11search2",
+      "Aether \u2014 'Aether July 2025 Update' (EA Forum post inviting expressions of interest and Discord). \u2014 web.run ref: turn13search0",
+      "GiveWell \u2014 Podcast & blog: 'Podcast Episode 7: Deepening GiveWell's Focus on Livelihoods Programs' (recorded June 25, published July 10, 2025) and 'What We've Learned from Our First Lookbacks' (July 9, 2025). \u2014 web.run refs: turn9search2, turn9search0",
+      "Open Philanthropy \u2014 'Reflecting on our Recent Effective Giving RFP' (June 16, 2025): $1,565,333 in grants to 11 organizations from that RFP. \u2014 web.run ref: turn10search0"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "XJGgJfLEuzrDZnvza",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Make listings scannable and consistent \u2014 add standardized metadata for every opportunity/job (one-line tags for paid/unpaid, salary range if known, remote/in-person and timezone overlap, and deadline). Highlight the most urgent/high-impact items at the top (e.g., a 3\u20135 item \u201cThis week\u2019s urgent deadlines\u201d TL;DR) so readers can act quickly without scanning the whole post.\n\n2) Add brief context or caveats for metrics and impact claims. Several organization updates quote survey scores or outcomes (e.g., Magnify Mentoring\u2019s impact numbers, Faunalytics\u2019 survey percentages, Evidence Action\u2019s program changes) without sample sizes, response rates, or links to methods. For any numerical claim, either include the n/response rate and a short note on what the metric measures, or link directly to the methodology/reporting page so readers aren\u2019t misled by noisy or partial data.\n\n3) Fix editorial/formatting issues that reduce credibility and usability. The line \u201cThe organization updates are in alphabetical order (L-0-K)\u201d looks incorrect/confusing; there are inconsistent spacings and link formats throughout. Run a quick copyedit: correct the ordering note, standardize spacing/heading styles, and ensure each item follows the same format (title \u2014 one-line summary \u2014 link). This will reduce reader friction and the appearance of carelessness.",
+    "improvement_potential": "Useful, actionable feedback that targets real usability and credibility problems: (a) scanning/urgency \u2014 adding a short \u2018urgent deadlines\u2019 TL;DR and consistent one-line metadata would materially increase reader actionability with little added length; (b) transparency \u2014 asking for n/response-rates or links to methods would reduce potential misinterpretation of metrics; (c) copyediting \u2014 the odd \u2018(L-0-K)\u2019 ordering note and inconsistent spacing/links are low-effort fixes that avoid an embarrassing appearance of carelessness. These changes aren\u2019t doctrinally necessary but would substantially improve the post\u2019s usefulness and trustworthiness."
+  }
+}

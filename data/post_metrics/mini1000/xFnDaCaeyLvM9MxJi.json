@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "value_ea": 7,
+    "value_humanity": 4,
+    "explanation": "This is an important operational announcement for the EA/rationalist community because Open Phil is a major funder and a $120M, multi-year pooled fund focused on growth/innovation will shape grantmaking, hiring, and the priorities of the pro-growth movement. It is not a foundational theoretical claim, but it is load-bearing for practical EA decisions (career moves, advocacy, research priorities) and could materially shift philanthropic influence. For general humanity the direct significance is modest: $120M is small relative to the global economy, so the announcement alone is not transformative. However, if the fund leads to durable policy or R&D changes that materially boost growth or lower costs, the downstream effects could be large\u2014so the potential upside is meaningful but uncertain."
+  },
+  "PostRobustness": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big gap between the high-level claim (\"boost growth and innovation\") and the actionable plan/evidence. Problem: the post asserts large social returns and that philanthropy can meaningfully accelerate macro growth, but it doesn\u2019t say which specific constraints you will target, how grant dollars translate into measurable increases in growth or innovation, or cite concrete estimates of effect size. Why it matters: readers will rightly ask for a plausible causal chain and magnitude estimates before endorsing a $120M fund. Actionable fixes: add a short theory-of-change paragraph (what interventions, why they should move growth, estimated effect sizes or plausible ranges, and key citations). If you don\u2019t have credible macro estimates, be explicit and say you\u2019ll start with pilots and counterfactual-driven evaluations \u2014 and describe what those pilots would look like.\n\n2) Missing acknowledgement and mitigation of potential harms and trade-offs. Problem: accelerating economic and technological growth can produce major externalities (climate impact, inequality, disruptive social effects, and faster deployment of potentially risky technologies such as powerful AI or biotech). The post treats growth as an unambiguously positive goal. Why it matters: failing to acknowledge or show how you\u2019ll handle downsides invites credible critique and may reduce support from worried stakeholders. Actionable fixes: add a brief section naming the main plausible harms you\u2019ve considered and high-level mitigation steps (e.g., screening for dual-use risks, commitments to fund safety/ethics research, strategies to monitor distributional outcomes and environmental footprint). Commit to consulting domain experts and publishing a risk-mitigation policy.\n\n3) Lack of transparency on metrics, allocation, and governance. Problem: readers don\u2019t know how funds will be allocated, what success looks like, or how the program leader will be held accountable. Why it matters: transparency about evaluation criteria and governance is central to credibility for large pooled funds. Actionable fixes: include a short sentence or two on (a) initial priority areas or portfolio share that will be piloted, (b) success metrics you plan to track (e.g., policy changes enacted, measured increases in R&D activity, cost reductions, pre-specified TOC milestones), and (c) governance/oversight (evaluation cadence, independent review, conflict-of-interest safeguards). If details aren\u2019t finalized, say so and commit to publishing the evaluation framework within X months of hire.",
+    "improvement_potential": "The feedback calls out central omissions for a $120M fund announcement: no visible theory-of-change/effect-size claims, no acknowledgement of major risks from faster growth, and no transparency on metrics or governance. These are the kinds of 'own goals' that would weaken credibility and invite scrutiny; adding short paragraphs or commitments (or linking explicitly to where this is covered) would materially improve the post without demanding a long rewrite. It loses a point because the post is primarily an announcement with a detailed blog linked \u2014 the feedback could first check whether those specifics are already in the linked material, and some readers will accept brief signalling rather than full detail in the announcement itself."
+  },
+  "PostAuthorAura": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "author_fame_ea": 9,
+    "author_fame_humanity": 6,
+    "explanation": "Open Philanthropy (Open Phil) is a major EA-aligned philanthropic organization (originating from GiveWell, funded by Dustin Moskovitz and Cari Tuna) and a central funder and research voice within the effective altruism/rationalist ecosystem \u2014 widely known and highly influential there. Outside those and related policy/philanthropy/tech circles it is recognized by professionals but is not a household name, hence moderate global visibility."
+  },
+  "PostClarity": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headline, concise lead (amount, purpose, funders), bullet-pointed rationale, and a concrete call-to-action (job posting). Strengths include logical flow, readable bullets, and helpful links. Minor weaknesses: a few formatting quirks in the link-heavy rationale (one sequence of links reads a bit disjointed), the job deadline lacks a year, and the post is light on concrete examples of planned activities or metrics \u2014 acceptable for an announcement but limits argumentative depth."
+  },
+  "PostNovelty": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers the post is not very novel: it reports organizational news (a new Open Phil fund and hiring) and reiterates familiar EA/longtermist arguments in favor of growth, R&D, and policy interventions (land\u2011use reform, permitting, science policy). The most original element is the scale and explicit institutional commitment to an \u201cabundance and growth\u201d focus, but the underlying claims are widely discussed within EA and progress\u2011oriented circles. For the general public the ideas are slightly more novel but still mainstream: economic growth and innovation as social goods and philanthropic efforts to accelerate them are common topics, though the specific framing (Progress/Abundance movements and a $120M fund) may be new to many."
+  },
+  "PostInferentialSupport": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post presents a plausible, high-level case: economic growth and R&D matter for living standards and removing constraints can speed innovation. Strengths include alignment with mainstream growth economics and credible funders. However the reasoning is largely descriptive and lacks a rigorous causal theory of change, consideration of countervailing risks (e.g., distributional or environmental effects), or concrete mechanisms showing how this specific fund will meaningfully affect macroeconomic growth. The empirical support is mostly illustrative (a few case examples and movement-level signals) rather than systematic evidence that the proposed interventions at this scale will deliver the promised outcomes; key claims (e.g., magnitudes of social returns, likely impact channels) are not substantiated in the post itself."
+  },
+  "PostExternalValidation": {
+    "post_id": "xFnDaCaeyLvM9MxJi",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major empirical claims in the post are well-supported by primary sources and reputable independent reporting. Open Philanthropy\u2019s announcement (Mar 11, 2025) clearly states the $120M three-year commitment, Good Ventures\u2019 $60M commitment, Patrick Collison\u2019s contribution, and the 3/31 application timeline; these are corroborated by Open Phil\u2019s careers pages and Good Ventures\u2019 post and by independent press (Bloomberg/CauseArtist). The post\u2019s substantive claims \u2014 that economic growth has dramatically raised living standards, that R&D has very high social returns, and that removing regulatory/institutional constraints can speed projects \u2014 are supported by mainstream evidence (Our World in Data / World Bank on long-run growth and poverty reduction; Jones & Summers NBER analysis on high social returns to innovation; GAO and other reports on Operation Warp Speed; case studies such as Madrid\u2019s metro and the rapid I\u201195 rebuild). Minor items that are not fully independently detailed in public sources: precise identities/amounts of the unnamed \u201cother private funders\u201d who matched Good Ventures beyond the named Collison contribution (Open Phil states they exist but does not list them). Overall the post\u2019s empirical claims are accurate and well-sourced.",
+    "sources": [
+      "Open Philanthropy \u2014 \"Announcing Our New $120M Abundance And Growth Fund\" (blog post, March 11, 2025)",
+      "Open Philanthropy \u2014 Abundance & Growth focus page (site)",
+      "Open Philanthropy \u2014 Careers / Senior Program Associate & Senior Program Officer job listings (Abundance & Growth Fund; mentions $120M and application info)",
+      "Open Philanthropy \u2014 Grants database: Institute for Progress grants (2021, 2023) and California YIMBY grants (2018, 2021, 2023)",
+      "Good Ventures \u2014 \"Announcing the new $120M Abundance And Growth Fund\" (blog post)",
+      "Bloomberg \u2014 \"Open Philanthropy Launches $120 Million Fund To Support YIMBY Reforms\" (reporting on the launch, March 11, 2025)",
+      "Benjamin F. Jones & Lawrence H. Summers \u2014 \"A Calculation of the Social Returns to Innovation\" (NBER working paper / chapter; Sept 2020 / published Feb 2022) \u2014 analysis supporting large social returns to R&D",
+      "Our World in Data / World Bank \u2014 long\u2011run economic growth and global poverty reduction data (e.g., reductions in extreme poverty and increases in GDP per capita over the 20th\u201321st centuries)",
+      "U.S. Government Accountability Office (GAO) \u2014 GAO-21-319: report on Operation Warp Speed and how it accelerated vaccine development (Feb 11, 2021)",
+      "Freethink \u2014 \"How Arc Institute is bringing science into the century of biology\" (article describing alternative funding models like Arc/Collison that aim to accelerate research)",
+      "Works in Progress \u2014 \"How Madrid built its metro cheaply\" (case study cited by Open Phil demonstrating faster project delivery under different institutional arrangements)",
+      "Commonwealth of Pennsylvania \u2014 Governor\u2019s press release: lessons from the I\u201195 collapse and rapid rebuild (July 17, 2023)",
+      "Noahpinion (Noah Smith) \u2014 \"Why Japanese cities are such nice places to live\" (discussion of zoning and how different rules affect housing, cited by Open Phil)"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "For the EA/rationalist community this is fairly high\u2011value: it\u2019s a practically important framing/strategy recommendation that, if adopted, would change how many cause areas design theories of change, allocate funds, and evaluate robustness to systemic shocks from transformative AI. It\u2019s not a foundational empirical claim about AI itself, but it is load\u2011bearing for prioritisation and programme design within EA. For general humanity it\u2019s of moderate importance: if taken up it could improve resilience and effectiveness of interventions as AI reshapes institutions and economies, but the post itself is a community\u2011strategy note rather than a direct lever for broad societal change and depends on the contested premise that transformative AI is likely within the relevant timeframe."
+  },
+  "PostRobustness": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Don\u2019t treat \u201ctransformative AI is coming\u201d as a single, unqualified premise \u2014 show how your recommendations depend on uncertainty and timeline. Actionable fixes: add a short, explicit section that (a) states a few alternative AI timelines/scenarios (e.g. 5\u201310y fast transform, 20\u201350y slow transform, & low-probability non-transformative outcomes), (b) gives a simple decision rule (e.g. if P(transformative AI within 15y) > X%, change Y kinds of programs; otherwise take Z minimal steps), and (c) cite or link to a couple of sources/estimates. This lets readers with different priors apply your advice instead of feeling you\u2019ve assumed consensus.  \n\n2) Define \u201crobust to AI\u201d and give concrete, low-effort heuristics and examples. Right now the post asserts projects may not be robust but never specifies what robustness looks like in practice. Actionable fixes: add a short checklist (e.g. dependence on physical labour vs. algorithmic substitutes; reliance on current institutions that could be automated or displaced; sensitivity to high-frequency shocks to funding/governance), plus 2\u20133 one-paragraph example rewrites (e.g. a global health program, an animal-welfare campaign, an advocacy project) showing how to adapt theory-of-change and measurable indicators. That substantially raises the post\u2019s utility without much length.  \n\n3) Directly address the main counterarguments and opportunity-cost trade-offs you risk overlooking. Specifically, acknowledge (and briefly rebut or accommodate) plausible points such as: many people prefer to work on other causes for legitimate personal-fit or impact reasons; short-term interventions may remain high-value in fragile transitions; and \u201cAI-proofing\u201d can itself crowd out scarce capacity. Actionable fixes: add a compact framework for when to (a) integrate AI implications into a project, (b) do minimal \u201cAI-proofing\u201d while keeping focus, or (c) redirect to AI-aligned work \u2014 plus list 3 minimal, low-cost \u201cAI-proofing\u201d steps teams can take (e.g. update risk assumptions, engage an AI-expert review, build flexible monitoring metrics).  \n\nMinor style suggestion: avoid framing the community as a binary split in the opener \u2014 that makes the post look polemical. Reword to emphasize a spectrum of priors and practical constraints.",
+    "improvement_potential": "The feedback hits the key omissions: the post treats transformative AI as a single, unqualified premise; it never defines what \u201crobust to AI\u201d means in practice; and it fails to engage important counterarguments and opportunity-cost trade\u2011offs. Each suggestion is actionable and mostly compact (scenarios, a checklist, 2\u20133 examples, and 3 minimal steps) so they improve the post substantially without demanding long expansions. One minor limitation: the suggested decision\u2011rule idea (pick an X% threshold) needs care (X is arbitrary) and could reference existing timeline estimates, but overall this is high\u2011value, concrete feedback that corrects major weaknesses the author would likely be embarrassed about if left unaddressed."
+  },
+  "PostAuthorAura": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of Tobias H\u00e4berli being a known figure in the effective-altruism or rationalist communities, nor as a public figure more broadly up to my 2024-06 knowledge cutoff. The name yields little/no notable public footprint in major EA/rationalist outlets or mainstream media; it may be a private individual or a pseudonym. If you can provide links or context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "clarity_score": 8,
+    "explanation": "The post is overall clear and well-structured: it states the context, identifies a common framing (AI vs everything else), and offers a focused alternative\u2014assume transformative AI and adapt cause strategies accordingly. It is concise and easy to follow for an EA audience. Weaknesses: it uses at least one unexplained abbreviation (GHW), the footnote/link formatting is a bit awkward, and the argument is presented at a high level with few concrete examples or evidence, which reduces persuasive force for readers seeking more substance."
+  },
+  "PostNovelty": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Within EA this is a familiar meta\u2011priority framing \u2014 many forum posts and discussions already urge non\u2011AI cause areas to update theories of change for transformative AI and debate \u2018AI vs everything else\u2019. The mildly novel element is the simple, prescriptive checklist mentality (explicitly asking whether GHW/animal welfare projects are robust to an AI\u2011transformed world). For the general public this is more original: average people rarely consider systematically revising charitable strategies across sectors under an assumed near\u2011term transformative AI scenario."
+  },
+  "PostInferentialSupport": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post makes a clear, coherent normative point \u2014 if transformative AI is likely, cause areas should explicitly incorporate that possibility into their theories of change \u2014 and raises a useful planning question for EA groups. The core inference (expect major systemic change -> reassess robustness of projects) is logical and worth discussing. Weaknesses: The argument is high-level and underspecified, offering little analysis of uncertainty, timelines, counterarguments (e.g., value of diversification, comparative advantage, or ways non-AI work could still be high-impact under many AI scenarios). There is essentially no empirical evidence or concrete examples showing which projects are or are not robust, nor citations about timing/probabilities of transformative AI. Overall the post is a helpful prompt but not a well-supported case; it invites follow-up analysis rather than providing strong justification on its own."
+  },
+  "PostExternalValidation": {
+    "post_id": "psNGNSoJpXRodmDSg",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are well-supported by public evidence: (a) Effective Altruism attention and resources have shifted noticeably toward AI risk (EA surveys show AI Risk is a top-rated cause and respondents allocated ~23% of resources to AI; Open Phil and EA funds have materially increased AI grantmaking; 80,000 Hours and other trackers show large growth in AI-relevant roles). (b) There is explicit discussion within EA about maintaining a \u201cprinciples\u2011first\u201d stance and about tensions between AI-focused and non\u2011AI causes (CEA and many EA Forum / MCF posts document this). (c) Many researchers, funders and forecasters assign non\u2011trivial probabilities to transformative AI within coming decades (some forecasts imply timelines in the next 10\u201315 years), but expert opinions and formal forecasts vary substantially and the timing is contested. The weakest empirical part of the post is the implied certainty about a 10\u201315 year transformation and its downstream effects on specific projects (that is plausible and defended by some experts/funders but far from consensus). Overall: most descriptive claims about EA\u2019s shift, debate, and funder behaviour are well-supported; timeline and downstream robustness claims are plausible but uncertain and contested. ",
+    "sources": [
+      "CEA \u2014 \"CEA will continue to take a 'principles-first' approach to EA\" (EA Forum post; CEA examples on AI attention and content breakdown; 2024).",
+      "EA Survey (EAS 2022) and EAS Supplement 2023 \u2014 \"EA Survey: Cause Prioritization\" (EA Forum summary; shows AI Risk high-rated and resource allocation ~23.2%).",
+      "Open Philanthropy \u2014 \"Our Progress in 2024 and Plans for 2025\" (Open Phil blog; describes scaled-up AI safety grantmaking and planning).",
+      "EA Forum \u2014 \"An Overview of the AI Safety Funding Situation\" (EA Forum post summarising Open Phil and LTFF AI funding totals and trends).",
+      "80,000 Hours \u2014 \"Understanding trends in our AI job postings\" (80,000 Hours analysis; documents large growth in AI-related job postings 2023\u20132025).",
+      "Katja Grace et al., \"Thousands of AI Authors on the Future of AI\" (arXiv / survey of ~2,778 AI researchers; aggregate forecasts and large uncertainty; Jan 2024).",
+      "Metaculus / forecasting summaries and EA Forum timelines thread \u2014 combined forecasting evidence (e.g., Metaculus median forecasts ~2031 for some AGI definitions and discussion on EA Forum summarising diverse expert timelines).",
+      "EA Community / MCF 2023 survey and EA Forum discussion threads (e.g., debates about separating EA and AI safety; 'Animal Welfare vs Global Health' thread) \u2014 documents intra-community debate and differing priorities."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical, individual-level ethics/career question that is relevant to the EA community's interest in career choice and minimizing harm, but it is not foundational. If answered one way or another it could matter for the poster and perhaps a small number of similar employees, and may help refine community guidance on 'harmful careers,' but it does not shift major policy or longtermist priorities. For general humanity the impact is minor \u2014 mostly a personal decision with limited aggregate consequences."
+  },
+  "PostRobustness": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Provide crucial contextual details the post currently omits. Say what your exact role, seniority, and day-to-day responsibilities are, whether you make or approve decisions that could cause harm, how long you expect to stay, and any financial or legal constraints. Without this, readers can\u2019t assess your marginal contribution or realistic alternatives \u2014 which are central to the ethical question. \n\n2) Address the counterfactual and possible actions explicitly. State whether you\u2019re asking about (a) staying and trying to reform internally, (b) quietly staying but mitigating harm (e.g. donations, job-switch within the firm), or (c) exiting. For each option, give the likely costs and benefits (personal risk, effectiveness, timelines). Ask readers to help evaluate whether your leaving would plausibly reduce net harm versus the alternatives. That forces discussion onto marginal impact rather than vague moralizing. \n\n3) Be explicit about the kind of advice you want and the decision framework. Say whether you want moral absolutes, practical career advice, or an expected-impact calculation. Mention any EA-relevant frameworks you\u2019re willing to use (e.g., marginal impact/counterfactual, career capital, tractability/leverage) or resources you\u2019ve read. This will make answers more targeted and reduce unhelpful moralizing.",
+    "improvement_potential": "The feedback pinpoints the post\u2019s main weaknesses: missing role/seniority details (so readers can\u2019t assess marginal impact), failure to consider counterfactuals and realistic options, and unclear request for the type of advice or framework desired. These are critical and actionable fixes that would substantially improve answers without adding much length. It stops short of declaring the author\u2019s position incoherent, so it\u2019s not a 10, but it correctly identifies the key \u2018own goals\u2019 the author should fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I don\u2019t recognize 'satelliteprocess' as a notable figure in the EA/rationalist community. The name reads like a pseudonymous forum/blog handle; if they exist, they appear to have limited visibility (occasional posts or comments) rather than being a regular influential contributor. No sign of broader public presence or mainstream recognition."
+  },
+  "PostClarity": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "clarity_score": 7,
+    "explanation": "The post is short, direct and easy to understand: it states the situation, links a relevant article, and asks a clear ethical question. However it lacks important context (your specific role/responsibilities at Wells Fargo, how directly your work contributes to harm, and what options or constraints you face), which makes it harder for readers to give tailored ethical advice."
+  },
+  "PostNovelty": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is a very common ethical question (should I stay at a company with known wrongdoing?), and EA readers in particular are frequently exposed to discussions of harmful careers and 80,000 Hours-style tradeoffs. The only slightly specific element is the Wells Fargo example/personal context, but there are no new arguments, frameworks, or insights that would make it novel to either EA-savvy or general audiences."
+  },
+  "PostInferentialSupport": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "reasoning_quality": 2,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "The post is mainly a request for advice rather than an argument\u2014its implicit thesis (that working at Wells Fargo may be unethical) is not developed or defended. Strengths: it flags relevant ethical concerns and cites a broadly relevant 80,000 Hours article. Weaknesses: it offers no structured reasoning (no analysis of the employee's role, degree of complicity, counterfactuals, or potential for mitigation) and no empirical evidence about harms, impact pathways, or alternatives, leaving the claim under-supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "x72sXyS5t8MdKkgqs",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post\u2019s empirical claims are well supported: Wells Fargo has been the subject of multiple confirmed scandals (unauthorized/fake accounts, forced\u2011placed auto insurance and other consumer harms), regulatory enforcement and multi\u2011party settlements, and the linked 80,000 Hours article exists. Key primary sources (DOJ, CFPB, multistate AG settlement) and major press coverage document the wrongdoing and penalties. One caveat: regulatory status has evolved (e.g., the Fed\u2019s 2018 asset\u2011growth cap was removed June 3, 2025), so circumstances continue to change \u2014 the post\u2019s general assertion that 'various scandals' exist is accurate, but details and sanctions have developed over time.",
+    "sources": [
+      "U.S. Department of Justice press release, \"Wells Fargo Agrees to Pay $3 Billion to Resolve Criminal and Civil Investigations into Sales Practices Involving the Opening of Millions of Accounts without Customer Authorization\" (Feb 21, 2020)",
+      "Consumer Financial Protection Bureau enforcement page, \"Wells Fargo Bank, N.A.\" (CFPB press release re: $100M fine for unauthorized accounts, Sept 8, 2016)",
+      "Multistate Attorneys General 50\u2011state settlement press releases (e.g., Nevada AG / Texas AG / Pennsylvania AG pages) on $575M settlement with Wells Fargo (Dec 28, 2018)",
+      "80,000 Hours article, \"Is it ever OK to take a harmful job in order to do more good? An in\u2011depth analysis\" (Benjamin Todd & William MacAskill; first published June 2017, last updated Mar 2023)",
+      "Federal Reserve press release, \"Federal Reserve announces Wells Fargo is no longer subject to the asset growth restriction from the Board\u2019s 2018 enforcement action against the bank\" (June 3, 2025)",
+      "Reporting summarizing the scandals and regulatory actions (e.g., Reuters and Associated Press coverage of the fake\u2011accounts scandal, Fed asset cap, and subsequent developments)"
+    ]
+  }
+}

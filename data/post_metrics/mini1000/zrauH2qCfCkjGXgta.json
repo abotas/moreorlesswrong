@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "A practical, high-ROI prompt pattern for getting LLMs to produce balanced, steelmanned, Bayesian-style analyses\u2014very useful for EAs and rationalists who routinely use models for research, improving quality of output and reducing bias. It isn't foundational (results still depend on model capability and human judgment) so it won't reshuffle core EA conclusions, and for general humanity it's a handy tip but niche and not transformative at scale."
+  },
+  "PostRobustness": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing reproducibility details \u2014 the post presents a high-level recipe but omits the operational settings that determine whether it works. Readers need the exact prompt (including any system message), the model/version, temperature/top_p/max_tokens, use of chain-of-thought or logit settings, and what you mean by \u201cDeep Research\u201d (plugin name, retrieval configuration, or workflow). Action: include a copy\u2011and\u2011pasteable full prompt + system role, list of model parameters you used, and one or two anonymized example outputs so others can reproduce and judge results.\n\n2) No safeguards against hallucination and false evidence \u2014 asking for steelmans and Bayesian reasoning doesn\u2019t stop an LLM from inventing claims or fake citations. The post should require explicit verification steps: tell the model to attach inline citations (URLs + brief quoted excerpt), mark each claim\u2019s confidence and evidence source, and flag any claims with no verifiable source. Action: add explicit instructions to demand verifiable sources, probability estimates with short justifications, and a follow\u2011up step that cross-checks high\u2011impact claims against external retrieval or human review.\n\n3) Methodological ambiguity and potential bias \u2014 \u201cThink like a rationalist / LessWrong\u201d is vague and can bias the outputs or encourage endless recursion through counter-counter chains. Readers will want guidance on stopping rules, synthesis, and how to use the outputs. Action: specify a fixed depth or a stopping criterion (e.g., stop after 3 rounds or when new rounds add <5% new evidence), require a final synthesis that weights arguments by evidence quality, and include an explicit adversarial check (e.g., ask an alternative\u2011view persona to try to falsify the final conclusion).",
+    "improvement_potential": "The feedback targets three high-impact omissions: lack of reproducibility details (exact prompt, model/version, parameters, and what \u2018Deep Research\u2019 means), no safeguards against hallucinated or fabricated evidence, and no stopping/synthesis rules to make outputs usable. Fixing these would substantially improve the post\u2019s credibility and utility without overturning its core idea \u2014 they\u2019re practical, actionable, and address likely embarrassing failure modes (e.g., unverifiable citations or endless recursion)."
+  },
+  "PostAuthorAura": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my knowledge cutoff (June 2024) I don't recognize 'Kat Woods \ud83d\udd36 \u23f8\ufe0f' as a known author or public figure in the effective-altruism/rationalist community or more broadly. The name (and emoji suffix) looks like a social-media handle or pseudonym; there are no widely cited publications, talks, or platform-presence I can tie to that exact handle. If you can provide a link or more context (posts, platform, topics), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "clarity_score": 8,
+    "explanation": "Overall clear and actionable: gives a concise, concrete prompt and examples, and the 'steelman solitaire' approach is easy to follow. Weaknesses are minor typos/spelling errors (e.g. 'probabillities', 'discomfirming'), an unexplained term ('Deep Research'), and little discussion of limitations or why the technique works \u2014 but these don't prevent understanding."
+  },
+  "PostNovelty": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Among EA/lesswrong circles this exact approach (iterated steelmanning, asking models for counter-/counter-counter-arguments, and asking for Bayesian thinking) is already well-known and commonly recommended, so it\u2019s not very novel for that audience. For the general public it\u2019s moderately novel: many people prompt ChatGPT to argue both sides, but few use a disciplined recursive steelman/anti-steelman sequence combined with explicit Bayesian instructions and a dedicated research workflow (and the mention of a 'Deep Research' tool adds a small additional novelty)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: the prompt leverages well-known epistemic techniques (steelmanning, iterative counter-arguments, Bayesian thinking), which plausibly produce broader consideration of views and failure modes. The author provides concrete example sessions. Weaknesses: the argument is largely anecdotal and underspecified \u2014 no systematic evaluation of accuracy, coverage, or calibration is given, and there is no comparison to alternative methods. Important failure modes (model hallucination, reinforcement of spurious arguments, dependence on user oversight and prompt phrasing, version-specific behavior) are not addressed. Overall the approach is promising but only weakly empirically supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "zrauH2qCfCkjGXgta",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most factual claims in the post are verifiable and accurate: OpenAI\u2019s \u201cDeep Research\u201d feature exists and is intended for long multi-step web research, the author\u2019s cited models (GPT\u20114o \u2192 o3 \u2192 GPT\u20115 / GPT\u20115 Pro) match OpenAI\u2019s public product timeline, and the \u201csteelman solitaire\u201d method is a known LessWrong/GreaterWrong technique (and Kat Woods previously wrote on it). However the author\u2019s central empirical claim \u2014 \u201cI\u2019ve had a lot of success\u201d with that exact prompt + Deep Research \u2014 is anecdotal and not externally verifiable from public sources. Also independent reporting and OpenAI\u2019s own docs note Deep Research and large models still have limitations (hallucinations, citation errors, variable performance), so individual success will vary. Overall: most objective claims are well supported, but the key success claim is subjective and unproven.",
+    "sources": [
+      "OpenAI \u2014 Introducing deep research (Feb 2, 2025).",
+      "OpenAI \u2014 Introducing OpenAI o3 and o4-mini (Apr 16, 2025).",
+      "OpenAI \u2014 Introducing GPT\u20115 (Aug 7, 2025).",
+      "TechCrunch \u2014 OpenAI\u2019s GPT\u20115 is here (Aug 7, 2025).",
+      "Wired \u2014 OpenAI's Deep Research Agent Is Coming for White\u2011Collar Work (news coverage).",
+      "Business Today \u2014 OpenAI launches 'deep research' feature for select ChatGPT users (news coverage).",
+      "EA Forum post by Kat Woods \u2014 How to get ChatGPT to really thoroughly research something (Aug 15, 2025).",
+      "GreaterWrong / LessWrong \u2014 Steelman solitaire: how to take playing devil\u2019s advocate to the next level (KatWoods, Nov 2021).",
+      "Reddit / community reports \u2014 user experiences reporting both strong results and hallucinated/incorrect outputs from Deep Research/ChatGPT (March\u2013April 2025 threads)."
+    ]
+  }
+}

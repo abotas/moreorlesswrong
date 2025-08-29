@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "This critique speaks to a common, practical bottleneck within the EA ecosystem \u2014 excessive analysis and strategy work that saps capacity for implementation. If true, it has high value for EA org design, funding choices, hiring, and culture (encouraging lean experimentation, clearer decision rights, and tradeoffs between planning and action). It is not foundational to EA\u2019s core moral or scientific claims, but is load-bearing for how effectively EA turns ideas and resources into impact. For general humanity the post is of limited direct importance \u2014 it matters mainly insofar as it changes how well a subset of high-impact actors operate, which is an indirect and relatively small effect overall."
+  },
+  "PostRobustness": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unsupported, over-broad claim and missing definitions \u2014 The post makes a strong generalization (\u201cthis is the reality for many organizations\u201d) without evidence or clear scope. Actionable fix: narrow the claim (e.g., small EA-startups, volunteer groups, or X months post-launch), define what you mean by \u201casking questions\u201d vs \u201cdoing action,\u201d and add 1\u20132 concrete examples or citations (anecdotes, surveys, or project timelines) to show this is a recurring problem rather than a feeling.\n\n2) Presents a false dichotomy and overlooks the value of planning \u2014 The post treats planning and action as opposed, which invites the obvious counterargument that good planning prevents wasted effort and harm. Actionable fix: reframe to target \u201cexcessive/inefficient planning\u201d and briefly acknowledge when planning is essential. Then give 2\u20133 concrete, low-cost mitigations readers can apply (timebox analysis, adopt MVP/iterative \u2018plan-do-learn\u2019 cycles, implement decision rules for when to stop researching, separate strategy vs operations roles, and use checklists for go/no-go). These make the critique practical and harder to dismiss.\n\n3) Lacks an audience-specific call to action or metrics \u2014 The post ends with a question but gives no concrete things readers can try or measure. Actionable fix: add 1\u20133 precise experiments or metrics: e.g., commit to X weeks of planning then launch an MVP, track % time spent on planning vs implementation, or run a retrospective on recent projects to identify planning bottlenecks. Also say who should act on the advice (founders, funders, program managers) so readers know the intended change.",
+    "improvement_potential": "The feedback correctly identifies the post\u2019s major weaknesses: an unsupported, overbroad claim; a false dichotomy between planning and action; and a lack of concrete audience\u2011targeted recommendations or metrics. Each critique is actionable and could be implemented without dramatically lengthening the post (tightening scope/definitions, acknowledging the value of planning while targeting excessive planning, and adding 1\u20133 concrete experiments/metrics). These changes would materially improve the post\u2019s credibility and usefulness. It isn\u2019t a 10 because the feedback doesn\u2019t reveal a fatal logical error or that the main thesis is outright wrong \u2014 rather it refines and strengthens the argument."
+  },
+  "PostAuthorAura": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of mid-2024 there is no widely available information linking this name to notable activity in the EA/rationalist community or the wider public. The name appears uncommon and may be a pseudonym; no well-known publications, talks, citations, or profiles are associated with it in major EA, academic, or mainstream sources. If you can provide links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "clarity_score": 8,
+    "explanation": "The post is clear and easy to follow: it states a single, relatable problem (planning/analysis consuming energy and reducing implementation) succinctly. Weaknesses: it offers no evidence or concrete examples, is slightly repetitive, and would be more compelling with clearer scope (which EA actors?) and suggested solutions."
+  },
+  "PostNovelty": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This critique \u2014 that heavy analysis and planning in EA (or small orgs) leads to burnout and weak execution \u2014 is a familiar complaint within EA and among nonprofit/management discussions. The specific framing (strategy burden in small EA orgs) is mildly distinct but the core idea (planning paralysis/analysis-over-action) is widely discussed, so it isn\u2019t very novel for either audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post advances a plausible and coherent claim \u2014 that intensive planning can consume limited organizational capacity and lead to burnout, especially in small teams \u2014 but it is largely anecdotal and under-specified. Strengths: the causal intuition is clear and aligns with common nonprofit/startup dynamics, and the point about small teams bearing disproportionate strategy burdens is sensible. Weaknesses: the argument lacks structure (no clear definition of terms, mechanisms, or scope), ignores alternative explanations (e.g., resource constraints, poor prioritization, funder requirements), and provides no empirical evidence, examples, or citations to substantiate prevalence or magnitude of the problem."
+  },
+  "PostExternalValidation": {
+    "post_id": "kLEDJEaNkmo5xbaEy",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post\u2019s core empirical claims (that developing theories of change/logframes/project plans is time\u2011consuming, that heavy planning can produce fatigue/\u2018analysis paralysis\u2019, and that small organisations/NGOs commonly lack capacity to convert strategy into action and experience high burnout) are well supported by qualitative studies, sector surveys, and behavioural science. Evidence: (a) many NGO/ nonprofit studies and surveys document high burnout and capacity constraints (McKinsey, CEP, sector reports); (b) empirical/qualitative literature on Theories of Change and logframes reports these processes are time\u2011consuming, technically demanding and can impede implementation; (c) management and cognitive science (planning fallacy, analysis\u2011paralysis) explain why extended planning can delay or degrade execution. Weaknesses: there is limited large\u2011scale causal evidence directly measuring \u201cenergy spent planning \u2192 less implementation\u201d as a quantified causal effect; most support is from surveys, qualitative case studies, practitioner reports and general behavioural findings rather than randomized/experimental causal estimates in NGOs. Overall: the post is largely accurate and plausible, but stronger causal quantification would require targeted empirical studies.",
+    "sources": [
+      "McKinsey & Company \u2013 \"Supporting resilience and preventing burnout in nonprofits\" (April 11, 2023). ([mckinsey.com](https://www.mckinsey.com/industries/social-sector/our-insights/supporting-resilience-and-preventing-burnout-in-nonprofits?utm_source=openai))",
+      "Center for Effective Philanthropy \u2013 \"State of Nonprofits 2024\" summary / press release (survey results on nonprofit leader burnout). ([cep.org](https://cep.org/news/press-releases/nonprofit-leaders-cite-burnout-as-a-top-concern-in-a-new-study-on-the-state-of-u-s-nonprofits/?utm_source=openai))",
+      "Vogel, I. et al. / PMC \u2013 \"How to (and how not to) develop a theory of change...\" and related articles on Theory of Change implementation challenges (qualitative findings that ToC/logframe work is time\u2011consuming and can hinder implementation). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC5838401/?utm_source=openai))",
+      "Research on NGO strategic\u2011plan implementation (examples: \"The challenges facing NGOs in implementing their strategic plans\" and theses/case studies on implementation barriers in NGOs/INGOs). ([researchgate.net](https://www.researchgate.net/publication/348264842_The_challenges_facing_NGOs_in_implementing_their_strategic_plans?utm_source=openai), [erepository.uonbi.ac.ke](https://erepository.uonbi.ac.ke/handle/11295/160600?utm_source=openai))",
+      "Journal of Nonprofit Education and Leadership \u2013 \"What Strategic Planning Methods are Most Related to Higher Capacity Organizations\" (survey of nonprofits: planning linked to capacity but also shows capacity differences across orgs). ([js.sagamorepub.com](https://www.js.sagamorepub.com/index.php/jnel/article/view/11546?utm_source=openai))",
+      "ICMA / practitioner guidance \u2013 \"Strategic Planning in Small Communities\" and articles documenting limited staff/financial capacity in small organisations to both plan and implement. ([icma.org](https://icma.org/articles/pm-magazine/making-it-work-you-strategic-planning-small-communities?utm_source=openai))",
+      "Literature on the Planning Fallacy and \"analysis paralysis\" (reviews and empirical work explaining cognitive biases that make planning protracted and optimistic and can delay action). Example: \"The Planning Fallacy\" review (Advances in Experimental Social Psychology) and accessible summaries. ([sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S0065260110430014?utm_source=openai), [en.wikipedia.org](https://en.wikipedia.org/wiki/Planning_fallacy?utm_source=openai))",
+      "Harvard Business Review / HBS commentary on strategy execution: many strategies fail in execution \u2014 supports claim that planning often outpaces capacity to act. ([hbr.org](https://hbr.org/2021/07/why-do-so-many-strategies-fail?utm_source=openai), [online.hbs.edu](https://online.hbs.edu/blog/post/why-do-strategic-plans-fail?utm_source=openai))"
+    ]
+  }
+}

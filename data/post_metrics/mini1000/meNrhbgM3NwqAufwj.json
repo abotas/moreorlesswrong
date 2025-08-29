@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a moderately important, well-informed critique for the EA/AI-safety community because it targets a load-bearing claim (short AGI timelines) that shapes funding, research focus, and policy urgency. It highlights methodological problems with extrapolating benchmark and compute trends, the fragility of purported software feedback loops, and the gap between benchmark performance and real-world scientific work \u2014 all points that should materially temper confidence in 3\u20135 year AGI claims. For general humanity the piece is less critical: if correct it eases near-term alarm and could improve policy calibration, but it is not foundational to most societal decisions and its impact on broad public behavior or policy is likely limited."
+  },
+  "PostRobustness": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak engagement with the other side's quantitative claims \u2014 don\u2019t just say their 500x/25x extrapolations are \"inapt\"; show it. Actionable fix: reproduce MacAskill & Moorhouse\u2019s arithmetic and then present one or two alternative, transparent recalculations (e.g. adjust for human productivity gains, make the algorithmic/compute growth terms endogenous, and run a 3\u2011scenario sensitivity table: optimistic/central/pessimistic). Readers of EA forum expect numbers; a short appendix with the math or a small figure will make your critique far more persuasive and prevent the charge of handwaving.\n\n2) One-sided treatment of benchmarks \u2014 you catalog many valid limitations of benchmarks but omit where benchmarks and scaling laws have been informative (or at least partially predictive). Actionable fix: add a short, balanced paragraph acknowledging evidence that certain benchmarks and scaling trends have predicted capability improvements (cite a couple of representative papers or examples), then explain why those cases do not generalize to \"all cognitive domains.\" Also give concrete proposals for better evaluation (e.g. out-of-distribution tests, process-level reasoning traces, contamination audits, longitudinal deployment metrics) so readers know what evidence would meaningfully change your mind.\n\n3) Selective/insufficient evidence on real\u2011world impact and deployment frictions \u2014 relying mainly on AlphaFold and a few surveys risks underestimating both early accelerations and plausible rapid adoption paths. Actionable fix: broaden the empirical evidence you discuss: include examples where ML/automation measurably sped up research or engineering (e.g. drug discovery pipelines, automated theorem provers, code-generation adoption metrics like GitHub Copilot), and if you believe these are still small, quantify the scale and friction (integration cost, reliability, regulatory barriers). If you lack such data, say so and recommend specific datasets or studies future work should examine. This will avoid the impression of cherry-picking and strengthen your claim that real-world adoption is likely to be slow.",
+    "improvement_potential": "The feedback targets the post's three biggest credibility weaknesses: (1) handwaving away the 500x/25x numbers without reproducing or offering alternative arithmetic, (2) one\u2011sided treatment of benchmarks without acknowledging where they have been predictive, and (3) selective evidence on real\u2011world impacts. Each point is specific and actionable (recalculate growth terms with scenarios; add a short balanced paragraph and better-evaluation proposals; cite/quantify concrete adoption examples), and implementing them would materially strengthen the critique and avoid obvious rebuttals. The only downsides are the extra work/length required to add quantitative recalculations and a few more citations\u2014reasonable given readers\u2019 expectations but worth noting."
+  },
+  "PostAuthorAura": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that a James Fodor is a known figure in the EA/rationalist community or a public intellectual: no notable publications, talks, or visible profiles tied to EA, LessWrong, 80,000 Hours, or mainstream media. Could be an obscure private individual or a pseudonym; if you provide links or context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "clarity_score": 8,
+    "explanation": "Well-structured and readable: clear headings, logical flow (rates of growth \u2192 benchmarks \u2192 adoption \u2192 conclusion), and many concrete examples and citations. The core objections to short AGI timelines are communicated convincingly, though some passages are a bit long-winded or assume domain knowledge; a tighter executive summary and crisper quantification of key claims would improve argumentative focus and conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Most of the post\u2019s core claims\u2014skepticism about 3\u20135 year AGI timelines, warnings about extrapolating compute/algorithm trends, concerns about benchmark overfitting/contamination, and real\u2011world adoption frictions\u2014are already common in EA and ML criticism, so the piece is only modestly novel to EA readers. The somewhat newer elements are the specific framing that comparing \u2018AI researchers\u2019 scaled by compute but not adjusting humans is an inapt comparison, up-to-date 2024\u201325 examples (OpenAI GPT\u20114.5 wind\u2011down, Llama 4 controversies), and citing recent arXiv analyses undermining benchmark generalization\u2014points that make it a bit more original to non\u2011specialists. To a general educated audience these methodological and empirical nuances (benchmark contamination, limits of lab benchmarks for real\u2011world research acceleration, and careful critique of the \u2018software feedback loop\u2019 claim) are less familiar, so the post is moderately novel there."
+  },
+  "PostInferentialSupport": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured and its core arguments are logically coherent \u2014 it plausibly challenges simple extrapolation of current trends, highlights interdependence of compute/algorithm/human factors, and correctly flags important shortcomings of benchmarks and real-world adoption lags. The author cites recent, relevant examples and literature (benchmark contamination, new failure analyses, modest measured labor impacts) that support skepticism about rapid, across-the-board AGI claims. Weaknesses: The critique is somewhat selective and occasionally anecdotal (e.g., using AlphaFold, GPT-4.5/ Llama4 controversies) without fully quantifying countervailing evidence (historical compute scaling, empirical scaling laws, deployment momentum). Some key claims (e.g., recalibrating the 500x figure by accounting for human productivity gains) are asserted but not rigorously quantified. The post would be stronger with more systematic, quantitative comparisons and engagement with the strongest counterarguments. Overall: a reasonably persuasive, well-argued skeptical case, supported by relevant evidence, but not definitive \u2014 moderate support for the main thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "meNrhbgM3NwqAufwj",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are supported by public evidence: Forethought\u2019s growth/\u201925x per year\u2019 and >500x vs humans figures are accurately reported and plausibly contestable (Forethought\u2019s numbers rely on multiply\u2011combined scaling assumptions). Empirical critiques about benchmark contamination, overfitting, and real\u2011world relevance are well supported by recent papers and reporting (papers on benchmark limits; controversies around FrontierMath/o3; independent analyses showing math failures). Reports that GPT\u20114.5 was being removed from the API and that Llama\u20114 had a mixed/controversial launch are documented. The Denmark labor\u2011market study finding near\u2011zero average earnings/hours effects is correctly cited. Weaknesses / errors in the post: the claim that AlphaFold is \u201ceight years old\u201d (and that it is the only example of ML doing significant scientific research) is inaccurate/overstated \u2014 AlphaFold\u2019s breakthrough/AlphaFold2 papers and database are from 2020\u20132021 and there are multiple non\u2011AlphaFold examples of ML accelerating scientific work (drug discovery, materials, autonomous labs, etc.). Overall: the author\u2019s empirical criticisms of short\u2011timeline extrapolations and benchmark over\u2011reliance are well supported, but a few factual overstatements (AlphaFold age and exclusivity) and some argumentative leaps reduce the score from \u2018very well supported\u2019 to \u2018well supported\u2019. ",
+    "sources": [
+      "Forethought \u2014 Preparing for the Intelligence Explosion (MacAskill & Moorhouse), March 11, 2025 (forethought.org).",
+      "James Fodor, Line Goes Up? Inherent Limitations of Benchmarks for Evaluating Large Language Models, arXiv:2502.14318 (Feb 20, 2025).",
+      "TechCrunch \u2014 OpenAI plans to phase out GPT\u20114.5 from its API (Kyle Wiggers), April 14, 2025.",
+      "Epoch AI \u2014 FrontierMath benchmark paper (arXiv:2411.04872) and Epoch blog post clarifying OpenAI involvement (Jan 23, 2025).",
+      "Search Engine Journal \u2014 reporting on OpenAI funding / FrontierMath concerns (Jan 20, 2025).",
+      "arXiv:2405.10494 \u2014 Estimating Idea Production: A Methodological Survey (returns to software R&D / software domains).",
+      "arXiv:2504.01995 \u2014 Brains vs. Bytes: Evaluating LLM Proficiency in Olympiad Mathematics (Mahdavi et al., Apr 1, 2025).",
+      "arXiv:2503.21934 / related recent math evaluation papers and RealMath (papers documenting poor performance on new/unseen math tasks; see arXiv listings from 2025).",
+      "Ars Technica & BusinessInsider coverage of Meta\u2019s Llama 4 rollout and mixed reception (Apr\u2013May 2025 reporting).",
+      "DeepMind blog and Nature citation: Jumper et al., 'Highly accurate protein structure prediction with AlphaFold' (Nature, 2021) and DeepMind AlphaFold blog (2020) \u2014 AlphaFold/AlphaFold2 timeline and AlphaFold DB (AlphaFold DB releases 2021+).",
+      "AlphaFold Protein Structure Database (EMBL\u2011EBI / alphafold.ebi.ac.uk) \u2014 database and citation information.",
+      "PNAS / working\u2011paper reporting on ChatGPT adoption in Denmark (survey of ~18,000 workers across 11 occupations) \u2014 'Large Language Models, Small Labor Market Effects' (Humlum & Vestergaard / PNAS working paper / SSRN abstract id referenced in reporting), finding confidence intervals excluding average effects >1%.",
+      "ArXiv:2412.05520 \u2014 'More than Marketing? On the Information Value of AI Benchmarks for Practitioners' (interviews with 19 practitioners) supporting the claim that practitioners find many benchmarks of limited real\u2011world usefulness."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "A constructive community-building prompt that helps clarify the values, narratives, and role models that attract and retain people in EA. It is useful for recruiting, mentoring, and shaping norms and communications, so it has moderate importance to the movement\u2019s culture and outreach, but it\u2019s not foundational to EA\u2019s core empirical or philosophical claims. For general humanity it\u2019s of minor interest: helpful reflection on role models but not consequential for large-scale policy or outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix selection bias and increase representation. The example list and framings lean heavily on prominent, Western, male academics/organizers. That will prime readers to nominate similar people and miss valuable role models (grassroots organizers, non-Western thinkers, carers, junior mentors, activists, those with lived experience). Actionable edits: explicitly ask for diversity across gender, geography, cause area and career stage; add 3\u20135 alternative example names (e.g., community organisers, frontline public-health workers, non-Western EA-adjacent figures); and invite anonymous nominations to surface less-famous role models.\n\n2) Be explicit about purpose and how responses will be used. Right now the post reads like a prompt for warm recollections without a clear downstream use, which reduces signal and makes assessment of tradeoffs hard. Actionable edits: state the precise goals (e.g., inform mentorship matching, identify common inspiring behaviors, feed into outreach materials), describe how you\u2019ll analyse replies (theme coding, counts of qualities), and give a short timeline and expected outputs so contributors know why their effort matters.\n\n3) Mitigate hero-worship and safety/ethical risks. The post mentions limits briefly but lacks concrete guardrails for discussing real people and for preventing unhealthy idolisation or oversharing about personal mentors. Actionable edits: add explicit guidelines asking responders to note both concrete actions and mistakes, avoid speculative personal medical/financial details, and include a prompt asking \u201cwhat behaviors of this person should NOT be emulated?\u201d Also flag that public criticisms should be framed constructively, and offer anonymous options for discussing sensitive mentors to protect privacy.",
+    "improvement_potential": "Addresses several substantive oversights: the example list\u2019s Western/male bias that will prime responses, the lack of a clear stated purpose and downstream use-case (which reduces signal), and missing guardrails around privacy/hero-worship. Implementing these fixes would materially improve inclusivity, response quality, and safety with only modest additional length, so they\u2019re high-impact and actionable."
+  },
+  "PostAuthorAura": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I found no evidence that a notable EA/rationalist author or public figure goes by 'EAvalues\ud83d\udd38'. That looks like a pseudonymous or small social\u2011media account; it does not appear in major EA venues (EA Forum, LessWrong, 80,000 Hours, EA publications) nor has global public recognition. If you can share links or examples of their work, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: clear headings, explicit categories for discussion, concrete examples, and practical commenting guidelines. It makes its point\u2014eliciting role models and the qualities that matter\u2014clearly and compellingly. Minor weaknesses: the background section is a bit wordy/repetitive, and the post could be slightly more concise or give an explicit example of the desired comment format (e.g., name + 1\u20132 concrete actions/qualities). Overall, the clarity is high and appropriate for the intended discussion."
+  },
+  "PostNovelty": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Asking about role models and organizing examples by admirable qualities is a very familiar community-building prompt. For EA readers the framing around EA-specific virtues (scope sensitivity, moral circle expansion, existential risk leadership) gives it slight specificity but the core idea is common. For the general public the concept is even less novel \u2014 reflecting on inspirational figures and lessons from them is a widespread, well-trodden topic."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post lays out a clear, plausible argument that role models help make abstract EA principles concrete, offers thoughtful categories for analysis, and acknowledges complexity and limitations. The structure (background, functions of role models, categories, examples, guidelines) is logical and suitable for eliciting discussion. Weaknesses: It provides little empirical evidence \u2014 mainly anecdotal examples and historical analogies \u2014 and no systematic data (surveys, studies, or metrics) showing that identifying role models actually increases recruitment, retention, or alignment with EA values. There are risks of selection bias and overrepresentation that aren't empirically addressed. Overall, the thesis is reasonable and useful as a community prompt but under-supported by rigorous evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "EuGiePm7dp9qKi9cR",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's empirical claims are verifiable and accurate. The named people are correctly described in broad, factual terms (e.g., MacAskill as an EA originator and author; Ord as founder of Giving What We Can and author on existential risk; Karnofsky as co-founder/leader of GiveWell/Open Philanthropy; Singer, Farmer, Rosling as influential in their respective domains). Rethink Priorities / EA Survey results support the claim that books, organizations, and personal contacts (including influential individuals/books) are common influences on people entering EA. Psychological claims about the functions of role models are consistent with social learning theory. Weaknesses/uncertainties: (a) the post\u2019s general statement \u201cmany community members cite specific individuals\u201d is supported more strongly by survey evidence showing the importance of personal contacts, books, and organizations than by a single EA-wide ranking of named individuals; (b) some names (e.g., Julia Wise) have complex community histories (and public controversies/role changes) which the post does not discuss; (c) most claims are high-level and normative rather than precise empirical claims, so there is limited need for fine-grained verification.",
+    "sources": [
+      "Rethink Priorities \u2014 EA Survey 2020: How People Get Involved in EA (shows 80,000 Hours, personal contacts, GiveWell, books influence entry into EA). ([rethinkpriorities.org](https://rethinkpriorities.org/publications/eas2020-how-people-get-involved-in-ea?utm_source=chatgpt.com))",
+      "Rethink Priorities \u2014 EA Survey 2020: Community Information / Engagement (discusses books named by respondents: The Precipice, Doing Good Better, The Life You Can Save). ([rethinkpriorities.org](https://rethinkpriorities.org/research-area/eas2020-community-information/?utm_source=chatgpt.com))",
+      "William MacAskill \u2014 Wikipedia / author pages (co\u2011founder of EA institutions; author of Doing Good Better and What We Owe the Future). ([en.wikipedia.org](https://en.wikipedia.org/wiki/William_MacAskill?utm_source=chatgpt.com), [williammacaskill.com](https://www.williammacaskill.com/about-the-book?utm_source=chatgpt.com))",
+      "Toby Ord \u2014 Wikipedia / The Precipice (founder of Giving What We Can; work on existential risk and giving). ([en.wikipedia.org](https://en.wikipedia.org/wiki/Toby_Ord?utm_source=chatgpt.com))",
+      "Holden Karnofsky \u2014 Wikipedia / Open Philanthropy (GiveWell/Open Philanthropy leadership; charity evaluation & cause prioritization). ([en.wikipedia.org](https://en.wikipedia.org/wiki/Holden_Karnofsky?utm_source=chatgpt.com))",
+      "Julia Wise \u2014 EA Forum profile and personal site (CEA community liaison / community health work; writings on sustainable engagement). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/julia_wise?utm_source=chatgpt.com), [juliawise.net](https://juliawise.net/about/?utm_source=chatgpt.com))",
+      "Peter Singer \u2014 New Yorker / The Life You Can Save / Animal Liberation (foundational work on effective giving and animal ethics). ([newyorker.com](https://www.newyorker.com/culture/the-new-yorker-interview/peter-singer-is-committed-to-controversial-ideas?utm_source=chatgpt.com))",
+      "Paul Farmer \u2014 Wikipedia / Partners In Health (physician, co\u2011founder of Partners In Health; combined research/teaching with direct service to poor communities). ([en.wikipedia.org](https://en.wikipedia.org/wiki/Paul_Farmer?utm_source=chatgpt.com))",
+      "Hans Rosling / Gapminder \u2014 Gapminder TED resources (data\u2011driven global development communication; Gapminder Trendalyzer visuals and TED talks). ([gapminder.org](https://www.gapminder.org/videos/hans-rosling-ted-talk-2007-seemingly-impossible-is-possible/?utm_source=chatgpt.com))",
+      "Albert Bandura / Social learning theory (role models and observational learning as a mechanism for behavioral influence). ([simplypsychology.org](https://www.simplypsychology.org/bandura.html?utm_source=chatgpt.com), [en.wikipedia.org](https://en.wikipedia.org/wiki/Bobo_doll_experiment?utm_source=chatgpt.com))"
+    ]
+  }
+}

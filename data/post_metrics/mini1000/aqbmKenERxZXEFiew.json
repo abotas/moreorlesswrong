@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "value_ea": 2,
+    "value_humanity": 1,
+    "explanation": "This is an event announcement for studying classical Christian sermons on charity. It may be of personal or local interest to some community members (especially those with religious or historical interests) and could inform individual moral reflection, but it is not a research piece or a foundational argument for EA priorities or policy. Its conclusions (if any) would have limited scope and negligible impact on large-scale decisions or outcomes for humanity."
+  },
+  "PostRobustness": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add clear logistics and registration info. The post omits essential details readers need to decide whether to attend: exact dates and times in July, in\u2011person vs online, location or platform, cost, how to register, and any capacity limits. Action: include date/time(s), timezone, venue/link for the meeting, registration link or contact email, and whether sessions will be recorded.\n\n2) Explain the seminar\u2019s relevance to the EA community and intended audience. Right now it reads like a general lecture invite; EA readers will want to know why these classical Christian texts are worth their time (e.g., insights on charitable giving, stewardship frameworks, moral arguments that inform effective giving), what attendees will gain, and what background you expect. Action: add a 1\u20132 sentence justification of relevance to EA practice, a brief learning objective, and the target audience (beginners, scholars, practitioners).\n\n3) Provide structure, expectations, and organiser credibility. People decide based on workload and leader expertise. Action: state session format (lecture, discussion, close reading), required/preferred preparatory reading (e.g., which sermon text or edition), whether notes will be provided, and include a short line about the host\u2019s qualifications or background facilitating such seminars (or link to a bio). This reduces friction and builds trust.",
+    "improvement_potential": "The feedback pinpoints real, high-impact omissions: concrete logistics/registration, why the topic matters to an EA audience, session format and host credibility. These are actionable fixes that would materially increase sign\u2011ups and reduce friction and embarrassment for the poster, and they can be added without bloating the post. (Minor caveat: if the linked page already contains some of this info, the feedback still helps ensure the forum post is self\u2011contained.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence (up to my 2024-06 knowledge cutoff) that 'James-Hartree-Law' is a recognized figure in the EA/rationalist community or publicly: not a visible poster on EA Forum/LessWrong, not a known speaker/author, and not indexed in major academic or media sources. Likely a pseudonym or a very minor/obscure online handle. If you can share links or context, I can re-evaluate."
+  },
+  "PostClarity": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "clarity_score": 8,
+    "explanation": "Clear and easy to understand: a brief invitation to seminars on Wesley's \"On the Use of Money\" and St. Basil's \"Sermon to the Rich\" in July with a link for more info. Concise and well phrased, but missing key logistics (exact dates/times, format, location or target audience and registration/cost) which would make it fully self-contained."
+  },
+  "PostNovelty": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "novelty_ea": 4,
+    "novelty_humanity": 2,
+    "explanation": "For EA Forum readers, a seminar connecting charity/stewardship to historical Christian sermons is mildly novel \u2014 EAs often discuss charity and moral theory, but focused study of Wesley and St. Basil is a somewhat niche angle they may not have widely considered. For general humanity this is low novelty: study groups and seminars on classical religious texts about charity are common and unsurprising."
+  },
+  "PostInferentialSupport": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post is essentially an announcement/invitation rather than an argument: it makes no substantive claim that is defended, offers no logical development or justification for why readers should attend, and provides no empirical evidence (e.g. organizer credentials, past seminar outcomes, or reasons these texts are especially relevant). Its only strengths are clarity about which texts will be covered and a link for more information, but this does not constitute supporting reasoning or evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "aqbmKenERxZXEFiew",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Well-supported. The EA Forum post exists and is publicly viewable and links to the organizer's Wix page; the Wix page explicitly advertises the July seminars (first two weeks of July), describes the two texts (John Wesley\u2019s \u201cOn the Use of Money\u201d and St. Basil\u2019s \u201cSermon to the Rich\u201d) and provides a sign-up link. The primary texts cited (Wesley\u2019s sermon and Basil\u2019s homilies) are authentic and widely available in reputable translations/collections. Minor caveats: the EA post shows only a short date label (Jun 17) without an explicit year on the forum page, and web content can change, so while the announcement and linked seminar page were verifiable at the time of checking, I did not independently verify that the seminars actually took place or the year intended beyond the surrounding context.",
+    "sources": [
+      "Effective Altruism Forum \u2014 \"Seminar On Classical Texts About Christian Charity\" (post by James-Hartree-Law). (Viewed via forum.effectivealtruism.org/posts/aqbmKenERxZXEFiew).",
+      "James Hartree \u2014 \"July Seminars\" page (jameshartree.wixsite.com/james-hartree/general-9) \u2014 seminar description and schedule (first two weeks of July) and sign-up link.",
+      "WesleyWorks / The Wesley Center Online \u2014 \"Sermon 50: The Use of Money\" (John Wesley). (wesleyworks.ecdsdev.org; wesley.nnu.edu).",
+      "OrthodoxWiki / translations and multiple online translations \u2014 St. Basil the Great, \"To the Rich\" / \"I Will Tear Down My Barns\" (homilies on almsgiving).",
+      "Examples of modern translations/commentary: Paul C. Schroeder translation excerpts and online homily reproductions (e.g., 'I Will Tear Down My Barns' commentary and translations)."
+    ]
+  }
+}

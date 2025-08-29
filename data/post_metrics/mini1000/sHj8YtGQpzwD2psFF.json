@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is primarily an operational announcement recruiting staff for the MATS program. For the EA/AI\u2011safety community it\u2019s mildly important: MATS is part of the talent pipeline for AI alignment, so hiring experienced managers and mentors could meaningfully improve researcher training and program capacity, but the post itself is not a foundational argument or high\u2011leverage analysis. For general humanity it\u2019s low importance \u2014 useful only insofar as it incrementally supports AI safety capacity building, with limited immediate societal impact. If the post\u2019s content is false the practical consequences are minor (missed hires/opportunities) rather than world\u2011changing."
+  },
+  "PostRobustness": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Fix the apparent typo / awkward phrasing \u201cpromoting sentient forwarding.\u201d That phrase reads as a major wording error and will distract / confuse readers. Replace with the intended wording (e.g., \u201cpromoting sentient flourishing\u201d) or briefly explain what you mean.  \n\n2) Clarify location / remote expectations and relocation/visa support. Several roles say \u201cmust be willing to work full-time from Berkeley, CA\u201d or \u201cstrongly prefer,\u201d but it\u2019s ambiguous which roles are strictly on-site, which are hybrid, whether fully remote candidates will be considered, and what relocation or visa sponsorship is actually available. State explicitly per role: on-site vs hybrid vs remote, whether relocation or visa support is provided, and whether remote interviews are possible.  \n\n3) Standardize and clarify employment terms and deadlines. Right now compensation is mixed (annual vs hourly) and it\u2019s unclear whether hires are employees vs contractors, expected start dates, role duration (permanent vs fixed-term), probation terms apply to which roles, and the exact application deadlines (top of post says Apr 25 but some roles close May 2). Concisely add per-role lines for: compensation format (annual or hourly), employment type (full-time employee / contractor / fixed-term), benefits, probation or contract length, visa/relocation specifics, expected start date, and the precise application deadline. Also add a one-line \u201cwhat to include in your application / next steps\u201d (CV, cover letter, references) so applicants know what to prepare.",
+    "improvement_potential": "Very useful. The three points identify clear, high-impact problems that readers/applicants will notice and that would be embarrassing (the obvious typo \u201cpromoting sentient forwarding\u201d), materially confusing (ambiguous on-site/remote expectations and relocation/visa support), and operationally harmful (mixed and unclear compensation formats, employment type, probation/term, and conflicting deadlines). Fixing them would significantly improve applicant experience and reduce pointless inquiries, without requiring large additions (or the added detail can be kept as brief, per-role one-liners). The only caveat is that some full details may live on the linked careers page, so the post should at least summarize the concrete answers rather than leave ambiguity."
+  },
+  "PostAuthorAura": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find evidence that a writer named Ryan Kidd is a known figure in the EA/rationalist community or more broadly. The name is common (including a former English footballer), and there are no clear high-profile publications, talks, or leadership roles in EA forums, LessWrong, EA Forum, or major EA organizations linked to that name. If this is a pseudonym or you can supply links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear TL;DR, headings for each role, concise responsibilities and compensation info, and application links/dates. Weaknesses: a few minor typos/awkward phrasings (e.g. \u201cwe encourage you apply\u201d, \u201cpromoting sentient forwarding\u201d) and small inconsistencies about remote vs. on-site preferences across roles; some repetition between similar role descriptions. Overall clear and appropriately detailed for a hiring post."
+  },
+  "PostNovelty": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily a straightforward hiring announcement for an existing EA program (MATS). It contains routine content (role descriptions, responsibilities, compensation, application links) rather than new arguments, theories, or proposals. The only mildly unusual elements are the niche focus on AI\u2011alignment roles (including a governance research manager) and specific on\u2011site Berkeley logistics/benefits, but those are organizational details rather than novel ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "This is primarily a clear, well-structured hiring announcement (strong on organization and transparency about roles, responsibilities, and compensation) rather than an argumentative piece. Claims about MATS's mission and impact are plausible but largely asserted rather than argued\u2014there's little in-post reasoning about why the program is an especially effective way to reduce AI risk. The post links to a theory-of-change and an alumni impact analysis (helpful), but it does not summarize quantitative outcomes or provide direct evidence of effectiveness, so empirical support within the post is limited."
+  },
+  "PostExternalValidation": {
+    "post_id": "sHj8YtGQpzwD2psFF",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major empirical claims in the post are accurate and verifiable. The MATS program exists and the EA Forum / LessWrong job post (Apr 8, 2025) matches the MATS careers page: the listed open roles, Bay\u2011Area (Berkeley) location requirement, compensation ranges, benefits (catered meals, health/dental/vision), and application-deadline windows (late Apr / early May 2025) are corroborated. MATS\u2019s retrospective and alumni-impact analyses cited in the post are publicly available. Minor issues: small wording differences/typos between crossposts (e.g., \u201csentient forwarding\u201d vs \u201csentient flourishing\u201d), and the careers page shows some roles as already closed and gives slightly different phrasing for specific \u201capply-by\u201d notes (e.g., Research Manager equal-consideration date Apr 27, closing May 2). These are small timing/wording differences and do not undermine the post\u2019s core claims.",
+    "sources": [
+      "EA Forum post \u2014 \"MATS is hiring!\" by Ryan Kidd, Apr 8, 2025 (Effective Altruism Forum). Source used to verify the post content.",
+      "MATS Careers \u2014 \"Join our team\" (matsprogram.org/careers). Source used to verify job listings, compensation ranges, Berkeley requirement, benefits, and application dates/closure status.",
+      "LessWrong crosspost \u2014 \"MATS is hiring!\" (lesswrong.com post crossposted content). Confirms same listing and links.",
+      "MATS Alumni Impact Analysis (EA Forum / MATS) \u2014 alumni outcomes and impact summaries referenced in the job post.",
+      "MATS Summer 2023 Retrospective (LessWrong) \u2014 program statistics and retrospective referenced by the post.",
+      "MATS Program homepage \u2014 matsprogram.org (program description, mission, and organizational details, including nonprofit status and team pages)."
+    ]
+  }
+}

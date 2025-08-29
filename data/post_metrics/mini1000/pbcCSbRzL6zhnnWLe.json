@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This pre-print is quite important for the EA/AI-safety/biosecurity community because it directly bears on near-term threat estimates, prioritization, and policy choices (e.g., model governance, nucleic acid screening). The finding that expert median forecasts imply a substantial jump in annual catastrophic-biosafety risk if LLMs reach certain capabilities \u2014 together with the claim experts underestimate current progress \u2014 is load-bearing for arguments about urgency and interventions. It is not fully foundational (it's based on expert surveys and benchmarks, not causal empirical proof), so it shouldn't by itself settle strategy, but it meaningfully shifts risk estimates and mitigation priorities. For general humanity it is moderately important: if the conclusions are correct this affects pandemic risk and policy, but the result is still technical and intermediary (policy-makers and specialists would translate it into action), and uncertainties in forecasting limit its direct societal impact until corroborated by further evidence."
+  },
+  "PostRobustness": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify the conditional nature and limits of the headline risk numbers. The 0.3% \u2192 1.5% annual risk is conditional on AI meeting specific benchmark tasks; readers will likely misread this as an unconditional prediction. Say explicitly what benchmarks were used, how the counterfactual was framed for respondents, how the median was computed, and how much cross-expert dispersion and tail risk there is (e.g., interquartile range, any high-end tails). If space is tight, add one short sentence: \u201cthese are conditional medians with large between-expert variation and non-negligible high-end tails.\u201d\n\n2) Address selection, calibration, and consistency issues with relying on the expert sample. The study uses only 46 domain experts and 22 superforecasters \u2014 that\u2019s small and possibly non-representative. Note likely selection bias, possible domain blind spots (e.g., ML researchers vs wet-lab biologists), and the apparent inconsistency of using expert judgment while also claiming experts systematically underestimated progress. Either explain why expert forecasts are still informative despite that bias (e.g., calibration adjustments, robustness checks) or tone down reliance on them.\n\n3) Don\u2019t overstate mitigation efficacy or the claim that \u201csome capabilities have already been achieved\u201d without specifics. Briefly note major counterarguments: practical, political, and enforcement barriers to mandatory screening and model safeguards; adversaries evading controls (fine-tuning, open weights, non-LLM channels); and uncertainty about how effective safeguards are against motivated misuse. If you mention the SecureBio finding, add a one-line pointer to which capability was tested or explicitly link to the evidence, or otherwise hedge the claim to avoid misleading readers.",
+    "improvement_potential": "This feedback highlights major clarity and credibility issues that would materially improve the post: the headline risk numbers are plausibly misleading as unconditional claims, the small/non\u2011representative expert sample and calibration concerns are important caveats, and the mitigation/capability claims need tightening or sourcing. The suggestions are practical and concise (even offering a one\u2011sentence hedge), so addressing them would substantially reduce the risk of reader misunderstanding without greatly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "\u2018Forecasting Research Institute\u2019 appears to be a small or possibly pseudonymous entity with little visibility in mainstream EA/rationalist circles. It is not widely recognized like Metaculus, Good Judgment, or FHI, and there is minimal public or academic presence attributable to that exact name. If you can share links or specific works, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "clarity_score": 8,
+    "explanation": "Overall clear, concise, and well-structured: it states the paper's purpose, sample sizes, key quantitative result (0.3% \u2192 1.5%), and main takeaways about underestimated timelines and mitigations, and provides a link. Weaknesses: a few vague phrases (e.g., what specific benchmarks/\u2018virology troubleshooting test\u2019 entail; the claim about SecureBio results is not detailed), and a little jargon that could confuse non-expert readers."
+  },
+  "PostNovelty": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "novelty_ea": 4,
+    "novelty_humanity": 5,
+    "explanation": "For EA Forum readers this is only moderately novel: the article assembles familiar concerns (LLMs enabling biological misuse), expert/superforecaster surveys, and familiar mitigations (DNA screening, model safeguards). The most original elements are the specific empirical forecasts (e.g. 0.3% \u2192 1.5% annual risk for >100k-death epidemics), the documented tendency of experts to underpredict near-term AI progress, and the claim that some capabilities may already exist. For the general public the combination of quantified expert forecasts and the finding that mitigation can largely restore baseline risk is somewhat more novel, but the core ideas (AI can increase bio risk; safeguards can help) are already widely discussed."
+  },
+  "PostInferentialSupport": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post summarizes a systematic effort \u2014 eliciting probabilistic forecasts from domain experts and superforecasters, tying risk changes to concrete performance benchmarks, and explicitly asking about mitigations. Framing risks as conditional on measurable LLM capabilities and including both expert and forecasting communities are good reasoning choices that improve transparency and interpretability.\n\nWeaknesses: The arguments rest heavily on subjective expert judgment from a fairly small sample (46 domain experts, 22 forecasters) with unknown representativeness and potential selection/anchoring biases. Translating performance on benchmark tasks (e.g., a virology troubleshooting test) into real-world epidemic risk involves many unmodeled causal steps (malicious actor access, intent, operationalization, detection/response capacity). The summary mentions empirical work with SecureBio claiming some capabilities already exist, but provides no detail here about methods or scope. Claims about mitigation efficacy also depend on implementation, compliance, and adversary adaptation, which are not addressed in the summary. Overall, the paper provides useful, structured expert evidence that suggests concern is warranted, but empirical support is limited and causal links to real-world outcomes remain uncertain."
+  },
+  "PostExternalValidation": {
+    "post_id": "pbcCSbRzL6zhnnWLe",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims in the post are verifiable and supported by primary sources: the Forecasting Research Institute (FRI) project page and publications list report the survey sample (46 domain experts + 22 superforecasters), the reported median baseline and conditional risk jump (0.3% \u2192 1.5%), and the claim that experts expected capabilities only after ~2030. Independent, citable empirical work (the Virology Capabilities Test / VCT) and mainstream reporting (TIME, eWeek, etc.) corroborate the claim that recent frontier LLMs (e.g., OpenAI\u2019s o3) outperform expert virologists on a specialized virology troubleshooting benchmark \u2014 which FRI cites as evidence some capability thresholds have already been crossed. Weaknesses / caveats: I could not fetch the FRI PDF directly during checking (their site provides the preprint link and publication metadata), so my verification relies on FRI\u2019s public pages plus the VCT arXiv paper and media coverage; the mapping from benchmark performance to actual epidemic risk is inherently contested and uncertain (there is recent literature arguing current LLMs do not yet meaningfully increase biorisk), so the interpretation that a benchmark uplift implies the precise change in annual epidemic risk is model-dependent. Overall: the factual, reportable parts of the post (sample sizes, reported medians, existence of the VCT results) are well-supported; the causal inference from capabilities \u2192 quantified epidemic-risk increase is plausible in their preprint but remains debated in the literature.",
+    "sources": [
+      "Forecasting Research Institute \u2014 'Forecasting Biosecurity Risks from LLMs' (project/publication page; Jul 2025) \u2014 forecastingresearch.org/ai-enabled-biorisk",
+      "Forecasting Research Institute \u2014 Publications list (names/authors; 2025) \u2014 forecastingresearch.org/publications",
+      "G\u00f6tting J., Medeiros P., Sanders J. G., et al. \u2014 'Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark' (arXiv preprint, 21 Apr 2025) \u2014 arXiv:2504.16137",
+      "TIME (Andrew R. Chow) \u2014 'Exclusive: AI Outsmarts Virus Experts in the Lab, Raising Biohazard Fears' (news coverage of the VCT results, 2025) \u2014 time.com article reporting on the VCT findings",
+      "Open Philanthropy \u2014 Grant page: 'SecureBio \u2014 AI Benchmark Improvements' (March 2025) \u2014 documents describing SecureBio work on the VCT / expert baseline study",
+      "Center for AI Safety / related reporting summarizing the VCT results (multiple outlets including eWeek / EA Forum discussions referencing the VCT and its implications)",
+      "Peppin A., Reuel A., Casper S., et al. \u2014 'The Reality of AI and Biorisk' (arXiv preprint, 2 Dec 2024) \u2014 arXiv:2412.01946 (represents an alternate assessment arguing current LLMs do not yet meaningfully increase biorisk)"
+    ]
+  }
+}

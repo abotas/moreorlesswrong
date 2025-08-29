@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "The post raises a relevant strategic question for the EA community\u2014whether Open Phil\u2019s move into economic growth addresses a common critique that EA favors \u2018legible\u2019 interventions over system-level change. That makes it mildly useful for prompting discussion about funding priorities and strategy. However, the post is just a prompt/opinion query rather than new evidence or analysis, so it isn\u2019t load-bearing for EA\u2019s overall worldview. Its direct impact on general humanity is very limited: the underlying topic (how major funders allocate resources) can matter a lot if it leads to big shifts in funding, but this particular forum post does not by itself change policy or outcomes."
+  },
+  "PostAuthorAura": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "Ian Turner is a common name and I could not find a clearly identifiable, prominent author by that name in the EA/rationalist community. No widely-cited EA posts, talks, or major publications tied to an Ian Turner are apparent; globally the name has minor online presence across different people. If you mean a specific Ian Turner (link, book title, affiliation), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "clarity_score": 7,
+    "explanation": "The post is short and asks a focused question, so it's generally easy to understand and appropriately concise. Strengths: it frames a common objection to EA and asks for reactions to Open Philanthropy's new program area. Weaknesses: one sentence is awkwardly phrased (grammatical clarity suffers), the abbreviation \"OP\" could be ambiguous to some readers, and it doesn't specify what the \"new program area\" is or give examples\u2014also uses EA-specific jargon like \"legible programs\" that might confuse newcomers."
+  },
+  "PostNovelty": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "The central claim \u2014 that EA tends to favor legible interventions over systemic economic-development approaches \u2014 is a well-worn critique within the EA/LT community, and soliciting reactions to Open Phil\u2019s new economic-growth program is a straightforward topical question. For general readers the specific link to Open Philanthropy\u2019s program area may be somewhat less familiar, but the underlying idea (debate between targeted aid vs broad economic development) is still common, so the post is only mildly novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post is primarily a prompt/question that highlights a relevant critique (EA favoring 'legible' programs over system-level economic development) but does not advance a developed argument. It neither lays out a theory of change nor explains how Open Philanthropy's new program area addresses that critique, so the logical structure is minimal and speculative. There is no empirical evidence, citations, or outcome data provided. Strength: it raises a useful question and points to an important objection. Weaknesses: lacks detail about the program, mechanisms, evidence, or counterarguments, leaving the claim essentially unsupported."
+  },
+  "PostExternalValidation": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Well-supported. The post\u2019s central empirical claims are verifiable: (1) it is indeed a common objection within and outside the EA community that EA disproportionately emphasizes \u2018legible\u2019/tractable interventions (e.g., health, cash transfers) over system\u2011level or political/economic change \u2014 this critique appears across EA Forum posts, academic and journalistic critiques (e.g., Amia Srinivasan, institutional critiques, EA Forum threads). (2) Open Philanthropy has publicly launched a new program on \u201cEconomic Growth in Low- and Middle-Income Countries\u201d (announced Oct 16, 2024) and stated an initial target of ~\\$30M in grants over the first three years. Weaknesses / caveats: the post generalizes about \u201conly\u201d looking at legible programs \u2014 while the critique is common and well-documented, EA is heterogeneous (some EA actors already fund policy, macroeconomic work, and longtermist causes). Also, whether economic\u2011growth\u2011focused philanthropy will be more effective than legible interventions is contested and not settled by the evidence cited here.",
+    "sources": [
+      "Open Philanthropy \u2014 Economic Growth in Low- and Middle-Income Countries (program page), published Oct 16, 2024. (OpenPhil.org).",
+      "Open Philanthropy \u2014 Research summary: Economic Growth in Low- and Middle-Income Countries (cause investigation), Oct 16, 2024 (notes \\$30M over first 3 years and sample grants).",
+      "Open Philanthropy \u2014 Job announcement: Launching a search for a Program Officer to lead our new Economic Growth in LMICs program, Oct 16, 2024.",
+      "Amia Srinivasan, 'Stop the Robot Apocalypse: The New Utilitarians' (London Review of Books) \u2014 prominent critique that EA emphasizes tractable/individual interventions over structural change.",
+      "EA Forum \u2014 'Illegible impact is still impact' (Gordon Seidoh Worley) and related EA Forum discussions about 'legibility' and the movement\u2019s measurability bias.",
+      "Alice Crary, 'Against \u201cEffective Altruism\u201d' (Radical Philosophy) \u2014 discussion of the institutional critique and measurability bias in EA literature.",
+      "Cambridge Core \u2014 'Better vaguely right than precisely wrong in effective altruism: the problem of marginalism' (peer\u2011reviewed discussion of EA\u2019s measurement biases and limits)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "nktXYzoG2AYAcHToY",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing concrete details about the Open Phil program \u2014 without a short summary of the program\u2019s stated goals, budget, timescale, and intervention types readers can\u2019t evaluate the objection you raise. Action: add 2\u20133 sentences summarizing OP\u2019s announcement (or link to it) and the specific activities the program will fund. \n\n2) Vague framing of the critic\u2019s view and of your question \u2014 you assume critics share a single \u2018\u2018systemic vs. legible\u2019\u2019 critique but don\u2019t say which parts of economic development policy you think matter (macroeconomic policy, institutions, industrial policy, global trade, governance, etc.). Action: pick 2\u20133 concrete objections you expect critics to make (e.g., crowding out, capture by local elites, difficulty of causal evaluation, long time horizons) and ask targeted questions about how OP\u2019s program would handle them.\n\n3) Overlooks plausible counterarguments and evaluation criteria \u2014 the post treats scale/legibility as the only trade-off and doesn\u2019t acknowledge reasons a funder might prioritize more legible interventions (tractability, measurable counterfactuals, downside risk, political constraints). Action: briefly acknowledge those trade-offs and propose specific criteria you want critics to apply when assessing OP (e.g., expected cost-effectiveness, risk of harm, evidence of scalability, monitoring/evaluation plans).",
+    "improvement_potential": "The feedback targets major, concrete weaknesses: missing basic program details, overly vague framing of critics\u2019 views, and failure to acknowledge plausible counterarguments/trade-offs. Each point is actionable and can be fixed with a few sentences or a link, so the suggestions are high-impact without unduly lengthening the post. Addressing them would substantially improve clarity and answerability."
+  }
+}

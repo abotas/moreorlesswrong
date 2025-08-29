@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a moving personal essay that connects grief to the broader AI speed-vs-safety tradeoff and serves as a motivator and morale piece for people in the EA/AI-safety community. It is useful for outreach, humanizing motivation, and shaping sentiment about urgency, but it offers little new evidence, analysis, or policy guidance. Its conclusions are emotionally powerful but not load\u2011bearing for technical or strategic decisions. For general humanity it\u2019s meaningful as a human story but has low practical impact on large-scale decisions or knowledge."
+  },
+  "PostRobustness": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big empirical leap: you assert we\u2019re \u201csurprisingly close\u201d to longevity escape velocity and that accelerating AI in the near term would plausibly have saved your mother. That is the post\u2019s central empirical engine but it\u2019s presented without evidence. Either (a) add citations and a short explanation for how AI concretely speeds geroscience (papers, timelines, mechanism, and an estimate of how many years earlier key therapies could arrive), or (b) soften the claim to a subjective intuition and clearly mark it as speculative. Readers will judge the rest of the piece by how credible this link looks.  \n\n2) Missing engagement with the core tradeoff and uncertainty structure: you frame a stark lives-now vs. future-trillions choice but don\u2019t state the normative framework or the uncertainties that make that choice contested. Before publishing, (a) briefly acknowledge population-ethics assumptions (total utilitarian vs person-affecting intuitions), (b) note key empirical uncertainties (probability that AI causes extinction, probability that AI materially accelerates longevity enough to matter for people now), and (c) either give a short, transparent EV-style sketch or point to literature/analyses that justify why one side should dominate. That will stop readers from dismissing the piece as an emotional anecdote shoehorned into a technical argument.  \n\n3) Ambiguous and emotionally mixed policy signal: the post oscillates between \u201cgo slow\u201d and urgency to move fast but never says what policies you actually recommend. Make your stance actionable and internally consistent: say whether you advocate (for example) more funding for AI safety research plus targeted funding for medical/geroscience AI, stronger governance that allows safe medical deployment while constraining risky capabilities, or something else. If your goal is mainly to motivate urgency, say so; if you want to influence policy, offer 2\u20134 concrete recommendations readers can act on or share (funding, advocacy, research priorities).",
+    "improvement_potential": "The feedback identifies three substantial, actionable weaknesses: an unsupported empirical claim linking near-term AI to meaningful life-extension; a failure to surface the normative and empirical uncertainties behind the central lives-now vs future-trillions tradeoff; and an unclear policy/action recommendation. Fixing these would materially strengthen the piece\u2019s credibility and persuasive power without derailing the memoir tone. The suggestions are practical (add citations or qualify claims, state ethical assumptions/probabilities, give concrete policy asks) and wouldn\u2019t excessively bloat the post. The only reason not to score higher is that this is partly a personal essay where some speculation and emotional framing are defensible; the feedback rightly presses for clarity but could be seen as pushing the piece toward a more technical form than the author may want."
+  },
+  "PostAuthorAura": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that 'Gordon Seidoh Worley' is a known figure in the EA/rationalist community or more broadly \u2014 no notable publications, presence on core EA/rationalist platforms (LessWrong, EA Forum), academic listings, or mainstream-media recognition. Possibly a pseudonym or an obscure/private individual."
+  },
+  "PostClarity": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "clarity_score": 8,
+    "explanation": "The post is highly comprehensible and well-structured: a clear, evocative personal narrative followed by a concise statement of the author's position on AI risk and the speed vs. safety tradeoff. The emotional material is easy to follow and supports the rhetorical transition to the policy/ethical point. Weaknesses: the jump from grief to the technical tradeoff is somewhat rhetorical and simplified (e.g., \"the terrible price of taking even one day more\" can read as hyperbolic or ambiguous), and the tradeoff framing could use a bit more precision for readers seeking a rigorous argument. Overall it is clear, compelling, and appropriately detailed for a personal essay."
+  },
+  "PostNovelty": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "The post is primarily a personal grief narrative that applies a well-known EA/longtermist framing (the speed-vs-safety tradeoff for AI, and how AI could accelerate medical/ longevity advances) to that grief. For EA readers those ideas and the moral accounting are familiar and commonly discussed, so the contribution is emotionally powerful but not conceptually new. For the general public the specific linking of a personal recent death to the urgency of AI-driven longevity research balanced against existential risk is less common and somewhat more novel, though still readily understandable and not a radically new argument."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "This post is primarily a personal narrative that connects grief to a policy preference about AI pacing. Its emotional and rhetorical case is coherent and honest about uncertainty, but the argumentative structure is informal and lacks rigorous justification. Key claims (e.g. that longevity escape velocity is likely within two decades; that AI progress will materially accelerate life-saving longevity research; the probabilities of existential catastrophe from AGI) are asserted without supporting data, citations, or quantitative tradeoff analysis. Strengths: clear motivation, acknowledgement of the tradeoff, and transparency about values. Weaknesses: reliance on anecdote, limited empirical evidence, no engagement with counterarguments or probabilistic estimates, and insufficient substantiation of central empirical premises."
+  },
+  "PostExternalValidation": {
+    "post_id": "rMbJk6WMsJKMSxP9g",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post is primarily a personal narrative; its single concrete epidemiological claim \u2014 \u201cbacterial meningitis \u2026 about 3,000 people in the US annually\u201d \u2014 is broadly in the right range but slightly low compared with recent surveillance estimates (recent U.S. surveillance puts annual cases in the ~3,400 range in 2022\u201323 and historically ~4,100 in earlier periods). Most other empirically-testable statements in the piece are either personal/anecdotal (not verifiable from public sources) or forward-looking/speculative (e.g., reaching \"longevity escape velocity\" within two decades, or that AI both accelerates longevity research and creates an existential risk). The claim that AI is accelerating biomedical research is well-supported by concrete examples (AlphaFold, AI-driven drug-discovery initiatives), but forecasts about longevity timelines and existential outcomes are contested and not empirically settled. Overall: no major factual errors, one approximated statistic (acceptable but slightly understated), and several claims that are opinion/speculation rather than verifiable facts.",
+    "sources": [
+      "Prasad N. et al., \"The epidemiology of bacterial meningitis in the United States during 2008\u20132023,\" Lancet Regional Health \u2013 Americas, May 12, 2025 (PMC article) \u2014 recent multistate surveillance estimates of ~3,408\u20133,944 annual cases across periods. (PMC/NCBI).",
+      "Brouwer MC et al., \"Bacterial meningitis in the United States, 1998\u20132007,\" New England Journal of Medicine \u2014 historical estimate ~4,100 cases/year (2003\u20132007 period).",
+      "CDC \u2014 Meningococcal Disease Surveillance and Trends (CDC pages, 2023\u20132025 advisories) \u2014 context on meningococcal incidence and recent changes.",
+      "CDC Health Alert Network (HAN) March 28, 2024 \u2014 advisory on increase in invasive serogroup Y meningococcal disease in the U.S.",
+      "DeepMind / AlphaFold publications and blog (Nature / DeepMind 2020\u20132022 releases) \u2014 example of AI accelerating biological discovery (protein-structure prediction).",
+      "Financial Times / Wired / Nature/Science reporting and peer-reviewed examples (2023\u20132025) of AI applications to drug discovery and bio R&D, including early AI-discovered drug candidates entering trials (e.g., reporting on Insilico/AI-designed compounds and 2024\u20132025 Nature Medicine / Nature Biotechnology coverage).",
+      "Wikipedia / surveys and commentary on \"longevity escape velocity\" (entries summarizing proponents like Ray Kurzweil and Aubrey de Grey) and reporting on the concept's speculative status.",
+      "Aubrey de Grey and commentators (public statements/predictions) and mainstream press coverage (e.g., The Economist, The Guardian) \u2014 show that LEV predictions are speculative and contested.",
+      "Surveys and reviews of AI expert opinion and risk (e.g., recent literature and surveys, and the 2023 open letter/time reporting) \u2014 demonstrate many reputable AI researchers express concern about extreme risks from advanced AI but there is no scientific consensus on existential timelines."
+    ]
+  }
+}

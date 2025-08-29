@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "value_ea": 2,
+    "value_humanity": 1,
+    "explanation": "This is a brief newcomer introduction rather than a substantive argument or evidence-based claim. It has minimal direct impact on policy or theory; its main value is social (community-building, signalling interest), so it's slightly relevant to the EA community but trivial for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Unclear purpose \u2014 the post doesn\u2019t say what you want from readers. Before publishing, state one or two specific requests (e.g. \u201cCan someone give feedback on why my EAGx application might have been rejected?\u201d, \u201cWhat are good next steps to get involved in EA in Nigeria?\u201d, or \u201cCan anyone mentor me on career/cause prioritization?\u201d). Specific asks lead to useful, actionable replies.\n\n2) Missing personal/contextual details \u2014 readers can\u2019t give tailored advice without basic background. Add brief, relevant facts: your location (city/region in Nigeria), education/skills, available time and money for volunteering or donating, which EA topics you\u2019re most interested in, and what exactly you tried in your EAGx application. Also proofread for grammar and clarity \u2014 a cleaner post gets more engagement.\n\n3) Don\u2019t assume rejection means you\u2019re not a fit \u2014 explicitly ask for feedback and list alternatives you\u2019ve tried/will try. Say you\u2019d like pointers to local EA groups, online communities (reading groups, Slack/Discord), remote volunteering opportunities, or resources beyond 80,000 Hours/podcasts. That both signals you\u2019re proactive and prevents responders from repeating obvious suggestions.",
+    "improvement_potential": "The feedback identifies the post\u2019s main faults (vague ask, missing context, unclear implications of rejection) and gives concrete, concise fixes that would substantially increase helpful responses. These are critical improvements \u2014 without them the post is much less likely to get useful replies \u2014 but they don\u2019t imply a fundamentally wrong thesis or require excessive lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find a notable EA/rationalist author known simply as \u201cMadelin.\u201d The name is ambiguous/possibly a pseudonym and does not appear in major EA outlets (EA Forum, LessWrong), prominent talks, or academic citation records up to my 2024-06 cutoff. If you can share a link or more context (works, platform), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "clarity_score": 6,
+    "explanation": "Overall understandable: the author introduces themselves, says how they found EA, lists topics they\u2019ve engaged with, and asks to learn how to do the most good. Strengths: friendly tone and clear intent. Weaknesses: several grammar/typo issues and awkward phrasing (e.g. \"I have gone the Global health...\"; \"application was turn down\"), and the request is vague\u2014could be clearer by specifying what kind of help or information they want."
+  },
+  "PostNovelty": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine introductory post with no new arguments, evidence, or proposals. The content\u2014discovering EA via 80,000 Hours, interest in global health/animal welfare, and asking how to do more good\u2014is extremely common. The only mildly specific detail (being turned down for EAGx Nigeria) is personal anecdote, not a novel idea."
+  },
+  "PostInferentialSupport": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "This is primarily a personal introduction and request for guidance rather than an argument, so there is little to evaluate in terms of logical reasoning\u2014statements are coherent but no structured argument is offered. There is no empirical evidence presented to support any claims. The post shows genuine interest (mentions resources like 80,000 Hours, topics) which is a strength, but it lacks a clear thesis, claims, or supporting data, so overall support for any substantive conclusion is very weak."
+  },
+  "PostExternalValidation": {
+    "post_id": "sh4sFbfB9yvbMT7xE",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most claims are personal and therefore not independently verifiable (e.g., that the author \u2018applied\u2019 and was \u2018turned down\u2019). Institutional claims in the post are accurate and verifiable: 80,000 Hours exists and runs an in-depth podcast; Effective Altruism has public cause pages on Global Health and Animal Welfare; and EAGx (including a recent EAGxNigeria event page) runs application-based conferences. No reliable sources contradict the post, but the author\u2019s personal application outcome cannot be confirmed externally.",
+    "sources": [
+      "80,000 Hours \u2014 The 80,000 Hours Podcast page (80000hours.org/podcast)",
+      "Effective Altruism \u2014 Animal Welfare cause profile (effectivealtruism.org/articles/cause-profile-animal-welfare)",
+      "Effective Altruism \u2014 Global Health and Development cause profile (effectivealtruism.org/articles/cause-profile-global-health-and-development)",
+      "EAGx Nigeria event page \u2014 EA Global / EAGx (effectivealtruism.org/ea-global/events/eagxnigeria-2025)",
+      "EA Forum post announcing EAGxNigeria (forum.effectivealtruism.org post about EAGxNigeria: July 11-13, 2025)"
+    ]
+  }
+}

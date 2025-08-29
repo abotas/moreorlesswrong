@@ -1,0 +1,48 @@
+{
+  "PostValue": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "A useful, concrete contribution to the study of post\u2011catastrophe resilience: it compiles plausible open datasets into a granular, geographically explicit index (GSTRI) and identifies candidate hotspots that merit further study. For the EA/longtermist community it is moderately important \u2014 it can inform prioritization, scenario modelling, and targeted follow\u2011up (expert weighting, social/governance overlays, threat\u2011specific modelling) but is not foundational because it omits security, governance, demographic and dynamic climate/contamination effects and uses arbitrary weighting/resampling choices. For general humanity the direct impact is smaller: it could inform some disaster\u2011planning conversations but would need major refinement and political buy\u2011in to change large\u2011scale decisions. Overall the post is a helpful baseline and conversation starter rather than a decisive or load\u2011bearing result."
+  },
+  "PostAuthorAura": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find a recognizable EA/rationalist figure or widely known public author using the name/handle \"Liam \ud83d\udd38\". With no links, publications, or further context, there is no evidence of prominence in EA circles or the broader public. Provide samples/URLs if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and largely comprehensible: it has a clear thesis (the GSTRI), organized sections (abstract, methods, results, discussion), thorough figures/tables and full references, so the main argument and findings are easy to follow. Weaknesses are verbosity and occasional dense technical detail (resampling/percentile choices, some table values) that may overwhelm non\u2011specialist readers, plus a few methodological choices (e.g., excluding security/health) that could use a shorter, sharper justification in the main text rather than only the methods/limitations. Overall it reads like a competent academic paper but would benefit from a more concise summary of key assumptions and a streamlined methods narrative for broader accessibility."
+  },
+  "PostNovelty": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "novelty_ea": 4,
+    "novelty_humanity": 7,
+    "explanation": "For EA Forum readers the post is moderately unoriginal: it mostly synthesizes existing lines of work (island \u2018lifeboats\u2019, \u2018nodes of persisting complexity\u2019, climate\u2011niche and caloric yield studies) and applies standard GIS techniques and published global datasets to produce a composite index. Its main novel contributions are pragmatic and methodological \u2014 a fine\u2011grained, global raster GSTRI that intentionally excludes socio\u2011political variables and highlights continental hotspots rather than focusing on islands \u2014 rather than new theory. For the general public the idea is substantially more novel: most non\u2011specialists have not seen a systematic, global, subnational mapping of inherent post\u2011catastrophe recovery potential using these combined datasets and hotspot analyses."
+  },
+  "PostInferentialSupport": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is well-structured, grounded in relevant literature, and transparent about data sources and procedures (explicit sub-indices, spatial methods, and hotspot detection). The threat-agnostic framing and use of spatial statistics (Moran\u2019s I, Getis-Ord Gi*) are appropriate for the stated aim of mapping physical-environmental suitability. Weaknesses: Key conceptual assumptions are insufficiently defended \u2014 notably the decision to exclude socio-political and institutional factors, the use of a simple additive/Equally-weighted index without sensitivity or weighting justification, and treating sub-indices as independent despite multicollinearity. Methodological issues (mixing datasets of different vintages/resolutions, coarse resampling, reclassification choices, reinserting zeros, and lack of robustness checks) reduce confidence in the derived hotspots. Evidence gaps: datasets used are generally reputable but some are dated and several important validation steps are missing (no sensitivity analyses, no historical or empirical validation of hotspots as recovery-capable areas, and little assessment of uncertainty). The nuclear-war discussion is speculative and under-modeled. Overall, the study provides a useful preliminary map of physically favorable regions but the reasoning and empirical support are not strong enough to robustly claim those locations would reliably enable post-catastrophe civilizational recovery without substantial further work."
+  },
+  "PostExternalValidation": {
+    "post_id": "2ZeXEXE6uLjLxYf9g",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Strengths: The post cites reputable, publicly available datasets and peer\u2011reviewed literature (e.g., Xu et al. 2020 PNAS on the human climate niche; Galor & \u00d6zak caloric\u2011suitability data; Oakleaf et al. 2019 DPIs; Kummu et al. 2011 distance\u2011to\u2011water; Dilley et al. 2005 multihazard). The methods described (QGIS/GRASS reclassification, GeoDa Moran\u2019s I and Getis\u2011Ord Gi* hotspot testing) are standard and appropriate for spatial hotspot analysis. Weaknesses / limits to verification: the core, novel empirical outputs (the GSTRI raster, the reported Moran\u2019s I = 0.832, the hotspot count of 218, and the ranked ten largest hotspots) are not independently verifiable from the post alone because the author has not published the generated GSTRI raster, hotspot shapefiles, or analysis scripts. Several methodological choices (equal weighting by summing reclassified percentiles, choice of percentile breaks, aggressive resampling to 1,800 arc\u2011seconds) are defensible but arbitrary and could materially change results; these choices should be shared with code/data for reproducibility. The Natural Hazard dataset used (Dilley et al., 2005) is relatively old (2000-era) as the author notes, which could affect hazard scores. Overall: the approach is plausible and grounded in sound data, but the specific numerical claims require the author\u2019s code/data (GSTRI layers and hotspot polygons or scripts) to be fully validated.",
+    "sources": [
+      "EA Forum post: Identifying Geographic Hotspots for Post\u2011Catastrophe Recovery \u2014 Liam (Effective Altruism Forum, Mar 2025).",
+      "Xu, C., Kohler, T.A., Lenton, T.M., Svenning, J.-C. & Scheffer, M. (2020). Future of the human climate niche. Proceedings of the National Academy of Sciences. DOI: 10.1073/pnas.1910114117.",
+      "Galor, O. & \u00d6zak, \u00d6. (2016). The Agricultural Origins of Time Preference. American Economic Review (AER); Caloric Suitability Index data (\u00d6. \u00d6zak) on Zenodo and GitHub (Caloric\u2011Suitability\u2011Index repository). Zenodo DOI: 10.5281/zenodo.14714917; GitHub: ozak/Caloric-Suitability-Index.",
+      "Oakleaf, J.R., Kennedy, C.M., Baruch\u2011Mordo, S., et al. (2019). Mapping global development potential for renewable energy, fossil fuels, mining and agriculture sectors. Scientific Data. DOI: 10.1038/s41597-019-0084-8; associated figshare DOI: 10.6084/m9.figshare.c.4249532.v2.",
+      "Kummu, M., de Moel, H., Ward, P.J., & Varis, O. (2011). How close do we live to water? A global analysis of population distance to freshwater bodies. PLoS ONE. (distance\u2011to\u2011water dataset / Dryad repository cited in the post).",
+      "Dilley, M., Chen, R.S., Deichmann, U., et al. (2005). Natural Disaster Hotspots: A Global Risk Analysis / Global Multihazard Frequency and Distribution dataset (SEDAC). DOI cited on SEDAC (2005 dataset).",
+      "Anselin, L., Syabri, I., & Kho, Y. (2006). GeoDa: An Introduction to Spatial Data Analysis. Geographical Analysis. (GeoDa methods; Moran's I and Getis\u2011Ord Gi* implementations).",
+      "Galor & \u00d6zak (AER 2016) paper (author manuscript on PMC) confirming the caloric\u2011suitability concept and data provenance.",
+      "Oakleaf et al. (figshare/PMC) pages showing the Development Potential Indices (DPIs) available for download and reproducibility materials."
+    ]
+  }
+}

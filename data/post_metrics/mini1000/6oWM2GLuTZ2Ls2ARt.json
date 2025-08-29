@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "Within the EA/rationalist community this is fairly important: Rethink Priorities\u2019 Moral Weights Project is a highly cited, load-bearing piece of metaethical and empirical work that materially shapes where funds and attention go (especially between animal and human causes). A well-designed independent follow-up or critique could meaningfully shift prioritization, improve epistemic robustness, and reduce over-reliance on one research group, so discussion about whether and how to fund such work has high pragmatic value. For general humanity the post is of minor importance: it concerns internal research and funding decisions in a subcommunity and would only indirectly affect overall human welfare; the stakes are real for animal welfare philanthropy but not foundational for most global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No clear articulation of the decision-relevant uncertainty or expected value of new work. Right now you argue for \u201cmore work\u201d mostly on the basis that RP is influential and might be biased, but you don\u2019t say which specific assumptions or parameters matter most for real-world decisions (e.g. neuron-count weighting, behavioral score priors, farmed-animal vs human CE thresholds), how large the uncertainty is, or how likely new work is to change funding/prioritization. Actionable fix: add a short value-of-information framing \u2014 identify the top ~3 assumptions where disagreement would flip cost\u2011effectiveness conclusions, sketch plausible ranges, and either (a) estimate whether resolving them is likely to change decisions, or (b) propose a small VOI/scoping study as the first step.\n\n2) The recommendation to exclude people who worked on RP is an own goal and creates avoidable weaknesses. Excluding core experts will reduce methodological quality and looks like procedural bias; it also undermines cooperation and persuasive legitimacy. Actionable fix: replace a blanket exclusion with a governance plan that preserves expertise while managing bias: include RP authors as contributors but require independent auditors and skeptics on the steering committee, pre\u2011register methods, run blinded elicitation and separate moderators, disclose conflicts of interest, and publish all transcripts/data.\n\n3) Underestimates the risks and presents no staged/low\u2011cost pathway. You note harms (confusion, short\u2011term backsliding) but don\u2019t give a concrete mitigation or a low\u2011risk rollout. Actionable fix: recommend a staged program (scoping literature review + rapid critique \u2192 pilot re\u2011estimation focusing on the most sensitive parameters \u2192 full project only if pilot changes allocation-relevant conclusions). Include an explicit communications plan to minimize donor confusion (e.g. publish clear statements about what changed and why, and avoid headline numbers until consensus), and propose a rough budget/timeline for the pilot so readers can judge tractability.",
+    "improvement_potential": "The feedback targets major substantive and procedural gaps: it correctly flags the post\u2019s lack of decision-relevant uncertainty/VOI analysis, calls out an embarrassing 'exclude RP authors' own goal and offers practical governance alternatives, and demands a low\u2011risk staged plan and communications mitigations. Implementing these changes would materially strengthen the post without requiring huge expansion. It loses a couple points only because the feedback could be more concrete in prioritizing which RP assumptions likely flip allocations and in suggesting specific pilot sizes/budgets."
+  },
+  "PostAuthorAura": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not identify a notable EA/rationalist presence or public profile for 'NickLaing' (may be a pseudonym). Not listed among known EA authors, forum regulars, or public intellectuals up to my 2024 knowledge cutoff, and no significant mainstream visibility."
+  },
+  "PostClarity": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "clarity_score": 7,
+    "explanation": "The post is well-structured (title, pros/cons, proposed steps, disclosure) and will be easy to follow for readers familiar with EA and Rethink Priorities. It states the central question and lists concrete arguments and actions, which helps comprehension and persuasion. Weaknesses: occasional typos/repetition (e.g. \"land land\"), messy footnote anchors, some jargon and assumptions (\"MWP\", \"neuron counts\", \"behavioral score system\") that aren't explained for outsiders, and a few vague claims (\"almost every\", \"by a mile\"). The argument is reasonably clear but could be stronger by tightening language, removing small redundancies, and clarifying key terms and evidence. Overall concise but could be slightly more precise."
+  },
+  "PostNovelty": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For an EA Forum audience this is not very novel \u2014 EAs already frequently debate Rethink Priorities\u2019 moral weights, replication/robustness, funding tradeoffs, and the value of independent panels. The specific recommendations (exclude original authors, include sceptics of animal sentience, start from scratch) are sensible but standard safeguards rather than original ideas. For the broader educated public the topic is somewhat more niche and thus modestly more novel, but the core proposal \u2014 redoing/validating an influential analysis and diversifying experts \u2014 is a familiar theme in science and policy, so it\u2019s not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post raises plausible, well-motivated concerns (overreliance on a single influential project, value of independent approaches, potential bias in RP\u2019s team) and lays out both pro and con arguments rather than one-sided advocacy. The proposed steps for a new project are sensible discussion-starters and the author discloses relevant biases. Weaknesses: The arguments are largely qualitative and speculative rather than analytic \u2014 costs, benefits, and likelihoods are not quantified; important trade-offs (e.g. excluding original researchers loses expertise) are not explored; and potential harms or opportunity costs are asserted without evidence. Empirical support is minimal (mostly appeals to RP\u2019s prominence and the author\u2019s impressions) and the post provides little concrete data or literature to substantiate claims about bias, methodological gaps, or how much new work would change guidance. Overall, the post is a reasonable prompt for discussion but does not provide strong evidence or rigorous analysis that now is the right time to fund a new Moral Weights project."
+  },
+  "PostExternalValidation": {
+    "post_id": "6oWM2GLuTZ2Ls2ARt",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s central empirical claims are verifiable and supported by trustworthy sources: Rethink Priorities (RP) did run a major Moral Weights Project (May 2021\u2013Feb 2023) with published welfare-range estimates, methodological writeups, a \u2018Moral Parliament/Portfolio\u2019 tool and a follow-up book \u2014 and those materials explicitly show RP\u2019s headline implication that, using their weights, some farmed-animal interventions can look far more cost\u2011effective than typical human-focused interventions (e.g., the Portfolio Builder\u2019s high-end estimates ~1000 DALYs per $1k). RP also explicitly argued against using raw neuron counts as a sole proxy. Many EA Forum posts and RP pages refer to and reuse the MWP results, consistent with the author\u2019s claim that the work is influential. \n\nHowever, two empirical claims in the post are either overstated or not supported by available evidence: (a) the claim that the MWP is \u201cthe most cited \u2018EA\u2019 paper written in the last 3 years by a mile\u201d is a strong, quantifiable statement that I could not verify (no public citation metric supports that precise claim); and (b) the characterization that the project was \u201cspearheaded by animal welfare campaigners\u201d misrepresents the visible leadership and contributor list, which mainly comprises academic and research staff (e.g., Bob Fischer and subject-matter researchers). Also, the claim that RP \u201chaven\u2019t changed their numbers or processes\u201d is ambiguous \u2014 RP has published follow-ups (tools, a book, and responses to objections) though the core welfare-range estimates remain publicly available; I could not find authoritative evidence that RP never revised any numerical estimates after initial publication. \n\nBottom line: the post\u2019s empirical core (RP ran the project, its methods, the direction and magnitude of its headline implications, and that it is widely cited within the EA community) is well supported. Some of the author\u2019s emphatic/quantitative characterizations about citation dominance and origins of the team are unsupported or misleading.",
+    "sources": [
+      "Rethink Priorities \u2014 An Introduction to the Moral Weight Project (RP website / EA Forum repost).",
+      "Rethink Priorities \u2014 The Welfare Range Table / Welfare Range Estimates (methodology and species estimates).",
+      "Rethink Priorities \u2014 Moral Parliament Tool / Portfolio Builder (shows how RP weights drive portfolio allocations and gives the example ~1000 DALYs/$1k for high-end animal projects).",
+      "Rethink Priorities \u2014 Why neuron counts shouldn\u2019t be used as proxies for moral weight (RP post).",
+      "Rethink Priorities \u2014 New Open Access Book: Weighing Animal Welfare (book based on the project, Oxford University Press announcement).",
+      "EA Forum \u2014 The Moral Weight Project Sequence and multiple RP posts on the EA Forum (examples of frequent EA discussion and citation).",
+      "Bob Fischer \u2014 Rethink Priorities profile / bio (shows academic/research leadership rather than being characterized as campaigners)."
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Useful but not foundational. For the EA/AI-safety community the post is moderately important: it aggregates informed reporting about the UK AI Safety Institute, its ties to major labs, and evaluation challenges \u2014 information that can shape strategy, coordination, and advocacy, and influence perceptions of a relevant policy actor. However it\u2019s not a primary research or theoretical claim whose truth would radically change the field. For general humanity it\u2019s of minor importance: wider media coverage of AI safety institutions can affect public awareness and political pressure, but a single article/post has limited direct impact on outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Add a link and citation. The post doesn\u2019t link to the TIME piece (or give author/date). Include the URL, headline, author, and date so readers can open the article immediately and verify claims.\n\n2) Add a 2\u20133 sentence summary and your take. Right now the post is just praise. Give a concise summary of the article\u2019s main claims and one or two specific takeaways for EA readers (e.g. implications for policy, how AISI might change lab behaviour, or what evaluation challenges mean for funding/prioritisation). If you think the piece is \u2018well-informed\u2019, say why\u2014point to a particular passage or interview that convinced you.\n\n3) Flag important missing or contested angles. Before publishing, call out at least one plausible counterargument or limitation the TIME article (or your positive read) might be overlooking\u2014e.g. risks of regulatory capture/conflict-of-interest between AISI and major labs, practical limits of evaluations research, international coordination problems, or incentives that might blunt AISI\u2019s impact. Either link to a brief alternative source or pose a question for readers to discuss. This makes the post more useful and less credulous.",
+    "improvement_potential": "Very useful \u2014 it highlights clear, small fixes that address major omissions (no link/citation, no summary/take, uncritical tone). These are likely embarrassing 'own goals' for the author and would substantially improve reader value without much added length."
+  },
+  "PostAuthorAura": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name 'Rasool' is common/ambiguous and I cannot identify a clearly known EA/rationalist author or a globally prominent public figure by that single name. No evident publications, talks, or notable presence in EA/rationalist networks under just 'Rasool'. If you mean a specific person, please provide a full name or links."
+  },
+  "PostClarity": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "clarity_score": 8,
+    "explanation": "The post is very easy to understand: it clearly signals a TIME article and lists three concrete topics it covers, so readers know why it might be worth reading. It is concise and well-structured, but a bit too brief \u2014 it lacks a link, a short summary of the article's stance or key takeaways, and uses hedging language ('seems like') that reduces firmness."
+  },
+  "PostNovelty": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post is mainly a pointer to a mainstream TIME article and a brief note that it covers AISI's ties to big labs, evaluation research challenges, and possible impact. Those themes are routine within EA/longtermist conversations (so not novel to that audience). They may be slightly less familiar to the general public, but the post itself adds no new arguments, data, or original framing, so overall novelty is low."
+  },
+  "PostInferentialSupport": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post makes a short, plausibility-based claim that the TIME piece is \"well-informed\" and lists topics it covers, but offers no substantiating arguments, examples, or citations. Reasoning is minimal and mostly evaluative rather than analytical. Empirical evidence is essentially absent (no excerpts, sources, or concrete points from the article), so support is weak though the claim is plausible given the listed topics."
+  },
+  "PostExternalValidation": {
+    "post_id": "2MHiCyFJG6YzXX3iA",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "The EA Forum post makes a brief, high-level claim about the TIME piece \u2014 that it discusses (1) AISI\u2019s relationship with major AI labs, (2) challenges of evaluations research, and (3) the potential impact AISI could have. Those three points are explicitly and repeatedly covered in TIME\u2019s article (which cites interviews, government documents and AISI staff), and are corroborated by primary sources from the UK government/AISI (launch date, funding, evaluation remit and limitations). Minor caveats: some of the TIME article\u2019s finer details (e.g., internal negotiation accounts or anonymous-source claims about specific prerelease tests and their outcomes) rely on unnamed sources and reporting, so those particular assertions are less independently verifiable in public documents. Overall, the post\u2019s characterization of the TIME article is accurate and well-supported.",
+    "sources": [
+      "TIME \u2014 \"Inside the U.K.\u2019s Bold Experiment in AI Safety\" by Billy Perrigo, Jan 16, 2025 (TIME article describing AISI\u2019s relations with labs, testing work, and evaluation limitations).",
+      "GOV.UK \u2014 \"AI Safety Institute approach to evaluations\" (official UK government / AISI document, published 9 Feb 2024) (describes AISI remit, evaluation methods, limits and launch information).",
+      "AISI (official) \u2014 aisi.gov.uk (AISI / AI Security Institute homepage; mission, announced work and tooling such as Inspect).",
+      "GOV.UK news release \u2014 \"Initial \u00a3100 million for expert taskforce\" (24 Apr 2023) (confirms the UK funding announced to kickstart the taskforce that became AISI).",
+      "Financial Times \u2014 reporting on UK AI Security/Institute developments and institutional changes (context on AISI\u2019s role and government plans)."
+    ]
+  }
+}

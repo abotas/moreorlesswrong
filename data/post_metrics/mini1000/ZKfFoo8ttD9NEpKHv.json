@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a reflective, morale- and framing-focused piece rather than a technical or foundational argument. For the EA/rationalist community it is moderately important: it addresses common paralysis/perfectionism, reframes impact in terms of helping individual lives, and can meaningfully affect engagement, giving behaviour, and burnout \u2014 but it doesn't alter core prioritisation, methods, or longtermist arguments. For general humanity it is of minor importance: a useful, humane reminder that small acts matter and can motivate charitable behaviour, but it\u2019s not novel or policy-changing and would not materially shift large-scale outcomes if true or false."
+  },
+  "PostRobustness": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix the misleading \u2018\u2018percent of the problem solved\u2019\u2019 framing. The post repeatedly uses tiny percentages (e.g. 0.00000% of climate, x-risk microdooms) as the main way to claim failure. That metric is conceptually weak and misleading: most EA reasoning uses expected value / marginal impact (lives or risk reduced per dollar), not percent of a massive global total. Either remove the big-percentage claims or (better) replace them with a clearer expected-value framing and source your numbers or make them explicitly hypothetical. Actionable change: rework the donation examples to say \"~X expected lives saved per $500 (or per \\$1k)\" or drop numeric attempts and keep the qualitative point. Cite sources if you keep estimates.  \n\n2) Acknowledge and engage the main counterarguments you currently sidestep. The starfish/de Sousa Mendes examples support the emotional case for helping individuals, but readers will reasonably object that (a) small acts can create opportunity costs or moral licensing that reduce systemic impact, (b) the choice between direct help and scalable interventions is a real trade-off, and (c) some \"small acts\" can be actively harmful or distracting. Actionable change: add a short paragraph that (i) concedes these trade-offs, (ii) distinguishes when a small direct act is appropriate (high-certainty, high-marginal-impact, low opportunity cost) vs when prioritizing scalable systemic work is better, and (iii) give one or two concrete heuristics readers can use (e.g., consider counterfactuals and replaceability, or compare expected lives saved per dollar).  \n\n3) Clarify the central term \"solve\" and tighten the thesis. You oscillate between \"solve for an individual\" and \"solve the global problem,\" which weakens the argument. Actionable change: early in the piece define what you mean by \"solve\" (\"solve for an individual vs solve globally/eradicate\") and restate the takeaway as: it\u2019s reasonable to do actions that meaningfully help individuals (high expected-value per dollar) even if they don\u2019t eliminate the global problem. That keeps the emotional resonance while avoiding conceptual ambiguity.",
+    "improvement_potential": "The feedback hits the post's main weak spots: the misleading \u2018percent of the problem solved\u2019 framing, the unacknowledged trade-offs between small-scale help and systemic/scale-focused interventions, and the ambiguous use of \u201csolve.\u201d Fixing these would materially strengthen the piece without large rewrites \u2014 replacing percentage-of-global totals with expected-value/marginal-impact language (or dropping numbers), adding a short paragraph acknowledging opportunity costs and giving simple heuristics (counterfactuals, replaceability, harms), and defining 'solve' early would prevent readers from being confused or taking away the wrong lesson. These are important conceptual fixes but not existential errors, so the feedback is highly useful though not catastrophic."
+  },
+  "PostAuthorAura": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a notable figure named Rory Fenton in the EA/rationalist community or in public discourse up to my last update (June 2024). The name does not match any central or well-known contributors, speakers, or authors in EA; it may be a private individual or a pseudonym with little or no public footprint."
+  },
+  "PostClarity": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to follow: the post has a simple, well-stated thesis (you probably won\u2019t single-handedly solve huge problems, and that\u2019s OK) supported by relatable anecdotes (CrossFit scholarship), a historical example (de Sousa Mendes), and the starfish parable. Strengths: good narrative flow, concrete examples, accessible tone, and a satisfying conclusion. Weaknesses: a bit wordy and sometimes repetitive, a few distracting numeric-percent examples and footnote formatting that interrupt flow, and some digressions (lengthy biography/photo) that could be tightened for greater concision."
+  },
+  "PostNovelty": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "The central thesis \u2014 you probably won\u2019t personally \u2018solve\u2019 huge global problems but small actions still matter \u2014 is familiar to both general audiences and especially to EA readers. The post mainly repackages well\u2011worn ideas (starfish parable, incrementalism, moral consolation for small donations) and common EA tradeoff language (cost\u2011effectiveness, x\u2011risk percentages). The one mildly less common element is the specific historical vignette (Aristides de Sousa Mendes) applied as an emblem of partial but meaningful impact, but that alone doesn\u2019t make the overall argument novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "The post presents a clear, coherent, and emotionally persuasive argument that small, individual-level acts of good matter even if they don't 'solve' huge problems. It uses illustrative examples (CrossFit scholarship, de Sousa Mendes, starfish parable) to make the normative point and to address a common motivational worry. However, the argument is largely anecdotal and rhetorical rather than analytic: quantitative claims about impact are handwavy or unreferenced, counterarguments about cause prioritization and marginal impact are not engaged, and historical/empirical details (e.g. visa counts, x-risk donation effects) are uncertain. As an essay about values and motivation it is well-structured; as an empirical or policy argument it is weakly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "ZKfFoo8ttD9NEpKHv",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's empirical claims are broadly consistent with reliable sources, but a few numeric statements are imprecise or speculative. Verified/strong points: (1) U.S. PEPFAR funding is on the order of ~$6\u20137 billion per year (the author\u2019s $7bn figure is a reasonable round number). (2) The account of Aristides de Sousa Mendes (dates, dismissal, impoverished death in 1954, later rehabilitation in 1988 and high ranking in the 2007 Os Grandes Portugueses poll) and the fact he issued 'thousands' of visas are supported by multiple historical sources; historians disagree on the exact total (estimates generally range from a few thousand up to the tens-of-thousands figure often misattributed to him). (3) The claim that the Holocaust killed ~6 million Jews is correct. Partly supported / imprecise points: (1) The climate figure (\"1,500 billion tons of CO2\") can correspond to plausible carbon\u2011budget quantities cited by IPCC (AR6/SR15 numbers show figures in the 400\u20132,500 GtCO2 range depending on the target and assumptions), but the post\u2019s phrase is ambiguous about whether it means remaining budget, historical emissions, or removals required \u2014 the IPCC should be cited for precise interpretation. (2) The illustrative x\u2011risk/microdoom arithmetic is inconsistent with common EA usage of a \u201cmicrodoom\u201d (if one microdoom = 1\u00d710^-6 absolute extinction probability, then 0.01 microdooms = 1\u00d710^-8 absolute reduction; relative to a 10% baseline this is \u22480.00001% of the baseline \u2014 the post\u2019s quoted 0.000000001% is off by many orders of magnitude). (3) Small numerical examples (e.g., CrossFit scholarship cost, 50 tons CO2 reduction from a $500 donation) are hypothetical and not empirically sourced. Overall: most major historical and macro claims check out or are reasonably approximated, but several numerical examples are illustrative rather than precise and a couple of percentage calculations are arithmetically incorrect or ambiguous.",
+    "sources": [
+      "Kaiser Family Foundation (KFF) fact sheet: The U.S. President's Emergency Plan for AIDS Relief (PEPFAR) \u2014 FY2024/FY2025 funding summary (shows ~ $6.5\u20137.1 billion range).",
+      "IPCC Special Report and AR6 (Chapter 2 / SR15 Chapter 2): carbon budgets and cumulative CO2 emissions (discusses remaining budgets in the hundreds-to-thousands of GtCO2 and gives context for ~1,500 GtCO2 figures).",
+      "Yad Vashem \u2014 'The Insubordinate Consul' (Aristides de Sousa Mendes) \u2014 details on 15\u201322 June 1940 visas (1,575 in that week) and his actions.",
+      "United States Holocaust Memorial Museum \u2014 documentation on Holocaust victim numbers (~6 million Jewish victims) and context for scale.",
+      "EA Forum post 'Microdooms averted by working on AI Safety' and related EA discussion (defines/uses 'microdoom' \u2248 10^-6 of the whole future; useful for checking the post\u2019s microdoom arithmetic).",
+      "Sousa Mendes Foundation / scholarly accounts and Wikipedia entry for Aristides de Sousa Mendes (summarizes varying estimates of total visas, his dismissal, posthumous rehabilitation (1988), and the 2007 'Os Grandes Portugueses' poll placing him highly)."
+    ]
+  }
+}

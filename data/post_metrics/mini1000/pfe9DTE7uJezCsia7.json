@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful, practical reminder for people in AI governance and related EA/rationalist circles about common signal and incentive distortions when others report on powerful institutions \u2014 following it can meaningfully reduce misestimation, wasted effort, and bad strategic moves. However, it is largely an application of standard epistemic caution and social-inference biases rather than a novel, foundational insight, so it\u2019s moderately important for EA decision\u2011making but only minorly important for humanity at large."
+  },
+  "PostAuthorAura": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I could not identify a well-known EA/rationalist figure named 'tlevin'. The handle appears to be a minor/possible pseudonymous online account with little visible footprint in EA forums, publications, or events. Not a recognized public intellectual or widely-cited author; more context (links, platform) could change the assessment."
+  },
+  "PostClarity": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow \u2014 the intro sets context, the bias sections clearly enumerate plausible mechanisms, and the conclusion gives actionable guidance. Language is plain and arguments are logically presented, so comprehensibility and argument clarity are strong. It falls short of exceptional because some passages are slightly verbose, a few long sentences and many links add cognitive load, and the argument would be stronger with one concrete, compact example or tighter phrasing to reduce mild repetition."
+  },
+  "PostNovelty": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post mostly applies well-known epistemic ideas (selection bias, motivated reasoning, signalling, confirmation bias, incentives to portray institutions as sympathetic) to AI governance. EA/rationality readers will find these arguments very familiar; the only mildly original angle is the clear emphasis on an asymmetry \u2014 that claims of institutional agreement are systematically more suspect than claims of disagreement \u2014 but that insight is a modest extension of standard thinking rather than a novel concept. For the average educated person this framing is somewhat less explicit but still broadly commonplace in journalism and political analysis."
+  },
+  "PostInferentialSupport": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "reasoning_quality": 8,
+    "evidence_quality": 3,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a clear, coherent set of plausible mechanisms (selection bias among contacts, strategic signaling, motivated reasoning/confirmation bias) and gives a balanced conclusion (don\u2019t dismiss claims but be cautious). The argument is logically structured and captures many common ways insider claims can be misleading. Weaknesses: It offers little to no empirical or quantitative evidence about how often these biases occur in practice, or how large their effect sizes are; some claims (e.g. that claims of agreement are more biased than claims of disagreement) are intuitive but unsupported. The post would be stronger with case studies, surveys, or data showing prevalence/magnitude of these biases or guidance on evaluating specific reports."
+  },
+  "PostExternalValidation": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post\u2019s core empirical claims are broad, qualitative, and consistent with established social\u2011science findings. Key claims \u2014 that (a) people\u2019s contacts within institutions are unrepresentative (homophily), (b) insiders have incentives to present agreement or sympathetic views (impression management/signaling), and (c) observers (and insiders themselves) are subject to confirmation/motivated\u2011reasoning and self\u2011deception \u2014 are well documented. The author\u2019s warnings about strategic signaling, social\u2011desirability/impression\u2011management, and negative partisanship are supported by canonical literature. Weaknesses: the post is intentionally generic and offers no quantitative claims (so magnitude and prevalence in specific AI\u2011governance settings remain unmeasured), and real institutions sometimes do provide reliable signals \u2014 so case\u2011by\u2011case verification is still necessary. Overall: well supported by mainstream research, but naturally limited in precision and scope (hence not a perfect 9\u201310).",
+    "sources": [
+      "McPherson, Miller; Smith-Lovin, Lynn; Cook, James M. (2001). \"Birds of a Feather: Homophily in Social Networks.\" Annual Review of Sociology.",
+      "Nickerson, Raymond S. (1998). \"Confirmation Bias: A Ubiquitous Phenomenon in Many Guises.\" Review of General Psychology.",
+      "Kunda, Ziva (1990). \"The Case for Motivated Reasoning.\" Psychological Bulletin.",
+      "Leary, Mark R.; Kowalski, Robin M. (1990). \"Impression Management: A Literature Review and Two\u2011Component Model.\" Psychological Bulletin.",
+      "Bikhchandani, Sushil; Hirshleifer, David; Welch, Ivo (1992). \"A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades.\" Journal of Political Economy.",
+      "Spence, A. Michael (1973). \"Job Market Signaling.\" Quarterly Journal of Economics.",
+      "Simler, Kevin & Hanson, Robin (2018). The Elephant in the Brain: Hidden Motives in Everyday Life. (book on self\u2011deception/signalling motives)",
+      "Abramowitz, Alan I.; Webster, Steven W. (2018). \"Negative Partisanship: Why Americans Dislike Parties But Behave Like Rabid Partisans.\" Political Psychology (review of negative partisanship literature)",
+      "Grimm, Pamela E. (2010). \"Social Desirability Bias.\" (entry/review on social desirability and response biases)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "pfe9DTE7uJezCsia7",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Gives high-level advice but lacks concrete, actionable heuristics. The post repeatedly says \u201ctake with a grain of salt\u201d without saying how much or how to update in practice. Add a short checklist or decision rule readers can apply (e.g. estimate prior probability that the institution holds X, ask whether the source is describing a person vs. a formal decision, check for independent corroboration, assess incentives on a 1\u20135 scale, and only update by a bounded amount unless you have multiple independent corroborations). A few short examples of applying the checklist to realistic scenarios (company exec, civil servant, elected official) would make the advice usable rather than just cautionary.\n\n2) Overgeneralizes across very different institutions and situations. Incentives and information flows in a small project team, a regulatory agency, a political party, and a public company can be qualitatively different; the post treats them as if the same bias patterns always apply. Either narrow the scope (e.g. \u201cpowerful national-level institutions\u201d) or add short caveats about which institutional features reverse or amplify the biases you describe (degree of centralization, publicity of decision-making, turnover/staffing patterns, presence of formal memos/audit trails). This prevents readers from applying the heuristic inappropriately.\n\n3) Omits how to corroborate or calibrate insider claims and doesn\u2019t acknowledge historical base rates. Readers would benefit from practical guidance on verification: what public signals reliably map to internal agreement (policy drafts, budgets, FOIA leaks, repeated public statements across ranks), how to triangulate across independent sources, and how to use historical calibration (how often insiders were right in similar past cases). Adding one short paragraph on verification strategies and one on calibration (e.g. \u201cif historically insiders were right X% of the time in this domain, adjust accordingly\u201d) would reduce the risk of the post sounding like generic skepticism rather than a useful epistemic tool.",
+    "improvement_potential": "The feedback targets three substantive, non-trivial gaps: the post is high-level but offers no practical updating procedure, it treats very different institutions as if identical, and it omits ways to corroborate or calibrate insider claims. Fixing these would materially increase the post\u2019s usefulness without bloating it (a short checklist, a sentence or two of caveats about institutional features, and brief verification/calibration guidance would suffice). The suggestions are concrete and actionable and would prevent readers from misapplying the post\u2019s intuition; they therefore represent critical improvements the author should implement."
+  }
+}

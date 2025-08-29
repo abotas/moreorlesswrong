@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "This is a practical, well-informed set of career reflections that will be moderately useful to EAs (especially those interested in EU policy, animal advocacy, or switching into policy roles). It contains actionable tips (APAs, Commission exam, networking, program recommendations) but is not foundational to EA theory or major cause-area strategy. For general humanity the post is essentially trivial \u2014 useful only to a small audience exploring Brussels careers."
+  },
+  "PostRobustness": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Avoid overgeneralising from one week of anecdotes \u2014 strengthen or qualify your claims. You already note the short timespan, but many of your conclusions (e.g. \u201cthe EU bubble is neglected\u201d, \u201cmost important animal topics are covered by people who aren\u2019t scope\u2011sensitive\u201d, \u201cabsorbency is super high\u201d) read as broad generalisations. Either (a) add evidence or concrete examples (links, numbers, named programmes/roles, EPSO/pass\u2011rate stats, citations), or (b) explicitly label statements as anecdotal impressions and soften the language. This will reduce the risk readers take weak impressions as firm facts.  \n\n2) Make the post more actionable and clearer for readers by defining terms and giving concrete next steps. Several things are referenced without enough detail for a reader to act on them (the unnamed \u201cexam\u201d, APAs, CAP, what \u201cgetting in, then reshuffle\u201d practically means). Add one short sentence for each key term (name the exam \u2014 EPSO/concours if that\u2019s what you mean \u2014 link to it), a couple of concrete entry routes with rough timelines/requirements, and 2\u20133 small next steps (e.g. \u201capply to X roles to get invited to the exam; contact your country\u2019s permanent representation; consider the Talos Fellowship link\u201d). That keeps the post short but materially more useful.  \n\n3) Address obvious counterarguments and tradeoffs you\u2019re implicitly rejecting. You suggest working with \u2018aligned\u2019 politicians is promising because many current champions aren\u2019t scope\u2011sensitive, but this is based on a few conversations. Briefly acknowledge plausible alternatives (e.g. working on upstream issues like CAP/trade to unlock bigger wins, coalition\u2011building tradeoffs, the political feasibility of persuading non\u2011aligned actors) and outline criteria readers can use to choose between strategies (impact scale, tractability, personal fit). If you want to keep length down, add a 2\u20133 sentence \u201cuncertainties & tradeoffs\u201d paragraph near the end.",
+    "improvement_potential": "The feedback identifies several important weaknesses: overgeneralisation from a short visit, unclear jargon/actionability (unnamed exam, APAs, CAP), and lack of attention to alternative strategies/tradeoffs. These are meaningful 'own goals' that could mislead readers and are fixable without greatly lengthening the post. The critique could be slightly stronger by flagging a few other issues (e.g. the ethics/practicalities of advising mass applications to get exam invites, possible selection bias in interlocutors), but overall the proposed feedback would substantially improve clarity and reliability."
+  },
+  "PostAuthorAura": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no reliable evidence that an author named 'Joris \ud83d\udd38' is a recognized figure in the EA/rationalist community or has a public profile. Likely a pseudonym or a privately published/obscure writer. Provide links or more context if you want a recheck."
+  },
+  "PostClarity": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow \u2014 clear headings, short bullet points, and concrete anecdotes make the main messages (EU policy matters, different entry routes, network importance, APAs\u2019 power) easy to pick up. It could be sharper in its top-line takeaways and audience framing, and it uses some EA/EU jargon (APA, MEP, small-body problem, CAP) that might confuse non-specialist readers. A little repetition and a few vague claims weaken the argumentative punch, but overall it communicates its experience and practical advice clearly and concisely."
+  },
+  "PostNovelty": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For EA Forum readers this is mostly familiarity-framed reporting: reflections on Brussels, paths into the Commission/Parliament, the importance of networking, and the value of APAs are things others in EA policy have already covered. A couple of practical, actionable tidbits are somewhat fresh (the strategy of applying to many Commission roles just to get invited to the common exam; the emphasis that APAs and young staff can wield outsized policy influence), but overall it reads as experiential career advice rather than novel theory. For the general public, the post contains a mix of somewhat novel facts and concrete career tips about how EU institutions operate (how much power the EU holds, the \u2018exam invite\u2019 workaround, frequent reshuffles enabling career switches, and the surprising influence of young aides), so it is moderately novel to non\u2011specialists but not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post is a well-structured, coherent set of first\u2011hand reflections that sensibly hedges claims and draws plausible inferences (e.g. importance of networking, differences between Commission/Parliament roles, the surprising influence of young staff/APAs). That makes the reasoning moderately strong for an impression piece. However, virtually all claims rest on a one\u2011week, anecdotal sample plus a few quoted opinions; there is little systematic or quantitative evidence, no counterfactual analysis, and likely selection/recall biases. As a result the observations are useful directional information but provide weak empirical support for generalizing the main thesis about career impact and pathways in the EU policy bubble."
+  },
+  "PostExternalValidation": {
+    "post_id": "e95HCwqNp7RiF94ad",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s concrete claims are well-supported by public sources: the EU/Commission has extensive treaty competences (Commission \u2018Areas of EU action\u2019), the Commission\u2019s civil service is ~32,000 staff (Commission pages / Reuters), many Commission jobs use EPSO competitions/tests (EPSO / EU Careers guidance), MEPs hire Accredited Parliamentary Assistants (APAs) with a fixed staff budget and they do substantive legislative/briefing work (European Parliament pages + academic literature), and the Politico \u201cBrussels Playbook\u201d newsletter and Talos Fellowship exist. Where the post is weakest for empirical validation is in subjective, anecdotal claims (e.g. \u201crelatively neglected\u201d media coverage, difficulty of getting EPSO invitations in practice, the specific MEP not knowing the \u2018small\u2011body problem\u2019, the exact degree of \u201cabsorbency\u201d or ease of role-switching) \u2014 these are impressions or single anecdotes that aren\u2019t verifiable from public data. Overall the factual backbone is accurate, but many important points are experiential/opinion-based rather than general, objectively-verifiable claims.",
+    "sources": [
+      "European Commission \u2014 Areas of EU action (commission.europa.eu) (source: turn0search4)",
+      "European Commission \u2014 Organisation / Commission staff (commission.europa.eu; ~32,000 staff) (source: turn0search1)",
+      "Reuters explainer: 'What is the European Commission' (reports Commission ~32,000 staff) (source: turn0news12)",
+      "EPSO / EU Careers \u2014 How to apply and EPSO tests pages (eu-careers.europa.eu) (source: turn1search0; turn1search3)",
+      "EPSO guidance on competitions and tests (overview pages and third\u2011party guides) (source: turn1search2; turn1search1)",
+      "European Parliament \u2014 MEP staffing / Assistants pages and FAQ (europarl.europa.eu) (shows APAs, staff budget \u20ac30,769/month, rules) (source: turn2search2; turn2search3; turn2search5)",
+      "Academic study: 'The role of personal parliamentary assistants in the European Parliament' (Andreja Pegan, West European Politics, 2016) \u2014 documents substantive role of APAs (source: turn5search0)",
+      "Politico Europe \u2014 Brussels Playbook newsletter page (politico.eu/newsletter/brussels-playbook) (source: turn0search0)",
+      "Talos Fellowship / Talos Network official pages (describes Fellowship for EU AI policy; placements and application cycles) (source: turn3search0; turn3search1)",
+      "UK Government \u2014 Civil Service Statistics 2025 (GOV.UK) (used to contextualise comparison showing Commission is small relative to national civil services) (source: turn4search0)"
+    ]
+  }
+}

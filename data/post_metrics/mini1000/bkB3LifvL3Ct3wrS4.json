@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful, concrete recruiting/upskilling announcement for AI-safety-interested people in Latin America and modestly strengthens the EA/AI-safety talent pipeline and regional diversification. It matters for individuals and for building capacity in the field, but it is not foundational or decision\u2011critical for the broader EA agenda. For general humanity the post is largely informational and has minimal direct impact at scale."
+  },
+  "PostRobustness": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify prerequisites, selection criteria, and expected time commitment. \"Some coding experience\" is too vague for people deciding whether to apply \u2014 list concrete prerequisites (e.g. Python experience, familiarity with PyTorch/TensorFlow, ML fundamentals), baseline examples of acceptable experience, how many hours per day the bootcamp requires, and whether applicants from outside Latin America (diaspora) are eligible. State the selection process and timeline (how many spots, acceptance rate estimate, scoring rubrics or priority criteria).\n\n2) Add credibility and outcome information. EA readers will want to know who is teaching and what past cohorts achieved. Include short bios/affiliations for instructors/mentors, links to past bootcamp curricula or schedules, and measurable alumni outcomes (e.g. projects completed, follow-on jobs, open-source releases, publications, or alumni testimonials). If you don\u2019t have these, say so and explain how you\u2019ll evaluate impact of this bootcamp.\n\n3) Fill in key logistical and safety details that are currently ambiguous. State the language of instruction, whether the bootcamp is strictly in-person or hybrid, visa/support guidance and deadlines for travel funding (how to apply, how many travel grants available, selection criteria), exactly what costs are covered (meals, local transport, insurance), accessibility accommodations, and any safeguards for handling potentially dual-use technical content (supervision, code-sharing policy, ethics sessions). Also include a direct link to the application form/course page and a contact for travel support/questions in the main body so readers don\u2019t have to hunt for it.",
+    "improvement_potential": "The feedback catches several important omissions that would meaningfully reduce applicant confusion and credibility: concrete prerequisites/time commitment, instructor bios and past outcomes, and key logistics (language, in\u2011person vs hybrid, visa/travel\u2011grant details, safety/dual\u2011use safeguards). Fixing these would materially improve the post and reduce pointless inquiries. Minor nitpick: the post already includes a contact email under Logistics, so that part is slightly redundant \u2014 but overall the suggestions are actionable and high\u2011impact without requiring excessive length."
+  },
+  "PostAuthorAura": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence on major EA/rationalist platforms (LessWrong, EA Forum, 80,000 Hours, major conferences) or in academic/ mainstream media sources. Name (with diamond emoji) appears pseudonymous/obscure; no evidence of notable publications or public roles. Recommend web/profile search if you have sample links to confirm."
+  },
+  "PostClarity": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well\u2011structured: headings (Curriculum, Logistics, About) make it easy to scan, the target audience, dates, deadline, cost and contact info are explicit, and the curriculum is described at a useful level. Weaknesses: minor formatting/typo issues (e.g. missing space), no direct application link or explicit eligibility/prerequisite checklist, and a few slightly repetitive marketing phrases \u2014 addressing these would make it even clearer and more concise."
+  },
+  "PostNovelty": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is an event/bootcamp announcement rather than a new idea or claim. EA readers frequently see posts about fellowships, training camps, and AI\u2011safety upskilling; the combination of technical deep\u2011learning content with governance/AI safety is common in the field. The most distinctive elements are practical (location in Colombia, Latin America focus, free room/board and travel support options), but these are incremental logistics details rather than novel concepts, so overall novelty is low."
+  },
+  "PostInferentialSupport": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear and well structured \u2014 it states the programme goals, curriculum topics, logistics (dates, cost, travel support) and target audience. It gives concrete-sounding technical activities (implementing GPT-2, RLHF, interpretability) which makes the offering plausible. Weaknesses: It makes outcome-oriented claims (will \u201cfast-track\u201d skills, \u201caccelerate\u201d participants toward impactful work, connect people) without presenting empirical evidence or metrics to support those claims. There is no data on past cohorts\u2019 learning outcomes, placements, instructor qualifications, cohort size, or follow-up impact, and no testimonials or third\u2011party evaluations. Overall the reasoning is coherent for an announcement but the empirical support for the program\u2019s asserted impacts is weak, so claims about effectiveness are only modestly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "bkB3LifvL3Ct3wrS4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well-supported by primary sources. The ML4Good official website and crossposts (LessWrong / EA Forum) confirm: a 10-day ML4Good Colombia bootcamp scheduled for April 11\u201321, 2025; the program curriculum topics (GPT\u20112 from scratch, RLHF, interpretability); the bootcamp being free with travel\u2011support options; ML4Good\u2019s origin as a 2022 EffiSciences project; and prior bootcamps in Germany/UK/France/Brasil. Open Philanthropy\u2019s grant page corroborates organisational legitimacy and funding. Two minor inconsistencies remain: the EA post lists an application deadline of Feb 28, 2025, while the ML4Good course page shows an application deadline of March 3, 2025; and the EA post gives a local contact email (colombia@ml4good.org) whereas the ML4Good site lists info@ml4good.org. The post\u2019s claim of partnership with \u201cAI Safety Colombia\u201d is plausible (the EA post and ML4Good announcement state it), and an AI Safety Colombia online presence / EA group exists, but ML4Good\u2019s site does not prominently publish a partner page explicitly naming AISCol \u2014 so that partnership is supported but not independently documented on both organisations\u2019 public pages. Overall: most major claims are verified; small administrative/date/email details show minor discrepancies.",
+    "sources": [
+      "ML4Good \u2014 Colombia (course page) \u2014 ML4Good.org \u2014 'ML4Good Colombia April 2025' (ml4good.org/courses/colombia-april-2025) \u2014 (shows April 11\u201321 2025, 10 days, application deadline listed as March 3, 2025).",
+      "ML4Good \u2014 Past Bootcamps / Colombia April 2025 \u2014 ML4Good.org (ml4good.org/past-bootcamps/colombia-april-2025) \u2014 (confirms dates, duration, team listing).",
+      "ML4Good \u2014 About / History \u2014 ML4Good.org (ml4good.org/about / ml4good.org/about-us) \u2014 (states ML4Good started as a project of EffiSciences in France in 2022 and lists other bootcamp locations).",
+      "ML4Good \u2014 Germany curriculum listing \u2014 ML4Good.org (ml4good.org/courses/ml4good-germany-september-2024) \u2014 (lists technical curriculum: implement GPT\u20112, RLHF, interpretability techniques \u2014 same curriculum items referenced in Colombia announcement).",
+      "EA Forum post \u2014 'ML4Good Colombia - Applications Open' (forum.effectivealtruism.org posts bK B3LifvL3Ct3wrS4) \u2014 (original EA Forum announcement; lists Feb 28, 2025 application deadline and contact colombia@ml4good.org).",
+      "LessWrong / GreaterWrong repost \u2014 'ML4Good Colombia - Applications Open to LatAm Participants' by Alejandro Acelas & Manuela Garc\u00eda (lesswrong.com / greaterwrong.com) \u2014 (crosspost of the announcement).",
+      "ML4Good \u2014 Home / Organization pages (ml4good.org) \u2014 (general bootcamp program descriptions, free tuition/travel support policy).",
+      "Open Philanthropy \u2014 Grant page: 'ML4Good \u2014 AI Safety Bootcamps' (openphilanthropy.org grants) \u2014 (January 2025 grant listing confirming funding/legitimacy).",
+      "ML4Good \u2014 Contact page (ml4good.org/contact-us) \u2014 (site lists info@ml4good.org as general contact, relevant to the email discrepancy).",
+      "AI Safety Colombia \u2014 EA Forum group (forum.effectivealtruism.org/groups/kWaENZ2iXoucur97G) \u2014 (shows an AI Safety Colombia group / presence on EA forums).",
+      "AI Safety Colombia \u2014 website root (aiscol.org) \u2014 (organization site; loads requires JavaScript but indicates an online presence)."
+    ]
+  }
+}

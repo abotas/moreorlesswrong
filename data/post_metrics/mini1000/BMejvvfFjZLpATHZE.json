@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful, transparent annual report for a niche but under\u2011invested EA cause area (farmed fish welfare). For the EA / animal\u2011advocacy community it matters moderately: it informs donors, collaborators, and strategy decisions (R&D progress, scaling thresholds, impact estimates, ethical tradeoffs in live animal studies) and could affect near\u2011term funding and program choices. It is not foundational to EA or longtermism more broadly, nor does it introduce paradigm\u2011shifting evidence or arguments. For general humanity the post is of low importance: farmed fish are numerous and welfare matters, but this operational update has little direct bearing on broad public policy or human wellbeing at large."
+  },
+  "PostRobustness": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Impact estimate needs much more transparency and uncertainty reporting. The post cites \u201c~1.2M fishes whose lives we estimate we improved\u201d but doesn\u2019t show the calculation, key assumptions (what counts as an \u201cimproved\u201d life and by how much), counterfactuals, or uncertainty bounds. Before publishing, include a short methods summary (or link to one) that shows the formula, data sources, assumptions (e.g., duration and magnitude of welfare improvement per fish), and a sensitivity analysis or confidence interval. If that would lengthen the post too much, add a one-paragraph caveat and link to a detailed appendix.  \n\n2) The writeup of live\u2011animal R&D and mortalities is honest but incomplete on ethics and mitigation. Readers will reasonably ask whether independent ethical review, explicit harm\u2011benefit analyses, stopping rules, and concrete changes to protocols were used. Add (a) whether and which institutional/independent ethics review happened, (b) explicit steps you implemented after the mortality and lice incidents (beyond \u201cnight monitoring\u201d), (c) pre-specified safety thresholds/stopping criteria for future trials, and (d) why you judged the expected future benefits justify the harms. This will reduce reputational risk and help peer reviewers assess your approach.  \n\n3) Key scaling and cost\u2011effectiveness assumptions are under-justified. The 20 fish/$ minimum and the claim that an intervention could be scaled to \u201cthousands of farms\u201d are central to strategy but presented as targets rather than evidence\u2011based thresholds. Add a short explanation of how the 20 fish/$ target was derived (comparators, opportunity cost, donor expectations), and brief discussion of main barriers to achieving it (farmer adoption, reliance on in\u2011person visits, regulatory variation). If you have preliminary modelling that shows how a tested intervention could meet those thresholds, summarize it (or link to it); if you don\u2019t, flag this as a key near\u2011term research priority.",
+    "improvement_potential": "Very useful and actionable. The three points target major weaknesses that could harm credibility and reputation: an unexplained 1.2M impact claim, incomplete reporting on animal\u2011welfare ethics and mitigation after mortalities, and unsupported scaling/cost\u2011effectiveness thresholds. Fixing these would materially improve transparency and reduce reputational risk; the suggested changes can be done concisely (linking to appendices) so they respect reader time. It\u2019s not a 10 because these omissions don\u2019t render the whole report invalid, but they are serious and should be corrected."
+  },
+  "PostAuthorAura": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don\u2019t recognize Tom Billington as a known figure in the EA/rationalist community or as a globally known author. There are no prominent publications, talks, or profiles under that name in major EA/rationalist outlets that I\u2019m aware of; it may be a pseudonym or a minor/self\u2011published writer. If you have links or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "clarity_score": 8,
+    "explanation": "Well-structured and largely easy to follow: clear headings, bullet lists, data tables, and explicit links make the report navigable and the main messages (R&D-first strategy, 2026 goal, key outcomes, impact and finances) come through. Strengths include transparency, concrete metrics, and candid discussion of challenges and ethics. Weaknesses are length and occasional density (long paragraphs, many links/images interrupt flow), some minor repetition and jargon that may slow readers seeking a quick summary. Overall clear and professional but a bit verbose for readers wanting a very concise takeaway."
+  },
+  "PostNovelty": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "This is primarily an organizational year-in-review rather than a presentation of new theories or surprising claims. For EA Forum readers the content is low-novelty: familiar themes (R&D-first approach, piloting interventions, scaling thresholds, transparency on OKRs/budget, ethical tradeoffs in animal studies) and methods (satellite imagery, feed fortification, DO studies, incentive RFPs) are already common in EA/animal-welfare circles. For the general public it's somewhat more novel \u2014 many people haven\u2019t seen detailed, evidence-focused work on farmed-fish welfare (e.g., field DO tolerance and feed-fortification trials, satellite-imagery applications, explicit cost-effectiveness thresholds like \u201c20 fishes per dollar\u201d) \u2014 but the post is still an operational report rather than a presentation of highly original ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: clear, well-structured narrative; transparent reporting of metrics (OKRs, budgets, staff, farm counts), candid discussion of failures and ethical tradeoffs, and many linked resources. Weaknesses: key claims about impact (e.g. ~1.2M fishes helped, cost\u2011effectiveness projections, scalability) rely on estimated calculations or pending study results rather than completed, robust empirical findings; several R&D studies had confounders, timeline overruns and mortality incidents that reduce confidence in their conclusions; the post sometimes makes optimistic leaps about future scaling without providing rigorous evidence or methods. Overall, informative and honest but only moderately well supported by completed empirical evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "BMejvvfFjZLpATHZE",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims in the post are supported by primary documentation from Fish Welfare Initiative (FWI) and by independent funder records. FWI\u2019s own blog posts, newsletter and public OKR/impact spreadsheets corroborate: the 2024 R&D studies (satellite imagery, feed-fortification, DO tolerance), the DO study mortality (25 fish) and the feed-study complications, the reported growth in ARA farm coverage over 2023\u201324, and the ~1.0\u20131.3M fishes helped estimates. Independent third-party confirmations are available for major funders named (Open Philanthropy grants to FWI in Aug 2022 and Feb 2025; Animal Charity Evaluators\u2019 grant to FWI), and Effective Altruism Funds payout records show multiple grants to fish-welfare organizations including FWI in prior rounds. Weaknesses: several specific financial figures (e.g., \u201craised $670K in 2024\u201d, \u201c$587K spent\u201d, \u201c$246K assets\u201d), exact farm counts at specific cut\u2011off dates, OKR percentages and some balance-sheet PDFs are reported only in FWI\u2019s transparency docs/Google Sheets (some require Google access or are self-published) and could not be independently audited here. Overall: most substantive, load-bearing claims are well-documented; some internal accounting/aggregation details rely on FWI\u2019s primary documents rather than third\u2011party audit sources, so I mark the post as well-supported but not exceptionally validated.",
+    "sources": [
+      "FWI \u2014 Our 2024 Year in Review (FWI blog post, Jan 27 2025) \u2014 'Our 2024 Year in Review'. https://www.fishwelfareinitiative.org/post/2024review",
+      "FWI \u2014 Our 2024 Impact / 'Our Estimated Impact Surpassed 1 Million Fishes in 2024' (FWI blog, 2024). https://www.fishwelfareinitiative.org/post/2024-impact",
+      "FWI \u2014 Second Quarter 2024 newsletter (Mailchimp) \u2014 documents DO study deaths (25 fish) and details about DO/Feed studies. https://us3.campaign-archive.com/?id=e710b40430",
+      "FWI \u2014 Feed Fortification study page (June 29, 2024) \u2014 describes the feed study and timeline. https://www.fishwelfareinitiative.org/post/feed-fortification",
+      "FWI \u2014 Satellite imagery posts: 'First R&D Study... Satellites' and 'An Update on our Work on Satellite-Based Remote Sensing' (2024) \u2014 documents satellite study and replication issues. https://www.fishwelfareinitiative.org/post/satellites and https://www.fishwelfareinitiative.org/post/satellite-update",
+      "FWI \u2014 Transparency page and public OKRs / spreadsheets (includes OKR sheet and impact totals; public Google Sheets). https://www.fishwelfareinitiative.org/transparency and public OKR sheet (FWI 2025\u20132026 OKRs) https://docs.google.com/spreadsheets/d/1yWvCmj3qyYfZtPc-CoMscEokh_tEt_K7V7PJIU-DKzo/edit?gid=352931510",
+      "Open Philanthropy \u2014 Fish Welfare Initiative grant (Aug 2022) \u2014 $250,000 grant entry. https://www.openphilanthropy.org/grants/fish-welfare-initiative-fish-welfare-in-india/",
+      "Open Philanthropy \u2014 Fish Welfare Initiative grant (Feb 2025) \u2014 $650,000 grant entry (confirms major funder relationship). https://www.openphilanthropy.org/grants/fish-welfare-initiative-fish-welfare-in-india-2025/",
+      "Animal Charity Evaluators \u2014 Recommended Charity Fund update (July 2024) \u2014 notes a $169,085 grant to FWI and summarizes FWI work. https://animalcharityevaluators.org/blog/recommended-charity-fund-update-july-2024/",
+      "Effective Altruism Funds / Animal Welfare Fund payouts pages (multiple rounds) \u2014 record grants to Fish Welfare Initiative and to related fish-welfare orgs (e.g., 2020\u20132021 payouts listing FWI grants). Example: July 2020 payout shows Fish Welfare Initiative $30,000; Nov 2021 payout shows $170,000 to FWI. https://funds.effectivealtruism.org/payouts/july-2020-animal-welfare-fund-grants and https://funds.effectivealtruism.org/payouts/november-2021-animal-welfare-fund-grants",
+      "FWI \u2014 'Our Recent Support of the World Conference on Farm Animal Welfare' (WCFAW 2024) \u2014 describes China work and conference participation (FWI post). https://www.fishwelfareinitiative.org/post/wcfaw-2024"
+    ]
+  }
+}

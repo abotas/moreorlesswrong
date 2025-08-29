@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Useful, pragmatic work on clarifying a fuzzy but widely used concept. For the EA/rationalist community it\u2019s moderately important: it offers tractable frameworks (accuracy impact, evidence\u2011strength gaps) that can improve persuasion, critique, and tooling for epistemic hygiene, but it isn\u2019t foundational to core EA/AI\u2011safety arguments. For general humanity it\u2019s of minor importance: it could help media literacy and public discourse, but the ideas don\u2019t by themselves change high\u2011stakes outcomes or policy at scale."
+  },
+  "PostAuthorAura": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff, I find no notable presence for the name 'Ozzie Gooen' in EA/rationalist forums, publications, or major academic/ public outlets. Could be a pseudonym or very minor/obscure online persona; provide links or context if you want a more specific check."
+  },
+  "PostClarity": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "clarity_score": 8,
+    "explanation": "Well-structured and readable: clear sections (summary, motivation, definitional challenges, two alternative frameworks, conclusion) and concrete examples make the main points easy to follow. The arguments are plausible and usefully contrasted (Frankfurt/Galef vs accuracy/evidence-gap approaches). Weaknesses: occasional vagueness and repetition, a few underdeveloped formal claims (e.g. the proposed coefficient), and some small distracting asides/images \u2014 it could be tightened and the formal bits made more precise for maximum persuasiveness."
+  },
+  "PostNovelty": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers this is only modestly novel: the post mostly pulls together well-known references (Frankfurt, Galef, Calling Bullshit), applies standard scout/soldier and Bayesian ideas, and offers unsurprising formulations (accuracy-improving vs reducing; calling out truth-apathetic communications). The most original contributions are the attempt to operationalize an \u201cevidence strength gap\u201d and the simple \u201cBullshit Coefficient\u201d ratio, but those follow straightforward Bayesian/metric thinking that many in the community have likely considered. For the general public the post is more novel: formalizing bullshit as an implied-vs-actual-evidence ratio and proposing routine evidence-strength reporting in journalism/academia is less commonly encountered and could feel like a new, concrete approach to a familiar problem."
+  },
+  "PostInferentialSupport": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is conceptually clear, self-aware, and logically structured\u2014critiquing Frankfurt, exploring alternatives, and proposing two tractable frameworks (accuracy impact and evidence-strength gaps). It anticipates counterexamples and avoids overclaiming. Weaknesses: The proposals are largely conceptual and not operationalized or empirically validated; the \u2018\u2018Bullshit Coefficient\u2019\u2019 is appealing but underspecified and measurement-challenging; supporting examples are illustrative/anecdotal and the literature review is limited. Overall: solid, thoughtful reasoning but weak empirical support, so the main thesis (that \u2018bullshit\u2019 is imprecise and better framed via these alternatives) is plausible but not strongly demonstrated."
+  },
+  "PostExternalValidation": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's empirical claims are well supported. Frankfurt\u2019s core claim (bullshit = indifference to truth) and its popular reception are accurate; Julia Galef\u2019s scout/soldier mindset framing exists and is correctly summarized; the University of Washington \"Calling Bullshit\" course and related materials exist and have had broad uptake; empirical literature documents widespread \"spin\" and exaggeration in press releases and downstream news reporting; and formal concepts like \"weight of evidence\" / likelihood ratios provide a well-established basis for the author's proposed \"evidence-strength gap\" idea. Scholarly work also shows Frankfurt\u2019s account has been criticized as incomplete or too narrow, supporting the author\u2019s point that the term is contested. Weaknesses: the author\u2019s proposed quantitative \"Bullshit Coefficient\" and operational frameworks are plausible but speculative \u2014 they are conceptual proposals rather than empirically validated measures. Overall: good empirical grounding for the descriptive claims, but normative/formal proposals remain to be empirically tested.",
+    "sources": [
+      "Frankfurt HG. On Bullshit (essay 1986; book 2005, Princeton University Press) \u2014 summary and reception (Wikipedia). (source: Wikipedia 'On Bullshit').",
+      "Project MUSE / Princeton University Press entry for Harry G. Frankfurt, On Bullshit (book page).",
+      "Julia Galef. The Scout Mindset (book and author page) \u2014 definition of 'scout' and 'soldier' mindsets. (juliagalef.com / publisher pages).",
+      "CallingBullshit.org \u2014 course materials and course description by Carl Bergstrom & Jevin West (University of Washington).",
+      "Sumner P, et al. 'The association between exaggeration in health related science news and academic press releases' BMJ 2014 (PMC article) \u2014 evidence that press releases often exaggerate and that media coverage follows. (PMC 2014).",
+      "Brandolini's law (Bullshit Asymmetry Principle) \u2014 origin and statement of the adage that debunking takes much more effort than producing false/misleading claims (Wikipedia / Brandolini 2013).",
+      "EFSA Scientific Committee. 'Guidance on the use of the weight of evidence approach in scientific assessments' (EFSA Journal 2017) \u2014 formal weight-of-evidence methods and relation to evidence strength.",
+      "Dundee LR book chapter / educational material on likelihood ratios and Bayes' theorem \u2014 explanation that likelihood ratios (weight of evidence) scale how much to update beliefs (Bayesian foundation for 'evidence-strength' ideas).",
+      "Meibauer J. 'Aspects of a theory of bullshit' (Pragmatics & Cognition 2016) and Carson TL. critiques of Frankfurt \u2014 examples of academic critiques showing Frankfurt's account is debated and sometimes considered too narrow/broad."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "aquSxqprTfYHnizrJ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the frameworks operational (biggest weakness). Right now \u201cimplied vs actual evidence strength\u201d and \u201caccuracy impact\u201d are intuitively appealing but underspecified. Readers will reasonably ask: how do you measure \u201cactual evidence strength\u201d? how do you quantify an implied likelihood ratio? and how do you handle audience priors and inference mechanisms? Actionable fixes: pick one toy example and fully work it through numerically (e.g., show how you\u2019d score a startup claim or a news article), propose concrete proxies for \u201cactual evidence\u201d (sample size, replication status, study design quality, expert consensus, effect sizes) and for \u201cimplied evidence\u201d (language cues, claims of certainty, citation patterns), and give an explicit formula or protocol for estimating the Bullshit Coefficient (including how to handle priors and uncertainty ranges). This will greatly increase the practical value of the post without a major length increase.\n\n2) Address context-dependence, audience priors, and incentives (overlooked counterargument). Your accuracy-impact framework risks implying that a communicator\u2019s effect on an audience is an intrinsic property of the communication, but in reality the same message can improve or reduce accuracy depending on audience priors, goals, and expertise. Actionable fixes: add a short section that (a) makes the frameworks conditional on stated epistemic goals (e.g., \u201cfor an audience with X priors and Y decision context\u201d), (b) gives examples where persuasive rhetoric legitimately improves accuracy (heuristics, signaling credible expertise) and where labeling something \u201cbullshit\u201d causes epistemic harm, and (c) discusses incentives and strategic framing so readers don\u2019t conflate motivated disagreement with bullshit.\n\n3) Ground the piece in adjacent literatures and suggest validation steps (missed opportunity). You cite Frankfurt and Galef but don\u2019t engage relevant empirical and theoretical work that would prevent common mistakes (misinformation science, signal-detection theory, pragmatics, argumentation theory, social epistemology). Actionable fixes: add 2\u20133 concrete citations or literatures to signal you\u2019re building on existing work, and propose one or two feasible empirical tests (e.g., pre/post belief-update experiments, an annotation protocol for journalists\u2019 claims, or an NLP checklist to detect high BS-coefficient language). Even listing these briefly will make the post look less like an abstract thought experiment and more like a roadmap for usable tools.",
+    "improvement_potential": "The feedback hits the post\u2019s main weaknesses: the two proposed frameworks are under-specified and risk being misleading unless made operational, the author downplays context-dependence (audience priors, goals, incentives) which critically changes whether a message is accuracy-improving or not, and the piece would benefit from anchoring in adjacent literatures and from proposing validation methods. These are actionable, high-impact fixes that won\u2019t unduly bloat the post (toy examples, concrete proxies, and a few citations suffice). The score isn\u2019t a 9\u201310 because the post\u2019s core intuition isn\u2019t wrong \u2014 it\u2019s useful as a conceptual sketch \u2014 but without these fixes the piece will feel vague and vulnerable to substantive pushback."
+  }
+}

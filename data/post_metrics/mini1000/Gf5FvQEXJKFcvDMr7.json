@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a community-organizing post soliciting feedback for EAGxIndia 2025. It is useful for shaping a regional EA event (speaker choices, formats, networking), so it matters modestly for the Indian EA community and event participants, but it is not load-bearing for core EA theories or high-stakes decisions. For general humanity it is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Add a clear deadline and explain how responses will be used. Right now you say the survey takes ~4 minutes but don\u2019t say when it closes or what concrete decisions the results will influence. Action: include a closing date for the survey, a 1\u20132 sentence timeline (e.g. when you\u2019ll review responses and announce resulting program changes), and a short note on which program elements the survey will directly inform (speakers, session formats, scholarships, travel subsidies, etc.).\n\n2) Be explicit about privacy, anonymity, and who will see responses. EA audiences care about whether feedback is anonymous or shared with organizers/sponsors and whether responses could affect selection for attendance. Action: state whether responses are anonymous, how you will store/share data, and whether submitting the survey affects application outcomes or is separate.\n\n3) Clarify target audience and accessibility to avoid sampling bias. You invite \u201cEA-curious\u201d and \u201cdeeply engaged\u201d people but don\u2019t say if non-India residents should respond, whether the survey/language is accessible, or whether remote attendance or financial support exists. Action: say who you especially want feedback from (India-based only? open globally?), note language and accessibility options (translations, mobile-friendly), and briefly mention whether you\u2019ll offer travel/financial aid or remote streaming so people know how feedback might translate into attendance options. Also make the primary CTA link obvious and clickable (the post currently has multiple scattered links).",
+    "improvement_potential": "The suggestions are specific, actionable, and address important clarity/trust issues (deadline, use of responses, anonymity, target audience/accessibility) that affect response rates and community trust. These are not fatal errors but are meaningful omissions the author should fix without much extra length; improving them would noticeably strengthen the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no notable presence for an author named 'Agru' in EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, major conferences) or in academic/major public sources up to mid\u20112024. Likely a pseudonym or private/minor online handle; please share links or context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "clarity_score": 8,
+    "explanation": "Overall clear and concise: it states the event, target audience, purpose, and calls to action (survey, application, contact) with an estimated time commitment. Weaknesses are minor formatting/link placement issues (e.g. \u201cTake the survey here\u201d lacks an inline link, small punctuation glitches) and a few details that could improve clarity (exact dates/location and a bit more on desired input/examples)."
+  },
+  "PostNovelty": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is a routine event announcement and call for survey responses. The ideas (co-creating a community event, asking for speaker/format preferences, application info) are common and unsurprising both within the EA community and to the general public; there are no novel claims or original arguments."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "reasoning_quality": 8,
+    "evidence_quality": 5,
+    "overall_support": 7,
+    "explanation": "This is primarily an announcement/ask rather than an argumentative post. The reasoning is clear, concise, and well-structured: the organisers state the event, its scope, and why community input is wanted, and they provide straightforward calls to action (survey, application, contact). That makes the case sufficiently persuasive for its purpose. However, empirical evidence is minimal: aside from links to the event and the survey, the post offers little data about past EAGxIndia outcomes, how survey input will be used, or how representative responses will be incorporated. For an announcement this level of evidence is acceptable, but it limits stronger assurance that participation will meaningfully shape the event. Overall the post is fit for purpose and reasonably well-supported, though it could be improved by citing past impact, explaining decision processes, or giving examples of how prior community input changed programming."
+  },
+  "PostExternalValidation": {
+    "post_id": "Gf5FvQEXJKFcvDMr7",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major empirical claims in the post are verifiable from official sources: the EAGxIndia 2025 event page and EA Forum announcements confirm the dates (13\u201314 Dec 2025), venue (India International Centre, New Delhi), that this is the third consecutive EAGxIndia, a target / planned attendance of ~300, application deadline of Nov 30 and that applications are reviewed on a rolling basis, and the contact email india@eaglobalx.org. The community survey exists and its questions are viewable on the Google Form linked. The only minor uncertainty is the precise time-to-complete estimate for the survey (~4 minutes) which is not explicitly stated on the form page (the form appears short, so the estimate is plausible but subjective).",
+    "sources": [
+      "Effective Altruism \u2014 EAGxIndia 2025 event page (EAGxIndia 2025: 13\u201314 Dec 2025; India International Centre; ~300 attendees; apply by Nov 30; rolling review).",
+      "EA Forum \u2014 'Applications Open for EAGxIndia 2025!' (forum announcement confirming third consecutive year, ~300 people, apply by Nov 30, rolling review).",
+      "EA Forum \u2014 'Apply to help run EAGxIndia 2025!' (organiser post noting event will host 300 attendees and higher focus on careers, collaborations, funding).",
+      "Google Forms \u2014 'EAGxIndia 2025 Community Survey' (forms.gle/8R3cpYUz9Sszvtm49) (survey content and questions visible)"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "Useful but not foundational. The post announces a Metaculus forecasting tournament about a major policy shock (a 90\u2011day pause/review of US foreign aid). Accurate aggregated forecasts could materially help EA donors, global\u2011health orgs, and policy advocates anticipate program closures, reallocate resources, and prioritise advocacy \u2014 so it has moderate value to the EA community. For humanity at large, the subject (US foreign aid) is important and affects millions, but this specific post (a call for forecasts) is marginally useful rather than critical, so its broader impact is limited."
+  },
+  "PostRobustness": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Explain the practical purpose and audience of the tournament. Right now the post invites predictions but doesn\u2019t say how the results will be used or who will see them. Readers will want to know whether this is purely for public information, for USAID/White House/Congressional briefings, or for journalists/NGOs. Add one sentence: e.g. \u201cMetaculus will publish aggregated probabilities and a short analysis summary; results will be shared publicly and summarized for policymakers and NGOs on [date/link].\u201d That makes the value proposition clear. \n\n2) Add a concise methodology/credibility note (one short paragraph). The post assumes readers understand Metaculus forecasting but many EA Forum readers will want to know how questions are designed, how aggregates are formed, and who participates. Add a 2\u20133 line note or link to Metaculus\u2019s methodology and the tournament rules (resolution criteria, scoring, expertise of participants). Example: \u201cQuestions are probabilistic, aggregated using proper scoring rules; see [link] for full methodology and resolution criteria.\u201d This reduces questions about reliability. \n\n3) Add key caveats and missing political context. The post frames the EO as creating uncertainty but omits major countervailing factors (Congressional appropriations power, likely legal challenges, multiyear funding pipelines, administrative lags) and doesn\u2019t flag limits of forecasting in high-politics settings. Add one brief caveat sentence: e.g. \u201cNote: executive orders can be rescinded/blocked by courts or Congress and appropriations often lag\u2014forecasts should be read as probabilistic signals, not deterministic predictions.\u201d This anticipates the most obvious objections and makes the call to forecast more responsible.",
+    "improvement_potential": "The suggestions are highly relevant and practical: clarifying the tournament\u2019s audience/purpose, adding a brief methodology note, and flagging political caveats would materially increase credibility and reduce common objections without much extra length. These changes fix important omissions that would make the post feel under-specified and potentially misleading to an EA audience, though they don\u2019t imply the original thesis is wrong."
+  },
+  "PostAuthorAura": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The single name 'christian' is too common and possibly a pseudonym; there is no clear, identifiable presence tied to EA/rationalist publications, talks, or leadership. I cannot find evidence they are known within EA or more broadly. Provide a full name, username, links, or sample work to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "clarity_score": 8,
+    "explanation": "Clear and well-structured announcement: states the policy event, explains the resulting uncertainty, introduces the Metaculus \u2018USAID Outlook\u2019 tournament, and gives concrete example questions and links. Strengths: concise, easy to follow, actionable call-to-action with direct links. Weaknesses: assumes readers know what Metaculus is and why forecasting helps, lacks a brief how-to/benefit explanation for potential participants, and the embedded images have no caption/alt text. Improving those minor points would make it more compelling."
+  },
+  "PostNovelty": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a timely announcement/promotion of a Metaculus tournament about a current policy change. EA readers are very likely already familiar with forecasting tournaments and the implications of a US foreign\u2011aid pause, so it\u2019s not novel to that audience. For the general public it\u2019s slightly more novel because many people won\u2019t know about Metaculus or structured forecasting on policy outcomes, but the underlying ideas (forecasting political outcomes, impacts on programs like PEPFAR/PMI) are still commonplace and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: Timely and logically coherent \u2014 identifies a clear source of uncertainty (the Executive Order), links to primary source, and presents a concrete, relevant forecasting exercise (specific Metaculus questions). The call to crowdsource predictions is reasonable given the goal of reducing uncertainty. Weaknesses: The post provides no evidence that the forecasts will be accurate, actionable, or used by decision\u2011makers (no discussion of forecasting methodology, calibration, forecaster expertise, or historical performance). It also omits consideration of limitations (selection bias, politicized information, how forecasts translate into policy impact). Overall, plausible but thinly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "AsnanNrbgsmupm6Ef",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major factual claims in the post are well verified: Executive Order 14169 was signed on January 20, 2025 and orders a 90\u2011day pause and program reviews (WhiteHouse.gov, Federal Register). Independent reporting and analyses (Reuters, KFF, NAFSA) document the freeze and its disruption/uncertainty for global health and development programs, and Metaculus did launch the \u201cUSAID Outlook\u201d tournament with the cited questions (tournament page and individual question pages for PEPFAR, PMI, and HIV funding). The post\u2019s characterization that many global health/development initiatives rely heavily on U.S. funding is supported by KFF data showing the U.S. as the largest donor for HIV and coverage of program impacts. I did not find major factual errors; minor downstream events (lawsuits, exemptions, program-level outcomes) are more complex and evolving, so the assessment is cautious (9/10) rather than perfect.",
+    "sources": [
+      "White House \u2014 \"Reevaluating And Realigning United States Foreign Aid\" (Executive Order 14169), Jan 20, 2025. (whitehouse.gov/presidential-actions/2025/01/reevaluating-and-realigning-united-states-foreign-aid/).",
+      "Federal Register \u2014 \"Reevaluating and Realigning United States Foreign Aid\" (publication of EO 14169), Jan 30, 2025.",
+      "Metaculus \u2014 \"USAID Outlook\" tournament page (started Feb 27, 2025).",
+      "Metaculus \u2014 Question: \"Will the PEPFAR program cease to exist before January 1, 2026?\" (question 35481).",
+      "Metaculus \u2014 Question: \"Will the President\u2019s Malaria Initiative program cease to exist before January 1, 2026?\" (question 35512).",
+      "Metaculus \u2014 Question: \"Compared to FY 2024, what will the US government's funding for international HIV/AIDS prevention and treatment be?\" (question 35601).",
+      "KFF (Kaiser Family Foundation) \u2014 overview and analysis of the January 20, 2025 foreign aid actions and impacts on global health/HIV/PMI (multiple KFF pages reporting effects and donor-share data).",
+      "Reuters reporting on the U.S. freeze of foreign aid and subsequent developments (coverage of Jan 2025 freeze and later legal/policy developments).",
+      "NAFSA \u2014 summary of Executive Order 14169 and implications for international programs (organization brief, Feb 2025)."
+    ]
+  }
+}

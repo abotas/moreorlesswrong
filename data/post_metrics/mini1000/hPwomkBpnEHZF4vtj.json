@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a practical, evidence-based donor guide promoting high-impact global health interventions and reputable evaluators (GiveWell, HLI, etc.). For the EA community it is moderately important: it consolidates actionable recommendations that guide donations and careers, but it is not novel or foundational to EA theory. For general humanity it is somewhat useful \u2014 it can steer philanthropic resources toward life\u2011saving, cost\u2011effective programs \u2014 but it is not transformational at the level of global policy or civilization\u2011scale priorities."
+  },
+  "PostRobustness": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Temper and unpack the \u201c~$5,000 to save a life\u201d claim. As written this reads like a single, precise fact but it depends heavily on which interventions, locations, and assumptions are used. Add a one-sentence qualifier (or a short parenthetical) that points to GiveWell\u2019s detailed breakdown, states the main assumptions (marginal lives saved, baseline mortality, time horizon), and gives a plausible uncertainty range or notes that the figure varies substantially by program and scale. This prevents readers from overgeneralising and reduces the risk of being challenged on a technical point. \n\n2) Directly summarise the strongest systemic counterarguments and your concise responses. The current section links to other pages but dismisses concerns (e.g. aid dependency, crowding out, governance distortions, fungibility, market effects) without a short, evidence-backed summary. Add 2\u20133 short sentences (one per major objection) that say: what the objection is, why it could plausibly matter, and the most important evidence or reasoning that makes you still recommend donating (with links). This makes the post more robust to quick objections and saves readers from having to click through to defend the post. \n\n3) Be clearer about your selection methodology and update cadence. Readers will want to know how and how often you evaluate charities, what criteria matter most (cost-effectiveness, evidence, scalability, risk of harm), and why the recommendation list changed this year. Add one short paragraph that states the key selection criteria, notes any conflicts of interest (or absence thereof), and links to the full methodology. This increases credibility without much extra length.",
+    "improvement_potential": "This feedback targets three real weaknesses that could embarrass the author if challenged: an over-specified \u2018$5,000 to save a life\u2019 claim, skimpy treatment of common systemic objections, and lack of a concise statement of selection criteria/update cadence. Fixing these would substantially increase accuracy, credibility, and defensibility without adding much length \u2014 they\u2019re important but not fatal to the page\u2019s main thesis, hence a high but not maximal score."
+  },
+  "PostAuthorAura": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "author_fame_ea": 4,
+    "author_fame_humanity": 1,
+    "explanation": "\"EA Handbook\" appears to be a collective/resource title or pseudonymous/organizational author (a guide for newcomers) rather than a single prominent individual. It is reasonably known within EA/rationalist circles as a reference but not a well\u2011known author or frequent public figure; it has virtually no recognition outside the EA community."
+  },
+  "PostClarity": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, concrete statistics, and many source links make the central point (donations to global health are high-impact) convincing and actionable. Weaknesses: a bit long and occasionally repetitive, with some jargon (e.g. \"subjective well\u2011being\", \"astronomical number\") and brief promotional asides that could use concise definitions or tighter phrasing for novices."
+  },
+  "PostNovelty": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "novelty_ea": 1,
+    "novelty_humanity": 3,
+    "explanation": "The post largely summarizes well-known, widely circulated EA arguments and resources (GiveWell, Our World In Data, Founders Pledge, cost\u2011effectiveness claims like ~$5k per life saved, etc.). For EA readers this is very familiar material and adds little new analysis or original claims. For the general public it\u2019s moderately novel as a concise, evidence\u2011based framing and curated recommendation list, but the core ideas (global health is high impact; recommended charities; common objections) are not original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is well structured and presents a clear, internally consistent argument \u2014 poverty and preventable disease are large problems, there exist cost\u2011effective interventions, and donors can meaningfully help today. It cites credible organisations (Our World in Data, WHO, GiveWell, Founders Pledge, Happier Lives Institute) and explicitly acknowledges plausible alternative priorities and common objections. Weaknesses: Many empirical claims are supported by links to secondary summaries rather than primary studies or quantitative uncertainty estimates; the post does not discuss heterogeneity of effects, scalability constraints, administrative overhead, or important assumptions (e.g., value weighting across beneficiaries, discounting, spillovers). Some cause areas (education, mental health, women\u2019s empowerment) are asserted to be effective with limited in\u2011text evidence and nuance. Overall, the thesis is reasonably well supported for a high\u2011level advocacy piece, but would need more detailed, primary\u2011evidence and uncertainty analysis to be judged exceptional."
+  },
+  "PostExternalValidation": {
+    "post_id": "hPwomkBpnEHZF4vtj",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major empirical claims are accurate and verifiable from authoritative sources.  Evidence that supports the post includes: (1) ~700 million people in extreme poverty in 2015 (World Bank projection / Our World in Data), (2) large annual death burdens from preventable diseases (WHO malaria, TB and diarrhoeal disease fact sheets/reports), and (3) GiveWell\u2019s public cost\u2011effectiveness estimates (GiveWell and Our World in Data cite ~USD 4\u20136k per life saved for GiveWell\u2019s top programs, so the ~USD 5,000 figure is a reasonable rounded summary). The recommended charities and funds listed match Giving What We Can\u2019s published recommendations. Main weaknesses/nuances: the mental\u2011illness statistic (\u201c10.5% of the global disease burden\u201d) is imprecise/outdated depending on definition and year \u2014 older GBD/WHO summaries reported ~10\u201311% for the broader category of mental/neurological/substance disorders in earlier GBD rounds, whereas GBD 2019 reports ~4.9% of global DALYs attributable to mental disorders (and ~14.6% of global YLDs); GiveWell\u2019s \u201c~$5k per life\u201d is a rounded, program\u2011dependent estimate and varies by charity, location and funding marginality. Overall: well\u2011supported but with a few important definitional/time\u2011frame clarifications needed.",
+    "sources": [
+      "Giving What We Can \u2014 Global health and wellbeing (post page) (GivingWhatWeCan.org)",
+      "World Bank press release, Oct 4, 2015 \u2014 \"World Bank Forecasts Global Poverty to Fall Below 10% for First Time\" (reports ~702 million in extreme poverty in 2015)",
+      "Our World in Data \u2014 World population living in extreme poverty (interactive data/graphs)",
+      "World Health Organization \u2014 Malaria (World Malaria Report 2020/2022 pages; WHO Global Health Observatory on malaria deaths)",
+      "World Health Organization \u2014 Tuberculosis (Global TB Report / disease burden pages)",
+      "World Health Organization \u2014 Diarrhoeal disease fact sheet (WHO news/fact sheet, 2024)",
+      "Global Burden of Disease Study 2019 \u2014 \"Global, regional, and national burden of 12 mental disorders...\" (GBD 2019 paper; mental disorders = ~4.9% of global DALYs; ~14.6% of global YLDs)",
+      "Review article 'Quantifying the global burden of mental disorders and their economic value' (discussion of different aggregation methods and higher composite estimates)",
+      "GiveWell \u2014 \"How We Produce Impact Estimates\" and Top Charities pages (cost\u2011effectiveness estimates for AMF, Malaria Consortium, Helen Keller Intl, New Incentives; GiveWell guidance referencing ~USD 3.5\u20135.5k per life for top charities and GiveWell\u2019s use of a ~USD 5k rounded figure)",
+      "Our World in Data \u2014 'Many of us can save a child\u2019s life, if we rely on the best data' (discussion referencing GiveWell\u2019s ~USD 5k estimate)"
+    ]
+  }
+}

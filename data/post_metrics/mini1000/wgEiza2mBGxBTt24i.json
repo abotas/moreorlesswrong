@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "This is a timely, actionable opportunity for the EA/AI-safety community to influence a US AI Action Plan\u2014low-effort to respond, with potentially outsized effects on national AI policy and the regulatory environment. It isn\u2019t a foundational theoretical claim, but it is strategically important for governance work: if safety-aligned input shifts the Plan, that could materially affect AI development and risks. For general humanity, the post is moderately important because US policy impacts global AI trajectories, but the single RFI and a community post about it are a relatively small link in a much larger chain."
+  },
+  "PostRobustness": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Understates political risk and potential misuse of submissions. The post suggests it\u2019s low-cost to submit but doesn\u2019t warn that responses are public, may be reused without attribution, and could be co\u2011opted to argue for deregulation. Actionable fix: add a clear cautionary paragraph recommending (a) legal/strategic review before submitting, (b) avoidance of language or recommendations that could be cherry\u2011picked to weaken safety (e.g., blanket claims that burdens \u2018\u2018stifle innovation\u2019\u2019 without mitigation), and (c) thinking through worst\u2011case uses of your text (e.g., a short \u2018how this could be misused\u2019 checklist readers can run through).\n\n2) Lacks concrete, low\u2011effort framing help to make safety input persuasive. You recommend aligning with the administration\u2019s priorities but give no examples or templates. Actionable fix: include 2\u20133 one\u2011paragraph framing templates that map core safety asks to the stated priorities (e.g., safety as competitiveness: \u2018\u2018robust safety reduces costly outages, liability, and preserves US market leadership\u2019\u2019; safety as national security: \u2018\u2018standards reduce supply\u2011chain vulnerabilities and adversary misuse\u2019\u2019). Even short templates or a 3\u2011bullet outline would materially raise reply quality and hit\u2011rate.\n\n3) Omits strategic coordination and administrative details that matter. The post doesn\u2019t advise whether to submit individually vs. coalitions, how submissions are likely routed/used, or record implications of the \u2018\u2018approved for public dissemination\u2019\u2019 clause. Actionable fix: add practical guidance \u2014 suggest coordinating with existing EA/NGO coalitions (or at least notifying them), recommend a simple authorship/organization strategy (joint submissions vs. single org), and flag FOIA/public\u2011record and attribution implications so contributors can decide how much to disclose.",
+    "improvement_potential": "The feedback highlights important, actionable gaps the post currently underplays \u2014 especially the political risk from public, reusable submissions (a real own\u2011goal) and the lack of ready framing/templates to make safety input persuasive to this administration. Adding short cautions, a few one\u2011paragraph framing templates, and basic coordination/FOIA guidance would materially strengthen the post without much lengthening it."
+  },
+  "PostAuthorAura": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could find no evidence that 'Agust\u00edn Covarrubias \ud83d\udd38' is a known figure in the EA/rationalist community or more broadly \u2014 no prominent publications, organizational affiliations, frequent posts/speeches, or citations. The name may be a pseudonym or a private/low\u2011visibility account; overall there is no clear public presence or prominence."
+  },
+  "PostClarity": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to understand: strong TL;DR, clear deadline, concise list of topics, contextual background, and practical submission details. The central argument \u2014 that low-effort submissions framed to align with the administration's priorities may be worthwhile \u2014 is clear and persuasive. Minor issues: a formatting/typo ('standardsopen-source'), a bit of redundancy in the context section, and it could be slightly more concise or offer example talking points for submissions."
+  },
+  "PostNovelty": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers the post is not novel: it\u2019s a routine announcement of a government RFI with straightforward strategic advice (e.g., frame safety in terms of competitiveness, take a hits\u2011based low\u2011effort approach). Those ideas and the policy context are familiar to people following EA/AI policy. For the general public it\u2019s slightly more novel because most people won\u2019t already know the specific RFI, deadline, and the suggestion to tailor safety input to the new administration\u2019s priorities, but the content is still largely informational and procedural rather than original theory or claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "The post is logically structured and its core argument \u2014 that submitting low\u2011effort, safety\u2011framed input to the OSTP RFI is worth trying even under a deregulatory administration \u2014 is plausible and clearly explained. Strengths: accurate, actionable factual details (deadline, topics, submission mechanics) and a sensible rhetorical strategy (frame safety in terms of competitiveness and national leadership). Weaknesses: little empirical evidence that such submissions influence policy under this administration, no data or historical examples to substantiate the claim that low\u2011effort inputs pay off, and limited engagement with counterarguments (e.g., one submission limit, likelihood of impact). Overall the recommendation is reasonable but under\u2011supported by empirical evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "wgEiza2mBGxBTt24i",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post\u2019s major factual claims are well-supported by primary government sources. The Executive Order (EO 14179), the OSTP/NITRD RFI (FR Doc.2025-02305) and the White House announcement confirm the existence of the RFI, the March 15, 2025 11:59 PM ET deadline, the enumerated topic areas, the required submission email (ostp-ai-rfi@nitrd.gov), and the formatting/statement requirements (15 pages, \u226512\u2011point font, page numbers, one response recommended, public\u2011dissemination statement). The EO also requires an AI Action Plan within 180 days. The post\u2019s interpretive claim that the new administration is emphasizing U.S. AI leadership and reducing burdensome requirements is reflected in the EO language, but the suggestion that OSTP will be unreceptive to safety\u2011focused input is an opinion/strategic inference (plausible but not an empirical fact).",
+    "sources": [
+      "Federal Register: Removing Barriers to American Leadership in Artificial Intelligence (Executive Order 14179), FR Doc. 2025-02172 (published Jan 31, 2025).",
+      "Federal Register / govinfo: Request for Information on the Development of an Artificial Intelligence (AI) Action Plan (NITRD NCO / NSF), FR Doc. 2025-02305 (Notice; published Feb 6, 2025) \u2014 includes deadline, submission email (ostp-ai-rfi@nitrd.gov), topics list, and formatting requirements.",
+      "White House press release: \"Public Comment Invited on Artificial Intelligence Action Plan\" (Feb 25, 2025) \u2014 announcement of OSTP RFI and March 15 deadline.",
+      "Hogan Lovells summary: \"White House and OSTP release RFI concerning the development of an Artificial Intelligence (AI) Action Plan\" (legal/practice summary of RFI contents and topic list).",
+      "Axios reporting: \"Exclusive: White House seeks public input on AI strategy\" (Feb 6, 2025) \u2014 corroborates OSTP call for comments and 180\u2011day plan timeline."
+    ]
+  }
+}

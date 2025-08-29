@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is a concrete, high-impact hiring opportunity within an evidence-driven nonprofit working to increase childhood immunisation in India. For the EA/rationalist community it matters moderately: it\u2019s a practical route for skilled people to work on a cost-effective global health intervention and could meaningfully affect recruitment and matching; it isn\u2019t a foundational argument or paradigm-shifting claim. For general humanity it is of modest importance: hiring a strong technologist could improve programme scale and save lives locally, but the post itself is a routine operational announcement with limited global bearing."
+  },
+  "PostRobustness": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify role scope and seniority \u2014 The responsibilities listed are extremely broad (backend, frontend, ETL, AI/ML, infra, dashboards, vendor management, on-ground collaboration). That will confuse candidates and attract mismatched applications. Actionable fixes: state the primary focus(s) (e.g., 60% infra/ETL, 20% analytics, 20% product), required years of experience, and whether you expect a generalist or someone with deep expertise in a particular area. If you genuinely want a wide-ranging generalist, say so explicitly and explain trade-offs (mentorship, support from cofounders).\n\n2) Make the application flow and evaluation fairer and more transparent \u2014 Requiring candidates to complete a coding challenge before they can see or submit the full application is high-friction and may deter good applicants. Also the \u201cno AI tools\u201d rule and the statement that you are \u201ctracking each submission\u201d raise transparency and privacy concerns. Actionable fixes: move full job details (and salary/benefits) before the coding step; explain what the coding challenge measures, expected time to complete, how submissions are scored, what \u201ctracking\u201d means, and how long you retain submissions. Either allow use of AI with an honesty/declaration requirement or explain how you will reliably detect AI use (and why that detection is fair).\n\n3) Make compensation and benefits clearer and more competitive \u2014 The 12\u201318 LPA range may be interpreted differently (CTC vs take-home, taxes, benefits included/excluded) and could undersell the role for senior candidates. Actionable fixes: state whether the range is CTC, whether variable pay/bonuses are possible, confirm which benefits are included (health insurance coverage details, equipment stipend, training budget), and whether there\u2019s room for higher pay for exceptional candidates (with concrete criteria). Also include the year for the application deadline to avoid confusion.",
+    "improvement_potential": "The feedback targets three clear, high-impact weaknesses: an overly broad/unclear role description that will attract mismatched applicants; a high-friction, opaque application flow (coding challenge before full job details + a blunt \"no AI\" and \"we are tracking\" statement) that risks deterring or alarming good candidates; and ambiguous compensation/benefit details (and a missing year on the deadline). Fixing these would materially improve applicant quality, fairness, and trust without a large increase in post length. The suggestions are actionable and address likely embarrassing 'own goals', though a few smaller issues (e.g., minor wording/typo fixes, clarity on remote/pune preference) were not called out."
+  },
+  "PostAuthorAura": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don't recognize a prominent EA/rationalist author named 'Vinoj' and they do not appear among well-known EA Forum/LessWrong/80,000 Hours/academic or public-facing authors. The name may be a pseudonym or a less-visible contributor; please provide links or context if you have them and I can re-assess."
+  },
+  "PostClarity": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: strong headings, organised sections (about, role, responsibilities, skills, benefits, application steps) and concrete examples of projects and tech stack make it easy to understand what the job involves. Weaknesses are minor: a few formatting/typo issues (e.g. 'Stayaheadof'), some repetitive phrasing and long project lists that could be more concise, and small ambiguities (deadline time zone, enforcement of the 'no AI' rule). Tightening wording, fixing typos, and trimming redundant detail would make it exemplary."
+  },
+  "PostNovelty": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "novelty_ea": 3,
+    "novelty_humanity": 1,
+    "explanation": "This is essentially a standard nonprofit tech job posting \u2014 common structure (responsibilities, stack, benefits, how to apply). For EA Forum readers it\u2019s slightly more specific/interesting because it\u2019s an EA-aligned public-health tech role (SurveyCTO/Telerivet integrations, automating audio audits, A/B testing in survey flows) and mentions funders like GiveWell/Nudge, but the core ideas are not new. For the general public it\u2019s routine and unoriginal (just another job ad)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a coherent, plausible argument that better technology and automation can increase the scalability and efficiency of vaccination programs, and it backs that claim with concrete descriptions of tools, processes, and program reach (\"over 40 lakh families\") plus reputable funders/incubators. Weaknesses: It provides little hard empirical evidence that Suvita's interventions actually increase immunization rates or save lives (no effect sizes, evaluations, or citations), and it assumes\u2014without demonstrating\u2014that the specific hires and tech changes described will translate into improved health outcomes or cost-effectiveness. Overall the case is plausible and well-structured for a hiring ad, but under-supported if the goal is to prove impact rigorously."
+  },
+  "PostExternalValidation": {
+    "post_id": "yftf4BHBh3LqMzniy",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are verifiable and well-supported: the EA Forum job post and identical job page on Suvita\u2019s website exist; Suvita runs two evidence\u2011based programmes (SMS reminders and immunisation ambassadors); the cited tech stack and application process (coding assessment) are described on Suvita\u2019s site; and Suvita has been incubated/funded or granted support by The/Nudge Institute, Charity Entrepreneurship, Mulago Foundation and GiveWell. The Digital Personal Data Protection Bill 2023 reference is accurate (India passed DPDP/DPDP Bill in 2023). One area of ambiguity: the numeric reach metric \u2014 Suvita/related pages variously report \u201c40 lakh families\u201d, \u201c40.6 million SMS reminders delivered\u201d, and other enrolment figures (hundreds of thousands to millions) depending on which metric (families vs SMS messages vs projected reach) is used. That inconsistency warrants caution but does not contradict the overall claims about scale and funders.",
+    "sources": [
+      "Suvita \u2014 Technology Specialist / Senior Software Engineer job page (suvita.org/seniorsoftwareengineer) \u2014 organization job listing (confirms role, salary, benefits, tech stack, leave).",
+      "EA Forum post: 'Suvita is hiring Technology Specialist/Senior Software Engineer' (Effective Altruism Forum) \u2014 March 27 post reproducing the job ad.",
+      "Suvita \u2014 Our work / programmes page (suvita.org/our-work) \u2014 describes SMS reminders and immunisation ambassador programme and lists impact numbers on site.",
+      "GiveWell research/grant page: 'Suvita \u2014 SMS Reminders and Ambassadors for Immunization (April 2023)' (givewell.org) \u2014 confirms interventions, grant details and projected scale.",
+      "Charity Entrepreneurship: Suvita profile (charityentrepreneurship.com/suvita) \u2014 confirms incubation and early metrics/support.",
+      "Mulago Foundation portfolio: Suvita entry (mulagofoundation.org/our-portfolio/suvita) \u2014 confirms Mulago funding/support.",
+      "Giving What We Can / Suvita summary (givingwhatwecan.org/charities/suvita) \u2014 reports Suvita\u2019s SMS reminders total (40.6M reminders) and other impact metrics.",
+      "Suvita coding assessment / application portal (coding-assessment.suvita.org) \u2014 confirms the described application flow (coding challenge before form).",
+      "PRS India / coverage of Digital Personal Data Protection Bill, 2023 (prsindia.org/billtrack/digital-personal-data-protection-bill-2023) and mainstream news coverage (The Hindu/Economic Times) \u2014 confirms the DPDP Bill 2023 legislative status and provisions."
+    ]
+  }
+}

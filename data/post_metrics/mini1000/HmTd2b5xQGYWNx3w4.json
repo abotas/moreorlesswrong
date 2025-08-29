@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a profile/advocacy piece about a prominent EA-friendly public figure. It\u2019s useful for outreach, inspiration, and signalling (may help fundraising, recruitment, and public engagement), but it doesn\u2019t present new arguments, evidence, or policy\u2011critical analysis. If its claims are true or false it would have little effect on core EA/longtermist views or major decisions \u2014 modestly valuable within the community, trivial for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix factual/technical errors and add citations. There are broken/incorrect links (e.g. https://https//www.youtube.com...) and several factual claims that need sources (\"has raised 11 million dollars\", specific claims about REG\u2019s impact, scope of Win\u2011Win topics). Action: correct all links, cite REG\u2019s charity registry/annual reports for the $11M figure and give a date range, and link to concrete Win\u2011Win episodes or summaries when you claim she covers AI/alignment or introduces concepts like Moloch.\n\n2) Tone and unsupported inference: the piece reads like promotional hagiography and frequently leaps from \"wins at poker/physics\" to \"therefore she can save the world.\" That is a plausible narrative but it\u2019s an evidentiary gap for EA readers. Action: either (a) soften heroic language and avoid causal claims about poker \u2192 global impact, or (b) explicitly describe the transferable skills (examples: decision\u2011theory communication, fundraising networks, specific programs run by REG) and provide evidence those skills produced measurable outcomes.\n\n3) Missing engagement with obvious EA counterarguments and limitations. For an EA forum audience you should acknowledge common critiques (cause prioritization tradeoffs, influence of donor networks, debates about longtermism vs near\u2011term giving) and where Liv/REG sit relative to them. Action: add a brief balanced paragraph that (a) notes relevant EA debates, (b) explains how Liv\u2019s work responds to or avoids those criticisms (with evidence where possible), or (c) links to critical discussions so readers can evaluate for themselves. This will reduce the appearance of an uncritical profile piece and increase credibility.",
+    "improvement_potential": "The suggested fixes identify real, concrete problems that would embarrass the author if left uncorrected (broken links, uncited money/impact claims) and point out a substantive tone issue for an EA audience (hagiography and unsupported causal leaps). The recommendation to acknowledge relevant EA critiques is also important for credibility. Addressing these will materially improve the post and need not bloat it if done succinctly (fix links/cite sources, temper claims or add brief evidence/examples, add a short paragraph noting key EA tradeoffs or linking to debates)."
+  },
+  "PostAuthorAura": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Appears to be a pseudonymous/niche author with a small presence in EA/rationalist forums (occasional posts or comments). Not a widely cited or institutional figure within EA, and has essentially no recognizable public profile outside those communities."
+  },
+  "PostClarity": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "clarity_score": 7,
+    "explanation": "Well-structured, readable and engaging: the post clearly conveys who Liv Boeree is and the shift from competitive poker to effective altruism/non-zero-sum thinking. Strengths include good flow, headings, and helpful links. Weaknesses: slightly promotional and repetitive phrasing, a broken YouTube link, occasional fluff (e.g. repeated \u201cno less\u201d), and light on analytical depth or evidence for some claims\u2014issues that prevent a higher score."
+  },
+  "PostNovelty": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is largely a profile/summary of well\u2011known facts (Liv\u2019s poker career, Raising for Effective Giving, Win\u2011Win podcast, non\u2011zero\u2011sum framing and Moloch). For EA Forum readers these are familiar touchpoints, so the piece adds little new analysis or original claims. For the general public it may be mildly novel to learn a poker champion channeled game\u2011theoretic thinking into effective altruism and founded REG, but the underlying ideas and biographical arc are common and not especially original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "reasoning_quality": 4,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a coherent, easy-to-follow narrative connecting Liv Boeree's background in competitive poker and game theory to her later work in effective altruism and public advocacy; it cites specific, verifiable claims (degree, major poker win, founding Raising for Effective Giving, podcast). Weaknesses: The argument is largely promotional and anecdotal rather than analytical \u2014 it asserts broad impact (e.g. \u2018\u2018saving the world\u2019\u2019, \u2018\u2018driving positive change\u2019\u2019) without showing causal mechanisms or measurable outcomes. Evidence is thin: fundraising totals and activities are claimed but not backed by independent sources, impact metrics, or critical perspectives. Important counterevidence and nuance (how effective REFG\u2019s grants were, scale and reach of the podcast, independent assessments) are missing. To improve, the post should cite independent verifications of the factual claims, provide concrete impact metrics (grants made, lives/years saved or other outcomes, reach of advocacy), and consider alternative interpretations or limits of her influence."
+  },
+  "PostExternalValidation": {
+    "post_id": "HmTd2b5xQGYWNx3w4",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's major factual claims are verifiable and accurate: Liv Boeree did earn a First Class honours degree in physics/astrophysics, began poker via a televised reality show shortly after university, won the EPT Sanremo main event for \u20ac1,250,000 (2010), appeared on Golden Balls (2007) and chose to \u2018steal\u2019 in the final (the prisoner's-dilemma-like choice), is nicknamed \u201cIron Maiden\u201d, co\u2011founded Raising for Effective Giving (REG), and now works as a science communicator and hosts the Win\u2011Win podcast (where she discusses Moloch and non\u2011zero\u2011sum/AI topics). Minor issues: the post\u2019s $11M figure for REG donations is out of date compared with public reporting (REG/Wikipedia report >$14M influenced as of 2020/REG site summaries), and a few phrasing choices (e.g., \u201cstraight A\u2019s\u201d) are anecdotal though supported by interviews/biographies rather than formal academic records. Overall the empirical claims are well supported by reputable sources.",
+    "sources": [
+      "Wikipedia: Liv Boeree (summary of education, Golden Balls, REG, podcast) \u2014 https://en.wikipedia.org/wiki/Liv_Boeree",
+      "PokerNews \u2014 2010 EPT Sanremo main event winner Liv Boeree (Prize \u20ac1,250,000) \u2014 https://www.pokernews.com/tours/ept/2010-ept-sanremo/main-event/post.138773.htm",
+      "CardPlayer / Hendon Mob reporting of EPT Sanremo win (\u20ac1,250,000) \u2014 https://www.cardplayer.com/poker-news/8944-liv-boeree-wins-ept-san-remo-main-event and https://pokerdb.thehendonmob.com/articles/liv-boeree-wins-1-250-000-at-ept-san-remo-italy-the-biggest-ept-ever-held-1613",
+      "Tim Ferriss Show transcript (Liv: \u201cI was just so pathologically competitive\u201d) \u2014 https://tim.blog/2022/08/02/liv-boeree-transcript/",
+      "NPR interview transcript referencing Golden Balls and the TV poker show / student\u2011debt story \u2014 https://www.npr.org/transcripts/697806307",
+      "Raising for Effective Giving (REG) official site / track record and money influenced (site summary and 2025 site snapshot showing >$14M figure) \u2014 https://reg-charity.org/ and Wikipedia: Raising for Effective Giving \u2014 https://en.wikipedia.org/wiki/Raising_for_Effective_Giving",
+      "Liv Boeree official biography / about page (education, straight\u2011A claim, early TV/poker origin story) \u2014 https://www.livboeree.com/about/",
+      "Win\u2011Win podcast official site / listings (hosted by Liv Boeree; topics include Moloch, AI, non\u2011zero\u2011sum) \u2014 https://winwinpodcast.com/ and Spotify creator page for 'Win\u2011Win with Liv Boeree' \u2014 https://creators.spotify.com/pod/profile/winwin-pod/"
+    ]
+  }
+}

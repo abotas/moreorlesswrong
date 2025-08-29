@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is practical, well-targeted advice that can modestly improve the quality and efficiency of networking at EAGs and similar conferences. For the EA/rationalist community it\u2019s actionable and helps newcomers access mentorship and busy people triage requests \u2014 so it has nontrivial but not foundational value (can change some career trajectories and save time, but doesn\u2019t alter core strategic decisions). For general humanity it\u2019s largely trivial: useful social-skill guidance but with negligible large-scale impact."
+  },
+  "PostRobustness": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Overgeneralisation: the post treats \u201cestimate expected impact\u201d as the primary triage signal for busy people, but in practice short heuristics (subject line, obvious fit, mutual connections, and low-cost asks) often dominate whether someone opens or responds. Action: add a short caveat that different people triage differently and include a tiny section listing the highest-leverage triage signals (suggested subject-line templates, mutual-intro phrasing, and a one-line \u2018ask size\u2019 like \u201c15 min\u201d or \u201c5 min email reply\u201d).\n\n2) Missing tactical follow-up and logistics: readers will benefit from explicit micro-advice that strongly affects response rates\u2014how to state meeting length, provide scheduling options, suggest lower-cost alternatives, and how/when to follow up. Action: add 3\u20134 concrete lines people can copy (e.g. \u201cWould you be willing to do 15 minutes next week? I\u2019m available Tue 10\u201311 or Wed 14\u201315; happy to take a 5-min email reply if that\u2019s easier. If I don\u2019t hear back I\u2019ll follow up once in 5\u20137 days.\u201d).\n\n3) Risk of perceived bragging and credibility issues: the guidance to include 1\u20133 pieces of evidence is good but can backfire if phrased as boastful claims or unverifiable assertions. Action: give quick examples of low-friction, non-braggy ways to signal credibility (link to a public repo/blog/LinkedIn, name a mutual contact with permission, quantify outcomes modestly and verifiably) and a one-line template for framing (e.g. \u201cQuick context on why I\u2019m asking \u2014 I\u2019ve done X (link) and would value your input on Y\u201d).",
+    "improvement_potential": "The proposed feedback points out practical, high-leverage omissions that would materially raise the post\u2019s usefulness without overturning its core thesis. Subject lines, explicit ask size/scheduling, low-cost alternatives, and concrete non\u2011braggy credibility templates are tactical details many readers will actually act on and that busy recipients often use as quick triage signals. None of these are fatal omissions, but they\u2019re important: adding short caveats and copy\u2011paste micro\u2011templates would make the advice much more actionable while only modestly lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The single name 'Jemima' (possibly a pseudonym) does not correspond to any widely recognized author or figure in the EA/rationalist community or in the broader public record I can find. Without additional identifying details (surname, works, platform), there's no evidence of notable presence, so I rate both community and global fame as minimal."
+  },
+  "PostClarity": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: strong TL;DR, clear recommended message template, concrete examples, and sensible tone tailored to busy recipients. Minor weaknesses: a bit repetitive in places (Introduction reiterates TL;DR), occasional small tangents and footnote markers that interrupt flow, so it could be slightly more concise, but overall very practical and readable."
+  },
+  "PostNovelty": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Most of the advice (be concise, give relevant background, state a concrete ask, and show why connecting will be impactful) is standard networking/cold-message guidance and is already common in the EA community. The slightly less-common elements are the explicit framing around helping busy people triage by supplying 1\u20133 short pieces of \u2018evidence of impact\u2019 and the clear, conference-focused structure \u2014 useful refinements but not deeply original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "reasoning_quality": 8,
+    "evidence_quality": 3,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is logically organized, the central claim (busy recipients need enough info to estimate expected impact and want concision) is clear and well-argued, and the recommended message structure follows directly from that goal. The author anticipates common objections (imposter syndrome, different busyness levels) and gives concrete examples that illustrate how to apply the advice. Weaknesses: The support is almost entirely experiential/anecdotal (one concrete anecdote and the author's personal perspective) with no systematic data, experiments, or broader surveys to show the recommendations improve response rates or outcomes. Advice may reflect the tastes of a particular subset of busy people and so may not generalize. Overall: Reasoning is strong and the guidance is plausible and practical, but empirical evidence is limited, so the thesis is moderately well supported rather than robustly proven."
+  },
+  "PostExternalValidation": {
+    "post_id": "oKCAytGYKx9dcdBQC",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Overall: the post is mainly actionable advice and opinion rather than tightly testable empirical claims. The verifiable parts are well-aligned with published evidence: (1) conference platforms like Swapcard are explicitly designed to let attendees message and request one\u2011to\u2011one meetings, supporting the claim that conferences/Swapcard facilitate cold outreach and easy accept/decline of meeting requests (Swapcard docs; EA Global event pages). (2) Empirical studies and large-scale email analyses support the claim that concise, well\u2011structured messages get better response rates (Boomerang analysis of ~40M emails; other email-length studies) and that personalization / concrete asks increase engagement and reply rates (marketing analyses summarized by Backlinko and Campaign Monitor). (3) Broad email\u2011volume statistics (Statista / industry summaries) support the background claim that busy professionals face a high incoming message volume, so triage/conciseness matter. Weak / unverifiable parts: the post\u2019s anecdotal examples (the co\u2011author\u2019s Taiwan/China decision) are personal anecdotes and not externally verifiable; normative claims about \u201cEAG norms\u201d are plausible and consistent with EA\u2019s stated emphasis on networking but are not (and need not be) a formal policy claim. Conclusion: most practical, testable recommendations (brevity, show concrete impact evidence, ask a specific question, explain why this person) are supported by published email-reply and event-platform evidence, so I judge the post well-supported overall but primarily opinion/experience-based rather than a source of new empirical findings.",
+    "sources": [
+      "Boomerang Blog \u2014 \"7 Tips for Getting More Responses to Your Emails\" (Boomerang analysis of ~40 million emails), 2016",
+      "Swapcard Help Center \u2014 \"Booking meetings with other attendees\" / Swapcard product pages (features: attendee messaging, one-to-one meeting requests)",
+      "EffectiveAltruism.org (EA Global / EA Global: London 2024) \u2014 event pages describing Swapcard usage and networking expectations",
+      "Statista / industry summaries \u2014 daily number of emails sent worldwide and typical business-user inbox volume (used to support claim that professionals receive many messages)",
+      "Campaign Monitor \u2014 \"Do CTAs help to improve email response rates?\" (discussion of clear calls-to-action improving responses)",
+      "Backlinko \u2014 \"60+ Email Marketing Stats\" (compilation of studies on personalization, opens/replies and email engagement)"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is an event announcement rather than an original argument or analysis. For the EA/rationalist community it has modest value: outreach, community-building, and exposure to Peter Singer\u2019s ideas could help recruit or motivate people, but it is not load-bearing for major EA conclusions. For humanity at large the impact is minor: a useful public talk but unlikely to change large-scale outcomes or policy by itself."
+  },
+  "PostRobustness": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix time\u2011zone ambiguity and double\u2011check dates: the post lists both \u201cBeijing Time\u201d and \u201cCST\u201d which many readers will interpret differently. Give each time as a single concrete timestamp with UTC offset (e.g. \u201cFeb 21, 09:00 BJT / UTC+8 = Feb 20, 19:00 CST (US Central, UTC\u20116)\u201d) or list all relevant zones. Verify the day/date mapping so readers in other zones can convert reliably.\n\n2) Be explicit about the talk topics and EA relevance (or avoid overstating it): the phrase \u201cethics of effective altruism\u201d presumes what Singer will cover. If you don\u2019t have a confirmed topic, say so and summarize confirmed themes/questions or the intended audience. If the goal is to attract EA readers, add one sentence explaining why the event is relevant to EA priorities (e.g., comparative ethics of interventions, animal advocacy, or public engagement).\n\n3) Add key logistics readers care about: state whether registration is required, whether the session will be recorded and shared, if there will be a live Q&A and how questions will be handled, accessibility options (captions, languages), and whether the event includes fundraising or promotional asks. These short details reduce follow\u2011up questions and increase turnout.",
+    "improvement_potential": "Strong, actionable feedback identifying likely reader-facing mistakes. Time\u2011zone ambiguity is a real own\u2011goal (many will misread \u201cCST\u201d); clarifying UTC offsets prevents no\u2011shows. Flagging an unstated/assumed talk topic (and EA relevance) prevents overclaiming and sets correct expectations. Adding brief logistics (registration, recording, Q&A, accessibility, fundraising) answers common attendee questions and won\u2019t bloat the post. These fixes are high\u2011impact and concise to implement."
+  },
+  "PostAuthorAura": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff I have no record of a notable EA/rationalist figure or a publicly known author named \u201cXing Shi Cai.\u201d Likely unknown or very niche (possibly a pseudonym or primarily Chinese-language/very new). No evidence of major publications, talks, or broad online presence. If you give links or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, easy to read, and communicates the who/what/when/where effectively (clear speaker descriptions, schedule, and Zoom link). Minor issues: the repeated time listings are slightly redundant and the abbreviation \u201cCST\u201d is ambiguous (China Standard Time vs. U.S. Central Standard Time), and it could briefly note RSVP/registration requirements. Overall concise and compelling for an event announcement."
+  },
+  "PostNovelty": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is an event announcement rather than a new argument. For EA Forum readers, both the themes (effective altruism, utilitarian ethics, plant\u2011based advocacy) and the speaker (Peter Singer) are very familiar, so the content is not novel \u2014 only the specific event/pairing is new. For the general public, the ideas are somewhat less familiar but still common (ethical eating, small actions for global well\u2011being), so novelty is low\u2013moderate primarily due to the notable speakers and institutional context rather than original claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This post is primarily an event announcement rather than an argument-driven piece. Strengths: it cites credible speakers (Maggie Baird and Peter Singer), which lends authority and relevance to the claim that small, conscious choices can promote well\u2011being. Weaknesses: it offers no empirical evidence, data, or concrete mechanisms showing how small actions scale to global well\u2011being, and it relies on assertion and speaker reputation rather than structured argument or supporting studies. Overall the claim is plausible but weakly supported in this post."
+  },
+  "PostExternalValidation": {
+    "post_id": "84XTLteLBhWKocfKt",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major factual claims in the post are well supported: the DKU Plant Futures event page lists the DKU ECO-FEB 2025 speaker series with Maggie Baird (9\u201310 AM Beijing) and Peter Singer (10\u201311 AM Beijing) on Feb 21, 2025; Maggie Baird is the founder of Support + Feed (confirmed on the org\u2019s site and in media coverage); Peter Singer\u2019s authorship of Animal Liberation and his status as a leading ethicist are well established. Minor caveats: I could not independently verify the specific Zoom meeting instance (meeting id in the post) or find post-event recordings/attendance evidence from external archives \u2014 but there is no contradictory evidence about the advertised speakers or schedule.",
+    "sources": [
+      "DKU Plant Futures \u2014 \"\ud83c\udf31\u2728 DKU ECO-FEB 2025 is here! \u2728\ud83c\udf31\" (event page) \u2014 https://dku-plant-futures.github.io/post/eco-feb-2025/",
+      "Support + Feed \u2014 About / Our Founder (Maggie Baird) \u2014 https://supportandfeed.org/about/ and https://supportandfeed.org/our-founder/",
+      "Associated Press \u2014 \"Maggie Baird ... receives environmental award\" (Mar 15, 2025) \u2014 https://apnews.com/article/27a547d764250c23fca3b0957fe78295",
+      "Peter Singer \u2014 University Center for Human Values (Princeton) profile \u2014 https://uchv.princeton.edu/people/peter-singer",
+      "Peter Singer \u2014 personal site / about \u2014 https://www.petersinger.info/about/",
+      "Britannica \u2014 Peter Singer entry (biography / Animal Liberation) \u2014 https://www.britannica.com/biography/Peter-Singer"
+    ]
+  }
+}

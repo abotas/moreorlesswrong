@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "This is a useful, concrete datapoint and call-to-action for EA/global-health funders: it illustrates how bottom-up, agent-focused support can unlock frontier science (phage/AMR, biosecurity) in low\u2011infrastructure settings. It is not a foundational theoretical shift, but it is load-bearing for practical grantmaking and program design targeted at the Global South. For general humanity the piece is moderately important\u2014AMR and local research capacity have global spillovers\u2014but the post is largely anecdotal and narrowly scoped rather than proving a broad, generalizable policy solution."
+  },
+  "PostRobustness": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Major missing discussion of biosafety, biosecurity, and dual\u2011use risk (critical for frontier phage work).\n   - Why this matters: readers and funders will worry about accidental release, misuse, or regulatory noncompliance. Omitting this weakens credibility and could discourage collaboration/funding.\n   - Actionable fixes: add a short paragraph summarizing your lab's biosafety level, risk assessments, personnel training, oversight (IRB/IBC/ethics), and how you plan to engage Nigerian regulators and global best practices. If you don\u2019t yet have these, say so and ask for help/advice \u2014 that transparency builds trust.\n\n2) Weak evidence for the key claim that small grants to individuals produce \u201cdisproportionate value\u201d and unclear impact metrics.\n   - Why this matters: the post positions itself toward EA funders but gives no examples, counterfactuals, or concrete metrics to evaluate success, making it hard for funders to act.\n   - Actionable fixes: briefly cite one or two concrete outcomes (e.g., papers, diagnostic deployments, trainees placed, partnerships formed) or give a plausible short list of KPIs you would use (e.g., number of validated isolates, surveillance tests deployed, trainees certified, follow\u2011on funding secured). If you lack data, state what evidence you plan to collect and how funders can judge progress.\n\n3) Oversimplified framing that sidelines institutions and regulatory pathways \u2014 risks making the approach look unsustainable or extractive.\n   - Why this matters: building \u201coutside the university\u201d can be pragmatic, but long\u2011term impact usually requires some institutionalization, supply chains, and regulatory alignment; readers will want to know the plan to scale or hand off gains.\n   - Actionable fixes: acknowledge tradeoffs and give 1\u20132 concrete models you\u2019re considering to scale or institutionalize (e.g., shared core facilities that partner with hospitals, social\u2011enterprise revenue models, formal MOUs with a local university or public health lab, or staged engagement with the Ministry of Health). Add a short sentence about financial sustainability and exit/scale plans (how you\u2019ll move from grant to steady funding or acquisition).",
+    "improvement_potential": "The feedback pinpoints major, potentially embarrassing omissions (especially biosafety/dual\u2011use) and raises two other high\u2011value gaps (evidence/metrics and sustainability/institutionalization). Each point is directly relevant to the post\u2019s audience (funders, collaborators) and includes concise, actionable fixes that won\u2019t unduly bloat the post. Addressing them would materially improve credibility and fundability. It\u2019s not a 10 only because the post\u2019s core claim isn\u2019t invalidated by these omissions, but failing to address them could still seriously undermine reception and trust."
+  },
+  "PostAuthorAura": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No known presence of 'emmannaemeka' in EA/rationalist publications, forums, or major public media up to my 2024-06 knowledge cutoff. Likely a private or pseudonymous online user; provide links for reassessment."
+  },
+  "PostClarity": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: it states a clear thesis (progress often comes from individuals, not government), provides a concrete, relevant example (the phage lab/company), and ends with focused, actionable questions and a call to collaborate. Weaknesses are minor: occasional repetition and slight wordiness in places, limited detail on concrete needs or metrics, and a few small formatting/spacing issues; tightening those would make the argument even more compelling and concise."
+  },
+  "PostNovelty": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers the high-level claims (progress driven by individuals rather than state, funding small actors in low\u2011infrastructure contexts, bottom\u2011up capacity building) are familiar themes, so the post is only modestly novel. Its most original elements for that audience are the concrete, first\u2011hand example \u2014 setting up a phage lab and registering a phage company in Nigeria \u2014 and the practical framing of questions for funders. For the general public the combination of niche science (phage therapy/AMR), the specific Nigerian institutional context, and the idea of building translational R&D outside universities is less widely appreciated, so it feels moderately novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post presents a coherent, plausible argument: in many Nigerian sectors government action is weak and individual actors can drive progress, illustrated by the author's phage lab project and fundraising. Strengths include clear logic, concrete first\u2011hand experience, and relevant questions for funders. However, the reasoning depends heavily on anecdote and generalization from a single case, lacks counterarguments (e.g., where government-led progress has worked or is necessary), and doesn't engage with scalability or sustainability issues. The empirical support is weak: no hard data, citations, metrics, or comparative evidence are provided to substantiate country\u2011level claims or to show impact from the project beyond setup and registration. Overall, the thesis is plausible and worth exploring, but currently under-supported by systematic evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "K4eBoHpEJtHBtDKhN",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are well supported: (a) Nigeria has low R&D funding, recurrent under\u2011funding of universities and frequent strikes that hinder research; (b) corruption and governance problems are well documented; (c) bacteriophage research and interest in phage therapy have grown in the US/EU (regulatory activity at EMA/EDQM, NIH/academic work); and (d) the author\u2019s account of setting up a phage centre with microgrants (Emergent Ventures / ACX) is corroborated by the author\u2019s EA Forum posts, a Medstartr listing and an ACX/Astral Codex Ten grant update and a local press interview. Key weaknesses / caveats: the post\u2019s statement \u201cthere is no coordinated AMR roadmap\u201d is misleading \u2014 Nigeria published a National Action Plan on AMR (2017\u20132022) and NCDC convened a national AMR coordination committee (inaugural meeting 2020), though implementation/funding gaps are repeatedly noted. The author\u2019s claim of being the \u201cfirst phage company limited by guarantee\u201d is largely self\u2011reported (EA posts, local press) and I could not find an independent CAC public record online to definitively confirm \u201cfirst ever\u201d status; similarly \u201cone of the first phage labs\u201d in Nigeria is plausible but there are published phage projects/teams (e.g., University of Ibadan SEA\u2011PHAGES, Nsukka studies) predating or contemporaneous with the author\u2019s work. Overall: most major factual claims are supported, a few specific absolute claims are overstated or lack independent public confirmation.",
+    "sources": [
+      "Nigeria Centre for Disease Control \u2014 Inaugural Meeting of the National Antimicrobial Resistance Coordination Committee (NCDC news, 28 Sep 2020).",
+      "National Action Plan on Antimicrobial Resistance 2017\u20132022 (Nigeria / WHO AFRO publication).",
+      "European Medicines Agency \u2014 Concept paper / guideline work on bacteriophage medicinal products (EMA, 2023\u20132024).",
+      "EDQM / European Pharmacopoeia \u2014 public consultation on phage therapy chapter (Ph. Eur., 2023).",
+      "Astral Codex Ten \u2014 ACX Grants Results / ACX Grants updates (includes 'EN\u2019s Work On Bacteriophage Therapy' mention).",
+      "Effective Altruism Forum \u2014 multiple posts by 'emmannaemeka' about the Centre for Phage Biology & Therapeutics, Emergent Ventures funding, and fundraising posts (Dec 2024\u20132024 updates).",
+      "Medstartr project page \u2014 'Phage biobank in Nigeria' by Emmanuel Nnadi (self\u2011reported Emergent Ventures support).",
+      "The Guardian (Nigeria) \u2014 interview: 'Phage therapy will address antimicrobial resistance crisis' featuring Nnaemeka Nnadi (Jan 23, 2025).",
+      "Ibadan Bacteriophage Research Team / SEA\u2011PHAGES coverage and ASBMB article on the Ibadan phage team (shows prior phage activity in Nigeria / Africa).",
+      "Research articles (University of Nigeria, Nsukka) \u2014 published isolation/characterization of bacteriophages from Nigerian wastewaters (examples of local phage research).",
+      "Transparency International \u2014 Nigeria country page (Corruption Perceptions Index, 2023/2024 data).",
+      "World Bank / UNESCO data \u2014 Nigeria research & development expenditure (GERD % of GDP; low R&D spending reported 2020\u20132022).",
+      "News and sector reporting on Nigerian tertiary funding and ASUU strikes (The Guardian Nigeria, ThisDay, Vanguard coverage 2022\u20132025) (evidence of underfunding, strikes, infrastructure problems)."
+    ]
+  }
+}

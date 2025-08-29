@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "The post advances a useful, practical point \u2014 that small, partial improvements (marginal gains) matter \u2014 which is relevant to EA thinking about behavior change, decision heuristics, and avoiding perfectionism. It's helpful and could shift individual and cultural norms modestly, but it isn't a load-bearing theoretical claim for EA or a high-impact empirical finding: if true or false it wouldn't overturn major priorities or strategies, only influence incremental personal and social choices."
+  },
+  "PostRobustness": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Heavy reliance on anecdotes and an implicit scaling claim: The intro uses relatable vignettes to suggest \u201cmarginal gains\u201d matter, but the post lacks evidence or a clear causal model showing how many small choices add up to meaningful change. Before publishing, add either simple back-of-envelope estimates, citations, or an explicit argument about aggregation/threshold effects (e.g., when many people adopt a behavior, when signaling changes norms, or when consumer pressure hits a leverage point). This prevents readers from dismissing the piece as just feel-good anecdote.\n\n2) Missing key counterarguments (opportunity cost, moral licensing, and systemic vs. individual action): Many EA readers will push back that small personal acts can crowd out higher-impact work or create moral licensing, and that some consumer boycotts are low-impact or counterproductive. Address these head-on: say when marginal acts are complements vs substitutes for systemic engagement, acknowledge potential harms, and give criteria for when to prioritize small actions.\n\n3) Unclear practical guidance / normative standard: The examples raise the hypocrisy/consistency question but don\u2019t give readers a decision rule. Add a short, actionable heuristic (e.g., low-cost+high-visibility = worthwhile; avoid costly behaviors that displace high-impact activities; consider counterfactual and scale) or a 2\u20133 item checklist so readers can apply the post\u2019s thesis without getting bogged down in guilt or inconsistency debates.",
+    "improvement_potential": "The feedback targets real, substantive weaknesses for an EA audience: reliance on anecdotes without aggregation/causal argument, omission of key counterarguments (opportunity cost, moral licensing, systemic vs individual action), and lack of a usable decision rule. Fixing these would materially strengthen the post and prevent predictable pushback, and could be done with a few added paragraphs or a short checklist rather than a large rewrite."
+  },
+  "PostAuthorAura": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name \"Joseph\" is too ambiguous on its own and I can't identify a specific EA/rationalist author known only by that single name. There is no clear evidence of a prominent figure in EA or broader public life who goes by just \"Joseph.\" If you mean a specific person (e.g., Joseph Carlsmith, Joseph Henrich, or someone using \"Joseph\" as a pseudonym), please provide a last name, link, or sample works and I can re-evaluate."
+  },
+  "PostClarity": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: it gives context (who Jay Ulfelder is), links to the original piece, and includes a clear excerpt that illustrates the point about small everyday moral choices. It isn't long-winded and reads naturally. It could be slightly stronger if it briefly summarized the blog post's main takeaway for EA readers or made more explicit why the example matters to EA practice, but overall it's clear and concise."
+  },
+  "PostNovelty": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "The post presents a familiar, everyday-ethics point \u2014 incremental moral actions and small tradeoffs matter \u2014 illustrated with mundane examples (boycott choice, partial veganism, car vs. moped). EA readers already routinely think in marginal/expected-value terms, so the idea is hardly new to that audience. For the general public the claim is even more commonplace (self-help, activism, and cultural talking points about 'small acts matter' are widespread), so it\u2019s not novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post advances a clear, intuitive thesis \u2014 small, marginal ethical choices matter \u2014 and uses coherent, relatable anecdotes (boycott choice, shifting toward veganism, choosing an electric moped) to illustrate the point. That makes the reasoning approachable and plausible, and the examples do support the claim at a common-sense level. However, the argument is mostly anecdotal and informal: it does not quantify effects, consider important counterarguments (e.g., moral licensing, signaling, opportunity costs, or when marginal gains are negligible), nor cite empirical studies showing that many small changes aggregate to meaningful impact. For an audience expecting rigorous support (like EA readers), the evidence is weak and the reasoning would benefit from explicit cost-effectiveness framing, aggregation arguments, and empirical backing about cumulative impacts of marginal actions."
+  },
+  "PostExternalValidation": {
+    "post_id": "6dGjriGxJGahWmYbL",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's empirical claims are verifiable and accurate. Jay Ulfelder is the Dart\u2011Throwing Chimp author and the cited post (\u201cMarginal Gains Are Still Gains\u201d) was published May 19, 2025. The claim that Domino\u2019s appears as an \u201corganic\u201d boycott target on BDS lists is supported by BDS/BNC\u2011affiliated pages and multiple news/advocacy summaries; Google and Amazon being listed as pressure/technology targets (Project Nimbus / No Tech For Apartheid) is well documented. The Target/DEI rollback, subsequent calls for boycott, and reported drops in foot traffic/sales/stock that Ulfelder cites are corroborated by mainstream reporting (CNN, AP, MarketWatch) and Placer.ai data cited by outlets. Minor caveat: I could not open the bdsmovement.net front page directly in one request, but the BDS list update (Dec 2024) and its categorization of \u201cpriority/pressure/organic\u201d targets is corroborated by multiple independent outlets and BDS\u2011affiliated pages. Overall: well\u2011supported but not \u201cexceptionally\u201d \u2014 small accessibility/primary\u2011page caveat keeps this from a 9\u201310.",
+    "sources": [
+      "Dart\u2011Throwing Chimp \u2014 \"Marginal Gains Are Still Gains\" (posted May 19, 2025). (web.run ref: turn1view0)",
+      "Jay Ulfelder \u2014 Wikipedia entry (confirms author/background). (web.run ref: turn0search12)",
+      "BoycottApartheid / BDS 'Take Action' / Grassroots Organic Boycott Targets (lists McDonald's, Domino's, Pizza Hut, Wix etc.). (web.run ref: turn7search7)",
+      "MuslimMatters \u2014 \"Understanding Boycotts And Buying Within Our Communities\" (lists organic boycott examples including Domino's). (web.run ref: turn4search4)",
+      "AdvocatingPeace / Quds News Network coverage \u2014 BDS movement updates boycott targets (reports BDS tweet Dec 24, 2024 re: priority/pressure/organic targets). (web.run ref: turn5search2 / turn7search0)",
+      "TIME \u2014 \"What to Know About BDS, the Boycotts Against Israel\" (explains BDS tiers and organic/pressure targets). (web.run ref: turn7search3)",
+      "CNN Business \u2014 reporting on Target's DEI rollback, boycott calls and foot\u2011traffic impact (Apr 21, 2025). (web.run ref: turn6search2)",
+      "Associated Press / Inc. coverage \u2014 reports on activists calling for a Target boycott after DEI changes. (web.run ref: turn6search4)",
+      "TIME (exclusive) & Wired / The Guardian \u2014 reporting on Project Nimbus, Google/Amazon ties to Israeli government and worker protests (No Tech For Apartheid). (web.run refs: turn5search1, turn5news12, turn5news15)",
+      "Advocacy/aggregator lists and independent boycott guides (boycottlists / brands2boycott / boycottguide) corroborating Domino's and other 'organic' boycott mentions. (web.run refs: turn0search4, turn7search4, turn4search1)"
+    ]
+  }
+}

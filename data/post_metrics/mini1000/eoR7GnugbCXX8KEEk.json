@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful community-building and knowledge-sharing initiative for the EA movement: it helps surface practical career information, mentorship, and onboarding for newcomers, which can modestly improve human capital allocation within EA and influence individual career choices. However, it is not a foundational or highly load-bearing argument \u2014 its effects are incremental and community-specific rather than paradigm-changing. Its direct impact on general humanity is very small, mostly indirect and diffuse."
+  },
+  "PostRobustness": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing logistics and concrete participation mechanics \u2014 The post announces advisors, AMAs and debates but doesn\u2019t say when, where, or how people should sign up or find those resources (time zones, links, moderator contacts, whether advisors have set slots). Actionable fix: add a brief schedule or link to a sign-up/AMA thread, specify timezone(s), describe how to reach advisors (open thread, calendar slots, DM), and state who will moderate pinned content. This will reduce noise and make it easier for people to plan contributions. \n\n2) Unclear norms for contributions (risk of low-value job-ad spam) \u2014 You say this isn\u2019t a job fair but allow job ads; without clearer norms you\u2019ll likely get lots of recruitment posts that drown out career-insight content. Actionable fix: give 2\u20133 clear submission guidelines (preferred post types, recommended length, required tags or a template for \u201cwriting about my job\u201d), and call out venue rules (e.g., put job ads in a dedicated thread/tag or limit them to one post per org). That will raise signal-to-noise and help readers find the most useful content. \n\n3) Reliance on passive participation for senior/long-career voices \u2014 You note EA skews young but offer no plan to recruit experienced practitioners, so the week may miss the perspectives you most want. Actionable fix: proactively invite a small list of senior contributors/orgs by name, offer support (co-drafting, interviews, editing) to make it easy for busy people to contribute, or run a short outreach campaign to EA groups and fellows to secure a handful of flagship posts.",
+    "improvement_potential": "The feedback identifies three important, actionable omissions that would materially reduce the event\u2019s usefulness: lack of logistics/sign-up details (making participation and attendance planning harder), absent norms/moderation (risking job-ad spam and low signal), and no plan to recruit senior or long-career contributors (losing the target perspectives). Each point suggests small, practical fixes that wouldn\u2019t greatly lengthen the post but would substantially raise signal and participation. The score isn\u2019t higher because the post may intentionally be a brief announcement and some details could be added later, but addressing these would clearly improve the event\u2019s success."
+  },
+  "PostAuthorAura": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to understand: strong TLDR, clear goals, concrete examples, and actionable ways to participate. Good use of headings and links that make the purpose and calls to action obvious. Minor weaknesses: a bit wordy in places and slightly repetitive, an odd/unclear banner line and images, and missing some specific logistical details (exact AMA/advisor schedule). Overall very clear but could be tightened slightly."
+  },
+  "PostNovelty": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is essentially an event/announcement promoting a themed community week \u2014 a common format on the EA Forum and in many online communities. While the EA-specific focus (longtermist careers, EA hiring practices, career advisors familiar with EA) tailors it to the audience, the core idea (career-themed posts, AMAs, advisor availability, and co-writing sessions) is routine and unsurprising rather than original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "This is primarily an event/organising post rather than a research argument. The reasoning is clear, well-structured, and the calls-to-action follow logically from the stated goals. Evidence is limited to a few anecdotal examples from a prior event (links to posts), with no participation metrics or impact evaluation, so empirical support is weak. Overall the thesis (that running a themed career week is a useful way to share career knowledge) is plausible and moderately supported, but would be stronger with quantitative outcomes or broader testimonials."
+  },
+  "PostExternalValidation": {
+    "post_id": "eoR7GnugbCXX8KEEk",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "This is an organizational announcement with few empirical claims; the major factual claims are verifiable. The announcement post (by Toby Tremlett, Jul 8, 2025) and its stated dates (July 21\u201327) exist on the EA Forum. The post\u2019s claim that the previous Career Conversations Week produced specific posts is correct \u2014 the three example posts (Catherine Low; Charity Entrepreneurship; Vaidehi Agarwalla) are real Forum posts from the 2023 Career Conversations Week. The promised pinned AMA with career advisors was posted for the week (the AMA post and advisor organisations are public). There are also related tag/debate posts in the Forum around the same period. Because the post mainly lists verifiable, non-controversial organizational facts and linked content, it is well-supported; minor deductions only because some forward-looking promises (e.g., \u201ca couple of career-related debates\u201d) are general and depend on subsequent activity rather than being a settled factual claim.",
+    "sources": [
+      "Career Conversations Week: July 21-27 \u2014 Effective Altruism Forum (Toby Tremlett, Jul 8, 2025) \u2014 https://forum.effectivealtruism.org/posts/eoR7GnugbCXX8KEEk/career-conversations-week-july-21-27",
+      "AMA: Ask Career Advisors Anything \u2014 Effective Altruism Forum (Toby Tremlett) \u2014 https://forum.effectivealtruism.org/posts/RYPiSnihBWKi6oBrL/ask-career-advisors-anything",
+      "Mistakes, flukes, and good calls I made in my multiple careers \u2014 Catherine Low (EA Forum, Sep 15, 2023) \u2014 https://forum.effectivealtruism.org/posts/w59DkYCJYqaYDpEqG/mistakes-flukes-and-good-calls-i-made-in-my-multiple-careers",
+      "Who Is a Good Fit for a Career in Nonprofit Entrepreneurship? \u2014 Charity Entrepreneurship (EA Forum) \u2014 https://forum.effectivealtruism.org/posts/y7hk2zABZ2nvqDs5z/who-is-a-good-fit-for-a-career-in-nonprofit-entrepreneurship",
+      "Monetary and social incentives in longtermist careers \u2014 Vaidehi Agarwalla (EA Forum, Sep 23, 2023) \u2014 https://forum.effectivealtruism.org/posts/SWfwmqnCPid8PuTBo/monetary-and-social-incentives-in-longtermist-careers",
+      "Career Conversations Week (2025) tag / summary \u2014 EA Forum viewer (Jul 2025) \u2014 https://ea.greaterwrong.com/tag/career-conversations-week-2025"
+    ]
+  }
+}

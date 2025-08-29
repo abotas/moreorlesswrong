@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a short, pragmatic post with a few low-cost, easy-to-run ideas for university EA group organisers. None of the suggestions are foundational to EA theory or strategy, but they are practically useful: they could modestly improve recruitment, retention, and organiser pipelines for campus groups and make retreats easier to run. The claims are mostly anecdotal/untested so the upside is modest and localized. If true, the ideas help scale and strengthen local EA communities but would not substantially change major EA or policy decisions. For general humanity the impact is negligible except insofar as stronger campus groups slightly increase EA activity over time."
+  },
+  "PostRobustness": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big missing piece: why would people join (weak recruitment/incentive analysis). You note the incubator got zero applicants but don\u2019t diagnose causes or propose fixes. Before publishing, add concrete, testable changes you would try next time (e.g. reduce friction by offering a 1-page template and a 10\u2013minute info session, change the incentive from pizza to a small microgrant or CV-relevant credential, target specific subgroups who already show interest like forecasting club members, or seed one project by personally recruiting 2\u20133 co\u2011organisers). Give the reader a short checklist they can follow to run a better pilot rather than just \u201ctry this\u201d.\n\n2) Underestimates costs, exclusion risks and failure modes for the conference-as-retreat idea. The post treats conference content as \u201cfree\u201d but misses important tradeoffs: extra money and time commitments, accessibility (financial, neurodiversity, caregiving), and the high chance people will be too tired to participate in evening activities. Before publishing, add: a clear per\u2011person budget and payment/compensation model; an accessibility plan and policy for subsidising attendance; 2\u20133 concrete evening session formats (with timings) to avoid the \u201cwe\u2019ll just hang out\u201d trap; and guidance to pilot with a very small group and a post\u2011event survey to judge value. Also call out safety/house rules for overnight stays (safeguarding, consenting roommates, emergency contacts).\n\n3) No clear success metrics or quick evaluation plan across all ideas. Readers won\u2019t know when to keep running an initiative. Add 3\u20135 simple KPIs and a short feedback loop for each idea (examples: number of repeat attendees and % who say the event increased their EA engagement, number of new sustained projects after an incubator, per\u2011person cost vs. perceived value on a 1\u20135 scale). Recommend a 1\u2013page post\u2011mortem template organisers can use after each pilot to decide continue/iterate/stop. This keeps the post short but makes it much more actionable.",
+    "improvement_potential": "The feedback identifies major, actionable omissions the author would likely be embarrassed about (no diagnosis for why the incubator failed to attract applicants; treating conference content as \u201cfree\u201d without accessibility, cost, or safety plans; and no KPIs or evaluation plan). Fixing these would substantially improve the post\u2019s usefulness to organisers and is doable without hugely lengthening it (add a short checklist, a per-person budget and basic safety/accessibility rules, and 3\u20135 simple KPIs/post-mortem items). It isn\u2019t a fatal critique of the core ideas, so not a 10, but it rightly calls out critical blind spots that materially reduce the post\u2019s practical value."
+  },
+  "PostAuthorAura": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable author or pseudonym 'JDLC' in EA/rationalist spaces or in wider public sources up to my 2024-06 cutoff. No prominent posts, publications, or public profile under that name are evident on EA Forum, LessWrong, 80,000 Hours, academic databases, or mainstream outlets. If JDLC is a niche/pseudonymous or very recent contributor, please provide links or more context for a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: short numbered sections, concrete actionable ideas, status notes, and examples make it easy to follow. Minor weaknesses: an odd opening table/formatting, occasional informal phrasing and small run-on sentences, and a few places where claims are asserted without evidence or implementation detail. Concise and readable, but could be tightened and slightly more precise in places."
+  },
+  "PostNovelty": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "These are practical, incremental tips rather than new concepts. Uni EA organisers and the broader EA Forum audience have likely seen project incubators, short local retreats, and keeping groups active over holidays (Discord/game nights/lightning talks) before. The only mildly original framing is explicitly positioning conference+shared accommodation as a low\u2011effort \u2018retreat\u2019 hack and the specific low\u2011friction incentive (pizza) for mini\u2011incubators, but overall the ideas are familiar and commonsense."
+  },
+  "PostInferentialSupport": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post offers simple, plausible tactics and the causal logic is clear (incentivise grassroots projects, reuse conference programming, low-effort online summer activities), but the arguments are informal and don't engage with failure modes, costs, or scaling. Empirical support is almost entirely anecdotal: one null pilot for the incubator, a single positive anecdote about shared accommodation, and no data for the summer suggestion. Overall the ideas are low-cost and worth piloting, but currently weakly supported and would benefit from clearer success metrics, more systematic pilots, and evidence of uptake and impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "F53J6NaXxyFzQhzjd",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are plausible and supported by trustworthy sources, though many are presented as commonsense or anecdote rather than results from controlled studies. Strengths: (a) CEA/EV do fund and explicitly treat retreats and group funding as part of community-building (they also state a higher bar for retreat funding), which supports the post\u2019s point that retreats are recognised as valuable but costly. (b) Discord offers built\u2011in free \u2018Activities\u2019 (mini multiplayer games) that make low-effort summer online social events feasible. (c) Multiple studies and reviews show that providing free food reliably increases attendance at meetings/events (so \u201cbuy pizza\u201d as an incentive is evidence\u2011based). (d) Off\u2011site retreats/offsites have a body of management literature (HBR, HBS) showing potential benefits for cohesion, focus and planning, supporting the \u2018conference + accommodation = retreat\u2019 idea. Weaknesses/limits: evidence on retreats is mixed and context\u2011dependent (benefits depend on design/facilitation), the \u2018Project Incubator\u2019 claim is mainly experiential/anecdotal (the author reports zero applicants) though incentives and low planner time estimate are plausible; and the claim that university groups \u201cgo completely silent\u201d over summer is broadly true in many contexts but varies by campus and club type (some clubs and official summer programs remain active). Overall: well\u2011supported for practical advice but not universally proven\u2014rating 7.",
+    "sources": [
+      "Centre for Effective Altruism \u2014 Community Building Grants Program (CEA) (Community-building grants page).",
+      "Centre for Effective Altruism \u2014 Group Support Funding / EA Groups resources (retreats, travel & funding guidelines).",
+      "Discord Blog \u2014 \"Activities: Play Games and Watch Together\" (Discord Activities list; updated June 11, 2024).",
+      "Discord Support \u2014 \"Activities on Discord\" (how to start Activities in voice channels / servers).",
+      "Segovis et al.; PubMed \u2014 \"If you feed them, they will come: A prospective study of the effects of complimentary food on attendance and physician attitudes at medical grand rounds\" (study showing complimentary food raised attendance).",
+      "PubMed \u2014 \"Number needed to eat: pizza and resident conference attendance\" (retrospective study showing modest but significant attendance increases when food is provided).",
+      "Harvard Business Review \u2014 \"Off-Sites That Work\" (HBR article summarizing evidence/best practices for off\u2011site retreats/retreat effectiveness).",
+      "HBS Working Knowledge \u2014 \"Experienced Facilitators Are Key to Successful Executive Off\u2011Sites\" (discussion of when retreats/offsites deliver benefits).",
+      "University pages and student discussions showing reduced campus/club activity in summer (e.g., University of Rochester summer programs page and multiple student forum posts describing campus as quieter/most clubs less active in summer)."
+    ]
+  }
+}

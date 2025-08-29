@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily a branding/communication suggestion that could modestly affect how the EA community frames itself, clarifies its methodology, and handles critiques\u2014useful for persuasion and internal debate but not foundational to EA\u2019s core ethical claims or priorities. It has negligible direct impact on broader humanity beyond possible minor shifts in public perception or recruitment."
+  },
+  "PostRobustness": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Terminology and accuracy mistake \u2014 \u201cexpected value\u201d is a poor/overly narrow technical label for what many EAs actually do. Many community methods invoke expected utility, risk-adjusted reasoning, robust/sequential decision frameworks, moral uncertainty, and qualitative judgment, not raw expected-value arithmetic. Actionable fix: explicitly acknowledge the diversity of decision frameworks in EA and either (a) justify why you single out \u201cexpected value\u201d (with a clear technical definition), or (b) change to a more accurate label (or propose alternatives) so the post doesn\u2019t misrepresent the movement.\n\n2) Big unstated empirical/branding assumption \u2014 you assume renaming will reduce antagonism and clarify disagreements, but you don\u2019t consider that a literal-sounding name like \u201cExpected Value Altruism\u201d could increase perceptions of technocracy, coldness, elitism, or invite new, sharper criticisms. Actionable fix: add a short section weighing empirical/strategic trade-offs (e.g., rhetorical benefits of the familiar word \u201ceffective\u201d vs. costs of ambiguity; risk of sounding technocratic), cite any relevant polls or outreach experience if available, or propose concrete small tests (surveys, A/B messaging experiments, community consultations) before recommending a rebrand.\n\n3) Overlooks an important counterargument about stakeholder representation and internal diversity \u2014 renaming after one methodological stance risks alienating members and misframing recruitment/partnerships. Actionable fix: address who would be empowered or excluded by the new name, discuss how the change would affect partnerships and public perception, and suggest lower-cost alternatives (e.g., use \u201cExpected Value\u201d descriptively in policy documents, run community discussions, or adopt dual-labeling) rather than advocating an immediate rebrand.",
+    "improvement_potential": "The three points identify real, substantive weaknesses: mislabeling EA\u2019s decision frameworks as \"expected value\" (an embarrassing technical imprecision), an unstated empirical assumption about how renaming affects public perception, and the risk of alienating stakeholders. Each critique is actionable and would materially improve the post without requiring a long rewrite. Addressing these would prevent the author from making a noticeable own-goal and make the argument much more defensible."
+  },
+  "PostAuthorAura": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that an author named 'Rhyss' (or that exact pseudonym) is a known figure in the EA/rationalist community or more broadly. No prominent posts, talks, publications, or organizational affiliations under that name appear in EA lists, LessWrong, 80,000 Hours, Open Phil, or major search results. The name may be a pseudonym, a minor/anonymous online handle, or easily confusable with other spellings (e.g., Rhys). If you can provide links or more identifying details (profile, publication, platform), I can reassess more precisely."
+  },
+  "PostClarity": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "clarity_score": 8,
+    "explanation": "The post has a clear central thesis (rename EA to emphasize expected-value methodology), a logical structure, and anticipates objections\u2014making it easy to follow and persuasive. Weaknesses are repetition and occasional verbosity (long paragraphs and reiterated points about 'effectiveness' vs 'expected value'), plus a few hypotheticals that distract. Tightening language, shortening paragraphs, and a brief definitional sentence on 'expected value' would make it more concise and sharper."
+  },
+  "PostNovelty": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Among EA readers this is not very novel: debates about EA\u2019s reliance on expected-value reasoning, critiques of the word \u201ceffective,\u201d and proposals to foreground probabilistic/EV thinking have been common on the Forum and in EA circles. The post\u2019s particular framing \u2014 propose renaming to \u2018Expected Value Altruism\u2019 and list pros/cons \u2014 is a modest variation rather than a new idea. For the general public it\u2019s more novel: most non\u2011specialists haven\u2019t thought about renaming movements to highlight decision\u2011theory methodology, so the suggestion and its implications will feel relatively original to an educated lay audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post is a clear, well-structured conceptual argument: it states a precise thesis, defines terms, compares names, anticipates several counterarguments, and draws plausible implications about clarity and rhetorical effects. Those elements give it moderate reasoning quality. However, it relies on a number of empirical and causal assumptions (e.g., that the expected-value label would reduce antagonism or change behaviour, that expected-value reasoning is the movement's key distinctive feature) without supporting data; some claims are debatable and under-argued. Evidence quality is poor\u2014there are no citations, surveys, historical precedents, or concrete examples to back up the key empirical claims about perceptions, branding effects, or how naming changes influence movements. Overall, the suggestion is interesting and defensible at the level of a conversation starter, but not strongly supported as a policy recommendation to rename the movement."
+  },
+  "PostExternalValidation": {
+    "post_id": "nKqrdSqF74FBLezdQ",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s central empirical claims are well supported: Effective Altruism (EA) self-descriptions and major EA organisations use quantitative, expected-value / cost\u2011effectiveness style frameworks to prioritise actions (e.g., GiveWell\u2019s impact estimates, 80,000 Hours\u2019 scale/neglectedness/tractability framework, and Open Philanthropy\u2019s cause-selection criteria). ([effectivealtruism.org](https://www.effectivealtruism.org/articles/what-is-effective-altruism?utm_source=openai), [givewell.org](https://www.givewell.org/impact-estimates?utm_source=openai), [80000hours.org](https://80000hours.org/articles/problem-framework/?utm_source=openai)) The specific example cited (Against Malaria Foundation / bed nets and GiveWell cost\u2011per\u2011life estimates) matches GiveWell\u2019s published cost\u2011effectiveness modelling. ([givewell.org](https://www.givewell.org/research/grants/AMF-LLIN-DRC-June-2024?utm_source=openai)) The post\u2019s caution that expected\u2011value calculations can be misleading in domains with fat tails/\u201cblack swans\u201d, and that simple heuristics sometimes outperform complex models under uncertainty, is supported by literature by Taleb and by Gigerenzer and colleagues. ([arxiv.org](https://arxiv.org/abs/2001.10488?utm_source=openai), [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/11301545/?utm_source=openai)) Secondary, more general claims (e.g., \u201cmost people want to be effective\u201d) align with mainstream goal\u2011setting and self\u2011efficacy research but are less central and more sociopsychological than the post\u2019s normative argument. ([ovid.com](https://www.ovid.com/journals/ampsy/abstract/00000487-200209000-00003~building-a-practically-useful-theory-of-goal-setting-and?utm_source=openai), [en.wikipedia.org](https://en.wikipedia.org/wiki/Self-efficacy?utm_source=openai)) In sum: most empirical claims are verifiable and supported by reliable sources; a few normative/speculative claims (about rebranding effects or how people would react) are not strictly empirically settled.",
+    "sources": [
+      "What is effective altruism? | EffectiveAltruism.org (EA explanation). (web.run id: turn1search1)",
+      "How We Produce Impact Estimates | GiveWell (GiveWell methodology and cost-effectiveness estimates). (web.run id: turn2search0)",
+      "Against Malaria Foundation \u2014 Support for ITN Campaigns in DRC (June 2024) | GiveWell (AMF cost-effectiveness / grant page). (web.run id: turn0search3)",
+      "A framework for comparing global problems in terms of expected impact \u2014 80,000 Hours (scale/neglectedness/tractability; quantitative framework). (web.run id: turn6search3)",
+      "Cause Selection | Open Philanthropy (strategic cause selection: importance, neglectedness, tractability). (web.run id: turn6search0)",
+      "Pr\u00e9cis of Simple heuristics that make us smart \u2014 Gigerenzer et al. (evidence that simple heuristics can outperform complex models under uncertainty). (web.run id: turn5search1)",
+      "Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications \u2014 Nassim N. Taleb (fat tails / black swan implications for expected value). (web.run id: turn5academia16)",
+      "Building a Practically Useful Theory of Goal Setting and Task Motivation \u2014 Locke & Latham (2002) (goal\u2011setting / motivation literature supporting claim that people pursue effectiveness). (web.run id: turn4search0)",
+      "Self-efficacy (overview / Bandura) (context on people\u2019s motivation/effectiveness). (web.run id: turn3search14)"
+    ]
+  }
+}

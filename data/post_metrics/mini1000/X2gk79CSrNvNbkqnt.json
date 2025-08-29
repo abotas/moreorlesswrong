@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This is a clear, actionable conceptual framing: treating AI as a 'constitutional moment' highlights the need for large-scale normative construction, deliberation, and attention to power concentration and rapid diffusion. For the EA/rationalist community it's high-value \u2014 a useful lens for policy, governance, coordination, and prioritisation (though not a substitute for technical alignment work). For general humanity it's moderately important: if the framing is right it should shape how societies renegotiate rights, institutions, and distribution of power, but the post is mainly philosophical and heuristic rather than presenting novel empirical claims or decisive solutions."
+  },
+  "PostRobustness": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify and qualify the alien analogy \u2014 it risks misleading readers. The core impulse (a novel class of agents demanding renegotiation) is useful, but the post treats AIs as if they are ontologically like an independent biological population. In reality AIs are artefacts: designed, owned, and deployed by human institutions. That difference matters for moral-status arguments, timelines, and governance routes (e.g. you can regulate model release or corporate incentives in ways you can\u2019t with refugees). Actionable fix: add a short section explicitly comparing the alien and AI cases, listing the key disanalogies (design/ownership, upgradeability, decentralised vs centralised control, legal personhood precedents) and explain which inferences from the analogy remain valid and which don\u2019t.  \n\n2) Engage seriously with political-economy and capture risks that undercut the constructive-deliberation ideal. The post assumes a reasonably inclusive, slow deliberative process in which society renegotiates norms \u2014 but it does not confront the strong, plausible countervailing hypothesis that power-holders (firms, states, platform owners) will shape norms rapidly to entrench advantages, or that polarization and information failures will block broad coordination. Actionable fix: add a section that (a) canvasses realistic pathways by which elites could dominate constitutional change, (b) discusses checks that might plausibly prevent capture (e.g. institutional design, international agreements, disclosure/regulatory tools, citizen assemblies), and (c) explains why the constitutional-moment frame still matters under these adversarial pathways. This will prevent the post from reading as naively proceduralist.  \n\n3) Make the frame more actionable by sketching concrete decision points, timescales, and institutional levers. Right now the post persuades that a constitutional moment exists but leaves readers unsure what to do with that insight. Actionable fix: add a short subsection mapping 2\u20134 tractable next steps (e.g. prioritize creating deliberative forums for AI governance, regulatory milestones for model capabilities/release, funding public-interest AI, or research-priorities on AI/personhood law). Even a brief roadmap or set of questions for policymakers/advocates will sharpen the piece and increase its usefulness to EA readers.",
+    "improvement_potential": "Targets three high\u2011value, plausible blind spots: the alien analogy\u2019s misleading implications about agency/ownership; failure to confront capture/political\u2011economy pathways that would block inclusive deliberation; and lack of concrete next steps or levers for readers. Each point flags an 'own goal' (analogy overreach, naive proceduralism, low actionability) and gives compact, actionable fixes that can be implemented without bloating the post. Addressing them would substantially improve clarity, realism, and usefulness to EA readers."
+  },
+  "PostAuthorAura": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information. There is no clearly-recognized EA/rationalist figure or globally-known author who is broadly known simply as \u201catb.\u201d Assuming no further context or links, treat this as an unknown/pseudonymous author. If you can provide a link, sample work, or platform (LessWrong, EA Forum, Twitter, etc.), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and largely easy to follow: clear headings, a simple alien analogy, and an explicit thesis (AI as a 'constitutional moment') supported by three concrete reasons (radicalness, rapidity, and power shifts). The argument flows logically and the key distinctions (construction vs discovery, constraints vs difference) are usefully spelled out. Weaknesses: occasional verbosity and long, dense footnotes can distract; some sentences and paragraphs are repetitive or hedged, and a few claims are high-level/speculative without concrete examples. Tightening wording and trimming footnotes would make it even more concise and punchy."
+  },
+  "PostNovelty": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "novelty_ea": 5,
+    "novelty_humanity": 7,
+    "explanation": "The post stitches together several familiar ideas (AI causes rapid, broad social change; risks of power concentration; questions about AI moral status; need for governance and deliberation) into a single evocative frame \u2014 calling it a \u201cconstitutional moment\u201d and emphasising normative construction (anti\u2011realist caution about outsourcing moral truth to AI, and preserving deliberative processes). For EA readers this is more of a reframing/synthesis than a fundamentally new insight, so moderately novel. For the general public the combined normative-political framing and the specific emphasis on construction vs discovery and distributed-power erosion is less common and therefore more novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is clear, well-structured, and makes a coherent normative argument\u2014defining a 'constitutional moment' and giving three plausible causal pathways (radicalness, rapidity, degradation of distributed power). It acknowledges uncertainty and alternative views, and draws useful distinctions (construction vs discovery; constraints; value of difference). Weaknesses: The claims are largely conceptual and often speculative (e.g., timelines for agency/AGI, speed of diffusion, concentration of power) with little empirical or historical evidence supplied; cited materials are mostly background/theoretical or non-peer-reviewed essays rather than systematic data or case studies. Overall, the frame is a useful and defendable heuristic for thinking about AI policy, but it is under-supported by direct empirical evidence and would benefit from concrete historical comparisons, data on diffusion/power dynamics, and engagement with countervailing empirical findings."
+  },
+  "PostExternalValidation": {
+    "post_id": "X2gk79CSrNvNbkqnt",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are broadly supported by reputable evidence: (1) AI already affects many domains (employment, health, education, defence) and adoption has been rapid; (2) cloud/data\u2011centre infrastructure and APIs have lowered barriers to diffusion (e.g., ChatGPT\u2019s rapid user growth); (3) AI is being used to accelerate R&D (GitHub Copilot, AlphaFold) and researchers have documented plausible feedback loops that could speed progress further (Forethought); and (4) compute and capability production are concentrated in large labs, creating plausible risks of power concentration and \u2018gradual disempowerment\u2019. However, important elements of the post are legitimately speculative (future agentic AIs, consciousness/moral status, and the occurrence/timing of an intelligence explosion). These are debated in the research community and cannot be empirically confirmed today. Overall: the factual background claims are well supported by current reports and studies, but the most dramatic future scenarios remain uncertain and contested.",
+    "sources": [
+      "OECD Employment Outlook 2023 \u2014 'Artificial intelligence and jobs: No signs of slowing labour demand (yet)'. OECD, 2023. (chapter on AI and jobs / policy recommendations).",
+      "World Health Organization \u2014 'Ethics and governance of artificial intelligence for health' (2021) and follow-on guidance on large multi\u2011modal models (2024/2025).",
+      "TechCrunch / The Verge reporting on ChatGPT user growth (OpenAI announcement: ~100M monthly/weekly users, Nov 2023).",
+      "Campus Technology \u2014 '2024 Global AI Student Survey' (Digital Education Council) / EDUCAUSE 2024 Student & Technology survey (evidence of widespread student use of generative AI).",
+      "OpenAI \u2014 'AI and Compute' analysis (compute growth and implications for concentration of capability).",
+      "Center for Security and Emerging Technology (CSET) \u2014 compute topic briefs & NAIRR analysis (2023\u20132024) (evidence on compute concentration and national/industry compute gaps).",
+      "Microsoft Research / GitHub studies on Copilot (arXiv 2023 and GitHub research blog) showing measurable productivity gains for developers using AI-assisted tools.",
+      "DeepMind / Nature reporting on AlphaFold (2020 initial breakthrough and AlphaFold 3 coverage 2024\u20132025) \u2014 example of AI accelerating scientific R&D.",
+      "Forethought \u2014 'Will AI R&D Automation Cause a Software Intelligence Explosion?' (Mar 2025) \u2014 argument and model showing how AI-for-AI R&D could accelerate progress (plausible but model-dependent).",
+      "Gradual-disempowerment.ai \u2014 'Systemic Existential Risks from Incremental AI Development' (paper/website presenting gradual-disempowerment scenarios).",
+      "Intelligence-curse.ai \u2014 'The Intelligence Curse' (essay series describing social\u2011contract/disempowerment risks).",
+      "Air Street / State of AI Compute Index & 'State of AI' reporting (2024\u20132025) \u2014 surveys/data on GPU/accelerator growth and concentration among hyperscalers."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a practical, tacit-knowledge how-to guide for getting the most out of EA conferences. For the EA/rationalist community it\u2019s useful \u2014 especially for newcomers and people doing community/field-building work \u2014 and can modestly improve networking efficiency and follow\u2011up, but it is not foundational to core EA/longtermist/AI-safety arguments or high\u2011stakes decisions. For general humanity it\u2019s essentially trivial: narrowly applicable, low\u2011scale advice with no broad societal impact."
+  },
+  "PostRobustness": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "robustness_score": 5,
+    "actionable_feedback": "1) No clear prioritization / triage rules \u2014 the post describes opening every profile and manually filtering but doesn\u2019t give readers practical decision rules. That\u2019s a big time-cost and will be off-putting for people with less time. Actionable fix: add short, explicit heuristics (e.g. \"prioritise by org+role, previous interactions, and topical fit; aim for X high-priority, Y medium, Z low per day\"), a recommended time budget, and one or two examples of how you decide who stays pinned vs gets closed. This prevents readers from copying an expensive, unfocused process.\n\n2) Missing outreach templates and concrete examples \u2014 you tell people to message \"what you want to talk about\" but don\u2019t show how. Actionable fix: include 1\u20132 short message templates (for high-profile people, for peers, for cold introductions) and an example schedule showing how you fit 20\u201325 meetings into a day (including breaks and no-shows). That will make the tacit knowledge actionable rather than just descriptive.\n\n3) Overlooks privacy/ethics and community norms risks \u2014 exporting attendee lists (including pending requests), attending \"full\" meetups, and mass-requesting 1-1s could violate expectations or feel intrusive. Actionable fix: add a short paragraph acknowledging these risks and the norms you follow (e.g. only exporting for personal use, not sharing contact lists, preferring opt-in follow-ups, asking before dropping into full meetups). If some of your tactics conflict with official rules, state that explicitly so readers can avoid community backlashes.",
+    "improvement_potential": "The feedback identifies real, practical gaps that limit the post\u2019s usefulness: it lacks clear triage rules (so readers might copy a time\u2011intensive process), concrete outreach templates/schedules (so tacit tips stay vague), and any discussion of privacy/community norms around exports, full meetups and mass requests. Addressing these would materially increase actionability without dramatically lengthening the post. These are not catastrophic mistakes, but they are important omissions that make the writeup less usable and potentially risky for readers who copy the tactics blindly."
+  },
+  "PostAuthorAura": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient evidence of prominence. The handle \"gergo\" (or Gerg\u0151) is common and may be a pseudonym; no widely recognized EA/rationalist leadership, frequent speaking, major publications, or notable online footprint tied to that single name. If you can supply links or context (forum posts, articles, affiliation), I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "clarity_score": 8,
+    "explanation": "The post is well structured (preamble, chronological headings) and gives concrete, actionable steps that make the author\u2019s process easy to follow. It communicates its purpose up front and uses a logical flow (prepare \u2192 execute \u2192 follow up). Weaknesses: minor typos/grammatical slips, occasional informal asides and small repetitions, and a few places that could be tightened or formatted (bulleted checklists, clearer distinctions such as the Swapcard export options) to improve conciseness and polish."
+  },
+  "PostNovelty": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Most advice in the post is practical and tactical rather than conceptually new: pre-select sessions, prioritise 1\u20111s, message high\u2011profile people first, take notes, follow up, and use a contact DB are all familiar to EA and conference\u2011savvy readers. The slightly more original bits are the very concrete Swapcard workflow (open every profile in tabs, pin uncertain ones, export contacts via hidden menu), using an LLM to tidy messy notes, and small productivity tricks (use multiple monitors, nap room, block rest slots). Those specifics raise novelty a little for general readers, but are not highly original for the EA Forum audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: the post gives a clear, internally coherent, step-by-step account of an experienced attendee's tactics (calendar management, systematic scanning, staged outreach, rest/use of nap room, post-conference follow-up). The advice shows awareness of trade-offs (talks vs 1-1s, messaging high-profile people first) and is actionable. Weaknesses: it's almost entirely anecdotal\u2014no systematic data, metrics, or comparisons to show these tactics actually improve outcomes. Potential biases (survivorship, selection, platform-specific behavior) and lack of generalizability are not addressed. Useful as pragmatic tacit-knowledge heuristics but weakly supported as evidence-based best practices."
+  },
+  "PostExternalValidation": {
+    "post_id": "BFiH9qbEzBBitq5XW",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s concrete claims about the Swapcard platform are accurate and documented (contacts export exists, attendees/profile visibility is controlled by organizers/users, you can mark meeting slots unavailable, the app shows session/meeting conflicts and has improved attendee search). The author\u2019s operational recommendations and personal stats (e.g. ~20 EA conferences since 2020, 20\u201325 meetings per conference, ~90% self\u2011initiated) are anecdotal and not externally verifiable. One factual error: Swapcard\u2019s documented export (\u2018Export my contacts\u2019) returns confirmed/accepted contacts (not pending requests); pending connections are represented elsewhere (My networking / attendee lists). Another small uncertainty: the claim that browser Ctrl+F cannot be used depends on how an event\u2019s participants page is implemented (dynamic loading/search features exist), so that statement is plausible for some events but not universally true. Overall: most technical/platform claims are well supported, a few minor inaccuracies and unverifiable personal anecdotes remain.",
+    "sources": [
+      "Swapcard Help Center \u2014 \"Export your event data and stay organized\" (Export / Contacts).",
+      "Swapcard Help Center \u2014 \"Managing your meetings\" / \"Managing your meeting requests\" (availability, make slots unavailable, pending meeting behavior).",
+      "Swapcard Help Center \u2014 \"Managing the visibility of my profile in an event\" and \"People \u00b7 Creating and managing the participants page\" (organizer/user controls over profile visibility, participant page filters/search/sorting).",
+      "Swapcard Product Update \u2014 \"Handle conflicts with sessions and meetings\" and \"Highlighting meeting and session overlaps\" (Swapcard warns about overlaps; does not automatically block meeting slots when you bookmark a session).",
+      "Swapcard Product Update \u2014 \"Search attendees by biography & searchable custom fields\" (shows Swapcard added richer in-app search, reducing reliance on browser find).",
+      "EA / EAGxPrague event page \u2014 EAGxPrague 2025 (mentions nap room/relaxation spaces being provided at the event)."
+    ]
+  }
+}

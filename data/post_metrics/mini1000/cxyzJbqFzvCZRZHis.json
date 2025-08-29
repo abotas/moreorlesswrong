@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful, but not foundational. For the EA/rationalist community this is moderately important (\u22486) because it documents a tangible, replicable capacity-building intervention in biosecurity/AI-biology, provides metrics about recruiting and retaining talent, and helps donors, program-builders, and talent pipelines decide where to invest. It is limited by small sample size, self-reported outcomes, and short-term metrics rather than long-term impact, so it is informative rather than decisive. For general humanity the post has lower importance (\u22483): expanding biosecurity capacity is broadly positive, but this specific report is narrow in scope and scale and unlikely to change large-scale policy or outcomes on its own."
+  },
+  "PostRobustness": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Heavy reliance on short-term, self-reported measures without objective or long-term outcomes \u2014 The post leans on immediate survey responses (\"increased likelihood\", skill gains, number of connections) that are subject to social desirability and do not demonstrate sustained career impact. Actionable fixes: report objective/behavioral outcomes (job/internship placements, follow-up at 6\u201312 months, publications or projects started), or at minimum state this limitation clearly and avoid causal language.\n\n2) Key methodological details are missing, undermining credibility \u2014 Important information is absent: total respondents versus participants (response rate), how participants were selected/recruited, wording of survey questions (e.g. how \"likelihood of biosecurity career\" was measured), and variance/confidence intervals. Actionable fixes: add response rates and denominators, include the exact survey items or a short appendix, and report basic uncertainty (sample sizes per statistic, SDs or CIs).\n\n3) No counterfactual or control makes attribution problematic \u2014 Without a comparison group or benchmarks, it\u2019s unclear whether changes reflect OBG\u2019s effect or participant self-selection/other factors. Actionable fixes: qualify claims to avoid implying causality, compare outcomes to a plausible benchmark (e.g. baseline intentions among similar applicants or historical cohorts), or describe plans for future quasi-experimental designs (waitlist control, matched comparison) to strengthen causal inference.",
+    "improvement_potential": "The three critiques target major, high-impact weaknesses: overreliance on short-term self-reports, missing methodological detail (response rates, question wording, uncertainty), and lack of any counterfactual \u2014 all of which materially weaken claims about OBG\u2019s impact and could embarrass the authors if unaddressed. The suggestions are actionable and mostly concise (e.g. report denominators, add a limitation statement, avoid causal language or add simple benchmarks). This feedback would substantially improve credibility without requiring massive additions; it isn\u2019t catastrophic enough to merit a 9\u201310 because the post is a summary/linkpost and the full report may contain some of these details, but it\u2019s clearly critical and high-priority to fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my knowledge cutoff (2024-06) there is no widely recognized EA/rationalist author or public intellectual known as 'Lin BL'. The name may be a pseudonym or a very minor/obscure online contributor; I could reassess if you provide links or context (papers, posts, or platform)."
+  },
+  "PostClarity": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the post has a concise summary, clear headline findings, and useful numeric outcomes that make the impact easy to grasp. Weaknesses: a few awkward phrasings (e.g. the sentence about new connections), some statistical details are lightly ambiguous (baseline values and sample sizes for the reported changes could be clearer), and it could more explicitly state key definitions/methods for interpreting the metrics."
+  },
+  "PostNovelty": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily an impact report summarising cohort metrics (participant counts, self\u2011reported skill gains, career interest shifts, new connections, and next steps). For EA Forum readers this is familiar territory\u2014many EA/aligned organisations publish similar capacity\u2011building evaluations and the claims (increased interest/skills, some onward placements) are unsurprising and incremental rather than conceptually new. To the general public it\u2019s also low in novelty: the idea of running cohort programmes and reporting outcomes is common, though the specific focus on biosecurity/AI\u2011bio and the concrete numbers are somewhat niche facts rather than novel ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a coherent, plausible argument that OBG\u2019s programmes produced capacity-building effects, using multiple outcome types (career intent, skills, connections, concrete next steps) and covering two project cycles with global participation. The summary is reasonably well-structured and avoids overstating causal claims. Weaknesses: Evidence is mostly self-reported, with no reported response rates, sample sizes per survey, baseline distributions, statistical tests, or control/comparison groups. Key metrics are presented ambiguously (e.g., mean increases without context) and intentions are treated as outcomes. There is little objective or long-term outcome data (actual career moves, placements, validated skill gains). Overall, the reasoning is logically plausible but the empirical support is limited by methodological gaps and potential biases, giving moderate overall support."
+  },
+  "PostExternalValidation": {
+    "post_id": "cxyzJbqFzvCZRZHis",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's empirical claims are directly documented in the organisation's published impact evaluation and an EA Forum crosspost (participant counts, response rates, per\u2011cycle means/medians, referrals, and stated next steps are all reported there and are internally consistent). A key external claim (the BioLP\u2011bench preprint and its use in OpenAI\u2019s o1 system card) is corroborated by the bioRxiv entry / GitHub repository for BioLP\u2011bench and by OpenAI\u2019s o1 System Card citing BioLP/BioLP\u2011bench. Weaknesses: almost all capacity\u2011building figures come from OBG\u2019s internal self\u2011reported surveys (small sample sizes in several comparisons, some anonymous responses, potential selection/response bias) and raw response-level data or independent audit are not published, so external verification beyond the organisation\u2019s reports is limited. Overall: claims are well\u2011supported as accurately reported by OBG and corroborated where externally checkable, but the evidence base relies on internal, self\u2011reported data with standard survey limitations.",
+    "sources": [
+      "Oxford Biosecurity Group \u2014 \"Oxford Biosecurity Group 2024 Impact Evaluation: Capacity Building\" (Jan 29 2025) \u2014 https://www.oxfordbiosecuritygroup.com/post/oxford-biosecurity-group-2024-impact-evaluation-capacity-building",
+      "Oxford Biosecurity Group \u2014 Projects page (includes 'Eliciting the Biological Knowledge of AI Models' project description) \u2014 https://www.oxfordbiosecuritygroup.com/projects",
+      "Effective Altruism Forum \u2014 \"Oxford Biosecurity Group: Fundraising and Plans for Early 2025\" (Dec 20, 2024) \u2014 https://forum.effectivealtruism.org/posts/5kNkB4ib3KqDA2Q95/oxford-biosecurity-group-fundraising-and-plans-for-early",
+      "BioLP\u2011bench (bioRxiv preprint entry / DOI 10.1101/2024.08.21.608694) \u2014 BioLP\u2011bench: Measuring understanding of AI models of biological lab protocols (Igor Ivanov, bioRxiv) \u2014 https://connect.biorxiv.org/archive/meta/10.1101/2024.08.21.608694 (bioRxiv record/DOI)",
+      "BioLP\u2011bench code repository on GitHub \u2014 baceolus/BioLP\u2011bench \u2014 https://github.com/baceolus/BioLP-bench",
+      "OpenAI \u2014 o1 System Card (Dec 5, 2024) \u2014 PDF / arXiv listing (section 5.5.7 references BioLP/BioLP\u2011bench) \u2014 https://arxiv.org/abs/2412.16720 (or the PDF at https://cdn.openai.com/o1-system-card-20241205.pdf)"
+    ]
+  }
+}

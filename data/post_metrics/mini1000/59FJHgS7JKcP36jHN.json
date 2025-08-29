@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a useful, practical question for career-choice and allocation decisions that matter to EAs thinking about global priorities, capacity building, and where marginal effort yields the most impact. It is not a foundational theoretical claim and doesn't by itself change major worldviews, but its conclusions could influence where skilled people and funds are directed. For general humanity the direct effects are smaller: important locally and potentially consequential if it catalyzes sustained investment in neglected regions, but the post itself is mainly a solicitation/discussion prompt rather than new evidence or a widely load-bearing argument."
+  },
+  "PostRobustness": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "robustness_score": 5,
+    "actionable_feedback": "1) Missing a concrete decision framework and key variables \u2014 The post frames a big tradeoff but gives no way to evaluate it. Readers can\u2019t offer useful advice without simple criteria (e.g. timeline for impact, definitions of \u201cimpact\u201d, measurable outcomes, probability of success, career costs/benefits). Actionable fix: add a one-paragraph decision rubric or 2\u20133 hypothetical scenarios (stay vs. emigrate) with rough expected-value considerations you care about (time horizon, leverage, probability of enabling others). \n\n2) Lacks author/context specifics and hidden assumptions \u2014 The question is too general. Your discipline, career stage, funding options, and local role (e.g. policy influence, mentorship) materially change the answer. Also clarify what you mean by \u201cimpact\u201d (publish high-quality papers, change policy, build capacity). Actionable fix: briefly state your field, career stage, and the kinds of outcomes you\u2019d consider success \u2014 that will make replies much more targeted and avoid misleading assumptions (e.g. that staying always produces more social value). \n\n3) Overlooks major counterarguments and alternatives \u2014 The post treats the choice as binary and doesn\u2019t acknowledge strong alternatives or tradeoffs (brain drain vs. greater leverage abroad, remote collaboration, temporary/dual appointments, building partnerships, funding constraints). Actionable fix: add a short paragraph listing plausible counterarguments and 2\u20133 hybrid options you\u2019d consider; end with a specific ask (what kinds of connections/support would be most useful) so responses can be concrete rather than merely opinionated.",
+    "improvement_potential": "The feedback is solid and actionable: it correctly flags that the post lacks context (field, career stage, definition of \u2018impact\u2019), a decision framework, and acknowledgement of non-binary alternatives \u2014 changes that would make replies more targeted and useful without much extra length. These are meaningful improvements but not catastrophic errors; the original post is a reasonable open question and the suggestions would mainly help get higher-quality, actionable responses rather than fix an embarrassing mistake."
+  },
+  "PostAuthorAura": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No known presence of 'emmannaemeka' in EA/rationalist publications, forums, or major public media up to my 2024-06 knowledge cutoff. Likely a private or pseudonymous online user; provide links for reassessment."
+  },
+  "PostClarity": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "clarity_score": 8,
+    "explanation": "The post is concise, readable, and poses a clear, relatable question with brief context (Nigeria, funding/infrastructure challenges vs urgent need). It invites responses and offers a concrete ask (connect supporters). Weaknesses: it doesn\u2019t define key terms (e.g., what counts as \u2018impact\u2019), lacks specifics or framing of trade-offs, and reads more like a prompt for discussion than an argument\u2014so it could be slightly more precise about the decision criteria or intended audience."
+  },
+  "PostNovelty": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "The central dilemma \u2014 stay where need is greatest vs move to where you can make faster progress \u2014 is a well\u2011trodden question in EA and global development (brain drain, geographic prioritization, capacity building). The post\u2019s specific context (doing research in Nigeria and soliciting connections/support for high\u2011impact science in Africa) is a somewhat specific instance but doesn't introduce fundamentally new ideas."
+  },
+  "PostInferentialSupport": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post raises a clear, important trade\u2011off and correctly names relevant constraints (funding gaps, weak infrastructure, policy hurdles) and benefits (urgent problems, high potential impact), which shows some basic, plausible reasoning. However it does not develop a structured argument, articulate criteria for deciding, weigh counterarguments, or consider important factors (career costs, network effects, return/multilocation strategies). Empirical support is essentially absent \u2014 no data, case studies, or citations \u2014 so the claims remain anecdotal and under\u2011substantiated. To improve, the author should provide evidence (examples, metrics, cost\u2011benefit analyses) and a clearer decision framework."
+  },
+  "PostExternalValidation": {
+    "post_id": "59FJHgS7JKcP36jHN",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post\u2019s core empirical claims are well supported by multiple reputable sources: Nigeria\u2019s public R&D spending is very low (GERD \u22480.1\u20130.2% of GDP), chronic underfunding, weak research/health infrastructure, and a substantial brain\u2011drain are repeatedly documented, and major development and health problems (maternal/child mortality, insecurity, poverty, climate impacts) create urgent needs. Weaknesses: the post is qualitative and lacks numeric specifics or sector-by-sector nuance (there are pockets of strong research and growing funding/partnership initiatives), so precise magnitude and cross\u2011sector variation would need more targeted data.",
+    "sources": [
+      "World Bank \u2014 Nigeria overview (development challenges, poverty, human capital). ([worldbank.org](https://www.worldbank.org/en/country/nigeria/overview?utm_source=chatgpt.com))",
+      "World Bank / UNESCO Institute for Statistics \u2014 Research & development expenditure (% of GDP) / GERD data for Nigeria. ([data.worldbank.org](https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=NG&utm_source=chatgpt.com))",
+      "The Lancet Global Health \u2014 'Research capacity in Africa\u2014will the sun rise again?' (discusses weak capacity, infrastructure, need for investment). ([thelancet.com](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X%2816%2930046-8/fulltext?utm_source=chatgpt.com))",
+      "PMC / peer\u2011reviewed articles on brain drain in Nigeria\u2019s health sector ('Crisis of Brain Drain in Nigeria\u2019s Health Sector'). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180736/?utm_source=chatgpt.com))",
+      "Globalization and Health (2024) \u2014 analysis of public discourse & evidence on emigration/brain drain of Nigerian medical professionals. ([globalizationandhealth.biomedcentral.com](https://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-024-01077-1?utm_source=chatgpt.com))",
+      "Financial Times \u2014 'Lagos offers start\u2011ups \"immediate scale\" but challenges remain' (documents infrastructure limits and talent exodus). ([ft.com](https://www.ft.com/content/422d78df-d944-4eb9-b147-76607916d68c?utm_source=chatgpt.com))",
+      "The Guardian (Nigeria) \u2014 coverage of research underperformance, funding gaps, weak policy implementation. ([guardian.ng](https://guardian.ng/features/despite-huge-investment-research-outlets-fail-to-stimulate-development-address-local-needs/?utm_source=chatgpt.com))",
+      "WHO / WHO AFRO \u2014 Nigeria Health Observatory (maternal mortality, child mortality, life expectancy and health system indicators illustrating urgent health needs). ([aho.afro.who.int](https://aho.afro.who.int/ng?utm_source=chatgpt.com))"
+    ]
+  }
+}

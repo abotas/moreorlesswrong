@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Moderately important for the EA community: recruiting Christians is a practical, scalable route to more donations, volunteers, and cultural influence because Christians are numerous and relatively generous; the post gives plausible, low-friction arguments for common ground (charity, animal welfare, risk reduction, role of churches) and thus is useful for outreach strategy. It is not foundational to EA theory (cause priors, longtermism, methodology) so its truth wouldn\u2019t change core EA conclusions, but it could materially affect growth and funding. For general humanity: limited direct importance \u2014 if broadly adopted it could increase philanthropic activity and some social benefits, but this post itself is an advocacy/opinion piece with modest, incremental impact and important caveats (theological differences, politicization, measurement challenges) that limit its transformative potential."
+  },
+  "PostRobustness": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstates the practical case from high-level generosity stats; missing evidence on marginal giving and reallocatability. Action: distinguish overall giving by Christians from how much of that money is available to EA causes (many donations go to churches/religious causes), control for income, and cite studies on whether religious donors are willing to reallocate to secular/efficacy\u2011based charities. If you keep the claim that Christians are a high\u2011value audience, add realistic outreach targets (e.g., which denominations, typical donation sizes, evidence from faith\u2011aligned giving vehicles like GiveDirectly\u2019s zakat fund) instead of assuming a straightforward \u201cmore donors = more EA funding.\u201d\n\n2) Underestimates and glosses over core theological objections and within\u2011Christian diversity. Action: don\u2019t treat \u201cChristianity\u201d as monolithic \u2014 acknowledge key theological barriers (divine command ethics vs. consequentialism, afterlife/eschatological beliefs that change longtermist intuitions, tithe norms, skepticism of secular elites/\u2019instrumentalizing\u2019 religion). Either engage those objections substantively (cite Christian ethicists/theologians who reconcile EA or present concise counterarguments) or narrow your target audience to subgroups where the case is likelier to land. This will avoid surprising pushback from informed readers.\n\n3) Fails to address reputational and practical risks of active evangelizing and partnerships. Action: explicitly discuss ethical and pragmatic constraints (risk of being seen as proselytizing or instrumentalizing faith; potential for churches to promote harmful policies; trust issues), and propose concrete, low\u2011risk outreach models (faith\u2011aligned messaging, non\u2011proselytizing partnerships, pilot programs, measurement of marginal donor reallocation) rather than the blanket recommendation \u201cEA should evangelize more.\u201d",
+    "improvement_potential": "The feedback identifies three substantive, high-impact weaknesses: conflating overall generosity with marginal/reallocatable donations; treating Christianity as a monolith and ignoring key theological objections; and neglecting reputational/practical risks of evangelizing. Fixing these would materially strengthen the post\u2019s credibility and targetability and can largely be done with concise caveats, a few citations, and targeted recommendations rather than wholesale rewrites. Addressing them prevents the post from making obvious, potentially embarrassing oversights while keeping length increases modest."
+  },
+  "PostAuthorAura": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "author_fame_ea": 5,
+    "author_fame_humanity": 2,
+    "explanation": "\u201casod\u201d is a pseudonymous contributor known within LessWrong/related rationalist spaces \u2014 a visible commenter/occasional poster that regular community members will recognize, but not a leading or central EA figure. Outside those niche online forums they have little public profile."
+  },
+  "PostClarity": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow (clear summary, distinct sections, links/citations), and it makes its central claim accessibly by addressing likely objections. Strengths include logical organization, concrete examples, and an empathetic tone toward both audiences. Weaknesses are minor: a few arguments are asserted rather than tightly supported (e.g. the existential risk and spiritual-charity sections), some paragraphs are slightly verbose or anecdotal, and one or two headings/phrases (e.g. \"EA should evangelize more\") could be more precisely worded. Overall clear and persuasive but could be tightened and made more evidence-specific in places."
+  },
+  "PostNovelty": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post's claims are familiar to the EA community: religious people give more, organisations already target faith groups (e.g. EA for Christians, GiveDirectly\u2019s zakat fund), and others have argued Christian values overlap with EA goals. The arguments here largely synthesize existing points (appeal to generosity, find theological hooks for animal welfare/longtermism, defend spiritual forms of charity) rather than advancing new evidence or surprising theoretical claims. To a general educated reader the specific framing\u2014arguing EA should \u2018evangelize\u2019 Christians and that longtermist work isn\u2019t inconsistent with Christian eschatology\u2014may be somewhat less familiar, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "reasoning_quality": 5,
+    "evidence_quality": 4,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is coherent and makes several plausible, practically useful points \u2014 Christians are a large, often generous demographic; there are existing bridges between EA and Christian communities; many EA interventions (helping the poor, reducing suffering) map well onto Christian ethics. The structure is clear and the author acknowledges potential conflicts. Weaknesses: Key claims are under-argued or rely on intuition/anecdote rather than systematic analysis. The piece glosses over important theological and strategic complications (denominational variation, where Christians actually give, attitudes toward longtermism/AI risk, proselytism vs. secular philanthropy). Evidence is limited and uneven: Pew and Giving USA are relevant but don\u2019t fully support the specific claims (e.g., willingness to fund EA-style causes, donation composition), while other sources (Healthline, Jewish Virtual Library, Scott Alexander blog) are not strong empirical support for the central thesis. Overall, the argument is plausible but not well substantiated; it would be strengthened by data on donation allocation by religion, survey/experiment evidence on receptivity to EA messaging among Christians, and deeper engagement with theological objections."
+  },
+  "PostExternalValidation": {
+    "post_id": "JutNbXBDrisoyuQsa",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's empirical claims are well-supported by reputable sources. Key factual claims that are verified: (1) Christianity is the world\u2019s largest religion (Pew data); (2) religiously affiliated U.S. households give at higher rates and at least as much to non\u2011religious charities as non\u2011affiliated households (Giving USA / Lilly Family School of Philanthropy 2017 special report); (3) GiveDirectly has offered a zakat\u2011compliant fund; (4) organised efforts linking Christianity and EA (EA for Christians, Christians for Impact) exist; (5) some Christian traditions (e.g., Seventh\u2011day Adventists) emphasize plant\u2011based diets; and (6) in ancient Israel ordinary people ate meat rarely. Weaknesses / caveats: the author\u2019s claim that \u201cChristians are the dominant group in high\u2011income western countries\u201d is broadly true historically and still true in many places but has important recent exceptions and ongoing decline (Pew shows declines in several Western countries between 2010\u20132020); percentages and patterns of giving change over time and by measurement definition (e.g., how \u201creligious giving\u201d is defined); several claims are normative/philosophical (compatibility of EA and Christian theology, attitudes toward apocalypse) and not strictly empirical. Overall: good empirical grounding but some claims need up\u2011to\u2011date nuance and careful framing.",
+    "sources": [
+      "Lilly Family School of Philanthropy / Giving USA Special Report on Giving to Religion (Oct 24, 2017) \u2014 press release and report summary (Finding: 62% vs 46% giving rates for religiously affiliated vs non\u2011affiliated households; religious households give as much or more to other charities).",
+      "Pew Research Center, The Global Religious Landscape (Dec 18, 2012) \u2014 Christianity \u22482.2 billion (about one\u2011third of global population).",
+      "Pew Research Center, 'The World\u2019s Religious Groups: How Their Sizes Changed from 2010 to 2020' (June 9, 2025) \u2014 Christians remained the largest religious group in 2020 though share declined; documents geographic/regional trends and recent declines in some high\u2011income countries.",
+      "GiveDirectly \u2014 Yemen Zakat Fund / Zakat\u2011certified program (GiveDirectly campaign and EA Forum post discussing a zakat option).",
+      "EA for Christians website (eaforchristians.org) \u2014 example of organized EA outreach to Christians.",
+      "Christians for Impact website (christiansforimpact.org) \u2014 organization advising Christians on high\u2011impact careers and giving.",
+      "Jewish Virtual Library, 'Eating in Historical Jerusalem' \u2014 archaeological/historical evidence that ordinary people ate meat rarely and meat was for special occasions in ancient Israel.",
+      "Healthline, 'Seventh\u2011day Adventist Diet: A Complete Guide' (2023) \u2014 overview and studies showing Adventists' plant\u2011based dietary emphasis and related health research (Adventist Health Studies).",
+      "Robert D. Putnam & David E. Campbell, 'American Grace' (summary and reporting) \u2014 evidence that religious participation correlates with higher rates of volunteering and charitable giving and that congregational social networks foster civic generosity.",
+      "World Health Organization (WHO) COVID\u201119 dashboard / WHO estimates (WHO and reporting) \u2014 COVID\u201119 pandemic as an empirical example of large-scale human suffering and the need for biosecurity/pandemic preparedness (WHO estimate of ~14.9 million excess deaths for 2020\u20132021 used in analyses).",
+      "Stockholm International Peace Research Institute (SIPRI) Yearbook 2024 \u2014 data on nuclear arsenals and trends underscoring empirical risk of human\u2011caused catastrophic harm."
+    ]
+  }
+}

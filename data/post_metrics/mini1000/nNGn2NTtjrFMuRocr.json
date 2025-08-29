@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a practical, actionable post that meaningfully improves how individuals (especially researchers and writers in EA/rationalist circles) find, organise, synthesise and publish literature. For the EA community its guidance can raise research throughput and quality, help people produce better living reviews and outreach, and reduce duplicated effort \u2014 useful for project-level decisions and capacity building, but not foundational to EA worldviews or core arguments. For general humanity the advice is mostly of niche utility to academics, students and knowledge workers; it\u2019s helpful but not impactful at societal scale. The claims are low-risk and easy to adopt/test, so whether the specific tips are optimal or not has modest consequences."
+  },
+  "PostRobustness": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "robustness_score": 2,
+    "actionable_feedback": "1) No reproducible, systematic search protocol \u2014 biggest gap for a \u201cliving literature review.\u201d The post focuses on tools and heuristics but doesn\u2019t explain how you ensure coverage, avoid drift, or make searches reproducible. Actionable fixes: add a short recommended protocol (example: maintain and publish a master search string per topic; document databases/APIs searched, date ranges, inclusion/exclusion rules; capture search timestamps and query parameters). Mention automation options (scheduled OpenAlex/Scholar queries, GitHub Actions to refresh CSVs) and a simple versioning policy (how often you update, how you mark new vs. old entries). Point readers to PRISMA/PRISMA-LR and show 1\u20132 concrete examples of a reproducible query they can copy. \n\n2) Missing methods for quality appraisal and bias control. The post implicitly assumes \u201cread more\u201d suffices for judging papers, but readers need concrete ways to evaluate study quality and deal with publication/preprint/language/database biases. Actionable fixes: recommend lightweight, repeatable appraisal steps (e.g., pre-specified checklist or templates for methodological quality, sample size, conflicts of interest, study design), suggest tools (Covidence, RobotReviewer, simple spreadsheet columns or Zotero/Logseq templates), and add guidance on handling grey literature, preprints, and negative/null results. Also flag common discovery biases (English-language, paywall, venue) and practical mitigations (search multiple sources, use OpenAlex + institutional subscriptions + Zenodo/OSF queries). \n\n3) Overlooked provenance, licensing and long-term archiving concerns. You advise GitHub Pages + Substack but don\u2019t tell readers how to make their living review citable, preserved, or legally shareable. Actionable fixes: add a short section recommending a license for your content (e.g., CC BY), deposit snapshots to an archival service (Zenodo or OSF) to mint DOIs for major versions, document how you handle copyrighted PDFs and author communications (e.g., request permission before reposting full texts), and mention metadata hygiene (use DOIs/PMIDs in Zotero/OpenAlex exports). A couple of one-line commands or links showing how to archive a GitHub release to Zenodo would make this immediately usable.",
+    "improvement_potential": "The feedback pinpoints three major, actionable omissions for a \"living\" literature review: lack of a reproducible search protocol, no guidance on quality appraisal/bias control, and missing provenance/archiving/licensing advice. These are critical to credibility and longevity but are straightforward to add (short templates, links to PRISMA/PRISMA\u2011LR, example queries, lightweight checklists, and a note on CC/Zenodo/DOIs). Fixing them would substantially improve the post without bloating it."
+  },
+  "PostAuthorAura": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no recognizable presence for the name 'FJehn' in EA/rationalist circles, major EA publications, or broader public sources. Likely an unknown or pseudonymous author with no notable public profile; provide links if you want a more targeted check."
+  },
+  "PostClarity": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and practical: well-structured, step-by-step guidance with concrete tools, examples and links makes it easy to follow. The core argument (read widely, take structured notes, reuse notes for writing) is clear and persuasive. Weaknesses: uneven level of detail (some sections are long and technical while others are high-level), occasional casual language and minor repetition, so it could be slightly more concise and better signposted for readers who just want a short checklist."
+  },
+  "PostNovelty": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For an EA Forum audience the post is mostly practical and familiar \u2014 the core claims (read lots of papers to get ideas, use alerts, mine references, publish drafts and solicit feedback) are standard advice. Its main novel value to that crowd is the concrete, end-to-end tooling workflow (OpenAlex API + helper script, Zotero -> e\u2011ink reading device -> automatic highlight extraction -> Logseq, and the specific GitHub Pages/Substack publishing combo) and small tips (LLMs for keyword generation, Attanger, Boox use). To the general public these specifics and the idea of running a persistent, automated \"living\" literature\u2011review pipeline are less familiar, so the post is moderately novel to them."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: the post is logically organized, describes a clear, practical workflow (finding papers, reading/annotating, idea generation, writing, publishing/promoting) and cites concrete tools and a relevant book. Weaknesses: the claims are largely anecdotal and experiential with no empirical evaluation, limited discussion of alternatives, failure modes, scalability or costs, and little systematic evidence that this specific workflow outperforms others. Overall the advice is plausible and practically useful for many readers but not rigorously validated."
+  },
+  "PostExternalValidation": {
+    "post_id": "nNGn2NTtjrFMuRocr",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post's concrete, checkable claims are accurate and verifiable: Google Scholar supports alerts but does not index Zenodo (Zenodo FAQ confirms); OpenAlex is a free, open bibliographic catalogue with a public API; ResearchGate uses profile/reads/follows to recommend content; Zotero\u2019s PDF reader and annotation-extraction features exist and Zotero-7 plugins (e.g. Attanger) provide ZotFile-like functionality; Logseq offers Zotero integration; Onyx/Boox Note Air 2 is an Android-based E\u2011Ink tablet supporting PDF annotation; and Beautiful Jekyll + naming a repo YOURUSERNAME.github.io is the standard way to create a GitHub Pages user site. The one notable incorrect/outdated empirical statement is the claim that CSER\u2019s TERRA is \u201cdeprecated / discontinued\u201d \u2014 CSER\u2019s TERRA pages and resources remain publicly available and were updated/maintained as recently as 2023\u20132024 (so the assertion that it\u2019s fully deprecated appears to be outdated or overstated). Many other recommendations in the post are procedural or opinion-based (workflow preferences) so not strictly falsifiable; where applicable I cited authoritative documentation and vendor/organization pages.",
+    "sources": [
+      "OpenAlex documentation \u2014 Overview & API (docs.openalex.org)",
+      "OpenAlex 'About us' / help pages (openalex.org / help.openalex.org).",
+      "Zenodo Support FAQ 'Is Zenodo indexed by Google Scholar?' (support.zenodo.org, Nov 2024).",
+      "Zotero: 'Extracting annotations' / Zotero PDF reader docs (UCL Zotero guide / zotero.org support).",
+      "MuiseDestiny / zotero-attanger (GitHub) and Zotero Forums discussion on Attanger (GitHub + forums.zotero.org).",
+      "ResearchGate Help \u2014 'Understanding how we show you recommendations' (help.researchgate.net).",
+      "Onyx BOOX Note Air 2 product/spec page (onyxboox.com \u2014 Note Air 2 / Android 11, E\u2011Ink device).",
+      "Beautiful Jekyll GitHub repository and docs (daattali/beautiful-jekyll on GitHub) and GitHub Pages docs on user site naming (github.com / pages.github.com).",
+      "CSER TERRA pages and documentation (cser.ac.uk \u2014 'TERRA - The Existential Risk Research Assessment' and TERRA updates page)."
+    ]
+  }
+}

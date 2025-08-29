@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful, practical update from a major funder about how they allocated ~$1.56M to effective-giving intermediaries and what criteria they used. For the EA/rationalist community it\u2019s moderately important: it provides transparency about OpenPhil\u2019s decision-making, signals which models and geographies they find promising, and yields actionable lessons for other funders and fundraising orgs \u2014 but it is operational rather than foundational. For general humanity it\u2019s of minor importance: the grants may improve fundraising for effective charities and have some downstream impact, but the scale and scope are small relative to global needs and the post doesn\u2019t contain paradigm-shifting claims."
+  },
+  "PostRobustness": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be transparent about the ROI calculation and key assumptions. Right now \u201cweighted average ROI ~4.3x\u201d and \u201c> $6M in adjusted funding\u201d are headline claims without the math behind them. Add (or link to) a short appendix that shows the formula you used, the inputs for at least 2\u20133 representative grantees, how you computed weights, what you count as \u201cadjusted funding,\u201d and a simple sensitivity analysis (e.g., ROI if key parameters are \u00b125\u201350%). Readers should be able to reproduce the headline number or see how fragile it is to plausible changes in inputs.\n\n2) Address attribution, counterfactuals, and crowding-out explicitly. The core value proposition is that these grants will cause substantially more donations to be raised \u2014 but it\u2019s unclear how you separate marginal donations caused by grantees from donor substitution (giving that would have happened anyway) or displacement of other fundraising. State your assumptions about marginality, donor pools (new vs. redirected donors), and time-horizon. If you don\u2019t have hard evidence, be explicit about uncertainty and describe concrete plans (A/B tests, tracking donor source/origin, matched comparison groups) you will use to validate attribution.\n\n3) Publish selection/monitoring criteria and a follow-up evaluation plan. The post says many proposals failed your bar but doesn\u2019t show the rubric or the monitoring framework you\u2019ll use to check whether funded grantees actually deliver. Include (or link to) the selection rubric/scoring, the primary metrics you\u2019ll track for each grantee (e.g., dollars raised attributable, cost per dollar raised, donor retention, program milestones), reporting cadence, and what you will do if a project underperforms. Also disclose potential conflicts (e.g., funders that supported the RFP) and how those were managed. This will reduce perceptions of opaque decisionmaking and make the RFP a more useful model for others.",
+    "improvement_potential": "Strong, actionable feedback that flags major omissions: an unreproducible headline ROI, unclear attribution/marginality assumptions, and no published selection/monitoring rubric or conflict-management details. Addressing these would materially increase credibility and reduce potential embarrassment, while remaining feasible (e.g., via a short appendix or linked methods document)."
+  },
+  "PostAuthorAura": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that 'Melanie Basnak\ud83d\udd38' is a known figure in the EA/rationalist community or in broader public discourse as of my 2024-06 cutoff. The name (with the diamond emoji) does not appear in major EA publications, conference speaker lists, prominent blogs/forums (LessWrong, Effective Altruism Forum), or widely cited work; at best this could be a minor or pseudonymous social\u2011media account with limited reach."
+  },
+  "PostClarity": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and easy to follow: a clear summary up front, a concise, labeled list of grantees with amounts and rationales, and sections explaining why some proposals were declined and what was learned. Strengths include logical organization, plain language, and useful links. Weaknesses: a few technical terms (e.g., \u201cweighted average ROI,\u201d \u201cadjusted funding\u201d) and the ROI estimation method are not fully explained in-line, and readers seeking deeper methodological detail or selection criteria may need to follow links or request more information."
+  },
+  "PostNovelty": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers this is mostly informational and unsurprising \u2014 grant announcements, RFPs, and the criteria (effectiveness adjustments, preferring low-cost experiments, near-term learnability) are familiar. The only mildly novel bits are the portfolio-level ROI (~4.3x), the specific mix of funded fundraisers (many national/regional effective-giving outfits and a UHNW advisory pilot), and empirical takeaways (surprising number of credible applicants, wide M&E variation, value of open calls). For the general public the post is slightly more novel because many people haven\u2019t seen funder RFP processes focused on funding fundraising efforts, ROI-style projections for fundraising grants, or the specific international roster \u2014 but it\u2019s still largely a routine grantmaking report rather than a new conceptual idea."
+  },
+  "PostInferentialSupport": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out a clear, coherent decision framework (cost-effectiveness adjustments, tolerance for early-stage costs, learning horizon) and transparently describes selection outcomes (numbers of applicants, grants, grantees). It gives plausible, logically consistent reasons for funding choices and for passing on proposals. Weaknesses: The central quantitative claim (weighted ~4.3x ROI and >$6M expected adjusted funding) is presented without a detailed breakdown, uncertainty ranges, or methodology in this post; counterfactuals and adjustment rules are referenced but not shown here. There are no empirical results yet (only ex-ante estimates), limited sensitivity analysis, and little detail on monitoring/evaluation plans, so the evidence base is thin and the support is moderate at best."
+  },
+  "PostExternalValidation": {
+    "post_id": "prddJRsZdFjpm6yzs",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported by primary sources from Open Philanthropy itself. The blog post (June 16, 2025) and the RFP page publicly list the 11 grantees, the individual grant amounts (which sum to $1,565,333), the number of applications received (40), and the program-level details. External reporting corroborates notable specifics (e.g., Charity Navigator\u2019s acquisition of Causeway; the High Impact Athletes \u2194 HYROX partnership). The weakest/least-verifiable claims are the portfolio ROI (~4.3x) and the projected >$6M \u201cadjusted funding\u201d over 1\u20132 years \u2014 these are Open Philanthropy\u2019s internal estimates based on their adjustment methodology (not independently verifiable at present). Overall: the factual, checkable items (who was funded, amounts, counts, partners) are accurately reported; the forward-looking impact estimates should be treated as internal projections. ",
+    "sources": [
+      "Open Philanthropy \u2014 \"Reflecting on our Recent Effective Giving RFP\" (blog post, Melanie Basnak, June 16, 2025) \u2014 primary source for grants list, amounts, 40 applications, 11 funded, $1,565,333 total, ~4.3x ROI and >$6M projected.",
+      "Open Philanthropy \u2014 \"Request for Proposals: Effective Giving\" (RFP page) \u2014 explains the RFP, the adjusted-money-raised methodology and funding window (~$1M\u2013$2.5M expectation).",
+      "Charity Navigator \u2014 press materials / PR (\"Charity Navigator Acquires Causeway\", Aug 21, 2023) \u2014 corroborates the Causeway acquisition referenced in the post.",
+      "High Impact Athletes \u2014 \"Race for Impact\" / HYROX partnership page \u2014 corroborates the partnership described in the post.",
+      "endurance.biz / industry coverage \u2014 \"HYROX and High Impact Athletes launch \u2018Race for Impact\u2019\" (coverage June 2025) \u2014 independent reporting on the HYROX \u00d7 HIA initiative.",
+      "Livelihood Impact Fund \u2014 official website (livelihoodimpactfund.org) \u2014 confirms the fund\u2019s existence and makes its role as a supporting funder plausible (Open Phil is explicit that the Livelihood Impact Fund supported the RFP).",
+      "EA Forum mirror of Open Phil post \u2014 \"Open Philanthropy: Reflecting on our Recent Effective Giving RFP\" (EA Forum) \u2014 duplicate/public discussion of the same claims."
+    ]
+  }
+}

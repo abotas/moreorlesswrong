@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is practical, tactical advice about hiring fractional consultants useful for small orgs and managers. It can help EA projects reduce costs and access expertise, but it's not novel, foundational, or consequential for major EA priorities (like policy, AI safety, or longtermist strategy). If true or false it would only modestly affect hiring/operations decisions for a subset of organizations; it has low systemic impact on humanity."
+  },
+  "PostAuthorAura": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "I find no evidence up to mid-2024 that Deena Englander is a known figure in the EA/rationalist community (no prominent posts, talks, or citations). Global presence also appears minimal \u2014 no major books, media coverage, or academic citations in my training data. It may be a pseudonym or a private/very low-profile author; if you have specific works or links I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, concrete example (COO), practical pros/cons and vetting checklist make the main point obvious. Weaknesses: a few awkward phrasings (e.g. \"specialized employee form\"), some strong claims (\"<25% are helpful\", \">20 hours\" threshold) lack evidence, and a US-centric tax aside (1099/IRS) could confuse international readers. Overall concise and accessible but could be tightened and slightly more evidence-backed."
+  },
+  "PostNovelty": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post explains a well-established business practice (hiring part\u2011time/contract 'fractional' executives) and gives routine practical tips (vet track record, start small, set expectations). EA readers are very likely already familiar with these ideas, so novelty is very low. To general readers the term 'fractional COO' might be slightly less familiar, but the core content remains common-sense hiring advice; the only mildly original bits are small heuristics (e.g., ~20\u2011hour cutoff, warning about IRS classification, the author's rough estimate that <25% of consultants are genuinely helpful). Overall the piece is practical but not conceptually new."
+  },
+  "PostInferentialSupport": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "reasoning_quality": 7,
+    "evidence_quality": 2,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically organized, defines the term clearly, outlines plausible benefits and limits (e.g., hours threshold, liability considerations), and gives practical, actionable vetting advice. The author also acknowledges caveats (not all consultants are good) which improves credibility. Weaknesses: Claims are largely anecdotal and asserted without citations or data (e.g., \"less than a quarter\" are helpful; \"not helpful >20 hours/week\"), leaving important generalizations unsupported. There's potential selection and survivorship bias in the author's experience, no empirical cost/quality comparisons, and no references to labor-law guidance or independent studies. Overall: Reasoning is sensible and useful for practitioners, but empirical support is weak, so the thesis is moderately supported rather than rigorously proven."
+  },
+  "PostExternalValidation": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Major descriptive claims in the post (what \u201cfractional\u201d means; existence of fractional COOs/CFOs/CMOs/etc.; that firms hire part\u2011time senior execs to get expertise at lower cost) are well supported by multiple industry sources describing the rise of fractional C\u2011suite roles and their benefits. ([forbes.com](https://www.forbes.com/sites/melissahouston/2024/12/16/the-rise-of-fractional-leadership-how-cfos-cmos-and-coos-are-transforming-startups/?utm_source=chatgpt.com), [en.wikipedia.org](https://en.wikipedia.org/wiki/Fractional_executive?utm_source=chatgpt.com))  The author\u2019s guidance about typical time commitments (single\u2011digit to low\u201120 hours/week, e.g., 8\u201315 hours or similar) and the heuristic that beyond ~20 hours/week you should consider a hire is consistent with many practitioner guides that report fractional engagements are commonly a few hours per week or a few days per month and often under ~20 hours/week, though exact cutoffs are heuristics rather than hard rules. ([5ftview.com](https://www.5ftview.com/post/fractional-coo-vs-full-time-coo-which-is-right-for-your-business?utm_source=chatgpt.com), [rosefinancial.com](https://www.rosefinancial.com/the-difference-between-an-interim-cfo-part-time-cfo-a-fractional-cfo?utm_source=chatgpt.com))  The cost/comparison claim (fractional often substantially cheaper than a full\u2011time COO) is supported by published fractional pricing ranges and by full\u2011time COO compensation data showing that full\u2011time COOs commonly carry six\u2011figure total costs, making part\u2011time retainers (e.g., several thousand to low\u2011tens\u2011of\u2011thousands per month) materially cheaper for many small orgs. ([salary.com](https://www.salary.com/research/salary/alternate/coo-salary?utm_source=chatgpt.com), [hirechore.com](https://www.hirechore.com/startups/fractional-coo-101?utm_source=chatgpt.com))  The caution about worker classification (don\u2019t assume a 1099; IRS looks at behavioral/financial/relationship factors) is accurate and matches IRS guidance. ([irs.gov](https://www.irs.gov/taxtopics/tc762?utm_source=chatgpt.com))  Weaknesses: several numerical statements in the post are anecdotal or the author\u2019s personal estimates (e.g., \u201cmy most embedded job was ~15 hours/week and cost less than half of a full\u2011time COO\u201d and \u201cI\u2019d estimate less than a quarter of consultants are actually helpful\u201d). Those are plausible as individual experience/opinion but are not backed by verifiable population\u2011level data in the public record, and I found no reputable empirical study quantifying the fraction of consultants who are \u201chelpful.\u201d ([forbes.com](https://www.forbes.com/sites/melissahouston/2024/12/16/the-rise-of-fractional-leadership-how-cfos-cmos-and-coos-are-transforming-startups/?utm_source=chatgpt.com), [en.wikipedia.org](https://en.wikipedia.org/wiki/Fractional_executive?utm_source=chatgpt.com))  Overall: most of the post\u2019s practical claims are supported by industry reporting and IRS rules (hence a score of 7), but a few numerical/quality estimates are subjective and not empirically validated.",
+    "sources": [
+      "Forbes: \"The Rise Of Fractional Leadership: How CFOs, CMOs And COOs Are Transforming Startups\" (Melissa Houston, Dec 16, 2024).",
+      "Wikipedia: \"Fractional executive\" (article on fractional executives / fractional leadership).",
+      "Salary.com: \"COO Salary, Hourly Rate (August 01, 2025) in the United States\" (average COO compensation data).",
+      "HireChore / industry guides: \"Fractional COO Rates and Pricing Models\" (examples of fractional COO hourly/retainer ranges).",
+      "5ftView / practitioner posts: \"Fractional COO vs. Full-Time COO: Which Is Right For Your Business?\" (typical hours/cost comparisons; guidance on when to hire full\u2011time).",
+      "Rose Financial / The Difference Between an Interim, Part\u2011Time, & a Fractional CFO (time\u2011commitment guidance).",
+      "IRS: Topic No. 762, \"Independent contractor vs. employee\" (common law rules: behavioral, financial, relationship factors).",
+      "Axios: \"C-suite goes gig as demand for fractional work rises\" (coverage of growth/trend in fractional C\u2011suite roles)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "T6Lqrpoav8feHL4dg",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unsupported quantitative claims and arbitrary thresholds \u2014 You state things like \u201cless than a quarter of consultants are actually helpful\u201d and that >20 hours/week is usually better as an employee. Those are strong, actionable claims for readers but you give no evidence or caveats. Either remove precise-sounding numbers or label them clearly as personal heuristics and explain the basis (e.g., sample size, context), or add references/data. At minimum change phrasing to: \u201cin my experience\u201d and give the contexts where that held.\n\n2) Understates legal and continuity risks \u2014 You briefly mention IRS classification, but you don\u2019t explain the practical, high-cost risks (misclassification fines, IP ownership, confidentiality, non-compete, benefits/backpay, workers\u2019 comp, unemployment liability) or how to mitigate them. Add a short checklist of contract protections and operational practices (clear scope of work, termination clause, IP & confidentiality language, exclusivity/conflicts, SLA/response times, knowledge-transfer plan, contingency for departure, and recommendation to get legal/HR advice for classification). This is high-value for readers and prevents costly \u201cown goals.\u201d\n\n3) Vetting advice is too vague and misses key red flags/conflicts \u2014 Your vetting bullet points are useful but generic. Replace or augment them with concrete, fast-to-use items: sample interview questions (ask for specific metrics/outcomes, ask for a case study with before/after metrics, ask how many hours/week they\u2019ve historically dedicated to each client), a recommended short trial scope (deliverables for a 4\u20138 hour intake + workflow analysis), explicit red flags (no client references, vague outcomes, long response delays, unwillingness to sign IP/confidentiality terms, sole reliance on LinkedIn endorsements), and disclose your referral relationship upfront so readers can weigh potential bias.",
+    "improvement_potential": "The feedback targets real, potentially embarrassing omissions (unsupported quantitative claims, insufficient treatment of legal/continuity risks, and undeclared referral conflicts) and gives concrete, actionable fixes that would materially improve reader safety and trust. Implementing them can be done concisely (label heuristics, add a short legal checklist, include a handful of sample vetting questions and red flags), so the post can be strengthened without undue lengthening. The suggestions could be slightly more prioritized or include example phrasing, but overall they are high-value and appropriately critical."
+  }
+}

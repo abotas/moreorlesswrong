@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is solid, practical personal\u2011finance advice that can materially increase an individual\u2019s financial security and capacity to give time/money \u2014 which matters to EAs who want to donate more or pursue cause\u2011agnostic work. It\u2019s not novel or foundational to EA or global priorities (doesn\u2019t change core longtermist/AI safety arguments), and much of it is common PF wisdom and US\u2011centric, so its falsity wouldn\u2019t upend major frameworks. For individuals it\u2019s useful and actionable; at societal scale the post is modestly influential but not transformative."
+  },
+  "PostRobustness": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "robustness_score": 2,
+    "actionable_feedback": "1) The \u201crent > buy\u201d claim is presented too strongly and rests on an opaque LLM calculation \u2014 make the assumptions explicit and show sensitivity. Actionable fixes: include the model inputs (purchase price, down payment, loan terms, assumed home appreciation, rent growth, tax treatment, maintenance, insurance, transaction costs, opportunity cost of down payment, and assumed stock returns), show results across plausible ranges (e.g., \u00b12% house appreciation and market returns, different holding periods), and acknowledge omitted benefits of homeownership (forced savings via mortgage principal paydown, amenity/value of housing services, local housing market heterogeneity, mobility costs). Don\u2019t rely on a single LLM output as evidence; either show simple math tables or link to a reproducible spreadsheet.  \n\n2) Several blanket rules are oversimplified or inaccurate (risk of misleading readers). Actionable fixes: correct the 4% rule wording (it is a historic safe-withdrawal approximation for ~30 years under certain assumptions, not a guaranteed indefinite rule), and temper the \u201cmax out pre-tax retirement\u201d dictum \u2014 explain when Roth contributions may be better (young/low tax bracket, expected higher future tax rates), recommend tax-diversification as a robust strategy, and state ordering of priorities (capture employer match first, pay high-interest debt and build emergency fund before maximizing tax-advantaged accounts). Explicitly note exceptions like student-loan forgiveness, very low-rate mortgages, or other situational reasons to retain debt.  \n\n3) Missing core personal-finance foundations and US-centric caveats reduce practical value. Actionable fixes: add a short section (or one-paragraph bullets) on emergency savings (recommended cushion and liquidity), disability and health insurance and why they matter for FI, withdrawal/tax-efficient distribution order in retirement (taxable -> tax-deferred -> Roth nuance), and that advice is US-centric (call out which points won\u2019t generalize: IRAs, 401(k) limits, tax rules). Also clarify what you mean by \u201cpassive income\u201d when recommending index funds, and tighten the fund-fee guidance (0.1% is great; 1% is high for broad index funds).",
+    "improvement_potential": "The feedback hits the post's biggest weaknesses: an overconfident rent>buy claim based on an opaque LLM calculation, several blanket rules that are misleading (4% rule, \u2018always max pre-tax\u2019), and missing basic personal-finance fundamentals (emergency fund, insurance, tax/diversification and US-specific caveats). Each point is actionable and would materially reduce the risk of readers drawing harmful conclusions, without requiring unreasonable rewriting. The only reason not to give a 10 is that the post\u2019s overall thrust (index investing, avoid high-interest debt, capture employer match) is sound \u2014 these fixes refine and correct rather than overturn the main thesis."
+  },
+  "PostAuthorAura": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence that a \"Dave Cortright \ud83d\udd38\" is a known figure in the EA/rationalist community\u2014no high\u2011visibility posts, talks, or widely cited writings. The handle may be a pseudonym or minor online user. (There is an unrelated academic David Cortright in peace/arms\u2011control circles, but he is not prominent within EA.)"
+  },
+  "PostClarity": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-organized and easy to read: clear headings, bullets, concrete rules of thumb, and actionable steps make it highly comprehensible and persuasive. Weaknesses: a few factual/nuance issues (e.g., grouping Roth IRAs with pre-tax vehicles), some casual asides/formatting typos that slightly reduce polish, and a long, lightly-sourced real-estate section that could be tightened or caveated for non-U.S. readers."
+  },
+  "PostNovelty": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Almost all of the post\u2019s recommendations are standard personal\u2011finance/FIRE advice (start early, auto\u2011invest, low\u2011cost index funds, employer match, 4% rule, pay off high\u2011interest debt, etc.). EA readers will have seen these ideas many times (including EA\u2011specific writeups). The only mildly distinctive element is framing FI explicitly as a lever to free up money/time for effective causes and a brief rent\u2011vs\u2011buy numeric example, but those are already common in the FIRE/EA overlap. Overall the post is mainstream, not original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured, gives clear, actionable, and mostly mainstream personal-finance recommendations (start early, automate investing, use low-cost index funds, take employer match, avoid high-interest credit, pay down high-rate debt). Many points follow standard financial logic (compounding, fees reduce returns, guaranteed return from paying high-interest debt). Weaknesses: The post overgeneralizes in places (e.g., blanket statements about buying vs renting, \u2018\u2018max out pre-tax\u2019\u2019 without tax-rate nuance, claiming 4% is safe indefinitely) and relies more on conventional wisdom, examples, and links than on rigorous empirical evidence. The homeowner vs renter comparison uses specific assumptions and an LLM-derived calculation without transparent methodology or sensitivity analysis; broader geographic, tax, insurance, leverage, and lifestyle factors are not handled. Evidence is patchy: some useful links and correct ETF facts, but few references to robust empirical studies or models, and some claims are simplifications. Overall: good practical advice for many readers, but not a rigorously evidenced or universally applicable argument\u2014useful as a primer, but some recommendations need context and further validation for specific situations."
+  },
+  "PostExternalValidation": {
+    "post_id": "ca2w7AL7hm9fp7RnF",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s empirical claims are well-supported and consistent with mainstream personal-finance evidence, but a few statements are oversimplified or lack important qualifiers. Strengths: low-cost index ETFs/funds (VOO, VTI, SCHB, IVV, ITOT, FSKAX) do have ultra-low expense ratios (~0.01\u20130.03%); Fidelity\u2019s ZERO funds (e.g., FZROX, FZILX, FNILX, FZIPX, FZSIX) exist and have 0% advertising expense ratios, though they have limits and practical caveats for taxable accounts; the advice to prioritize employer match, pre-tax retirement accounts, automatic investing, avoiding high\u2011interest credit card debt, and paying off high\u2011rate debt is supported by mainstream guidance. Housing vs. stocks: long\u2011run data show U.S. house-price appreciation in recent decades near ~4%/yr while broad stock returns since 2000 have been materially higher (period- and index-dependent), so the post\u2019s comparison directionally holds although the exact percentages depend on time window and indexes used. Major caveats / inaccuracies: the 4% \u201crule\u201d is correctly described for a 30\u2011year horizon per Bengen/Trinity results, but the claim that it will \u201ceven [last] indefinitely\u201d is contested \u2014 later work and current advice often recommend lower or more flexible withdrawals depending on valuation and yields; many housing cost line items (closing costs, taxes, maintenance, insurance) are region-dependent and the fixed percentages in the post are reasonable rules-of-thumb but can differ substantially by state/metro; credit-card and cash-account rates (e.g., Wealthfront cash APY) change over time, so the exact APY the author cites may be out of date. In short: most empirical claims are backed by reliable sources, with a few places needing nuance or up-to-date figures.",
+    "sources": [
+      "iShares IVV fund page (SEC expense ratio 0.03%). (iShares product page for IVV).",
+      "Vanguard/industry reporting on VOO/VTI fees (VOO fee 0.03%). (Financial Times / Vanguard fund pages).",
+      "Schwab SCHB & iShares ITOT fee information (product pages / ETF factsheets).",
+      "Fidelity fund pages and reporting on FSKAX and Fidelity ZERO funds (FZROX, FZILX, FNILX, FZIPX).",
+      "FHFA House Price Index releases (US house-price growth ~4% yr in recent years). (FHFA HPI press releases).",
+      "S&P 500 total-return performance since 2000 (official historical returns / aggregators showing ~7\u20138% annualized since 2000 depending on exact dates).",
+      "Bengen (1994) and the Trinity study (1998) literature on the 4% safe-withdrawal rule; contemporary critiques and updates (e.g., Wade Pfau, MarketWatch coverage of Bengen updates).",
+      "Federal Reserve / Bankrate reporting on average credit-card APRs (~20%+ in 2024\u20132025).",
+      "ATTOM property-tax and home-cost analyses (average effective property-tax rate ~0.86% in 2024).",
+      "NAR / industry reporting and news (and WSJ coverage) on typical realtor commissions and closing-cost ranges (commissions often ~5\u20136% historically; closing costs vary ~1\u20135%).",
+      "Wealthfront support and product pages showing Cash Account APY (4.00% as posted Dec 2024; rates change over time)."
+    ]
+  }
+}

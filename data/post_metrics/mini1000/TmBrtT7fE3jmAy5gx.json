@@ -1,0 +1,61 @@
+{
+  "PostValue": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Useful, well-summarised background on the history and limits of evidence-based development (especially RCTs). For the EA/rationalist community it's moderately important as context for funding, evaluation and policy choices, and for newcomers it clarifies trade-offs between micro experiments and macro policy \u2014 but it is not novel or foundational and does not change core strategic conclusions. For general humanity the piece is primarily educational: interesting and occasionally policy-relevant but not critical to large-scale outcomes. If its main points were wrong it would matter modestly for evaluation practice but not fundamentally for most global decisions."
+  },
+  "PostRobustness": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing concrete alternatives to RCTs and how they complement them. You repeatedly recommend \u201cmethodological pluralism\u201d but don\u2019t explain what that looks like in practice. Add a short, concrete paragraph naming and very briefly describing the main alternative causal-inference tools readers care about (difference\u2011in\u2011differences, regression discontinuity, instrumental variables, synthetic controls, natural experiments, qualitative/participatory methods, structural models), when each is preferable, and one short example of each in development. This prevents the post from sounding like \u201cRCTs vs everything else\u201d and makes the pluralism recommendation actionable. \n\n2) Understated discussion of systemic/statistical vulnerabilities and incentives. You note publication bias and pre-registration once, but the post misses major threats to the credibility of impact evaluation (p\u2011hacking/multiple hypothesis testing, low statistical power, selective subgroup reporting, non-public data, funder/NGO incentives to prefer short, measurable outcomes). Add a concise paragraph explaining these problems, give 1\u20132 short concrete examples or citations, and list the primary mitigations readers should expect (pre\u2011analysis plans, pre\u2011registration/registered reports, adequate power calculations, data/code sharing, replication/meta\u2011analysis). This will guard against the impression that RCTs are merely a neutral technical fix. \n\n3) Ethical and scaling critiques need to be sharpened and illustrated. You mention generalisability, scaling and ethics only at a high level. Strengthen the post by (a) naming specific ethical issues (informed consent in power\u2011imbalanced settings, withholding treatments/equipoise concerns, community harms, researcher/implementer capture), (b) giving 1\u20132 concrete examples of high\u2011profile trials that failed to scale or to influence policy (or that raised ethical concerns), and (c) noting frameworks or practices that aim to address these (local IRB engagement, community consent, phased rollouts, implementation research, process evaluation). These additions will reduce the risk of the post being read as glib about real harms and real limits to policy translation.\n\nMinor but important: add a one\u2011sentence thesis near the top that states your intended takeaway (e.g., \u2018RCTs transformed evidence quality but have limits; the field should use RCTs alongside other methods while addressing incentives, ethics, and scaling\u2019). That clarifies the purpose so readers aren\u2019t left wondering whether this is a history, an endorsement, or a critique.",
+    "improvement_potential": "The feedback identifies important, actionable omissions that meaningfully weaken the post\u2019s usefulness and credibility: it calls out the vague plea for \u2018methodological pluralism\u2019 without naming alternatives, gaps in discussing well-known statistical and incentive vulnerabilities of impact evaluation, and the need for concrete ethical and scaling examples and mitigations. These are not fatal to the piece but are critical improvements that are concise to add (a short methods paragraph, a brief note on common statistical abuses and mitigations, and 1\u20132 ethical/scale examples plus a one\u2011line thesis) and would substantially reduce the risk the author looks superficial or glib on core issues."
+  },
+  "PostAuthorAura": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "No evidence that a person or handle 'DavidNash' is a recognized figure in the EA/rationalist community; the name is common and I cannot find indications of frequent publications, talks, or major public profile. If you can share links or context (platform, works), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and easy to follow: clear headings, chronological flow (science \u2192 medicine \u2192 RCTs \u2192 critiques \u2192 evolution), and concrete examples that support its main point that evidence-based methods (especially RCTs) brought gains but have limits. Arguments are balanced and generally compelling, with helpful citations. Weaknesses: it's a bit long and sometimes repetitive, footnotes/images interrupt flow, and a few sections could be tightened or signposted more explicitly for readers unfamiliar with development-economics debates."
+  },
+  "PostNovelty": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "The post is largely a synthesis of well-known historical facts and widely discussed debates (scientific revolution, germ theory, vaccine history, rise of RCTs, J\u2011PAL, Banerjee & Duflo, common critiques like external validity/scaling/publication bias). For an EA Forum audience these are familiar touchpoints and critiques, so novelty is low. For the general educated public the combination and framing (history \u2192 medicine \u2192 RCTs \u2192 development critiques \u2192 evolution of the field) is somewhat informative but still draws on mainstream sources and debates, so novelty is moderate rather than high. The only mildly less-common elements are the specific literature links and framing (e.g., the \u2018Hype Cycle\u2019 application to RCTs), but these do not constitute highly original claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post has a clear, coherent narrative linking the rise of systematic evidence in science and medicine to the adoption of RCTs in development, and it acknowledges major critiques (external validity, scaling, ethical and practical limits). It cites relevant thinkers, institutions, and illustrative examples (Jenner, John Snow, Banerjee & Duflo, J\u2011PAL, Vivalt). Weaknesses: The causal claims are sometimes high\u2011level or oversimplified, and the argument relies heavily on secondary sources (Wikipedia, blogs, popular summaries) rather than primary empirical studies or systematic reviews. Empirical evidence is discussed qualitatively with few quantitative metrics or rigorous citations to meta\u2011analyses, and important counterarguments (e.g., deeper institutional/political economy evidence) are sketched rather than robustly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "TmBrtT7fE3jmAy5gx",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s empirical claims are accurate and verifiable: the broad historical timeline (printing press \u2192 Scientific Revolution \u2192 medicine), key medical milestones (Jenner, germ theory, Lister, John Snow), the emergence and history of randomized trials (James Lind, Fisher/Rothamsted, large polio trials in the 1950s), the growth of RCT use in development (J\u2011PAL, Banerjee & Duflo, CGD Evaluation Gap), and prominent critiques (Eva Vivalt on external validity; David Roodman) are all supported by mainstream sources. Strengths: claims are well-aligned with historical and scholarly literature and with mainstream summaries of the RCT / evidence\u2011based movement. Weaknesses / minor errors: a named researcher is slightly mis\u2011identified (the MIT thesis/reports on negative income tax experiments are by Heather Rose, not \u201cHeather Ross\u201d); the acronym WALY vs. WELLBY is used differently across literatures (the post\u2019s description of a wellbeing\u2011adjusted life\u2011year\u2013style metric is correct, but different groups use WELLBY or WALY); and a couple of brief claims are simplifications (e.g., calling the 1974 radio mathematics projects \u201cone of the first development\u2011economics experiments\u201d is defensible but compressed). Overall: most major empirical claims are well supported; a few small naming/terminology issues and some inevitable simplifications reduce the score slightly from \u2018exceptional\u2019.",
+    "sources": [
+      "Encyclopaedia Britannica \u2014 Johannes Gutenberg / Printing press (Britannica)",
+      "Encyclopaedia Britannica \u2014 Nicolaus Copernicus (De revolutionibus, 1543).",
+      "Library of Congress / Sidereus Nuncius (Galileo, 1610) \u2014 Sidereus Nuncius descriptions and holdings.",
+      "Encyclopaedia Britannica \u2014 Isaac Newton, Principia (1687).",
+      "The Jenner Institute / Britannica / BBC \u2014 Edward Jenner and first vaccination (1796/1798).",
+      "Encyclopaedia Britannica \u2014 Germ theory (Pasteur, Koch) and Joseph Lister (antisepsis, 1865\u20131867).",
+      "James Lind Library / Wellcome Collection / BBC \u2014 James Lind scurvy experiment (1747/1753 reports).",
+      "Rothamsted Research / R.A. Fisher (1920s) \u2014 Fisher's randomization and field experiments / 'The arrangement of field experiments' (1926) and 'The Design of Experiments'.",
+      "BMJ / PubMed Central \u2014 \u2018A calculated risk\u2019: the Salk polio vaccine field trials of 1954 (largest mid\u201120th century RCT example).",
+      "Center for Global Development \u2014 Evaluation Gap Working Group report 'When Will We Ever Learn? Improving Lives Through Impact Evaluation' (2006 report originating in 2004 WG).",
+      "Abdul Latif Jameel Poverty Action Lab (J\u2011PAL) \u2014 About / founding (2003) and role in scaling RCTs in development.",
+      "Banerjee, A. & Duflo, E. \u2014 Poor Economics (2011) (book describing RCT approach in development).",
+      "Eva Vivalt \u2014 'What do 600 papers... tell us about how much impact evaluations generalize?' (World Bank blog / related JEEA paper on heterogeneity and external validity).",
+      "David Roodman \u2014 'The Smartest RCT Critic' and other CGD blog posts on strengths/limits of RCTs.",
+      "Happier Lives Institute / Happiness Research Institute \u2014 discussions of WELLBY / Wellbeing\u2011Adjusted Life Years / WALY (well\u2011being adjusted metrics) and their use.",
+      "Academic sources on Interactive Radio Instruction / USAID Radio Mathematics Project (1970s) \u2014 evaluations showing radio instructional projects (e.g., Nicaragua Radio Mathematics Project 1974) and subsequent USAID projects."
+    ]
+  }
+}

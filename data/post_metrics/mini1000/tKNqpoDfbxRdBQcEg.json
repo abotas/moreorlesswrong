@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a moderately important, practical question for EAs working on development, human rights, and capacity-building: it bears directly on program design, hiring/training policy, moral trade\u2011offs between individual welfare and aggregate impact, and how to measure effectiveness. If the post's concern (that donor-funded training largely facilitates brain\u2011drain) is true, many development interventions would need major redesign \u2014 a meaningful but not foundational shift for EA priorities (it doesn't affect core longtermist/AI safety questions). For general humanity the issue matters less globally: migration and brain\u2011drain affect national development and many lives, but this specific organizational dilemma is narrower and contingent on local context and policy levers, so its overall global importance is moderate-to-low."
+  },
+  "PostAuthorAura": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could find no record up to mid\u20112024 of a prominent EA/rationalist author or public intellectual known as \u201cWillieG\u201d (or Willie G). The name appears to be a pseudonymous/handle with no widely cited publications, talks, or leadership roles in EA; therefore there is no evidence of notable EA or broader public prominence."
+  },
+  "PostClarity": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "clarity_score": 8,
+    "explanation": "The post is highly comprehensible and concise: a clear personal anecdote sets context, the central tension (individual welfare vs. local impact/brain drain) is explicit, and the concrete example and TL;DR of the disagreement clarify stakes. Weaknesses: it doesn't precisely define what \"help\" or \"support\" entails and offers little systematic evidence or criteria, so the argument is more of a prompt for discussion than a fully developed position."
+  },
+  "PostNovelty": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "novelty_ea": 4,
+    "novelty_humanity": 2,
+    "explanation": "The core dilemma\u2014training local talent who then emigrate (brain drain) versus retaining them to build local capacity\u2014is well-known in development and has been discussed within EA circles (tradeoffs between individual welfare and systemic impact, talent flow, migration as an intervention). The post's EA-specific framing and question about explicit organizational policies is mildly less common but not especially original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post raises a relevant and plausible normative trade-off (individual welfare vs. local long\u2011term impact) and includes useful first\u2011hand experience and an internal disagreement that clarifies the practical dilemma. However, its arguments are informal and underdeveloped: it relies on a small, anecdotal sample (a ~dozen colleagues) with no counterfactuals, no baseline or follow\u2011up measures of social impact, and no engagement with alternative explanations (selection bias, structural drivers of emigration, diaspora benefits such as remittances, knowledge transfer, or return migration). Empirical support is essentially nonexistent beyond the anecdote, so the post is a prompt for further investigation rather than a well\u2011supported thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The author\u2019s specific anecdote (that every one of ~12 former colleagues moved to the West and many are underemployed) is anecdotal and cannot be externally verified. However, the post\u2019s broader empirical claims are well supported: (1) tertiary-educated people emigrate at much higher rates than less-educated people and many skilled migrants concentrate in high\u2011income/Western countries; (2) skilled migrants often experience underemployment/\u2018brain waste\u2019 in destination countries; (3) the impact of skilled emigration on origin countries is real but complex (documented brain\u2011drain harms in some sectors\u2014esp. health\u2014coexist with evidence of remittances, diaspora effects and potential \u201cbrain gain\u201d); and (4) international and sectoral policies (e.g., WHO code, NGO codes) exist to try to manage recruitment and mitigate harms. Because the post mixes an unverifiable personal story with claims that are broadly consistent with the peer\u2011reviewed literature and major international organizations\u2019 data, I rate it as \u201cwell\u2011supported\u201d but note important nuance (net effects vary by country, sector, and time).",
+    "sources": [
+      "UNESCO Global Education Monitoring Report 2019 \u2014 Chapter on Migration (finding: tertiary\u2011educated are much more likely to emigrate; many high\u2011skill emigration rates >20% in a sizable set of countries). (UNESCO GEM Report 2019)",
+      "World Bank \u2014 Migration & Remittances overview and WDR 2023 Module 9 on brain drain (summarizes evidence on impacts of high\u2011skill emigration, remittances, and policy responses). (World Bank Migration overview; WDR 2023 Module 9)",
+      "Docquier, Fr\u00e9d\u00e9ric & Hillel Rapoport (2012 JEL review) 'Globalization, Brain Drain and Development' \u2014 literature review showing high\u2011skill migration is dominant and effects can be mixed (brain\u2011drain and brain\u2011gain channels). (Docquier & Rapoport, JEL 2012)",
+      "OECD Indicators of Immigrant Integration / Settling In (2018, updates 2023) \u2014 documents high rates of overqualification among highly educated immigrants (about one\u2011third overqualified across OECD) and integration statistics. (OECD Indicators of Immigrant Integration)",
+      "Migration Policy Institute \u2014 analysis on credential recognition and underemployment of skilled migrants (discusses 'brain waste' and lost earnings). (Migration Policy Institute, credential recognition trends)",
+      "American Immigration Council report 'Untapped Talent' \u2014 estimates nearly 2 million highly skilled immigrants in U.S. are underemployed or unemployed and quantifies forgone earnings/tax revenue. (American Immigration Council, 'Untapped Talent')",
+      "NEJM commentary / WHO Global Code of Practice on International Recruitment of Health Personnel (2010) \u2014 documents policy responses to health\u2011sector brain drain and international code of practice. (WHO Global Code; NEJM article on the Code)",
+      "International Federation of Red Cross and Red Crescent Societies (IFRC) migration policy and academic coverage of NGO codes (examples of organizational/sectoral policies to guide recruitment and support migrants). (IFRC migration policy; Lancet/NGO code of conduct discussion)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "tKNqpoDfbxRdBQcEg",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overgeneralizing from a single anecdote / missing evidence: The post treats one cohort\u2019s outcomes as indicative of a general problem but provides no data, counterfactuals, or literature. This makes the central worry (that your recommendations caused a harmful brain drain) speculative. Actionable fixes: explicitly flag this as an anecdote, add or request empirical evidence (studies on brain drain vs. brain gain, remittances, return migration, diaspora impact), and mention selection bias and counterfactuals (what would those employees likely have done without Western migration?).\n\n2) Neglecting employee autonomy and normative clarity: The post frames the issue mostly in terms of organizational impact without grappling with employees\u2019 rights, preferences, and welfare. That\u2019s a major ethical omission and weakens the argument. Actionable fixes: state your normative frame (maximize local long\u2011term impact? maximize individual welfare? respect autonomy?) and explicitly discuss employees\u2019 agency. Consider adding concrete, humane policy options (transparent recommendation-letter rules, opt\u2011in retention incentives, career development, remote/part\u2011time roles, alumni networks) rather than implying organizations should simply block emigration.\n\n3) Overlooked plausible counterarguments and practical alternatives: The post misses prominent rejoinders (diaspora benefits, remittances, skills transfer back home, the possibility of higher aggregate impact via a diaspora) and practical organizational policies that mediate the tradeoff. Actionable fixes: briefly survey these counterarguments or cite sources, and propose specific, publishable policy ideas your orgs could adopt (e.g., a public recommendations policy, exit interviews and outcome tracking, ways to enable remote contributions, non\u2011coercive bonding with clear time limits). This both strengthens your credibility and makes the post more useful to readers.",
+    "improvement_potential": "This feedback hits the key weaknesses: the post overgeneralizes from a single anecdote, lacks a stated normative frame and discussion of employee autonomy, and omits obvious counterarguments and policy alternatives (diaspora benefits, remittances, remote/part\u2011time roles). Addressing these would substantially improve credibility and usefulness without requiring a wholesale rewrite. The score is not 10 because the feedback doesn't point out every possible omission (e.g., power dynamics, legal/security reasons for leaving, or methods for lightweight evidence-gathering), but it identifies the major mistakes and embarrassing 'own goals' the author should fix."
+  }
+}

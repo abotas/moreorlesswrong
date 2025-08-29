@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a useful, practical announcement about an EA-aligned product that could modestly help donor acquisition, habit formation, and EA outreach. If it works as intended it could be a valuable bridge for people to discover effective giving and move toward larger commitments, so it has moderate relevance to the EA community. However, it is not a foundational theoretical contribution, and its real-world impact depends heavily on adoption, charity selection, and execution. For humanity at large the impact is minor unless the app scales to very wide adoption or channels substantial additional funding to high-impact interventions."
+  },
+  "PostRobustness": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Charity-selection transparency & marginal impact: the post glosses over what \u201cEA\u2011aligned charities\u201d means in practice. Readers will rightly worry about fungibility, marginal impact of micro\u2011donations, and selection bias. Actionable fixes: publish a concise selection rubric (criteria, sources, scoring), state whether you rely on GiveWell/ACE/other evaluators or your own analysis, and \u2014 where possible \u2014 give illustrative \u201cimpact per \u00a31\u201d ranges or explain why that\u2019s infeasible. Also state fees/processing, whether donations are passed through immediately, and how you handle reporting/tax receipts.\n\n2) Overclaiming behavior-change without measurement: the claim that daily micro\u2011giving will \u2018\u2018trigger broader value realignment\u2019\u2019 is a large causal leap. Before publishing, tone this down or label it as a hypothesis and include a clear evaluation plan. Actionable fixes: preregister simple hypotheses (e.g. % of users who make a >\u00a3100 donation within 6 months, changes in self\u2011reported giving identity, retention), run A/B tests (daily micro\u2011gifts vs control onboarding), and report planned primary outcomes and timelines.\n\n3) Moral\u2011licensing / crowding\u2011out risk and product safeguards: you don\u2019t address the plausible counterargument that micro\u2011giving could reduce larger, higher\u2011impact gifts or be treated as a substitute rather than a bridge. Actionable fixes: add design/communication mitigations (onboarding language that frames micro\u2011donations as a step toward larger commitments, prompts about annual giving, experiments testing messaging), segment users by prior giving and show how the product funnels serious givers toward deeper engagement (e.g. suggested pledges, educational paths).",
+    "improvement_potential": "Highly useful \u2014 the three points call out core, nontrivial omissions that an EA audience will flag (charity-selection transparency and marginal impact of tiny gifts; overstated causal claims about behavior change without an evaluation plan; and plausible moral\u2011licensing/crowding\u2011out risks). Each point is actionable and would materially improve credibility without much extra length in the post. (Minor extra suggestions like privacy/conflict\u2011of\u2011interest disclosure are missing but secondary.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Joseph Sarvary' is a known figure in the EA/rationalist community or a public figure more broadly. No widely cited publications, talks, or notable online presence under that name were identifiable, so treat this as effectively unknown."
+  },
+  "PostClarity": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, concise feature list, stated hypothesis and target audience, and a straightforward call-to-action. Minor issues: a small grammatical glitch and a couple of repetitive/ambiguous points (TestFlight instructions, \u00a3 currency/availability, and limited detail on charity-selection criteria and EA alignment) prevent a top score."
+  },
+  "PostNovelty": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post is an incremental product announcement rather than a new idea: micro-donations, gamified habit-building, and using behavioral science to encourage prosocial spending are well-trodden (both within EA and commercially). The somewhat novel elements are the explicit framing around EA-aligned charities and the aim to use daily \u2018joy-based\u2019 giving as a bridge into EA/longtermist engagement \u2014 but this is an application/packaging innovation rather than a fundamentally new concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post sets out a clear, plausible argument: habit-forming micro-donations leveraging prosocial spending can increase happiness and (possibly) lead to greater engagement with effective giving. That reasoning is intuitively coherent and grounded in existing literature, but it is high-level and relies on several unstated assumptions (e.g. that short-term positive affect reliably translates into sustained higher-effort engagement, that micro-donations don't crowd out larger, cost\u2011effective giving, and that gamification won't distort users' epistemic commitments). Empirical support in the post is weak: it gestures to well-known studies (Dunn, Aknin, Norton) but gives no citations, no app-specific pilot data, no retention/impact metrics, and no transparency about charity-selection methodology. To be more convincing the post should cite the literature, provide pilot/experimental results (retention, changes in donation amounts, wellbeing measures), and address potential failure modes like moral licensing or low-cost-effectiveness scaling."
+  },
+  "PostExternalValidation": {
+    "post_id": "7hxAbQyRMEeX4u5od",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims are supported by reliable sources: the EA Forum post and the EveryDrop website/documentation confirm the app, the micro-donation amounts (\u2248\u00a31\u20135 / ~\u00a32/day examples) and gamified features are claimed by the developers; the prosocial\u2011spending literature (Dunn, Aknin, Norton et al.) robustly supports that spending on others tends to increase happiness, and a recent preregistered randomized trial (Zhang et al., Psych Sci 2025) reports small-to-moderate reductions in depressive symptoms from a micro\u2011giving intervention. Uncertainties / limits: I could not independently verify the app\u2019s live TestFlight build contents (e.g., exact charity list, whether charities named are actually EA\u2011aligned, or operational claims like fee coverage / 100% pass\u2011through) from public pages; nor is there published evidence yet that EveryDrop\u2019s specific product causes sustained increases in giving or longterm EA engagement. Overall: well-supported for the core empirical psychology claims and for the existence of the project; operational/impact claims about this specific app\u2019s charity roster and long\u2011term behaviour effects remain unverified.",
+    "sources": [
+      "EA Forum post: \"EveryDrop now live on iOS: a behavioral science\u2013driven giving app built on EA principles\" \u2014 Joseph Sarvary (EffectiveAltruism.org / forum.effectivealtruism.org) (June 2025)",
+      "EveryDrop official site \u2014 FAQ and product pages (everydropapp.com) (accessed Aug 2025) \u2014 describes daily micro\u2011donations, gamification, and charity selection process",
+      "EA Forum progress post: \"Announcing EveryDrop: Progress Update on Our Gamified Daily Giving App\" \u2014 Joseph & Karina Sarvary (Mar 2025) \u2014 developer update on features and charity/legal setup",
+      "Dunn, E. W., Aknin, L. B., & Norton, M. I. (2008). \"Spending Money on Others Promotes Happiness.\" Science 319:1687. \u2014 experimental evidence that prosocial spending increases happiness",
+      "Aknin, L. B., et al. (2010/2013). Cross\u2011cultural and impact\u2011moderation work (e.g., NBER working paper 'Prosocial Spending and Well\u2011Being' and JEBO 'Making a Difference Matters', 2013) \u2014 shows prosocial spending is associated with greater well\u2011being and that awareness of impact amplifies benefits",
+      "Replication & reviews: Replication study and discussion of robustness (e.g. Stevenson & colleagues replication summary, and PubMed/PMC replication discussion) indicating overall evidence base but noting some effect\u2011size / replication caveats (PMC article on replication attempts).",
+      "Zhang, Y., Jiang, Q., Luo, Y., & Liu, J. (2025). \"Can One Donation a Day Keep Depression Away? Three Randomized Controlled Trials of an Online Micro\u2011Charitable Giving Intervention.\" Psychological Science, Feb 2025 (PubMed PMID: 40014684) \u2014 preregistered RCT evidence that daily micro\u2011giving improved depressive symptoms and emotional positivity",
+      "Apple TestFlight docs \u2014 Apple (support) \u2014 explains public beta/TestFlight mechanism (apple.com / beta.itunes.apple.com) \u2014 relevant for verifying how the TestFlight link would be used",
+      "Karina Sarvary LinkedIn post (2025) \u2014 public post by co\u2011creator confirming involvement with EveryDrop (linkedin.com / Karina Sarvary)"
+    ]
+  }
+}

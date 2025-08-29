@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a straightforward operational announcement about a referral program to increase attendance at EA Global events. It could modestly affect who attends and slightly improve recruitment, networking, and community engagement, but it is not foundational to EA/theory or high\u2011stakes decisions. For humanity at large it is effectively irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add explicit anti\u2011abuse / quality\u2011control safeguards and clarify admissions impact. Right now the program risks incentivizing mass or low\u2011quality referrals (or paid referral schemes). State whether and how referral status affects acceptance (e.g., \u201creferrals do not change admissions decisions\u201d); describe concrete anti\u2011gaming measures you\u2019ll use (caps per referrer or time period, monitoring for suspicious patterns, right to revoke rewards if fraud is detected, requirement that referees have a genuine prior relationship or a short note on why they\u2019re a fit). This avoids the impression that referrals buy seats and reduces community pushback.\n\n2) Clarify data/privacy/consent practices. The post doesn\u2019t say what applicant data the referral code captures, who can see it, how long you\u2019ll retain it, or whether applicants are told they were referred. Add a short privacy line (and link to a full policy) explaining what\u2019s logged, that applicants can opt out of being linked to a referrer, and that you\u2019ll comply with relevant data laws (GDPR, etc.). This addresses legitimate privacy concerns and will reassure both referrers and applicants.\n\n3) Explain rationale, equity risks, and success metrics briefly. The post asserts growth is good but omits potential downsides (favoring well\u2011networked people, decreasing diversity or fit). Either (a) add one sentence acknowledging those risks and naming mitigation (targeted outreach, weighting quality over quantity), or (b) state the success metrics you\u2019ll track beyond raw referral counts (e.g., attendee retention, subsequent impact, diversity of accepted referrals). This prevents readers from assuming you\u2019ll prioritize headcount above fit and community values.",
+    "improvement_potential": "The feedback identifies three substantive, actionable omissions that are likely to matter to readers and to the success of the program: anti\u2011gaming safeguards, data/privacy handling, and acknowledgement of equity/quality tradeoffs with concrete success metrics. These are not mere style edits \u2014 they address trust, legal/operational risk, and community pushback that would likely arise if left unmentioned. Fixing them needn't lengthen the post much (a short sentence or link for each point suffices), so the suggestions are high\u2011impact and practical."
+  },
+  "PostAuthorAura": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that Ivan Burduk is a known figure in the EA/rationalist community or a publicly recognized author. No notable posts on core EA/rationalist platforms (e.g., LessWrong, Effective Altruism Forum, 80,000 Hours), no widely cited academic or popular publications, and no clear public profile. Possibly a pseudonym or a very obscure/private author \u2014 provide links or context if you want a deeper check."
+  },
+  "PostClarity": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow with clear headings, a straightforward description of how the referral program works, eligibility rules, and the reward tiers. It makes its point clearly and concisely, and gives useful links and contact info. Minor ambiguities remain (e.g., edge cases like applicants who previously applied but never attended, handling of multiple accounts, and exact timing/process for reward fulfillment), and a couple of small phrasing choices (\"designs coming soon\") are unnecessary but do not significantly impede understanding."
+  },
+  "PostNovelty": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "novelty_ea": 3,
+    "novelty_humanity": 1,
+    "explanation": "This is largely a straightforward announcement of a referral program \u2014 a very common growth tactic. For EA readers it\u2019s only mildly novel in details (EA-specific rules: first-time attendees only, EAGx exclusion, accumulation across cycles, small branded rewards, and the 31% stat), but the core idea and mechanics will be familiar. For the general public referral programs with small non-monetary rewards are ubiquitous, so it\u2019s not novel at all."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The proposal is plausible and internally coherent \u2014 referral schemes are a common, low-cost way to increase attendance, and the post cites a relevant descriptive statistic (31% of 2024 applications reported hearing about EAG via a friend). Weaknesses: The argument relies on one high-level correlation and general intuition rather than causal or quantified evidence that a formal referral program will materially increase attendance or applicant quality. The post lacks conversion rates, baseline numbers, pilot data, metrics for success, discussion of potential gaming/selection effects, or cost-effectiveness analysis. It also conflates informal word-of-mouth (survey responses) with the likely impact of a formal rewards-based referral mechanism. Overall, the idea is reasonable but under-supported by empirical evidence and rigorous reasoning."
+  },
+  "PostExternalValidation": {
+    "post_id": "GLbPKPdCsLyZS2Eor",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims in the post are well-supported by primary EA sources (the EA Forum announcement itself and other CEA/EA Global updates). The post\u2019s existence, the program details (referral codes/links in the EA Global portal, rewards tiers, first-time attendee / EAGx exclusion, accumulation across cycles), and the 2025 goal to increase attendance are all verifiable in EA\u2019s public communications. EA\u2019s broader metrics (attendance in 2024, acceptance rate, and stated 2025 attendance target) are also published by the Events/CEA team and corroborate the context given. The main weak point is the specific statistic \u201cIn 2024, 31% of applications came through personal referrals\u201d: this figure appears in the referral-program announcement itself but I could not find an independent/public EA dataset or separate post that documents or breaks down application-source shares (e.g., an admissions-sources table) to corroborate that exact 31% number. The portal pages for \u201cMy Account\u201d require login/JS so I could not directly view the referral-code UI, but the portal domain and links are consistent with EA\u2019s official event portal. Overall: the announcement and most factual claims are credible and internally consistent with other EA posts, but the single specific 31% figure appears to be an unpublished internal stat (only present in the announcement) so cannot be independently corroborated from other public documents.",
+    "sources": [
+      "EA Forum \u2014 \"EA Global Referral Program\" by Ivan Burduk (Mar 25, 2025) (EA Forum announcement of the program; contains the referral rules, reward tiers, and the 31% referrals claim).",
+      "EA Forum \u2014 \"Update on EA Global costs and 2024 CEA Events Team activities\" by Ollie Base & Amy Labenz (Dec 20, 2024) (provides 2024 attendance, LTR and 2025 attendance targets and other event metrics cited in the referral post).",
+      "EA Forum \u2014 \"What is the admissions bar for EA Global?\" (Dec 3, 2024) (provides 2024 acceptance rate ~84% and admissions context referenced by EA Global communications).",
+      "EffectiveAltruism.org \u2014 EA Global page (official EA Global / CEA event page; lists contact email hello@eaglobal.org and event/application information referenced by the post)."
+    ]
+  }
+}

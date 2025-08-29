@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a low-stakes, practical onboarding question about how two donation heuristics relate (The Life You Can Save's sliding scale vs the 10% pledge). It matters a little for effective-altruism outreach and personal donation choices, since clear guidance helps new members donate more effectively, but it isn't foundational to EA principles or global outcomes. For humanity at large it is essentially trivial."
+  },
+  "PostRobustness": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be specific about which \u201c10% pledge\u201d you mean and don\u2019t assert false connections. The post never names the pledge (Giving What We Can, a religious tithing norm, a workplace scheme, etc.), so readers can\u2019t answer precisely. Action: name the exact pledge/org and link its FAQ. Also remove or check your claim that Peter Singer is involved in both \u2014 don\u2019t assume organisational ties without a source.\n\n2) Avoid calling these recommendations a \u201ctax\u201d and clarify the conceptual difference between the two schemes. The Life You Can Save\u2019s calculator is a recommended/ethical giving scale (it resembles a progressive scale), not a tax; the 10% pledge is a simple commitment for tractability/commitment device. Action: reword to ask about trade\u2011offs (simplicity vs moral precision, signaling/adoptability) rather than implying one is a taxation policy.\n\n3) Do the basic due diligence on pre\u2011 vs post\u2011tax and show one concrete worked example. Many pledges explicitly state whether they mean pre\u2011 or post\u2011tax (and some let you choose). Action: check the pledge FAQ and state which convention you\u2019re asking about; include one clear numeric example (gross annual = hourly * hours/week * weeks/year) and say whether you\u2019re using gross or net, noting that net requires using a tax/paycheck calculator or an approximation for withholding and benefits. This will let respondents give usable answers instead of clarifying questions.",
+    "improvement_potential": "Targets the main clarity and correctness problems: ambiguous reference to \u201c10% pledge,\u201d incorrect assumption about Peter Singer\u2019s involvement, misleading use of the word \u201ctax,\u201d and lack of a worked gross/net example. Fixing these will make the post answerable without much extra length and will avoid embarrassing factual errors, though it could add a brief link and a short numeric example."
+  },
+  "PostAuthorAura": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I don\u2019t recognize 'satelliteprocess' as a notable figure in the EA/rationalist community. The name reads like a pseudonymous forum/blog handle; if they exist, they appear to have limited visibility (occasional posts or comments) rather than being a regular influential contributor. No sign of broader public presence or mainstream recognition."
+  },
+  "PostClarity": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "clarity_score": 7,
+    "explanation": "Overall the post is easy to understand and the main questions are clear (difference between The Life You Can Save calculator and a 10% pledge, whether donations should be progressive, and whether to use pre- or post-tax income). Strengths: plain language, concrete examples (hourly \u2192 annual calculation), and multiple specific questions. Weaknesses: some awkward phrasing and repetition, occasional misuse of terms (calling the guidance a \"tax\"), and a slightly disorganized sequence of questions \u2014 it could be more concise and structured (e.g., numbered questions) to improve clarity."
+  },
+  "PostNovelty": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This post is a straightforward newcomer\u2019s set of questions about two well-known charitable-recommendation schemes (The Life You Can Save's sliding-scale recommendations vs. the simple 10% pledge), pre- vs. post-tax accounting, and how to annualize hourly pay. These are common confusions that have been discussed extensively on the EA Forum and in public-facing EA material, so it\u2019s not very novel for EA readers. For the general public it\u2019s slightly more novel than for EAs but still a routine question most people have encountered when deciding how much to give."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post raises reasonable and relevant questions (progressivity, pre- vs post-tax, applicability to different incomes) and shows basic logical intuition about fairness, but it does not develop a structured argument or clarify its main thesis. It conflates normative complaints with factual claims without defining terms (e.g. what the 10% pledge precisely means) and doesn't engage with counterarguments (e.g. purpose of a simple pledge as a behavioral anchor). Empirical evidence is essentially absent: no references to The Life You Can Save's methodology, the official wording of the 10% pledge, data on who signs up, or tax treatment. Overall the concerns voiced are plausible but weakly supported and would require factual detail and argumentative structure to be convincing."
+  },
+  "PostExternalValidation": {
+    "post_id": "zSvaxQsPALJzdTGEu",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are accurate or have clear official guidance. Evidence: The Life You Can Save (TLCS) provides an online pledge/calculator and asks for pre-tax (gross) income by default (with an explicit note to use post-tax where donations are not tax-deductible); Peter Singer co-founded TLCS and has advocated a sliding (progressive) giving scale in his book and public comments. The Giving What We Can (GWWC) \u201c10% Pledge\u201d is a flat 10% minimum of income (not a progressive tax), though GWWC explicitly allows flexibility, other pledge options (wealth, \u201cfurther\u201d pledge) and gives guidance on whether to use pre- or post-tax income. The hourly\u2192annual formula (hourly \u00d7 40 \u00d7 52 = annual gross) is a standard full-time approximation. Caveats: TLCS\u2019s recommendations are designed to be \u201cbarely noticeable\u201d and implement a graduated/affordability approach (Singer\u2019s sliding scale), but the GWWC 10% pledge is intentionally a simple flat minimum \u2014 so the apparent discrepancy the poster noticed reflects real differences in aims and presentation rather than factual error.",
+    "sources": [
+      "The Life You Can Save \u2014 Take the Pledge (calculator page) \u2014 instructions: 'Enter your pre-tax annual income' and note about gross vs after-tax. (thelifeyoucansave.org/take-the-pledge).",
+      "The Life You Can Save \u2014 FAQ / How much should I give? (explains recommended amounts and Peter Singer / organization background). (thelifeyoucansave.org/faq).",
+      "Giving What We Can \u2014 The 10% Pledge main page (describes the \ud83d\udd3810% Pledge and pledge options). (givingwhatwecan.org/pledge).",
+      "Giving What We Can \u2014 FAQ: 'Is the income Pledge based on pre-tax income or post-tax income?' (official guidance: gross salary generally; recommend pre-tax if donations are tax-deductible; allow flexibility). (givingwhatwecan.org/faq/how-do-pledge-members-calculate-income).",
+      "Peter Singer \u2014 author / founder page for The Life You Can Save (confirms Singer's role). (thelifeyoucansave.org/peter-singer/).",
+      "Reporting on Singer's sliding giving scale (book summaries / reviews noting Singer proposes a graduated scale where percentage rises with income). Example: Christian Science Monitor book review and Vox interview summarizing Singer's suggested scale. (csmonitor.com review; vox.com interview).",
+      "Hourly\u2192annual standard calculation guidance (annual = hourly \u00d7 hours/week \u00d7 weeks/year; common reference e.g., Indeed / OmniCalculator which use 40 hrs \u00d7 52 weeks = 2080 hours/year). (indeed.com / omnicalculator.com)."
+    ]
+  }
+}

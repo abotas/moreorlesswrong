@@ -1,0 +1,59 @@
+{
+  "PostValue": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "This is a clear, well-referenced primer that reinforces the view that AI capabilities are rapidly scaling \u2014 a claim that meaningfully affects prioritization of AI safety research, governance, and funding within the EA/rationalist community. It\u2019s not original research or foundational theory, so it\u2019s not critical by itself, but it is high-utility as accessible evidence and outreach that can shift urgent decision-making. For general humanity it\u2019s moderately important: useful for public awareness and policy debate but not uniquely decisive or transformative on its own."
+  },
+  "PostRobustness": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overreliance on scaling trends as a deterministic prediction. The post treats Epoch AI growth rates (money, hardware, software, data) as if they reliably imply future capability gains. That\u2019s a large assumption: growth rates can change, encounter physical/economic bottlenecks, or show diminishing returns. Actionable fix: add a brief caveat paragraph saying these are historical trends with uncertainty, note plausible failure modes (GPU supply, training cost, data limits, algorithmic plateaus), and, if you want to keep predictive flavor, include a sentence like \u201cIf these trends continue (with X% uncertainty) then\u2026,\u201d or present 2\u20133 alternative scenarios (optimistic / median / pessimistic) rather than implying inevitability.\n\n2) Overbroad and potentially misleading capability claims. Several claims are stated too strongly or without important qualifiers (e.g., \u201cDrive cars. (For real this time.)\u201d, \u201cSearch the web for new information.\u201d, \u201cOperate robots in factories and on construction sites.\u201d). These conflate research/demos/limited deployments with robust, general deployment. Actionable fix: temper each capability claim with scope/limits \u2014 e.g. \u201cAutonomous driving has made large advances and is in limited deployment in constrained environments (not yet broadly human-equivalent)\u201d ; \u201cLLMs can be connected to web tools or augmented with retrieval systems to fetch recent info, but aren\u2019t inherently reliable browsers\u201d ; \u201crobotics progress is promising but mainly in structured settings.\u201d Replace categorical phrasing with \u201ccan\u201d + brief scope note.\n\n3) Insufficient definition and context for key terms and benchmarks. Terms readers will interpret differently \u2014 especially \u201chuman level,\u201d \u201chorizon length,\u201d and your software/data growth metrics \u2014 aren\u2019t defined, and benchmark improvements (MMLU, math, etc.) lack discussion of limits (distribution shift, narrow tasks, prompt engineering). Actionable fix: add one-sentence definitions for \u201chuman level\u201d (e.g., what modalities/tasks are included), \u201chorizon length,\u201d and explicitly say what the cited metrics measure and what they don\u2019t (benchmarks \u2260 general intelligence). For the software / data growth claims, either cite the exact methodology or reword to \u201creported by X using Y metric\u201d and link to a short methodological footnote.",
+    "improvement_potential": "Targets key weaknesses: treating historical scaling as deterministic, overstating capabilities, and omitting definitions/methodology. Fixes are actionable and can be implemented with brief caveats or one-sentence clarifications, so they materially improve accuracy and reduce embarrassing overclaims without substantially lengthening the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable EA/rationalist presence for an author named 'Algon' up to my 2024-06 cutoff. No major publications, talks, or widely-cited posts under that name are known to me; it may be a niche or pseudonymous poster. If you can share links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear, well-structured, and easy to follow. It uses short paragraphs and bullets, gives concrete examples and cites benchmarks and sources, which makes the central claim (AI is advancing quickly due to scaling) persuasive. Weaknesses: a few terms (e.g. \u201chorizon length\u201d) are introduced with minimal definition, some growth-rate figures lack context or timeframes, the rhetorical question about human-level AI is left hanging, and there are a couple of informal asides that slightly reduce polish. Those issues aside, the piece communicates its main points concisely and effectively."
+  },
+  "PostNovelty": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA Forum / longtermist audience this is mostly introductory background and widely discussed \u2014 the basic scaling story, LLM capabilities, and benchmark improvements are familiar. A few specific quantitative claims (exact growth multipliers, the \u201chorizon length\u201d doubling, and the particular benchmarks/links) are modestly informative but not conceptually novel. For the general public the piece is somewhat more novel because it collects concrete growth rates, examples of capabilities, and specific benchmark names that many non\u2011specialists may not have seen before, but the high\u2011level claim that 'AI is advancing fast' is already common in mainstream coverage."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is clear and logically structured\u2014it links scaling of inputs (money, hardware, software, data) to rising 'effective compute' and then to observed capability gains. It cites multiple concrete benchmarks (MMLU, GPQA, APPS, Math), points to aggregate trend data (Epoch AI) and a horizon-length analysis, and gives concrete capability examples that align with widely observed progress in LLMs and generative models. Weaknesses: Some claims are vague or slightly overgeneralized (e.g. 'smarter', \"drive cars (for real this time)\", and 'operate robots' without clarifying limitations), and the argument leans on a few aggregate sources (Epoch AI, metr.org blog) without reporting uncertainties or alternative analyses. Benchmarks are relevant but can overstate general intelligence \u2014 improvements on specific datasets do not fully establish broad, real-world competence. The post also omits discussion of countervailing evidence, potential bottlenecks, and the robustness/validation of some metrics (e.g. the horizon-length measure). Overall, the post provides solid but not exhaustive support for the claim that AI is advancing quickly."
+  },
+  "PostExternalValidation": {
+    "post_id": "nZL2diTB4iF4WsufK",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported by recent, reputable sources. Epoch AI\u2019s trend analyses and compute database substantiate the large exponential increases in training compute, dataset sizes, and training costs (the post\u2019s quoted per\u2011year factors are rough summaries of those results). Independent analyses of algorithmic improvement (halving compute needed \u2248 every ~8 months) support the ~3x/year software-efficiency figure. METR\u2019s analysis supports the \u2018horizon length\u2019 doubling \u2248 every 7 months. Benchmarks cited (MMLU, GPQA, APPS, math) are established datasets showing rapid model gains. Examples of capabilities (robotaxis in limited geofenced service, strong generative image/audio/video models, industrial/construction robots for inspection and some autonomous machinery, superhuman play in Go/Dota/StarCraft, AlphaFold for protein structure) are all documented. Main caveats: several claims are simplified or context-dependent \u2014 e.g., \u201cDrive cars\u201d is true for geofenced robotaxi services with operational constraints and occasional human/remote interventions; \u201coperate robots in factories/construction sites\u201d is accurate but generally for narrow task domains (inspection, mapping, some autonomous heavy-machinery pilots) rather than full general autonomy; \u201cLLMs can search the web\u201d depends on the product/version (some LLM deployments have browsing tools, others do not). Some numeric growth rates depend on definitions and time windows and are approximate. Overall: well-supported but with important practical caveats and context-dependence.",
+    "sources": [
+      "Epoch AI \u2014 Machine Learning Trends (Machine Learning Trends dashboard; Jan 13, 2025)",
+      "Epoch AI \u2014 \"Training Compute of Frontier AI Models Grows by 4-5x per Year\" (May 28, 2024)",
+      "Epoch AI \u2014 \"Trends in AI Supercomputers\" (Apr 23, 2025) / \"How Much Does It Cost to Train Frontier AI Models?\"",
+      "METR \u2014 \"Measuring AI Ability to Complete Long Tasks\" (blog, Mar 19, 2025) and associated paper",
+      "PapersWithCode \u2014 MMLU dataset page",
+      "PapersWithCode \u2014 GPQA dataset page",
+      "PapersWithCode \u2014 APPS (coding problems) dataset page",
+      "PapersWithCode \u2014 Math dataset / \"Humanity\u2019s Last Exam\" SOTA page",
+      "DeepMind / Nature / coverage \u2014 AlphaGo / AlphaZero / AlphaStar (DeepMind blog and papers)",
+      "OpenAI \u2014 OpenAI Five / Dota 2 paper (2018\u20132019)",
+      "DeepMind (AlphaFold) \u2014 Nature paper and coverage on protein-structure prediction (2021)",
+      "Boston Dynamics \u2014 Spot case studies and construction-industry deployments (company blog & trade press)",
+      "Google Research \u2014 MusicLM (text-to-music paper, 2023) and Imagen Video (video-generation paper)",
+      "Representative reporting: Forbes / CNBC / The Verge / Wired coverage of robotaxi deployments and research milestones"
+    ]
+  }
+}

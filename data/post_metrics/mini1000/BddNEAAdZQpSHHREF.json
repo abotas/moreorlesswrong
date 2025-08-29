@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a useful conceptual reframing for the EA community \u2014 treating EA as a 'moral marketplace' highlights why fragmentation, competition, and signaling matter and would affect cause-prioritisation, governance, newcomer advice, and strategic behaviour. If accepted, it could shift how funders and organisers act, so it is moderately important within EA. For general humanity the piece is largely internal/diagnostic: it doesn't by itself change large-scale outcomes and is of minor importance unless it leads to major shifts in funding or priorities."
+  },
+  "PostRobustness": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big empirical-leap: the post treats the \"moral marketplace\" as the correct description of EA without supplying evidence or engaging alternative explanations. Actionable fix: either tone the claim to be explicitly speculative/theoretical, or add empirical support (funding flows, growth rates of cause areas, organizational incentives, citation or media-share analyses, interviews, or references to prior literature). At minimum, acknowledge plausible alternative accounts (path-dependence, founder influence, institutional design, network effects, coordination failures) and explain why the marketplace framing is a better fit.\n\n2) Missing normative discussion of consequences: the post accepts market outcomes as validating causes but doesn't interrogate whether market dynamics actually track moral value. Actionable fix: add a short section asking whether a marketplace mode is normatively acceptable for EA\u2014identify predictable biases (attention cascades, scale bias, popularity effects, neglect of hard-to-quantify harms), and say whether/how that should change behavior. If you want to keep it short, add 2\u20133 concrete questions readers should ask before treating market signals as evidence of impact.\n\n3) Risk of encouraging strategic/gaming behaviour without guardrails: advising newcomers to judge causes by \"how they perform in the moral marketplace\" can promote opportunistic signaling rather than impact. Actionable fix: acknowledge this hazard and offer compact, actionable guardrails (e.g., prioritize causal impact evidence over attention metrics; prefer interventions with clear counterfactuals; look at capital-elasticity and evidence of neglectedness). If you aim to keep the piece theoretical, explicitly warn readers that strategic positioning has moral costs and propose one or two heuristics to avoid perverse incentives.",
+    "improvement_potential": "The feedback targets three substantive weaknesses: an unsubstantiated empirical claim (treating EA as a 'moral marketplace' without evidence), a missing normative critique (accepting market outcomes as validation without asking whether that is desirable), and a real risk of encouraging strategic/gaming behaviour by newcomers. These are major, plausible 'own goals' the author would want to avoid. The suggested fixes are concrete and mostly short (tone the claim or add evidence; add a brief normative caveat; give 1\u20132 guardrails), so they would materially improve the post without requiring a long rewrite."
+  },
+  "PostAuthorAura": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a notable EA/rationalist figure named Ethan Spencer in major EA outlets (LessWrong, EA Forum, 80,000 Hours, CEA, OpenPhil) or of any prominent public/media presence under that name. It appears to be either a private/pseudonymous individual or a common name with no widely recognized prominence."
+  },
+  "PostClarity": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "clarity_score": 8,
+    "explanation": "The post is generally clear and well-structured: it states the author\u2019s prior view, admits a revised interpretation, defines the \u2018moral marketplace\u2019 metaphor, and draws implications. The argument is coherent and persuasive in framing fragmentation as a feature rather than a bug. Weaknesses: it is somewhat repetitive and wordy in places, leans on rhetorical flourish rather than concrete examples or signposts, and could be tightened for greater conciseness and impact."
+  },
+  "PostNovelty": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "novelty_ea": 4,
+    "novelty_humanity": 3,
+    "explanation": "Within the EA community the core claim \u2014 that EA functions more like a decentralised \u2018moral marketplace\u2019 where attention, funding, and signaling determine winners rather than deliberative consensus \u2014 has been discussed before (attention markets, funding dynamics, signalling/competition between cause areas). The piece reframes fragmentation as a constitutive feature and recommends assessing causes by their market-positioning, which is a useful but only moderately novel synthesis for EA readers. To the general public the framing is slightly less familiar but still echoes well\u2011known social\u2011science ideas about markets, cultural selection, and competition among charities/movements, so it\u2019s not highly original for a broad audience either."
+  },
+  "PostInferentialSupport": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post offers a coherent, parsimonious reinterpretation of observed features of Effective Altruism (fragmentation, competition, persistent cause hierarchies) and clearly lays out the moral\u2011marketplace metaphor. Its argument is logically plausible and usefully highlights incentive and signaling dynamics that could shape cause selection. Weaknesses: The piece is largely theoretical and relies on intuitive observation rather than systematic analysis. Key inferential steps are asserted rather than demonstrated (e.g., that competition reliably yields accurate impact signals, or that the movement was designed to be a marketplace). It conflates popularity/attention with being \"validated as high\u2011impact\" without empirical support and neglects alternative explanations (coordination problems, institutional dynamics, reputation effects, deliberate prioritisation by major funders). No data, case studies, or citations are provided to substantiate central claims. Overall, the thesis is an interesting and plausible lens but is under\u2011supported empirically and would benefit from concrete evidence and engagement with counterarguments."
+  },
+  "PostExternalValidation": {
+    "post_id": "BddNEAAdZQpSHHREF",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are well-supported by available evidence: EA is large and highly decentralized (many university/city groups), cause priorities and donations are concentrated in a few areas (global health & development, AI risk, farmed animal welfare), and the movement has experienced salient controversies (e.g., FTX) and debates that have increased fragmentation and governance scrutiny. Grant reports and EA community surveys show both competition among cause areas and skewed funding patterns; small/niche cause areas (e.g., shrimp/invertebrate welfare) exist but receive far less funding and attention, though they do attract targeted grants. However, the stronger normative/intentional claim \u2014 that EA was deliberately designed to be a \u201cmoral marketplace\u201d whose dynamics operate like market selection rather than deliberative consensus \u2014 is interpretive and not directly verifiable from empirical sources. In short: empirical descriptions of fragmentation, funding concentration, and competition are well-supported; claims about original intent or that market outcomes are the movement\u2019s intended mechanism remain speculative.",
+    "sources": [
+      "GiveWell: GiveWell's Impact / 2023 metrics report (GiveWell.org, Dec 2024). ([givewell.org](https://www.givewell.org/about/impact?utm_source=chatgpt.com))",
+      "Open Philanthropy: Our Progress in 2023 and Plans for 2024 (OpenPhilanthropy.org, 2024). ([openphilanthropy.org](https://www.openphilanthropy.org/research/our-progress-in-2023-and-plans-for-2024/?utm_source=chatgpt.com))",
+      "EA Survey 2022 & 2023 supplement \u2014 Cause prioritization and resource-allocation results (EA Forum; EA Survey posts). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/s/FxFwhFG227F6FgnKk/p/sK5TDD8sCBsga5XYg?utm_source=chatgpt.com), [ea.greaterwrong.com](https://ea.greaterwrong.com/posts/sK5TDD8sCBsga5XYg/ea-survey-cause-prioritization?utm_source=chatgpt.com))",
+      "EA Groups Census / Growth and engagement in EA groups: 2022 Groups Census results (CEA / EA Forum). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/aetatCMGqcAPsNbLs/?utm_source=chatgpt.com))",
+      "EA Funds \u2014 Animal Welfare Fund payout reports (Oct 2024; Jan\u2013Mar 2025 payout highlights showing shrimp-related grants). ([funds.effectivealtruism.org](https://funds.effectivealtruism.org/payouts/payout-recommendations-from-april-to-october-2024-animal-welfare-fund-grants?utm_source=chatgpt.com))",
+      "Shrimp Welfare Project \u2014 EA Forum posts and Rethink Priorities analyses on shrimp welfare (project launch and follow-ups). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/z79ycP5jCDks4LPxA/introducing-shrimp-welfare-project?utm_source=chatgpt.com))",
+      "Rethink Priorities: shrimp/invertebrate welfare analyses cited on EA Forum (quantifications of scale of shrimp slaughter referenced in EA posts). ([ea.greaterwrong.com](https://ea.greaterwrong.com/posts/XKJjz78BG2T2KCKd9/what-hurts-shrimp-the-most-quantifying-and-prioritizing?utm_source=chatgpt.com), [forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/EDCwbDEhwRGZjqY6S/?utm_source=chatgpt.com))",
+      "Vox: 'How effective altruism let Sam Bankman-Fried and the FTX collapse happen' (analysis of donor concentration and reputational effects). ([vox.com](https://www.vox.com/future-perfect/23500014/effective-altruism-sam-bankman-fried-ftx-crypto?utm_source=chatgpt.com))",
+      "Business Insider: 'FTX collapse leaves Effective Altruists heartbroken, projects scrapped' (coverage of movement disruption and funding shock). ([businessinsider.com](https://www.businessinsider.com/sam-bankman-fried-ftx-collapse-effective-altruism-donate-philanthropy-money-2022-12?utm_source=chatgpt.com))",
+      "Time: reporting on EA culture and controversies (discussion of internal problems and public scrutiny post-FTX). ([time.com](https://time.com/6252617/effective-altruism-sexual-harassment/?utm_source=chatgpt.com))"
+    ]
+  }
+}

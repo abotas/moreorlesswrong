@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This post documents concrete, actionable gaps (language barriers, lack of region\u2011specific research, demand for translations and impact tracking) in the Latin American animal advocacy movement. For the EA community it is moderately important: if correct, it should influence where animal\u2011welfare funders, researchers, and capacity\u2011builders allocate resources to increase marginal impact, but it is not foundational to EA core paradigms like longtermism or AI safety. For general humanity the importance is minor: improving research and translation could meaningfully reduce animal suffering and strengthen local civil society in a large region, but the scale and indirectness of the impact make it a lower priority relative to large, global public\u2011health or existential risks."
+  },
+  "PostRobustness": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Methodology & representativeness are unclear \u2014 fix before publishing. State sample size, recruitment method, survey response rate, dates, exact question wording, and country/role/language breakdowns (and provide raw or anonymized data and code). Explicitly discuss selection and response bias (e.g., summit attendees or research-interested respondents) and avoid generalizing to all Latin America without qualification.\n\n2) Don\u2019t treat \u201cLATAM\u201d or \u201cLatine advocates\u201d as a monolith \u2014 disaggregate results or add strong caveats. Present or summarize subgroup analyses (Brazil vs Spanish-speaking countries, Portuguese vs Spanish speakers, by country, urban vs rural, org size, paid vs volunteer advocates). If disaggregation isn\u2019t possible due to sample size, say so and avoid broad policy recommendations that assume uniform needs.\n\n3) Recommendations are plausible but under-justified and missing feasibility/prioritization. The post jumps from survey findings to calling for more translations and region-specific research without cost/impact reasoning or alternative priorities. Add concrete next steps: estimate costs and likely impact of translating vs commissioning region-specific studies, propose pilot projects (e.g., A/B testing translated materials), or present criteria for prioritizing research topics. This will make your recommendations more actionable and defensible.",
+    "improvement_potential": "The feedback pinpoints the post\u2019s biggest weaknesses: missing methodological details (sample size, recruitment, dates, biases), risky broad generalizations about \u2018\u2018LATAM/Latine advocates,\u2019\u2019 and jumpy, unanalyzed recommendations. Fixing these would substantially reduce the chance of misleading readers and embarrassment; the suggested changes are concrete and practical and wouldn\u2019t unduly bloat the post. (Not a 10 because the overall call for more translations/research is plausibly correct even if the evidence needs qualification.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot identify a widely known EA/rationalist author going by \"Bj\u00f6rn \ud83d\udd39\" (or that exact handle) in my training data (cutoff June 2024). The name is common and the diamond emoji suggests a username/pseudonym; there are no clear major publications, talks, or community leadership attributed to that specific handle. If you can share a link, more context, or other names/works, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear, well-structured and concise: the goal, method (survey), key findings and recommended actions are easy to follow and the bullet summary communicates the main takeaways quickly. Weaknesses: it omits methodological details (sample size, recruitment, definitions of \u201cresearch\u201d), one phrasing is slightly ambiguous (\u201clanguage barriers\u2026 especially for native Spanish speakers\u201d), the embedded charts lack captions/alt text/context, and the final link reference is missing \u2014 small gaps that reduce persuasive force but not basic comprehensibility."
+  },
+  "PostNovelty": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The broad claims (language barriers, need for more region-specific research, translations and funding gaps) are already well-known within EA/animal\u2011advocacy circles, so this is low on novelty for EA readers. The most novel elements are empirical: survey figures (e.g. 64% struggle to find region\u2011relevant research, 0% not reading any research) and the detail that advocates use research mainly for strategic decisions rather than movement\u2011building. For the general public these findings are somewhat newer but still align with common intuitions about language/region gaps, so only moderately novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post states a clear goal, reports plausible survey findings (e.g., language barriers, 64% lack region-relevant research) and draws a reasonable, intuitive conclusion that more translations and region-specific research would help. The arguments are logically coherent and consistent with prior anecdotal knowledge. Weaknesses: The write-up provides little methodological detail (sample size, sampling frame, response rate, country/language/role breakdown, question wording), so it's hard to assess representativeness or bias (survey appears to target conference attendees). No statistical analysis, uncertainty estimates, or alternative explanations are discussed. Consequently the empirical evidence is suggestive but limited and insufficient to strongly generalize across LATAM or to prioritize resources without further study."
+  },
+  "PostExternalValidation": {
+    "post_id": "Jcd9o3ouErMJWK4qm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The EA Forum post accurately summarizes primary data collected and reported by Faunalytics: a small (N=50), non-random survey run at AVA LATAM (S\u00e3o Paulo, Dec 2024) and the headline percentages (e.g., 64% struggle to find region\u2011relevant research; language barriers higher for Spanish speakers; 0% reported reading no research) appear in Faunalytics\u2019 writeup and the published charts. The post\u2019s higher\u2011level interpretation (LATAM advocacy needs more translations, region\u2011specific research, and support) is plausible and consistent with peer\u2011reviewed analyses showing lower scientific productivity in Latin America on farm/animal welfare and documented language barriers \u2014 but the primary survey is small and not representative, so findings should be treated as indicative rather than definitive. Main strengths: claims traceable to Faunalytics\u2019 public report and conference materials. Main weakness: limited sample size and sampling bias (Faunalytics explicitly notes these limits), so broad generalisation to all Latine advocates is uncertain.",
+    "sources": [
+      "Faunalytics \u2014 \"How Latine Animal Advocates Use Research: Insights From AVA LATAM 2024\" (Bj\u00f6rn \u00d3lafsson), May 14, 2025. (Includes N=50, language/group percentages and discussion of limitations).",
+      "Cloudinary image of Faunalytics survey charts (Latine Advocates Face Regional And Linguistic Barriers) \u2014 shows 64% finding research relevant to my region (chart used in the report). https://res.cloudinary.com/cea/image/upload/v1/mirroredImages/Jcd9o3ouErMJWK4qm/uxkervccrpzgefz7tdr3",
+      "Effective Altruism Forum post \u2014 \"Research Gaps in the Animal Protection Movement in LATAM\" by Bj\u00f6rn, May 27, 2025 (mirror/summary linking to Faunalytics report).",
+      "AVA Summit Latin America (official) \u2014 S\u00e3o Paulo event page (Dec 5\u20138, 2024), notes ~800 AVA attendees and event details. https://www.avasummit.com/latam2024",
+      "Frontiers in Veterinary Science / PubMed Central \u2014 \"Animal welfare in Latin America: Trends and characteristics of scientific publications\" (Frontiers, 2022). (Documents lower scientific productivity vs. Europe/North America and language/publication issues.) https://www.frontiersin.org/articles/10.3389/fvets.2022.1030454/full",
+      "World Animal Protection Brazil \u2014 coverage of AVA Summit (Dec 11, 2024) confirming event and attendance context. https://www.worldanimalprotection.org.br/mais-recente/noticias/advocacy-animal-e-tema-de-palestras-no-ava-summit/"
+    ]
+  }
+}

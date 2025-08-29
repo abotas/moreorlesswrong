@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a moderately important operational announcement for the EA/AI-safety community: it consolidates and continues funding + mentorship for university AI-safety groups under a smaller, more flexible organization (Kairos), preserves funding levels, and improves logistics (fiscal sponsorship, mentorship, community resources). That matters for fieldbuilding, recruiting and supporting student organizers, and the downstream pipeline of people into AI safety work \u2014 useful and somewhat load-bearing for community growth decisions, but not foundational to core EA or AI-safety arguments. For general humanity the post is of very low importance: effects are indirect and small unless the program scales dramatically over many years."
+  },
+  "PostRobustness": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about fiscal sponsorship and stipend logistics \u2014 a lot of organizers will treat this as a dealbreaker unless you answer practical questions. Add a short FAQ or one-paragraph summary covering: how the BERI spending-capped card works (monthly limits, who signs off, what counts as eligible spending, reimbursement process), cross-border/tax/visa implications for non\u2011US students, how/when stipends will be paid and under what legal status (contractor vs employee vs no stipend), and any limits on what BERI can fund. Actionable phrasing: \u201cTypical grant sizes are X; card limit is Y; non\u2011US students should expect Z; stipends will likely be handled as \u2026 by [date].\u201d If some details are genuinely undecided, state the timeline for finalizing them and a contact for urgent cases. \n\n2) Clarify selection criteria, expected funding amounts, and mentor capacity so applicants can judge fit. You say the bar will be \u201csimilar\u201d to Open Phil\u2019s but \u201cslightly different criteria\u201d is too vague. Specify the key axes you\u2019ll evaluate (impact of group, organizer experience, institutional support, plans/budget realism), example pass/fail problems, and give example grant amounts (median/typical, not just \u201csimilar\u201d). Also state mentor:mentee ratio, mentor qualifications, and how many fellows you expect to take this cycle vs last cycle. These concrete details reduce wasted applications and questions. \n\n3) Address governance, accountability, and evaluation up front. Because this is a funding handoff from a large donor to a smaller org, readers will want to know how you\u2019ll ensure funds are used responsibly and how success will be measured. Briefly describe reporting requirements for grantees, monitoring plans, any oversight from Open Phil or other funders, and the metrics you plan to track (e.g., events run, attendance, retention of organizers, follow-on funding). If there are safeguards (audits, escalation paths for misuse, conflict-of-interest policies), mention them. This mitigates concerns about risk and credibility when moving funds away from Open Phil.",
+    "improvement_potential": "Strong, actionable feedback that flags major practical omissions organisers will care about (fiscal\u2011sponsorship mechanics, stipend/legal status, selection criteria, mentor capacity, and accountability). Addressing these avoids deal\u2011breaking surprises, reduces unnecessary applications/questions, and increases credibility. The suggestions are concrete and feasible to add as a short FAQ or links; main downside is modest extra length, which the commenter already mitigates by recommending concise summaries and timelines."
+  },
+  "PostAuthorAura": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could find no evidence that 'Agust\u00edn Covarrubias \ud83d\udd38' is a known figure in the EA/rationalist community or more broadly \u2014 no prominent publications, organizational affiliations, frequent posts/speeches, or citations. The name may be a pseudonym or a private/low\u2011visibility account; overall there is no clear public presence or prominence."
+  },
+  "PostClarity": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "clarity_score": 8,
+    "explanation": "Strengths: well-structured with a clear TL;DR, descriptive headings, and a Q&A format that answers the most relevant questions (how to apply, what support, logistics, who runs it). Action items and links are prominent, and the post is concise and focused on its audience. Weaknesses: a few minor ambiguities (no year on the Aug 6 deadline, stipend logistics \"not fully settled,\" and the \"bar will be similar\" phrasing lacks concrete selection criteria). Some jargon (fiscal sponsorship, BERI) may confuse readers unfamiliar with those terms, and there are many inline links which slightly disrupt reading flow."
+  },
+  "PostNovelty": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an operational announcement about an existing funding/mentorship program being transferred and consolidated (Open Phil \u2192 Kairos) and small procedural changes (fiscal sponsorship via BERI, combined mentorship+funding). EA Forum readers are likely already familiar with university organizer fellowships, fieldbuilder support, and similar programmatic changes, so the core ideas are not new. For the general public the specific AI-safety focus and the organizational handoff are niche details, but the underlying concepts (fellowships, grants, mentorship, fiscal sponsorship) are commonplace, so novelty is low to modest."
+  },
+  "PostInferentialSupport": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post clearly describes what is changing, how the new program will operate (funding amounts, mentorship, fiscal sponsorship logistics), and addresses common organizer questions (applications, eligibility, continuity of funding). The arguments are logically structured and anticipate practical concerns (e.g., funding logistics, graduate stipends). Weaknesses: The central evaluative claim \u2014 that Kairos\u2019 Pathfinder will provide more tailored, comprehensive, and smoother support than Open Philanthropy could \u2014 is asserted without empirical backing. There are no outcome data, case studies, organizer testimonials, or concrete metrics showing improved effectiveness, nor an evaluation plan or evidence that the proposed changes (e.g., fiscal sponsorship via BERI, smaller org flexibility) actually yield better organizer outcomes. Some operational details (selection criteria, stipend logistics, long\u2011term sustainability) are left unspecified. Overall, the announcement is informative and plausible but thin on evidence for its main comparative claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "auWQcRSpsMbchfw6G",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most of the post\u2019s major empirical claims are directly verifiable and accurate. Open Philanthropy publicly announced handing AI\u2011safety university group funding to Kairos, Open Philanthropy awarded a grant to Kairos, and Kairos\u2019s Pathfinder web page documents the program details claimed in the post (application deadline, $500 starter funding, mentorship, fiscal sponsorship via BERI, stipend eligibility for graduate students, and that Pathfinder combines FSP and Open Phil funding). The one remaining uncertainty is a forward\u2011looking operational claim \u2014 that overall per\u2011group funding levels will be \u201csimilar\u201d to prior Open Phil levels \u2014 which is a statement of intent by Kairos and is plausible given the Open Phil grant but cannot be fully confirmed until grants are allocated. Logistics around graduate stipends (BERI hiring contractors/employees) are described as unsettled in the post and on the Kairos page, so those are accurately reported as tentative rather than definitive.",
+    "sources": [
+      "Pathfinder Fellowship \u2014 Kairos (pathfinder.kairos-project.org) \u2014 program page (shows application deadline Aug 6, $500 starter funding, BERI fiscal sponsorship, stipend/mentorship details).",
+      "Introducing the Pathfinder Fellowship: Funding and Mentorship for AI Safety Group Organizers \u2014 EA Forum post by Agust\u00edn Covarrubias (Jul 22, 2025) \u2014 the post being evaluated.",
+      "Open Philanthropy: \"Open Philanthropy is passing AI safety university group funding to Kairos\" \u2014 EA Forum announcement (Open Phil\u2019s post referenced / mirrored on EA Forum).",
+      "Open Philanthropy grants: \"Kairos Project \u2014 AI Safety University Group Support\" (Open Phil grants database; grant awarded Oct 2024, amount ~$886,285).",
+      "Open Philanthropy \u2014 University Organizer Fellowship / university group funding pages (Open Phil website) \u2014 documents prior program scope, typical group expense ranges, and guidance pointing AI safety groups to Kairos after program changes.",
+      "BERI (Berkeley Existential Risk Initiative) \u2014 Existence.org info page (explains BERI\u2019s role and that it sometimes enters fiscal sponsorship agreements)."
+    ]
+  }
+}

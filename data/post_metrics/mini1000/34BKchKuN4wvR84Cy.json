@@ -1,0 +1,59 @@
+{
+  "PostValue": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a useful, pragmatic brainstorm about creating marketized animal\u2011welfare credits that raises the right operational questions (TAM, verification, demand, social tech, aggregation). It\u2019s not a foundational or highly novel theoretical claim \u2014 more a programmatic/experimental prompt. If the underlying idea worked at scale it could unlock new funding channels for farmed\u2011animal welfare (nontrivial upside), but there are substantial verification, demand, and moral\u2011offsetting objections and so the post is modestly useful to EAs planning interventions and pilots, and of low relevance to humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "robustness_score": 3,
+    "actionable_feedback": "1) You understate the measurement, additionality, verification and goodhart risks \u2014 and these are likely fatal unless you propose concrete fixes. The post rightly gestures at carbon-credit problems but doesn\u2019t (a) explain why animal-welfare credits would be meaningfully easier, (b) propose a concrete unit of account (what exactly is being bought?), or (c) show how you\u2019d verify counterfactual impact and prevent perverse incentives. Actionable fixes: pick one concrete credit design (e.g. \u2018welfare-adjusted animal-days in certified enriched housing\u2019 or \u2018avoided slaughter equivalents\u2019), spell out baseline and counterfactual, and give 2\u20133 verification mechanisms you\u2019d pilot (third\u2011party audits, randomized spot checks, payment\u2011on\u2011verified\u2011outcome, or chained evidence such as supply\u2011chain traceability + animal welfare audit). Without that level of detail the market idea reads as hand\u2011wavily optimistic.  \n\n2) The TAM / willingness\u2011to\u2011pay and uptake assumptions are optimistic and ungrounded. Your $2/meal and early\u2011adopter numbers are useful as thought experiments but you treat them like realistic forecasts. Actionable fixes: either (a) report empirical WTP evidence (surveys, lab experiments, existing offset uptake data) or (b) reframe as a scenario analysis with explicit uptake assumptions and sensitivity bounds (e.g. 0.1%\u20135% uptake; $0.25\u2013$5/meal). Also prioritize pilots that reveal demand (A/B tests at Mox, small paid trial for members, or corporate pilot with a cafeteria) and include behavioural barriers (moral licensing, identity, transaction costs) in your analysis.  \n\n3) You don\u2019t reckon with major strategic and ethical counterarguments (moral licensing, perverse incentives, and the comparative advantage of advocacy/policy). Markets that let people \u2018buy\u2019 moral permission risk increasing the offending behaviour or crowding out systemic reforms. Actionable fixes: explicitly address these risks in one short section \u2014 propose safeguards (e.g. caps on offsets, tying offsets to net\u2011negative corporate commitments, combining offsets with advocacy conditions), compare consumer\u2011facing vs corporate/government aggregation (argue why one is higher\u2011leverage), and state what success looks like (complementary policy wins, measurable reduction in suffering, or durable corporate changes).  \n\nIf you incorporate (a) a concrete credit/unit design, (b) empirical or pilot\u2011based demand evidence, and (c) short, concrete mitigations for moral\u2011licensing and verification problems, the post will move from interesting brainstorming to a publishable concept paper.",
+    "improvement_potential": "The feedback targets the post's main weak points \u2014 verification/additionality/goodhart issues, unsupported TAM/WTP assumptions, and moral\u2011licensing/perverse\u2011incentive risks \u2014 and gives concrete, actionable fixes. These are critical for moving the idea beyond hand\u2011waviness; without them the proposal risks being infeasible or misleading. It stops short of covering every operational/legal nuance, so it\u2019s very useful but not absolutely exhaustive."
+  },
+  "PostAuthorAura": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information \u2014 'Austin' is a common name/pseudonym and is not uniquely associated with any widely-known EA/rationalist author or public intellectual. No clear presence in EA/rationalist circles or globally based on the single name. Provide a full name, handle, or sample works for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow \u2014 clear headings, bullet lists, concrete questions, and useful links make it highly comprehensible. It reads like a brainstorming/issue-list rather than a single, tightly argued thesis: the purpose (explore whether an animal-welfare credit market is viable) is clear, but the argument stops at questions rather than a prioritized conclusion or next steps. It's a bit long and exploratory in places (some estimates and anecdotes could be tightened or summarized), but overall concise enough given the breadth of topics covered and useful for soliciting feedback."
+  },
+  "PostNovelty": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For an EA Forum audience the post is low-to-moderately novel: it stitches together well-known threads (carbon/offset analogies, Boddy/Christiano proposals, verification concerns, market design caveats) and mainly asks practical/operational questions and small experiments rather than advancing new theory. The more original bits are specific TAM back\u2011of\u2011envelope estimates, concrete small\u2011scale tactics (e.g. Mox taxing meat, welfare\u2011neutral catering, gifting \u201cimpact certificates\u201d), and framing marketing/status engineering (De Beers analogy) as a route to uptake. For the general public these ideas are more novel because few non-specialists have considered standardized animal\u2011welfare credits, practical marketization mechanics, or concrete institutional pilots\u2014though the general offset/credit concept is familiar from carbon markets."
+  },
+  "PostInferentialSupport": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is well-structured and intellectually honest \u2014 it lays out motivations, useful analogies (carbon credits, pledges), concrete use-cases, and many of the central challenges (verification, fungibility, demand). It frames sensible questions and considers multiple perspectives (altruist vs consumer vs corporate). Weaknesses: The core claims are speculative and rest on rough, unsupported assumptions (ballpark TAMs, $/meal offsets, adoption rates). Empirical support is thin \u2014 mostly anecdote, analogy, and links to related proposals rather than data on willingness-to-pay, verification effectiveness, leakage, or cost-effectiveness of potential interventions. Important issues (baselines, measurement protocols, regulatory barriers, heterogeneity of moral preferences, moral licensing) are noted but not analyzed rigorously. Overall: an exploratory, thoughtful piece that raises the right questions but provides only modest argumentative or empirical support for the feasibility and scale of an animal-welfare credit market."
+  },
+  "PostExternalValidation": {
+    "post_id": "34BKchKuN4wvR84Cy",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s factual claims are broadly supported by public sources, but several important points are rough back-of-envelope estimates or anecdotes rather than hard facts. Strengths: (a) the claim that global philanthropy for farmed-animal work is small (order few-hundred-million USD) is supported by Farmed Animal Funders/Open Philanthropy materials (they report <~$400M). (b) US vegetarian prevalence \u22484\u20135% (Gallup) supports the poster\u2019s 5% ballpark. (c) Stripe\u2019s Frontier AMC and Nan Ransohoff\u2019s writeup validate the AMCs/carbon-credit precedent. (d) Multiple reputable outlets and market reports document both growth and serious integrity/verification problems in voluntary carbon markets and low consumer uptake of offsets (Bureau/BCG/IATA/FT/Guardian/Washington Post/Ecosystem Marketplace). (e) FarmKind exists and explicitly markets diet/animal \u2018offset\u2019 calculators. Weaknesses: the consumer TAM arithmetic is a speculative thought experiment (uses rounded population, arbitrary $/meal and target population assumptions) and mixes up who would buy offsets (vegetarians wouldn\u2019t). Several anecdotes (e.g., personal solar-revenue split, friend\u2019s $10k offsets) are unverifiable here. ACE criticisms exist (Vetted Causes / EA Forum threads), but those debates are contested \u2014 so citing criticisms is fair but the claim \u201cverifying impact is hard\u201d is qualitative. Overall: well-supported for the major empirical background claims (funding scale, vegetarian prevalence, carbon market precedent and problems) but many other numbers are illustrative estimates and should be treated as speculative.",
+    "sources": [
+      "Farmed Animal Funders \u2014 homepage / 'less than 400 million USD in philanthropy goes to support all work to help farmed animals globally each year' (accessed 2025)",
+      "Open Philanthropy \u2014 grant pages and farmed animal program (examples of grants to Rethink Priorities; Open Philanthropy grant database) (accessed 2025)",
+      "Gallup (Aug 24, 2023) \u2014 'In U.S., 4% Identify as Vegetarian, 1% as Vegan' (Gallup consumption habits poll)",
+      "U.S. Census Bureau (Dec 30, 2024) \u2014 U.S. population projections (\u2248336\u2013341 million in 2024\u20132025)",
+      "Works in Progress / Nan Ransohoff \u2014 'How to start an advance market commitment' (detailed writeup on Frontier AMC and AMCs) (accessed 2025)",
+      "Frontier (frontierclimate.com) \u2014 launch/description of the $1B advance market commitment to buy carbon removal (launched 2022) (accessed 2025)",
+      "Ecosystem Marketplace \u2014 'State of the Voluntary Carbon Markets' reports (market value \u2248$1\u20132B at peak; 2023 contraction reporting) (accessed 2024\u20132025)",
+      "BCG / Patch consumer survey analysis (2022) \u2014 consumer familiarity/adoption stats: ~3% purchased offsets in past, ~2% regular purchasers (accessed 2025)",
+      "International Air Transport Association (IATA) / Washington Post reporting (2023) \u2014 only ~1\u20133% of passengers buy airline offsets; reporting on consumer uptake and criticism (accessed 2025)",
+      "Financial Times (analysis 2025) \u2014 reporting on carbon offset programs for passengers and weaknesses in uptake and trust (accessed 2025)",
+      "The Guardian (June 2025) \u2014 reporting on legal challenges and skepticism over corporate carbon offset claims (accessed 2025)",
+      "Ecosystem Marketplace (May 2024/2023 pieces) \u2014 reporting on voluntary carbon market transaction volumes and integrity issues (accessed 2025)",
+      "FarmKind (farmkind.giving) \u2014 site and 'Compassion/Offset' calculator; Dwarkesh fundraiser pages (accessed 2025)",
+      "Vetted Causes \u2014 'Animal Charity Evaluators Review' (critique) and EA Forum discussion threads critiquing ACE (accessed 2025)"
+    ]
+  }
+}

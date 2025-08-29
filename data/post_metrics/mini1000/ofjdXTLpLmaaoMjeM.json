@@ -1,0 +1,59 @@
+{
+  "PostValue": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a useful, moderately important update for the EA/AI\u2011safety community: it announces a new independent research group with funding, a concrete research agenda (monitorability of LLM agents / chain\u2011of\u2011thought), recruiting opportunities, and relevant personnel/advisors. The post could steer some research attention and collaborations and help plug talent into a promising niche, but it doesn\u2019t present foundational technical results or radically shift high\u2011level strategy \u2014 its conclusions are useful but not load\u2011bearing. For general humanity the post has low direct impact: an early\u2011stage, modestly funded group\u2019s priorities matter mainly insofar as they scale or influence major labs, which is uncertain."
+  },
+  "PostRobustness": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the research program concrete and evaluable. The post repeatedly says monitorability and CoT legibility are priorities but gives almost no concrete projects, experimental designs, or success criteria. Before publishing, add 2\u20133 specific project outlines (models/datasets you\u2019ll use or need, experimental manipulations, metrics you\u2019ll report, and what would count as progress). Example: a benchmark for \u201cmonitorability\u201d that measures how well off\u2011model monitors predict hidden model errors across architectures; or an experiment comparing latent vs explicit reasoning on task performance + monitorability with clear sample sizes and evaluation metrics. This will make it far easier for readers (and potential collaborators/funders) to judge your approach and apply now. \n\n2) Acknowledge and engage with the incentive problem you\u2019re implicitly relying on. A major unstated assumption is that lowering the \u201csafety tax\u201d will be sufficient to persuade labs to keep explicit, legible CoT instead of switching to latent reasoning or new architectures. That\u2019s a strong sociotechnical claim that depends on performance, cost, IP, product, and regulatory incentives. Either (a) add a short explicit section that lays out the competing incentives and why you think technical work can overcome them, or (b) propose concrete pathways to influence lab behaviour (e.g., producing benchmarks that become de facto industry standards, partnerships with specific labs, or regulatory/OSS advocacy). Without this, the argument feels under\u2011justified. \n\n3) Clarify operational, safety, and funding details that will affect credibility and participation. You note a public Discord, open EoI form, and an anonymous funder plus a small (~$200k) runway; but you don\u2019t explain contributor vetting, data/model access (open or restricted), governance, or plans if funding ends. These are both safety and practical concerns for potential collaborators and for readers assessing project viability. Add brief but concrete statements about: screening/vetting of contributors and plans to prevent misuse (e.g., gating advanced experiments, NDAs for paid roles), whether you will use open\u2011weight vs closed models and how you\u2019ll obtain compute/data, and what the funding timeline means for deliverables and hiring. Making these operational constraints explicit will reduce follow\u2011up Qs and avoid apparent \u201cown goals.\u201d",
+    "improvement_potential": "The feedback identifies clear, consequential omissions in the post: lack of concrete, evaluable projects and success criteria; failure to engage the key sociotechnical incentive problem that underpins the argument; and missing operational/safety/funding details that affect credibility and recruitment. These are not nitpicks but things readers and prospective collaborators will reasonably expect and that could harm uptake or invite embarrassing follow\u2011ups. The suggestions are specific and actionable (add 2\u20133 project outlines, state incentives/paths to influence labs, and clarify vetting/model/access/funding plans) and could be implemented without bloating the post if done concisely or linked to a short appendix."
+  },
+  "PostAuthorAura": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff, I find no notable presence for 'Rauno Arike' in EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, OpenPhil) or in academic/public media records. Likely a private individual, pseudonym, or very minor/obscure contributor with minimal public footprint."
+  },
+  "PostClarity": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "clarity_score": 8,
+    "explanation": "Overall the post is well-structured and easy to follow\u2014clear sections (Get Involved, Research, Team), concrete calls to action, and a focused research argument with numbered reasons. Weaknesses: it uses specialist jargon and dense references that may slow non-expert readers, some paragraphs/sentences are a bit long, and the ask/timeline could be made slightly more concise and prominent (e.g., highlight what roles are paid, expected time commitments)."
+  },
+  "PostNovelty": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers the post is not very novel: independent safety groups, calls for collaborators, and the framing of chain-of-thought/monitorability as a priority have been widely discussed by alignment researchers and companies. The specific emphases (inference\u2011time compute externalizing reasoning, \u2018reducing the safety tax\u2019 to keep CoT legible, and focusing on metrics/benchmarks and training for more faithful traces) are sensible but incremental rather than groundbreaking. For the general educated public the combination of technical framing and concrete research priorities is moderately novel \u2014 the idea that models might \u2018externalize\u2019 more thinking at inference time and that communities should actively preserve readable reasoning chains, plus the focus on building metrics and training for legibility, will be new or unfamiliar to many non\u2011specialists."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, coherent thesis (monitorability of CoT in LLM agents should be a priority) and gives three plausible, logically connected reasons (practical usefulness over strict faithfulness, the inference-time compute trend externalizing more thinking, and the risk that architectures will move to latent reasoning). It situates the agenda relative to work by industry and external groups and flags specific research directions (metrics/benchmarks and training for legible traces). Weaknesses: The arguments are high-level and partly speculative, with limited empirical evidence that improving monitorability is feasible or will materially reduce risk. Citations mostly show interest or technical proposals (e.g., COCONUT, architecture papers, community posts) rather than experimental demonstrations that legible CoT can be preserved at scale or that latent reasoning will be the dominant failure mode. The post also lacks quantitative framing of the risk tradeoffs, alternative mitigations, and direct evaluation plans. Overall this is a reasonable, well-motivated research agenda but currently under-supported by concrete empirical results."
+  },
+  "PostExternalValidation": {
+    "post_id": "ofjdXTLpLmaaoMjeM",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are verifiable and accurate: the EA Forum update exists and links to the August 2024 announcement; the public expression-of-interest Google Form and Discord invite are live; the research claims cite real, recent papers (COCONUT, DeepSeek, recurrent/latent-reasoning work, multiple CoT/monitoring papers and Anthropic\u2019s SHADE-Arena). Team members and advisors named are publicly identifiable on LessWrong / personal sites. The main unverifiable or private claims are internal (the exact funding amount and the anonymous funder, and the claim that the core team is currently working full-time in-person in London) \u2014 these are plausible but not externally corroborated. Overall: well-supported with a few unverifiable internal details.",
+    "sources": [
+      "EA Forum \u2014 'Aether July 2025 Update' (Jul 1, 2025) \u2014 Effective Altruism Forum",
+      "EA Forum \u2014 'Apply to Aether - Independent LLM Agent Safety Research Group' (Aug 2024) \u2014 Effective Altruism Forum",
+      "Aether Expression of Interest \u2014 Google Form (forms.gle/noP7uo8RaCxYef3Y8)",
+      "Discord invite linked from EA Forum post (discord.gg/5WjVBtgAhB)",
+      "arXiv:2412.06769 \u2014 'Training Large Language Models to Reason in a Continuous Latent Space' (COCONUT)",
+      "arXiv:2412.19437 \u2014 'DeepSeek-V3 Technical Report' (DeepSeek)",
+      "arXiv:2502.05171 \u2014 'Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach'",
+      "arXiv:2503.11926 \u2014 'Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation' (Baker et al.)",
+      "Anthropic \u2014 'SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents' (paper / PDF; related arXiv listing)",
+      "arXiv:2505.23575 \u2014 'CoT Red-Handed: Stress Testing Chain-of-Thought Monitoring'",
+      "arXiv:2505.05410 \u2014 'Reasoning Models Don't Always Say What They Think'",
+      "Erik Jenner personal website (ejenner.com) \u2014 identifies researcher / affiliations",
+      "Rauno Arike LessWrong / GreaterWrong profile",
+      "Shubhorup Biswas LessWrong profile"
+    ]
+  }
+}

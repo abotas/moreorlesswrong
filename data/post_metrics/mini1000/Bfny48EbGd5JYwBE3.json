@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a personal conversion/testimony from a veterinarian to EA. It is useful for outreach, signaling, and inspiring career pivots toward animal advocacy and evidence-driven work, but it offers no novel arguments, evidence, or strategic claims that would shift major debates or policies. If true or false it would have only modest, localized impact (recruitment, morale, exemplification), not foundational consequences for EA theory or humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "robustness_score": 3,
+    "actionable_feedback": "1) The post is largely personal narrative and lacks the concrete claims, evidence, and citations that EA readers expect. Actionable fix: keep the story but add one paragraph with key numbers and 2\u20134 citations (e.g., annual number of farmed animals globally, cost-effectiveness estimates for top farmed-animal interventions, and a relevant Rethink Priorities or Faunalytics study). This will let readers quickly judge the scale and evidential basis of your shift from clinical work to systemic change.\n\n2) You don\u2019t explain the specific interventions or research agenda you plan to pursue, or why research (vs. advocacy/direct services) is the lever you chose. Actionable fix: add a short section that (a) names 1\u20133 concrete pathways you\u2019re interested in (e.g., corporate cage-free campaigns, alternative proteins, welfare policy research, supply-chain engagement), (b) states the research questions or metrics you\u2019ll focus on, and (c) explains\u2014briefly and evidence-based\u2014why research could have higher marginal impact for you than continuing clinical or advocacy work.\n\n3) The post omits plausible counterarguments and trade-offs (priority-setting across causes, opportunity costs, moral uncertainty about interventions). Actionable fix: include 2\u20133 sentences acknowledging the main counterarguments you anticipate (e.g., that other causes might be higher-impact, that changing consumer behavior is hard, or that wild-animal suffering is relevant) and either (a) note why you currently prioritize farmed-animal systemic work or (b) invite targeted feedback on prioritization. This makes the piece more intellectually honest and useful to EA readers who will want to evaluate your choice.",
+    "improvement_potential": "This feedback targets the key weaknesses for an EA audience: lack of evidence/citations, lack of concrete interventions or research agenda, and failure to acknowledge trade-offs. The suggested fixes are specific and actionable and wouldn\u2019t bloat the post much (one para of stats/citations, a short section naming 1\u20133 pathways and metrics, and 2\u20133 sentences on counterarguments). These changes would substantially raise the post\u2019s credibility and usefulness to EA readers. It\u2019s not a perfect 10 because the post isn\u2019t making a blatantly incorrect claim \u2014 the feedback improves persuasion and rigor rather than correcting a fatal error \u2014 but it\u2019s critical and high-impact. "
+  },
+  "PostAuthorAura": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of mid-2024 there is no widely available information linking this name to notable activity in the EA/rationalist community or the wider public. The name appears uncommon and may be a pseudonym; no well-known publications, talks, citations, or profiles are associated with it in major EA, academic, or mainstream sources. If you can provide links or context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "clarity_score": 8,
+    "explanation": "The post is easy to follow and well-structured: a clear personal narrative that explains the author's shift from clinical work to research-driven, evidence-based advocacy. It is emotionally compelling and communicates the core point (moving from treating individual animals to pursuing systemic change) clearly. Weaknesses: it leans on rhetorical repetition, is somewhat verbose, and lacks concrete specifics about how Effective Altruism will be operationalized or what actions the author plans next, which reduces argumentative precision."
+  },
+  "PostNovelty": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For an EA Forum audience this is very familiar: the arc from frontline animal care to focusing on farmed-animal welfare and doing evidence-driven, systemic advocacy is a common narrative in EA and animal-welfare communities. The post adds little new argumentation or evidence. For the general public it is slightly more novel because many people haven't thought in terms of switching from individual relief to large-scale, research-driven interventions or been exposed to EA's impartial, evidence-first framing, but the core claims (factory farming causes vast suffering; systemic change is needed) are already widely discussed."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: a clear, coherent personal narrative that plausibly motivates a shift from individual-level veterinary work to system-level, research-driven advocacy; it aligns well with EA values (impartiality, evidence-orientation) and conveys credible personal insights. Weaknesses: the post is overwhelmingly anecdotal and contains few explicit arguments or logical chains connecting premises to conclusions; it makes broad claims (e.g., that factory farming is vastly worse than companion-animal suffering, that evidence-based, systemic work is the best response) without citing data, quantifying scale or impact, or comparing interventions. There is little empirical support, no discussion of counterevidence or trade-offs, and no concrete references to studies, metrics, or methods\u2014so the main thesis (that the author should/does pivot to EA-style systemic research to maximize impact) is plausible but poorly supported by evidence or rigorous argumentation."
+  },
+  "PostExternalValidation": {
+    "post_id": "Bfny48EbGd5JYwBE3",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s empirical claims are well supported. Key factual claims \u2014 that (a) on the order of tens of billions of land animals are farmed and slaughtered annually, (b) the large majority of farmed land animals in high\u2011production countries (e.g., the U.S.) are raised in intensive/\u201cfactory\u201d systems, and (c) intensive systems commonly involve confinement and welfare harms (e.g., battery cages, gestation crates, fast\u2011growth broilers with high lameness rates) \u2014 are corroborated by multiple reputable sources (Our World in Data; Sentience Institute; peer\u2011reviewed welfare reviews). Likewise, claims that mass vaccination and spay/neuter (ABC) programs can reduce disease and are central to managing free\u2011roaming dog populations are supported by WHO/CDC guidance and field studies. Weaknesses: some statements are qualitative or personal (e.g., \u201ctheir suffering was out in the open\u201d), which are not objectively falsifiable; precise numbers and the share called \u201cfactory\u2011farmed\u201d depend on definitions and data vintage (Sentience Institute/OWID use specific CAFO-based definitions), so estimates vary by method and year. In sum: most empirical claims in the post are accurate/credible but some quantitative details depend on definitions and context. ",
+    "sources": [
+      "Our World in Data \u2014 \"More than 80 billion land animals are slaughtered for meat every year\" (May 31, 2024) / \"More land animals than ever before are slaughtered for meat\" (Feb 18, 2025).",
+      "Our World in Data \u2014 \"Almost all livestock in the United States is factory\u2011farmed\" (data insight summarizing Sentience Institute analysis, Feb 13, 2025).",
+      "Sentience Institute \u2014 press release / analysis: \"99% of US farmed animals live on factory farms\" (2019 analysis; methodology and estimates referenced by OWID).",
+      "MDPI / Animals \u2014 \"Impact of Growth Rate on the Welfare of Broilers\" (review summarizing evidence that fast\u2011growing broiler genotypes have higher lameness and health problems).",
+      "PubMed / Reviews (PMC) \u2014 literature review on laying hen welfare and beak trimming impacts (review of welfare effects of beak trimming and housing systems).",
+      "Wikipedia / Gestation crate (summary and references to primary sources on sow stalls prevalence and welfare issues) \u2014 background on gestation crates used in intensive pig production.",
+      "CDC / Emerging Infectious Diseases \u2014 \"Tool for Eliminating Dog\u2011Mediated Human Rabies through Mass Dog Vaccination Campaigns\" (WHO/CDC guidance: vaccinate ~70% of dogs to control rabies).",
+      "PubMed \u2014 Implementation studies and field trials showing that mass dog vaccination and combined sterilization/vaccination (ABC) programs can achieve high coverage and reduce rabies / manage free\u2011roaming dog populations (examples from Malawi, Haiti, India and other studies).",
+      "Frontiers in Veterinary Science \u2014 \"The Role of Dog Population Management in Rabies Elimination\u2014A Review\" (2017) summarizing evidence on sterilization and vaccination program impacts and limitations."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "value_ea": 8,
+    "value_humanity": 2,
+    "explanation": "Highly important to the EA/rationalist community because many EA orgs and projects received FTX/FTX Foundation funds and faced existential risk from potential clawbacks; if true, this materially reduces legal and financial uncertainty and affects budgeting, hiring, and strategy. It is not foundational to EA philosophy or the broader longtermist project but is a load-bearing, practical legal/financial fact for many organizations. For general humanity the impact is minor \u2014 it mostly affects a subset of philanthropic recipients and their beneficiaries rather than large-scale public outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Support the central legal claim with statute, timing, and docket evidence. You currently assert the two\u2011year limitation expired (and that no extension was sought) but don\u2019t cite the controlling law or show the bankruptcy docket entries that prove no adversary complaints/tolling agreements were filed before the deadline. Name the statute (11 U.S.C. \u00a7546(a) is relevant), explain precisely when the limitations period begins for the relevant parties, and link to the PACER docket(s) or adversary index you searched. If you can\u2019t produce that evidence, tone down the certainty.\n\n2) Fix or remove the claim that \u201cthe bankruptcy estate could have filed a plan to extend the two\u2011year statute of limitations.\u201d That reads like a legal howler: a confirmed plan does not unilaterally restart or extend statutory avoidance periods without court authority or consensual tolling. Explain the actual mechanisms that could preserve or extend claims (e.g., timely adversary complaints, court\u2011approved tolling stipulations, written tolling agreements, or certain equitable doctrines) and whether any of those actually happened. If you don\u2019t have the legal basis to say a plan could extend the SOL, delete that sentence.\n\n3) Soften categorical language and add concrete reader checks. Saying \u201cany recipient \u2026 should be safe\u201d is an overbroad, high\u2011stakes reassurance. Add short caveats and a concise checklist of what readers should confirm (e.g., search PACER for adversary complaints naming them; check whether they signed any tolling agreement; review the bankruptcy plan for releases/assignments; consider state or foreign avoidance claims that might survive; confirm whether claims were timely assigned to third parties). Also correct the treatment of demand letters: note that a demand letter alone doesn\u2019t toll the SOL unless accompanied by a tolling agreement or other legal step \u2014 but negotiations can lead to tolling agreements, so the distinction matters. Finally, keep the prominent disclaimer to consult counsel and consider softening definitive language throughout.",
+    "improvement_potential": "The feedback correctly flags major issues: missing statutory and docket support for the key claim, a likely legal error about a plan \u2018extending\u2019 avoidance periods, and dangerously categorical language that could mislead recipients. Fixing these would prevent serious factual/legal mistakes and embarrassment and can be done succinctly (cite \u00a7546(a), link PACER/adversary searches, correct the plan/tolling explanation, and add brief caveats/checklist)."
+  },
+  "PostAuthorAura": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information. 'Molly' is a common name and could be many people or a pseudonym; with no last name, links, or works provided, I cannot locate or verify prominence in EA/rationalist circles or globally. Provide more details (surname, publications, handles, or sample texts) to reassess."
+  },
+  "PostClarity": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "clarity_score": 8,
+    "explanation": "The post is concise and communicates the main point directly: the two\u2011year deadline for clawback suits expired in November 2024 and recipients without a complaint or tolling agreement are likely safe. Strengths: plain language, actionable takeaways (check with counsel), and a clear warning about public comments. Weaknesses: some legal terms and shorthand (e.g., \"FTX FF\", \"tolling agreement\", \"filed a plan to extend the two\u2011year statute\") are not defined, no exact date or citation is provided, and it could be more precise about what counts as a \"complaint\" (adversary proceeding vs. other filings). Adding a specific date, a short definition of key terms, and a source would make it tighter and less ambiguous."
+  },
+  "PostNovelty": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Among EA Forum readers (many of whom followed FTX and its clawback drama closely), the core claim \u2014 that the two\u2011year bankruptcy limitation window could protect grantees if no complaint or tolling agreement exists \u2014 is already widely known and discussed, so it's not very novel. To the general public, however, the specific application of bankruptcy statute\u2011of\u2011limitations timing to FTX grantees (and the practical implication that demand letters don\u2019t toll the clock) is less likely to have been considered, making it moderately novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post states a plausible, simple legal point \u2014 avoidance claims generally must be brought within two years after the bankruptcy filing and tolling agreements or timely complaints can extend that \u2014 but the argument is underspecified and oversimplified. It offers no citations to the Bankruptcy Code, case law, or the FTX docket, and it does not address important complications (multiple related debtors with different petition dates, different avoidance statutes and lookback rules, equitable tolling, the possibility of adversary complaints already filed, or filings that could extend or preserve claims). The reasoning is logically coherent at a high level but lacks depth and fails to consider alternate legal theories and factual complexities. The empirical support is minimal (no docket evidence that no complaints/tolling agreements exist, no statutory citations), so the claim is weakly supported overall. The author\u2019s suggestion to consult counsel and warning about public comments are sensible mitigations, but they don\u2019t remedy the evidentiary gaps."
+  },
+  "PostExternalValidation": {
+    "post_id": "vCSLfG3fjciXHQgnb",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Major factual claims in the post are largely correct but omit important legal nuance. 1) The two\u2011year deadline for avoidance/clawback suits comes from 11 U.S.C. \u00a7546(a); because FTX\u2019s Chapter 11 petition was filed on November 11, 2022, the plain two\u2011year deadline fell in November 2024 \u2014 this is correct and supported by the statute and FTX\u2019s docket/filing date. 2) The FTX estate did file dozens of adversary (clawback) suits around late Oct\u2013Nov 2024 (so it appears the estate pursued many claims before the two\u2011year mark), and the confirmed Plan preserved the estate\u2019s causes of action \u2014 but I found no public record of a court order or plan provision that unambiguously extended the \u00a7546(a) two\u2011year limitations period across the board. 3) The post\u2019s practical advice (that entities who neither were sued nor signed tolling agreements are unlikely targets going forward) is reasonable in ordinary circumstances, but there remain legal exceptions (equitable tolling, court extensions under FRBP 9006(b) in some courts, or other procedural doctrines) \u2014 courts and commentators have recently debated whether Rule 9006(b) may be used to enlarge \u00a7546(a) deadlines. Also, a demand letter alone generally does not toll the statute absent a signed tolling agreement. Overall: the post\u2019s core empirical claims are well supported, but the legal landscape is sufficiently complex that the definitive-sounding statement \u201cshould be safe from clawback actions going forward\u201d needs the caveats noted above.",
+    "sources": [
+      "11 U.S.C. \u00a7546 \u2014 Limitations on avoiding powers (Legal Information Institute / Cornell).",
+      "FTX Trading Ltd. bankruptcy case information \u2014 filing date Nov 11, 2022 (Kroll / FTX case information).",
+      "Law.com: 'FTX Estate Seeks to Recoup $1.76B From Binance\u2026' (reports dozens of adversary actions filed Oct. 28\u2013Nov. 8, 2024).",
+      "PR Newswire / FTX press releases and Plan filings (Plan of Reorganization; plan confirmation reporting Oct 2024 / effective date materials) showing Plan/Disclosure and preservation language.",
+      "FTX Plan exhibit (EX\u201199.1 / Plan language) \u2014 provisions preserving retained Causes of Action into the Liquidating Trust.",
+      "Nelson Mullins summary of In re Ho Wan Kwok (Bankr. D. Conn. Feb. 15, 2024) \u2014 discussion that FRBP 9006(b) may permit extension of \u00a7546(a) in some courts.",
+      "IBT International, Inc. v. Northern (In re International Administrative Servs.), 408 F.3d 689 (11th Cir. 2005) \u2014 appellate decision discussing extensions/equitable tolling of \u00a7546(a).",
+      "JDSupra / Morris James (law\u2011firm explanations) \u2014 summaries of clawback/preference/fraudulent transfer exposure and practical points about filings in the FTX cases.",
+      "Forbes Advisor / Lewitt Hackman / UpCounsel articles on tolling agreements \u2014 explanation that formal tolling agreements are written contracts that suspend statute\u2011of\u2011limitations timing (demand letters typically do not by themselves toll statutory deadlines).",
+      "ConstructionRisk article: 'Filing a Mediation Demand does not Toll Statute of Limitations' \u2014 example showing mediation/demand alone may not toll filing deadlines."
+    ]
+  }
+}

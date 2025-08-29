@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a practical, well-trodden comms & marketing playbook tailored to EA orgs. It\u2019s useful and actionable for organizations wanting to increase awareness, fundraising, recruitment, and influence \u2014 so it can materially improve how effectively some EA projects achieve their aims, but it isn\u2019t a novel or foundational idea for EA theory or strategy. If true and adopted, it yields moderate organizational upside; if false or poorly executed, the harm is limited (wasted resources or lower ROI). For general humanity it\u2019s of minor importance \u2014 broadly useful to many organizations but not consequential at a societal or existential scale."
+  },
+  "PostAuthorAura": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I do not recognize Danielle MacLean as a known figure in the EA/rationalist community or as a public intellectual up to my 2024-06 cutoff. There are no prominent EA publications, talks, or widespread citations under that name in my training data; the name may be a pseudonym or a private/obscure author. If you can provide links or context (works, affiliations), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "clarity_score": 8,
+    "explanation": "Strengths: Well-structured and easy to follow \u2014 clear TL;DR, a simple 4-part framework, concrete examples, and practical next steps. Argument is direct: comms/marketing can amplify impact and here\u2019s a template to do it. Weaknesses: A bit long and promotional (multiple external links and CTAs) with some mild jargon (P-E-S-O) and repetition; could be tighter and slightly more tailored to EA audiences."
+  },
+  "PostNovelty": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is essentially a standard marketing/communications playbook (Research \u2192 Analyze \u2192 Strategize \u2192 Measure, personas, funnels, P-E-S-O, benchmarking, experimentation) applied to EA organizations. EA readers will recognize the concepts and many EA orgs have already discussed or implemented similar approaches, so it\u2019s only slightly novel in tailoring and framing for EA. For the general public it\u2019s very common business advice that most marketers or managers have encountered, so it\u2019s not original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, logical, and well-structured four-step framework (research, analyze, strategize, measure) that aligns with standard marketing best practices; it acknowledges trade-offs (when not to invest) and gives practical, actionable suggestions. Weaknesses: It offers almost no empirical evidence that this specific approach improves impact for EA organizations \u2014 examples are hypothetical, benchmarks cited are generic marketing references, and there are no EA-specific case studies, outcome metrics, or controlled comparisons. Potential conflict of interest (the author runs a consultancy offering services) is not addressed. Overall, the reasoning is sound and usable as a playbook, but its claims about maximizing impact lack strong, relevant empirical support."
+  },
+  "PostExternalValidation": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s factual foundations are verifiable and well-supported. The author\u2019s site and pages (the 4\u2011part template, PESO, buyer\u2011persona, measurement advice) exist and match the post; the cited benchmark resources (WordStream Google Ads, Josiah Roche conversion-rate summary, HubSpot email benchmarks) are real industry references; academic and sector evidence supports the claim that marketing/comms can produce measurable awareness, behaviour change, and fundraising effects. Evidence also shows Effective Altruism organisations have recently been investing more in communications capacity (e.g., CEA hiring a Head of Communications and listing comms roles on EA job boards). Weaknesses: many claims are prescriptive or qualitative (e.g., \u201chuge opportunity\u201d) rather than precise empirical claims; some benchmarks are industry averages (vary by industry, date, and measurement method) and email\u2011open metrics have been disrupted by platform privacy changes, so exact numbers should be used cautiously. For a higher score one would want quantitative, time\u2011series evidence of EA sector spending/headcount in comms and more up\u2011to\u2011date benchmark aggregation.",
+    "sources": [
+      "Marketing Growth Lab \u2014 'How to Create a Marketing Strategy' (Apr 9, 2023).",
+      "Marketing Growth Lab \u2014 'Using Communication & Marketing to Grow Effective Altruism Organizations' (Comms & Marketing for Effective Altruism) (site page).",
+      "Marketing Growth Lab \u2014 About (author Danielle MacLean, states ~20 years experience).",
+      "WordStream \u2014 'Google Ads Benchmarks for YOUR Industry' (Google Ads industry benchmarks / WordStream analysis).",
+      "HubSpot Blog \u2014 'Email Marketing Benchmarks' / HubSpot benchmark reporting and documentation (examples: 2022 benchmarks and HubSpot knowledge articles on open\u2011rate measurement).",
+      "Centre for Effective Altruism \u2014 'Head of Communications' job posting (CEA careers; Mar 2024 listing emphasising expansion of communications capacity).",
+      "Centre for Effective Altruism \u2014 'CEA's work in 2022' (CEA blog noting team growth and communications activity).",
+      "Wakefield MA, Loken B, Hornik RC \u2014 'Use of mass media campaigns to change health behaviour' (Lancet review, 2010) \u2014 evidence that well\u2011designed mass media campaigns can change behaviour under the right conditions.",
+      "M+R / nonprofit sector benchmarks reporting (summarized in sector posts such as NPTechForGood / M+R Benchmarks) \u2014 evidence that email/fundraising channels still materially contribute to nonprofit revenue."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "rCG48LavMJDGkDzfp",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No EA-specific impact measurement or prioritisation guidance \u2014 the plan emphasises marketing KPIs (opens, clicks, signups) but doesn\u2019t show how those map to the high\u2011level EA outcomes readers care about (cost\u2011per\u2011expected\u2011value of a donation, cost\u2011per\u2011high\u2011quality hire, long\u2011term retention of volunteers, policy wins). Actionable fix: add one short section that (a) shows 2\u20133 concrete EA outcome metrics (e.g. cost per $ of effective donation adjusted by counterfactual, cost per hire who stays 1+ year, engagement\u2192conversion funnel to take a high\u2011impact action), (b) gives a simple worked example/calculation, and (c) explains how to use those to set investment thresholds and prioritise experiments (e.g. run small A/B tests with holdouts and estimate marginal ROI before scaling).\n\n2) Missing discussion of ethical and reputational risks \u2014 readers in EA care about accuracy, persuasion ethics, attracting the \u2018right\u2019 people, and the counterfactual harms of attention diversion. Actionable fix: add a short checklist (one paragraph) of safeguards and tactics to avoid (e.g. avoid manipulative framing, verify impact claims with sources, independently review persuasion materials, track downstream quality of recruits/donors rather than just volume). Give 2\u20133 concrete examples of reputational pitfalls and how to mitigate them (e.g. PR stunt that attracts clicks but undermines trust; broad recruitment that brings many applicants but few aligned hires).\n\n3) Undisclosed commercial interest and lack of EA\u2011specific evidence \u2014 the post promotes your consultancy and free sessions but doesn\u2019t clearly disclose the commercial angle or provide EA case studies. This weakens credibility. Actionable fix: add an upfront disclosure of any commercial relationship and state whether you have done pilots with EA orgs. If you have outcomes/data, include one brief EA case study or an anonymised result (metric before/after). If you don\u2019t, offer to run a preregistered pilot or suggest a lightweight template EA readers can use to run a 4\u20136 week experiment and report results back. This will make the advice more trustworthy and useful to EA readers.",
+    "improvement_potential": "The feedback identifies three substantial, concrete omissions that matter a lot to an EA audience: lack of EA\u2011outcome metrics/prioritization, missing ethics/reputational safeguards, and undeclared commercial incentives/absence of EA case evidence. Each point is actionable and could be fixed with short additions that materially improve credibility and usefulness without bloating the post. These are critical improvements (the post is weaker without them) but they don\u2019t render the overall advice invalid, so a top score isn\u2019t warranted."
+  }
+}

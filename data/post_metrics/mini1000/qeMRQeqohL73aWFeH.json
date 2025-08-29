@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful, tactical information for people working on farm animal welfare and EA-aligned giving/advocacy. The post highlights a high-leverage past win (many large retailers made cage-free commitments in 2015\u20132016 achieved by a small advocacy effort) and an important practical lesson: follow-up, monitoring, and enforcement matter and results are mixed in 2025. That makes it moderately important for strategy and resource-allocation within the EA/animal-advocacy community. It is of limited importance for general humanity \u2014 relevant to consumers and animal welfare outcomes but not foundational to major global priorities."
+  },
+  "PostRobustness": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "robustness_score": 3,
+    "actionable_feedback": "- Over-reliance on company self-reporting / EggTrack without caveats. The post treats EggTrack \"Company Progress\" numbers as if they were definitive, but those are self-reported, vary in granularity, and may use different measurement bases (percent of shell egg purchases vs percent of all eggs used; company-owned stores vs franchisees). Actionable fix: add a brief caveat (1\u20132 sentences) about data source limits and, where a company's entry looks surprising, note whether the number is self\u2011reported, independently audited, or missing. Consider contacting CIWF or a couple of companies for clarification on surprising non\u2011reporting cases (Trader Joe's, Aldi) before publishing.\n\n- Ambiguous scope of \"commitments\" and heterogeneous definitions of \"cage\u2011free.\" Many commitments differ in scope (U.S.-only vs global, shell eggs vs liquid/processed eggs, company-owned stores vs franchisees, enriched colony vs truly cage-free) and some were explicitly conditional. The post implicitly treats commitments as uniform. Actionable fix: add a concise line summarizing how you treated scope (e.g., only U.S. retail & foodservice commitments; shell vs liquid) and, if possible, flag any companies whose commitments are known to be limited or conditional. If you don't want to lengthen much, at least link to or quote one example commitment language to show variability.\n\n- Missing market\u2011share / system\u2011level context for the headline implication. Saying \"big groceries committed in 2016\" and showing some follow\u2011through is informative, but it doesn't tell readers how much of U.S. egg supply or consumption that covers, or whether nonreporting big players materially affect outcomes. Actionable fix: add a 1\u20132 sentence estimate or a single percentage (even rough) of U.S. egg demand covered by the firms in your sample, or explicitly note that you haven't estimated coverage \u2014 this prevents readers from overgeneralizing from headline lists to total impact.\n\nImplementing these three fixes will reduce the risk of major misinterpretation while keeping your post short and readable.",
+    "improvement_potential": "The feedback pinpoints three substantive weaknesses that could meaningfully mislead readers: uncritical use of self\u2011reported EggTrack numbers, unclear scope/heterogeneity of what counts as a \"commitment,\" and lack of market\u2011share context to judge overall impact. These are actionable fixes that won\u2019t bloat the post (short caveats, one\u2011line scope clarification, or a rough coverage estimate). Addressing them would materially reduce the risk of embarrassing errors or overclaiming, though they don\u2019t overturn the post\u2019s basic descriptive findings."
+  },
+  "PostAuthorAura": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no notable record of an author named Elijah Whipple in major EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, OpenPhil) or in widely known academic/media sources up through my 2024-06 training cutoff. The name does not appear to correspond to any well-known public intellectual or frequent contributor to EA discussion; it may be a pseudonym or a very obscure/early-stage author."
+  },
+  "PostClarity": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "clarity_score": 8,
+    "explanation": "Well structured and easy to follow overall: clear headings, numbered points up front, and good use of data sources and visuals make the post comprehensible and persuasive. Weaknesses: the main thesis (that most commitments were made in 2015\u201316 and follow-through is mixed) could be stated more explicitly up front, some images lack captions/alt text so their meaning isn\u2019t always obvious, and a few asides (P.S./P.P.S., some phrasing in the closing) feel tangential and slightly reduce concision."
+  },
+  "PostNovelty": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the core facts (major retailers and fast\u2011food chains made cage\u2011free commitments around 2015\u20132016, varied follow\u2011through, EggTrack as a data source) are already well known within EA/animal\u2011advocacy circles, so this is mostly a concise update/compilation rather than a new idea. The slightly more novel elements are the specific reporting surprises (e.g. Trader Joe\u2019s and Aldi not reporting), the up\u2011to\u2011date aggregated dataset/graphs, and the emphasis that relatively few full\u2011time advocates drove these commitments \u2014 points that are somewhat interesting but not highly original to the broader public either."
+  },
+  "PostInferentialSupport": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "Strengths: The post is logically coherent and transparent \u2014 it states a clear descriptive thesis (many large grocery and fast\u2011food commitments were made around 2015\u20132016, and follow\u2011through by 2025 is mixed), cites plausible, relevant sources (CIWF/EggTrack company reporting, a compiled historical dataset, company statements, and news pieces), and shares the data and methods used. The author acknowledges uncertainty and exceptions and avoids strong overclaiming. Weaknesses: The analysis relies heavily on self\u2011reported company data (potential bias) and a convenience selection of retailers/chains without a fully systematic sampling frame, so the claim that \"basically all big groceries committed in 2016\" is somewhat imprecise and could use clearer scope/definitions and cross\u2011validation (e.g., procurement/contracts, supply chain nuances). The speculative causal claim about motivations for follow\u2011through (avoid negative PR vs. gain positive reputation) is plausible but not well supported by evidence. Overall, the post provides moderate\u2013strong support for its descriptive points but limited evidence for causal explanations and would benefit from more systematic coverage and triangulation."
+  },
+  "PostExternalValidation": {
+    "post_id": "qeMRQeqohL73aWFeH",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post's major empirical claims are well-supported by contemporaneous corporate announcements and independent trackers. Multiple large U.S. grocers (Walmart, Kroger, Target, Albertsons, ALDI, Trader Joe\u2019s, etc.) publicly set cage\u2011free targets in 2015\u20132016 (many aiming for ~2025), and many large fast\u2011food chains made similar pledges in late 2015 / early 2016 (McDonald\u2019s, Taco Bell, Jack in the Box, etc.). Independent monitoring (Compassion in World Farming\u2019s EggTrack / ChickenWatch / NGO trackers) show mixed follow\u2011through and variable transparency: some companies report full or near\u2011full transitions while others are behind or not reporting progress. Caveats: (a) \u201cbasically all big groceries\u201d is a reasonable summary but not literally universal (e.g., Whole Foods adopted cage\u2011free earlier; Costco has resisted a firm dated pledge); (b) reporting statuses and percent\u2011complete figures change year to year (CIWF\u2019s EggTrack and other trackers are the best source for up\u2011to\u2011date progress). Overall the post is accurate and verifiable, with minor overgeneralization and expected temporal caveats.",
+    "sources": [
+      "Compassion in World Farming \u2014 EggTrack 2024 / EggTrack overview and company progress pages (EggTrack site / CIWF).",
+      "PR Newswire \u2014 Albertsons Companies Sets Goal for Cage\u2011Free Eggs by 2025 (Mar 1, 2016).",
+      "AP / multiple outlets \u2014 Walmart pledges to sell only cage\u2011free eggs by 2025 (April 2016 coverage; e.g., AP, CNBC, TIME).",
+      "Kroger press release (PR Newswire) \u2014 Kroger announced transition goal to 100% cage\u2011free eggs by 2025 (2016).",
+      "Target Corporation \u2014 Target animal welfare page stating a 2016 goal to transition to 100% cage\u2011free shell eggs by 2025 (and later reporting it would not meet that deadline).",
+      "McDonald\u2019s corporate announcement \u2014 McDonald\u2019s to fully transition to cage\u2011free eggs (Sept 9, 2015) and later progress updates.",
+      "FoodProcessing (Oct 19, 2022) \u2014 reporting that Walmart and Kroger acknowledged supply/cost issues and would not reach 100% by 2025.",
+      "ChickenWatch (chickenwatch.org) \u2014 corporate progress tracker referenced by the author and NGOs.",
+      "Multiple contemporaneous news articles summarizing fast\u2011food commitments (e.g., Eater, Wired, WATTPoultry summaries from 2015\u20132016)."
+    ]
+  }
+}

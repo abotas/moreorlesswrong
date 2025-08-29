@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful, moderately important announcement for the EA/AI-safety community because it helps recruit and train early-career researchers, build capacity, and strengthen networks in a high-leverage area (catastrophic AI risk). It\u2019s not foundational \u2014 the post is one recruitment opportunity among many and its truth or falsehood wouldn\u2019t radically change major conclusions about AI risk \u2014 but it meaningfully affects talent pipelines and near-term career paths. For general humanity the direct impact is small: helpful indirectly if it leads to better AI-safety work, but the scale and immediacy of that effect are limited."
+  },
+  "PostRobustness": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the financial and logistical offer concrete. Saying \u201csalary equivalent to \u00a334,125 per year, prorated\u201d is clear mathematically but harder for many readers to parse \u2014 state the actual cash payment for the 8\u2011week fellowship, confirm whether it is full\u2011time (hours/week), give an estimated travel cap, and explicitly state which visa costs/support are covered. Action: add one short line like \u201c8\u2011week stipend: \u00a3X total (\u2248\u00a3Y/week); full\u2011time (37.5 hours/week); up to \u00a3Z travel reimbursed; full visa application support provided.\u201d\n\n2) Clarify selection criteria, expectations and outputs. Right now readers don\u2019t know how proposals will be judged or what fellows are expected to produce (e.g., research note, code, poster, publishable paper), who owns IP, or whether undergraduates/PhD students/industry changers are equally welcome. Action: add 2\u20133 bullets: (a) brief selection criteria (impact potential, research experience, fit with mentors), (b) expected time commitment and typical deliverables, and (c) a short note on outputs/IP and whether conference/journal submission is supported.\n\n3) Remove repetition and fix small inconsistencies that reduce credibility. The Q&A session and application-deadline lines are repeated and the deadline is shown with two time formats (11:59pm UTC / 23:59 UTC). Action: remove duplicate paragraphs, unify the deadline wording, and consider linking one clear application URL once (or putting it once at top and once at bottom).",
+    "improvement_potential": "The feedback is concrete, actionable, and points out real omissions and small errors that reduce clarity and credibility. Making the stipend and visa support explicit, stating selection criteria/expected outputs, and removing duplicated/ inconsistent deadline text would materially reduce applicant confusion and post follow-ups. Minor caveat: some details (e.g. IP policy) may be handled in the linked FAQ, so the author could add a short pointer rather than full text. Overall this would noticeably improve the post without excessive lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence for an author named 'Harrison \ud83d\udd38' in EA/rationalist circles or the broader public. Likely a pseudonym or obscure/very new contributor. If you can provide links, usernames, or notable works I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to follow: clear headings, explicit dates, links, eligibility, benefits, and application steps. Calls to action and contact info are prominent. Weaknesses: minor repetition (Q&A sessions and deadline are listed twice), slight formatting inconsistencies, and a bit more verbosity than necessary in places \u2014 trimming duplicates would make it even clearer."
+  },
+  "PostNovelty": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "novelty_ea": 1,
+    "novelty_humanity": 2,
+    "explanation": "This is an event/fellowship announcement \u2014 a practical opportunity posting rather than a new idea or argument. EA Forum readers frequently see similar fellowship calls and AI-risk programme announcements, so it\u2019s not novel to that audience. For the general public it\u2019s slightly less familiar (specific program/location/terms), but the core concept (paid summer research fellowship with mentorship in AI safety) is common, so still low novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear, well-structured, and makes a coherent case that the ERA:AI Fellowship is a valuable, supported opportunity (dates, funding, mentorship, logistics). It transparently lists what is provided and the application process. Weaknesses: It is promotional rather than argumentative and provides little empirical evidence to substantiate key outcome claims (e.g. \u201cmany alumni have gone on to publish\u201d or evidence of impact on catastrophic risk). No statistics, third\u2011party evaluations, alumni outcomes, or specific mentor matches are provided, and selection criteria/outcomes are only broadly described. Overall the messaging is plausible and informative for applicants but not well-supported by independent or quantitative evidence of effectiveness."
+  },
+  "PostExternalValidation": {
+    "post_id": "a6xhZDwyQkp5DFPJA",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most major empirical claims in the EA Forum post are accurate and are directly confirmed on ERA\u2019s official website: the Cambridge ERA:AI Fellowship is an in-person, paid, 8\u2011week summer research programme in Cambridge focused on AI safety/governance; ERA states it provides a prorated salary (equivalently \u00a334,125/year \u2192 \u00a35,250 for 8 weeks), accommodation, meals during working hours, visa support, and travel coverage; applications for Summer 2025 had a deadline of 8 April 2025 (23:59 UTC). ERA\u2019s site also lists mentors and 2025 fellows as described. however, there are small but important inconsistencies between the post and ERA\u2019s pages: ERA\u2019s pages themselves show conflicting start/end dates (site pages say start 29 June or 30 June and the FAQ lists an end date of 22 Aug), while the post claims 29 June\u201324 Aug; and the post says applicants progress through \u201ctwo interview stages,\u201d but ERA\u2019s Fellowship page for Summer 2025 states they decided not to run a Round 2 interview for that cycle. Because most core claims (paid 8\u2011week Cambridge fellowship, stipend/benefits, application deadline, housing/office in Cambridge, mentors) are confirmed by the official ERA site, but a few timing/process details are either misstated or the site contains inconsistent dates, I rate the post as well-supported overall but not flawless.",
+    "sources": [
+      "ERA Fellowship \u2014 About / Fellowship page (erafellowship.org/fellowship) \u2014 confirms 8\u2011week programme, stipend equivalence (\u00a334,125/year prorated), accommodation, office/Emmanuel College, application deadline 8 April 23:59 UTC (source consulted Apr/May 2025 content).",
+      "ERA Fellowship \u2014 Home page (erafellowship.org) \u2014 lists Dates & Location (start 29 June 2025 on one page) and general programme description.",
+      "ERA Fellowship \u2014 FAQ (erafellowship.org/faq) \u2014 logistics: start 30 June, duration 8 weeks, end date listed as 22 Aug, stipend \u00a35,250, application process notes (source shows slight internal inconsistencies with other ERA pages).",
+      "ERA Fellowship \u2014 Mentors page (erafellowship.org/mentors) \u2014 lists 2025 mentors and confirms mentorship claim.",
+      "ERA Fellowship \u2014 Fellows 2025 (erafellowship.org/fellows-s25) \u2014 lists named 2025 fellows and project descriptions.",
+      "EA Forum post \u2014 \"Apply to the Cambridge ERA:AI Fellowship 2025\" (Effective Altruism Forum) \u2014 the post being evaluated (includes Zoom/Airtable links and the claimed dates/process)."
+    ]
+  }
+}

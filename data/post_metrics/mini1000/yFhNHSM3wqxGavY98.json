@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "value_ea": 6,
+    "value_humanity": 5,
+    "explanation": "This is a practical, policy-oriented framing of a real and consequential problem for global health and EA priorities. It isn\u2019t novel theory or definitive evidence, so it\u2019s not foundational, but it is moderately important: it bears on how donors, advocates, and EAs should weigh short\u2011term lives saved against long\u2011term system building and fiscal reform. For the EA/rationalist community it helps shape cause strategy and intervention design (hence a 6). For general humanity it flags risks to millions if funding is cut abruptly, but the post itself is primarily commentary rather than new empirical proof, so its standalone impact is moderate (hence a 5)."
+  },
+  "PostRobustness": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Weak empirical grounding \u2014 add numbers and citations. The post makes large claims about reliance and harms from withdrawal but gives no quantification (what share of HIV/malaria/TB budgets in Nigeria are donor-funded, how many people would be affected under plausible cut scenarios, timeline of cuts). Include sources (Global Fund/PEPFAR budgets, national health accounts, studies on ART interruption/mortality) and a few simple scenarios (e.g., gradual 10%/yr vs abrupt 50% cut) so readers can judge magnitude and urgency.\n\n2) Vague policy recommendations \u2014 spell out concrete, evidence-backed \u201csoft landing\u201d mechanisms and examples. Saying \u201csoft landing\u201d and \u201ccapacity-building\u201d is not enough for an EA audience. Recommend adding operational options (co\u2011financing schedules, ring\u2011fenced budget lines, transition grants, social health insurance expansion, contract transfer to government or local NGOs) and point to case studies or evaluations of transitions (e.g., Global Fund/PEPFAR transition policies, documented country transitions). This lets readers assess tractability and where EA resources could be most effective.\n\n3) Missing political-economy counterarguments and an irrelevant image. The post underplays how corruption, elite capture, low tax capacity, and competing budget priorities make domestic replacement of donor funds nontrivial; it also doesn\u2019t consider donor incentives or harms of prolonged donor presence. Add a short section acknowledging these plausible failure modes and how proposed mitigations address them. Also replace the current image (alt text references Ukraine/embargoes) with a relevant visual or remove it \u2014 as is, it risks confusing readers and undermining credibility.",
+    "improvement_potential": "This feedback identifies clear, high-impact weaknesses: the lack of quantitative evidence (which undermines the urgency claim), overly vague recommendations (EA readers want actionable, tractable options), and a missed treatment of political-economy constraints plus an irrelevant image that harms credibility. Fixing these would materially strengthen the post without changing its core thesis \u2014 and would prevent the author from being embarrassed by easily\u2011fixable oversights \u2014 so the suggestions are highly useful."
+  },
+  "PostAuthorAura": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find evidence that \u2018Seun Olufemi\u2019 is a known figure in the EA/rationalist community or a publicly prominent person up to my 2024-06 cutoff. The name does not appear in major EA publications, conference speaker lists, or widely cited works I\u2019m aware of; it may be a private individual or pseudonym. If you can share links or context (articles, social profiles), I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear sections (case for/against, EA relevance, position), concrete examples (Nigeria, Global Fund, PEPFAR), and a succinct conclusion. Weaknesses: an odd/irrelevant image and some rhetorical repetition that slightly detract from precision; claims would be stronger with brief data/citations and a bit more concision in places."
+  },
+  "PostNovelty": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post primarily rehashes a well-known debate (aid dependency vs. self-reliance and managed donor exit) with familiar examples (PEPFAR, Global Fund, Nigeria). For EA readers this is routine framing\u2014questions about bridging funding, exit strategies, and trade-offs are common in the community. For the general educated public it's also fairly familiar, though the Nigeria-specific references (Abacha funds, local WhatsApp group input) and explicit EA-focused framing add a small degree of specificity rather than conceptual novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "The post is logically structured and balanced: it lays out both sides of the debate, draws reasonable causal links (donor withdrawal \u2192 service gaps \u2192 worse health outcomes), and reaches a cautious, non-binary conclusion (advocate gradual exit with capacity building). However, it relies on broad assertions rather than data or concrete examples. Key claims (e.g., scale of donor dependence, quantified lives saved by PEPFAR/Global Fund, impacts of past abrupt exits, feasibility of domestic resource mobilization such as using recovered assets or mineral wealth) are unreferenced. Strengths: clear framing, sensible policy recommendation, recognition of trade-offs. Weaknesses: little empirical support, no citations, no country cases or numbers, and unexamined governance/fiscal constraints. The thesis is plausible but only moderately supported; it would be much stronger with quantified evidence, cited case studies (e.g., PEPFAR transitions), and analysis of domestic fiscal capacity and realistic soft-landing mechanisms."
+  },
+  "PostExternalValidation": {
+    "post_id": "yFhNHSM3wqxGavY98",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s major empirical claims are well supported by high-quality sources. Independent evidence confirms: (1) recent, high-profile reductions/pauses in major donor (especially US) aid in 2025 and widespread reporting about their impacts on African health programs; (2) Nigeria\u2019s HIV/malaria/TB programmes are heavily supported by external donors (PEPFAR and the Global Fund) and PEPFAR/Global Fund support covers a large share of HIV treatment in Nigeria; (3) modelling and expert analyses predict that abrupt donor withdrawal would cause substantial increases in infections and deaths; (4) Nigeria has recovered multiple tranches of \u201cAbacha\u201d looted funds and those tranches have been used for social/infrastructure programmes; and (5) Nigeria is endowed with many (\u224830+) mineral resources and has low domestic public health financing with very high out\u2011of\u2011pocket spending, supporting the argument that domestic financing is currently inadequate. \n\nMain caveats/weaknesses: the post makes some broad statements without precise quantitative framing \u2014 e.g., \u201cmany critical healthcare interventions \u2026 heavily reliant on external funding\u201d is true for specific programs (notably HIV) but external sources account for a minority share of total health expenditure nationally (~10\u201315% of Nigeria\u2019s current health expenditure in recent years), so the dependence is program-specific rather than uniform across the whole health sector. Also estimates of future harms depend on scenario assumptions; modelling studies show a wide uncertainty range. Overall, most empirical claims are accurate but would benefit from explicit numbers/ citations (e.g., percent of HIV treatment funded by PEPFAR, external share of CHE) to avoid overgeneralization.",
+    "sources": [
+      "Reuters \u2014 \"Trump aid cuts deal a blow to HIV prevention in Africa\" (June 2025)",
+      "Deutsche Welle \u2014 \"How USAID cuts are fueling Africa's humanitarian crises\" (May 2025)",
+      "UNAIDS \u2014 \"Impact of US funding cuts on HIV programmes in Nigeria\" (feature, March 2025)",
+      "PEPFAR/US CDC country pages \u2014 \"Nigeria: HIV and TB overview\" (PEPFAR/CDC Nigeria country profile, June 30, 2025)",
+      "The Global Fund \u2014 \"Nigeria profile / Global Fund investments\" (country profile, updated 2023\u20132024)",
+      "Burnet Institute / Lancet-type modelling (published via Elsevier / medRxiv summaries) \u2014 \"Impact of an international HIV funding crisis on HIV infections and mortality\" (modelling study, 2025) \u2014 (reported in The Guardian / Oxford press releases and medRxiv/Elsevier summaries)",
+      "Oxford University news \u2014 modelling estimate on child deaths if PEPFAR disrupted (April 2025)",
+      "BBC News \u2014 coverage of Abacha loot recoveries and use (2014\u20132018 coverage; e.g., December 2017), and follow-up government statements",
+      "Nigeria Federal Government / Ministry reports and press releases on Abacha loot use (e.g., statements on 2017\u20132020 tranche allocations to NSIP and infrastructure)",
+      "World Bank / WHO / IMF analyses and Nigeria health financing reports (e.g., WHO Global Health Expenditure Database; IMF country reports; peer-reviewed review showing high OOP share ~60\u201375% and external health expenditure ~10\u201315%)",
+      "Aidspan / Aid & Health financing analyses \u2014 \"Domestic financial contributions to HIV, tuberculosis and malaria responses remain low\" (analysis on external vs domestic funding patterns)",
+      "AP News / Reuters / Premium Times reporting on Nigeria\u2019s recent policy responses and domestic allocations to HIV treatment (2024\u20132025)"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This post is a practically useful, action-oriented call-to-apply that identifies concrete, high-leverage gaps in AI evaluation infrastructure (secure third\u2011party access, verifiable audits, and better statistical/elicitation methods). For the EA/AI-safety community it is fairly high value: these topics are directly load\u2011bearing for independent verification of safety claims, governance, and red\u2011teaming, and funding good work here would materially improve our ability to assess and manage risk. For general humanity the impact is meaningful but more indirect: improving evaluation and auditability of frontier models can reduce misuse and enable better regulation, but the effects depend on uptake and implementation by industry and policymakers rather than presenting a foundational theoretical breakthrough."
+  },
+  "PostRobustness": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstated feasibility of technical cryptographic/security fixes \u2014 The post leans on ZKPs, enclaves, and \u201ctrustless\u201d evaluations without acknowledging key limits (performance, proof expressiveness, cost, current research gaps). Actionable fix: add an explicit, short feasibility caveat and ask applicants to include timelines, resource estimates, and attacker models for any proposed technical solution; prioritize near-term non-crypto mitigations (legal agreements, accredited sandboxes, auditing standards) as plausible first steps.  \n\n2) Missing analysis of incentives, legal and regulatory barriers \u2014 The piece assumes companies will cooperate with expanded third-party access but doesn\u2019t address IP, liability, export controls, antitrust, or commercial disincentives. Actionable fix: request proposals to include a stakeholder/incentive analysis and practical mechanisms (e.g., indemnities, limited-scope sandboxes, regulatory carrots/sticks, accreditation) and consider soliciting legal/regulatory co-investigators.  \n\n3) Vague experimental and reporting standards for the \u201cscience of evals\u201d work \u2014 Calls for scaling laws, password-locked models, and statistical methodology lack concrete success criteria, sample size/power considerations, pre-registration, or reproducibility plans. Actionable fix: ask applicants to specify primary outcomes, evaluation protocols, statistical power calculations, reproducibility & confidentiality handling, and to propose a minimal set of standard reporting fields (a short template) so results are interpretable and comparable.",
+    "improvement_potential": "The feedback points out three important, actionable gaps that could materially weaken the RFP or mislead applicants: (1) overoptimistic reliance on cryptographic/secure-compute fixes without feasibility caveats, (2) failure to address legal/incentive barriers that determine whether third-party access is realistic, and (3) lack of concrete experimental/reporting standards for the proposed 'science of evals' work. Each suggestion is practical (ask applicants for timelines/attacker models/stakeholder analyses/preregistration/power calculations) and wouldn\u2019t require a large rewrite of the post\u2014mostly short caveats or explicit application requirements\u2014so adopting them would substantially improve the RFP\u2019s clarity and downstream proposal quality."
+  },
+  "PostAuthorAura": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information for the author listed as 'cb'. There is no widely recognized EA/rationalist figure or global public intellectual known primarily by the handle/initials 'cb'. Provide a full name, link, or context to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, with clear headings, a direct call to action, and concrete, well-explained project examples \u2014 making it easy for the target audience to understand what is wanted and how to apply. Weaknesses: occasional jargon (e.g. ZKPs, Pass@k) and a minor typo ('nore'), some sections are a bit long or could be more tightly prioritized, and readers unfamiliar with evals might want a bit more context on certain terms. Overall concise and compelling for its intended readers."
+  },
+  "PostNovelty": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "novelty_ea": 4,
+    "novelty_humanity": 7,
+    "explanation": "For EA Forum readers these topics are largely familiar \u2014 the high\u2011level problems (secure third\u2011party access, trustworthy audits, evaluation fragility, and the elicitation gap) have been discussed repeatedly in AI safety/longtermist circles. The post is useful for concretizing and prioritising research, but most ideas are incremental rather than brand\u2011new. For the general educated public, however, many proposals are fairly novel and technical (e.g., password\u2011locked models as an experimental technique, using ZKPs/secure enclaves to verifiably audit models, formalising minimum access needed for safety claims, and systematic scaling/elicitation\u2011gap studies), so the overall set of suggestions will be new to most people outside the field."
+  },
+  "PostInferentialSupport": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is logically organized, coherently motivates two concrete priority areas (third\u2011party access/security and the science of evaluations), and gives actionable, well-scoped project ideas. It plausibly connects rising model secrecy to evaluation difficulties and identifies useful research directions (governance comparisons, verifiable auditing, quantifying post\u2011training effects). Weaknesses: It relies mainly on assertions and intuition rather than empirical evidence or citations; key claims about companies' likely behavior, costs, and technical feasibility (e.g. ZKP/enclave approaches) are not substantiated; there is little prioritization or tradeoff analysis and no empirical baseline showing the size or urgency of the problems. Overall the reasoning is reasonable and useful for agenda-setting, but the evidence is thin, so the main thesis is only moderately supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "LTbwRuQhBRGxMyqcq",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Well-supported overall. The RFP advertised in the post exists (Open Philanthropy\u2019s \u201cImproving Capability Evaluations\u201d RFP) and explicitly raises the three empirical problems the post highlights: an evaluation gap, third\u2011party access constraints, and sensitivity of evaluations to post\u2011training changes and test conditions. Independent, high\u2011quality sources back the major empirical assertions: (a) an information/access gap and immature evaluation methods is described in the International AI Safety Report 2025; (b) post\u2011training enhancements and prompt/scaffolding/tool use materially change measured performance (Chain\u2011of\u2011Thought, ReAct, parameter\u2011efficient fine\u2011tuning papers such as LoRA/QLoRA); (c) inference/sample budgeting (pass@k / best\u2011of\u2011k) substantially affects benchmark scores; and (d) active research shows technical approaches (ZKPs, secure enclaves, \u201ctrustless audits\u201d) could enable verifiable audits without full weight disclosure. Weaknesses / uncertainties: some statements are partly predictive/normative (e.g., \u201cwe\u2019re not prepared for stricter security\u201d) and depend on future lab practices and policy choices; concrete numeric claims about specific model scores (e.g., internal vs public FrontierMath numbers) vary by dataset, compute settings, and versioning and thus require careful context. Overall the empirical core of the post (RFP exists; evaluation results are highly sensitive to access, prompting, and post\u2011training interventions; technical approaches are promising but nascent) is well supported by the literature and reporting.",
+    "sources": [
+      "Open Philanthropy \u2014 Request for Proposals: Improving Capability Evaluations (RFP) (page; update 2025-04-14) \u2014 https://www.openphilanthropy.org/request-for-proposals-improving-capability-evaluations/",
+      "International AI Safety Report 2025 (UK GOV publication; discusses evaluation gap and information/access issues)",
+      "Wei et al., \"Chain\u2011of\u2011Thought Prompting Elicits Reasoning in Large Language Models\" (NeurIPS/ArXiv 2022) \u2014 demonstrates prompting/scaffolding effects",
+      "Yao et al., \"ReAct: Synergizing Reasoning and Acting in Language Models\" (ArXiv 2022) \u2014 shows tool/scaffolding and action\u2011based prompting affect task outcomes",
+      "Hu et al., \"LoRA: Low\u2011Rank Adaptation of Large Language Models\" (ArXiv 2021) and Dettmers et al., \"QLoRA: Efficient Finetuning of Quantized LLMs\" (ArXiv 2023) \u2014 show cheap, parameter\u2011efficient post\u2011training fine\u2011tuning",
+      "OpenAI / HumanEval / pass@k literature and pass@k explanations (code\u2011generation benchmarks; shows how sampling/\"best\u2011of\u2011k\" changes reported performance)",
+      "Epoch AI \u2014 FrontierMath benchmark pages and posts (describes dataset, public/private splits, and reported low baseline solve rates) \u2014 https://epoch.ai/frontiermath",
+      "Waiwitlikhit et al., \"Trustless Audits without Revealing Data or Models\" (PMLR/ICML 2024) \u2014 protocol for audits with ZKP ideas",
+      "zkLLM: \"Zero Knowledge Proofs for Large Language Models\" (ArXiv 2024) \u2014 demonstrates research applying ZKPs to LLM inference",
+      "Press coverage on evaluation / access trends (examples): Time, The Verge and Business Insider pieces discussing gated model releases, third\u2011party access concerns, and benchmarking controversies"
+    ]
+  }
+}

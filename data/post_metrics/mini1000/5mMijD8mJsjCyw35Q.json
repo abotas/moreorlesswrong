@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "This is a plausible, well-motivated proposal for an alternative school that combines imaginative education, Socratic methods, practical skills and deliberate LLM use. It\u2019s useful to the EA/rationalist community as a small-scale experiment in cultivating better thinking habits and tooling (so modestly valuable as an actionable pilot or template) but it\u2019s not foundational to EA priorities like AI alignment or biosecurity. For general humanity the potential upside is positive (better, more practical education for some children) but the post is local, speculative and hard to scale; even if true it would be an incremental improvement rather than a transformational, society\u2011wide intervention."
+  },
+  "PostRobustness": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "robustness_score": 3,
+    "actionable_feedback": "Top 3 weaknesses you should fix before publishing:\n\n1) No clear theory of change or measurable success criteria. Right now the post lists lots of desirable outputs (creative thinking, cooking, LLM-savvy students) but no concrete way to know if you succeed. Actionable fixes: pick 3 primary outcomes (e.g., transferable problem-solving, self-directed project completion quality, digital-literacy / LLM skill), define observable/measurable indicators for each (performance tasks, validated surveys, rubrics), state a simple pre/post or quasi-experimental pilot design (baseline, endpoint, and a comparator: waitlist, matched class, or historical data), and commit to sample sizes/observation schedules and how you\u2019ll reduce observer bias (trained raters, inter-rater checks). Even a short paragraph summarizing this will make the plan much more credible.\n\n2) Operational, legal, financial and market assumptions are under-specified and optimistic. You\u2019ve described pedagogy and culture but not how the school will be staffed, funded, regulated, or find paying families\u2014this is a common \u201cown-goal\u201d that kills startups. Actionable fixes: add a one-paragraph minimum on (a) target market and value proposition\u2014who are the paying parents and why will they choose this over alternatives, (b) three enrollment/price scenarios and a 2\u20133 year break-even sketch (students, revenue, teacher costs, tech costs), (c) governance/legal form and key regulatory/compliance milestones you must meet to open (licensing, child-safety, accreditation, insurance), and (d) a brief staffing/training plan (teacher:student ratios, what skills you will require, how you will train teachers in Egan+Socratic+LLM use). If you don\u2019t want to include all details in the post, at least say you have (or will produce) these documents and summarize the high-level answers.\n\n3) Heavy reliance on LLMs without addressing safety, equity, and assessment integrity. LLMs are powerful but introduce privacy, hallucination and cheating risks, and require ongoing cost/ops. Actionable fixes: explicitly state LLM policies you will adopt: parental consent and data-privacy rules, where model training/fine-tuning happens (local vs cloud), cost estimates for API/hosting, guardrails for hallucinations (teacher review, verification routines, citation requirements), strategies to prevent misuse for assessments (performance-based tasks instead of text-only essays; in-person demonstrations; teacher-led viva), and equity plans (what happens for families without good home internet / devices). Also sketch teacher training for prompt design and moderation, and a fallback non-LLM mode so the pedagogy isn\u2019t brittle.\n\nMinor suggestion: answering these three points will also tighten the post and make it far more useful to readers who might consider helping or investing time. If you want, turn the three items into explicit questions in the post (\"How would you measure X?\" \"What\u2019s a plausible 3-year budget?\") to elicit targeted feedback.",
+    "improvement_potential": "This feedback targets three central, high-impact gaps the post currently has\u2014no theory of change or measurable outcomes; no operational/financial/regulatory plan; and inadequate treatment of LLM risks and equity. Addressing these would materially increase credibility and reduce obvious \u2018own-goals\u2019 that could sink real-world implementation. The recommendations are concrete and actionable without demanding an enormous expansion of the post. It isn\u2019t a perfect checklist (e.g., could also call out staffing workload, scaling logistics, parent/teacher buy-in strategy, and curriculum coherence), but it covers the most critical omissions and would substantially improve the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Chris Wintergreen' is a recognized figure in the EA/rationalist community or a publicly known author. The name does not match central or well-known EA contributors, speakers, or widely cited authors; it may be a minor or pseudonymous online account with little/no public footprint."
+  },
+  "PostClarity": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "clarity_score": 7,
+    "explanation": "Strengths: Well-structured and easy to scan (clear title, problem/solution framing, numbered differences), concrete examples (course names, specific skills, experiments) and a readable, conversational tone that communicates intent and priorities. Weaknesses: Uses specialized terms and acronyms without explanation (Egan, Building Thinking Classrooms, LW, Sonnet/4o/r1, etc.), some ideas are sketched at different levels of detail (very concrete in places, vague in others), and a few asides/jokes blur the boundary between serious detail and informal commentary. Overall understandable and compelling in broad strokes, but would benefit from brief definitions of key terms and tightening of a few vague logistical/assessment points."
+  },
+  "PostNovelty": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "Most elements are familiar to people who follow education reform and rationality: Egan's imaginative education, Socratic teaching, project-based/self-directed learning, competency/age-flexible progression, life-skills curricula, and curricula like Wolfram/Building Thinking Classrooms have all been discussed. The relatively novel pieces are (a) making Egan the organizing principle for an entire school and packaging a replicable \u2018template\u2019 for scaling it, and (b) explicitly training each student to build and use a personalized LLM that is constrained to employ Egan/Socratic techniques as a core learning tool. For a general audience the mix of these ideas (especially student-owned LLM tutors and a non-subject, life-skills-forward curriculum) will feel more original; for an EA/rationality readership it is mostly an incremental recombination of well-known, discussed approaches."
+  },
+  "PostInferentialSupport": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post lays out a coherent, creative vision and identifies real institutional inertia ('soft edges'); it sensibly combines known pedagogical approaches (Egan, Socratic, project work) and acknowledges practical constraints and the need for pilots. Weaknesses: Much of the argument is exploratory and relies on plausible but untested assumptions (market demand, feasibility of student\u2011trained LLMs, teacher capacity, regulatory/financial scalability). There is almost no empirical evidence or citations showing that the specific mix will produce better outcomes, and the proposed evaluation approach is under-specified. Overall the plan is promising as a hypothesis and design sketch but weakly supported by data or rigorous reasoning about risks and implementation."
+  },
+  "PostExternalValidation": {
+    "post_id": "5mMijD8mJsjCyw35Q",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most factual claims in the post are verifiable and accurate: Kieran Egan\u2019s imaginative-education theory and The Educated Mind exist and are well-documented; Brandon Hendrickson\u2019s ACX/ASTRAL CODExTEN review and related Substack activity are real; Templestowe College publicly advertises a flexible, non\u2011year\u2011level learning model; Peter Liljedahl\u2019s Building Thinking Classrooms and Conrad Wolfram\u2019s Computer\u2011Based Math project are established. Claims about LLMs as powerful educational tools are supported by emerging research showing promise for personalized tutoring, but these findings are early, technology\u2011dependent, and include important limits (accuracy, equity, privacy). The author\u2019s negative generalization about free\u2011for\u2011all self\u2011directed inquiry (\u201cmostly a waste of time\u201d) is contradicted by multiple Big Picture Learning evaluations that report positive outcomes (higher graduation, engagement, internships), so that empirical claim is not well supported. Many other statements are programmatic/plan/opinion rather than empirical claims; where the post makes concrete empirical claims they are either supported by public documents (above) or are plausible but currently speculative (wide deployment of student\u2011trained LLMs, assessment protocols).",
+    "sources": [
+      "Kieran Egan, The Educated Mind (University of Chicago Press, 1997) \u2014 book description and themes (University of Chicago Press).",
+      "Imaginative Education Research Group / IERG \u2014 brief guide to Imaginative Education (IERG website).",
+      "Brandon Hendrickson \u2014 'The book review' / Lost Tools of Learning (Hendrickson) and Astral Codex Ten 2023 book review contest winners (Astral Codex Ten).",
+      "Templestowe College \u2014 Student Wellbeing and Engagement / Flexible Learning Environment description (tc.vic.edu.au).",
+      "Peter Liljedahl \u2014 Building Thinking Classrooms (book and project website; BTC resources).",
+      "Conrad Wolfram \u2014 Computer\u2011Based Math / The Math(s) Fix and computerbasedmath.org (Conrad Wolfram project).",
+      "UNESCO Guidance for Generative AI in Education and Research (2023; updated 2025) \u2014 policy guidance on GenAI use in education.",
+      "Research on LLMs as tutors / intelligent tutoring systems (examples): 'AutoTutor meets Large Language Models' (arXiv, 2024); 'LPITutor' (PeerJ); MDPI study on GPT\u20114 tutoring frameworks \u2014 showing promise but also limitations.",
+      "Big Picture Learning evaluations \u2014 Boston College longitudinal study (2015) and Australian longitudinal study reporting positive outcomes for Big Picture students (Springer / research reports, 2024).",
+      "Coverage and analysis of AI tutoring promises vs. reality: Axios / reporting on AI tutors and K\u201112 adoption (news analysis, 2024)."
+    ]
+  }
+}

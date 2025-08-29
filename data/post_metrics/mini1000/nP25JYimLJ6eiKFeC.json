@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a practical internship posting useful to a small subset of the EA community (people seeking ops/community-management experience and EA organizations that benefit from trained staff). It is not a foundational argument or broadly consequential\u2014its impact is limited to individual career outcomes and modest capacity-building, and it has negligible significance for general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unpaid internship + equity concern (major). The post merely says \u201cunpaid\u201d and \u201cfree room and board\u201d but doesn\u2019t acknowledge the obvious barrier this creates for many applicants (people who can\u2019t afford unpaid work, those with caregiving responsibilities, international candidates who need relocation funds, etc.). Actionable fixes: explain why the role is unpaid; state whether any travel/relocation costs, visa support, or small stipends are available; offer remote/part\u2011time options or signpost external funding sources; or (preferably) consider adding at least a modest stipend and say so. This is a likely \u201cown goal\u201d for an EA audience focused on diversity and access.  \n\n2) Missing practical details that will stop people from applying. Key facts are absent or vague: exact location/address, dates (start/end year), weekly hours and expected workload, concrete learning outcomes or projects, selection criteria, application materials required, who the contact is, and whether the role could lead to paid work or references. Actionable fixes: add a one\u2011line summary with location, start/end dates, hours/week, and whether remote work is possible; list 3\u20135 explicit learning outcomes and example projects; state how applicants will be evaluated; and include a named contact and timeline for decisions. These changes will cut down on back\u2011and\u2011forth and make the post credible to prospective applicants.",
+    "improvement_potential": "The feedback calls out a major, reputationally important omission (an unpaid internship without addressing equity/access), and gives concrete, actionable fixes that are likely to materially improve applicant diversity and uptake. It also sensibly requests a short set of practical details (dates, hours, outcomes, contact) that would make a short announcement much more useful. Deduction from a perfect 10: some of the requested practical details may already be on the linked page (so repeating them in-post is optional), and the feedback could be slightly more concise given reader-time tradeoffs."
+  },
+  "PostAuthorAura": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find evidence that 'CEEALAR' is a recognized figure in the EA/rationalist community or in wider public discourse. The name appears to be a pseudonym/handle with no notable publications, conference appearances, or citations known to me. If you can share links or context (posts, articles, platform), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "clarity_score": 8,
+    "explanation": "Short, well-structured and easy to understand: it states the role, duration, nature of work, compensation (unpaid + room and board), deadline, and links for details. Minor weaknesses: it omits the internship location/setting context for readers unfamiliar with the 'EA Hotel', and gives no quick note on eligibility or start date (presumably covered in the linked page). Overall clear and appropriately concise."
+  },
+  "PostNovelty": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a standard internship/job-ad: shadowing managers, doing small projects, unpaid with room/board. For EA Forum readers the only mildly uncommon element is the specific EA Hotel / CEEALAR context, but the overall idea and structure are familiar. For the general public it\u2019s also routine\u2014internships with mentorship and housing are common\u2014so only slightly more novel due to the EA-specific setting."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "reasoning_quality": 8,
+    "evidence_quality": 5,
+    "overall_support": 7,
+    "explanation": "This is primarily an informational announcement rather than an argumentative post. The structure and claims are clear and internally consistent (who, what, where, when, unpaid but with room/board), and useful links are provided. However, there is little empirical evidence about outcomes, selection criteria, supervision quality, accessibility (e.g. support for those who can't afford unpaid work), or past intern experiences. That limits assessment of how valuable the internship is in practice. Overall, the post is well-presented for its purpose but lacks supporting data that would strengthen confidence in its long-term benefits and equity."
+  },
+  "PostExternalValidation": {
+    "post_id": "nP25JYimLJ6eiKFeC",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major factual claims in the post are supported by primary sources. The CEEALAR internship page explicitly describes a three\u2011month unpaid internship at the EA Hotel with free room and board, shadowing Operations and Community Managers, and an application deadline of \"the 7th of February.\" CEEALAR\u2019s homepage and the UK Charity Commission record confirm the organisation, location (Blackpool) and activities. Minor caveats: the internship page does not show an explicit year for the deadline (so verify the live posting for the current application cycle) and most details come from CEEALAR\u2019s own materials (i.e., primary/organisational sources rather than independent third\u2011party confirmation).",
+    "sources": [
+      "CEEALAR \u2014 Internship (https://www.ceealar.org/internship).",
+      "CEEALAR \u2014 Home / The 'EA Hotel' (https://www.ceealar.org/home).",
+      "Register of Charities \u2014 CENTRE FOR ENABLING EA LEARNING & RESEARCH, Charity No. 1189768 (Charity Commission for England & Wales) (https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5148547).",
+      "EA Forum \u2014 \"Internship at the EA Hotel\" (linkpost to the CEEALAR internship) (https://forum.effectivealtruism.org/posts/nP25JYimLJ6eiKFeC/internship-at-the-ea-hotel)."
+    ]
+  }
+}

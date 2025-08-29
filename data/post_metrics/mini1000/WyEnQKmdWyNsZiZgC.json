@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "value_ea": 5,
+    "value_humanity": 4,
+    "explanation": "This is a useful, practical tool for estimating and communicating the climate benefits of plant-based recipe substitutions using a reputable LCA database. For the EA community it has moderate value \u2014 helpful for designing interventions, institutional procurement changes, and communicating impact, but it is not a foundational theoretical claim or high-leverage discovery. For general humanity it is somewhat valuable: it can support decarbonisation of food choices at institutional and individual levels, but its ultimate impact depends on adoption, behavioural, economic, and contextual constraints (data assumptions like GWP100 and iLUC also limit precision)."
+  },
+  "PostRobustness": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing transparency and user control over major LCA assumptions (system boundary, iLUC, allocation). The post says the database \u2018includes\u2019 stages and iLUC, but doesn\u2019t state which stages the calculator actually uses by default or how co\u2011product allocation is handled. This makes the tool look more precise than it is and will confuse professional users. Actionable fixes: add a short visible \u201cassumptions\u201d panel in the workbook (or the post) that lists included/excluded life\u2011cycle stages (agriculture, processing, packaging, transport, retail, cooking, waste), states whether iLUC is included and how, and documents allocation rules. Ideally add simple toggles to include/exclude iLUC and to switch between common allocation methods, or at minimum provide guidance on how results change if those choices differ.  \n\n2) No discussion or option for different methane/GWP metrics. Using GWP100 by default (if that is what the database uses) materially affects comparisons between ruminant meat and plant foods; alternative metrics (GWP20, GWP*, biogenic carbon treatments) can change interpretation of short\u2011 vs long\u2011term warming. Actionable fixes: explicitly state the GWP/time horizon used, explain implications briefly, and add an option or a small sensitivity output that shows results under at least one alternative (e.g., GWP20 or GWP*). If you can\u2019t implement toggles, add a one\u2011line caveat and an example showing how results shift for a beef\u2192bean swap under different metrics.  \n\n3) Unclear representativeness of categories, functional unit (edible/cooked weight), and uncertainty. Dropdown labels like \u201cplant\u2011based meat\u201d or generic country averages can hide huge variation (processed meat analogues vs whole legumes; raw vs cooked yields; product\u2011specific LCAs). The tool risks giving precise numbers that users may overinterpret. Actionable fixes: (a) show provenance and year for every emission factor in the dropdown and a short confidence/uncertainty indicator (e.g., \u00b1% or low/medium/high), (b) clarify whether values are per kg raw, per kg edible, or per standard portion and whether cooking losses are included, and (c) allow users to supply a custom emissions factor or upload a simple CSV to override defaults. These three changes will greatly reduce user misinterpretation and improve credibility.",
+    "improvement_potential": "The feedback pinpoints core LCA transparency and usability issues (system boundaries, iLUC, allocation, GWP metric, functional unit, uncertainty) that fundamentally affect interpretation of the calculator\u2019s outputs. It\u2019s specific and actionable (add an assumptions panel, toggles or sensitivity outputs, provenance/uncertainty indicators, custom-factor uploads), would prevent serious user misinterpretation, and would materially increase credibility. It stops short of claiming the tool is invalid (so not a 10) but addresses essential mistakes the author should fix."
+  },
+  "PostAuthorAura": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information. 'Gabor' (or G\u00e1bor) is a common name and there is no clear, widely recognized EA/rationalist author or globally famous public figure known solely by that name. Provide a full name or links for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear intro, step-by-step instructions, and a concise methodology. Minor weaknesses: a couple of awkward/technical instructions about Excel Online and copying that could be streamlined, the argument about \"significant emissions reductions\" would be stronger with a brief example or headline numbers, and the methodology section is a bit dense for a general audience."
+  },
+  "PostNovelty": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For an EA Forum audience the core ideas (quantifying food GHGs, replacing animal ingredients with plant alternatives, using LCA/CO2e) are already well-known and many similar calculators/datasets exist, so the post\u2019s novelty is mostly in the specific implementation (Excel Online + Big Climate Database + country-specific data and planned visualizations). For the general educated public this is moderately novel: people are familiar with the headline that plant-based foods emit less, but an accessible, ingredient-level, region-specific recipe calculator is less common and could be new or surprising to many non\u2011specialists."
+  },
+  "PostInferentialSupport": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically straightforward \u2014 using LCA-based CO2e data to estimate recipe emissions and compare animal vs plant ingredients is an appropriate method and the use of The Big Climate Database and country-specific factors are sensible choices. The methodology references accepted practices (GWP100, multiple GHGs, inclusion of life-cycle stages and iLUC), which supports the basic approach. Weaknesses: The post provides no worked examples, validation, uncertainty or sensitivity analysis, nor details about how recipe ingredients are mapped to database items or how plant alternatives are chosen. Important modelling choices (allocation rules, iLUC handling, GWP timescale, treatment of cooking, food waste and regional production variability) are not discussed. The database cited appears credible, but the post does not demonstrate results, compare to other reputable sources, or show independent verification. Overall: a plausible and useful tool in principle, but the claim that it highlights \u201csignificant emissions reductions\u201d is not empirically demonstrated in the post and would be better supported with examples, uncertainty quantification, and validation."
+  },
+  "PostExternalValidation": {
+    "post_id": "WyEnQKmdWyNsZiZgC",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported. The Big Climate Database (Den store klimadatabase) is a real, public dataset produced by CONCITO/2.-0 LCA and documented with a methodology report; the provider\u2019s materials and related 2.-0 LCA pages confirm the database is regionalized, LCA-based and has been updated (v1.2, ~540 foods). The database and its documentation report that emissions are expressed as CO2\u2011equivalents using GWP on a 100\u2011year horizon and that LCA stages (including iLUC modelling) are considered. Independent literature (Poore & Nemecek 2018; Our World in Data) strongly supports the post\u2019s substantive claim that replacing animal-derived ingredients with plant\u2011based alternatives typically yields large emissions reductions. Minor caveats: I could not open the exact PDF link the author gave via the OneDrive/denstoreklimadatabase PDF viewer in this session, but multiple authoritative pages (CONCITO/2.-0 LCA/Salling Group) describe the same methodology elements; some methodological choices (e.g., which AR of IPCC GWP values is used, exact iLUC modelling assumptions) can vary across datasets and introduce uncertainty but do not contradict the author\u2019s main claims. Overall: well-supported but not \u201cexceptionally validated\u201d because some low\u2011level methodological details require checking the precise PDF or dataset release notes for full confirmation.",
+    "sources": [
+      "EA Forum post: \"Recipe Emissions Calculator (Grid to Green)\" by Gabor (Effective Altruism Forum).",
+      "The Big Climate Database (Den store klimadatabase) \u2014 Salling Group description and link to database (The Big Climate Database / denstoreklimadatabase.dk).",
+      "Methodology report - The Big Climate Database (2.-0 LCA / CONCITO) \u2014 project/publication page describing the technical report and authors (2.-0 LCA / lca-net).",
+      "2.-0 LCA blog: \"A bigger and better Climate Database of 540 food items\" (announcing v1.2 with regionalization and iLUC updates).",
+      "Poore J. & Nemecek T., 2018. \"Reducing food's environmental impacts through producers and consumers\" (Science) \u2014 meta-analysis showing animal products generally have higher GHG footprints than plant foods.",
+      "Our World in Data: \"Environmental Impacts of Food Production\" \u2014 visualization and explanation (uses Poore & Nemecek data; notes CO2e and GWP100 use).",
+      "UNFCCC data interface help / documentation \u2014 list of greenhouse gases related to Kyoto/UNFCCC reporting (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3) and use of GWPs.",
+      "ESSD / Copernicus: dataset paper referencing use of GWP-100 (IPCC AR6) and methodological notes on converting gases to CO2e."
+    ]
+  }
+}

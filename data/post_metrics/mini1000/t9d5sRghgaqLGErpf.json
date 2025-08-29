@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is an event announcement for a Plant-Based Universities student camp \u2014 useful to people directly involved in student animal-advocacy/plant-based campaigns but not a novel argument or foundational claim. If true, it could modestly boost campus-level activism (200+ students trained, networking, scaling efforts across Europe), which is relevant to animal-welfare cause areas some in EA care about. If false or canceled, consequences are minor. Overall the post is practical and locally useful but not load-bearing for EA strategy or humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about money, eligibility, and selection \u2014 readers will assume \"free\" means everything is covered unless you say otherwise. State exactly what \"completely free to attend\" covers (registration, meals, accommodation, travel? maximum travel reimbursement per person?), how to apply for financial assistance (deadline, docs needed, whether assistance is guaranteed or competitive, and how decisions are made), and how you verify student status and European eligibility. Actionable change: add a 2\u20133 line FAQ in the post with: what costs are covered, maximum travel reimbursement (or \u201ccase-by-case\u201d), what proof you require, and the timeline for decisions. This avoids applicant confusion and last-minute dropouts.\n\n2) Add concrete logistics and accessibility details \u2014 the post omits essential information many people need to commit. Give the exact location (city/venue in Germany), precise arrival/departure dates and program hours, accommodation style (shared rooms?), dietary policies, health/COVID rules, and a clear contact for accessibility needs. Also include a short Code of Conduct and how to request disability accommodations or early arrival. Actionable change: append 4\u20136 factual lines (location, venue, accommodation type, contact email for accessibility) and link to the CoC.\n\n3) Tone down or support big impact claims and state measurable outcomes \u2014 promising \"10x bigger\" and asserting wins across countries are persuasive but risky without evidence or a follow-up plan. Either provide brief evidence/links for the past wins you mention and a one-paragraph theory of change (how the camp concretely leads to growth), or rephrase to a softer goal (e.g., \"we aim to scale activities and support new groups\") and add 1\u20132 KPIs you\u2019ll track (new groups formed, campaign actions run, volunteers recruited, follow-up support offered). Actionable change: add one sentence with a link to documented past wins and one sentence explaining how the camp feeds into next-year plans and how success will be measured.",
+    "improvement_potential": "The feedback targets real, high-impact omissions: unclear cost/eligibility/selection details (risking no-shows and applicants' wasted time), missing logistics/accessibility info (prevents commitment and may exclude disabled students), and unsupported impact claims (harms credibility). Implementing these changes is actionable and won\u2019t overly bloat the post. It could be improved slightly by also asking the author to clarify the deadline/extension and decision timeline, but overall this feedback fixes the main weaknesses."
+  },
+  "PostAuthorAura": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable person or public profile for the name 'Unknown'; likely a placeholder or pseudonym. Not known within EA/rationalist circles and no detectable public presence."
+  },
+  "PostClarity": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "clarity_score": 8,
+    "explanation": "Overall clear and easy to understand: target audience, dates, broad agenda, and call-to-action are explicit. Well-structured and engaging. Weaknesses: a few promotional/wordy lines (e.g. RSVP note) and minor ambiguities \u2014 the title promises \"financial assistance\" but the post only vaguely says barriers can be reduced (no instructions on how to request support), the exact location in Germany is not given, and the late-deadline wording could be tighter. Fixing those would raise clarity further."
+  },
+  "PostNovelty": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is an event/organisational announcement rather than a new argument or idea. EA Forum readers commonly see campaign updates, student outreach efforts, and scaling plans, so it\u2019s not novel to that audience. To the general public it may be mildly new in specifics (a large, free pan\u2011European student camp with financial support), but the overall concept\u2014activist training for plant\u2011based advocacy\u2014is familiar and not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: the post sets out a plausible causal pathway (gather students, provide training and networking, then scale campaigns) and describes concrete activities and accessibility measures. Weaknesses: it makes substantive claims (community grown to 10 countries, 'wins' in various countries, goal to 10x in 2025\u201326, effectiveness of the camp) without providing specific examples, metrics, or outcome data; there is no evidence from past camps or evaluations showing impact or cost-effectiveness. Overall the claims are believable but weakly supported\u2014appropriate for an event announcement but insufficient if the intent is to demonstrate strong empirical support for major impact claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "t9d5sRghgaqLGErpf",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are supported by reliable sources. The event (Plant\u2011Based Universities Europe Camp) is listed on the campaign\u2019s official sign\u2011up pages with the same dates (Aug 15\u201319, 2025), location (Zeltplatz Alpha One, Hameln, Germany), arrival window, and a July 31 sign\u2011up cutoff; the organisers promoted the camp as free and limited to students at European universities. The organisers\u2019 site also advertises 200+ / 232+ attendees and describes workshops (press, social media, mobilisation, negotiation, outreach), yoga/meditation, and accessibility/financial support. Independent reporting and the campaign\u2019s press pages verify many of the \u201cwins\u201d cited (e.g., University of Stirling and Cambridge student votes) and document expansion to several European countries (Austria, Netherlands, Sweden, Switzerland, Germany, UK). Weaknesses: the numeric claims (exact attendee counts; \u201c200+ students\u201d) come from the organiser\u2019s dynamic sign\u2011up pages and vary between pages (163 / 232 / 244 seen), and the user\u2019s claim that applications are still being accepted after the July 31 deadline can\u2019t be independently verified after that date beyond the organisers\u2019 live sign\u2011up behavior (the site shows a July 31 deadline but sign\u2011up forms/RSVP counters can remain active or be extended). Overall, most core empirical claims are well supported by the campaign\u2019s official pages and independent press coverage, but a few time\u2011sensitive details (late acceptance of applications; exact final headcount) remain uncertain without direct confirmation from organisers.",
+    "sources": [
+      "Plant\u2011Based Universities \u2014 Europe Camp sign\u2011up (act.plantbaseduniversities.org / Plant\u2011Based Universities Europe Camp 2025 sign\u2011up page)",
+      "Plant\u2011Based Universities \u2014 Europe Camp page & FAQs (plantbaseduniversities.org/europe-camp/faqs)",
+      "Plant\u2011Based Universities \u2014 About / event attendee counts (plantbaseduniversities.org/about and join page)",
+      "Plant\u2011Based Universities \u2014 University of Graz Students\u2019 Union Announces Support (plantbaseduniversities.org post)",
+      "BBC \u2014 \"Stirling University Students' Union votes to go 100% vegan\" (17 Nov 2022)",
+      "The Guardian \u2014 \"Cambridge University students vote for completely vegan menus\" (21 Feb 2023)",
+      "Wikipedia \u2014 Plant\u2011Based Universities (overview of campaign, list of victories and countries) "
+    ]
+  }
+}

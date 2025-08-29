@@ -1,0 +1,61 @@
+{
+  "PostValue": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "This is a well-argued, practically useful contribution to debates about AI risk messaging and credibility. It is not technically foundational to alignment research, but it is load-bearing for strategy: how the EA/AI\u2011safety community communicates uncertainty, defuses legitimate pushback, and defends policy proposals. If the post\u2019s diagnosis (that most \u2018crying wolf\u2019 charges are overstated, but some tactical mistakes increase vulnerability) is right, it meaningfully affects advocacy, funding priorities, and regulatory appetite. For the general public it\u2019s moderately important because it shapes whether societies will take appropriate precautionary measures \u2014 but it doesn't directly change the scientific or empirical stakes of AI risk itself."
+  },
+  "PostAuthorAura": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no record of a prominent EA/rationalist figure using the handle 'sarahhw' up to my 2024\u201106 cutoff. The name/handle does not appear among well-known authors, speakers, or widely cited contributors in EA/rationalist circles, nor does it correspond to a publicly known figure more broadly. If you can provide a link or more context (platform, real name, sample work), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "clarity_score": 7,
+    "explanation": "The post is overall clear and well structured: it states a central thesis, divides the discussion into two logical parts, and supports claims with concrete historical examples, citations and links. Strengths include readable prose, good signposting, and a balanced tone that acknowledges counterarguments. Weaknesses are verbosity and occasional digressions (personal asides, images and long anecdotal passages) that dilute the core argument; a few key terms (e.g. what exactly counts as \u201ccrying wolf\u201d) could be defined more precisely. Tightening the prose, trimming side stories, and briefly summarizing the main takeaways in a short conclusion would improve conciseness and argumentative punch."
+  },
+  "PostNovelty": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For an EA/longtermist audience this is largely familiar territory: the piece recycles well-known rebuttals to the 'crying wolf' line (Y2K, LHC, historical tech panics), the distinction between policy caution and hard timeline predictions, and communication advice (emphasise uncertainty, avoid low-threshold regs). Its mildly original contributions are a small audit-style check for concrete debunked predictions, a Twitter-sourcing attempt, and the specific recommendation to prioritise planning for short timelines \u2014 useful refinements but not fundamentally novel. For the general educated public it's somewhat more novel because of the structured comparison across historical cases and the emphasis that many alarmist accusations lack cited, falsified predictions, but overall the core claims and recommendations are still mainstream in contemporary AI-safety debates."
+  },
+  "PostInferentialSupport": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "reasoning_quality": 7,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The piece is well-structured and makes a clear distinction between two versions of the \u201ccrying wolf\u201d claim (historical analogies vs. falsified predictions). It marshals relevant historical examples, points out category errors in common comparisons, and candidly acknowledges uncertainty and limits. Weaknesses: The argument relies heavily on selective examples, informal searches, and a small-scale Twitter probe rather than a systematic audit; it sometimes infers general conclusions from absences of evidence (a classic weak negative proof). Some important counterexamples and broader empirical quantification (e.g., systematically cataloguing prominent failed timeline claims or policy proposals) are missing, so the conclusion is plausible but not definitively established."
+  },
+  "PostExternalValidation": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s empirical claims are well-supported. Key factual claims \u2014 Victorian \u201crailway madness\u201d panic, Edison\u2019s War-of-the\u2011Currents animal electrocutions (Topsy), LHC safety reviews and lawsuits, extensive Y2K mitigation/cooperation, documented nuclear \"close calls\", OpenAI\u2019s staged GPT\u20112 release, the 2023 FLI pause letter and CAIS (Center for AI Safety) statement, Geoffrey Hinton\u2019s 5\u201320 year comment, and Epoch.ai\u2019s tracking of models above ~10^23 FLOP \u2014 are all verifiable in reliable sources. Minor imprecisions / limitations: (a) the exact numerical claim about the AI Impacts / AI Impacts\u2011style survey (the author cites \u201c53%\u201d) is close to but not exactly mirrored in the public AI Impacts (Grace et al.) dataset/analysis (the paper shows substantial support for the intelligence\u2011explosion idea in the 41\u201360%/about\u2011even\u2011chance bins and related statistics; precise phrasing matters); (b) I could not immediately open the specific The Future Society PDF the author cites (their taxonomy/thresholds are consistent with broader policy debates about FLOP thresholds, and the EU/US policy documents do use similar thresholds); (c) some rhetorical comparisons (e.g., \u201cdelayed AC adoption by over fifty years\u201d) are interpretive rather than strictly empirical. Taken together, the post is \u201cwell\u2011supported\u201d (score 8): most major empirical claims check out against trustworthy sources, with a few small quantitative or sourcing caveats.",
+    "sources": [
+      "Amy Milne\u2011Smith, 'Shattered Minds: Madmen on the Railways, 1860\u201380', Journal of Victorian Culture (2016).",
+      "Atlas Obscura, 'The Victorian Belief That a Train Ride Could Cause Instant Insanity' (article on 'railway madness').",
+      "Wired / historical coverage, 'Jan. 4, 1903: Edison Fries an Elephant to Prove His Point' (Topsy / Edison electrocutions) and Wikipedia 'Topsy (elephant)'.",
+      "CERN, 'The Safety of the LHC' (LSAG summary) and arXiv:0806.3414 'Review of the Safety of LHC Collisions' (Ellis et al., 2008).",
+      "Union of Concerned Scientists, 'Close Calls with Nuclear Weapons' (2015) and reporting on nuclear near\u2011misses (Able Archer, Stanislav Petrov etc.).",
+      "Wikipedia / historical summaries for Y2K; International Y2K Cooperation Center (IY2KCC) / UN documentation on global Y2K coordination.",
+      "OpenAI blog, 'GPT\u20112: 6\u2011month follow\u2011up' and 'GPT\u20112: 1.5B release' (OpenAI staged\u2011release and later full release sequence).",
+      "The Future of Life Institute, 'Pause Giant AI Experiments: An Open Letter' (March 2023).",
+      "Center for AI Safety (CAIS), 'Statement on AI Risk' (May 30, 2023) / aistatement.com (text and signatories).",
+      "TIME, 'The Only Way to Deal With the Threat From AI? Shut It Down' / Eliezer Yudkowsky TIME piece (summary of his position).",
+      "Public reporting and interviews (e.g., Business Insider, CNBC) and Hinton\u2019s public comments showing his ~5\u201320 year remark (May 2023) and subsequent timeline statements.",
+      "Epoch AI, 'Tracking Large\u2011Scale AI Models' (Apr 5, 2024) \u2014 dataset and explanation that many models exceed ~10^23 FLOP and model list/estimates (includes Llama 2 estimates).",
+      "EU AI Act / Commission guidance referencing FLOP thresholds for GPAI (discussion of 10^23\u201310^25 FLOP thresholds used in policy discussions).",
+      "Katja Grace et al. (AI Impacts), 'Thousands of AI Authors on the Future of AI' (arXiv:2401.02843 / Jan 2024) \u2014 large\u2011survey results about expert beliefs (intelligence\u2011explosion / extinction\u2011risk related statistics).",
+      "New York Times / DealBook Summit program notes (NYT DealBook Summit panel listing including Sarah Guo; podcast video available).",
+      "Epoch / NVIDIA technical notes on Llama2 training FLOP calculations (public technical writeups used to estimate training compute)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "eas9hGhARncJ4a4iu",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Define your terms and set an audit standard. The piece hinges on what counts as \u201ccrying wolf\u201d, a \u201csince-debunked prediction\u201d, and an \u201cexistential risk\u201d, but you don\u2019t operationalise those terms. Readers will reasonably disagree about whether a regulatory call or a FLOP threshold is equivalent to a falsified catastrophic prediction. Actionable fix: add short, explicit definitions (e.g. what counts as a falsified prediction \u2014 public claim + date + specific outcome by X date) and briefly describe the methodology you\u2019d use to find examples (sources searched, time window, inclusion criteria). This makes your negative claim falsifiable and prevents nitpicky pushback.  \n\n2) Fix the methodological gaps / avoid relying on anecdotes. Large parts of the post (historical analogies, \u201cTwitter experiment\u201d) are interesting but methodologically weak: selective examples, no systematic search, and a biased social-media sample. Actionable fix: either (a) substantially shorten the historical section and explicitly acknowledge it\u2019s illustrative rather than comprehensive, or (b) run a small, reproducible audit of prominent public statements (e.g. collect N high-profile pieces/quotes that make timeline claims or catastrophic predictions, record dates and specificity, then assess outcomes). At minimum, state the limits of your Twitter-sampling approach clearly so you don\u2019t overclaim.  \n\n3) Remove or qualify contradictory timeline signalling. You repeatedly argue safety advocates haven\u2019t \u201ccried wolf\u201d, but then state you think takeover-capable AI is \u201cmore likely than not\u201d within ten years and that failure to see such an outcome by then would justify calling it crying wolf. That undercuts your neutrality and invites the exact criticism you\u2019re trying to refute. Actionable fix: either drop the personal short-timeline estimate from the main argument, or move it to a clearly labelled personal-belief box and explain why your messaging recommendations still hold regardless of your private timeline (e.g. how to communicate uncertainty without losing credibility).",
+    "improvement_potential": "This feedback targets three substantive weaknesses: ambiguous key terms, weak/anon anecdotal methodology, and a rhetorical contradiction (the author\u2019s private short-timeline undermines their claim of \u2018no crying wolf\u2019). Fixing these would materially improve credibility and defensibility without changing the piece\u2019s core thesis \u2014 it prevents embarrassing nitpicks and overclaiming. The advice is practical (definitions, disclose limits or run a small audit, move personal timeline out of the main claim) and would reduce the chance readers weaponize those faults."
+  }
+}

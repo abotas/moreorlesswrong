@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "This is a well-written pedagogical critique about how the one-shot Prisoner\u2019s Dilemma can be misleading when used as a universal story about human behaviour. Its main value is corrective: it helps avoid a pessimistic, oversimplified narrative and encourages attention to iteration, institutions, and trust. That matters for public discourse, teaching, and some institutional design choices (so it\u2019s somewhat useful to EA/rationalist communities who care about modelling cooperation and narratives), but it isn\u2019t a load\u2011bearing or novel technical contribution for major EA decisions (e.g. AI alignment, longtermist prioritization). For general humanity it\u2019s a modestly useful reminder with limited direct impact on large-scale outcomes unless the misapplied story was driving policy or widespread social norms."
+  },
+  "PostRobustness": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstating social impact without evidence \u2014 tone down the claim that teaching the one\u2011shot Prisoner\u2019s Dilemma risks changing society\u2019s moral norms, or back it with references. You already acknowledge a countercomment that most people aren\u2019t influenced; either foreground that caveat or add empirical citations on framing effects and belief change (or experiments showing what people learn from PD exercises). Actionable edit: replace strong claims about societal corrosion with a sentence like \u201cThis could plausibly influence some audiences; however, the evidence on curricula->behavior is mixed. See [experimental literature / framing studies].\u201d\n\n2) Mischaracterising \u201crationality\u201d and ignoring alternative preference models \u2014 the post treats game\u2011theoretic rationality as synonymous with narrow selfishness, which is a strawman. Modern game theory easily models other\u2011regarding preferences (Fehr & Schmidt 1999; Rabin 1993), reputation/signalling, and mechanism design to enforce cooperation. Actionable edits: add a short paragraph clarifying that (a) \u2018rationality\u2019 in models is a modelling assumption, (b) many models incorporate social preferences and institutions, and (c) PD is a useful abstraction rather than a claim about human nature. Cite a couple of accessible references (e.g. Fehr & Schmidt on inequity aversion; Fehr & G\u00e4chter on punishment/reward; Berg/Dickhaut/McCabe on trust games).\n\n3) Overlooked real\u2011world cases where one\u2011shot PD is relevant and PD\u2019s pedagogical value \u2014 you lean strongly to discarding the one\u2011shot PD, but you don\u2019t acknowledge contexts where it still matters (anonymous online markets, certain market failures, or deliberately single\u2011encounter transactions) nor explain why PD remains a useful teaching tool despite limitations. Actionable edits: include 1\u20132 brief examples where one\u2011shot incentives do map well to reality, and add a short paragraph conceding that PD\u2019s value as a clear, simple illustration (a hook) is independent of how often the strict assumptions hold. This will make your critique more balanced and avoid an apparent own\u2011goal of dismissing a useful heuristic without nuance.",
+    "improvement_potential": "The three points identify substantive, actionable weaknesses: overstating societal impact without evidence, a conceptual own\u2011goal conflating formal \u2018rationality\u2019 with narrow selfishness (ignoring social\u2011preference models, signalling, mechanism design), and failing to acknowledge contexts where the one\u2011shot PD legitimately applies or why it\u2019s pedagogically useful. Fixing these would materially strengthen the post without major rewriting and would avoid embarrassing mischaracterisations."
+  },
+  "PostAuthorAura": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Appears to be a pseudonymous/niche author with a small presence in EA/rationalist forums (occasional posts or comments). Not a widely cited or institutional figure within EA, and has essentially no recognizable public profile outside those communities."
+  },
+  "PostClarity": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, a logical progression (constraints \u2192 iteration \u2192 rationality \u2192 consequences), concrete examples (Axelrod, iterated PD, societal trust) and useful links. The main point \u2014 one-shot Prisoner\u2019s Dilemma is a provocative but potentially misleading pedagogical hook and iterated/real-world factors matter \u2014 is communicated effectively. Weaknesses: occasional repetition and rhetorical flourishes, many images/links that slightly clutter flow, and the piece could be tightened for greater conciseness."
+  },
+  "PostNovelty": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post is a synthesis of well\u2011known critiques: the one\u2011shot Prisoner\u2019s Dilemma is a stylised toy, iterated PD and tit\u2011for\u2011tat explain widespread cooperation (Axelrod), institutions \u2018outsource\u2019 trust, and stories shape social norms (Harari/Bregman). EA/Forum readers familiar with game theory and longtermist thinking will find little new here. The only modestly original angle is emphasising the pedagogical/societal danger of presenting the one\u2011shot PD in isolation (how framing may foster cynicism) and advocating a broader menu of games as a corrective \u2014 a useful but not especially novel proposal outside of being a concise, public\u2011facing synthesis."
+  },
+  "PostInferentialSupport": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is logically structured, accurately identifies key limitations of the one\u2011shot Prisoner\u2019s Dilemma (missing constraints, iteration, narrow definition of rationality), and correctly invokes established results (iterated PD, Axelrod\u2019s tournaments) to show how cooperation can be rational. It also usefully highlights institutional enforcement and social mechanisms that change payoffs. Weaknesses: Several claims are speculative or overgeneralised \u2014 e.g. that teaching the one\u2011shot PD risks corroding social trust \u2014 without empirical support. Evidence is a mix of classic simulation results, popular books, and anecdote/Reddit comments rather than systematic experimental or observational studies. The post would be stronger with citations to behavioural economics/lab experiments, field studies of cooperation, and work measuring how narratives or pedagogy affect social behaviour."
+  },
+  "PostExternalValidation": {
+    "post_id": "c2SZAznPYmHdiv5en",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s central empirical claims are well supported by standard game\u2011theory theory and experimental literature. 1) The one\u2011shot Prisoner\u2019s Dilemma having mutual defection as the Nash equilibrium is a textbook fact. 2) The iterated Prisoner\u2019s Dilemma can support sustained cooperation (Axelrod\u2019s tournaments; folk\u2011theorem results) and tit\u2011for\u2011tat performed very well in early tournaments. 3) Institutions and legal/credit systems reduce the incidence of pure one\u2011shot dilemmas by creating enforcement, reputation and information mechanisms. 4) Laboratory experiments show that anonymity, framing and onymity/reputation strongly affect cooperation (so \u201chow we frame negotiations matters\u201d is empirically supported). Weaknesses: the claim that we \u201cvery rarely\u201d encounter genuine one\u2011shot PDs in the real world is plausible and consistent with institutional/trust literature but is qualitative and not precisely quantified in the post; the societal/psychological consequences of teaching the one\u2011shot PD (e.g., broad cultural corrosion of trust) are plausible but largely speculative and not backed by direct empirical studies cited in the post. Overall: the technical/game\u2011theoretic claims are well supported; broader social claims are reasonable but more inferential and would benefit from direct empirical studies.",
+    "sources": [
+      "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books. (Axelrod\u2019s tournaments and tit\u2011for\u2011tat results).",
+      "Wikipedia: Prisoner's dilemma (entry summarizing one\u2011shot game and Nash equilibrium).",
+      "Maskin, E., & Fudenberg, D. (1986). The Folk Theorem in Repeated Games with Discounting or with Incomplete Information. Econometrica (formal results on cooperation in repeated games).",
+      "World Bank, Doing Business \u2013 Getting Credit / 'Why it matters' (documentation showing legal rights, credit information and enforcement increase lending and rely on institutions).",
+      "Harari, Y. N., Sapiens: A Brief History of Humankind (discussion/quote about trust in the future and credit enabling economic growth over the last ~500 years).",
+      "Wang, Z., Jusup, M., Wang, R.\u2011W., et al. (2017). Onymity promotes cooperation in social dilemma experiments. Science Advances (experimental evidence that reducing anonymity increases cooperation).",
+      "Berg, J., Dickhaut, J., & McCabe, K. (1995). Trust, Reciprocity and Social History. Games and Economic Behavior (the trust/investment game and experimental evidence that people display trust/trustworthiness beyond selfish Nash predictions).",
+      "Investopedia: 'What Is the Prisoner's Dilemma and How Does It Work?' (concise summary of the canonical PD as used in teaching)."
+    ]
+  }
+}

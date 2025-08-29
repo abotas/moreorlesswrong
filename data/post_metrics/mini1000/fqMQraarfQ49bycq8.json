@@ -1,0 +1,60 @@
+{
+  "PostValue": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "value_ea": 7,
+    "value_humanity": 8,
+    "explanation": "This is a high\u2011stakes, broad aggregation of allegations about policies that could plausibly cause very large harms (millions of excess deaths via foreign\u2011aid and vaccination cuts, undermining medical research and global institutions, plus authoritarian and rule\u2011of\u2011law risks). For the EA community it\u2019s practically important because it bears directly on global health impacts, funding priorities, political advocacy, and the safety of institutions EAs rely on \u2014 it isn\u2019t a foundational theoretical paper but is load\u2011bearing for short\u2011to\u2011medium term policy and voting choices. For general humanity the potential scale of harm (large numbers of deaths, weakened global public goods, erosion of democracy) makes it highly important. Caveats: it\u2019s an opinion/persuasion piece rather than original empirical research, and many linked claims will be debated or require careful verification, so its immediate epistemic weight should be tempered by further fact\u2011checking."
+  },
+  "PostRobustness": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstated causal claims and large numeric extrapolations \u2014 hedge your language and show the counterfactuals. You repeatedly assert that Trump\u2019s policies \u201cwill kill millions\u201d (PEPFAR/GAVI cuts, vaccine/mRNA funding, NIH changes). Those claims hinge on strong assumptions (permanence of cuts, no replacement funding, linear scaling from program budget to lives saved). To fix: pick 1\u20132 headline estimates you want to keep, show the back-of-envelope model and key assumptions (time horizon, percent-reduction in coverage, elasticity of deaths to spending), and present a plausible range with sensitivity analysis (best/central/worst cases). Replace definitive language (\u201cwill kill X\u201d) with calibrated phrasing (\u201ccould plausibly lead to X\u2013Y excess deaths under assumptions A\u2013C\u201d). This will make the piece far more credible and defensible to skeptical readers. \n\n2) Clean up attribution and improve sourcing. The post conflates actions by the president, actions by specific appointees (e.g., RFK Jr.), congressional choices, and effects driven by international responses. It also relies at times on secondary sources, blog posts, tweets, and Wikipedia fragments. To fix: (a) explicitly label whether a fact is an executive order, a budget proposal, a congressional appropriations decision, or an action by an administration appointee; (b) when making a sweeping policy claim, link to the primary document (text of the EO, OMB budget tables, GAO/CBO/peer-reviewed studies); (c) replace or supplement weaker citations with peer-reviewed research or official government reports when you base large claims on them. Where attribution is uncertain, say so \u2014 e.g., \u201cAdministration X proposed/implemented Y; Congress can/has reversed it\u201d \u2014 so opponents can\u2019t cheaply dismiss the whole post as sloppy. \n\n3) Tone and structure for persuasion \u2014 reduce hyperbole and add brief, targeted rebuttals to plausible defenses. The piece aims to persuade Trump supporters, but highly moralizing language (\u201clost part of their soul,\u201d \u201cworst president in history,\u201d repeated invective) will alienate the fence-sitters you want to reach. To fix: trim inflammatory adjectives, lead each major section with a one-sentence claim followed by 2\u20133 pieces of tight evidence, and add a short \u201cMost plausible counterarguments\u201d paragraph per section (1\u20132 bullets) with a concise rebuttal. That both shortens the post and increases persuasive power for skeptical or undecided readers.",
+    "improvement_potential": "The feedback hits the three biggest weaknesses: overstated causal claims/numeric extrapolations, sloppy attribution/sourcing, and counterproductive tone for persuasion. Fixing these would materially improve credibility and make the piece much harder to dismiss; it also surfaces obvious \"own goals\" (e.g., definitive death counts without transparent assumptions, citing tweets/Wikipedia as primary evidence, moralizing language) the author would be embarrassed about. Implementing the suggestions (back-of-envelope models with ranges, labeling actions vs. proposals, swapping in primary sources, and toning/mirroring plausible defenses) would produce critical improvements without necessarily bloating the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "author_fame_ea": 3,
+    "author_fame_humanity": 1,
+    "explanation": "Pseudonymous/niche online author with a small or occasional presence in EA/rationalist spaces rather than a well-known figure; not a frequent speaker or central community leader and has no notable mainstream/global visibility. Identification is uncertain due to pseudonymity."
+  },
+  "PostClarity": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "clarity_score": 7,
+    "explanation": "The post is well\u2011structured and highly signposted (numbered sections, headings, bullets, and many supporting links), which makes it easy to navigate and understand the author's main claims. Weaknesses are excessive length, repetition, and emotionally charged language that sometimes leaps from evidence to very large causal claims without tightly stated methods or qualifiers; that reduces conciseness and slightly weakens argumentative precision even though the overall argument is readable and coherent."
+  },
+  "PostNovelty": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "Most of the post\u2019s claims are aggregations of widely reported critiques rather than new arguments. For an EA/readership familiar with global health, longtermist numbers, and political risks, the piece\u2019s core moves \u2014 stressing PEPFAR/GAVI cuts, mRNA research funding effects, and authoritarian/coup risks \u2014 will feel familiar, though the emphatic framing (tens of millions of deaths) and tying together animal welfare, tariffs on poor countries, and crypto corruption into a single moral indictment is a somewhat distinctive syntheses rather than a novel theory. For the general public almost everything here (coup claims, aid/vaccine cuts, immigration/tariff criticism, corruption) has been prominent in mainstream coverage, so the post is largely unoriginal to that audience."
+  },
+  "PostInferentialSupport": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well\u2011structured, addresses many counterarguments, and marshals concrete, varied examples (PEPFAR/foreign\u2011aid cuts, vaccine funding changes, Jan\u20116/fake electors, tariffs, deportations) to support its central claim. It often links to primary reports and mainstream journalism and cites relevant literature on trade and aid. Weaknesses: Several key causal leaps are asserted with insufficient modeling or caveats (e.g., precise \u2018\u2018millions of deaths\u2019\u2019 estimates from aid/vaccine changes), some sources are media/blog/secondary or non\u2011peer\u2011reviewed, and the author sometimes overstates or universalizes contested interpretations (e.g., \u2018\u2018declared war on vaccines\u2019\u2019). Evidence is mixed in quality and selective in places, so while the overall case that the administration has many harmful policies is well supported qualitatively, the quantitative catastrophe claims are more speculative than rigorously demonstrated."
+  },
+  "PostExternalValidation": {
+    "post_id": "fqMQraarfQ49bycq8",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major empirical claims are supported by reputable reporting and peer\u2011reviewed modelling. Independent sources confirm: a White House foreign\u2011aid freeze and large USAID/PEPFAR disruptions (KFF, PEPFAR, UNAIDS); a Lancet/UCLA modelling paper finding tens of millions of lives saved historically by USAID and projecting millions of excess deaths if funding is cut; HHS/BARDA cancellations of mRNA grants and a $766M Moderna contract; the U.S. announcement/steps to leave WHO; major cuts/layoffs at Voice of America; sharp tariff moves that hit small economies (e.g., Lesotho); large ICE interior enforcement ramps and high\u2011profile deportation lawsuits (including children with cancer); and the $TRUMP memecoin that produced large trading fees and regulatory/ethics scrutiny. Where the post is weakest: some phrasing is rhetorical/exaggerated (e.g., \u201cmade billions personally\u201d from crypto \u2014 reporting shows hundreds of millions in fees/profits for Trump\u2011owned entities and very large token valuations but precise personal take is disputed/unclear); the alleged \u201c3,000 deportations per day\u201d figure reflects reported internal targets and media accounts but the DOJ later denied a formal published quota; many death\u2011toll projections derive from modeling with assumptions (Lancet/UCLA/UNAIDS) and so have uncertainty even if the direction and scale of harm is supported. Overall: strong factual basis for most load\u2011bearing empirical claims, with some overstatements and model uncertainty.",
+    "sources": [
+      "KFF - The Trump Administration's Foreign Aid Review: Status of PEPFAR (Feb 2025)",
+      "PEPFAR Impact Tracker / PEPFAR: Latest Global Results (Dec 2024) and PEPFAR analysis (pepfarreport.org)",
+      "The Lancet / UCLA\u2011linked study (July 1, 2025) 'Evaluating the impact of two decades of USAID interventions...' \u2014 finds \u224891\u201392M lives averted 2001\u20132021 and projects ~14M excess deaths by 2030 if cuts persist",
+      "STAT News \u2014 reporting on RFK Jr. / HHS terminating ~22 BARDA mRNA grants / ~ $500M moves (Helen Branswell, Aug 2025)",
+      "Associated Press / Los Angeles Times / NPR reporting on HHS cancellation of a $766M Moderna bird\u2011flu contract (May 2025)",
+      "WHO / Our World in Data / UNICEF \u2014 global immunization study: \u2248154 million lives saved by vaccines over 50 years (Lancet/WHO release, 2024)",
+      "Gavi (Vaccine Alliance) annual materials and contemporary reporting (Gavi press release; NPR coverage of U.S. funding cuts, 2025)",
+      "U.S. Bureau of Economic Analysis (BEA) \u2014 GDP releases (Q1 2025 & Q2 2025: Q1 \u2248 -0.5% annualized; Q2 \u2248 +3.0% advance estimate) (BEA, July 30, 2025)",
+      "Jan. 6 Select Committee Final Report and contemporary DOJ/indictments reporting \u2014 documentation of fake\u2011electors, pressure on state officials, and actions creating the Jan. 6 crisis (Select Committee final report; AP/NYT coverage)",
+      "KFF / AP / Reuters reporting on the January 20, 2025 foreign\u2011aid freeze and subsequent court challenges (Aug 2025 reporting on appeals / injunctions)",
+      "The Guardian / RSF / NPR reporting on mass suspensions/layoffs at Voice of America and risks to visa\u2011holding journalists (Mar\u2013May 2025)",
+      "Reuters / BBC / News24 / Africanews reporting on Lesotho declaring a state of disaster after U.S. tariff actions (July 2025)",
+      "Multiple outlets on ICE enforcement: Washington Post / Reuters / Boston Globe coverage of internal arrest targets, and DOJ filings denying a formal 3,000/day policy (2025 coverage)",
+      "Financial Times / Reuters / Congressional press on $TRUMP memecoin: FT analyses of trading fees/proceeds and House Democrat inquiries (March\u2013May 2025)",
+      "CBS / Washington Post / CNBC reporting on firing of Bureau of Labor Statistics Commissioner Erika McEntarfer after a weak jobs report (Aug 2025)"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "Moderately important for the EA/AI community: ARC-AGI-2 (and Chollet\u2019s framing) is a useful signal and a research compass for few\u2011shot reasoning and AGI-relevant capabilities, so adoption and results could influence model development, capability evaluations, and some safety thinking. It is not foundational \u2014 benchmarks can be gamed, don\u2019t prove AGI, and are only one input among many for forecasting and policy \u2014 so its truth/claims are not critical to most core EA conclusions. For general humanity the post is of minor interest: it matters chiefly to AI researchers and stakeholders, and only becomes much more important if the benchmark becomes a widely predictive indicator of dangerous capabilities or is used as a de facto standard for deployment decisions."
+  },
+  "PostRobustness": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No summary or clear takeaways \u2014 add a 2\u20134 bullet TL;DR that tells readers the talk\u2019s main claims and whether Chollet advances any novel arguments. Include 2\u20133 timestamps (e.g. intro / what ARC\u2011AGI\u20112 changes / scoring / ARC\u2011AGI\u20113 plans) so readers can jump to the parts that matter.\n\n2) Missing specifics about what actually changed in ARC\u2011AGI\u2192ARC\u2011AGI\u20112 and how scoring/evaluation works \u2014 the post\u2019s \"raises the bar\" claim is vague. Briefly note concrete differences (dataset size/format, difficulty, human baseline, evaluation protocol, allowed model access / test leakage protections) or link to the ARC\u2011AGI\u20112 spec/leaderboard. Readers need this to judge how informative the benchmark is as a progress signal.\n\n3) No engagement with obvious limitations or counterarguments \u2014 add a short paragraph flagging major failure modes (Goodharting/benchmark gaming, overfitting to the task distribution, adversarial examples, tool use vs reasoning confounds) and why high benchmark scores still wouldn\u2019t prove AGI. That prevents the post from reading as uncritical promotion and makes it more useful for the EA audience.",
+    "improvement_potential": "The feedback identifies important omissions that reduce the post\u2019s usefulness to an EA audience: no TL;DR or timestamps, no concrete details about what changed in ARC\u2011AGI\u20112 or how scoring works, and no discussion of obvious failure modes. These are actionable, high-value fixes that wouldn\u2019t need a long rewrite and would materially improve readers\u2019 ability to judge the benchmark\u2019s significance. It\u2019s not scoring a fatal factual error, so not a 9\u201310, but it\u2019s a critical and practical set of improvements the author should make."
+  },
+  "PostAuthorAura": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can\u2019t find evidence that a writer known as \u201cYarrow\ud83d\udd38\u201d is a recognized figure in the EA/rationalist scene or more widely. The handle appears to be a pseudonym with little or no visible public footprint, citations, or appearances at major community venues, so they appear unknown both within EA and globally."
+  },
+  "PostClarity": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "clarity_score": 8,
+    "explanation": "The post is clear, concise, and easy to understand: title, short summary, links and the video are all provided. It communicates the main point (ARC\u2011AGI-2 exists, is harder, and is not by itself proof of AGI) succinctly. Weaknesses: it\u2019s light on detail\u2014no summary of the talk\u2019s key arguments or timestamps, \u201cthis year\u201d is ambiguous relative to the post date, and a bit more context about ARC/why it matters would improve usefulness."
+  },
+  "PostNovelty": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This post is primarily an informational summary/announcement of Fran\u00e7ois Chollet's talk and the ARC-AGI-2 (and planned ARC-AGI-3) benchmarks. For EA Forum readers \u2014 who are likely already aware of ARC, Chollet, and debates about benchmarks vs. AGI \u2014 the content is not conceptually new (hence a low score). For the general public it has modest novelty because many people won't have heard of ARC-AGI or the specific timeline/details, but the core ideas (benchmarks as incremental progress indicators, not proofs of AGI) are not original or surprising."
+  },
+  "PostInferentialSupport": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post is primarily a descriptive summary of a talk and benchmark announcement and makes modest, cautious claims (e.g., that ARC-AGI-2 is meant to measure incremental progress and that high scores do not prove AGI). Those points are logically sensible but not developed or defended with argumentation about why the benchmark is a good proxy for progress. Empirical evidence is weak: the post offers no performance data, validation studies, benchmark design details, or comparisons to alternative measures. Overall the thesis is plausible but under-supported by evidence and detailed reasoning."
+  },
+  "PostExternalValidation": {
+    "post_id": "JxZCy342Cw9NqSAnR",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the EA Forum post are well supported by primary sources. Fran\u00e7ois Chollet created the original ARC (ARC\u2011AGI/ARC\u2011AGI\u20111) in 2019 (Chollet 2019 paper), ARC\u2011AGI\u20112 was announced/launched in March 2025 and is documented by the Arc Prize site and an arXiv paper describing ARC\u2011AGI\u20112 (May 2025); news coverage (TechCrunch, The Atlantic) and launch transcripts/videos confirm Chollet discussed ARC\u2011AGI\u20112 and an upcoming ARC\u2011AGI\u20113. ARC\u2011AGI\u20113 is described on the Arc Prize site as in development with a target launch in 2026. The only minor discrepancy is a small difference in reported launch day (some press pieces cite Mar 24, 2025; the ARC Prize competition page lists Mar 26, 2025 as the competition/launch key date), but this does not materially affect the post\u2019s claims. Overall the post\u2019s empirical statements are accurate and verifiable.",
+    "sources": [
+      "Fran\u00e7ois Chollet, \"On the Measure of Intelligence\", arXiv, Nov 5 2019 (introduces ARC).",
+      "ARC Prize \u2014 ARC\u2011AGI\u20112 page (arcprize.org/arc-agi/2) \u2014 ARC\u2011AGI\u20112 description (2025).",
+      "ARC Prize \u2014 ARC\u2011AGI\u20113 page (arcprize.org/arc-agi/3) \u2014 notes development in 2025 and planned 2026 launch.",
+      "ARC Prize 2025 \u2014 Competition Details (arcprize.org/competitions/2025) \u2014 key dates (Mar 26, 2025 launch) and ARC\u2011AGI\u20112/Kaggle contest details.",
+      "ArXiv: \"ARC\u2011AGI\u20112: A New Challenge for Frontier AI Reasoning Systems\" (Chollet et al.), May 17, 2025 (technical description of ARC\u2011AGI\u20112).",
+      "TechCrunch, \"A new, challenging AGI test stumps most AI models\", Mar 24, 2025 (coverage of ARC\u2011AGI\u20112 launch and model scores).",
+      "The Atlantic, \"The Man Out to Prove How Dumb AI Still Is\" (profile of Fran\u00e7ois Chollet), Apr 4, 2025 (discusses ARC/ARC\u2011AGI\u20112 and upcoming ARC\u2011AGI\u20113).",
+      "Transcript / summary of the ARC Prize v2 launch video / talk with Fran\u00e7ois Chollet (Chain of Thought / MLST transcripts and summaries, March 2025) \u2014 confirms Chollet's remarks about ARC\u2011AGI\u20112, test\u2011time adaptation, and ARC\u2011AGI\u20113.",
+      "EA Forum post: \"ARC\u2011AGI\u20112 Overview With Fran\u00e7ois Chollet\" (linkpost to the launch video), Apr 10, 2025."
+    ]
+  }
+}

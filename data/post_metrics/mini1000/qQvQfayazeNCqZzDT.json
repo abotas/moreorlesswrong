@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "This is a practical, actionable post that meaningfully helps early-career researchers and groups (including EA-aligned researchers) improve writing, clarity, and productivity. If adopted widely within the community it can modestly increase the quality and communicability of EA research, which is useful but not foundational to EA/longtermist claims. For general humanity the impact is limited and niche \u2014 helpful to academics and students but not consequential at a societal level."
+  },
+  "PostAuthorAura": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot identify a clearly notable Connor Wood within the EA/rationalist community as of my 2024 cutoff\u2014no widely cited posts, talks, leadership roles, or frequent contributions are associated with that name. There are many people named Connor Wood in different fields, but none appear to be a recognised figure in EA or a globally known public figure. If you can provide links or context (articles, usernames, organizations), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: well-structured, easy to follow, and gives concrete, actionable steps (weekly format, habits, tool suggestions). The argument for deliberate practice is compelling and supported by specific routines, but the piece leans on a specific tool (Scifocus) without much evidence of outcomes, repeats a few points, and could be slightly tighter in places to reach exceptional conciseness and generalisability."
+  },
+  "PostNovelty": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post largely describes well-known, practical techniques (writing groups, short timed drafts, outlining first, peer feedback, summarizing paragraphs, \u2018collect then filter\u2019 literature search) that are common in academic writing advice. For EA Forum readers\u2014many of whom already practice deliberate improvement, run groups/sprints, and use AI/literature tools\u2014the ideas are unsurprising (score 2). For the general public the combination of focused micro-practice plus modern AI helpers is slightly less ubiquitous but still modestly novel (score 3). The most original element is the specific, repeatable routine (weekly 40\u201360 minute focused challenges paired with AI outline/essay-check tools), but it\u2019s an incremental synthesis rather than a brand-new concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is logically organized, presents a clear intervention (weekly focused sprints), and gives plausible mechanisms (structuring first, over-collecting sources, paragraph-summarizing) that explain why the practice could improve writing. Weaknesses: Evidence is purely anecdotal and uncontrolled (no sample size, no objective pre/post measures, no comparison or long-term outcomes), so claims about effectiveness and generalizability are weak. To be more convincing it would need quantitative metrics (time-to-draft, readability, reviewer scores), clearer participant info, or a controlled trial."
+  },
+  "PostExternalValidation": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical claims in the post are plausible and consistent with existing evidence, but the post\u2019s outcome claims are anecdotal (self-reported) and not independently measured. Evidence supporting the key methods the authors used: (1) peer feedback reliably improves academic writing (meta-analytic evidence). ([tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/02602938.2018.1545896?utm_source=chatgpt.com)) (2) automated / AI writing feedback and Automated Writing Evaluation (AWE) tools produce moderate improvements\u2014especially for organization and grammar\u2014though effects vary by implementation. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/37465061/?utm_source=chatgpt.com), [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12109289/?utm_source=chatgpt.com)) (3) AI/literature tools like Scifocus (product pages describe outline/essay\u2011checker features) and literature\u2011mapping tools such as Connected Papers exist and are widely recommended for literature discovery. ([scifocus.ai](https://www.scifocus.ai/?utm_source=chatgpt.com), [libguides.hkust.edu.hk](https://libguides.hkust.edu.hk/citation-chaining/connected-papers?utm_source=chatgpt.com)) (4) Treating writing as a trainable skill aligns with the deliberate\u2011practice literature (Ericsson and reviews), though deliberate practice\u2019s role is nuanced. ([royalsocietypublishing.org](https://royalsocietypublishing.org/doi/full/10.1098/rsos.190327?utm_source=chatgpt.com)) (5) Prewriting/structuring (outlining, planning, one\u2011sentence/topic\u2011sentence checks) is supported by pedagogical literature but effects depend on explicit instruction and context (mixed evidence). ([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S1747938X21000312?utm_source=chatgpt.com), [journals.sagepub.com](https://journals.sagepub.com/doi/full/10.1177/1086296X19859516?utm_source=chatgpt.com)) Finally, recommended searching/\u201cover\u2011collect then filter\u201d aligns with standard literature\u2011review screening best practices (screen many records, then filter). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC8005925/?utm_source=chatgpt.com)) Overall: the post\u2019s practices are well supported by research on feedback, automated feedback, planning, and use of search tools \u2014 so the empirical claims about these methods are largely validated \u2014 but the specific outcome magnitudes reported by the group are anecdotal and not externally verifiable.",
+    "sources": [
+      "Meta-analysis: The impact of formative peer feedback on higher education students\u2019 academic writing (2018) - Taylor & Francis (turn2search0)",
+      "Automated writing evaluation meta-analysis (2023) - PubMed / Fleckenstein, Liebenow & Meyer (turn4search4)",
+      "Scifocus official site / product pages (Scifocus.ai) (turn0search0)",
+      "Connected Papers documentation / university libguides (ConnectedPapers) (turn1search4)",
+      "PRISMA 2020 statement: guidance for systematic reviews (2021) (turn5search0)",
+      "Review on deliberate practice / Ericsson literature (Royal Society Open Science review) (turn6search0)",
+      "Meta-analyses & reviews on writing instruction, planning, and outlining (mixed evidence) (e.g., Education Research Review 2021; Children\u2019s planning for writing studies) (turn3search2, turn3search3)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "qQvQfayazeNCqZzDT",
+    "robustness_score": 3,
+    "actionable_feedback": "1) You lean heavily on AI tools (Scifocus, Outline Generator, Essay Checker) but give no caveats. Big risks: hallucinated summaries/citations, missed papers, privacy/IP concerns when uploading drafts, and over-trusting automated feedback. Actionable fix: add a short paragraph acknowledging these risks and concrete mitigations (always verify AI summaries against original PDFs, check citations, prefer local/pdf-first searches for sensitive work, and keep a human-in-the-loop checklist).\n\n2) The post makes broad claims about improvement without evidence or context. Readers will rightly ask: how many people, what disciplines, what measurable gains (speed, clarity ratings, acceptance rates)? Actionable fix: either (a) add brief quantitative or qualitative evidence (N of participants, sample before/after excerpts, simple metrics or anonymized quotes), or (b) explicitly label the write-up as anecdotal and list key limitations (self-selection, short timeframe, no control group).\n\n3) Advice is presented as one-size-fits-all when academic genres and fields differ (methods-heavy STEM, theoretical maths, or qualitative work may need different practices) and group work raises practical issues (authorship, confidentiality, feedback tone). Actionable fix: add a short section clarifying applicability (which fields/sections this format suits), give 1\u20132 alternative tweaks for common counterexamples (e.g., longer drafts for methods/results, different structure for theoretical pieces), and recommend minimal group norms (confidentiality, feedback rules, credit/ownership).",
+    "improvement_potential": "The feedback highlights three substantial, non-trivial weaknesses: unqualified reliance on AI tools (with real risks), making broad claims without evidence, and overgeneralizing advice across diverse academic genres and group concerns. Fixing these would materially strengthen credibility and reduce reader pushback, and can be done succinctly rather than bloating the post. It isn\u2019t catastrophic (the core idea stands), but these are critical omissions the author should address."
+  }
+}

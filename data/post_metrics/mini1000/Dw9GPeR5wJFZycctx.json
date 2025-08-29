@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a low-impact transparency/credibility update about one small evaluator (Vetted Causes). For the EA/rationalist community it matters somewhat: identity disclosure can affect perceived trustworthiness of reviews, how much donors rely on them, and norms around anonymity vs. accountability, so it could influence some donation and collaboration decisions. It is not foundational to EA or AI/longtermist arguments and has limited scope. For general humanity it is trivial \u2014 it does not affect broad public outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Strengthen transparency beyond naming yourself. Simply revealing your name won't address readers' legitimate trust concerns. Add verifiable, concrete information on your background and potential conflicts: link to a professional profile (LinkedIn/CV), a brief synopsis of relevant experience, funding sources for Vetted Causes, and any affiliations. State whether you received payments, donations, or in-kind support from charities you review. If possible, add an independent or accountable touchpoint (advisory board, institutional email, or third\u2011party verification) so readers can evaluate your credibility.\n\n2) Replace or qualify strong claims about motives and anonymity preventing bias with concrete bias\u2011mitigation processes. Saying your \"sole motivation\" is to direct donations sounds implausible to skeptical readers and invites pushback. Instead, explain specific steps you take to avoid bias (published methodology and criteria, data sources, double\u2011checks, peer review or external audits, conflict\u2011of\u2011interest policy, a corrections process). If you think anonymity helped avoid bias, explain why and why you now judge identity disclosure as higher priority \u2014 briefly and concretely.\n\n3) Address the past pseudonym and update prior work. Explicitly acknowledge that posts and reviews previously authored under the name \u201cIsaac\u201d were written by you, and state whether those reviews will be edited/annotated to reflect your name and the governance/methodology changes above. Describe how you will handle future interactions with charities (contact, verification, editorial independence). This prevents confusion and reduces the chance of accusations of slipperiness when readers compare old vs new content.",
+    "improvement_potential": "Targets the post\u2019s main weakness (mere naming is insufficient for credibility). The three concrete, actionable points identify major \u2018own-goals\u2019\u2014no COI disclosures, implausible-sounding claims about motives, and failure to link past pseudonymous content to the author\u2014and give high-value fixes (verifiable profile, funding/affiliations, published methodology, annotation of prior posts). These fixes materially improve trustworthiness and aren\u2019t onerous to implement (can be linked), so the feedback is highly useful."
+  },
+  "PostAuthorAura": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don't have any record of a notable EA/rationalist figure named 'VettedCauses' in my training data \u2014 no major publications, talks, or widely-cited posts tied to that handle. It reads like a pseudonymous/online account with little or no public visibility; if you can share a link or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "clarity_score": 8,
+    "explanation": "The post is clear, concise and well-structured: it states who the author is, why they were anonymous, and why they've chosen to reveal their identity, and points readers to an about page. Language is simple and the call to questions is helpful. Minor weakness: one line ('Make my intentions clear') is slightly awkward/counterintuitive and could be tightened, and the post could briefly summarise relevant credentials to increase reassurance, but these are small issues."
+  },
+  "PostNovelty": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an identity/transparency announcement rather than a substantive new argument. The tradeoffs between anonymity and transparency (avoiding bias vs. credibility/accountability) are well-known within EA and broader civil society, so EA readers will find it unsurprising. To general readers it\u2019s slightly more novel only insofar as explicit framing of anonymity as a bias-prevention strategy, but overall the ideas and decisions are common and not original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out clear, plausible reasons for initial anonymity (reduce bias, avoid personal incentives) and explains a change of mind in response to community criticism \u2014 a straightforward, coherent narrative. Weaknesses: Arguments are high-level and lack depth \u2014 the post does not address trade-offs in detail (how revealing identity affects bias, credibility, or conflicts of interest), nor describe concrete safeguards or governance to mitigate the problems it raises. Evidence is minimal: only anecdotal context (two reviews and some criticism) and a link to an about page, with no third\u2011party validation, credentials summary in the post, or empirical data. Overall the thesis (that revealing identity was the right move and the prior anonymity was defensible) is plausible but only weakly supported by the reasoning and scant evidence provided."
+  },
+  "PostExternalValidation": {
+    "post_id": "Dw9GPeR5wJFZycctx",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are directly verifiable and accurate: the EA Forum post exists and is dated Mar 20 (showing the identity reveal), the Vetted Causes website has an About page that names Adam Hebert as founder, and earlier Vetted Causes posts on the EA Forum used the pseudonym \u201cIsaac.\u201d The claim that \u201cso far\u201d two reviews had been published is consistent with the site & forum state around the time of the March 20 post (the site and Forum show the Animal Charity Evaluators and Sinergia reviews as published prior to that date). Weaknesses: the author\u2019s stated motivations are subjective and not empirically verifiable (self-report), and the About page contains only minimal background (so the phrase \u201cbrief description of my background\u201d is somewhat vague). Also, the number of published reviews later increased, so the \u201ctwo reviews so far\u201d claim is time\u2011sensitive but was supported at the time of posting.",
+    "sources": [
+      "EA Forum \u2014 'Adam Hebert \u2013 Founder of Vetted Causes' (VettedCauses) \u2014 Effective Altruism Forum post (Mar 20). https://forum.effectivealtruism.org/posts/Dw9GPeR5wJFZycctx/adam-hebert-founder-of-vetted-causes",
+      "Vetted Causes \u2014 About page (shows 'Vetted Causes was founded in 2024 by Adam Hebert'). https://www.vettedcauses.com/about",
+      "Vetted Causes \u2014 site index / Reviews (site state showing published reviews). https://vettedcauses.com/ and https://www.vettedcauses.com/",
+      "Vetted Causes \u2014 'Animal Charity Evaluators' review (published Nov 2024 on site / referenced on EA Forum). https://www.vettedcauses.com/reviews/animal-charity-evaluators",
+      "Vetted Causes \u2014 'Sinergia Makes False Claims About Helping Millions of Animals' review (references last-checked Feb 18, 2025). https://www.vettedcauses.com/reviews/sinergia-animal",
+      "EA Forum \u2014 earlier VettedCauses post signed 'Isaac' ('A Critique of Animal Charity Evaluators (ACE)') demonstrating prior pseudonym use. https://forum.effectivealtruism.org/posts/nx6dunnGwQQ6CFZhw/a-critique-of-animal-charity-evaluators-ace"
+    ]
+  }
+}

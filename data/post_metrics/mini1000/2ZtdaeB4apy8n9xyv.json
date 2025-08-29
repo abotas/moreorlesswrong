@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is primarily an event announcement for a niche subgroup (Christian EAs). It\u2019s useful for community-building, recruitment/retention, networking, and could modestly influence some attendees\u2019 career and donation decisions on high\u2011impact causes, but it isn\u2019t foundational to EA theory or strategy. For general humanity it has very limited direct impact beyond the small chance that attendees later affect larger policy, funding, or research decisions."
+  },
+  "PostRobustness": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about why this belongs on the EA Forum and who it\u2019s for. Right now you say \u201cOver 100 Christians in EA\u201d but give no evidence of EA alignment. Add a short sentence clarifying (a) whether this is an EA-affiliated or EA-aligned event, (b) roughly what fraction of past attendees identify with EA or work in EA-relevant causes, and (c) concrete EA-relevant outcomes attendees can expect (e.g., sessions on cause prioritization, funding/tracking impact, career support using EA tools). This prevents readers from dismissing the post as a generic faith meetup.  \n\n2) Address inclusivity and proselytism concerns up front. Many Forum readers will worry about faith-based pressure or sessions that conflict with evidence-based reasoning. State your Code of Conduct and policies explicitly in the post: are non-Christians welcome as full participants, will there be any organized proselytizing, how will theological diversity be handled, and how do you ensure sessions remain compatible with evidence-based, pluralistic discussion? If you don\u2019t want to lengthen the post much, add one clear sentence and link to the CoC.  \n\n3) Add (or link to) essential logistical transparency. The post currently omits key details that affect attendance: registration link, exact ticket price and what it covers, scholarship/financial assistance application process and deadline, refund/cancellation policy, and a short speaker/agenda preview (or confirm the agenda will be available before the Oct 20 sign-up deadline). Those items are high-friction for potential attendees and for Forum readers deciding whether to engage; include them or explicitly state where to find them.",
+    "improvement_potential": "The feedback targets real, high-impact weaknesses: lack of clear EA alignment (which harms credibility on the Forum), omission of CoC/proselytism details (a likely reader concern), and missing logistical specifics that affect sign\u2011ups. These changes are actionable and wouldn\u2019t bloat the post much, and failing to address them risks readers dismissing the event as a generic faith meetup."
+  },
+  "PostAuthorAura": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any prominent EA/rationalist figure or widely published author using the name 'JDBauman'. There are no well-known talks, major forum posts, books, or central-role associations I can find in my training data. Likely a pseudonym or a minor/anonymous contributor; please share links or context if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: headings, bullets, dates, location, audience and agenda examples make the purpose and logistics easy to understand. Weaknesses are minor formatting/typo issues (repeated \"Sign up by Oct 20\" lines, awkward parenthetical for the London event, a missing space), and a slightly cluttered call-to-action \u2014 consolidating the registration deadline, price and link would make it crisper."
+  },
+  "PostNovelty": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement rather than a new idea or argument. For EA Forum readers, the combination of Christian faith and effective-altruist/longtermist concerns (career workshops, x-risks, donations, high-profile speakers) is familiar and similar faith-based EA initiatives have existed, so it has very low novelty. For the general public, a dedicated Christian-focused EA conference addressing pandemics, AI, climate, and policy is somewhat less common and may be mildly surprising, but it still isn\u2019t a highly original concept \u2014 it\u2019s an organizational/community event rather than a novel claim or theory."
+  },
+  "PostInferentialSupport": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "This is primarily an event announcement rather than a formal argumentative piece. The reasoning is coherent and plausible \u2014 convening Christians in EA to discuss evidence-based responses, plan careers/donations, and provide mutual encouragement logically supports the stated goals \u2014 but the post does not make or defend complex causal claims. Evidence is mixed: credible signals (named high-profile speakers, links to prior talks/videos, concrete session examples and logistics) support that the conference is substantive and professionally organized, but there is little empirical data on outcomes (attendance numbers, participant backgrounds, follow\u2011up impact, satisfaction, or measurable influence on career/donation decisions). Overall the claim that the conference will help attendees have 'maximum impact' is plausible and partially supported by quality speakers and programming, but it lacks outcome data and rigorous evaluation to strongly substantiate that central claim."
+  },
+  "PostExternalValidation": {
+    "post_id": "2ZtdaeB4apy8n9xyv",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are well-supported by primary sources. The Christians for Impact (CFI) event pages confirm a Washington, D.C. conference on November 1\u20132, 2025 (at Virginia Theological Seminary, Addison Academic Center, address given) and a London conference on November 22\u201323, 2025; CFI\u2019s website markets 100\u2013200 attendees (DC) / 100+ (London). Session examples (Archbishop of Canterbury keynote; Sir Andrew Pollard talk; Fireside Chat) are backed by posted YouTube videos from prior CFI conferences. CFI is a registered U.S. 501(c)(3) (EIN 87-3363768) per nonprofit filings. Travel-time/distance claims (\u22487 miles to the White House; \u224815 minutes to Reagan National/DCA) are reasonable and match mapping/travel-time tools. One clear mismatch: the forum post\u2019s ticket/deadline statement (\u201cSign up by Oct 20 for a $75 ticket\u201d) does not match the current CFI ticketing text (the DC page shows $50 before Aug 1 with prices rising after that); ticket prices/deadlines appear to have varied and the post\u2019s Oct 20 / $75 claim is not supported by the current event pages. Overall: accurate and verifiable except for the ticket price/deadline detail.",
+    "sources": [
+      "Christians for Impact \u2014 DC conference page (Nov 1\u20132 2025) \u2014 ChristiansForImpact.org \u2014 https://www.christiansforimpact.org/2025-conference-1 (page shows Nov 1-2 2025; Addison Academic Center; address 3630 Bishop Walker Cir; '100-200' attendees; pricing text).",
+      "Christians for Impact \u2014 London conference page (Nov 22\u201323 2025) \u2014 ChristiansForImpact.org \u2014 https://www.christiansforimpact.org/2025-conference-london (page shows Nov 22-23 2025; 'Join 100+' wording; pricing/deadlines).",
+      "YouTube \u2014 'Faith, Poverty, and the Future: Rory Stewart & Justin Welby' (CFI/Archbishop of Canterbury talk) \u2014 https://youtu.be/hzdt4Ds4CzQ",
+      "YouTube \u2014 'Fireside chat with the Lead Researcher of Oxford COVID-19 Vaccine - CFI LONDON CONFERENCE 2024' (Sir Andrew Pollard) \u2014 https://youtu.be/kKIhVAw792c",
+      "YouTube \u2014 'The Best Digital Evangelism Tactics with The Way - CFI LONDON CONFERENCE 2024' (Fireside Chat) \u2014 https://youtu.be/c57sc7A073Y",
+      "Virginia Theological Seminary \u2014 Contact / Campus / Addison Academic Center references (address & campus info) \u2014 https://vts.edu/contact-us/ and https://vts.edu/mission/visit-campus/ (confirms campus and building names/addresses near Bishop Walker Circle / Seminary Rd).",
+      "ProPublica Nonprofit Explorer \u2014 Christians For Impact USA Inc (EIN 87-3363768) \u2014 https://projects.propublica.org/nonprofits/organizations/873363768 (confirms 501(c)(3) tax-exempt status and filings).",
+      "GuideStar / Candid profile for Christians for Impact USA Inc (organization & EIN) \u2014 https://www.guidestar.org/Profile/87-3363768",
+      "TravelTime/Drive-distance tools (DCA \u2194 Alexandria ~5 miles / ~15 minutes; Alexandria \u2194 White House \u22487 miles) \u2014 Travelmath (DCA to Alexandria driving time ~15 min; Alexandria to Washington driving distance ~8 miles) \u2014 https://www.travelmath.com/drive-distance/from/DCA/to/Alexandria%2C%2BVA and https://www.travelmath.com/drive-distance/from/Alexandria%2C%2BVA/to/Washington%2C%2BDC",
+      "Rome2rio / distance estimators (examples showing ~6.9\u20137 miles driving & ~11 min taxi time from Alexandria to White House / DCA) \u2014 https://www.rome2rio.com/s/Alexandria-VA-USA/White-House and https://www.rome2rio.com/s/Reagan-Washington-Airport-DCA/Virginia-Theological-Seminary"
+    ]
+  }
+}

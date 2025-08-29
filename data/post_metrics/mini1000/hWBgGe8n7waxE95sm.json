@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a practical, donor-focused post that meaningfully helps the EA community think about funding allocation for AI safety: useful taxonomy (guarding vs robustness), surfacing small nonprofits actively fundraising, highlighting adverse-selection problems, and concrete platform improvements for Manifund. Those points could moderately affect how marginal donations are directed and encourage greater transparency from larger funders \u2014 valuable but not foundational to AI\u2011safety theory or strategy. For general humanity the piece has very limited direct impact; any benefits are indirect and speculative (better funding allocation might marginally improve long\u2011term safety), so overall importance to humanity is small."
+  },
+  "PostRobustness": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Major methodological gap \u2014 no cost\u2011effectiveness or evaluation rubric. You say you\u2019re evaluating effective giving but present only taxonomy and availability. Before publishing, add a transparent, simple evaluation framework (theory of change, counterfactual, key uncertain parameters, and measurable proxies). Even a one\u2011page rubric (e.g. plausibility of ToC, marginal impact per $, absorptive capacity, downside risk, evidence quality) and a 1\u20132 sentence back\u2011of\u2011envelope expected\u2011value estimate for each highlighted org would make the post substantively useful rather than exploratory.\n\n2) Selection / adverse\u2011selection bias is understated and under\u2011investigated. Your pool is heavily shaped by Manifund listings and \u2018actively soliciting donations\u2019. That creates big sample bias and ruins any inference about where marginal dollars do the most good. Remedy: (a) explicitly label the list as a Manifund\u2011biased convenience sample up front; (b) attempt quick checks on whether each org has applied to major funders (OpenPhil/Longview/SFF) or been screened out and why; and (c) discuss omitted high\u2011leverage pathways (for\u2011profit R&D, internal company safety teams) so readers don\u2019t overgeneralize.\n\n3) Product proposals lack operational detail and risk mitigation. The proposed expert sidebar, anonymous channels, and one\u2011click reacts are promising but invite gaming, conflicts of interest, and low signal. Before publishing, state concrete safeguards: reviewer credential verification and COI disclosure, weighting or reputation for expert inputs, moderation and appeals process, how anonymous tips are validated, and a plan to pilot features with a small set of vetted reviewers. Without that, readers may assume Manifund\u2019s implementation will produce misleading signals rather than better donor decisions.",
+    "improvement_potential": "The feedback pinpoints substantive, credibility-damaging omissions: the author claims to assess \u2018effective giving\u2019 but provides no evaluation rubric or EV estimates (an own-goal), understates sample/adverse-selection bias from Manifund listings, and glosses over operational risks for the proposed platform features. Fixing these would materially improve the post\u2019s usefulness and reduce misleading impressions. The suggested remedies are concrete and practical; they could mostly be implemented succinctly (a short rubric, clearer labeling of the sample, and a brief note on safeguards/pilots), so the post can be much better without becoming unwieldy."
+  },
+  "PostAuthorAura": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot identify a notable EA/rationalist presence for the name 'Lydia Nottingham' up to my 2024-06 cutoff. There are no well-known publications, talks, or community roles tied to that name in EA circles, nor evidence of broad public recognition. If this is a pseudonym or very recent/emerging author, share links or context and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "clarity_score": 7,
+    "explanation": "The post is generally clear and well-structured: it states its premise, introduces a useful typology (guarding vs robustness), uses tables and an FAQ to organize information, and ends with concrete product suggestions. Strengths include a logical progression, concrete examples (org list, Manifund links), and actionable recommendations. Weaknesses are some jargon and overloaded terms (e.g. 'robustness') that are only partially disambiguated, reliance on external images (which may break reading flow), several long parenthetical footnotes and caveats that interrupt the main thread, and a few places where the argument wanders into speculative or undeveloped claims. Overall readable and useful but could be tighter and clearer in definitions and streamlining of asides."
+  },
+  "PostNovelty": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers this is mostly incremental \u2014 GiveWell-style evaluation, governance vs technical tradeoffs, adverse-selection in funding, and calls for funder transparency are all familiar. The post's somewhat novel contributions are the specific \u2018\u2018guarding\u2019 vs \u2018robustness\u2019 framing focused on nonprofit ASI work, the practical census of small orgs actively fundraising on Manifund, and concrete product ideas to reduce adverse selection. For the general educated public these ideas are less familiar: applying GiveWell methods to AI safety, the specific typology and the role of niche platforms like Manifund are relatively new concepts to most people, though not radically original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is logically organized, transparent about epistemic limits and methods, and offers a useful conceptual distinction (guarding vs robustness). It sensibly motivates why donors might focus on small nonprofits and why a GiveWell-style evaluator could add value; it gives practical, concrete proposals for Manifund. Weaknesses: Key claims are speculative and rely on limited web searches and selection-by-visibility rather than systematic data. There is little to no empirical evidence about impact or cost-effectiveness, no formal criteria or metrics for categorization or ranking, and potential selection and survivorship biases are acknowledged but not mitigated. Overall, the argument for more transparent evaluation platforms is plausible and well-motivated, but the claim that the identified nonprofits are the best or highest-priority giving opportunities is weakly supported by the evidence provided."
+  },
+  "PostExternalValidation": {
+    "post_id": "hWBgGe8n7waxE95sm",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s concrete factual claims are verifiable and correct (many of the listed orgs exist and several of the org-specific claims are supported by public pages). I verified key, load-bearing facts the author relied on: multiple nonprofit alignment groups named are real and accept donations (e.g., Redwood Research, CHAI, GovAI), several small groups the author highlights have active Manifund project pages (CAIS, Coordinal, Luthien), Manifund earlier regranted seed funding to Timaeus, and OpenPhil later awarded Timaeus a sizable grant. The CAIP director quote about uncertainty over OpenPhil\u2019s criteria is on the public EA Forum thread cited. Weaknesses / caveats: the author\u2019s broader counting/coverage claims (e.g., \u201c50+ orgs\u201d, exhaustiveness of the list, or exact fundraising status of every org) are plausibly approximate and partly subjective; some small orgs (e.g., \u2018Orthogonal\u2019) have multiple similarly-named entities which makes external verification harder without exact identifiers; and the post is explicit about limited search time and selection effects. Overall, empirical claims are mostly accurate and supported by public sources, but a few claims are approximate or rely on rapidly changing fundraising/status information.",
+    "sources": [
+      "Redwood Research \u2014 ProPublica Nonprofit Explorer (Form 990 / tax filings; Redwood Research Group Inc.).",
+      "Redwood Research \u2014 Open Philanthropy grant pages (Redwood Research general support 2022/2023).",
+      "Center for AI Safety (CAIS) \u2014 Manifund project page (\"Research Staff for AI Safety Research Projects\").",
+      "Coordinal Research \u2014 Manifund project page (\"Coordinal Research: Accelerating the research of safely deploying AI systems\").",
+      "Luthien \u2014 Manifund project page (Luthien).",
+      "Timaeus \u2014 Timaeus website (states it received a $142k Manifund grant) and Timaeus blog (funding details).",
+      "Open Philanthropy \u2014 Grant page: 'Timaeus \u2014 Operating Expenses' (January 2025, $1,557,000).",
+      "Centre for the Governance of AI (GovAI) \u2014 Open Philanthropy grant pages and GovAI website (shows GovAI is a nonprofit and has received OpenPhil funding).",
+      "Center for Human-Compatible AI (CHAI) \u2014 CHAI website donation page (shows CHAI accepts donations / is a public/academic centre).",
+      "EA Forum / GreaterWrong mirror \u2014 Jason Green-Lowe (CAIP director) comment about not knowing \"what criteria or measurement system they're using\" (the quoted forum thread cited in the post).",
+      "Manifund posts & announcements \u2014 Manifund / EA Forum posts describing regranting and Timaeus regrant (Manifund regrants documentation)."
+    ]
+  }
+}

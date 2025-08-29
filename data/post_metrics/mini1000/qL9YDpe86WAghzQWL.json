@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a practical, norm-setting question for people who run EA student groups and for the EA careers ecosystem. It matters to how newcomers are routed to career-advice resources and could modestly influence the allocation of talent across cause areas (so it is of moderate importance within EA). However it is not foundational to EA or AI-alignment theory, and even if organisers took different recommendations the overall global stakes are small, so its importance to general humanity is minor."
+  },
+  "PostRobustness": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing the nuance that 80K\u2019s strategic focus shifting to AGI doesn\u2019t automatically mean their advising is useless for other careers \u2014 your post treats the question as binary (recommend vs don\u2019t recommend) rather than asking \u201cfor whom, under what conditions, and with what caveats?\u201d. Actionable fix: ask 80K/CEA for up-to-date intake/triage guidance and add explicit recommendation criteria to your post. For example, recommend 80K advising by default for students who are: early-career or undecided; open to longtermist/AGI-relevant pathways; seeking general career-framework coaching (not only domain-specific technical mentoring). De-prioritise 80K referrals for students who are firmly committed to a specific non-AGI cause and need technical/domain-specific connections. (This avoids the own-goal of implying a blanket rule and gives organisers clear rules of thumb.)\n\n2) You\u2019ve overlooked practical expectation-management and a simple triage process that would avoid wasted advising slots and rejections. Actionable fix: add a one-paragraph script/checkbox for students before you refer them so they self-triage (e.g. \u201cWhich causes are you considering? How undecided are you on career direction? Are you hoping for domain-specific technical introductions or general high-impact career advice?\u201d). Also provide a short blurb for group communications so students know what 80K advising is best for (sample below). This reduces the chance of a poor match and stops organisers from having to second-guess referrals.\n\n  Sample blurb to use: \u201c80,000 Hours provides one-on-one career advising focused on high-impact career frameworks and (currently) prioritises roles relevant to longtermist/AGI risk avoidance. If you\u2019re undecided about careers or open to high-impact/longtermist paths, we recommend applying. If you\u2019re committed to a technical animal-welfare/biosecurity research path and want domain-specific introductions, tell us in the sign-up and we\u2019ll point you to specialist organisations.\u201d\n\n3) You haven\u2019t provided or solicited alternative, domain-specific advising resources (especially for biosecurity and animal welfare), which is the obvious next thing organisers will need. Actionable fix: either compile a short vetted list of alternatives (you already have Animal Advocacy Careers and ProbablyGood \u2014 keep them) or explicitly ask the 80K/CEA team and the Forum audience to add names of 1:1 advisors for biosecurity, policy, and animal advocacy. If you want to keep post short, add a single line: \u201cIf you know reliable 1:1 advisers for biosecurity/animal welfare/other non-AGI areas, please add them in comments.\u201d\n\nImplementing these three changes will make the post more useful to organisers (clear guidance, practical triage, and alternative resources) and reduce the risk of misreferrals or misleading blanket recommendations.",
+    "improvement_potential": "The feedback targets the post's main weaknesses: treating the question as a binary recommendation, failing to include a simple triage/expectation-management step, and not offering alternative domain-specific advisers. It gives concrete, low-overhead fixes (criteria, a short pre-referral script/blurb, and a call for alternative resources) that would materially improve the post without bloating it. It stops short of exposing any catastrophic errors, so not a perfect 10, but it's highly practical and directly addresses likely organiser 'own-goals'."
+  },
+  "PostAuthorAura": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable author or pseudonym 'JDLC' in EA/rationalist spaces or in wider public sources up to my 2024-06 cutoff. No prominent posts, publications, or public profile under that name are evident on EA Forum, LessWrong, 80,000 Hours, academic databases, or mainstream outlets. If JDLC is a niche/pseudonymous or very recent contributor, please provide links or more context for a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "clarity_score": 8,
+    "explanation": "The post is overall clear, well-structured and concise: it gives relevant context (link to 80K change), states the organiser's current practice, and lists three concrete, numbered questions. This makes it easy for readers to understand what feedback is requested and who the asker wants input from. Weaknesses are minor wording/typo issues (e.g., \"prioritise\", \"80Ks\"), a couple of slightly awkward or redundant phrasings (Question 1 could more precisely define the candidate groups; Question 3's wording is clunky), and a small assumption about what 80K advising currently covers that could be made explicit. Fixing those would make it nearly excellent."
+  },
+  "PostNovelty": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For EA Forum readers this is a fairly familiar, practical question \u2014 many have already discussed how to tailor 80K/advising recommendations after strategic shifts and how to route people to cause-specific advisors \u2014 so it\u2019s only mildly novel. For the general public the specific issue (80K\u2019s shift and the nuance of recommending it 'by default' to EA student groups) is relatively unfamiliar and somewhat novel, though the underlying idea \u2014 re-evaluating recommendations when an organisation changes focus \u2014 is commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post is well-intentioned, clearly framed, and asks sensible, practical questions (strength). However it offers little structured argumentation about when 80K advising is (or is not) appropriate and does not define key terms (e.g. what 'by default' means). The empirical support is thin: the post correctly cites 80K's strategic-shift announcement and notes a couple of other advising providers, but provides no data on advising scope, outcomes, demand by cause area, or instances of mismatch. Overall the concern is plausible but under-supported; stronger conclusions would require data from 80K/CEA on advising topics and outcomes, surveys of group members' needs, or comparative evidence on alternative advising services."
+  },
+  "PostExternalValidation": {
+    "post_id": "qL9YDpe86WAghzQWL",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Mostly accurate. 80,000 Hours has publicly announced a strategic shift to prioritise helping people work on making the AGI transition go well (official post/announcement). ([80000hours.org](https://80000hours.org/2025/04/strategic-approach/?utm_source=chatgpt.com), [forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/4ZE3pfwDKqRRNRggL/80-000-hours-is-shifting-our-strategic-approach-to-focus?utm_source=chatgpt.com)) Their advising service is explicitly emphasising AI/AGI-relevant advisees and says it will prioritise capacity for roles that mitigate AI risks. ([80000hours.org](https://80000hours.org/?utm_source=chatgpt.com)) Animal Advocacy Careers is an active organisation offering career resources/advising for animal-welfare-focused careers. ([animaladvocacycareers.org](https://animaladvocacycareers.org/?utm_source=chatgpt.com)) The post\u2019s statement that Probably Good has \u201cpaused advising\u201d appears incorrect as of 2025 \u2014 Probably Good\u2019s site shows an active advising programme. ([probablygood.org](https://probablygood.org/advising/?utm_source=chatgpt.com)) Overall: most major empirical claims (80K strategic change, advising emphasis, existence of AAC, 80K content staying accessible) are well-supported; one specific factual claim (Probably Good paused advising) is contradicted by current public information. ([80000hours.org](https://80000hours.org/2025/04/strategic-approach/?utm_source=chatgpt.com))",
+    "sources": [
+      "80,000 Hours \u2014 We're shifting our strategic approach to focus more on AGI (80,000hours.org announcement, Apr 2025).",
+      "EA Forum \u2014 '80,000 Hours is shifting its strategic approach to focus more on AGI' (EA Forum post, 20 Mar 2025).",
+      "80,000 Hours \u2014 'Speak with us' / 1-1 advising page (80,000hours.org advising pages, 2025).",
+      "Animal Advocacy Careers \u2014 homepage and advising resources (animaladvocacycareers.org).",
+      "Probably Good \u2014 Personal Career Advising page (probablygood.org/advising; advising service active as of 2025)."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a low\u2011stakes, local fundraising question by a newcomer. The money involved is small and the choice doesn't bear on high\u2011impact cause areas (AI safety, global health, etc.), so the post isn't foundational. It has some minor value to the EA/rationalist community because it relates to community building, onboarding new members, and practical donor advice for similar small donors, but it has negligible importance for humanity at large."
+  },
+  "PostAuthorAura": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that 'Dnurick' is a recognized figure in the EA/rationalist community or globally. No notable publications, citations, or organizational affiliations under that name in my training data; may be a pseudonymous or minor forum user. If you can provide links or context (posts, articles, platform), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand: it gives clear context (student in Vancouver), a concrete project (food pop-up donating $500\u2013$1,000), and a specific request (recommendations for local charities and how to gauge efficacy). It is concise and politely worded. It could be improved by specifying cause preferences (e.g., homelessness, food security, health), what you mean by \u201ceffective,\u201d and what research you already tried, which would help responders give more targeted advice."
+  },
+  "PostNovelty": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a very common, practical request for local charity recommendations and basic guidance on evaluating nonprofits. EA readers will find it familiar (many posts discuss where to give and how to assess charities), so it's only slightly novel for that audience. For the general public it's even less novel \u2014 people frequently seek advice about local giving and charity selection. There are no new frameworks, arguments, or surprising claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "reasoning_quality": 5,
+    "evidence_quality": 1,
+    "overall_support": 3,
+    "explanation": "The post is clear and coherent about goals (a local donation of $500\u2013$1,000 from a food pop-up) and correctly frames the problem (how to pick an effective local charity). However, it offers no evaluative criteria, no structured decision framework, and no engagement with known EA resources or evidence about local vs. global impact. Empirical support is essentially absent \u2014 the author reports unsuccessful research but provides no sources or data \u2014 so the claim that they can't find 'which local organizations make the most of their money' is unsubstantiated. Overall, the request is reasonable and well-posed for soliciting advice but is weak as an argument or evidence-backed recommendation."
+  },
+  "PostExternalValidation": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Most of the post consists of personal statements (author identity, planned pop-up, intended donation amount, and their own research results) that cannot be independently verified from public sources. The only straightforward factual claim \u2014 that the author is an undergraduate at UBC in Vancouver \u2014 is consistent with the existence/location of UBC\u2019s Vancouver campus (verifiable), but the author\u2019s personal status and planned donation amount cannot be confirmed externally. Several reliable public resources do exist for evaluating local Canadian charities (Canada Revenue Agency list of charities, BC registries, Charity Intelligence Canada), and major evaluators like GiveWell focus primarily on global health/development rather than local Vancouver charities \u2014 supporting the poster\u2019s sense that centralized, impact-oriented information on small local organisations is harder to find. Overall: no clear factual contradictions, but many claims are personal/unverifiable, so the evidence is mixed/uncertain.",
+    "sources": [
+      "The University of British Columbia \u2014 Vancouver Campus (UBC official site).",
+      "Canada.ca \u2014 List of charities and other qualified donees / CRA 'List of charities' search tips (Canada Revenue Agency).",
+      "BC Registries / Societies Online \u2014 BC Registries and Online Services (Societies search / Business & Person Search information).",
+      "Charity Intelligence Canada \u2014 overview and methodology (Charity Intelligence / summary Wikipedia entry).",
+      "GiveWell \u2014 GiveWell recommendations and blog (focus on evidence-backed global health/development charities).",
+      "Time \u2014 '5 Expert Tips for Deciding Which Charities to Support' (guidance on vetting charities and tools).",
+      "Financial Times \u2014 article on how to know money given to charity will be well spent (discusses evaluators like GiveWell, CharityWatch)."
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "XbHLxLWQeTfCFBcFM",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify your objective and constraints before asking for recommendations. Right now you say you want a \u201clocal organization everyone can get behind\u201d but don\u2019t say what you value most (maximizing lives helped, community visibility/engagement, building relationships with a local cause, tax receipt, publicity for your pop-up, etc.). Add 2\u20133 priority criteria (e.g. \"I prioritise measurable impact over localness\" or \"I want max community buy-in even if less cost\u2011effective\") and practical constraints (need a charitable receipt, timing, whether you can follow up with the org). That will let people give usable recommendations instead of generic suggestions.\n\n2) Adopt a small, concrete evaluation checklist and share it in the post. Rather than \u201cwhich local org is most effective,\u201d ask respondents to help you check a short list of indicators for candidate orgs: evidence of outcomes or program evaluations, clear metrics (cost per beneficiary or per outcome), audited financials/annual reports, transparency about how extra funds are used, capacity to absorb $500\u2013$1,000, and whether donation can be restricted/unrestricted. Mention a few resources you\u2019ll consult (GiveWell/ACE for global causes, Charity Navigator/Imagine Canada/CanadaHelps/Vancouver Foundation for Canadian/local vetting) and ask readers to point to local orgs that meet those criteria.\n\n3) Explicitly address the local vs. global trade-off and offer a simple plan that avoids an \"own goal.\" Many EAs consider $500\u2013$1,000 to be small but high-frequency evidence-backed interventions (deworming, bednets, cash transfers) can have much higher expected impact than typical local charities. If community engagement and publicity for your pop-up are important, say so \u2014 otherwise consider splitting the donation (e.g. 50% to a vetted, high-impact charity; 50% to a local org for engagement), or give locally to organisations that implement evidence-backed programs (local affiliates of proven interventions). Adding one of these concrete options to the post will reduce a major counterargument and get more targeted, practical advice.",
+    "improvement_potential": "Targeted, practical, and highly relevant: it points out the author's missing priorities/constraints, gives a concise checklist and vetting resources, and flags the important local vs global impact trade\u2011off (including an easy split option). Implementing this would substantially improve the post without much extra length and would help the author avoid a common EA 'own goal'."
+  }
+}

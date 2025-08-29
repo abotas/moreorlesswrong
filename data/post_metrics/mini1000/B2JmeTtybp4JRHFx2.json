@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "value_ea": 4,
+    "value_humanity": 3,
+    "explanation": "This claim is interesting but not foundational. If multiple LLMs converge on a practical method for imposing tariffs, it flags an important capability of current models (they can produce actionable political/economic tactics), which is moderately relevant to EA concerns about AI policy, governance, and misuse. However the post appears anecdotal, likely lacks rigorous evidence, and the tactical advice itself is unlikely to be existential or broadly transformative. For the general public the impact is smaller: it could be used to influence trade policy or political strategy in specific contexts, but it doesn't by itself change large-scale outcomes. The importance hinges on reproducibility, novelty relative to existing policy expertise, and whether this enables scalable misuse \u2014 factors the post doesn't seem to establish conclusively."
+  },
+  "PostRobustness": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Methodology and reproducibility are missing \u2014 without exact prompts, model versions, sampling/temperature, number of runs and the raw outputs the claim \u201call give the same answer\u201d is not convincing. Actionable fix: publish (or put in an appendix) the exact prompts you used, the full text outputs for each model, the model versions/settings (temperature/top-p/seed), and results from multiple runs so readers can see variability and replicate or audit your claim.\n\n2) Overclaiming novelty and causal inference from convergence \u2014 calling this \u201cthe first large\u2011scale application of AI to geopolitics\u201d and treating identical outputs as evidence of some robust insight is a big jump. Actionable fix: tone down grand claims, add brief literature/context showing what is and isn\u2019t novel, and explain alternative reasons for LLM agreement (shared training data, common heuristics, prompt leading, or convergent internet-sourced answers) rather than assuming the models discovered a unique geopolitical strategy.\n\n3) Important ethical/legal and political feasibility concerns are overlooked \u2014 giving an easy, actionable method for imposing tariffs without analysis of legal constraints, likely political resistance, detection/retaliation risks, or misuse is a serious omission. Actionable fix: add a concise section evaluating real\u2011world feasibility (legal/institutional barriers, enforcement, international law, likely countermeasures), note potential harms from publishing operational detail, and either redact sensitive step\u2011by\u2011step instructions or consult domain experts (trade law, foreign policy) and moderators about safe publication.",
+    "improvement_potential": "Targets major flaws: lack of reproducibility (a clear own\u2011goal), unjustified grand claims about novelty/convergence, and serious ethical/legal omissions. Fixing these would substantially strengthen or suitably temper the post; it may not fully invalidate the observation but would prevent misleading or risky conclusions."
+  },
+  "PostAuthorAura": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No recognizable presence under the name 'Matrice Jacobine' in EA/rationalist forums, major EA organisations, academic databases, or mainstream media up to mid\u20112024; likely a pseudonym or a very obscure/novice author with no notable citations, talks, or public profile."
+  },
+  "PostClarity": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "clarity_score": 2,
+    "explanation": "The title hints at an interesting claim (multiple AI models converging on a way to impose tariffs), but the post body is empty and the title uses ambiguous shorthand (e.g. \u201c4o, o3 high\u201d) without context. There is no argument, evidence, methodology, or concrete example, so the reader cannot understand or evaluate the claim. It is concise to the point of being uninformative rather than clear."
+  },
+  "PostNovelty": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The post's core claims\u2014using large LLMs to generate policy ideas and that multiple models converge on a simple tariff solution\u2014are interesting but not very novel. EA Forum readers will already be familiar with AI-assisted policy analysis, longtermist concerns about geopolitical uses of models, and the basic mechanics of tariffs, so this adds little new insight (hence a low score). For the general public it's somewhat more striking that multiple state\u2011of\u2011the\u2011art models agree on a concrete, easy-to-implement tariff approach, but the underlying ideas (AI for policy, tariff strategies) are already well known, so novelty is modest rather than high."
+  },
+  "PostInferentialSupport": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "The post's claim is mostly an assertion with little visible argumentation. Strength: noting multiple large models producing the same output is potentially interesting and could indicate a shared pattern. Weaknesses: no prompt/response examples, no methods, no scale metrics, no legal or logistical analysis of whether the suggested tariff approach is feasible, and no expert or empirical validation. The claim that this is a 'first large-scale application' is unsupported and conflates model output convergence with real-world geopolitical application. Overall the reasoning leaps from co-occurring model answers to practical geopolitical impact without substantiation, and the empirical evidence provided (none shown) is insufficient and not reproducible."
+  },
+  "PostExternalValidation": {
+    "post_id": "B2JmeTtybp4JRHFx2",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical pieces of the post are well-supported: multiple independent reporters and social-media sleuths documented that leading LLMs (ChatGPT / OpenAI, Google Gemini, Anthropic Claude, xAI Grok) produce the same simple tariff\u2011by\u2011deficit formula when prompted, and the social-media thread by Rohit Krishnan making the \u201cfirst large\u2011scale AI in geopolitics\u201d observation is publicly available. Major news outlets (The Verge, FT, Axios, CNBC, Washington Examiner, Snopes, etc.) corroborated the overlap between the chatbot outputs and the White House tariff table. Weaknesses: the post\u2019s stronger implication \u2014 that the administration actually used an LLM to produce policy \u2014 remains circumstantial and unproven (the White House denied using AI and no smoking\u2011gun evidence has been published). Calling it the \u201cfirst\u201d large\u2011scale AI application to geopolitics is speculative and cannot be verified. Overall: factual claim that multiple models gave the same/simple formula \u2014 well supported; causal claim that policy was generated by AI \u2014 unproven/speculative.",
+    "sources": [
+      "Washington Examiner opinion: \"Did ChatGPT write US tariff policy?\" by Michael M. Rosen, Apr 11, 2025. (reports Rohit Krishnan thread and chatbot tests).",
+      "The Verge: \"Trump's new tariff math looks a lot like ChatGPT's\" (news coverage reporting tests that chatbots suggested similar formula).",
+      "Financial Times: \"The stupidest chart you'll see today\" (explains the simple formula behind the tariffs and expert criticisms).",
+      "Snopes: \"Posts online correctly cracked the formula for Trump's tariffs\" (fact-check of the formula and how it matches USTR material).",
+      "Axios: \"How Trump calculated tariffs with surprisingly simple math\" (explains the divide-deficit-by-imports/half rule reported by social media).",
+      "CNBC: \"How did the U.S. arrive at its tariff figures?\" (reports observers reverse-engineering the formula and noting chatbot replications).",
+      "James Surowiecki X thread (Apr 2, 2025) / ThreadReader unroll (documents the arithmetic that matches the White House table).",
+      "Rohit Krishnan X thread (Apr 3, 2025) (original tweet: 'This might be the first large-scale application of AI technology to geopolitics.. 4o, o3 high, Gemini 2.5 pro, Claude 3.7, Grok all give the same answer...').",
+      "Washington Post interactive piece: tests of multiple AI models fact\u2011checking Trump (reports cross\u2011model behaviour in political prompts).",
+      "Forbes: coverage criticizing the tariff formula and noting online replications by AI chatbots."
+    ]
+  }
+}

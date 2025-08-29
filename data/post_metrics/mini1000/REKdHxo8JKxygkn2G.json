@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is a useful, actionable announcement for researchers and EAs working on animal-welfare economics (networking, project incubation, and research pipeline), but it is not a foundational argument or result. Its direct impact is limited and narrow in scope; any broader effects on policy or welfare would be indirect and incremental."
+  },
+  "PostRobustness": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add a clear submission link and required materials. The post tells people to \u201csubmit an abstract\u201d but doesn\u2019t say how or where. Add a direct URL or email, list exactly what to include (300\u2011word abstract, title, authors, affiliations, presenter contact, preferred presentation type, student status), file format, and whether submissions are blind. This avoids a large friction/FAQ and reduces bounces. \n\n2) Clarify travel funding & \u201cSection 2\u201d reference. You say you\u2019ll \u201ccover travel and accommodation insofar as possible,\u201d mention bursaries, and tell readers to \u201csee Section 2\u201d \u2014 but that section isn\u2019t in the post. State briefly who is eligible, how to apply, the deadline for bursary applications, what costs are typically covered (travel vs. hotel), and whether non-presenting students can apply. If details are on the website, link directly to that page. \n\n3) Include a few practical logistical details that readers commonly need. State the conference language, whether remote attendance or hybrid presenting will be possible, if there is a registration fee (and when registration opens), and link to the code of conduct/visa/accessibility information. These are small additions that prevent many follow\u2011up questions and make the call more usable for international and student audiences.",
+    "improvement_potential": "The feedback catches several clear, actionable omissions that materially reduce the post's usefulness: no submission link or instructions, a dangling \u201cSection 2\u201d reference, and missing logistics (language, hybrid option, fees, bursary details). These are not fatal to the announcement but are important usability/clarity errors the author would likely be embarrassed to have missed. Fixing them is straightforward and won\u2019t bloat the post, so the suggestions have high practical value."
+  },
+  "PostAuthorAura": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not identify a clearly prominent EA/rationalist author named 'Bob Fischer'. The name is common and could be a pseudonym; there is no clear evidence of substantial posts, talks, or leadership in EA/rationalist circles, nor any notable global public profile. If you can share links or more context, I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "clarity_score": 9,
+    "explanation": "The post is well-structured and easy to understand: it states who is organizing the conference, what is requested (300-word abstracts and short project pitches), the dates and location, topics of interest, eligible audiences, deadline and notification dates, and basic logistics (meals, travel bursaries). Minor weaknesses: a couple of brief ambiguities (e.g., \"see Section 2\" without including it, no explicit submission link or form described in-text) and small repetition, but overall it is clear and concise."
+  },
+  "PostNovelty": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement rather than a presentation of new ideas or arguments. For EA Forum readers, calls for abstracts and animal-welfare-focused conferences are routine, so novelty is very low. For the general public it is slightly more niche (economics of animal welfare, project-pitch format, vegan-provisioning and travel bursaries), but still not an original conceptual contribution\u2014mainly logistical/event information."
+  },
+  "PostInferentialSupport": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "reasoning_quality": 9,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "This post is primarily informational rather than argumentative, so its reasoning is straightforward and well-structured: it states the event, scope, deadlines, and funding/attendance options clearly. It also provides relevant links to the working group, past conferences, and a research library, which substantiate the conference's existence and topical focus. However, empirical evidence is minimal and not particularly necessary for an announcement: claims about travel/accommodation coverage and bursaries are vague (no amounts, selection criteria, or committee information), and practical details (e.g., program committee, accessibility, COVID or visa guidance) are absent. Overall, the announcement is credible and useful for its purpose but could be strengthened with more specific logistical and funding information."
+  },
+  "PostExternalValidation": {
+    "post_id": "REKdHxo8JKxygkn2G",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major factual claims in the post are well supported by primary sources. The Animal Welfare Economics Working Group and the Paris School of Economics pages confirm an in-person conference on June 10\u201311, 2025 at PSE, a 300-word abstract call with a Jan 15, 2025 submission deadline and Feb 15, 2025 acceptance date, invitation to economists and related fields, acceptance of short \u2018project pitches\u2019, availability of travel bursaries, and provision of vegan meals. Minor wording differences exist about travel coverage: the AW\u2011Econ announcement uses cautious language (\u2018insofar as possible\u2019), while the PSE page states travel costs will be covered for speakers \u2014 a small difference in emphasis but not a substantive contradiction. Because primary organiser and host pages corroborate the key details, the post is well supported.",
+    "sources": [
+      "Paris School of Economics \u2014 Call for abstracts for the Conference on the Economics of Animal Welfare (news page), Dec 2024 / event details (confirms June 10\u201311, 2025; submission deadline Jan 15, 2025; acceptances by Feb 15, 2025; vegan meals; travel bursaries). ([parisschoolofeconomics.eu](https://www.parisschoolofeconomics.eu/en/news/call-for-abstracts-for-the-conference-on-the-economics-of-animal-welfare/?utm_source=openai))",
+      "Paris School of Economics \u2014 The Conference on the Economics of Animal Welfare (events page). ([parisschoolofeconomics.eu](https://www.parisschoolofeconomics.eu/en/events/the-conference-on-the-economics-of-animal-welfare/?utm_source=openai))",
+      "Animal Welfare Economics Working Group \u2014 Conferences page (lists 2025 conference at Paris School of Economics; confirms dates & that the event is part of the series). ([aw-econ.org](https://www.aw-econ.org/conferences?utm_source=openai))",
+      "AEAweb news \u2014 Call for Abstracts: Animal Welfare Economics Working Group Conference 2025 at the Paris School of Economics (Dec 6, 2024). ([aeaweb.org](https://www.aeaweb.org/news/call-for-abstracts-economics-animal-welfare-dec-6-2024?utm_source=openai))",
+      "EA Forum post(s) announcing the 2025 Animal Welfare Economics Conference @ PSE (mirrors the call and details). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/REKdHxo8JKxygkn2G/2025-animal-welfare-economics-conference-pse?utm_source=openai))"
+    ]
+  }
+}

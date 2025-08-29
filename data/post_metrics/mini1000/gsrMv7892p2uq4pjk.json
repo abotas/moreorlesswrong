@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "value_ea": 7,
+    "value_humanity": 3,
+    "explanation": "Useful, empirically-driven early case study of multi-agent failure modes (poor coordination, limited purposeful cooperation, cascading hallucinations/groupthink, prompt/semantic sensitivities) that are directly relevant to AI safety and multi-agent system design. Not foundational or definitive\u2014small qualitative sample and a game abstraction\u2014but it highlights concrete, plausible risks and useful experimental methodology for EA researchers working on alignment, coordination, and social engineering of agents. For general humanity the immediate impact is minor: interesting illustration of risks but not directly actionable for most people without further scaling and validation."
+  },
+  "PostRobustness": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overgeneralization from limited, uncontrolled data \u2014 don\u2019t attribute weaknesses to model \"training\" or broad claims about multi\u2011agent capabilities without controls. You report a few dozen games with many scaffold choices (system prompts, message tooling, extended thinking, role-specific prompts) that plausibly explain the behaviors you saw. Before making claims like \u201cClaude hasn\u2019t been trained to work together,\u201d run simple ablations: vary prompts (with/without explicit coordination instructions), toggle private messaging, change temperature/chain\u2011of\u2011thought settings, and compare win/coordination rates across conditions. Report sample sizes, variance, and statistical comparisons so readers can judge robustness.\n\n2) Missing experimental controls and quantitative metrics \u2014 the writeup is qualitative and the most important confounders are not ruled out. Add a small set of controlled experiments and compact quantitative metrics (e.g., rate of private messages among evils, fraction of games with explicit info\u2011sharing, win rates, frequency of rule\u2011hallucinations, inter\u2011agent agreement scores). That will let you distinguish (a) scaffolding/prompting effects, (b) model reasoning limits, and (c) stochastic variability. Even a short table or a one\u2011paragraph summary of these numbers will hugely increase credibility without lengthening the post much.\n\n3) Overlooked alternative explanations and easy mitigations for hallucinatory groupthink \u2014 you treat group acceptance of false claims as a model pathology, but it could be caused by role\u2011trust heuristics, message ordering, or history clearing. Test and report a few targeted mitigations: require agents to cite rule line numbers, force agents to recheck the rulebook before acting, anonymize message authors, or give each agent a \u201ctrusted evidence\u201d score that must be justified. Describe (briefly) one follow\u2011up experiment you will run that isolates whether the problem is: hallucination propagation vs. incentives to conform. Suggesting these concrete fixes in the post will make your conclusions more actionable and help other researchers reproduce or build on your work.",
+    "improvement_potential": "The feedback targets the post's main methodological weaknesses: overgeneralization from a small, uncontrolled sample and lack of quantitative metrics or ablations to separate scaffold effects from model limitations. Those are exactly the kinds of errors that would embarrass the author (attributing behavior to 'training' without controls). The suggested fixes (simple ablations, compact metrics, targeted mitigations like rule-citing or anonymized authors) are actionable and would substantially strengthen the claims without necessarily bloating the post, so addressing them has high value."
+  },
+  "PostAuthorAura": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find a recognizable EA/rationalist presence or traceable public profile for an author named \u201cJames-Sullivan\u201d (hyphenated) in major EA outlets, LessWrong, 80,000 Hours, OpenPhil, academic databases, or mainstream media. It may be a pseudonym or a private/obscure account; therefore they appear unknown both within EA and to the broader public."
+  },
+  "PostClarity": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings, a concise setup, concrete examples, and links to full games make the claims easy to verify. The main arguments (limited AI cooperation, groupthink, semantic quirks, model differences) are presented with supporting evidence and reasonable caveats. Weaknesses: fairly long and occasionally repetitive, some domain-specific jargon (Clocktower roles) assumes reader familiarity, and many conclusions are qualitative/speculative rather than summarized into a short set of key takeaways."
+  },
+  "PostNovelty": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "novelty_ea": 5,
+    "novelty_humanity": 7,
+    "explanation": "For an EA/ML-savvy readership this is moderately novel: the broad themes (LM hallucinations, weak multi\u2011agent coordination, need for scaffolding and tool\u2011use, emergent groupthink) are already known and discussed, but the concrete, hands\u2011on experiment\u2014using Claude variants to play Blood on the Clocktower, the interactive visualizer, and specific empirical anecdotes (evil team not coordinating without explicit prompt, \u2018semantic weight\u2019 effects like dead vs ghost, differences between Haiku/Sonnet/Opus)\u2014add useful, specific evidence and quirks that few have documented. For the general public these ideas are more novel: most non\u2011specialists haven\u2019t seen detailed multi\u2011agent social\u2011deduction experiments or the nuanced behaviors (e.g. semantic priming causing rule confusion) demonstrated here."
+  },
+  "PostInferentialSupport": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically organized, explains the experimental setup and scaffolding, and provides concrete transcript examples (with links) that illustrate key phenomena (lack of spontaneous coordination, susceptibility to shared hallucinations, model differences). The author also tests one intervention (explicit advice to evil players) and reports its effects, which strengthens causal inference. Weaknesses: Conclusions are largely drawn from qualitative inspection of a small, convenience sample (\u201ca few dozen games\u201d) with no quantitative metrics, no controlled ablations (beyond one prompting change), and limited consideration of alternative explanations (prompt wording, tool implementations, ordering effects, game-state confounds, or human baseline). The evidence is illustrative but not sufficient to generalize; more systematic, quantitative experiments would be needed for strong support."
+  },
+  "PostExternalValidation": {
+    "post_id": "gsrMv7892p2uq4pjk",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Strengths: Key background facts in the post are verifiable \u2014 the author\u2019s EA Forum post and interactive visualizer exist, the GitHub code for the experiment is public, Anthropic\u2019s Claude model family (Haiku / Sonnet / Opus and Claude 4 features like extended thinking/tool use) is documented, and Blood on the Clocktower rules cited (Investigator and other \u201cyou start knowing\u201d roles) match the official community wiki. Weaknesses / caveats: The main empirical claims about how the different Claude variants behaved (e.g., Haiku vs Sonnet vs Opus cooperation patterns, specific examples of hallucination-driven groupthink) are observational and anecdotal from \u201ca few dozen games.\u201d They are plausible and consistent with broader evidence that LLMs hallucinate and that multi-agent coordination often requires specialized training, but they are not presented as a large, fully reproducible quantitative experiment. The author\u2019s code and visualizer provide supporting artifacts (logs/visualization), which increases credibility, but I could not independently re-run or exhaustively verify every game outcome from the public pages during this review. Overall: major factual claims (rules, model identities & features, existence of repos/visualizer) are well-supported; model-behavior conclusions are credible but limited by small sample size and qualitative methodology.",
+    "sources": [
+      "EA Forum post \u2014 James Sullivan, 'How do AI agents work together when they can\u2019t trust each other?' (Effective Altruism Forum). https://forum.effectivealtruism.org/posts/gsrMv7892p2uq4pjk/how-do-ai-agents-work-together-when-they-can-t-trust-each",
+      "Author's visualizer site \u2014 'Claude Plays Blood on the Clocktower' (james-sullivan.github.io/botc-visualizer). https://james-sullivan.github.io/botc-visualizer/",
+      "Author's experiment code repo \u2014 GitHub: james-sullivan/multi-agent-social-deduction. https://github.com/james-sullivan/multi-agent-social-deduction",
+      "Author's visualizer code repo \u2014 GitHub: james-sullivan/botc-visualizer. https://github.com/james-sullivan/botc-visualizer",
+      "Anthropic blog \u2014 'Introducing Claude 4' (May 22, 2025) \u2014 describes Claude Opus 4 / Sonnet 4 & extended thinking with tool use. https://www.anthropic.com/news/claude-4",
+      "Anthropic docs \u2014 Models overview (Claude Opus 4, Sonnet 4, Claude Haiku 3.5 entries). https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "Blood on the Clocktower Wiki \u2014 Investigator (describes 'you start knowing' mechanic: info given on first night only). https://wiki.bloodontheclocktower.com/Investigator",
+      "Blood on the Clocktower Wiki \u2014 Washerwoman (explicitly 'you learn this only once'). https://wiki.bloodontheclocktower.com/Washerwoman",
+      "Blood on the Clocktower Wiki \u2014 Chef (describes first-night information about evil pairs). https://wiki.bloodontheclocktower.com/Chef",
+      "Blood on the Clocktower resources aggregation (botc.fyi) \u2014 list of 'you start knowing' roles including Librarian. https://botc.fyi/",
+      "AAMAS / arXiv related research \u2014 'Training Language Models for Social Deduction with Multi-Agent Reinforcement Learning' (SocialDeductionLLM project) \u2014 demonstrates that explicit multi-agent training can improve coordination in social-deduction games. https://arxiv.org/abs/2502.06060",
+      "Survey / papers on hallucination and multi-agent mitigation strategies (examples): arXiv 'Interpreting and Mitigating Hallucination in MLLMs through Multi-agent Debate' (Jul 2024) and MDPI 'Minimizing Hallucinations and Communication Costs...' (2025) \u2014 literature confirming LLM hallucination and multi-agent verification approaches. https://arxiv.org/abs/2407.20505 ; https://www.mdpi.com/2076-3417/15/7/3676"
+    ]
+  }
+}

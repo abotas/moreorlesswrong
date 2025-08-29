@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an organizational anniversary/PR post summarizing Faunalytics' 25-year history. It is informative for people interested in animal advocacy, research, or potential collaborators/donors, but it does not present new, load\u2011bearing arguments or evidence that would substantially change EA strategies or global outcomes. Its practical impact is modest (awareness, credibility, fundraising), and negligible for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Missing substance for an EA audience \u2014 the post is purely celebratory and links out without summarizing concrete impact. Action: add 3\u20135 concrete, EA-relevant metrics/claims in the post (e.g., number of peer\u2011reviewed studies, datasets released, estimated animals affected or policy changes influenced, citation counts, notable collaborations). For each claim link to the underlying evidence or a section in the linked article so readers can quickly evaluate impact.  \n\n2) Lack of transparency and critical reflection \u2014 the tone is PRish and doesn\u2019t address limitations, failures, or funding/conflicts of interest, which EA readers care about. Action: include a short paragraph on major lessons learned, one or two high\u2011level failures or things that didn\u2019t work, and a funding/conflict-of-interest statement (major donors, revenue model). If possible, link to methods, open data, or reproducibility info.  \n\n3) No clear ask or invitation for the EA community \u2014 the post doesn\u2019t say why EAs should engage or what you want from them. Action: add a single clear call to action (e.g., invite critiques of research methods, request collaborators for a specific agenda, ask for volunteers to validate datasets, or propose a follow\u2011up discussion on EA Forum) and provide a contact or next step. These changes keep the post short but make it far more useful and credible to EA readers.",
+    "improvement_potential": "Good, concrete, and audience\u2011relevant critique. The feedback correctly flags the post\u2019s main weaknesses for an EA readership: absence of quantified impact, lack of critical/reflexive transparency around failures and funding, and no clear ask or engagement path. Each suggestion is actionable and can be implemented with only a small addition to the post (3\u20135 metrics, a short candid paragraph on lessons/failures/funding, and a single CTA), so it would materially increase credibility and usefulness without bloating the announcement. One minor caveat: if the post is intended purely as a celebratory link-post, some brevity is defensible, but overall these changes are high\u2011value for the target audience."
+  },
+  "PostAuthorAura": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no record of an author or public persona named 'JLRiedi' in EA/rationalist forums, major EA publications, academic databases, or broader public media. Likely a pseudonym or private/obscure individual; please provide links or context if you want a reassessment."
+  },
+  "PostClarity": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "clarity_score": 9,
+    "explanation": "The post is very easy to understand, concise, and communicates its purpose \u2014 announcing Faunalytics' 25th anniversary and directing readers to a commemorative article \u2014 with a clear call-to-action (the link). It is slightly promotional and provides few specifics about milestones or key takeaways, so adding a one-sentence highlight or two could make it even more informative without sacrificing clarity."
+  },
+  "PostNovelty": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is an organizational anniversary/retrospective rather than a presentation of new theories or arguments. The main novelty is mundane and specific to Faunalytics\u2019 internal history and milestones; the overall themes (research-driven advocacy, celebrating 25 years) are common and unlikely to be new to EA readers or the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post is largely a short celebratory/anniversary announcement that asserts Faunalytics' evolution into a research-driven leader but provides no argumentation or empirical evidence within the post itself. Reasoning is minimal and largely rhetorical rather than structured (few premises, no counterarguments, no causal chain). Evidence quality in the post is very weak \u2014 it links to a longer retrospective but does not summarize concrete metrics (publications, citations, policy changes, independent evaluations, outcomes attributable to Faunalytics). Overall support is therefore low: the claim might be true and could be supported by the linked article, but based solely on this post the claim is poorly substantiated. To be stronger it would need independent impact metrics, external endorsements, and clear examples tying research to outcomes."
+  },
+  "PostExternalValidation": {
+    "post_id": "PntkzW3A24P6JmhFx",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major factual claims in the post are well supported by primary sources. Faunalytics\u2019 own website confirms the linked 25th\u2011anniversary blog (published March 12, 2025), states the organization began in 2000 in Seattle and names Che Green as founder, and describes its evolution into a large research library and research-support organization. Independent third\u2011party evaluations (Animal Charity Evaluators) and Guidestar/GuideStar profile corroborate Faunalytics\u2019 standing and recognition in the animal\u2011advocacy community. Weaknesses: some wording in the post (e.g., \u201cleader in research\u2011driven advocacy\u201d) is somewhat subjective, and several numerical claims on impact/scale are self\u2011reported by Faunalytics and not independently audited in the sources consulted.",
+    "sources": [
+      "Faunalytics \u2014 \"25 Years Of Effective Animal Advocacy\" (blog by Che Green, published March 12, 2025)",
+      "Faunalytics \u2014 Our History / Mission pages (Faunalytics.org; founding year 2000, founder Che Green, Seattle origin, library/original research descriptions)",
+      "Faunalytics \u2014 \"Celebrate Faunalytics\u2019 25th Anniversary\" (donation/celebration page; 501(c)(3) EIN listed)",
+      "Animal Charity Evaluators \u2014 Faunalytics charity review / recommendation (ACE review and listings noting Faunalytics as recommended/standout charity)",
+      "GuideStar / Candid \u2014 Faunalytics profile (EIN 01-0686889; organizational details and awards)"
+    ]
+  }
+}

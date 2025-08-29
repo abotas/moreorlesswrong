@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is an event announcement for a regional EA conference. It\u2019s useful for the EA/rationalist community in the Nordics/Baltics \u2014 facilitating networking, community growth, recruitment, and coordination \u2014 but not foundational to EA theory or high-stakes decisions. For general humanity it\u2019s effectively negligible."
+  },
+  "PostRobustness": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing critical logistics and eligibility info \u2014 The post omits date(s), city/venue (or whether it\u2019s virtual), costs, travel/support/scholarship availability, application timeline (when applicants will be notified), and whether there are limited spots. Add the event dates, location/format, expected price range, whether travel grants or bursaries exist, the deadline year (e.g. \u201cApril 8, 2025\u201d), and when applicants will hear back. These are the details people need to decide to apply.  \n\n2) Unclear target audience and selection criteria \u2014 The current description is very broad. State who you most want to attract (students, professionals, researchers, organisers), any prerequisites or experience level expected, and whether the application is competitive and what criteria are used to select attendees. If you aim to be inclusive, say so and explain how you\u2019ll support newcomers. This reduces irrelevant applications and sets correct expectations.  \n\n3) Tone and claims feel promotional without support \u2014 Calling the event \u201cthe biggest effective altruism event of the year in the Nordics and Baltics\u201d is a strong claim that may look like marketing. Either soften the language (e.g., \u201cone of the largest\u2026\u201d) or add a short factual justification (attendee numbers last year, partner organisations). Also add one line on accessibility (language(s) used, captioning/interpretation, dietary accommodations) to avoid avoidable pushback from the community.",
+    "improvement_potential": "Strong, practical feedback that points out the most important omissions (dates/year, location/format, cost/scholarships, selection info) that would frustrate potential applicants; also rightly flags a promotional claim and accessibility info. These changes are high-impact and wouldn\u2019t need much extra text. One caveat: if the link intentionally hosts full details, the author may prefer to keep the post short \u2014 but they should still include the few critical facts (year, venue/virtual, price/financial-aid availability, notification timeline) in the post to avoid needless clicks and confusion."
+  },
+  "PostAuthorAura": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No notable presence of an author named Ashley Motta in EA/rationalist circles or as a public figure up to my 2024-06 cutoff. Could be a private individual or a pseudonym; if you have links or more context (articles, tweets, or affiliations) I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "clarity_score": 9,
+    "explanation": "Very clear and direct: short intro, target audience, benefits, clear call-to-action, link, contact email and deadline. Minor weaknesses: it doesn't state exact dates or location in the post itself (only \u201825), and formatting around the link is slightly cluttered \u2014 otherwise concise and easy to understand."
+  },
+  "PostNovelty": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is an event announcement for a regional EA conference \u2014 a routine promotional post with no new arguments, theories, or claims. The only marginally specific element is the regional focus (Nordics/Baltics), but that does not make the content novel for either EA readers or the general public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "reasoning_quality": 3,
+    "evidence_quality": 1,
+    "overall_support": 3,
+    "explanation": "This post is primarily a promotional announcement rather than an argument, so reasoning is simple and mostly plausible (it states the event is for Nordics/Baltics EA community and that attendees can connect and learn). However it offers no substantiation for its stronger claim (\u201cbiggest EA event of the year in the Nordics and Baltics\u201d) and gives no data or concrete examples to support asserted benefits. Evidence is essentially absent \u2014 no attendance figures, past outcomes, speaker/program details, testimonials, or independent verification \u2014 so empirical support is weak. The post would be more convincing if it included metrics from prior years, speaker list or agenda, attendee testimonials, or explicit claims about impact and how it\u2019s measured."
+  },
+  "PostExternalValidation": {
+    "post_id": "RG7sWzNGvvodR3izJ",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most factual claims in the post are verifiable and accurate: EAGxNordics \u201925 is a scheduled EA conference in Oslo (25\u201327 Apr 2025), the event website and EA Global listing exist, the organiser contact (nordics@eaglobalx.org) and venue (Rebel, Universitetsgata 2) are confirmed. There is a minor inconsistency on the stated application deadline: the event FAQ and EA Forum announcement say apply by April 8, 2025, while the EA Global event page lists an application deadline of April 15, 2025. The promotional claim that it is \u201cthe biggest effective altruism event of the year in the Nordics and Baltics\u201d is subjective and not strictly verifiable; however, past EAGxNordics conferences have reported several-hundred attendees (e.g., ~500 in 2023), supporting that it is a major regional EA event. Overall: well-supported with one small date discrepancy and one promotional/unquantified claim.",
+    "sources": [
+      "EAGxNordics'25 \u2014 Official site (FAQ & Home), eagxnordics.org (shows dates 25\u201327 Apr 2025, contact nordics@eaglobalx.org, and application by 8 April).",
+      "EAGxNordics 2025 \u2014 EA Global events page, effectivealtruism.org (lists event 25\u201327 Apr 2025 and shows an application deadline of 15 April).",
+      "Rebel Oslo event page \u2014 Rebel (venue listing for EAGxNordics 2025, 25\u201327 Apr 2025).",
+      "EA Forum announcement: 'EAGxNordics in Norway: apply now' (Forum post states 'Apply by April 8').",
+      "EA Sweden (post summary / follow-up) \u2014 reports past EAGxNordics had over ~500 attendees and positive survey results (supports claim that EAGxNordics is a major regional EA event)."
+    ]
+  }
+}

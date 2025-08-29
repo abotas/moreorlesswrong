@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical onboarding question rather than a novel, load-bearing argument. It\u2019s useful for recruiting and guiding newcomers\u2014so it has modest value for the EA/rationalist community by improving engagement, skill-building, and volunteer pipelines\u2014but it isn\u2019t foundational to EA theory or policy. For humanity at large the post has negligible direct impact; any wider effect would be indirect and incremental (better onboarding \u2192 more effective movement activity)."
+  },
+  "PostRobustness": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Give minimal personal context so answers aren\u2019t generic. Add 1\u20132 sentences about your background and constraints (location/time availability, current job/career stage, key skills, and how committed you are to switching careers or donating). Actionable template you can paste into the post: \u201cI\u2019m a [role/years experience] in [city/country], can give ~[hours/week] or [full-time], have skills in [X], and I\u2019m mainly aiming to [short-term impact / build career for long-term impact / volunteer/get connected].\u201d Why: people will give much more targeted, useful advice instead of high-level lists.\n\n2) Narrow what \u201cimpactful\u201d means for you and your timeframe. Say whether you want immediate volunteer opportunities, to build skills for a career move in 1\u20132 years, or to identify longtermist/high\u2011LE impact paths. If you\u2019re open to multiple, ask respondents to label suggestions by timeframe (short/medium/long). Why: different recommendations (e.g., community organizing vs. career-switch fellowships vs. research roles) suit different horizons.\n\n3) Ask for prioritized, concrete next steps and seed a few candidate options to focus answers. Replace \u201cWhat are some\u2026?\u201d with \u201cWhat are the top 3 things I should do in the next 3\u201312 months given the context above?\u201d Optionally list 3 example avenues you\u2019re curious about (local group leadership, entry-level research/ops roles, skills training via X fellowship). Why: this reduces scattershot replies and yields actionable guidance you can actually follow.",
+    "improvement_potential": "The feedback identifies the main weaknesses of the post: it\u2019s too generic and lacks essential context (background, constraints, timeframe, and a clear ask), which will produce scattershot, low-utility replies. The three suggestions are practical, concise, and easy to implement (even supplying a paste-in template), so they would substantially improve the quality of responses without unduly lengthening the post. Minor caveat: making the question more specific can slightly reduce serendipitous suggestions, but overall the proposed changes are high-impact and appropriate."
+  },
+  "PostAuthorAura": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my knowledge cutoff (mid\u20112024) there is no widely recognized EA/rationalist presence or public profile for the name Alexander Deliyanni. I could not identify notable publications, talks, or community roles under that name; if you can share links or contexts (papers, handles, books), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "clarity_score": 9,
+    "explanation": "The post is very clear and well-structured: a concise intro, explicit questions, and helpful bullet points that make it easy to respond. It could be slightly improved by adding brief personal details (skills, time availability, location) to get more tailored recommendations, but otherwise it's highly readable and compelling."
+  },
+  "PostNovelty": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "novelty_ea": 1,
+    "novelty_humanity": 3,
+    "explanation": "This is a very standard newcomer / onboarding question that appears frequently on the EA Forum and in many communities\u2014asking for entry points, underrated opportunities, and resources. It contains no new arguments, frameworks, or surprising claims. To a general educated reader it has slightly more novelty only insofar as EA as a topic might be unfamiliar, but the question format and content are still commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "reasoning_quality": 7,
+    "evidence_quality": 1,
+    "overall_support": 3,
+    "explanation": "Strengths: The post is clear, well-structured, and logically framed as a request\u2014it specifies what the asker wants (entry points, lesser-known projects, skill-building, resources), which makes it easy for responders to provide relevant advice. Weaknesses: It does not advance or defend any substantive claims, nor does it present empirical evidence or sources to support specific recommendations. Because the post is primarily a solicitation rather than an argumentative piece, there is effectively no evidential support for any particular thesis, so overall support for concrete conclusions is low."
+  },
+  "PostExternalValidation": {
+    "post_id": "ediXuRiXyFjaR6qvE",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post makes almost no empirical claims \u2014 it mainly names widely recognized EA cause areas (global health, AI safety, animal welfare, longtermism) and asks for newcomer entry points. Those descriptions and the suggested avenues for engagement (introductory courses, local groups, conferences, career/giving resources, charity evaluators, fellowships) are directly supported by authoritative EA sources. Verified resources include the Effective Altruism 'Get involved' and Introductory Program pages, 80,000 Hours career guidance and community pages, EA Global / EAGx conference listings, and charity evaluators (GiveWell, Animal Charity Evaluators). Minor caveats: the EA movement and some of its tactics have been the subject of substantive public criticism and controversy (media expos\u00e9s, fundraising scandals), which is relevant context but does not contradict the factual accuracy of this post\u2019s statements. Overall: well-supported but not requiring exhaustive empirical validation since it is primarily a request for recommendations.",
+    "sources": [
+      "Effective Altruism \u2013 Take action / Get involved (effectivealtruism.org) \u2014 'Take action' / 'Get involved' pages. (see: Volunteer, local groups, virtual programs, events). (turn0search1 / turn0search2)",
+      "Effective Altruism \u2013 Introductory EA Program / Virtual Programs (effectivealtruism.org) \u2014 description of the free 8-week Introductory EA Program and cohort details. (turn3search0 / turn3search1)",
+      "80,000 Hours \u2013 About & Community (80000hours.org) \u2014 career guide, advising, conferences and community resources for EA newcomers. (turn0search5 / turn0search3)",
+      "EA Global / EAGx events (effectivealtruism.org / ea-global pages) \u2014 EA Global and EAGx conference listings and descriptions (networking, workshops, travel support). (turn2search0 / turn2search2)",
+      "GiveWell \u2013 GiveWell\u2019s Fundraising and Grantmaking (GiveWell blog, Dec 2024 summary of 2023 funding) \u2014 example of EA-associated charity evaluation and funding priorities in global health. (turn1search4)",
+      "Animal Charity Evaluators \u2013 Announcements 2024/2025 (animalcharityevaluators.org) \u2014 ACE annual charity evaluations and recommended charities in animal welfare. (turn1search0 / turn1search1)",
+      "EA Forum \u2013 community posts and charity/organization discussions (forum.effectivealtruism.org) \u2014 platform the OP posted to and where newcomers seek advice. (turn1search3)",
+      "Time / Wired reporting on EA (Time: MacAskill interview / longtermism; Time/Wired: critiques and cultural controversies) \u2014 contextual reporting on EA\u2019s growth and controversies (relevant context, not contradicted by OP). (turn0news12 / turn3news12 / turn0news14)"
+    ]
+  }
+}

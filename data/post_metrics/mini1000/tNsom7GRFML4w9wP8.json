@@ -1,0 +1,48 @@
+{
+  "PostValue": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post sounds like a concrete, communicative exercise showing what donations to an animal charity could have purchased. That kind of accounting is useful to donors and can inform thinking about marginal impact and cost\u2011effectiveness within EA/animal advocacy debates, but it isn\u2019t a foundational argument that would shift major strategy for the movement unless it contains rigorous, surprising empirical evidence about huge inefficiencies. For the wider public it\u2019s of low importance \u2014 interesting or persuasive to some donors, but not consequential for broad policies or humanity\u2019s long\u2011term trajectory."
+  },
+  "PostRobustness": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "robustness_score": 2,
+    "actionable_feedback": "1) No numbers, methods, or sources \u2014 the post currently just embeds a video with a title but gives no concrete data. Add the total amount you donated, the cost-per-unit (e.g. cost per chicken saved or per welfare upgrade), step-by-step calculations, currency and time period, and the sources for prices. Put reproducible calculations (or a short spreadsheet) in an appendix or linked file so readers can check your math.\n\n2) Missing counterfactual / marginal-impact reasoning \u2014 \"what X dollars could have bought\" is ambiguous. Say whether you mean direct purchases, program funding, or the marginal effect of an extra donation. Discuss fungibility, deadweight, displacement (would the charity have done the same work without your gift?), matching or fundraising multipliers, and give at least 2 alternative scenarios (optimistic / baseline / pessimistic) with sensitivity analysis.\n\n3) Ignores major contextual objections and accessibility \u2014 anticipate and address obvious EA-style critiques: why you used the chosen cost-effectiveness metric (animals saved vs welfare-improvement), selection of charities/interventions, potential long-run or policy effects, and non-linear scaling issues. Also add a short written summary or transcript of the video for readers who can\u2019t/watch won\u2019t watch it so your claims are immediately verifiable.",
+    "improvement_potential": "The feedback pinpoints the post's core failings: no numbers/methods/sources, no counterfactual/marginal-impact reasoning, and poor accessibility/context. These are major credibility and 'own-goal' issues \u2014 without them the post reads as anecdote rather than analysis. The suggestions are actionable (add totals, cost-per-unit, sources, scenarios, and a transcript or summary) and can largely be handled via a short appendix or link, so they don't unnecessarily bloat the main post. One minor caveat: some recommendations (e.g. full sensitivity analyses) could be heavy; the reviewer sensibly suggests putting detailed calculations in a linked file."
+  },
+  "PostAuthorAura": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can\u2019t find an identifiable EA/rationalist author known as \u201cChris Bryant \ud83d\udd38\u201d in major EA forums, publications, or community lists through my training cutoff (2024-06). The name collides with public figures (e.g., UK MP Chris Bryant) but there\u2019s no evidence that a distinct EA author by this name is a known contributor. If you can share a link or context (platform, article), I can reevaluate."
+  },
+  "PostClarity": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "clarity_score": 4,
+    "explanation": "The title signals the topic (what donations could have bought) and the post is extremely concise, but the body contains only an embedded video with no summary, argument, or key takeaways. Readers must watch the video to understand the point, which hurts accessibility and quick comprehension; adding a short written summary, main claims, and timestamps would make it much clearer."
+  },
+  "PostNovelty": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The basic idea\u2014translating charity donations into concrete things they could have purchased/is a cost\u2011effectiveness framing\u2014is well\u2011trodden in EA and animal\u2011advocacy circles, so it\u2019s not very novel to that readership. To a general audience it\u2019s somewhat less common and can feel insightful, but the core concept (impact calculators / \u2018what your money could buy\u2019) is already widely used in popular fundraising and media, so it\u2019s only modestly novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "I could not access any textual argument or supporting materials in the post \u2014 it only embeds a YouTube video. That makes it impossible to verify claims, follow the chain of reasoning, or check sources. As presented the post provides weak support: no written thesis, no methods, no cited data, and no transparency about assumptions. If the video contains rigorous cost-effectiveness analysis, citations, and sensitivity checks those might raise the scores, but based on the post as posted (embed only) the reasoning and evidence are insufficient. To improve: include a concise written summary of the thesis, key numerical claims, data sources, methodology/assumptions, and links to supporting studies or transcripts."
+  },
+  "PostExternalValidation": {
+    "post_id": "tNsom7GRFML4w9wP8",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "The EA Forum item is a linkpost (author Chris Bryant) that only links to a YouTube video and contains no empirical claims in the post body to verify. I confirmed the forum page and the linked YouTube URL. I could not load the YouTube video's content via the browsing tool in this session, so I did not evaluate any empirical claims that might appear inside the video itself \u2014 if you want the video's claims checked, please provide the video transcript or allow me to fetch the video's text. Because the post itself makes no factual assertions, there are no claims to contradict or verify, so I score the post as fully validated for empirical accuracy.",
+    "sources": [
+      "EA Forum \u2014 What My Animal Charity Donations Could Have Bought (linkpost by Chris Bryant), EffectiveAltruism.org (post page showing it is a linkpost).",
+      "YouTube URL linked by the post: https://www.youtube.com/watch?v=IeDf_j0P1Co (linked target of the EA Forum post).",
+      "Chris Bryant personal / professional pages (author background): Bryant Research / University of Bath profile (Chris Bryant, researcher on alternative proteins)."
+    ]
+  }
+}

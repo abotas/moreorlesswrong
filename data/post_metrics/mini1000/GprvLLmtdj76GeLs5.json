@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a practical solicitation rather than a substantive argument. It can be moderately useful to the EA community by surfacing actionable, solvable pain points that a new nonprofit could fill, but it is not foundational or highly load-bearing \u2014 its impact depends entirely on the quality of responses and follow-through. For general humanity the impact is indirect and small unless it leads to a widely adopted high-impact intervention."
+  },
+  "PostRobustness": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Unclear scope and actionability \u2014 you don\u2019t say what kinds of solutions you can realistically pursue, or what you\u2019ll do with the answers. That will make people give either very broad comments or ideas that aren\u2019t useful to you. Actionable fix: add a short sentence saying what kinds of projects you could start/ fund/ build (budget range, timeline, domain constraints) or explicitly ask people to mark whether the problem is realistic for a small/new non-profit vs a large org.\n\n2) Question design will produce noisy, low-signal responses \u2014 an open-ended forum post without structure tends to generate anecdotes and long lists that are hard to prioritise. Actionable fix: ask for structured inputs (e.g., for each problem ask: 1-line description; how it slows work; estimated scale of impact; estimated ease of solving (1\u20135); any existing solutions; whether it\u2019s geo-specific). Consider using a short Google Form/Airtable to collect this so you can analyze/compare answers quickly and let respondents answer in 2\u20133 minutes.\n\n3) Privacy, motivation, and small errors \u2014 asking for location may deter replies if you don\u2019t explain why or how you\u2019ll use it; also there\u2019s a typo (\u201cslowly down\u201d). Actionable fix: make location optional, explain why you want it (e.g., to identify local pain points), state how you\u2019ll store/share responses, fix the typo to \u201cslowing down,\u201d and tell people what you\u2019ll do with the results (e.g., publish a summary, follow up with volunteers).",
+    "improvement_potential": "The feedback correctly identifies several important weaknesses: missing scope/actionability (so answers may be irrelevant), poor question design that will yield noisy anecdotes, privacy/clarity issues around location, and a small typo. Each point is actionable and mostly short to fix (add scope/constraints, ask for structured inputs or a short form, make location optional and explain use, fix typo). Implementing these changes would substantially raise the signal-to-noise of replies and make the post much more useful for follow-up, without requiring large lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence (up to my 2024-06 knowledge cutoff) that 'James-Hartree-Law' is a recognized figure in the EA/rationalist community or publicly: not a visible poster on EA Forum/LessWrong, not a known speaker/author, and not indexed in major academic or media sources. Likely a pseudonym or a very minor/obscure online handle. If you can share links or context, I can re-evaluate."
+  },
+  "PostClarity": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "clarity_score": 8,
+    "explanation": "The post is short, direct, and easy to understand: it states the author, intent (learn solvable problems slowing EA work), invites broad answers, and asks for location and two concrete questions. Weaknesses are minor: a typo ('slowly' vs 'slowing'), slight ambiguity about which kinds of EAs or timeframes for 'solvable' problems are meant, and it could briefly clarify scope (e.g., volunteers vs org leaders). Overall clear and well-structured."
+  },
+  "PostNovelty": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "This is essentially a crowd-sourcing / needs-assessment request aimed at a specific community. Among EA Forum readers, similar posts soliciting pain points, product ideas, and local context are very common, so it\u2019s not novel (score ~2). To the general public it\u2019s somewhat less familiar \u2014 the focus on \u2018solvable\u2019 bottlenecks for a particular movement and asking for location-specific input is mildly distinctive but still a straightforward survey approach (score ~4)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "reasoning_quality": 6,
+    "evidence_quality": 1,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear, well\u2011structured as a solicitation, and appropriately open\u2011ended (asks for location, invites a broad range of responses), which is suitable for gathering community input. Weaknesses: It does not present any prior research, hypotheses, or criteria (e.g., what counts as \"solvable\") and offers no methodology for aggregating or validating responses. There is no empirical evidence provided \u2014 it's purely a call for data \u2014 so current support for any conclusions is absent. As a prompt for gathering information it is reasonable (hence a moderate reasoning score), but as an argument or evidence\u2011backed claim it is unsupported."
+  },
+  "PostExternalValidation": {
+    "post_id": "GprvLLmtdj76GeLs5",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post is primarily a request for input rather than a set of empirical claims, so there is little factual content to falsify. The author and post exist on the EA Forum and the profile lists St. John's College, Santa Fe as their affiliation and location, which corroborates the personal details in the post (author identity and location). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/james-hartree-law?utm_source=chatgpt.com)) The one factual-leaning personal claim \u2014 \u201cI am graduating college next year\u201d \u2014 is not independently verifiable from the public profile (the profile shows the author is an undergraduate at St. John\u2019s College but does not give a graduation date), so I deduct one point for that unverifiable personal detail. ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/james-hartree-law?utm_source=chatgpt.com), [guidestar.org](https://www.guidestar.org/Profile/85-0162247?utm_source=chatgpt.com)) For context, the topic the author asks about (concrete/solvable frictions slowing EA work, e.g., hiring/funding access, forum discoverability) is widely discussed on the EA Forum; representative threads about hiring/funding and forum accessibility illustrate that the question addresses genuine, documented community frictions. ([ea.greaterwrong.com](https://ea.greaterwrong.com/posts/jmbP9rwXncfa32seH/after-one-year-of-applying-for-ea-jobs-it-is-really-really?utm_source=chatgpt.com))",
+    "sources": [
+      "EA Forum \u2014 James-Hartree-Law profile (Effective Altruism Forum). (shows posts and location/affiliation).",
+      "EA Forum \u2014 \"After one year of applying for EA jobs: It is really, really hard to get hired by an EA organisation\" (discussion of job/application frictions).",
+      "EA Forum \u2014 \"EA is becoming increasingly inaccessible, at the worst possible time\" (discussion of community accessibility and cause-focus shifts).",
+      "EA Forum \u2014 \"What are we doing about the EA Forum? (Jan 2025)\" (discussion of Forum discoverability/format frictions).",
+      "St. John\u2019s College (Santa Fe) \u2014 institutional/program information (corroborates the college named on the user profile)."
+    ]
+  }
+}

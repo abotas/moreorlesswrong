@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post raises an interesting points-of-view about how family planning benefits might be counted, and if the 'relocated births' effect were large and systematic it could alter some charity cost-effectiveness comparisons. However, the claim is speculative and not foundational: demographic substitution, timing effects, migration patterns, and standard modelling of births averted make large-scale relocation of births across regions unlikely without strong evidence. Ethical and political concerns (and the many other benefits of family planning) also mean funders are unlikely to treat this as a primary justification. Thus it has modest relevance for EA allocation debates if followed up with rigorous analysis, but little direct importance for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Incorrect causal model: you treat an \"averted birth\" as if it simply relocates to a lower-mortality region. That is a major conceptual error. Contraception reduces or delays births; it does not cause births in other countries. If your claim is that averting births in high\u2011mortality places reduces child deaths, you need to model births averted (or births shifted in time) \u00d7 local child mortality, not assume one\u2011to\u2011one relocation. Actionable fix: reframe the claim to either (a) family planning averts births and therefore averts the deaths those children would have experienced, or (b) family planning delays births and thereby changes child survival via spacing effects \u2014 and then build a demographic model with realistic parameters (contraceptive use \u2192 births averted per user\u2011year; fertility elasticity; timing effects; local under\u20115 mortality rate; possible rebound/compensatory fertility). Use DHS data, WHO/Guttmacher estimates, and Bongaarts/DEMOG literature for parameter values.  \n\n2) Missing important methodological and ethical reasons why CEAs often exclude \"averted births\": there are population\u2011ethics and measurement conventions (the non\u2011identity problem, whether preventing a birth counts as saving a life), and many family\u2011planning evaluations already count child lives saved via spacing/reduced maternal/infant mortality rather than by treating all averted births as lives saved. Actionable fix: cite and engage the relevant literature/arguments (e.g., population ethics/non\u2011identity, GiveWell\u2019s methodology or FAQ on counting lives, Guttmacher/WHO cost\u2011effectiveness work) and explain which normative position you adopt and why. That will prevent readers from dismissing the analysis on methodological grounds.  \n\n3) You dismiss the \"eugenics\" concern too quickly and risk an own goal: even if the math supports large mortality effects, framing matters greatly for charities working in historically oppressed communities. Actionable fix: explicitly address ethical, consent, and political concerns up front. Reframe benefits in terms of reproductive autonomy, maternal/child health, and voluntary choice rather than population control. If possible, add a short paragraph on how your analysis could be presented in ways that avoid moral/political backlash and respect autonomy (and note how this might affect real\u2011world uptake and therefore cost\u2011effectiveness).",
+    "improvement_potential": "The feedback identifies major conceptual and reputational mistakes (treating an averted birth as \u2018relocated\u2019, ignoring population\u2011ethics conventions, and the eugenics framing risk). It gives actionable, focused fixes (reframe the model, cite literature, address ethical framing) that would substantially improve or correct the post without unnecessary verbiage. The one reason not to give a 10 is that it could point to a few additional concrete citations or examples, but overall it flags the key own goals and methodological errors."
+  },
+  "PostAuthorAura": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of a notable EA/rationalist figure named David Hammerle. The name does not appear among well-known authors, conference speakers, or major EA forum contributors up to my 2024-06 cutoff; it may be a private individual or pseudonym with little or no public presence."
+  },
+  "PostClarity": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "clarity_score": 7,
+    "explanation": "The post is generally clear and easy to follow: it states a concrete concern, gives examples, and explicitly asks a question. Strengths: readable language, focused topic, and a clear claim (that \u2018relocated births\u2019 could greatly increase cost\u2011effectiveness). Weaknesses: the key concept (\u201crelocated births\u201d) isn\u2019t precisely defined or justified, the mechanism and assumptions behind the quantitative claim are undeveloped, and the objection about eugenics is raised without context or sourcing. Overall concise but would benefit from clearer definitions, evidence or a worked example, and a more careful treatment of ethical objections."
+  },
+  "PostNovelty": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For an EA Forum audience this is not very novel: EA, global health and development economists already discuss 'births averted', replacement effects, geographic/temporal displacement of fertility, and ethical objections (e.g. eugenics concerns). The specific framing of counting 'relocated births' in cost\u2011effectiveness analyses is a somewhat unusual phrasing but the underlying ideas have been considered. For the general educated public the idea is moderately novel \u2014 many people know family planning saves lives, but few will have thought through the subtler CEA implication that averting births in high\u2011mortality regions effectively shifts those births (and hence mortality risk) elsewhere and how to account for that in cost\u2011effectiveness."
+  },
+  "PostInferentialSupport": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post raises an interesting intuition but its core argument is poorly specified and contains important logical gaps. It assumes without justification that averting births in high-mortality regions effectively 'shifts' those births to low-mortality regions (or otherwise produces large reductions in under-5 deaths), but provides no causal model or discussion of counterfactuals (replacement births, timing effects, migration, fertility dynamics). The comparison to GiveWell charities is asserted rather than quantified. Evidence is essentially absent (one anecdote and an unsupported claim of 'my estimates'), so empirical support is negligible. To be convincing the claim would need demographic modelling of births averted, clear counterfactuals, cost-per-averted-under-5-death calculations, and engagement with existing literature on family planning impacts and ethical concerns."
+  },
+  "PostExternalValidation": {
+    "post_id": "stWZ26t9W7qi3ieJS",
+    "emperical_claim_validation_score": 4,
+    "validation_notes": "Mostly inaccurate or overstated. Correct points: (a) family\u2011planning programs avert pregnancies and can reduce maternal and child mortality; (b) total fertility in sub\u2011Saharan Africa is much higher than the world average. Major problems: the post\u2019s central mechanism \u2014 that an \u201caverted\u201d birth in a high\u2011mortality region is usefully treated as being \u201crelocated\u201d to a low\u2011mortality region \u2014 has no empirical support and is a conceptual error (births are postponed or permanently averted, not instantly moved to other regions). Also, many cost\u2011effectiveness analyses (e.g., GiveWell\u2019s contraception work and MSI\u2019s Impact2 model) explicitly try to account for maternal/child health effects of contraception and the timing/spacing channel; GiveWell discusses why it excludes some broader macro effects but does not \u201calways miss\u201d the health benefits the author claims are ignored. The post therefore overstates both the analytic omission and the likelihood that accounting for a hypothetical \u201crelocation\u201d effect would dominate GiveWell\u2019s top charities.",
+    "sources": [
+      "GiveWell \u2014 Valuing Contraception in GiveWell\u2019s Cost\u2011Effectiveness Analysis (April 2025). (describes how GiveWell models mortality benefits of contraception and why some macro effects are excluded). (source: GiveWell 'Valuing Contraception').",
+      "GiveWell \u2014 Our Top Charities / 'How Much Does It Cost to Save a Life' (Feb 2024 version). (GiveWell cost\u2011per\u2011life estimates for top charities such as AMF and SMC; shows GiveWell estimates lives saved per $k and how they think about scale).",
+      "MSI Reproductive Choices \u2014 2024 Impact & Impact2 model (MSI impact claims and Impact2 modelling of unintended pregnancies/child/maternal deaths averted).",
+      "World Bank / FRED series \u2014 Total fertility rate, Sub\u2011Saharan Africa (2023 value ~4.3 births per woman) and World total fertility rate (2023 ~2.2). (supports the claim that fertility in SSA is much higher than world average).",
+      "Gilda Sedgh, Susheela Singh, Rubina Hussain (Guttmacher Institute) \u2014 'Intended and Unintended Pregnancies Worldwide in 2012 and Recent Trends' (Studies in Family Planning 2014). (data on fraction of unintended/mistimed/unwanted pregnancies by region; cited by GiveWell).",
+      "John Bongaarts (Population Council) and related literature on 'tempo effects' / fertility postponement (e.g., Bongaarts 1999; Bongaarts & Feeney 1998). (shows contraception and social change can postpone births \u2014 timing effects \u2014 but does not imply births are relocated across regions).",
+      "Family Empowerment Media \u2014 organizational materials (shows FEM is an active family\u2011planning NGO and their impact claims).",
+      "Lafiya Nigeria \u2014 organizational materials / D\u2011Prize profile (shows Lafiya is a family\u2011planning program in Nigeria).",
+      "Guttmacher Institute / academic reviews on coercive family planning history (and Guttmacher\u2019s note on why voluntary, rights\u2011based family planning is emphasised). (explains ethical reasons donors/analysts are careful about coercion concerns)"
+    ]
+  }
+}

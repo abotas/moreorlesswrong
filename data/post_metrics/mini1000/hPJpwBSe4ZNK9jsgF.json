@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "value_ea": 3,
+    "value_humanity": 3,
+    "explanation": "This is a small-scale fundraising/solidarity appeal for grassroots feminist groups in Russia. It is valuable and important for the direct beneficiaries (legal aid, contraception, safe spaces) and for people who prioritize human-rights giving, but it is not a foundational or load-bearing piece for EA or global priorities. If true, it meaningfully helps specific vulnerable populations; if false or ignored, the broader implications are limited. Overall its practical impact is local and concrete rather than strategically critical."
+  },
+  "PostRobustness": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing transparency on money flow, oversight, and fees \u2014 The post asserts \u201call funds go to\u201d four groups but gives no concrete mechanics or independent verification. Actionable fixes: state exactly how donations are collected (currency, platform fees, estimated transfer costs), where the money is held before distribution, the timeline for distributions, and whether you or Poputchitsa take any overhead. Provide a short independent verification plan (e.g., monthly receipts from each partner, bank/transfer screenshots, a named independent trustee or escrow account, or a simple accountant/auditor who will publish a short report). Even a one-paragraph explanation and a single public past-example of a disbursement would substantially increase trustworthiness for EA readers.  \n\n2) Major unaddressed legal/safety risks for recipients and donors \u2014 In Russia, receiving foreign funds can carry serious legal and safety consequences (e.g., \u201cforeign agent\u201d designation, increased surveillance, criminal risk for some activities). The post doesn\u2019t acknowledge these risks or explain mitigations. Actionable fixes: briefly summarize the legal risk landscape for grassroots groups receiving external support, explain how you minimize traceability/risk to beneficiaries (e.g., cash-based local distribution, legal counsel used, anonymization practices, no donor data shared), and state whether receiving organizations are comfortable with and have consented to taking foreign donations. If some risks remain unavoidable, state them plainly so donors can make an informed choice.  \n\n3) Lack of impact details and accountability for EA audience \u2014 EA readers typically want cost-effectiveness and outcome clarity. The post doesn\u2019t say what a given dollar will buy or how many people you expect to help. Actionable fixes: add a one-line per-organization budget/use-case (e.g., $X covers emergency contraception for Y people, $X funds legal representation for Z cases, $X rents a safe space for N nights), and commit to a short post-campaign report with basic metrics (money disbursed per org, services delivered, anonymized case examples, and lessons learned). If estimating impact is genuinely infeasible, say so and explain why.",
+    "improvement_potential": "The feedback correctly flags significant omissions that materially affect donor trust and recipient safety: concrete money-flow/overhead details, legal/safety risks of receiving foreign funds in Russia, and basic cost-effectiveness/impact metrics for an EA audience. The suggestions are actionable and would substantially improve the post without unreasonable lengthening. (One small caveat: some verification details must balance transparency with operational security for recipients, which the feedback partly notes but could emphasize more.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable public figure or widely-cited author under the name 'Daria_S'. It appears to be a username/pseudonym; I couldn't find notable posts, publications, or presence in EA/rationalist forums, academic databases, or mainstream media. Provide a link or more context if you want a re-evaluation."
+  },
+  "PostClarity": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear, direct and easy to understand: it states who is posting, what the ask is, who the beneficiaries are, where to donate, and how funds will be distributed. It is concise and well-structured for a donation appeal. Minor weaknesses: a few small formatting/typographical issues (extra spaces in URLs, inconsistent punctuation), a slightly awkward sentence about the campaign page timeline, and limited detail on accountability/receipts which could leave readers with small lingering questions. These are small fixes and do not substantially impede comprehension."
+  },
+  "PostNovelty": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily a straightforward fundraiser for grassroots feminist groups in Russia \u2014 a common type of appeal. For EA Forum readers it\u2019s slightly atypical (a region-specific feminist fundraising ask on an EA platform, direct payments for local activists), but the core idea (raising donations, supporting legal aid and emergency contraception) is not new or original to most audiences."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The argument is straightforward and plausible \u2014 grassroots feminist groups in Russia, especially outside major cities, are likely underserved and could benefit from donations. The post lists specific beneficiary groups and provides links so readers can follow up. The donation mechanism (direct distribution to four groups) is clearly stated. Weaknesses: The post offers little empirical evidence or impact data (no numbers served, budgets, outcomes, or independent evaluations), no detailed transparency or accountability information (audits, financials, or safeguards), and no discussion of risks (legal/security issues in Russia, transfer risks, counterfactuals). For an audience expecting rigorous support (e.g., EA community), the reasoning is logically plausible but underspecified, and the evidence is limited and largely self-referential. The claim is moderately supported but would be much stronger with concrete impact metrics, third-party verification, and risk/mitigation details."
+  },
+  "PostExternalValidation": {
+    "post_id": "hPJpwBSe4ZNK9jsgF",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported: Poputchitsa/Companion is an active volunteer feminist project (site and RightsCoLab case study); there is an active Ko\u2011fi fundraising page and a Giveth project for \u201cSupport for Feminist Aid Groups in Russia\u201d listing the four named beneficiaries; each beneficiary (Feminitiv/Feminitive in Kaliningrad, YA\u2011SVOBODA in Ulan\u2011Ude, FemKyzlar in Kazan, and the Emergency Contraception Fund / Telegram channel \u201c\u0428\u043e\u0440\u043e\u0445\u0438 \u043a\u0440\u043e\u0432\u0438\u201d) is documented in independent media and local reporting as an active regional feminist initiative providing counselling, legal/psychological support, safe-space activities or reproductive\u2011health assistance; and multiple sources document that many regional feminist groups in Russia operate informally and under pressure. The only notable uncertainty is the post\u2019s specific phrasing that Poputchitsa \u201cwill distribute directly and equally\u201d to the four groups \u2014 Ko\u2011fi/Giveth descriptions and Poputchitsa Telegram/posts state funds go to those groups and describe transfers and purposes (crisis help, medicines, rent of safe spaces), but I could not find a clear public statement or third\u2011party audit explicitly guaranteeing an equal-per\u2011group split. ",
+    "sources": [
+      "Poputchitsa (Companion) official site \u2014 companionaid.org (About, projects, team).",
+      "Rights CoLab \u2014 Companion case study (Poputchitsa), RightsCoLab.org (case_study/companion).",
+      "Poputchitsa Ko\u2011fi fundraising page \u2014 Ko\u2011fi (companionaid) (campaign description listing the four beneficiary groups).",
+      "Giveth project page \u2014 'Support for Feminist Aid Groups in Russia' (project by Darya/Darya Solopova) on giveth.io.",
+      "Poputchitsa Telegram channel/posts (announcements, fundraising updates, note that collected funds will go to crisis help/medicines/safe-space rent).",
+      "openDemocracy \u2014 profile/interview on Feminitiv (Kaliningrad) and regional feminist projects (documents Feminitiv activities).",
+      "FRIDA / Young Feminist Fund \u2014 profile about 'I Am Freedom' / '\u042f\u2013\u0421\u0432\u043e\u0431\u043e\u0434\u0430' (Ulan\u2011Ude) documenting regional support activities.",
+      "Regional reporting and Gazeta N1 (Ulan\u2011Ude) \u2014 coverage of '\u042f \u0421\u0432\u043e\u0431\u043e\u0434\u0430' support groups and anonymous surveys (shows YA\u2011SVOBODA activity providing support to women).",
+      "RFE/RL and other reporting on pressure/victim services \u2014 'Safety Or Liberty': coverage of pressure on feminist groups and regional challenges (context that regional groups operate under difficult conditions).",
+      "Local and national coverage of FemKyzlar (Kazan) \u2014 Glasnaya, Inkazan, 360.ru and others documenting FemKyzlar activism, legal/consultation and safe\u2011space work and state pressure.",
+      "Reporting on the Emergency Contraception Fund / '\u0428\u043e\u0440\u043e\u0445\u0438 \u043a\u0440\u043e\u0432\u0438' and founder Irina Fainman \u2014 Novaya Gazeta/Current Time/Newspaper pieces describing the Fund and the Telegram channel '\u0428\u043e\u0440\u043e\u0445\u0438 \u043a\u0440\u043e\u0432\u0438'.",
+      "Gynopedia \u2014 summary of emergency contraception access and practice in Russia (context about EC availability and why a dedicated EC fund would be relevant)."
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "Useful but not foundational. For the EA/rationalist community this is moderately useful: mentoring programs that help diversify, develop, and retain talented people (especially from underrepresented backgrounds) matter for workforce quality and inclusion, and the high satisfaction and concrete plan/acceleration numbers suggest positive ROI for participants. However the claims aren\u2019t load\u2011bearing for EA strategy or major cause-priority decisions, and the program\u2019s direct scale is modest. For general humanity the post is of low importance \u2014 mentoring helps individual careers but the scale and consequences are small relative to large social challenges."
+  },
+  "PostRobustness": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Impact metrics lack crucial methodological detail and are easy to misinterpret. The report lists \u201c24 plan changes\u201d and \u201c10 accelerations\u201d and gives average satisfaction scores, but omits response rates, survey timing, question wording, baseline/comparison, and how outcomes were attributed to mentoring. Actionable fix: state the number invited vs. responded, exact survey questions and timing, definitions of key terms (what counts as a plan change or acceleration), whether outcomes were self-reported or independently verified, and any attempts to control for selection bias or attrition. If space is limited, add a single-sentence caveat linking to the full methods section in the impact report.\n\n2) Eligibility and diversity language is vague and could confuse or deter applicants. Phrases like \u201cindividuals of all genders from traditionally underrepresented groups\u201d and \u201copen to applications from other underrepresented groups\u201d are ambiguous about which identities are prioritized and how you define/verify \u2018underrepresented\u2019. Actionable fix: give a concise, specific definition of the target groups (e.g., LMIC residents, low-income background, specific underrepresented ethnicities, people with disabilities), explain whether you prioritise or require evidence, and note accessibility supports (language, time zones, cost, stipend or internet access help). A short example of who should apply would greatly reduce confusion.\n\n3) The post omits how mentors are selected, vetted, trained, and matched, which is an important credibility and safety gap. Readers (and potential applicants) will want to know mentor qualifications, training on equity/safeguarding, matching criteria, and what happens if a pairing is unsuccessful. Actionable fix: add 2\u20133 short bullets describing mentor recruitment and vetting, any mandatory mentor training, how matching is done (manual vs algorithmic; based on goals/sector), and the process for rematching or raising concerns. If you have privacy/safeguarding policies, link to them.",
+    "improvement_potential": "The feedback identifies clear, substantive omissions that affect credibility, interpretability, and accessibility\u2014issues readers (and applicants) will care about. Each point is actionable and could be fixed with short clarifications or a link to a methods/safeguarding page, so the fixes need not overly lengthen the post. These are major own-goals (ambiguous eligibility language, unanalyzed self-reported impact metrics, and no mentor vetting/matching details) that would embarrass the author if raised by stakeholders, so addressing them would materially improve the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence in my training data (up to 2024-06) that an author known as 'KMF' is a recognized figure in the EA/rationalist community or broadly. The name may be a pseudonym or very obscure; I couldn't find notable publications, talks, or citations. Provide fuller identifying details or links for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "clarity_score": 8,
+    "explanation": "Overall clear, well-structured and easy to follow: headline updates, program description, concrete stats, a deadline and contact. Strengths include specific logistics (meeting cadence, application link, deadline) and measurable outcomes. Weaknesses: a few awkward phrasings (e.g., \u201cI recommend being a mentee with Magnify (rating scales)\u201d), unclear metrics (\u201cplan changes\u201d, \u201caccelerations\u201d), and minor formatting/nesting that could be tightened for greater concision and precision."
+  },
+  "PostNovelty": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an announcement/impact report for an existing mentoring program \u2014 a very common type of post in the EA community. The only mildly novel elements are the specific focus on underrepresented groups within EA, the global scale (numbers of mentors/mentees), and a few concrete impact metrics (plan changes/accelerations). Those details slightly increase novelty for the general public but are still routine informational content rather than new ideas or claims."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: Clear, plausible argument that the program provides mentorship and that participants report benefits; credible descriptive metrics (numbers of mentors/mentees) and high satisfaction scores support the claim that users view the program positively. Weaknesses: The post is promotional and lacks rigorous reasoning about causality (no counterfactual, no pre/post comparisons, no control group). Evidence shortcomings: key details are missing (survey denominators/response rates, definitions of \u201cplan changes\u201d and \u201caccelerations,\u201d measurement timing), outcomes are mostly self-reported and anecdotal, and there\u2019s likely selection/response bias. Overall, the claim that the program is well-liked and has global reach is reasonably supported; claims of concrete impact are weakly supported by the evidence provided."
+  },
+  "PostExternalValidation": {
+    "post_id": "zE7GeMiRguy8FRrZY",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post's empirical claims are directly supported by the linked pages on Magnify Mentoring: the mentee application text (including the July 25, 2025 deadline), the impact-report counts (203 mentees from 51 countries; 210 mentors from 39 countries; 24 plan changes; 10 accelerations; 5 organisational highlights), and the participant ratings (average 8.87/10) are all present in the Impact Report and the Mentee page. However, there are small internal discrepancies across the organisation's pages: the Mentee page and other site pages sometimes state larger totals (e.g. \u201cover 250 mentors\u201d and \u201cover 40 countries\u201d on the Mentee page, and \u201cover 500 community members / 50 countries\u201d on the About/Home pages) while the Impact Report gives concrete counts (210 mentors, 39 countries). The rating for the most-recent round is reported as 9.18/10 in the report (with Round 6 = 9.13), whereas the post states the most recent round at 9.13/10 \u2014 a minor mismatch. Overall the core quantitative claims in the post are verifiable on the organisation\u2019s website, but the site contains inconsistent headline figures across pages, so I rate validation as well-supported but not perfectly consistent.",
+    "sources": [
+      "MENTEE | Magnify Mentoring \u2014 https://www.magnifymentoring.org/mentee (Mentee page; confirms application text, meeting cadence, and application deadline July 25, 2025).",
+      "Impact Report (2024-25) | Magnify Mentoring \u2014 https://www.magnifymentoring.org/post/impact-report-2024-25 (confirms: 210 mentors; mentors represent 39 countries; 203 mentees from 51 countries; 24 plan changes; 10 accelerations; 5 highlights; average rating 8.87/10; most recent round rating reported in report as 9.18/10 and Round 6 = 9.13/10).",
+      "ABOUT | Magnify Mentoring \u2014 https://www.magnifymentoring.org/about (site-wide summary claims: \u201cover 500 community members\u201d and \u201cspanning over 50 countries\u201d, demonstrating other page-level headline figures that differ from the Impact Report).",
+      "HOME | Magnify Mentoring \u2014 https://www.magnifymentoring.org/ (homepage program summary and meeting cadence statement)."
+    ]
+  }
+}

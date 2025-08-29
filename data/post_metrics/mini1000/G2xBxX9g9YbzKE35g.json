@@ -1,0 +1,56 @@
+{
+  "PostValue": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "Practical, well\u2011packaged call-to-action for people worried about catastrophic AI risk \u2014 useful for recruitment, norm\u2011shifting, and helping newcomers find concrete next steps. It\u2019s not a novel or load\u2011bearing theoretical contribution to alignment or governance, so it\u2019s moderately important for the EA community (it can influence engagement and public pressure) and of limited but nontrivial importance for general humanity (could help raise awareness and mobilize action, but by itself is unlikely to be decisive)."
+  },
+  "PostRobustness": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Tone and evidence: the post repeatedly asserts (e.g. \u201cAI is on track to kill us all\u201d) in absolute terms without acknowledging major uncertainty or providing clear, citable probability estimates. That risks alienating readers and undermining credibility. Actionable fix: soften absolute language, present a short probabilistic framing (e.g. \u201csome experts assign non\u2011negligible probability of extreme outcomes over decades\u201d), and add 2\u20133 high\u2011quality citations or summaries (e.g. recent CAIS surveys, Open Phil/CHAI/FHI overviews, key papers by Bostrom/MIRI) so readers can quickly check the basis for the claim. Even a single short paragraph on uncertainty and disagreement would materially improve trustworthiness. \n\n2) Communication strategy and backlash: the \u201cNORMALIZE\u201d and \u201cshare your concerns\u201d prescriptions lean heavily on normalizing alarm without guidance on how to communicate responsibly. That invites accusations of alarmism, increases polarization, and may backfire with the very audiences you want to persuade. Actionable fix: add a brief, practical communication section (3\u20135 bullets) on framing: e.g. start from concrete present harms, use calibrated language, cite credible sources, personalize why you care, avoid speculative anecdotes, and provide clear, small actions listeners can take. Link to existing EA/communication resources (e.g. 80,000 Hours guidance on communicating risk, EA Forum posts on persuasion) rather than relying solely on exhortation.\n\n3) Career/donation guidance needs clearer tradeoffs and justification: the post tells technically\u2011inclined people to favor governance over alignment research with a confident claim that technical alignment \u201cwon\u2019t have time to bear fruit,\u201d but offers little evidence or decision rubric. That\u2019s a large claim with real consequences for readers\u2019 career choices. Actionable fix: either (a) present this as a personal view with explicit uncertainty and the reasons/assumptions behind it, or (b) add a concise decision framework (fit/impact/tractability/neglectedness) and links to 80,000 Hours\u2019 AI career guide and recent analyses comparing governance vs alignment research impact. If you want to recommend specific donation targets, include a short caveat about uncertainty and a pointer to up\u2011to\u2011date org evaluations (e.g. EA donation guides, Open Phil summaries).",
+    "improvement_potential": "The feedback identifies several important, non\u2011trivial weaknesses: absolutist, credibility\u2011undermining language; missing guidance on responsible communication (risk of backlash); and a high\u2011stakes career recommendation that lacks justification. Fixing these would materially improve persuasiveness and reduce reputational/strategic downsides, and can be done concisely (soften claims, add a short uncertainty paragraph and 2\u20133 citations, include 3\u20135 framing bullets, and flag the career view as personal or add a brief decision rubric)."
+  },
+  "PostAuthorAura": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my knowledge cutoff (2024-06) 'Joe Rogero' is not a recognized figure in the EA/rationalist community or more widely. I find no evidence of major publications, talks, or community roles under that name; it may be an obscure pseudonym or private individual with little public presence."
+  },
+  "PostClarity": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "clarity_score": 8,
+    "explanation": "Well structured and easy to follow: clear headings, stepwise calls to action (Normalize, Prepare, Learn, Engage, Plan, Influence, Participate, Donate) and practical, concrete suggestions make the post highly comprehensible. Weaknesses: it's long and sometimes repetitive, mixes tones (motivational alarmism vs. practical guidance), and uses strong unhedged claims that may alienate readers or obscure priorities \u2014 trimming repetition and clarifying the primary audience would improve conciseness and rhetorical clarity."
+  },
+  "PostNovelty": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers the piece is largely a compilation of well\u2011known calls-to-action (normalize the risk, learn, donate, join groups, policy engagement, career moves) and links to familiar resources \u2014 so it's not very novel. For the general public it\u2019s somewhat more novel: framing extinction\u2011level AI as a mainstream concern and giving a concrete, actionable playbook (specific groups, courses, prediction market usage, how to contact reps) is less commonly encountered outside the EA/safety ecosystem, but the individual actions themselves are ordinary civic/advocacy steps."
+  },
+  "PostInferentialSupport": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "reasoning_quality": 4,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: Clear, well-structured call-to-action with practical, plausible steps for public engagement; transparent about being a personal draft and cites relevant resources, hearings, and community materials. Weaknesses: The central claim (\"AI is on track to kill us all\") is asserted rather than argued or quantified; the post relies on appeals to authority, anecdotes, and linked resources rather than systematic evidence or probabilistic analysis; it does not engage with counterarguments or uncertainty, nor synthesize expert-survey data or empirical studies on extinction risk. Overall, useful as advocacy and mobilisation advice but weak as a rigorous evidentiary case for high extinction risk from AI."
+  },
+  "PostExternalValidation": {
+    "post_id": "G2xBxX9g9YbzKE35g",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / uncertain. Many of the background factual claims in the post are verifiable and well-sourced: (a) warnings about machine intelligence date back decades (Turing, Norbert Wiener, I. J. Good), (b) prominent contemporary AI researchers (e.g., Geoffrey Hinton, Yoshua Bengio, Stuart Russell) have publicly warned about major risks, (c) public polls (YouGov / AI Policy Institute) show large majorities favor slowing AI development, (d) the Blumenthal\u2013Altman exchange at the 2023 Senate hearing is accurately reported, and (e) prediction markets (Metaculus, Manifold) run questions on AI extinction. However the post\u2019s central empirical claim \u2014 \u201cAI is on track to kill us all\u201d \u2014 is a strong predictive assertion not supported by scientific consensus; expert forecasts and surveys show wide disagreement and median timelines for broadly human-level AI are typically decades away (not a settled near-term inevitability). The poll phrasing in the post slightly overstates one comparison (72% vs 8% is \u22489:1, not \u201cmore than 10 to 1\u201d). In sum: many factual supporting items are accurate, but key predictive claims about imminent extinction are speculative and not established by the evidence cited.",
+    "sources": [
+      "Alan Turing Institute \u2014 'Alan Turing quotes: separating fact from fiction' (on early warnings / Turing quotations).",
+      "Good, I. J., 'Speculations Concerning the First Ultraintelligent Machine' (1965).",
+      "Norbert Wiener, 'The Human Use of Human Beings' (1950) (early warnings about automation / control).",
+      "CNBC / CNN reporting on Geoffrey Hinton leaving Google and warning about AI risks (May 2023).",
+      "Stuart Russell, 'Human Compatible' (2019) (modern AI control concerns).",
+      "AI Policy Institute / YouGov poll (Aug 2023) \u2014 72% want to slow AI vs 8% speed up; full toplines released by AIPI.",
+      "Vox coverage summarizing the AIPI / YouGov poll (Aug 18, 2023).",
+      "Transcript of the U.S. Senate Judiciary Subcommittee hearing on 'Oversight of AI' \u2014 Blumenthal / Sam Altman exchange (May 2023).",
+      "AI Impacts / 2022 Expert Survey on Progress in AI (summary of expert forecasts; median HLMI dates ~2050s).",
+      "Metaculus question 'Five years after AGI, will humans be extinct?' (example prediction-market forecasting on extinction scenarios).",
+      "Manifold Markets \u2014 public markets on 'Will AI wipe out humanity before the year 2100' (example prediction-market activity)."
+    ]
+  }
+}

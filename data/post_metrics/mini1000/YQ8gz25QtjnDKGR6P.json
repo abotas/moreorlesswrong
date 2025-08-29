@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a program recruitment announcement (facilitators/mentors for a course on AI & animals). It\u2019s useful and actionable for people in the EA/rationalist ecosystem who might fill those roles or benefit from the fellowship (capacity-building, networking, small-scale project outputs), but it\u2019s not foundational to EA theory or policy and affects only a limited audience and timeframe. For general humanity it is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing compensation clarity (likely to reduce applications). You say \u201cpaid facilitators\u201d but give no pay rate, stipend, or whether mentors are paid. State either an hourly rate or total stipend (or a clear range), whether mentors are paid or volunteer, and how/when payment is made. If you can\u2019t disclose exact numbers, explain why and give a clear timeline for when applicants will learn about compensation.  \n\n2) Ambiguous role expectations and group structure. It\u2019s unclear whether each facilitator will lead a group of 12 participants or whether there are 12 facilitators total, and what a typical session looks like. Add a one-line summary: \u201cEach facilitator will lead X participants in Y weekly sessions of Z minutes,\u201d plus the concrete facilitation template/training you\u2019ll provide and the prior experience you expect (e.g., subject-matter expertise vs purely facilitation skills). For mentors, state expected outputs (what counts as a successful mentee project), level of technical/policy seniority you want, and whether mentors will be evaluated or given guidance on scope.  \n\n3) Logistics & selection timeline are underspecified. Say whether the program is online or in-person, list expected meeting days/times (or time-zone constraints), number of cohorts, and when applicants will be notified/selected. The two deadlines (April 1 for learners, April 10 for facilitators/mentors) can confuse readers\u2014explain the relationship and the selection/notification dates. These small clarifications will reduce applicant friction and avoid many follow-up questions.",
+    "improvement_potential": "The feedback targets high-impact omissions: pay details, role/group-size clarity, and logistics/notification timing. These are plausible 'own-goal' items (especially advertising \"paid\" roles without stating pay) that will reduce applications and trigger many follow-ups. Addressing them would make the post noticeably stronger without adding much length. It isn't a 10 because the post is otherwise clear and not fundamentally wrong \u2014 but these fixes are important and should be implemented."
+  },
+  "PostAuthorAura": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Jay Luong' is a known figure in the Effective Altruism/rationalist ecosystem (no notable posts, talks, or leadership roles on core EA/rationalist platforms). Similarly, there is no indication of broad public or academic fame \u2014 appears to be at best a minor/obscure online presence or a pseudonym. If you can provide links or context (articles, handles), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: roles, responsibilities, time commitments, deadlines, and application links are prominent and easy to find. Strengths include concise bullet points, headings, and a clear call to action. Weaknesses: minor formatting/repetition (image with no caption, duplicated apply lines), some missing practical details (exact pay amount for \"paid facilitators\", number of mentors unspecified, timezone/date specifics), and a couple of slightly wordy sentences. These issues are small and don't prevent understanding."
+  },
+  "PostNovelty": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "novelty_ea": 1,
+    "novelty_humanity": 2,
+    "explanation": "This is essentially a recruitment/announcement post for a course (facilitator/mentor roles, deadlines, links). For EA Forum readers this is very common format/content and adds no new conceptual claims. To the general public it\u2019s slightly less familiar because of the specific EA/AI+animals niche and paid facilitator model, but it\u2019s still a routine program call rather than a novel idea."
+  },
+  "PostInferentialSupport": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "This is primarily an informational recruitment post rather than an argumentative piece. The description is clear and well-structured (roles, qualifications, time commitment, deadlines), so the reasoning about who they seek and what is expected is logically sound. However, empirical evidence or credibility signals are limited: no pay rate despite saying 'paid facilitators', no past-cohort outcomes, no testimonials, limited detail on selection criteria or expected project outputs. That weakens confidence a prospective applicant can evaluate the program's quality or impact. Overall, the call to apply is plausible and usefully presented but under-supported by outcome or verification evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "YQ8gz25QtjnDKGR6P",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "The post\u2019s main factual claims are well-supported by primary sources. The EA Forum post by Jay Luong (Mar 21, 2025) contains the exact text about recruiting \u201cup to 12 paid facilitators & a number of mentors,\u201d the April 10 facilitator/mentor deadline, the April 1 learner deadline, and the stated time commitments (~25h facilitators, ~15h mentors). Electric Sheep\u2019s Futurekind program pages and the public Google Forms for applications confirm the existence, schedule (first run planned May 1\u2013July 31, 2025), and application-close dates for the Fellowship. The only minor gap: outside those primary materials there\u2019s no independent press coverage confirming the exact \u201cpaid\u201d terms or the precise maximum number (12) beyond the organiser\u2019s announcements \u2014 but that is standard for recruitment posts and is directly stated on the EA Forum listing. Overall the empirical claims are verifiable and accurate based on organiser-published sources.",
+    "sources": [
+      "EA Forum post: \"Apply to become a Futurekind AI Facilitator or Mentor (deadline: April 10)\" by Jay Luong (Mar 21, 2025). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/YQ8gz25QtjnDKGR6P/apply-to-become-a-futurekind-ai-facilitator-or-mentor))",
+      "Electric Sheep \u2014 Futurekind program page (Futurekind | Learn AI for Planet Impact \u2014 Electric Sheep). ([electricsheep.is](https://www.electricsheep.is/futurekind?utm_source=openai))",
+      "Google Forms application for Futurekind Fellowship (Apply to become a Futurekind AI Fellow) \u2014 shows program details and learner application close Apr 1, 2025; planned dates May 1\u2013July 31, 2025. ([tiny.cc](https://tiny.cc/gofuturekind))",
+      "Electric Sheep Teachable \u2014 About / Futurekind Fundamentals pages (organisation background & program description). ([electricsheep.teachable.com](https://electricsheep.teachable.com/?utm_source=openai))",
+      "Jay Luong EA Forum profile (author listed as cofounder/CTO & Director of Learner Experience at Electric Sheep). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/jay-luong?utm_source=openai))"
+    ]
+  }
+}

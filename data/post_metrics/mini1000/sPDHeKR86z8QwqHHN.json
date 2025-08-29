@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "value_ea": 2,
+    "value_humanity": 1,
+    "explanation": "A call for participants in an MA dissertation survey. Might yield some small, local insights useful to the researcher and a few community members, but it's not foundational or widely influential; trivial for general humanity."
+  },
+  "PostRobustness": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Add basic methodological and ethical details to build trust: state the research question(s)/aim, who counts as an \u201ceffective altruist\u201d (eligibility criteria), estimated time to complete, whether you have IRB/ethics approval (or why not), how anonymity/data storage will be handled, and whether/when you\u2019ll share aggregate results. Respondents often skip unknown links; these concise facts will materially increase response rate and reduce concerns. \n\n2) Clarify sampling and representativeness / include screening: say whether you\u2019re seeking a convenience sample of forum readers or a more representative EA sample, and add (or mention) a quick screening question in the form so respondents know they qualify. If the dissertation will draw population-level inferences, note limitations from self-selection or consider a recruitment strategy to reduce bias. \n\n3) Practical posting fixes: give an explicit deadline, estimated completion time, and contact info for questions (or a short statement about incentives, if any). Remove or replace the generic image with a concise one-line summary of the study in the post so people don\u2019t have to click the link to know what they\u2019re signing up for.",
+    "improvement_potential": "Very useful \u2014 the feedback pinpoints major omissions (no eligibility criteria, no time estimate, no ethics/anonymity info, no screening, no deadline/contact) that materially reduce trust and response rate and can lead to embarrassing methodological critiques if the dissertation draws inferences. The suggestions are actionable and concise; they won\u2019t bloat the post but will substantially improve quality. (Minor caveat: some points depend on the author\u2019s goals\u2014convenience sampling may be fine\u2014but those limitations should be stated.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "Insufficient identifying information. 'DavidB' is an ambiguous/very common handle and I cannot find a clearly identifiable EA/rationalist figure or publicly prominent author under that single moniker. Please provide a full name, profile link, or sample work to allow a more accurate rating."
+  },
+  "PostClarity": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "clarity_score": 8,
+    "explanation": "Very easy to understand: purpose and request are explicit, the survey is described as anonymous, and the call-to-action/link is prominent. Minor omissions reduce perfection \u2014 no estimated completion time, deadline, researcher identity/contact or brief topic/ethics context are given, which would improve usefulness and trustworthiness."
+  },
+  "PostNovelty": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is just a routine solicitation to take an anonymous seven-question survey for an MA dissertation. Such calls for research participation are extremely common both on the EA Forum and more broadly; there are no new ideas, claims, or arguments here\u2014only a request for responses specific to EA."
+  },
+  "PostInferentialSupport": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post is merely a solicitation to take an anonymous seven-question survey and does not present a thesis, arguments, or empirical findings to evaluate. There is no reasoning or evidence provided about the study design, hypotheses, methods, sampling, or results. To be assessable it would need details on aims, methodology, representativeness, and any preliminary data or justification."
+  },
+  "PostExternalValidation": {
+    "post_id": "sPDHeKR86z8QwqHHN",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "The post itself (title, author, date, and the Microsoft Forms link) is verifiably posted on the EA Forum by user DavidB. Microsoft Forms supports truly anonymous responses when set to \u201cAnyone can respond,\u201d so the author\u2019s statement that the survey is anonymous is plausible \u2014 but I could not load the live form (JS-rendered) to confirm the form\u2019s actual settings or to count the questions. The claim that it is a \u201cseven-question\u201d survey is stated in the post but could not be independently confirmed because the form page requires client-side rendering and did not reveal the survey contents to my fetch. Strengths: post existence, authorship, and presence of the forms link are confirmed; Microsoft documentation supports the possibility of anonymous settings. Weaknesses: cannot directly verify the form settings (whether the author enabled anonymous responses) or that the form currently has exactly seven questions.",
+    "sources": [
+      "EA Forum post: \"Please take this anonymous, seven-question survey for my dissertation on EA!\" \u2014 forum.effectivealtruism.org (post by DavidB, Jun 8).",
+      "DavidB profile on EA Forum (shows posts and graduate-student status) \u2014 forum.effectivealtruism.org (user DavidB).",
+      "Microsoft Forms public form URL as posted in the EA Forum (forms.office.com/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp88NPgpJtOSlHpayM_wwFl-ZUMVZDSUlDNk83VTJKTUhLN0FZTzY1UTE0Uy4u).",
+      "Microsoft Support \u2014 \"Set up your survey so names aren't recorded when collecting responses\" (explains 'Anyone can respond' / 'Record name' settings and anonymity).",
+      "Microsoft Support \u2014 \"Choose who can fill out a form or quiz\" (describes options: Anyone can respond / Only people in my organization / Record name and limitations).",
+      "Microsoft Community / Microsoft Answers threads confirming that forms set to 'Anyone with the link can respond' do not record respondent names (anonymous responses)."
+    ]
+  }
+}

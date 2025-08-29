@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "Useful and moderately important for the EA/AI-safety community as a behavioral nudge: it pressures people to align actions with their stated AI timelines, which affects career choices, advocacy, credibility, and resource allocation. It is not a foundational piece of evidence about AI risk itself, so its standalone epistemic weight is limited, but if the implied claim (imminent catastrophic AI) were true then the practical implications would be huge. For general humanity the post is of minor relevance \u2014 interesting and potentially influential for some individuals, but not a pivotal or broadly actionable contribution on its own."
+  },
+  "PostRobustness": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Define terms and narrow the question. The post hinges on vague language \u2014 \u201cbelieve,\u201d \u201cAI timelines,\u201d and \u201cliving as if\u201d \u2014 which will produce noisy, hard-to-interpret replies. Specify timeline buckets (e.g. <5y, 5\u201320y, 20+), what kinds of beliefs you mean (median estimate, worst-case, subjective credence), and what domains you want people to report on (career, donations, family planning, relocation, prepping, legal/financial planning).  Action: add a short paragraph that defines these terms and gives 3\u20135 concrete example behaviors so responses are comparable. \n\n2) Ask for concrete decision rules and trade-offs, not just sentiment. Right now the post invites alarmist or performative answers. Request respondents state their timeline estimate + confidence, list specific life changes they\u2019ve made (or not) and the approximate magnitude/cost, and briefly explain the decision rule (e.g. \u201cI donate X% to X org because\u2026,\u201d \u201cI wouldn\u2019t have children because\u2026,\u201d \u201cI moved because\u2026\u201d). Also require them to mention key constraints (financial, family, moral). Action: include a one-paragraph prompt template to capture this information.\n\n3) Anticipate and invite counterarguments to reduce bias. The post assumes that \u201cliving as if\u201d near-term catastrophe is unambiguously rational. Ask people to state why they decided against major actions (if they did), what probability threshold would change their behavior, and what epistemic updates would make them change their mind. Action: add short questions that surface opportunity costs, moral obligations to others, and uncertainty \u2014 this will improve signal quality and prevent the thread from becoming mere moralizing or noise.",
+    "improvement_potential": "Strong, actionable feedback that addresses the post\u2019s main weakness: vagueness that will produce noisy or performative replies. Defining timelines and asking for concrete decision rules, costs, and constraints would substantially increase signal quality without much extra length. The suggestion to solicit counterarguments also meaningfully reduces bias. (Could be improved by noting tradeoffs between specificity and accessibility.)"
+  },
+  "PostAuthorAura": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I\u2019m not aware of a notable EA/rationalist author named 'CyrilB' (and the name doesn\u2019t match well-known EA figures like MacAskill, Ord, Singer, Bostrom, etc.). There\u2019s no record in major EA venues (EA Forum, LessWrong, 80,000 Hours) or mainstream academic/press outlets up to mid\u20112024. If this is a niche or purely pseudonymous poster on small forums, their prominence appears minimal."
+  },
+  "PostClarity": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "clarity_score": 9,
+    "explanation": "Very clear and direct: the post links relevant context, quotes a striking claim, and asks three focused, easy-to-answer questions. It's concise and well-structured for prompting discussion. Minor issues: a typo ('advacements') and a small ambiguity around what 'stated AI timelines' precisely means, but these do not materially hinder understanding."
+  },
+  "PostNovelty": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For EA readers this is not very novel: the immediacy of AI risk and whether to change one\u2019s life accordingly has been discussed repeatedly on EA/Longtermist forums and LessWrong (career choice, relocation, family planning, etc.). The post\u2019s main contribution is a straightforward, personal prompt to compare beliefs about timelines with real-life choices, which is a common rhetorical move in that community. For the general public it\u2019s moderately novel: many educated laypeople have heard of AI risks, but relatively few have been asked to explicitly consider and justify living 'as if' an imminent existential risk is real, so the introspective framing is somewhat original to non-EA audiences."
+  },
+  "PostInferentialSupport": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post is mainly a provocative prompt rather than an argument: it asserts a stark implication of 'recent AI advancements' without laying out the causal chain, probability estimates, timelines, or mechanisms by which those advances make extinction imminent. It lacks structured reasoning (no premises, no counterarguments, no consideration of uncertainty) and provides no empirical evidence or citations to support the dramatic claim. Its main strength is that it is thought\u2011provoking and useful for eliciting personal reflection, but as support for the thesis that AI risk is immediate and existential it is weak and largely unsupported."
+  },
+  "PostExternalValidation": {
+    "post_id": "HommD9nALktJCBRbJ",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Many of the post\u2019s factual building blocks are supported by public sources (shorter timelines signalled by prominent lab leaders; large new infrastructure commitments; cheaper high\u2011quality open models from China), but several specific empirical claims are contested or imprecise. Strengths: Sam Altman\u2019s and Dario Amodei\u2019s recent public remarks do indicate substantially shorter timelines than earlier surveys; Microsoft\u2019s ~$80B FY\u20112025 data\u2011center capex plan and the Stargate $100B\u2192$500B announcement are documented; DeepSeek (DeepSeek\u2011R1) is publicly released on arXiv/GitHub and reported as a major capability/cost development. Weaknesses / caveats: OpenAI\u2019s reported \u201co3 = ~25% on FrontierMath\u201d is an internal/high\u2011compute result and independent Epoch evaluations reported much lower scores for the public release (the benchmark / funding relationships further complicate interpretation); the post\u2019s paraphrase of Ajeya Cotra (the \u201c6\u20138 years / 99% of fully\u2011remote jobs\u201d number) is not clearly supported by Ajeya\u2019s public timeline work (her published median for that specific metric has historically been much longer). The core normative claim (\u201cAI risk is \u2026 \u2018maybe I and everyone I love will die pretty damn soon\u2019\u201d) is a value\u2011laden conclusion about existential risk\u2014not directly verifiable as an empirical fact and remains disputed among experts. Overall: many empirical subclaims check out or are plausible, but several important details are contested or imprecisely stated, so the post is partially validated but requires careful caveats.",
+    "sources": [
+      "Sam Altman, \"Reflections\" (personal blog), Jan 2025. (Altman: \"We are now confident we know how to build AGI\" / agents in 2025). \u2014 https://blog.samaltman.com/reflections",
+      "Dario Amodei public interviews and statements (e.g., Lex Fridman transcript; WSJ / Anthropic interviews) \u2014 e.g., \"Human-level AI could be here as early as 2026\" (Nov 2024) and 2025 Davos comments. \u2014 Lex Fridman transcript & WSJ/Ars coverage.",
+      "Metaculus / expert\u2011forecast summaries \u2014 80,000 Hours review summarizing Metaculus: ~25% chance by 2027, 50% by ~2031 (Dec 2024 summary). \u2014 https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/",
+      "OpenAI / SoftBank \"Stargate\" Project announcement (Jan 21, 2025) \u2014 OpenAI press page & SoftBank release: $100B initial, $500B over four years. \u2014 https://openai.com/index/announcing-the-stargate-project/ and https://group.softbank/en/news/press/20250122",
+      "Microsoft announcement / reporting (FY2025 ~$80B planned capex for AI/data centers) \u2014 Reuters / CNBC / TechCrunch coverage. \u2014 e.g., Reuters Jan 3, 2025; CNBC Jan 3, 2025.",
+      "DeepSeek publications and code: DeepSeek\u2011R1 arXiv paper (Jan 2025) and GitHub repository (DeepSeek\u2011R1). \u2014 https://arxiv.org/abs/2501.12948 and https://github.com/deepseek-ai/DeepSeek-R1",
+      "Epoch AI FrontierMath benchmark (documentation) and follow\u2011up discussion about OpenAI funding / benchmark results; independent evaluations reported lower public o3 scores (~10%) vs OpenAI internal high\u2011compute claim (~25%). \u2014 Epoch FrontierMath page and Epoch blog clarifying funding; TechCrunch/Epoch coverage on o3 results.",
+      "LessWrong / AI timelines discussion (Ajeya Cotra vs others): shows Ajeya\u2019s published timelines & that Ajeya\u2019s median for the specific metric '99% of fully\u2011remote jobs automatable' has historically been much later (~13 years) rather than 6\u20138 years. \u2014 LessWrong \"AI Timelines\" summary (Nov 2023).",
+      "Reporting on benchmark disputes and third\u2011party tests of OpenAI o3 (TechCrunch, The Decoder, The Outpost, etc.) documenting discrepancies between internal claims and independent/public evaluations. \u2014 e.g., TechCrunch Apr 20, 2025 on o3/FrontierMath."
+    ]
+  }
+}

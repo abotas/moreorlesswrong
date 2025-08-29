@@ -1,0 +1,58 @@
+{
+  "PostValue": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a well-argued, strategically relevant reframing of AI safety that pushes attention from intent-alignment to forbidding scope-sensitive, world-tiling agents (restraint). For the EA/AI-safety community it is moderately important: it isn\u2019t a technical breakthrough, but it challenges core framings, highlights governance tradeoffs (value lock\u2011in, power concentration, singletons vs. pluralism), and could meaningfully influence priorities and policy advocacy. For general humanity it\u2019s of limited-to-moderate importance: the ideas matter for long-term trajectories and governance choices, but the post is speculative, non-technical, and unlikely on its own to shift public policy or behavior without broader uptake and operationalized proposals."
+  },
+  "PostRobustness": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "robustness_score": 3,
+    "actionable_feedback": "1) The post treats \u201crestraint\u201d as achievable and stable without engaging the hard incentive, verification, and enforcement problems required to get there. Major missing content: how would states/companies be prevented from covertly developing unrestrained AGI, how would you detect and verify scope-sensitivity, and why would economic/strategic incentives favour staying restrained? Actionable fix: add a short section analysing realism and fragility of global restraint \u2014 list concrete enforcement mechanisms (verification regimes, hardware controls, export controls, auditability/interpretable architectures), explain likely failure modes (covert devs, differential incentives), and state whether you think restraint requires stronger or weaker coordination than alignment and why.\\n\\n2) The post under\u2011analyses competitive equilibria where restrained systems face unrestrained adversaries. You assert restrained AIs would reduce takeover risk, but don\u2019t consider that restrained AIs may be outcompeted (or exploited) by unrestrained actors, or that restraint could incentivise third parties to build unrestrained AIs as a corrective. Actionable fix: include a short strategic toy-model or a couple of explicit counterfactual vignettes showing (a) when restraint is robust to one or a few unrestrained actors and (b) when it isn\u2019t. Compare these to the analogous aligned-world defenses (e.g. coalition-of-aligned\u2011AGIs, defensive capabilities) so readers can judge relative robustness.\\n\\n3) The normative claim that a multipolar/pluralistic future is clearly preferable is stated but not defended against plausible counterarguments (instability, arms races, fractured coordination, institutional lock\u2011in). Actionable fix: either (a) narrow the claim (e.g. \u201cI prefer pluralism all else equal, because X,Y\u201d), or (b) explicitly address main objections (e.g. why pluralism won\u2019t lead to worse aggregate outcomes, how cultural evolution avoids catastrophic lock\u2011ins, or conditions under which plurality is actually worse). Also tighten definitions (what exactly counts as scope\u2011sensitive vs scope\u2011insensitive) so readers can evaluate tradeoffs more precisely.",
+    "improvement_potential": "The feedback correctly flags central, substantive gaps: the post treats 'restraint' as feasible/stable without addressing enforcement, detection, and incentive problems; it underexamines competitive dynamics with unrestrained actors; and it asserts pluralism as preferable without defending this against plausible counterarguments. Addressing these would materially strengthen or qualify the main thesis. The suggested fixes are concrete and actionable. It isn't a trivial copyedit \u2014 the changes require conceptual work and some added content \u2014 but they are the right priorities and without them the argument risks being naively optimistic rather than merely 'vibey.'"
+  },
+  "PostAuthorAura": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No identifiable presence under the name \"EuanMcLean\" in major EA/rationalist forums, publications, or public sources up to 2024-06. Likely a pseudonym or very obscure; share links or context if you want a re-check."
+  },
+  "PostClarity": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "clarity_score": 7,
+    "explanation": "Overall clear and well-structured for an EA/AI\u2011safety audience: the thesis (favor restraint over intent alignment) is stated up front, key terms are defined, and the two\u2011world thought experiment and vignettes make the argument concrete. Strengths include good signposting, references, and concrete examples. Weaknesses: the post assumes familiarity with technical jargon (singleton, lightcone, scope\u2011sensitive) and some rationalist priors, makes a few argumentative leaps without rigorous support, and is a bit long/repetitive in places \u2014 all of which reduce accessibility and conciseness for non\u2011specialist readers."
+  },
+  "PostNovelty": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For an EA/AI\u2011safety readership this is primarily a reframing of well\u2011known debates (alignment vs corrigibility/low\u2011impact/soft optimisation, worries about singletons, value\u2011lock\u2011in, PauseAI style arguments, and Carlsmith/Hanson critiques). The core move \u2014 prioritising \u2018restrained\u2019 systems that avoid scope\u2011sensitive goals \u2014 and many supporting points have been discussed in the community, so the contribution is more emphatic/poetic than technically novel. For a general educated audience the post is moderately novel: the specific distinction between intent\u2011alignment and \u2018restraint\u2019, the focus on scope\u2011sensitive goals as the dangerous axis, and the argument that alignment can exacerbate power concentration are less familiar outside EA circles and present a coherent alternative framing that many non\u2011specialists haven\u2019t seen."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post presents a coherent, well-motivated alternative framing (restrained AGI) and correctly highlights important conceptual points \u2014 value fragility, risks of singleton/lock-in, and ethical uncertainty about steering the long-run future. It uses standard concepts (instrumental convergence, Waluigi effect, value-lock-in) and multiple illustrative vignettes to show plausible failure modes of an \"aligned world.\" Weaknesses: The argument is largely speculative and qualitative rather than analytic \u2014 it doesn't operationalize what \"restraint\" means in practice, how it would be implemented or enforced, or quantify trade-offs (competitiveness, incentives to defect, or how restraint interacts with human actors). It under-addresses key counterarguments (how restrained systems could be co\u2011opted, whether restraint is enforceable at scale, or whether restrained systems still produce dangerous instrumental behavior) and provides little empirical or technical evidence. Overall the proposal is an interesting and reasonably argued conceptual position but is not well-supported by empirical or formal evidence and leaves significant practical gaps."
+  },
+  "PostExternalValidation": {
+    "post_id": "tDhdTZwqYJTfaKcjq",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Most of the post's central empirical building blocks are documented in the literature (instrumental convergence / basic AI drives; the singleton / decisive-strategic-advantage concern; the existence of an \u201calignment tax\u201d; documented failure modes of LLMs such as jailbreaks/Waluigi\u2011type behaviour; research on corrigibility and low\u2011impact agents; and real-world risks of centralization and authoritarian uses of AI). However, the post is largely a normative / conceptual argument about which high\u2011level goal (alignment vs restraint) to prioritise. The claim that \u2018restraint reduces the probability & severity of all listed harms\u2019 is plausible and consistent with several formal and policy proposals, but it is not an empirically established fact \u2014 the relevant technical and governance solutions are nascent, contested, and scenario dependent. In short: the empirical and theoretical literature supports the post\u2019s premises and worries, but many of the causal claims about how much restraint vs alignment would change outcomes remain speculative and debated.",
+    "sources": [
+      "Bostrom, Nick. Superintelligence: Paths, Dangers, Strategies (2014) \u2014 chapter on decisive strategic advantage / singleton.",
+      "Omohundro, Stephen M. The Basic AI Drives (AGI-08 / 2008) \u2014 instrumental convergence / basic drives.",
+      "Hadfield\u2011Menell, D., Dragan, A., Abbeel, P., & Russell, S. The Off\u2011Switch Game (arXiv / IJCAI 2016\u20132017) \u2014 corrigibility / shut\u2011down incentives.",
+      "Armstrong, Stuart & Levinstein, Benjamin. Low Impact Artificial Intelligences (arXiv 2017) \u2014 formalising 'low impact' / restrained objectives.",
+      "LessWrong / GreaterWrong: 'Align\u00adment Tax' wiki and related posts (tag/explanations and discussion of alignment tax / safety tax).",
+      "LessWrong: 'The Waluigi Effect' (mega\u2011post) and other documentation of LLM jailbreak/antipodal behaviour.",
+      "Joe Carlsmith. 'Does AI risk \u201cother\u201d the AIs?' and 'When Yang Goes Wrong' (joecarlsmith.com, Jan 2024) \u2014 referenced by the post and directly engages the control/otherness theme.",
+      "Eric Drexler. 'Reframing Superintelligence: Comprehensive AI Services as General Intelligence' (FHI, 2019) \u2014 CAIS alternative to singleton/monolithic\u2011agent framing.",
+      "Freedom House. 'The Repressive Power of Artificial Intelligence' / Freedom on the Net 2023 \u2014 evidence AI amplifies state censorship/surveillance and can concentrate power.",
+      "Financial Times. 'Big Tech's AI dealmaking needs urgent scrutiny, says US antitrust enforcer' (2024) \u2014 contemporary reporting on concentration of compute/industry power (NVIDIA, MS/OpenAI deals) and antitrust scrutiny.",
+      "EA Forum / 'Value lock\u2011in' topic page (Effective Altruism Forum) \u2014 framing and literature on the value lock\u2011in problem referenced in the post.",
+      "Grace, Katja et al. 'Thousands of AI Authors on the Future of AI' (large expert survey, 2024) and AI Impacts timeline survey summaries \u2014 expert uncertainty about AGI timing and risks.",
+      "PauseAI / EA forum discussions and the 'Let\u2019s think about slowing down AI' EA Forum thread \u2014 documents debate about slowing or pausing capability progress and the governance side of restraint vs acceleration."
+    ]
+  }
+}

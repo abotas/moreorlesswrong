@@ -1,0 +1,50 @@
+{
+  "PostValue": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "value_ea": 7,
+    "value_humanity": 6,
+    "explanation": "This is a fairly important, high-impact policy change. A cut from 0.5% to 0.3% of GNI is roughly a 40% reduction in the UK aid budget and amounts to billions of dollars less for global health, humanitarian relief, climate finance, development programmes, and research\u2014areas that many EA-aligned organisations depend on or engage with. For the EA/rationalist community this matters a lot (affecting funding flows, programme viability, advocacy strategy, and near-term prioritisation), though it is not foundational to longtermist or AI-safety arguments. For humanity it is materially important because it will worsen outcomes for recipients and shift the donor landscape, but it is not existential; other donors or reallocations could partially offset the damage. Hence significant but not critical."
+  },
+  "PostRobustness": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Tighten the framing and avoid misleading phrasing \u2014 say explicitly that the change is from 0.5% to 0.3% of GNI (a 0.2 percentage\u2011point fall, which is a 40% relative reduction in the aid/GNI ratio). Don\u2019t state the policy is being cut \u201cin order to fund\u201d defence as an uncontested fact unless you quote the government; either attribute causality to the PM\u2019s statement or present it as the stated justification and link the primary source (government press release/Budget). \n\n2) Add a bit of concrete context that readers will expect: an estimate of the implied annual cash reduction (or point to HM Treasury/Budget documents you used), the timeline (effective 2027), the prior cut (0.7\u21920.5 in 2020) so readers see the cumulative change, and a note that GNI can move so the cash impact isn\u2019t fixed. If you don\u2019t want numbers, say why (uncertainty) and link to primary fiscal sources. \n\n3) Give one short EA\u2011relevant takeaway or likely implications (what kinds of programmes/funders are most exposed, whether this increases funding risk for UK\u2011funded global health/poverty work, or recommended next steps for charities/advocates). Even a single sentence of practical implication makes the post much more useful to EA readers.",
+    "improvement_potential": "The feedback correctly identifies important clarity and attribution issues (percent\u2011point vs relative % and causal language), asks for concrete cash/timeline context and sources, and requests an EA\u2011relevant implication \u2014 all high\u2011value, actionable fixes that won\u2019t greatly bloat the post. These are not catastrophic errors but are critical improvements that reduce potential reader confusion and strengthen credibility."
+  },
+  "PostAuthorAura": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name 'Rasool' is common/ambiguous and I cannot identify a clearly known EA/rationalist author or a globally prominent public figure by that single name. No evident publications, talks, or notable presence in EA/rationalist networks under just 'Rasool'. If you mean a specific person, please provide a full name or links."
+  },
+  "PostClarity": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "clarity_score": 8,
+    "explanation": "The post is concise and easy to understand: it states the policy change, the reason given (to fund defence), the timing (2027), and links to a reputable source, and notes the prior 2020 cut. It could be slightly clearer by avoiding the mildly ambiguous headline wording (\"from 2027\"), and by adding brief context such as absolute spending figures or the cash equivalent of 0.5%\u21920.3% of GNI and the expected impacts\u2014otherwise it communicates the key point well."
+  },
+  "PostNovelty": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a news report of a specific policy decision (aid cut from 0.5% to 0.3% in 2027) rather than a novel argument or idea. EA Forum readers\u2014who track aid, budget tradeoffs, and UK politics\u2014are very likely already aware of or predisposed to expect this kind of development, so novelty is low. For the general educated public it\u2019s also not conceptually novel (budget tradeoffs between defence and aid are common), though the specific numbers/timing are new factual information."
+  },
+  "PostInferentialSupport": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "reasoning_quality": 4,
+    "evidence_quality": 6,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is a concise factual claim and links to a reputable Reuters story that appears to confirm the announced policy change (0.5% \u2192 0.3% in 2027, which is a 40% reduction relative to 0.5%). Weaknesses: Little to no argumentation or structured reasoning is offered \u2014 it mainly states the news without evidence beyond one press report. The evidence is credible but limited (no primary government statement, budget documents, or additional sources for context, timing, or implementation details). The post also asserts past cuts without citation. Overall, the factual claim is plausibly supported but the reasoning and breadth of evidence are thin."
+  },
+  "PostExternalValidation": {
+    "post_id": "DkoiwzMn9Cev6tihv",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "All major empirical claims in the post are accurate and well-documented. Keir Starmer announced on 25 February 2025 that defence spending would be raised (to 2.5% of GDP by 2027) and that the increase would be funded by cutting international aid from 0.5% of GNI to 0.3% in 2027 (a 40% cut). Multiple reputable outlets and the Commons Library report this announcement. The post\u2019s reference to a prior cut in November 2020 (from 0.7% to 0.5% of GNI) is also correct and widely reported. (Note: the original announcement date was 25 February 2025.)",
+    "sources": [
+      "Reuters, 'UK's Starmer boosts defence spending on eve of Washington trip', 25 Feb 2025.",
+      "BBC News, 'Overseas aid cut dereliction of duty, says charity', 26 Feb 2025 (reports aid cut from 0.5% to 0.3% by 2027).",
+      "UK House of Commons Library, 'UK to reduce aid to 0.3% of gross national income from 2027/28', Insight published 28 Feb 2025.",
+      "BBC News, 'Spending review: Backlash over Rishi Sunak's overseas aid cut', 25 Nov 2020 (reports cut from 0.7% to 0.5% in Nov 2020).",
+      "Associated Press, 'UK to raise defense spending to 2.5% of GDP by 2027, Starmer says', 25 Feb 2025."
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This post is a useful signal to the EA/biosecurity community: it highlights a potentially high-impact, understudied intervention (far\u2011UVC), points to a detailed coordinating report, and invites engagement and hiring. If the underlying claims about far\u2011UVC\u2019s real\u2011world safety and efficacy are borne out, coordinated work could be very important for pandemic prevention, so directing attention and resources is worthwhile. However, the post itself is mainly informational/organizational rather than presenting new, definitive evidence; the technology still faces substantial evidence, regulatory, and deployment uncertainties. For the general public the post is less directly consequential \u2014 far\u2011UVC\u2019s potential is large, but this writeup won\u2019t by itself change outcomes without follow\u2011on research, trials, and policy action."
+  },
+  "PostRobustness": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overstating efficacy by leaning on a single lab result and an \"184 ACH\" equivalence. The Wood study was a chamber experiment (bacteria, controlled conditions). Presenting that number without clear caveats risks misleading readers into thinking real-world rooms and viruses will see the same benefit. Actionable fix: explicitly state the study context (chamber vs real rooms), the organism type (bacteria not necessarily viruses), and that translating chamber results to real-world ACH is an extrapolation that needs cluster-RCTs to confirm. Remove punchy equivalence claims or frame them as illustrative, not definitive.  \n\n2) Incorrect / imprecise claim about regulation: saying \"no FDA oversight exists\" is too strong and likely incorrect in practice. UV devices fall under various regulatory frameworks (radiation-emitting products, device regulations, IEC standards, workplace safety rules), and there may be no single, well-established approval pathway for continuous-room far\u2011UVC disinfection, which is the narrower and more accurate point. Actionable fix: revise to a precise statement (e.g., \"there is no well-established FDA approval pathway specific to far\u2011UVC for continuous room air disinfection\") and either cite regulatory sources or ask Blueprint to supply a short, sourced blurb to avoid misinformation.  \n\n3) Heavy reliance on secondary summaries + minor factual inconsistencies. You acknowledge you haven't read the 266\u2011page report and relied on Williamson's post and a skim \u2014 that reduces credibility for a recommend-or-advocate post. Also fix small errors/inconsistencies (e.g., Wood 2020 vs Wood 2022/PMID). Actionable fix: either (a) read the full report and verify the key claims you highlight, or (b) more strongly frame this post as a brief pointer to Blueprint with explicit caveats about your limited review and invite commenters to correct specific factual points. If you want to keep length down, at minimum correct citation years/PMIDs and add one sentence acknowledging the partial-read basis for any efficacy or regulatory claims.",
+    "improvement_potential": "This feedback catches three important, actionable weaknesses: an overenthusiastic use of a single chamber-study headline (the 184 ACH equivalence), an imprecise/overbroad claim about FDA/regulatory oversight, and credibility issues from relying on secondary summaries and miscited references. Fixing these would avoid misleading readers and author embarrassment, and can be done with small, precise edits rather than major rewrites."
+  },
+  "PostAuthorAura": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence in my training data (to 2024-06) of an author known as 'Juan Benzo\ud83d\udd38'. They do not appear to be a recognized figure in EA/rationalist communities or in broader public-facing authorship\u2014likely a private pseudonym, very new, or obscure. Provide links or works if you want a more specific assessment."
+  },
+  "PostClarity": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: strong TL;DR, logical sections (promise, barriers, Blueprint\u2019s role), transparent sourcing and calls to action, which make it easy to follow and persuasive. Weaknesses: mild repetition (links and hiring notices appear several times), a small citation inconsistency (year of the Wood study), and a couple of oversimplifications (e.g., \u201cno FDA oversight\u201d stated without nuance and the chamber-study context could be made explicit). Tightening those points would make it more concise and fully robust."
+  },
+  "PostNovelty": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "For an EA Forum audience the post is not very novel: far\u2011UVC, its promising lab results, and the need for coordinated trials and governance are already discussed in biosecurity/longtermist circles, and Blueprint Biosecurity\u2019s activities are likely familiar to many. For the general public the material is moderately novel: far\u2011UVC\u2019s extreme reported efficacy (e.g. ~184 ACH equivalent), the point about absent FDA oversight and the coordinated \u2018blueprint\u2019 (plus concrete hiring/call\u2011for\u2011feedback actions) are likely new or unexpected to most educated non\u2011specialists."
+  },
+  "PostInferentialSupport": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is clear and reasonably well-structured, acknowledges key uncertainties (lack of real-world safety/efficacy data, regulatory gaps), and points readers to a specific high-profile study and a comprehensive preprint/report. It sensibly frames far\u2011UVC as promising but unproven and highlights coordination/finance barriers. Weaknesses: The post relies heavily on a single chamber study (the \u201c184 air changes\u201d claim) and secondary summaries rather than systematic human/field evidence; it does not engage deeply with safety tradeoffs (long\u2011term ocular/skin effects) or regulatory nuance; the author admits limited domain expertise and not having read the full report. Overall support is therefore cautious \u2014 plausible and partially supported, but empirical evidence is still thin and generalizability to real-world pandemic prevention remains uncertain."
+  },
+  "PostExternalValidation": {
+    "post_id": "tE5kfKbZBnps4dGeW",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most of the post\u2019s major empirical claims are accurate and verifiable. Key claims that are well-supported: the 2022 room\u2011scale study (Wood et al.) reporting ~98.4% reduction and ~184 equivalent air changes/hour; CDC guidance recommending ~5+ ACH for workplaces; typical hospital/OR ACH standards (commonly 15\u201320 ACH). Blueprint Biosecurity\u2019s far\u2011UVC preprint and related outreach (call for feedback, Project AIR / job listings, Substack) are publicly available. Important caveats where the post is imprecise: the statement that \u201cno FDA oversight exists\u201d is an oversimplification \u2014 FDA and other US agencies do regulate radiation\u2011emitting products and devices marketed for medical or pesticidal/disinfectant uses, but there is not (yet) a single widely\u2011used regulatory approval pathway or binding global standard specifically for whole\u2011room far\u2011UVC installations; and I could not directly open the Blueprint PDF to confirm the exact page count (the organization\u2019s site and announcements confirm a large preprint, but the precise \u201c266 pages\u201d was not verifiable from the pages my browser access could fetch). Finally, the post correctly highlights outstanding real\u2011world safety/efficacy and indoor\u2011chemistry concerns (ozone and secondary pollutant formation) that recent peer\u2011reviewed studies identify as needing more research. Overall: the post is well\u2011supported with a few nuanced inaccuracies/omissions, so I rate it 8/10.",
+    "sources": [
+      "Wood K. et al., 2022. Far\u2011UVC (222 nm) efficiently inactivates an airborne pathogen in a room\u2011sized chamber. Scientific Reports / PubMed PMID 35322064 (PMC full text).",
+      "CDC (NIOSH/CDC) 'How Much Ventilation Is Enough? / Aim for 5 or more ACH' (CDC ventilation guidance page).",
+      "CDC Guidelines for Environmental Infection Control in Health\u2011Care Facilities \u2014 Appendix B (ventilation requirements, operating room ACH).",
+      "Blueprint Biosecurity \u2014 'The first release of our far\u2011UVC Blueprint' (preprint announcement / call for feedback) and Blueprint site pages (Blueprint for Far\u2011UVC, Airborne Infection Resilience / Project AIR).",
+      "Blueprint Biosecurity job listing: 'Project AIR (Airborne Infection Resilience) Program Director' (job posting).",
+      "Williamson, Richard. 'Flipping the switch on far\u2011UVC' (Works in Progress guest post / background on the Blueprint launch).",
+      "Link M.F. et al., 2023. 'Ozone Generation from a Germicidal Ultraviolet Lamp with Peak Emission at 222 nm.' Environ. Sci. Technol. Lett. (demonstrates ozone production from 222 nm lamps).",
+      "Peng Z. et al., 2023 / 2024. 'Indoor Air Quality Implications of Germicidal 222 nm Light' and related Environmental Science & Technology papers (demonstrating production of ozone, OH radicals, secondary organics and recommending further evaluation).",
+      "FDA / regulatory guidance summaries: FDA pages and industry summaries noting that UV lamps are subject to radiological product regulations and that UV devices marketed for medical/disinfection uses may require FDA/EPA oversight depending on intended use."
+    ]
+  }
+}

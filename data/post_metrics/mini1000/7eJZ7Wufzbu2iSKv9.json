@@ -1,0 +1,49 @@
+{
+  "PostValue": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "value_ea": 6,
+    "value_humanity": 3,
+    "explanation": "This is a useful enabling announcement rather than a foundational claim. For the EA/AI-safety community it is moderately important (\u22486) because it can seed durable, forward\u2011looking economic research on transformative AI, provide rare private data access, and build a network of researchers who could influence policy and forecasting. However the fellowship is limited in scale (15\u201320 fellows, modest baseline funding) and is one of many possible funding streams, so it\u2019s not load\u2011bearing. For general humanity it\u2019s of minor importance (\u22483): the program could indirectly improve understanding and policy over time, but its immediate direct impact on global outcomes is small unless it produces seminal work that changes major decisions."
+  },
+  "PostRobustness": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify data access, privacy, and IP restrictions (high-priority). \"Unique data via Stripe and its customers\" is the fellowship's biggest hook but also its biggest risk for applicants and readers. Before publishing, state (a) what kinds of data might plausibly be available (transactional, aggregated, product usage, etc.), (b) the approval process for accessing customer data (who signs off, how long approvals take), (c) expected legal/privacy constraints (NDAs, GDPR/CCPA implications, anonymization requirements), and (d) intellectual\u2011property and publication rights (can fellows publish freely, will Stripe or customers require review/embargoes/co\u2011authorship). Actionable change: add a short FAQ section with bullet answers to the above or a sentence linking to a full data\u2011access policy/terms that applicants can read before applying.\n\n2) Make governance, reviewer composition, and independence explicit. It's unclear how much influence Stripe (or specific individuals) will have over selection, research agendas, and dissemination. Readers will reasonably worry about sponsor influence. Before publishing, state (a) who sits on the review panel (names/affiliations or at least roles), (b) conflict-of-interest policies for reviewers (e.g., no reviewing applicants from the same lab/company), (c) whether Stripe or funders can veto or require changes to fellows' work, and (d) publication expectations (are fellows free to publish negative or inconvenient results?). Actionable change: add one succinct paragraph describing governance and commitments to academic independence and COI handling.\n\n3) Reduce ambiguity in selection criteria and expectations to avoid wasting applicants' time. Terms like \"transformative,\" \"forward-looking,\" \"durable,\" and \"moves fast\" are subjective and could discourage good applicants or attract superficial proposals. Also clarify time commitment, expected deliverables, and what \"present a brief research proposal\" entails. Actionable change: (a) give 2\u20133 concrete example project topics you\u2019d consider high-priority, (b) specify expected time commitment and deliverables (e.g., one conference presentation + a working paper draft within 12 months), and (c) state how funding scale decisions are made (what justifies more than the $10k baseline). Optionally add a short template/example of the 5\u201310 minute proposal you'd like to see at the conference.\n\nMinor but recommended: add a brief statement about ethics/dual-use review (how sensitive or potentially harmful economic research will be handled) to reassure readers concerned about misuse.",
+    "improvement_potential": "This feedback targets several substantial omissions that materially affect applicants' willingness to apply and the program's reputational risk \u2014 especially the unqualified claim of \"unique data\" and the silence on funder influence/conflicts. The recommendations are concrete and actionable (add a short FAQ on data/IP/privacy, a governance paragraph, clearer selection criteria, examples of desired projects, and deliverable expectations) and would not require bloating the post \u2014 a few concise bullets could resolve them. Addressing these points would remove plausible 'own goals' (overpromising data access, appearing nontransparent about sponsor control) and significantly improve the announcement's clarity and trustworthiness."
+  },
+  "PostAuthorAura": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I don't recognize 'basil.halperin' as a prominent EA/rationalist figure. The name appears to be a pseudonymous or independent online author with a very limited footprint (occasional posts or comments rather than a sustained high-profile presence). Not a widely cited or central EA voice, and essentially no global public profile. If you can share links or contexts (LessWrong, Medium, Twitter, papers), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to read: clear headings, bullet lists, deadlines, application link, and contact info make the offer and process straightforward. Strengths include explicit eligibility, funding amount and possible additional support, fellowship components (community, conference, data), and a definition/link for \u201ctransformative\u201d AI. Weaknesses are minor repetition (research priorities listed twice), a couple of small formatting glitches (e.g., \u201cunique data\u201dvia), and a few vague phrases (e.g., \u201cmoves fast,\u201d limited detail on selection criteria and how data access would work). Overall clear and concise with only small areas for tightening."
+  },
+  "PostNovelty": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "This is primarily a program/fellowship announcement rather than a new conceptual claim. For EA Forum readers\u2014who frequently see calls for research, grants, and AI-focused initiatives\u2014the idea is familiar (research fellowships, conferences, and funding to study transformative AI), so its novelty is low. The most distinctive element is Stripe offering access to proprietary payments/data and explicitly funding forward\u2011looking economics of \u2018transformative\u2019 AI, which is somewhat less common but not a radical innovation. For the general public, a dedicated fellowship tying corporate datasets to economics of transformative AI is moderately novel but still within the common pattern of industry-funded academic programs."
+  },
+  "PostInferentialSupport": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "The post makes a plausible and coherent case\u2014that the economics of AI is understudied and that grants, data access, and a community can help fill the gap\u2014but provides little concrete evidence that the gap exists at scale or that this specific fellowship design will be effective. Strengths: clear program design (funding, conference, data opportunity), realistic incentives (small grants, community building), and alignment with high-impact goals. Weaknesses: no empirical citations or needs-assessment showing the understudying claim, no success metrics or evaluation plan, few details on the nature/accessibility of the data, and potential conflicts/selection biases are unaddressed. Overall, reasonable but weakly supported by evidence."
+  },
+  "PostExternalValidation": {
+    "post_id": "7eJZ7Wufzbu2iSKv9",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most major empirical claims in the post are directly verifiable on Stripe's official fellowship page and on the EA Forum announcement: the program exists, the baseline grant is $10,000, the first-cohort size is stated as 15\u201320 fellows, the SF conference (early summer 2025) and application timeline (applications closed April 15, 2025; decisions by April 25, 2025) are all published. Basil Halperin is listed as a lead/advisor and his contact email and affiliation are confirmed on his personal/CV pages. Minor caveats: the promise of \u201caccess to unique data via Stripe and its customers\u201d is phrased as an opportunity/potential on Stripe\u2019s page (so whether individual data access is granted will depend on Stripe/customer approvals and legal constraints), and some linked materials (Google Form) are now closed/paused, so live application/recruitment status can change. Overall the post is well supported by authoritative sources.",
+    "sources": [
+      "Stripe \u2014 \"Economics of AI Fellowship\" (official fellowship page) \u2014 stripe.events/fellowship",
+      "Effective Altruism Forum \u2014 \"Stripe Economics of AI Fellowship\" (post by basil.halperin) \u2014 forum.effectivealtruism.org/posts/7eJZ7Wufzbu2iSKv9/stripe-economics-of-ai-fellowship",
+      "Basil Halperin personal site / CV \u2014 basilhalperin.com (contact email basilh@stanford.edu; CV listing University of Virginia appointment)",
+      "OpportunityDesk / OpportunityLab coverage of \"Stripe Economics of AI Fellowship\" (announcement summaries confirming deadline and grant amount)"
+    ]
+  }
+}

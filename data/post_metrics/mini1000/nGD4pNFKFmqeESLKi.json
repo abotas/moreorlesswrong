@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is a small, useful experiment for the forecasting/EA-rationalist community: it tests whether aggregated community forecasts contain tradable signal and provides data on forecast accuracy and regime detection. Positive results are interesting and practically useful for forecasters, prediction-market researchers, and possibly for how some EA orgs hedge or allocate funds, but the scale (small prize pool, short window) and narrow financial focus mean it is not foundational to EA priorities (e.g., longtermism or AI safety). For general humanity it is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Overclaiming from a tiny, potentially cherry-picked sample \u2014 add statistical rigor and temper conclusions. You report \u201ccorrectly picked the higher-returning asset in all 8 head-to-head questions\u201d and cite other successes, but 8 observations is too small to support a general claim. Actionable fixes: (a) run and report simple significance/robustness tests (bootstrap or permutation tests on the 8 results; confidence intervals for performance metrics), (b) report multiple-comparison adjustments if you looked at many possible signals, and (c) reword conclusions to emphasize these are preliminary, not definitive, results.\n\n2) Missing implementability / P&L realism \u2014 show how forecasts become tradable profits net of realistic costs. The post implies \u201ctradable signal\u201d without showing transaction costs, slippage, liquidity constraints, position sizing or timing. Actionable fixes: include at least one illustrative backtest that translates the community forecast into a trading rule and reports returns net of commissions, bid\u2013ask spreads, market impact assumptions, and margin/financing costs; report standard performance stats (Sharpe, max drawdown) and sensitivity to cost assumptions.\n\n3) Possible selection bias and lack of baseline comparisons or pre-registration. It\u2019s unclear whether questions, assets, or evaluation windows were chosen ex post in ways that favor the crowd. Actionable fixes: (a) pre-register the Q3 evaluation plan and scoring rules (or clearly state they were pre-registered), (b) publish the full dataset and code so readers can audit choices, and (c) add simple benchmarks (e.g., consensus index, equal-weighted na\u00efve strategy, market-cap benchmark, basic momentum) so readers can see incremental value of the Market Pulse aggregation.\n\nAddressing these three points will make the claim that community forecasts are \u201ctradable\u201d much more credible while keeping the post concise.",
+    "improvement_potential": "Targets the main methodological weaknesses: tiny/cherry\u2011picked sample and overclaiming, lack of evidence that forecasts translate into realistic P&L, and possible selection/pre\u2011registration bias. The suggestions (significance/robustness tests, realistic backtests, baselines, data/code release) are actionable and would materially strengthen or temper the post\u2019s central claim without excessive lengthening."
+  },
+  "PostAuthorAura": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The single name 'christian' is too common and possibly a pseudonym; there is no clear, identifiable presence tied to EA/rationalist publications, talks, or leadership. I cannot find evidence they are known within EA or more broadly. Provide a full name, username, links, or sample work to get a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: a concise announcement with a quick recap of Q2 evidence (bulleted highlights, links and visuals), a short summary of what\u2019s new in Q3, prize info, and a clear call-to-action. Weaknesses: assumes some familiarity with Metaculus/forecasting jargon and the challenge methodology, omits details on prize distribution and participation logistics, and the images lack captions/brief explanation for readers skimming the text."
+  },
+  "PostNovelty": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "The idea\u2014running a forecasting tournament and testing whether crowd forecasts contain tradable market signal\u2014is largely established among EA/forecasting communities (Metaculus, GJP, prediction markets, prior EA forecasting work). The specific Q2 results and the Q3 question set are new data/iterations but conceptually incremental. For a general educated audience this is moderately novel (applying crowd forecasts to specific market questions and offering a prize pool), but still not a fundamentally new idea."
+  },
+  "PostInferentialSupport": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post has a clear, coherent claim (community forecasts may contain tradable signal) and presents multiple empirical touchpoints (head-to-head asset picks, VIX forecasts, earnings distributions) with links and visuals. Weaknesses: The argument omits crucial caveats and tests \u2014 very small sample (8 head-to-head questions), no statistical significance testing, no out-of-sample trading P&L or benchmark comparison, no accounting for transaction costs/slippage, and potential selection/hindsight or multiple-comparisons biases. The evidence is suggestive but insufficient to robustly support the broad claim that the community provides reliably tradable signals."
+  },
+  "PostExternalValidation": {
+    "post_id": "nGD4pNFKFmqeESLKi",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are well-supported by primary sources. The Q3 tournament exists and the $7,500 prize pool is confirmed on Metaculus. Metaculus Q2 question pages and the Q2 winners notebook (the primary sources the author cites) show the resolved values the post refers to (VIX weekly maxima and \u2018first reported\u2019 revenues) and those resolved company numbers match the companies\u2019 press releases (Apple, Nvidia, Microsoft, AMD). The VIX claim is consistent with contemporaneous market data showing a large April spike then a rapid decline into May\u2013June 2025. The one small uncertainty is the \u201c8 head\u2011to\u2011head questions \u2014 forecasters correctly picked the higher\u2011returning asset in all 8\u201d claim: it appears to come from Metaculus\u2019 Q2 analysis/notebook (the tournament organizer\u2019s summary), which is an appropriate primary source, but public pages are dynamic and some Metaculus pages require the site interface to view full aggregated result tables; I therefore treat that specific statement as credible but relying on Metaculus\u2019 own reporting. Overall: well-supported by primary sources, minor deduction for dependence on Metaculus\u2019 internal summary for one specific aggregate claim.",
+    "sources": [
+      "EA Forum post: 'Market Pulse Challenge 25Q3, $7,500 Prize Pool' (christian) \u2014 https://forum.effectivealtruism.org/posts/nGD4pNFKFmqeESLKi/market-pulse-challenge-25q3-usd7-500-prize-pool",
+      "Metaculus tournament page: 'Market Pulse Challenge 25Q3' (shows $7,500 prize pool) \u2014 https://www.metaculus.com/tournament/market-pulse-25q3/",
+      "Metaculus tournament page: 'Market Pulse Challenge 25Q2' (Q2 tournament & winners) \u2014 https://www.metaculus.com/tournament/market-pulse/",
+      "Metaculus notebook: 'Winners of the Market Pulse Challenge 25Q2' (Q2 analysis / winners) \u2014 https://www.metaculus.com/notebooks/38782/winners-of-the-market-pulse-challenge-25q2/",
+      "Metaculus question: 'Weekly maximum intraday VIX in Q2 2025' (resolved weekly maxima shown on Metaculus). \u2014 https://www.metaculus.com/questions/36292/weekly-maximum-intraday-vix-in-q2-2025/",
+      "Metaculus question: 'What will the first reported revenues after March 2025 be for the following companies?' (resolved values for AAPL, NVDA, MSFT, AMZN shown). \u2014 https://www.metaculus.com/questions/36283/early-2025-revenues-for-the-following-companies/",
+      "Apple press release / results (Apple Q3 fiscal 2025 / June quarter revenue $95.359B) \u2014 Apple Newsroom / SEC summaries (e.g., Nasdaq summary) \u2014 https://www.nasdaq.com/press-release/apple-reports-second-quarter-results-2025-05-01 and coverage: https://www.macrumors.com/2025/07/31/apple-3q25-earnings/",
+      "NVIDIA press release: 'NVIDIA Announces Financial Results for First Quarter Fiscal 2026' (revenue $44,062M) \u2014 https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2026/default.aspx",
+      "Microsoft press release / official blog: Q4 FY2025 results (revenue figures in July 2025 release) \u2014 https://news.microsoft.com/source/2025/07/30/microsoft-cloud-and-ai-strength-fuels-fourth-quarter-results/",
+      "AMD press release: 'AMD Reports Second Quarter 2025 Financial Results' (revenue $7.685B) \u2014 https://ir.amd.com/news-events/press-releases/detail/1257/amd-reports-second-quarter-2025-financial-results",
+      "Cboe historical VIX data page (historical VIX values / data source) \u2014 https://ww2.cboe.com/tradable_products/vix/vix_historical_data/",
+      "Business Insider coverage: 'VIX dropped from >40 to <20 between April and May 2025' (context on the low-volatility regime after April spike) \u2014 https://www.businessinsider.com/stock-market-vix-sp500-volatility-tariffs-us-china-trade-deal-2025-5"
+    ]
+  }
+}

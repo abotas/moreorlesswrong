@@ -1,0 +1,52 @@
+{
+  "PostValue": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "value_ea": 7,
+    "value_humanity": 5,
+    "explanation": "If true, the post describes an extraordinarily high-return intervention \u2014 a cheap social pledge that reliably ensures food, water, shelter and safety and spreads exponentially \u2014 which would be transformative for EA funding/prioritization and for many people's lives. That makes it worth serious attention from the EA community: checking the model, running small trials, and assessing practical/legal/ethical risks. However, the claim (915 QALYs per USD) is extremely implausible on first pass and rests on fragile assumptions (spread vs. defection rates, enforcement/compliance, how QALYs are calculated, selection effects, legal risks, possible harms). For general humanity the upside is huge but the probability it works as modeled seems low and there are nontrivial downsides if implemented poorly. So this is high-priority for investigation within EA (worth rapid, cautious follow-up), but only of moderate immediate importance for humanity until empirical evidence accumulates."
+  },
+  "PostAuthorAura": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 2,
+    "explanation": "No evidence that 'Will_Davison' (with underscore) is a known figure in the EA/rationalist community \u2014 appears to be unknown in EA circles. The plain name 'Will Davison' is shared by a moderately well-known Australian racecar driver, but there is no indication that an author or EA thinker by this handle has notable global prominence; at best a minor online presence if it\u2019s an individual pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "clarity_score": 7,
+    "explanation": "Well-structured and easy to follow: clear headings, summary of the promise, links to supporting docs, and concrete asks. The central claim (915 QALYs per dollar) is stated prominently, but crucial methodological details and key assumptions (how QALYs were calculated, timeframe, counterfactual, spread/defection rates) are missing or not summarized in the post, which reduces persuasiveness. Overall concise, but a short methods/assumptions summary and clearer framing of uncertainty would make the argument much more compelling."
+  },
+  "PostNovelty": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "novelty_ea": 3,
+    "novelty_humanity": 6,
+    "explanation": "Most elements would be familiar to an EA audience: pledge-based interventions (e.g. Giving What We Can), mutual\u2011aid models, social\u2011contagion/viral spread modelling, and doing CEAs for novel interventions. The specific framing (a Danish \u2018promise\u2019 with juries, legal\u2011precedence language) and the claim of ~915 QALYs per dollar are notable but not conceptually groundbreaking for readers used to high\u2011leverage, low\u2011cost interventions and skeptical scrutiny. For the general public this combination is more novel \u2014 formalising mutual aid as a universal pledge with exponential spread and an asserted extremely high cost\u2011effectiveness is likely unfamiliar and surprising to most people."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "reasoning_quality": 3,
+    "evidence_quality": 2,
+    "overall_support": 2,
+    "explanation": "The post has a clear, simple argument and a transparent spreadsheet model, and sensibly calls for trials \u2014 but its core reasoning rests on very strong, optimistic assumptions (near\u2011perfect compliance, rapid exponential spread, negligible marginal cost of providing food/water/shelter, and large QALY gains per intervention) that are neither justified nor interrogated. Empirical support is weak: the only real-world datum is an anecdotal Danish group, with no measured rates of requests fulfilled, spread/defection rates, legal/enforcement outcomes, or observed QALY impact. The cost\u2011effectiveness numbers (e.g. $0.04 per life, 915 QALYs per dollar) are extremely implausible and likely driven by multiply\u2011compounded optimistic parameters and omission of realistic costs and counterfactuals. Overall the claim is not well supported and requires basic empirical validation (pilot data on compliance, help delivered, costs, and realistic spread dynamics) before the CEA can be taken seriously."
+  },
+  "PostExternalValidation": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "emperical_claim_validation_score": 2,
+    "validation_notes": "Major empirical claims in the post are not supported by independent evidence and are implausible given established public\u2011health cost\u2011effectiveness benchmarks. Strengths: the author published an explicit model and spreadsheet (transparent assumptions). Weaknesses: the claimed existence and scale of a Denmark \u201cPromise\u201d movement appears unsupported outside the author\u2019s post; key model inputs (spread rates, defection rates, enormously large % reductions in hunger/water/violence assigned per Promiser) are unsupported and speculative; and the headline CEA numbers (\u2248 hundreds\u2013900+ QALYs per US$ or life saved for $0.04) contradict published intervention cost\u2011effectiveness (typical top global\u2011health programs avert DALYs at costs of tens to a few hundred USD per DALY or thousands USD per life saved). These discrepancies are orders of magnitude; they arise from unrealistic exponential\u2011spread and impact assumptions in the spreadsheet rather than cited empirical studies. Recommendation: treat the estimate as a speculative modelling exercise that needs primary data (evidence of the movement, measured recruitment/defection rates, and empirically measured impacts on food/water/violence/homelessness) before any real-world funding/scale decisions.",
+    "sources": [
+      "EA Forum post by Will_Davison, 'Highly effective charity discovered - 915 QALYs per dollar' (post + links) \u2014 EffectiveAltruism.org. (source consulted: EA Forum post and embedded links). (web.run ref: turn0search1 / turn3search5)",
+      "Author's Google Sheets '250608 Promise cost effectiveness' \u2014 model & assumptions (shows 774 QALYs/USD, per\u2011employee costs and spread/defection assumptions). (web.run ref: turn1view1 / turn5view2)",
+      "GiveWell: 'How Much Does It Cost To Save a Life?' \u2014 GiveWell (explains typical GiveWell estimates ~USD 3,000\u20135,500 per life saved for top programs). (web.run ref: turn4search1)",
+      "Malaria Journal / WHO literature: example cost per DALY for insecticide\u2011treated nets ~USD 16\u201322 per DALY averted (illustrative of realistic, high\u2011value global health interventions). (web.run refs: turn4search3 / turn4search0)",
+      "Lancet / WHO analyses of WASH: unsafe water/sanitation responsible for ~50\u201388 million DALYs globally in 2019 (shows scale of burden; not something a tiny unpaid\u2011pledge network plausibly resolves quickly). (web.run refs: turn6search2 / turn6search3)",
+      "GBD / Lancet analyses of malnutrition and injuries: malnutrition ~50 million DALYs (2019) and interpersonal violence / injuries tens of millions of DALYs \u2014 used to compare plausibility of claimed impacts. (web.run refs: turn6search1 / turn7search2)",
+      "Viral\u2011growth / k\u2011factor literature: typical viral coefficients and real\u2011world adoption dynamics (shows that claiming sustained very high per\u2011person recruitment without evidence is speculative). (web.run refs: turn8search1 / turn8search12)"
+    ]
+  },
+  "PostRobustness": {
+    "post_id": "rugTs3kHFeTfgZxBS",
+    "robustness_score": 2,
+    "actionable_feedback": "1) The headline result (915 QALYs per dollar) is almost certainly driven by implausible/mis-specified assumptions or unit errors. Before publishing, (a) show one worked example calculation step-by-step (units and numbers) so readers can audit where QALYs and dollars map to lives saved, (b) check for obvious mistakes (e.g. inverted cost-per-QALY vs QALYs-per-dollar, double-counting, incorrect life-year/QALY estimates), and (c) add a small sensitivity table that shows which 3 parameters (e.g. QALYs per averted death, probability a Promiser can actually save a life, spread rate) drive the result. If one or two parameters dominate the result, highlight that explicitly.  \n2) The model assumes strong, costless, and rapid real-world effectiveness of the \u201cpromise\u201d (exponential spread, easy enforcement, immediate life-saving effects) without addressing very plausible counterarguments. You need to model and discuss: defection/noncompliance, legal and personal risk to Promisers, realistic rates at which Promisers encounter and can actually resolve life-threatening needs (vs asking NGOs or paying money), cultural/linguistic barriers, and negative side-effects (harm to Promisers, coercion). Add these as explicit parameters with uncertainty ranges and show how including them changes expected QALYs.  \n3) Give readers a concrete, credible next step (don\u2019t leap straight to full charity launch). I suggest: (a) tighten the spreadsheet (clear labels, units, one-line provenance for every key estimate), (b) run a pre-registered small trial that measures uptake, defection rate, number of verifiable life-saving/help events per Promiser, and any harms, with stopping rules and safety monitoring, and (c) compare expected cost-effectiveness to benchmark interventions (e.g. GiveWell top charities) under realistic assumptions. Add these as explicit recommendations in the post so funders/readers can evaluate feasibility rather than only the optimistic headline.",
+    "improvement_potential": "Very useful. The feedback targets the most serious risks: likely unit/miscalculation errors behind the implausible headline, overly optimistic model assumptions (exponential spread, costless enforcement), and lack of sensitivity/benchmarks. It gives specific, practical checks (worked example, dominant-parameter sensitivity, model of noncompliance/legal/personal risks) and sensible next steps (tighten spreadsheet, small preregistered trial, compare to GiveWell). Addressing these would prevent major embarrassments and materially improve the post. (Minor additions could include asking for source verification of current Promiser counts and ethical/legal review, but these are encompassed by point 2.)"
+  }
+}

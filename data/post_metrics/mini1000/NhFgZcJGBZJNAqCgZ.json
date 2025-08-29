@@ -1,0 +1,55 @@
+{
+  "PostValue": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a practically useful, relatable post for the EA/rationalist community because it highlights a common behavioural problem (moral licensing / decoupling of abstract giving from everyday moral behaviour) that can affect donor motivation, community norms, retention, and how EA is perceived. It\u2019s not foundational or novel research, but it\u2019s load-bearing for practical habits and community culture\u2014so reasonably important for EA practitioners and organizers. For general humanity it\u2019s of modest interest: the topic (moral licensing and balancing impersonal giving with local, personal acts) is broadly applicable but anecdotal and not transformative at societal scale."
+  },
+  "PostRobustness": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "robustness_score": 5,
+    "actionable_feedback": "1) Overstated causal claim / missing evidence \u2014 You repeatedly present moral-licensing as the cause of your behaviour (\"giving made me less generous\") but you don't engage with alternative explanations (selection bias, habit formation, convenience, social signalling, or that donations change how you prioritise scarce time). Before publishing, either (a) soften causal language to acknowledge these alternatives, or (b) add citations or informal data (a short self-report timeline, numbers, or pointers to moral\u2011licensing research) that support your diagnosis. This will stop readers from dismissing the whole post as anecdote-driven.\n\n2) Vague, non-actionable solution \u2014 Your proposed remedy (\"pair cost-effective giving with small, personal acts\") is intuitive but too high-level. Replace it with 2\u20134 concrete, testable practices you tried or plan to try (examples: split your donation into two buckets \u2014 80% to cost\u2011effective causes/20% to local/helping people; weekly 30\u2011minute rule to help someone in your circle; a precommitment to always do a single small act of kindness before spending charity money; or a donation-thermostat that increases automated giving when you log X personal acts). Describe how you'd judge success (e.g., feel more motivated / fewer \"free pass\" decisions / maintain total dollars to top charities) so readers can evaluate and replicate.\n\n3) Missing trade-offs and counterarguments \u2014 The post ignores plausible objections (e.g., encouraging less cost\u2011effective acts could reduce overall impact; social signalling may undermine intrinsic motivation; time spent helping locally has different opportunity costs than money). Add a short paragraph that acknowledges these trade-offs and explains your threshold for when a personal act is worth the foregone expected impact (even if it's just a decision rule you use). That will make the post look balanced and more useful to others in EA deciding whether to follow your approach.",
+    "improvement_potential": "Useful, concrete suggestions that would noticeably strengthen the post (nuance the causal claim, make the remedy actionable, and acknowledge trade-offs). These are not fatal flaws \u2014 the post works as a personal reflection \u2014 but addressing them would reduce obvious weaknesses and make the piece more persuasive and practically helpful without requiring a major rewrite."
+  },
+  "PostAuthorAura": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot identify a notable EA/rationalist figure named Christopher Clay up to my 2024-06 knowledge cutoff. There are no widely cited posts, talks, publications, or leadership roles in EA forums, LessWrong, 80,000 Hours, CEA, or major academic/press sources under that name; it may be a pseudonym or a private/obscure author. If you can share links or context (articles, forum handles, books), I can reassess more accurately."
+  },
+  "PostClarity": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "clarity_score": 8,
+    "explanation": "The post is largely easy to understand: a clear TL;DR, a personal anecdote, and a succinct proposed solution make the main point readable and relatable. Strengths: good structure, relatable voice, and a focused takeaway (cost-effective giving can create moral licensing; pair it with small personal acts). Weaknesses: a few minor digressions and repetitions, and the proposed solution could be more concrete (specific practices or examples) to make the argument more compelling and actionable."
+  },
+  "PostNovelty": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "novelty_ea": 3,
+    "novelty_humanity": 3,
+    "explanation": "The post mainly describes well-known phenomena (moral licensing, the \u2018warm glow\u2019 of giving, habit formation around % donations) and applies them to the EA practice of cost\u2011effective giving. EA audiences have already discussed tradeoffs between effective donations and local/relational acts, and psychologists have studied how prosocial actions can license later lapses. The small twist \u2014 recommending pairing impersonal, cost\u2011effective donations with deliberate personal acts of giving to stay grounded \u2014 is sensible but not a highly original insight."
+  },
+  "PostInferentialSupport": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This is an honest, plausibly structured personal reflection that raises a coherent thesis (cost\u2011effective giving can enable moral licensing) and proposes a plausible remedy (pairing impersonal donations with small personal acts). Strengths: clear causal intuition, recognition of habit/identity dynamics, and practical suggestion. Weaknesses: arguments are largely anecdotal and speculative, important alternative explanations and boundary conditions are not considered, and the proposed solution is untested. The post would be stronger with references to psychological research on moral licensing/warm\u2011glow, systematic evidence (surveys/experiments), and consideration of tradeoffs or counterexamples."
+  },
+  "PostExternalValidation": {
+    "post_id": "NhFgZcJGBZJNAqCgZ",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims map onto well-established findings in psychology and charity research, but some specifics are anecdotal or context-dependent. Strengths: (1) The psychological phenomena the author describes\u2014\u2019warm glow\u2019 from giving, moral\u2011licensing/self\u2011licensing (doing good giving permission to do less-good later), and strategic avoidance of solicitations\u2014are documented in the literature (meta-analytic effect sizes for moral licensing are small-to-moderate). (2) Volunteering/doing small, personal acts is associated with improved wellbeing and social connectedness in systematic reviews. (3) Making giving automatic (defaults/recurring donations) tends to create persistence/habit and greater long\u2011term donor value. Caveats/weaknesses: (A) Moral\u2011licensing effects are heterogeneous and some high\u2011powered replication attempts have failed; the effect exists but is modest and context\u2011sensitive. (B) The author\u2019s specific claim that \u201cmost school/home\u2011clothes charities are especially cost\u2011ineffective\u201d cannot be verified as a universal empirical fact \u2014 cost\u2011effectiveness varies hugely between interventions and GiveWell\u2011style analyses show that many global health interventions are far more cost\u2011effective than typical local fundraisers, but that does not prove every school fundraiser is \u201cespecially\u201d cost\u2011ineffective. Overall: the qualitative claim that cost\u2011effective giving can make people feel licensed to skip nearby/helping actions is well supported (with nuance), so I rate the post as 'well\u2011supported' rather than exceptional.",
+    "sources": [
+      "Monin, B. & Miller, D. T. (2001) \"Moral Credentials and the Expression of Prejudice\". Journal of Personality and Social Psychology.",
+      "Blanken, I., et al. (2015) \"A meta-analytic review of moral licensing\" (meta-analysis summary on PubMed, 2015). PubMed ID available at: https://pubmed.ncbi.nlm.nih.gov/25716992/.",
+      "Simbrunner, P. & Schlegelmilch, B. B. (2017) \"Moral licensing: a culture\u2011moderated meta\u2011analysis\". Management Review Quarterly (meta-analysis showing average effect d\u22480.32).",
+      "O\u2019Brien, E. & Kassirer, S. (2019) \"People Are Slow to Adapt to the Warm Glow of Giving\". Psychological Science (findings on hedonic adaptation to giving).",
+      "Andreoni, J. (1990) \"Impure Altruism and Donations to Public Goods: A Theory of Warm\u2011Glow Giving\". Economic Journal (foundational theory of warm\u2011glow).",
+      "Andreoni, J., Rao, J., & Trachtman, H. (2011) \"Avoiding The Ask: A Field Experiment on Altruism, Empathy, and Charitable Giving\". NBER Working Paper (field evidence on avoidance of solicitation and empathy effects).",
+      "K. C. Jenkinson et al. (2013) \"Is volunteering a public health intervention? A systematic review and meta\u2011analysis of the health and survival of volunteers\". BMC Public Health (systematic review showing associations between volunteering and improved wellbeing/survival).",
+      "GiveWell (GiveWell.org) \"Cost\u2011Effectiveness\" and \"Our Top Charities\" pages (explains large differences in cost\u2011effectiveness across interventions and gives estimated $/life\u2011saved ranges for top global health programs).",
+      "Andreoni, J., Trachtman et al. (2017) and related research summarized in \u2019Avoiding the Ask\u2019 publications and followups (evidence on avoidance and strategic behavior around solicitation).",
+      "Science Advances (2017) \"Dynamics in charity donation decisions: Insights from a large longitudinal data set\" (findings consistent with both stable giving/habit and evidence of moral\u2011licensing in real donation decisions)."
+    ]
+  }
+}

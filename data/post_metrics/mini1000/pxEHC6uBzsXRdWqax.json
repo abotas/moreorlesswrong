@@ -1,0 +1,54 @@
+{
+  "PostValue": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a well-executed outreach/communication piece that makes existing EA material more accessible and could help recruit or inform newcomers. It\u2019s useful operationally (especially for communicators, community builders, and designers) but not novel or load-bearing for EA theory, strategy, or policy \u2014 its truth or falsehood doesn\u2019t change core conclusions or risks. For general humanity the impact is marginal unless the infographic is widely distributed and adopted by major channels."
+  },
+  "PostRobustness": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Potentially misleading or legally risky use of the EA logo / implied endorsement \u2014 Action: either remove or prominently label the infographic as unofficial and attribute the logo use (and check EA org brand/trademark guidance or request permission). Readers on the Forum may assume this is an official EA product; that harms credibility and could get the graphic taken down.\n\n2) Data-visualization clarity and provenance problems that could produce misleading impressions \u2014 Action: add clear, per-chart citations and concise method notes (e.g., what models/dates were included in the AI-computation plot and any data transformations), restore minimal but important axis labels/units or a scale bar, and avoid decorative pictograms that misrepresent scale without a clear legend. Where you removed axes/units for simplicity, replace that with a tiny footnote or hover/click detail so people can verify the numbers. Explicitly call out key limitations/uncertainties for the AI and death-rate visuals.\n\n3) Oversimplified political-influence estimate and the binary \u201cgood/bad\u201d timeline that invites misinterpretation \u2014 Action: don\u2019t present the politician-influence number as a single-point fact. Replace it with a range or a labelled-uncertainty visualization, add a short methodological caveat (you already started one in the footnote, but make that visible on the graphic), and rework the decision-making timeline so it doesn\u2019t suggest a single person made those historical outcomes. Consider shifting to \u201cexamples of decisions with big downstream impacts\u201d and/or grouping factors (institutions, networks, incentives) rather than implying per-person influence.",
+    "improvement_potential": "Targets three high-impact, plausible 'own-goals'\u2014branding/legal risk from the EA logo, misleading or under-sourced data visualizations, and an overconfident/oversimplified political-influence/timeline claim. Fixing these would prevent credibility and legal problems and substantially improve correctness and trustworthiness without bloating the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable presence for 'Martina Pepiciello' in EA/rationalist circles or more broadly up to my 2024-06 knowledge cutoff. The name does not correspond to any well-known authors, speakers, or widely cited researchers; it may be a private individual or pseudonym with little or no public footprint."
+  },
+  "PostClarity": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and easy to follow: goals, process, design choices and data sources are clearly signposted and justified, and the visual aims are explained with concrete examples. Weaknesses are mild verbosity and occasional long/complex sentences, plus a few ambiguous design decisions (e.g. the politician-influence estimate and the \u2018good/bad\u2019 timeline) that could use tighter explanation or simplification to avoid misinterpretation."
+  },
+  "PostNovelty": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers this is not very novel: it adapts an existing Intro to EA post and uses familiar framing (cause areas, values, action paths). The main new elements are design choices and execution (pictogram-style visualizations, a compass for values, timeline styling) and a couple of minor data decisions (extending AI-compute visuals to 2024; a rough estimate of politician influence). For the general public the idea of explaining a movement via an infographic is more novel than to EAs, but still a common communication approach; the work's novelty is mostly in visual presentation rather than original ideas or arguments."
+  },
+  "PostInferentialSupport": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a clear, coherent design rationale and a logically structured approach \u2014 stated goals, targeted audience, choice of visuals, and explicit design tradeoffs. The author is transparent about data sources for some visualizations (e.g., Our World in Data) and about limitations (e.g., the difficulty of visualizing decision-making, uncertainty about US political influence). Weaknesses: The central claim (that the infographic will make the Intro to EA more accessible and memorable) is supported mainly by design theory and the author\u2019s experience rather than empirical testing; no user testing, engagement metrics, or external citations for key claims (e.g., that combined text+graphics improves retention) are provided. Some visualization choices (removing axis scales, pictograms, binary good/bad timeline) risk oversimplification or misinterpretation. Overall, the reasoning is plausible and well\u2011explained but underpowered by limited empirical evidence, so support is moderate but not strong."
+  },
+  "PostExternalValidation": {
+    "post_id": "pxEHC6uBzsXRdWqax",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Strengths: Most of the post\u2019s empirical claims are traceable to reputable sources and the author clearly states which datasets she adapted. She cites and uses Our World in Data for AI training-computation (verifiable), GiveWell\u2019s impact/cost-per-life estimates (verifiable ~ $3k\u2013$8k / commonly summarized as \u2248 $5k\u2013$5.5k), and the PoliEngine page for counts of US politicians (verifiable). She also follows the Effective Altruism style guide (Frontify). Weaknesses / caveats: one compact ratio in the infographic \u2014 \u201cabout 40 deaths from COVID for each death from terrorism\u201d \u2014 is an approximation that depends heavily on the choices of time windows and sources. The EA Handbook figures the infographic adapts compare ~21 million COVID deaths (source cited in the Handbook) with an \u2248500,000 cumulative terrorism-death figure over ~50 years; 21M/0.5M \u2248 42, so the infographic\u2019s \u201c\u224840x\u201d follows from those numbers, but both the COVID and terrorism totals vary across reputable estimates (WHO/IHME/Lancet/Economist give different COVID excess-death totals for 2020\u201321; annual terrorism-death counts and cumulative totals depend on GTD/IEP processing choices). Other empirical claims are self-reported (e.g., \u201c17 hours to complete\u201d) or clearly labelled as the author\u2019s calculations (e.g., weighted-average politician influence using PoliEngine) and are therefore not problematic. Overall: most major factual elements are supported by trustworthy sources, but a few headline comparisons are simplified and depend on choice of data/time period; that reduces confidence from \u201cexceptional\u201d to \u201cwell-supported.\u201d",
+    "sources": [
+      "EA Forum post by Martina Pepiciello (infographic post). \u2014 forum.effectivealtruism.org/posts/pxEHC6uBzsXRdWqax/i-made-an-infographic-for-the-introduction-to-effective",
+      "Introduction to Effective Altruism (EA Handbook) \u2014 forum.effectivealtruism.org/s/B79ro5zkhndbBKRRX/p/ZhNaizQgYY9dXdQkM (original post Martina adapted)",
+      "Our World in Data \u2014 'Computation used to train notable artificial intelligence systems' (AI training computation dataset / grapher). \u2014 ourworldindata.org/grapher/artificial-intelligence-training-computation",
+      "GiveWell \u2014 'Mass Distribution of Insecticide-Treated Nets (ITNs)' and GiveWell impact/cost-per-life discussion (\u2248 $3k\u2013$8k; commonly quoted \u2248 $5k\u2013$5.5k per life saved). \u2014 givewell.org/international/technical/programs/insecticide-treated-nets and givewell.org/impact-estimates",
+      "PoliEngine \u2014 'How many politicians are there in the US?' (used by the author to estimate politician counts). \u2014 poliengine.com/blog/how-many-politicians-are-there-in-the-us",
+      "WHO / The Lancet / IHME coverage of COVID excess-death estimates (shows different reputable estimates for COVID deaths; WHO \u224814.9M excess deaths in 2020\u201321, Lancet/IHME estimates ~18M etc.). \u2014 Lancet commentary 'Counting the global COVID-19 dead' (PMC) and related reporting",
+      "Our World in Data \u2014 'Terrorism' data page (annual terrorism-death counts; shows ~20k deaths in 2019 and that annual counts vary substantially). \u2014 ourworldindata.org/terrorism",
+      "Institute for Economics & Peace / Global Terrorism Index reporting (annual terrorism death counts and trends). \u2014 visionofhumanity.org/global-terrorism-index",
+      "Effective Altruism Style Guide (Frontify) \u2014 company-65404.frontify.com/d/hG9FgXLUpVOM/effective-altruism-style-guide"
+    ]
+  }
+}

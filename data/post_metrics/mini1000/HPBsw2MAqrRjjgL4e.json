@@ -1,0 +1,53 @@
+{
+  "PostValue": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "For the EA/rationalist community this is moderately important: up\u2011to\u2011date information about funding flows materially affects donor strategy, org planning, hiring, and prioritisation between cause areas (e.g., global health vs. longtermist work), so getting a clear picture is useful though not foundational. For general humanity the post is of low importance: it\u2019s mainly a community\u2011level information request whose direct impact on broad public outcomes is limited unless it leads to large shifts in funding allocations."
+  },
+  "PostRobustness": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "robustness_score": 3,
+    "actionable_feedback": "1) No recent data or concrete evidence \u2014 the post is entirely speculative. Actionable fix: add up-to-date quantitative sources before publishing (examples: Open Phil grant lists and annual reports 2022\u20132024, EA Funds/CEA transparency pages, GiveWell donation data, FTX legal/repayment updates, USAID and US foreign-aid budget numbers). Present 2\u20134 simple metrics (EA-directed funding per year, top donors and their share, share going to Global Health & Development, unrestricted vs restricted funding) so readers can judge the change you claim.  \n\n2) Overly simple two-sided-market model that omits important structure. Actionable fix: refine the framework \u2014 explicitly define supplier heterogeneity (large concentrated funders vs many small donors), funding instruments (foundations, DAFs, grants, impact investments), intermediaries (fund managers, evaluators), and demand-side constraints (absorption capacity, diminishing marginal returns, capacity to scale). State the time horizon and scope (global vs US-centric, 2022\u20132025) so your inferences aren\u2019t misleading.  \n\n3) Key counterarguments and uncertainty not considered. Actionable fix: add brief scenario analysis and at least two plausible counterarguments you\u2019ve investigated (for example: private donors or new funders offsetting USAID cuts; macro headwinds reducing donations; reallocation toward longtermist causes; concentrated funder withdrawal risk). Either cite evidence that rules them out or present them as alternate scenarios with qualitative impact estimates. If possible, augment with one or two quick interviews or public statements from major EA funders to back up your claims.",
+    "improvement_potential": "This feedback targets major weaknesses: the post is speculative with no up-to-date evidence, uses an oversimple two-sided-market model that misses key structural features, and omits plausible counterarguments/scenarios. Fixing these would substantially improve credibility and avoid obvious 'own goals' (making claims without data, naive modeling, ignoring obvious alternatives). The suggestions are concrete and actionable (specific metrics, sources, model elements, and scenario prompts), though they will require extra research and may lengthen the post."
+  },
+  "PostAuthorAura": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No evidence of a widely known person under the name 'Claus1860' in EA/rationalist spaces or wider public sources. Likely a pseudonymous online handle with at most a minor, low\u2011visibility presence (no prominent posts, publications, or profiles on EA Forum, LessWrong, Google Scholar, Twitter/X, or Wikipedia)."
+  },
+  "PostClarity": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand, uses a clear two-sided-market framing, and gives useful context (macroeconomic shifts, USAID, FTX) with relevant links. It is concise and well-structured. It could be improved by specifying the exact metrics or types of updates sought (e.g., donor trends, funding totals, grantmaking patterns, time horizon), which would make the request more actionable."
+  },
+  "PostNovelty": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA-readers this is low-novelty: the two-sided market framing, concerns about FTX\u2019s funding shock, and macro/political impacts on aid (e.g. USAID budget shifts) have been discussed repeatedly on the Forum and in EA org updates. The only mildly fresh element is asking for a current 2025 reassessment tied to specific recent macro changes, but that\u2019s primarily a timing/update request rather than a new conceptual claim. For the general public it\u2019s somewhat more novel (combining EA-specific funding dynamics with recent aid- and crypto-related shocks), but the underlying ideas about donor/charity dynamics and funding volatility are still fairly common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "The post sets up a plausible high-level framing (EA as a two-sided market; macro and political shifts plus the FTX shock matter) and flags relevant factors, but the arguments are thin and largely speculative. There is little logical development, no quantification, and no engagement with alternative explanations (e.g., new donor sources, sectoral shifts). Empirical support is very weak: linked sources are old or internal forum posts rather than current funding data, and the post provides no metrics on donations, grantmaking, or donor behavior. Overall the thesis is only weakly supported and would need up-to-date funding figures, trend analyses, and evidence tying macro/political changes to EA giving to be credible."
+  },
+  "PostExternalValidation": {
+    "post_id": "HPBsw2MAqrRjjgL4e",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most empirical points in the post are supported by public evidence: (a) the EA ecosystem functions as donors/funders vs. charities (conceptual but reflected in organisations like GiveWell, EA Funds and funders such as Open Philanthropy); (b) the FTX collapse did have a substantial negative funding and reputational impact on EA (donor counts and some grant flows dropped in 2022\u20132023), though legal consequences (conviction/sentencing) were largely resolved by 2024; and (c) in 2025 there were clear, material reductions and reorganisations of U.S. foreign-aid funding (including large rescissions and moves to cut/absorb USAID) that plausibly increase need/opportunity for philanthropic actors. Weaknesses: the claim that the \u201cFTX fallout [is] now far behind us\u201d is arguable \u2014 legal resolution progressed but funding and reputational effects persisted into 2023\u20132024 and recovery was uneven; the statement that EA should/ could expand into Global Health & Development is a normative inference (plausible given aid cuts) rather than a strictly empirical claim. Overall: empirical backbone is solid for the key factual claims, but some characterizations are subjective or forward-looking and not fully established by the cited 2022 material alone.",
+    "sources": [
+      "EA Forum \u2014 'How has FTX\u2019s collapse impacted EA?' (donation & donor data analysis; EA Funds trends). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/vXzEnBcG7BipkRSrF/how-has-ftx-s-collapse-impacted-ea?utm_source=openai))",
+      "GiveWell \u2014 metrics and fundraising blog (GiveWell metrics report and 2023/2024 data). ([givewell.org](https://www.givewell.org/about/impact?utm_source=openai), [blog.givewell.org](https://blog.givewell.org/2024/12/12/givewells-fundraising-and-grantmaking-in-2023/?utm_source=openai))",
+      "Open Philanthropy \u2014 'Our Progress in 2024 and Plans for 2025' and grants database (evidence Open Phil remained an active large funder in 2024\u20132025). ([openphilanthropy.org](https://www.openphilanthropy.org/research/our-progress-in-2024-and-plans-for-2025/?utm_source=openai))",
+      "Congress.gov \u2014 H.R.4 Rescissions Act of 2025 (text and summary showing rescissions affecting State/USAID funding). ([congress.gov](https://www.congress.gov/bill/119th-congress/house-bill/4?utm_source=openai))",
+      "CNN / Foreign Policy reporting (March 2025) on administration announcements cancelling/reshaping USAID programs (examples of concrete USAID cuts / reorganisation). ([cnn.com](https://www.cnn.com/2025/03/10/politics/rubio-usaid-contracts-state-department/index.html?utm_source=openai), [foreignpolicy.com](https://foreignpolicy.com/2025/03/10/trump-rubio-usaid-cuts-foreign-aid/?utm_source=openai))",
+      "Reuters / Politico coverage (Aug 2025) of legal/administrative actions to withhold foreign aid and the broader foreign-aid / USAID disruption in 2025 (shows real, recent reductions & disputes). ([reuters.com](https://www.reuters.com/world/us/trump-administration-asks-us-supreme-court-halt-foreign-aid-payments-2025-08-26/?utm_source=openai), [politico.com](https://www.politico.com/news/2025/08/26/justice-department-supreme-court-foreign-aid-00527929?utm_source=openai))",
+      "AP / CNN / NPR reporting on Sam Bankman\u2011Fried conviction and sentencing (Mar 28, 2024) \u2014 shows the FTX legal resolution timeline. ([apnews.com](https://apnews.com/article/sam-bankman-fried-ftx-cryptocurrency-sentencing-sbf-d7bb1a5e94b4c22039d74dfeab1a2ff1?utm_source=openai), [us.cnn.com](https://us.cnn.com/business/live-news/sam-bankman-fried-sentencing-03-28-24?utm_source=openai), [npr.org](https://www.npr.org/2024/03/28/1241210300/sam-bankman-fried-ftx-sentencing-crimes-crypto-mogul-greed?utm_source=openai))",
+      "Forbes / news coverage (2022\u20132023) on FTX Future Fund grants to EA organisations (documenting scale & risk of clawbacks). ([forbes.com](https://www.forbes.com/sites/johnhyatt/2022/11/17/disgraced-crypto-trader-sam-bankman-fried-was-a-big-backer-of-effective-altruism-now-that-movement-has-a-big-black-eye/?utm_source=openai))"
+    ]
+  }
+}

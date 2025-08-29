@@ -1,0 +1,57 @@
+{
+  "PostValue": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "For the EA/rationalist community this is moderately important \u2014 it's a highly usable, non\u2011partisan communication tool that could aid persuasion and advocacy around PEPFAR funding (which itself is high\u2011stakes). The post is not original research or a foundational argument, so it isn't deeply load\u2011bearing, but it materially helps outreach and public/policy discourse. For general humanity the underlying issue (cuts to PEPFAR) would be very consequential, but this particular forum post is mainly a pointer/summary with limited direct impact on outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "robustness_score": 5,
+    "actionable_feedback": "1) Alarmist statistics need context and more recent sources. The post leans on older studies and worst\u2011case phrasing (\u201cwe could very well return\u2026\u201d) without showing uncertainty, absolute magnitudes, or timelines. Actionable fix: update the key citations (mother\u2011to\u2011child transmission, infant mortality, and the 20% drug\u2011resistance figure) with the most recent WHO/PEPFAR/global HIV literature, show absolute numbers affected, and add brief caveats about uncertainty and the mechanism/timeframe for resistance emergence.\n\n2) Missing engagement with obvious counterarguments and policy context. Readers who are sceptical will ask why the pause happened and whether there are legal/budgetary/oversight reasons that justify it. Actionable fix: add a short paragraph summarising plausible rationales for the pause and explicitly rebut the strongest ones (e.g., oversight/corruption claims, budget reallocations), or explain why those rationales don\u2019t mitigate the public\u2011health harms you highlight.\n\n3) If the goal is to make this \u201cshareable\u201d with sceptical/republican relatives, make the piece practically shareable. Actionable fix: include a one\u2011sentence share blurb (non\u2011technical, non\u2011polemic), and a clear, tiny call to action (who to contact/what to sign). Also avoid mixed signalling about partisanship (praising Bush then naming Trump) without a sentence that explains why non\u2011partisan framing matters \u2014 otherwise readers may still perceive it as partisan and be less likely to engage.",
+    "improvement_potential": "The feedback identifies genuine, useful weaknesses: relying on older/worst\u2011case statistics without caveats, failing to anticipate obvious sceptical counterarguments about the pause, and not providing a ready\u2011to\u2011share blurb or call to action. Fixing these would substantially increase credibility and practical impact (especially for the intended audience). However, these are not fatal errors\u2014the post is primarily a short endorsement/link post rather than an authoritative claim piece\u2014so the omissions aren\u2019t embarrassingly wrong. Implementing the suggestions risks lengthening the post, so the author should prune wording to keep it concise while adding brief caveats, one\u2011line counterargument responses, and a short share blurb/CTA."
+  },
+  "PostAuthorAura": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No significant presence in EA/rationalist circles or broader public discourse as of my knowledge cutoff (June 2024). The name (possibly a pseudonym/handle) does not correspond to a recognized EA/rationalist author, frequent contributor, or public intellectual; there are no notable publications, affiliations, or citations indicating wider prominence."
+  },
+  "PostClarity": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: the post quickly states what it is recommending, provides strong, concrete evidence (with links/quotes), and explains why the piece is shareable (non\u2011partisan tone and target audience). Minor weaknesses: it assumes familiarity with the timing/context of the \"US foreign aid pause,\" has a small typo (\"AIDs\"), and could state the concrete call-to-action or the article title/date more explicitly. These are small issues in an otherwise well-structured, concise post."
+  },
+  "PostNovelty": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "For EA Forum readers this is not very novel: PEPFAR, the harms of funding cuts, transmission/mortality/statistics, and the risk of resistant HIV are already well-known topics in global health and longtermist discussions. The post mostly curates and praises an accessible, non\u2011partisan writeup rather than advancing new claims. For the general public it's slightly more novel \u2014 many educated readers will be aware of HIV/PEPFAR but may not know the specific numbers or the concise argument about shareability and bipartisan framing \u2014 but the core facts have been widely reported, so it\u2019s only modestly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "reasoning_quality": 7,
+    "evidence_quality": 6,
+    "overall_support": 6,
+    "explanation": "Strengths: The post lays out a clear, plausible causal chain (PEPFAR pause \u2192 loss of ARV access \u2192 increased mother-to-child transmission, infant mortality, and risk of drug resistance) and cites credible sources (Lancet, WHO, peer-reviewed literature) to back key links. Weaknesses: The argument relies on somewhat dated and general sources, makes a few extrapolations (severity/timing of treatment interruptions, probability of resistance emergence and international spread) without quantitative modeling or counterfactuals, and does not consider possible mitigating responses (stockpiles, country-level alternatives). Overall the reasoning is sound and the evidence relevant, but the case would be stronger with up-to-date data tied directly to the specific policy change and more explicit quantification of risks and uncertainties."
+  },
+  "PostExternalValidation": {
+    "post_id": "2f8GXF4Jv6W6jaGff",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Overall the post\u2019s major empirical claims are well supported by authoritative sources. Evidence from WHO/peer\u2011reviewed literature supports the quoted mother\u2011to\u2011child transmission rates (~15\u201335% peripartum plus additional breastfeeding risk, often summarized as ~20\u201340% without ART) and the high early mortality of untreated infected infants (about one\u2011third dead by 1 year, ~half by 2 years). Recent PEPFAR/advocacy reporting around the 2025 US foreign\u2011aid pause documents roughly 679,000\u2013680,000 pregnant women supported by PEPFAR whose services would be affected. WHO and other surveillance reports show that drug resistance can emerge in a substantial minority (up to ~20% in some high\u2011risk / heavily\u2011treated or unsuppressed groups) and that transmitted drug resistance is already present at non\u2011trivial levels in the United States \u2014 so the concern that interruptions and inconsistent ARV use can lead to drug\u2011resistant HIV spreading internationally is plausible and evidenced. Weaknesses/nuance: the \"up to 20%\" resistance figure depends strongly on context (drug class, regimen, duration, whether viremia/detectable viral load is present, heavy prior treatment experience); baseline PEPFAR counts change by year and program definitions; and the phrase \u201creturn to mid\u20112000s where AIDS is a death sentence\u201d is a strong rhetorical summary \u2014 models and UNAIDS analyses indicate large increases in infections and deaths if PEPFAR support were permanently discontinued, but precise outcomes depend on mitigation and time horizon. ",
+    "sources": [
+      "Teasdale et al., 'HIV: prevention of mother-to-child transmission' (Clinical Evidence / BMJ review, 2011) \u2014 summarizes MTCT risk ~15\u201330% peripartum plus 10\u201320% from prolonged breastfeeding.",
+      "The Lancet 2007 cohort: 'Mother-to-child transmission of HIV-1 infection during exclusive breastfeeding in the first 6 months of life' (The Lancet, 2007) \u2014 primary data on MTCT and breastfeeding risks. (The Lancet full text).",
+      "WHO / NCBI: 'Antiretroviral Therapy for HIV Infection in Infants and Children: Towards Universal Access' and WHO/UNAIDS material (2009\u20132013) \u2014 states ~1/3 die by 1 year and ~1/2 by 2 years without ART.",
+      "Pooled analysis (Newell et al. / Lancet pooled analysis) and ZVITAMBO results \u2014 mortality estimates for vertically infected infants (examples: pooled analysis showing ~35% by 1 year, ~52% by 2 years).",
+      "PEPFAR / amfAR analysis and press materials (amfAR 'Assessing the Impact of the PEPFAR Stop Work Order', Feb 2025; amfAR press release Jan 24, 2025) \u2014 documents the ~679,936 / ~680,000 pregnant women figure affected by the 2025 stop\u2011work/pause.",
+      "CDC PEPFAR/PMTCT brief (CDC Global HIV/TB briefbook PMTCT pages, 2023\u20132024) \u2014 PEPFAR coverage figures (e.g., CDC noted supporting >445,000 pregnant women on treatment in 2023 from CDC\u2011supported programs).",
+      "WHO 'HIV drug resistance: brief report' (ISBN 9789240086319; 2024 fact sheet/report) \u2014 shows acquired resistance prevalence in particular groups and documents examples up to ~19.6% DTG resistance in heavily pretreated persons with detectable viremia; discusses ART adherence and resistance emergence.",
+      "NIH / HIVinfo and WHO fact sheets on drug resistance (explaining how inconsistent adherence / treatment interruptions raise the risk of resistance).",
+      "US surveillance study: 'Transmitted Drug Resistance Among HIV-1 Diagnoses in the United States, 2014\u20132018' (CDC/IDSA / published analysis) \u2014 shows transmitted drug resistance prevalence ~18.9% in analyzed jurisdictions, demonstrating that resistant HIV already exists in the US.",
+      "Peer\u2011reviewed regional studies and reviews (e.g., pooled analyses and cohort studies cited above and in PubMed) documenting infant mortality and MTCT in the absence of ART.",
+      "UNAIDS statements and impact analysis (UNAIDS portal on US funding cuts, Feb\u20132025) and recent modeling (medRxiv / LancetHIV/other 2025 modelling papers) \u2014 project large increases in infections and deaths if PEPFAR support were discontinued (examples: UNAIDS additional millions of infections/deaths projections; modelling papers projecting millions more infections/deaths across affected countries).",
+      "Recent reputable news analyses synthesizing these findings (The Washington Post, Financial Times, STAT, The Guardian, Reuters coverage in 2025) \u2014 contemporaneous reporting on the 2025 PEPFAR/USAID stop\u2011work order and modeled impacts."
+    ]
+  }
+}

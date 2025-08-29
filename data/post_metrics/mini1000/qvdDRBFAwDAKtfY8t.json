@@ -1,0 +1,51 @@
+{
+  "PostValue": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "value_ea": 7,
+    "value_humanity": 4,
+    "explanation": "This is a clear, accessible exposition of a debate that is central to EA/longtermist reasoning (Pascalian gambles, population ethics, and how to handle tiny probabilities of huge outcomes). If taken seriously, the ideas shape major EA decisions (funding, risk priorities, policy). However the post is mostly an intro/synthesis rather than novel evidence, so its direct load-bearing power is limited. For general humanity the stakes are large in principle (adopting EV fanaticism would change many public decisions), but a single forum/intro article has modest real-world impact."
+  },
+  "PostRobustness": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be explicit about core formal assumptions (aggregation, cardinal interpersonal comparability, and how you treat arbitrarily large utilities). Right now the potion example implicitly assumes we can multiply tiny probabilities by enormous utilities and add across people/lifetimes without qualification. Many readers will see this as begging the question. Action: add a short paragraph listing the formal assumptions you rely on (expected-utility maximisation, cardinal utilities that scale across people and epochs, how you treat infinite or astronomically large utilities), and explicitly acknowledge the Pascalian/St. Petersburg-style worries and how you respond. Cite or footnote classical problems (Pascal\u2019s mugging, St. Petersburg paradox) and either sketch a rescue or admit limits of the view.\n\n2) Tighten and qualify the \u201cexoplanet\u201d argument \u2014 distinguish moral facts from decision-relevance. The claim that rejecting EVF forces you to let distant, uncontrollable events influence present moral choices is doing a lot of work but is currently under-argued. A plausible alternative is to say those distant facts are morally significant but decision-irrelevant if you cannot affect them. Action: reframe the argument to (a) state explicitly the principle you take to be implausible (e.g., that normative decision-guidance must track expected value over all causally irrelevant states), and (b) show why reasonable alternatives (agent-relative constraints, \u201cought\u201d tied to what you can affect, or restricting aggregation to reachable outcomes) are inconsistent with other plausible principles. If you can\u2019t fully defend the stronger claim, soften it and give a clearer distinction between normative facts and decision-guidance.\n\n3) Engage briefly with alternative decision rules and practical implications. Readers will reasonably ask whether one should actually take tiny\u2011probability huge-payoff gambles in practice (risk aversion, bounded utility, non\u2011expected-utility theories, uncertainty about moral theory). Action: add a concise section that (a) summarizes the main alternative responses (risk-weighting, bounded/ordinal approaches, scepticism about interpersonal aggregation), (b) explains why you think they\u2019re worse or how EVF handles the objections, and (c) gives practical takeaways (when an EVF stance would change real-world choices and when it wouldn\u2019t). This will prevent the post being dismissed as merely provocative and will make the implications clearer to EA readers.",
+    "improvement_potential": "Strong, targeted critique that flags the post\u2019s biggest weaknesses: implicit, controversial formal assumptions (aggregation, interpersonal cardinality, handling of astronomically large/infinite utilities), an overbroad exoplanet claim that conflates moral facts with decision\u2011relevance, and a lack of engagement with plausible alternative decision rules and practical implications. Fixing these will prevent obvious 'begging the question' and overstating the view, and will make the piece far more defensible to informed readers \u2014 and the suggested fixes are concise and practical rather than requiring a full rewrite."
+  },
+  "PostAuthorAura": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that 'Petra Kosonen' (possibly a pseudonym) is a recognized figure in the EA/rationalist community or a publicly known author up to my 2024-06 cutoff. No notable publications, organizational affiliations, citations, or speaking appearances are apparent; if you can provide links or more context I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "clarity_score": 8,
+    "explanation": "Overall clear and accessible: the concrete potion example is a strong, easy-to-follow hook, the main claim (that Expected Value Fanaticism recommends accepting tiny-probability huge-payoff gambles) is explicit, and the post is concise. Weaknesses: it glosses over the argumentation (so argument clarity is limited by brevity), and the claim about rejecting fanaticism implying commitment to distant exoplanet-relevant duties is somewhat counterintuitive and could use a bit more unpacking for readers unfamiliar with the debate."
+  },
+  "PostNovelty": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "novelty_ea": 2,
+    "novelty_humanity": 5,
+    "explanation": "Among EA/longtermist readers this is largely familiar material \u2014 it is a clear restatement of well\u2011known issues like Pascal's mugging, expected\u2011value fanaticism, and debates about totalism/aggregation and extreme probabilities that are routinely discussed on the Forum and in the literature. For the general educated public it is moderately novel: many will know Pascal's wager in a loose form but fewer will have encountered the formal EV\u2011fanaticism objections (tiny probabilities \u00d7 huge payoffs, implications for distant exoplanets/history, etc.), so the core thought experiment and its normative consequences will feel new to some readers."
+  },
+  "PostInferentialSupport": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post uses clear, vivid thought experiments and appeals to basic decision-theoretic intuitions (expected value calculations, dominance-style reasoning) to make a coherent case for taking tiny-probability huge-payoff gambles. It also highlights important paradoxes and tradeoffs that any position must confront, which is useful for sharpening the debate. Weaknesses: The argument rests on controversial normative assumptions (e.g. unbounded cardinal utilities, aggregation across vast/remote states) that many philosophers and decision theorists reject; opponents can offer plausible alternatives (bounded utility, average/critical-level views, deontological constraints, or epistemic/practical considerations) that are not conclusively refuted. Empirical evidence is essentially absent \u2014 this is largely a conceptual/philosophical case \u2014 so claims about what we \u2018should\u2019 do depend on contested axioms rather than observation. Overall: a well\u2011posed, logically organized defense that raises important points, but not decisive because of contested premises and limited empirical grounding."
+  },
+  "PostExternalValidation": {
+    "post_id": "qvdDRBFAwDAKtfY8t",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Strengths: The post (Utilitarianism.net guest essay \u201cExpected Value Fanaticism\u201d) exists and accurately represents Petra Kosonen\u2019s affiliation (Postdoctoral Fellow, Population Wellbeing Initiative, UT Austin) and her DPhil thesis on 'tiny probabilities of vast value' \u2014 these are verifiable. The central claims are philosophical/decision\u2011theoretic (e.g., that expected\u2011value/expected\u2011utility with unbounded utilities yields fanaticism, and that denying fanaticism forces counter\u2011intuitive violations of principles like transitivity or separability). Those claims are well grounded in the recent literature cited in the essay (Beckstead & Thomas 2023/2024, Russell 2024, Wilkinson 2022/2024, etc.), and the referenced papers exist and discuss precisely these arguments. Weaknesses/limits: the essay\u2019s \u201cclaims\u201d are mostly conceptual/argumentative (not empirical); thus there is little to \u201cfact\u2011check\u201d in the empirical sense. Some of the philosophical inferences are contested in the literature (papers cited in the essay defend opposing conclusions), so empirical verification is not applicable \u2014 correctness rests on argumentative/axiomatic acceptability rather than empirical data. Overall, most factual/empirical statements in the post check out and the presentation aligns with the academic literature, but the core content is philosophical argumentation (not testable empirical claims).",
+    "sources": [
+      "Utilitarianism.net \u2014 \"Expected Value Fanaticism\" (Guest essay by Petra Kosonen), utilitarianism.net/guest-essays/expected-value-fanaticism/ (accessed 2025)",
+      "Population Wellbeing Initiative (UT Austin) \u2014 People page listing Petra Kosonen as Postdoctoral Fellow, sites.utexas.edu/pwi/people (accessed 2025)",
+      "Oxford University Research Archive \u2014 Kosonen, P. (2022). Tiny probabilities of vast value (DPhil thesis), ORA record (2022)",
+      "Beckstead, N. & Thomas, T. (2023/2024). \"A paradox for tiny probabilities and enormous values.\" No\u00fbs 58(2): 431\u2013455 (Wiley Online Library)",
+      "Russell, J. S. (2024). \"On Two Arguments for Fanaticism.\" No\u00fbs 58(3): 565\u2013595 (Wiley Online Library / PhilArchive)",
+      "Wilkinson, H. (2022). \"In Defence of Fanaticism.\" Ethics 132(2): 445\u2013477; and Wilkinson, H. (2024). \"Egyptology and fanaticism.\" Philosophical Studies 181(8): 1903\u20131923 (Springer)"
+    ]
+  }
+}

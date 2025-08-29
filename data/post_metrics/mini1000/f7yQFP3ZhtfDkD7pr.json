@@ -1,0 +1,38 @@
+{
+  "PostValue": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a moderately important operational announcement for the EA/rationalist ecosystem: GWWC is a well-known donor-facing organisation and winding down these 10 initiatives changes available channels (tax-deductible giving in some countries), community supports (groups, giving games, charity elections, translations), and experimental mechanisms (donor lottery, hosted funds, an EG-meta fund). That matters to pledgers, local organisers, partner orgs, and anyone considering taking on or replacing these projects, but it is not foundational to core EA cause area arguments or existential-risk priorities. For general humanity the effects are negligible \u2014 mostly administrative shifts in a niche philanthropy network rather than changes with large-scale societal consequences."
+  },
+  "PostRobustness": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing decision criteria and quantitative rationale \u2014 provide concise evidence that these cuts improve your mission. Readers will expect a clear cost/benefit comparison (e.g. annual staff/FTE or $ costs per project, pledges/donations generated, reach/engagement metrics, qualitative value that isn\u2019t captured by metrics). For example, the Donor Lottery has run 16 lotteries totaling ~$4.7M \u2014 explain why re-homing/archiving it is preferable to continuing it given that scale. Action: add a short appendix/table (or 2\u20133 bullets per project) showing annual resource use and the key metric(s) you used to decide to discontinue or hand off each initiative, plus at least one sentence per project explaining the trade-off against pledge-focused work.\n\n2) Handover and continuity risks are underspecified \u2014 the post leaves open many practical risks (unspent or pledged funds, legal/tax implications for Canadian/Australian entities, what happens if no fiscal sponsor is found). Readers and potential partners need certainty about continuity and liabilities. Action: for each initiative, explicitly state (a) whether there are active/earmarked funds or contractual obligations and how those will be fulfilled, (b) named prospective partners or the exact stage of conversations (e.g. \u2018\u2018in talks with CEA/EA Funds, no agreement yet\u2019\u2019), (c) a clear contingency plan and firm deadline for what happens if no new sponsor is found (e.g. funds returned/redirected, entity wound down, or dormant status and cost).\n\n3) Insufficient detail on stakeholder consultation and support for spin-outs/rebrands \u2014 affected local leaders, translators, partner organisations and volunteers will need concrete support to preserve value (e.g. IP, code, small transition grants, templates, legal docs). The post reads top-down and may raise reputational/retention issues. Action: add a short section summarising who was consulted in the decision, what transition support you will provide (exact resources, e.g. access to codebase, 3 months of support, contact person), and a small FAQ addressing likely questions (tax deductibility for donors, how pledgers should report gifts, deadlines for group rebranding). This will reduce uncertainty and make it easier for third parties to pick up projects.",
+    "improvement_potential": "The feedback calls out major, actionable gaps: absent quantitative decision criteria, unclear continuity/liability plans, and weak stakeholder-support/transition details. Fixing these would substantially strengthen accountability, reduce reputational and legal risk, and make the post genuinely useful to partners \u2014 without requiring an excessively long rewrite (appendices/brief FAQs suffice). These are critical but not existential errors, so the suggested changes are high-impact and practical."
+  },
+  "PostAuthorAura": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "author_fame_ea": 8,
+    "author_fame_humanity": 3,
+    "explanation": "Giving What We Can is a well-known EA-affiliated organization (founded by Toby Ord in 2009) that runs the 10% giving pledge and is widely recognized within the effective altruism/rationalist community. It is an organization/brand rather than an individual author or a global public figure, and has limited general-public recognition outside philanthropy/EA circles."
+  },
+  "PostClarity": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "clarity_score": 8,
+    "explanation": "Strengths: The post is well structured with clear headings for each initiative, explicit rationales, timelines, and contact details \u2014 making it easy to skim for relevant items. It communicates the main decision and invites follow-up effectively. Weaknesses: It is long and a bit repetitive (similar rationale repeated for many items), has minor inconsistencies in link/labeling and date formatting, and could benefit from a short executive summary of the 10 changes and a clearer statement of prioritisation criteria to improve conciseness and reduce effort for readers seeking the key takeaways."
+  },
+  "PostNovelty": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "The post is largely an organisational update about winding down and rehoming programmes to focus on core strategy \u2014 a very common type of communication for charities and EA organisations. For EA Forum readers the ideas and trade-offs (focus on the pledge, handovers, pausing translations, switching from hosted funds, etc.) will be familiar and unsurprising. For the general public the specific programmes (donor lottery, charity elections, licence changes) may be new facts, but the overall concept\u2014an organisation retiring multiple initiatives to concentrate resources\u2014is routine and not conceptually novel."
+  },
+  "PostInferentialSupport": {
+    "post_id": "f7yQFP3ZhtfDkD7pr",
+    "reasoning_quality": 7,
+    "evidence_quality": 4,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is logically structured and transparent\u2014each initiative has a clear description, stated rationale, timelines, and contact/transition plans. The overall trade-off (focus limited resources on a core pledge-driven strategy) is plausible and the organisation shows reasonable governance (acknowledging mission-accountability, offering handovers). Some concrete facts are given (e.g. donor lottery totals, Charity Elections reach, number of groups supported), which improves credibility. Weaknesses: Most key causal claims that justify winding down initiatives lack quantitative backing or comparative analysis (no cost-per-pledge, marginal impact estimates, staff-time breakdowns, or counterfactuals). Assertions such as \u201cgroups haven\u2019t been a major driver of growth\u201d, \u201ctranslations showed limited success\u201d, and \u201cHosted Funds have high operational costs\u201d are plausible but under-supported by data in the post. The post would be stronger with metrics linking each programme\u2019s outputs to the organisation\u2019s core goal, explicit resource-allocation numbers, and more systematic evaluation of alternatives. Overall: a credible, well-presented strategic announcement with moderate support from partial evidence, but not a rigorous, evidence-heavy justification for each specific closure."
+  }
+}
