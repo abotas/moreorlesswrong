@@ -10,6 +10,7 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import os
 from dotenv import load_dotenv
+from sqlalchemy import create_engine
 
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
@@ -24,8 +25,8 @@ def get_connection():
 @st.cache_data(ttl=300)  # Cache for 5 minutes
 def load_metrics_data(cluster_n: int = 5) -> pd.DataFrame:
     """Load posts with alej_v1_metrics and cluster information from database."""
-    # Create a fresh connection for each query
-    conn = psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
+    # Use SQLAlchemy engine for pandas compatibility
+    engine = create_engine(DATABASE_URL)
     
     query = f"""
     SELECT 
@@ -47,13 +48,13 @@ def load_metrics_data(cluster_n: int = 5) -> pd.DataFrame:
         (alej_v1_metrics->>'reasoning_quality')::int as reasoning_quality,
         (alej_v1_metrics->>'evidence_quality')::int as evidence_quality,
         (alej_v1_metrics->>'overall_support')::int as overall_support,
-        (alej_v1_metrics->>'empirical_claim_validation_score')::int as empirical_validation
+        (alej_v1_metrics->>'emperical_claim_validation_score')::int as empirical_validation
     FROM fellowship_mvp
     WHERE alej_v1_metrics IS NOT NULL
     """
     
-    df = pd.read_sql_query(query, conn)
-    conn.close()
+    df = pd.read_sql_query(query, engine)
+    engine.dispose()
     
     return df
 
@@ -185,7 +186,7 @@ def main():
         return
     
     # Cluster size selector
-    default_cluster = 5 if 5 in available_clusters else available_clusters[0]
+    default_cluster = 12 if 12 in available_clusters else available_clusters[0]
     cluster_n = st.sidebar.selectbox(
         "Cluster Size (N)",
         available_clusters,
@@ -306,8 +307,8 @@ def main():
             else:
                 display_data = author_data.nsmallest(10, 'base_score')
             
-            display_data = display_data[['author', 'base_score', 'post_count']].copy()
-            display_data.columns = ['Author', 'Avg Post Karma', 'Posts']
+            display_data = display_data[['author', 'base_score']].copy()
+            display_data.columns = ['Author', 'Avg Post Karma']
             display_data['Avg Post Karma'] = display_data['Avg Post Karma'].round(1)
             
             st.dataframe(display_data, use_container_width=True, hide_index=True)
@@ -326,8 +327,8 @@ def main():
                     else:
                         display_data = author_data.nsmallest(10, metric)
                     
-                    display_data = display_data[['author', metric, 'post_count']].copy()
-                    display_data.columns = ['Author', get_human_readable_name(metric), 'Posts']
+                    display_data = display_data[['author', metric]].copy()
+                    display_data.columns = ['Author', get_human_readable_name(metric)]
                     display_data[get_human_readable_name(metric)] = display_data[get_human_readable_name(metric)].round(2)
                     
                     st.dataframe(display_data, use_container_width=True, hide_index=True)
@@ -335,52 +336,91 @@ def main():
     with tab3:
         st.header(f"Cluster Leaderboards (N={cluster_n})")
         
-        # Configuration
-        sort_order = st.selectbox("Show", ["Top", "Bottom"], key="cluster_sort")
+        # Show ALL metrics by cluster as bar graphs
+        all_metrics = [
+            'base_score', 'value_ea', 'value_humanity', 'robustness_score',
+            'author_fame_ea', 'author_fame_humanity', 'clarity_score',
+            'novelty_ea', 'novelty_humanity', 'reasoning_quality',
+            'evidence_quality', 'overall_support', 'empirical_validation'
+        ]
         
-        # Get cluster statistics
-        st.subheader("Cluster Overview")
-        
-        cluster_stats = df.groupby('cluster_name').agg({
-            'post_id': 'count',
-            'author': 'nunique',
-            'base_score': 'mean'
-        }).round(1)
-        cluster_stats.columns = ['Posts', 'Authors', 'Avg Karma']
-        cluster_stats = cluster_stats.sort_values('Posts', ascending=False)
-        
-        st.dataframe(cluster_stats, use_container_width=True)
-        
-        # Show metrics by cluster
-        metrics_to_show = ['value_ea', 'clarity_score', 'reasoning_quality', 'novelty_ea']
-        
-        for metric in metrics_to_show:
+        for metric in all_metrics:
             if metric in df.columns:
-                st.subheader(f"📊 {get_human_readable_name(metric)} by Cluster")
-                
                 cluster_data = aggregate_by_cluster(df, [metric])
                 
                 if not cluster_data.empty:
-                    if sort_order == "Top":
-                        display_data = cluster_data.nlargest(len(cluster_data), metric)
-                    else:
-                        display_data = cluster_data.nsmallest(len(cluster_data), metric)
+                    # Remove null values for proper sorting
+                    cluster_data_clean = cluster_data.dropna(subset=[metric])
                     
-                    # Create bar chart
-                    fig = px.bar(
-                        display_data,
-                        x='cluster_name',
-                        y=metric,
-                        title=f"Average {get_human_readable_name(metric)} by Cluster",
-                        labels={
-                            'cluster_name': 'Cluster',
-                            metric: get_human_readable_name(metric)
-                        },
-                        text=metric
-                    )
-                    fig.update_traces(texttemplate='%{text:.2f}', textposition='outside')
-                    fig.update_layout(showlegend=False)
-                    st.plotly_chart(fig, use_container_width=True)
+                    if not cluster_data_clean.empty:
+                        # Sort by metric value descending (highest first)
+                        display_data = cluster_data_clean.sort_values(metric, ascending=False)
+                        
+                        # Get title with LLM-graded prefix for all metrics except base_score
+                        if metric == 'base_score':
+                            title = f"Average {get_human_readable_name(metric)} by Cluster"
+                            y_label = get_human_readable_name(metric)
+                        else:
+                            title = f"Average LLM-graded {get_human_readable_name(metric)} by Cluster"
+                            y_label = f"LLM-graded {get_human_readable_name(metric)}"
+                        
+                        # Create bar chart with appropriate color scale
+                        if metric == 'base_score':
+                            # Use dynamic range for post karma
+                            fig = px.bar(
+                                display_data,
+                                x='cluster_name',
+                                y=metric,
+                                title=title,
+                                labels={
+                                    'cluster_name': 'Cluster',
+                                    metric: y_label
+                                },
+                                text=metric,
+                                color=metric,
+                                color_continuous_scale='viridis'
+                            )
+                        else:
+                            # Use normalized 0-10 scale for LLM-graded metrics
+                            fig = px.bar(
+                                display_data,
+                                x='cluster_name',
+                                y=metric,
+                                title=title,
+                                labels={
+                                    'cluster_name': 'Cluster',
+                                    metric: y_label
+                                },
+                                text=metric,
+                                color=metric,
+                                color_continuous_scale='viridis',
+                                range_color=[0, 10]
+                            )
+                        
+                        # Format text based on metric type
+                        if metric == 'base_score':
+                            fig.update_traces(texttemplate='%{text:.1f}', textposition='outside')
+                        else:
+                            fig.update_traces(texttemplate='%{text:.2f}', textposition='outside')
+                        
+                        # Set y-axis range
+                        if metric == 'base_score':
+                            # Dynamic y-axis for post karma
+                            fig.update_layout(
+                                showlegend=False,
+                                xaxis_tickangle=-45,
+                                height=500
+                            )
+                        else:
+                            # Fixed 0-10 y-axis for LLM-graded metrics
+                            fig.update_layout(
+                                showlegend=False,
+                                xaxis_tickangle=-45,
+                                height=500,
+                                yaxis=dict(range=[0, 10])
+                            )
+                        
+                        st.plotly_chart(fig, use_container_width=True)
     
     with tab4:
         st.header("Metric Distributions")
