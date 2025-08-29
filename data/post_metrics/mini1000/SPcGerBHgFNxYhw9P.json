@@ -16,5 +16,40 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I could not find evidence that an author known as \u201cDMMF\u201d is a recognized figure in the EA/rationalist community or more broadly. No notable publications, talks, or widely cited posts under that name appeared in available sources. If you can share a link or context (article, forum, pseudonym origin), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "SPcGerBHgFNxYhw9P",
+    "clarity_score": 8,
+    "explanation": "The post presents a clear, well-structured central idea (\"spillover altruism\") and supports it with concrete, relatable examples and a logical theory of change, making it easy to follow. Weaknesses: some claims are vague or rhetorical (e.g., size of effects, how spending caps would be set/enforced), a few phrasing choices are loaded, and the piece could be tightened in places or backed with more evidence to make the argument more compelling and actionable."
+  },
+  "PostNovelty": {
+    "post_id": "SPcGerBHgFNxYhw9P",
+    "novelty_ea": 4,
+    "novelty_humanity": 2,
+    "explanation": "The post packages familiar ideas (social contagion/norm change, prefigurative politics, voluntary simplicity, place-based giving, community-building rituals) into an EA-ish, impact-focused framing called \u201cspillover altruism.\u201d That framing and the explicit, strategic application of EA-style cost\u2013benefit thinking to local norm-setting is mildly original for EA readers. The concrete proposals (weekly open-invite gatherings, group runs, using public goods, a spending cap tied to median income, a local-altruism budget) are largely variants of well-known practices (religious/community rituals, civic engagement, degrowth/voluntary simplicity, local philanthropy). For general readers these ideas will feel familiar and common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "SPcGerBHgFNxYhw9P",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The piece sets out a clear, coherent framework (\"spillover altruism\") and plausible mechanisms (norm-setting, social contagion, network effects, diminishing marginal utility). The proposed interventions are concrete and tie logically to the stated goals. Weaknesses: The argument is largely speculative and descriptive rather than analytical \u2014 no formal model, no treatment of countervailing effects or tradeoffs, and little engagement with alternative explanations or literatures (social capital, norm diffusion, behavioral economics, urban economics). Key assumptions (magnitude and direction of spillovers, scalability, distributional impacts) are untested. Evidence: virtually none is provided \u2014 no citations, empirical studies, or pilot data \u2014 so claims about community-level impacts rest on intuition. To strengthen the case the author should cite relevant research, quantify likely effect sizes, address unintended consequences, and present pilot/empirical evidence or a plan to test the ideas."
+  },
+  "PostExternalValidation": {
+    "post_id": "SPcGerBHgFNxYhw9P",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical building blocks are supported by high\u2011quality evidence: (1) alcohol causes large health harms and substantial \u2018harm to others\u2019; (2) many behaviours spread through social networks (obesity, smoking, spending norms); (3) group-based physical activity increases adherence and social support; (4) \u2018\u2018safety in numbers\u2019\u2019 and benefits from more walking/cycling are empirically documented; (5) income\u2013wellbeing relations show diminishing marginal returns but the exact plateau is contested. Evidence on social\u2011media harms is mixed (small-to-moderate associations, stronger for problematic use and for adolescents). Claims that specific interventions proposed (e.g., a weekly open\u2011house, a fixed local spending cap, or a 10% \u201clocal altruism budget\u201d) will produce the exact community\u2011level outcomes described are plausible in theory (via norm\u2011setting and network externalities) but are not directly tested at scale and therefore remain largely speculative. Overall: good empirical support for the core mechanisms, but several prescriptive claims need experimental or longitudinal evaluation in real communities before being judged strongly validated.",
+    "sources": [
+      "WHO \u2014 Alcohol fact sheet (28 June 2024).",
+      "World Health Organization & Anne\u2011Marie Laslett et al., Harm to others from drinking (WHO report) and Laslett et al., 2023 'Alcohol's harm to others' (Addiction) \u2014 surveys/documentation of harms to others.",
+      "Kahneman, D. & Deaton, A. (2010) 'High income improves evaluation of life but not emotional well\u2011being', PNAS 107(38):16489\u201316493.",
+      "Killingsworth, M. A. (2021) 'Experienced well\u2011being rises with income, even above $75,000 per year', PNAS 118:e2016976118 \u2014 reanalysis showing continued income\u2013wellbeing gains (methodological debate noted).",
+      "Christakis, N. A. & Fowler, J. H. (2007) 'The spread of obesity in a large social network over 32 years', NEJM 357:370\u2013379 \u2014 empirical evidence of behavioural spread in social networks.",
+      "Umbrella review: 'Social media use and its impact on adolescent mental health' (2021) \u2014 reviews show weak-to-inconsistent associations but concern for problematic use.",
+      "Meta\u2011analyses on social media and adolescent depressive symptoms (e.g., 2020 meta\u2011analysis showing small but significant correlation between use and depression).",
+      "Systematic reviews/meta\u2011analyses on group exercise adherence (e.g., 2016 mixed\u2011methods review; 2019/2020 reviews and ACSM commentary) showing higher adherence/social support from group programmes.",
+      "Jacobsen, P. L. (2003) 'Safety in numbers: more walkers and bicyclists, safer walking and bicycling', Inj Prev \u2014 empirical evidence of lower per\u2011person collision risk as walking/cycling increases.",
+      "Americans for the Arts \u2014 'Arts & Economic Prosperity' series (AEP studies) documenting the economic and social value of local arts and culture and how audience/local spending supports local cultural organizations."
+    ]
   }
 }

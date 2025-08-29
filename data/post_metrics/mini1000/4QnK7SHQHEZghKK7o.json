@@ -1,1 +1,49 @@
-{}
+{
+  "PostValue": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily a community-building / recruiting post rather than an argument or evidence-bearing claim. It may be useful to some EAs seeking camaraderie or to fill a specific job, but it isn\u2019t foundational to EA strategy, AI safety, or global priorities. It has negligible relevance to humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Missing essential job details and a clear call-to-action. If you want people to reply with coworkers or apply, say so and provide a short template you expect answers to follow (company, role/level, location or remote, full/part-time, salary or pay range, how to apply/contact, whether the employer knows this is an EA post). Without that, replies will be noisy and low-value.\\n\\n2) Unclear audience and site-fit; consider community norms and where to post. The post doesn\u2019t explain why the EA Forum is the right place for a non-impactful Earning-to-Give position, and moderators or readers may expect job posts in the Jobs & Opportunities tag or on 80,000 Hours/EA Jobs channels. State explicitly that this is for comradery only (not recruitment or org endorsement), and tag/cross-post appropriately.\\n\\n3) No guidance on privacy, moderation, or spam control. Give instructions for what information is safe to share publicly (e.g., avoid personal emails in top-level post), whether you\u2019ll moderate responses, and whether you want only current employees to reply. This prevents doxxing, recruiter spam, and duplicate posts.",
+    "improvement_potential": "The feedback is clear, actionable, and targets real shortcomings: missing job details/CTA, unclear site-fit and tagging, and privacy/spam risks. Fixing these would notably improve the post without much extra length. It\u2019s not catastrophic (the original intent is fine), so not a 9\u201310, but these are important, practical corrections the author should implement."
+  },
+  "PostAuthorAura": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "No widely recognized presence under the name 'DPiepgrass' in the EA/rationalist community or public discourse as of my 2024-06 knowledge cutoff. The name appears to be a pseudonym or uncommon handle with no notable publications, talks, or widely cited work; I could not verify a meaningful footprint, so treat this as unknown/very minor."
+  },
+  "PostClarity": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "clarity_score": 8,
+    "explanation": "The post is short, direct, and the intent is easy to understand: the author is asking if others have non-impactful Earning-to-Give jobs and would like EA coworkers for camaraderie, and offers to post their own job as an answer. Strengths: concise, well-structured request and clear call to action. Weaknesses: minor jargon ('Earning-to-Give', 'non-impactful') that some readers might need defined, a small spelling choice ('comradery' vs. 'camaraderie'), and it could be clearer about what information to include when posting the job."
+  },
+  "PostNovelty": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "novelty_ea": 2,
+    "novelty_humanity": 1,
+    "explanation": "This is a very common community post: people often ask about jobs, hiring, or coworkers in the same organization, and EAs already use 80,000 Hours and forum threads for this. The only slight twist is the Earning-to-Give/comradery angle, but that\u2019s still a familiar topic within EA communities and not a novel claim to the broader public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post is essentially an informal community query/announcement rather than an argument-driven thesis. Its reasoning is minimal but coherent (appeals to a reasonable desire for camaraderie among EAs at the same employer). There is no empirical evidence, data, or argumentation presented to support any broader claim. Strengths: clear intent and relevance to the EA community. Weaknesses: no supporting evidence, no structured argument, and no consideration of counterpoints or broader applicability."
+  },
+  "PostExternalValidation": {
+    "post_id": "4QnK7SHQHEZghKK7o",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post's central factual claims are minimal and largely verifiable: 80,000 Hours runs a job board and publicizes the 'earning to give' career route \u2014 both documented on 80,000 Hours' site. However, the author's personal claim that they 'have just such a job' (i.e., a specific non\u2011impactful earning\u2011to\u2011give job) cannot be independently verified from the forum post alone. Because the public factual claims are well supported but the private/personal claim is unverifiable, I rate validation as 'well\u2011supported' but not fully confirmed.",
+    "sources": [
+      "80,000 Hours \u2014 Job board (jobs.80000hours.org).",
+      "80,000 Hours \u2014 'Why and how to earn to give' (80000hours.org/articles/earning-to-give).",
+      "80,000 Hours \u2014 Homepage / About (80000hours.org).",
+      "Vox \u2014 'The case for earning lots of money - and giving lots of it away' (Vox.com, discussion of 'earning to give' in EA)"
+    ]
+  }
+}

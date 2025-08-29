@@ -1,1 +1,53 @@
-{}
+{
+  "PostValue": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "value_ea": 4,
+    "value_humanity": 1,
+    "explanation": "This is an operational job posting for CEA\u2019s Executive Office. It matters to the EA community insofar as hiring a strong associate could affect CEA\u2019s internal capacity, stewardship of the community, and future leadership pipelines, but it isn\u2019t a foundational argument or evidence that would change major EA beliefs or strategies. For humanity at large it is essentially irrelevant."
+  },
+  "PostRobustness": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Missing/unclear application logistics (big own-goal). The post never says exactly how to apply (what documents to submit, where/how to upload them, whether you want a CV, cover letter, references, portfolio, or specific prompts), nor the timeline after the closing date (when candidates will hear back, interview stages). Actionable fix: add a single concise \u201cHow to apply\u201d section listing required materials, an application link or email, expected timeline, and contact for queries. This will reduce candidate friction and the volume of irrelevant applications.\n\n2) Ambiguity about level and pay structure between the two profiles. You describe two distinct profiles (Stable Support vs Leadership Development) but don\u2019t say how they map to compensation, seniority, or promotion expectations. That ambiguity makes the role unattractive to both mid-career professionals (who need clarity on pay/role trajectory) and junior candidates (who need clarity on training and evaluation). Actionable fix: state whether there are separate salary bands or negotiated ranges for each profile, how long you expect someone to be in the role before promotion or re-role, and what criteria you\u2019ll use to evaluate Leadership Development candidates for increased scope/compensation.\n\n3) Mixed messaging about workload and support that may deter good candidates. Repeated phrasing (\u201cwe are always in triage\u201d, \u201cproduce a high volume of output\u201d, \u201cunpredictable\u201d, \u201cunglamorous tasks\u201d) signals possible chronic overwork without saying what support/limits exist. That could put off strong applicants or attract people expecting to be exploited. Actionable fix: briefly describe typical working hours or norms, how you protect workload (e.g., delegation, prioritization processes, time-off norms), and the support available (line-management, professional development, mental health allowance usage). This keeps transparency while reducing the chance of misinterpretation.",
+    "improvement_potential": "The feedback identifies several major, actionable problems (especially the glaring omission of how to apply) that would materially reduce candidate friction and avoid embarrassing oversights. The other two points \u2014 clarifying how the two profiles map to pay/seniority and signalling workload norms/support \u2014 are important for attracting appropriate candidates and avoiding misunderstandings. Implementing these fixes would substantially improve the post with relatively small, concise additions."
+  },
+  "PostAuthorAura": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that someone named Oscar Howie is a known figure in the EA/rationalist community or a publicly notable author. There are no widely cited publications, talks, or community mentions in my training data up to mid\u20112024; the name may be a pseudonym or very obscure. If you can provide links or context (works, platforms, topics) I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear and well-structured: logical headings, bullet lists, and concrete sections (responsibilities, qualifications, compensation) make it easy to find relevant information. The purpose and two candidate profiles are explained coherently, and key details (start date, timezone preference, pay) are explicit. Weaknesses are redundancy and mild verbosity \u2014 several points (deadline, \u201capply now!\u201d, unpredictability/unglamorous tasks) are repeated and some phrasing is a bit promotional or jargon-heavy for unfamiliar readers. Tightening repetition and trimming a few paragraphs would make it more concise without losing clarity."
+  },
+  "PostNovelty": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a standard job posting tailored to the EA community. EA readers will have seen similar Exec Office/EA org hiring posts, transparent compensation, and leadership-development framing before, so it offers little truly new. To a general audience it's also not very novel \u2014 hiring for an executive-assistant/operations role is commonplace \u2014 though some EA-specific details (spin-out from Effective Ventures, explicit longtermist framing, and compensation/benefits transparency) may be somewhat uncommon to people outside the movement."
+  },
+  "PostInferentialSupport": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "reasoning_quality": 6,
+    "evidence_quality": 5,
+    "overall_support": 6,
+    "explanation": "Strengths: The post is well-structured and coherent for a job advertisement \u2014 it clearly states the role, responsibilities, desired attributes, compensation, timeline, and organisational context. It gives concrete, actionable details (staff size, budget, compensation, benefits, start date, remote/timezone preferences) and a plausible career-progression anecdote (Chief of Staff started as Executive Assistant). Weaknesses: Many of the post's persuasive claims (e.g. \"unrivalled visibility\", \"influence the trajectory of EA\", \"a unique opportunity\") are asserted rather than substantiated with evidence or metrics. The causal link between the role and high-impact outcomes is implied but not supported with data or concrete past examples beyond one anecdote. Overall, the reasoning is fit-for-purpose and mostly logical for recruiting, but empirical support for the loftier impact claims is limited."
+  },
+  "PostExternalValidation": {
+    "post_id": "MqTZYjDGtsKT9EW6n",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are verifiable and accurate. Evidence confirms: (a) CEA is spinning out from Effective Ventures and announced that process; (b) Zach Robinson was selected and joined as CEA CEO; (c) CEA\u2019s budget is ~\\$30M (2023 budget reported \u2248\\$31.4M); (d) CEA has an Oxford office and routinely states it will sponsor visas where possible; (e) Oscar Howie is listed as CEA Chief of Staff; and (f) the compensation and benefits figures match the job listing itself. Small imprecision: the post states \u201caround 50 staff\u201d while other CEA pages describe a \u201crelatively lean team of around 40 staff\u201d (so staff-count is roughly in that band but not exact). The claim that Oscar was \u201coriginally hired as an Executive Assistant with a decade of professional experience but little exposure to EA\u201d is plausible given internal CEA descriptions but has limited independent external documentation. Overall: well\u2011supported with minor, low\u2011impact discrepancies.",
+    "sources": [
+      "EA Forum job post: \"Apply now to join us in CEA's Executive Office\" \u2014 Oscar Howie & Zachary Robinson (Jan 22, 2025) (CEA job listing; includes compensation, deadline, staff/budget claim).",
+      "EA Forum: \"CEA is spinning out of Effective Ventures\" (Jan 18, 2024) (official announcement of spin-out process).",
+      "EA Forum: \"Zach Robinson will be CEA\u2019s next CEO\" (Dec 28, 2023) (announcement of CEO selection).",
+      "EA Forum: \"CEA is fundraising, and funding constrained\" (budget breakdown showing 2023 budget \u2248 $31.4M).",
+      "CEA website \u2014 Recruiting / Careers page (\"Recruiting Roles: Title Variable\") (states budget ~\\$30M and a relatively lean team of around 40 staff).",
+      "CEA website \u2014 Team / \"Meet the team\" (CEA team page showing Zach Robinson as CEO, Oscar Howie as Chief of Staff, and Oxford office details).",
+      "Washington Post opinion by Zach Robinson (Mar 28, 2024) (example/op-ed referenced in the job post).",
+      "CEA careers pages for other roles (multiple listings) noting presence of an Oxford office and language that CEA will \"sponsor visas where possible\"."
+    ]
+  }
+}

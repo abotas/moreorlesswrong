@@ -34,5 +34,21 @@
     "evidence_quality": 4,
     "overall_support": 5,
     "explanation": "Strengths: The post presents a coherent, plausible argument and a clear theory of change for why a lower-cost, introductory event series could complement EAG/EAGx. It acknowledges tradeoffs, includes practical design choices (minimal application, mentor emphasis), and cites pilot runs and prior cost analyses. Weaknesses: Empirical claims are thinly supported in the post itself \u2014 no attendance numbers, no concrete cost-per-attendee figures, no metrics on conversion/long-run engagement, and little discussion of counterfactuals or risks (e.g., quality dilution, mentor availability). Much of the evidence is deferred to linked retrospectives and analyses rather than summarized, so the post is persuasive qualitatively but only moderately supported quantitatively."
+  },
+  "PostExternalValidation": {
+    "post_id": "i6jgjGmF9u3TkgDeu",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the post are well supported by primary sources. The EA Forum announcement by Arthur Malone exists and explicitly describes the 2024 pilot Summits in Brazil, Nigeria, and South Africa. Each pilot has a public retrospective with attendance, survey (likelihood-to-recommend) and cost numbers (AEBr \u2248 $45.45/attendee; EA Nigeria \u2248 $179.6/attendee; EA SA \u2248 $130.82/attendee). CEA / Events Team reporting shows 2024 EAG average gross CPA \u2248 $1,600 and EAGx net in-person CPA \u2248 $580, which makes the Summit CPAs substantially lower. The announcement\u2019s claim that Brazil and Nigeria pilots led to planning EAGx events in 2025 is corroborated by published EAGx Nigeria and EAGx S\u00e3o Paulo 2025 event pages. Limitations: most numbers come from organiser retrospectives and CEA posts (self-reported/event-team reports) rather than independent audits; subjective terms like \u201cvery positively received\u201d are supported by high survey scores but are qualitative. Overall, the post\u2019s key empirical claims can be verified and are accurate based on the cited sources.",
+    "sources": [
+      "Announcing EA Summits \u2014 Arthur Malone, EA Forum (post announcing the series and pilot results). \u2014 forum.effectivealtruism.org/posts/i6jgjGmF9u3TkgDeu/announcing-ea-summits-a-new-cea-supported-local-event-series",
+      "AEBr 2024 Summit Retrospective \u2014 EA Forum (attendance ~220; cost-per-attendee $45.45; LTR 9.1/10). \u2014 forum.effectivealtruism.org/posts/8QGgLQbjZLgkBN8Z6/aebr-2024-summit-retrospective",
+      "Retrospective on EA Nigeria Summit \u2014 EA Forum (confirmed Sept 6\u20137 2024; 136 attendees; total expenses $24,611; cost/attendee $179.6; LTR 9.7/10). \u2014 forum.effectivealtruism.org/posts/xyGYuoP8EfXmirdZg/retrospective-on-ea-nigeria-summit-our-successes-and",
+      "Retrospective for Inaugural EA SA Summit 2024 \u2014 EA Forum (Oct 5 2024; 52 attendees; cost/attendee \u2248 $130.82; LTR 9.88/10). \u2014 forum.effectivealtruism.org/posts/h9yca8ER7tn2BYZFx/retrospective-for-inaugural-ea-sa-summit-2024-its-impact-and",
+      "Update on EA Global costs and 2024 CEA Events Team activities \u2014 EA Forum / CEA (reports EAG 2024 gross CPA \u2248 $1,600; EAGx net in-person CPA \u2248 $580 in 2024; mentions support for EA Summits). \u2014 forum.effectivealtruism.org/posts/8mCsYwmZC7DCA7cYD/update-on-ea-global-costs-and-2024-cea-events-team",
+      "How much do EAGs cost (and why)? \u2014 EA Forum (background on EAG / EAGx historical costs: EAGs ~$1.5k\u20132.5k per person historically; EAGx $300\u2013900 per person). \u2014 forum.effectivealtruism.org/posts/n5GJEP3tMrzdfYPGG/how-much-do-eags-cost-and-why",
+      "EAGxNigeria 2025 event page (shows EAGx Nigeria planned for July 11\u201313, 2025). \u2014 www.effectivealtruism.org/ea-global/events/eagxnigeria-2025",
+      "EAGxS\u00e3oPaulo 2025 event page (shows EAGx S\u00e3o Paulo planned for Aug 22\u201324, 2025). \u2014 www.effectivealtruism.org/ea-global/events/eagxsaopaulo-2025",
+      "What is the admissions bar for EA Global? \u2014 EA Forum (context on admissions rates and CEA\u2019s admissions process; cited in the announcement). \u2014 forum.effectivealtruism.org/posts/S6GMTQf2ryKbykpiW/ea-global-admissions-bar"
+    ]
   }
 }

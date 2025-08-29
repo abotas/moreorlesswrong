@@ -1,1 +1,52 @@
-{}
+{
+  "PostValue": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "value_ea": 5,
+    "value_humanity": 1,
+    "explanation": "This is a practical, useful resource for EA community builders and grant applicants \u2014 it provides concrete frameworks, budget benchmarks, and templates that can improve how community projects plan and execute communications, making grants more likely to succeed and scale. However, it is not foundational to core EA/longtermist arguments or high-impact cause prioritization, so its truth would not dramatically change major strategic decisions. For general humanity its impact is negligible and narrowly scoped to improving EA community outreach and effectiveness."
+  },
+  "PostRobustness": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Make the bridge from communications activities to impact explicit and measurable. Right now the post promises templates and benchmarks but doesn\u2019t explain how comms work translates to EA-relevant outcomes (e.g. increased attendee-to-volunteer conversion, informed donor signups, higher quality local leadership). Add a short section (or a boxed example) showing: a) a causal chain from activity \u2192 intermediate metric \u2192 final outcome, b) 1\u20133 recommended primary metrics for common project types (events, content, community growth), and c) a simple approach to estimate counterfactuals and conversion rates. This prevents readers and grantmakers treating vanity metrics as outcomes.  \n\n2) Justify and source the budget benchmarks. Grant reviewers will want to know how you derived those numbers and what they buy. Give a compact explanation of the assumptions behind each benchmark (staff time rates, ad spends, production costs), show a worked example costing one realistic project, and provide ranges/scenarios (low/medium/high ambition). If the benchmarks come from your experience, say so and include anonymized case-study numbers or note uncertainty.  \n\n3) Cover major contextual risks and trade-offs briefly. Community comms have non-obvious downsides (dilution of community quality, short-term spikes with poor retention, mission drift, duplication with central EA communications). Add a short risk/register paragraph and 2\u20133 mitigation tactics (e.g. quality-over-quantity KPIs, onboarding funnels, coordination checks with national/global EA orgs). This will make the plan look more credible and usable across diverse community contexts.",
+    "improvement_potential": "Highly useful and actionable. The three points identify major, non-trivial omissions that would undermine the guide\u2019s credibility with grant reviewers: lack of a clear causal link from comms activities to EA-relevant outcomes (risking vanity metrics), undocumented budget benchmarks, and missing discussion of contextual risks/trade-offs. Addressing them would materially strengthen the post and is feasible without bloating it (one boxed example, a short budget note, and a brief risk register)."
+  },
+  "PostAuthorAura": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that a writer named Martin Wilde is a known figure in the EA/rationalist community or a public intellectual. The name is common and may be a pseudonym; without links, affiliations, or notable publications I would rate them as effectively unknown. If you can share more context (links, topics, works), I can re-evaluate."
+  },
+  "PostClarity": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "clarity_score": 8,
+    "explanation": "The post is concise, well-structured and easy to understand: it states the audience, lists concrete deliverables (8-step framework, budget benchmarks, template, tips) and offers help and acknowledgement. It could be slightly improved by adding direct links to the template/example and a brief hint of the benchmark ranges or expected outcomes, but overall it makes its purpose and offer clear and compelling."
+  },
+  "PostNovelty": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is a practical, useful piece but not conceptually novel. Communications frameworks, step-by-step planning, templates and budget benchmarks are standard in marketing and nonprofit practice; many EA community builders and grantees have likely seen similar guidance. The only somewhat novel aspects are the EA-specific framing (grant-focused advice, EA community benchmarks and examples), which provide incremental but not groundbreaking novelty for the EA readership. For the general public the material is also low in novelty because marketing/comms plans and templates are common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is pragmatically framed (an 8-step framework, budget benchmarks, template, and tips) which is a sensible and actionable approach for community builders; it identifies a clear audience and use cases. Weaknesses: The snippet provides little-to-no empirical evidence (no case studies, outcome metrics, or prior-results), limited detail on how the framework was derived, and no discussion of assumptions or boundary conditions. A reviewer is acknowledged, but that is not a substitute for evidence of effectiveness or external validation. To be better supported the guide should include examples of plans in practice, pre/post impact metrics, citations to communications best practice or EA-specific evaluations, and clarity on how benchmarks were calculated."
+  },
+  "PostExternalValidation": {
+    "post_id": "ATjfmunw9z2ZhmP52",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "I could not find the specific EA Forum post titled exactly as given (or by author Martin Wilde) in publicly searchable EA Forum results, so I could not directly verify the post\u2019s internal empirical details (for example, any numeric budget benchmarks it claims). However, the high-level claims in the excerpt are plausible and consistent with other EA Forum guidance and common nonprofit practice: multiple EA Forum posts provide marketing frameworks and downloadable templates, and independent nonprofit guidance commonly recommends marketing budgets in the ~5\u201315% range (so a post that offers \u201cbudget benchmarks for different levels of ambition\u201d fits known guidance). Because the exact post and its specific benchmarks/figures weren\u2019t locatable for direct verification, I rate validation as mixed/uncertain (5/10).",
+    "sources": [
+      "EA Forum \u2014 \"Using Comms & Marketing to Maximize Your Impact\" (Danielle MacLean). (EA Forum post summarizing a 4-part comms/marketing template).",
+      "EA Forum \u2014 \"The 8-Week Marketing Plan - A Realistic and Practical Roadmap For EAs\" (Igor Scaldini, Dec 1, 2023).",
+      "Effective Altruism Forum \u2014 \"Announcing Effective Altruism Community Building Grants\" (EA community grants guidance / expectations for community projects).",
+      "EA Groups Resource Centre \u2014 \"Social Media Promotion\" (Centre for Effective Altruism guidance for EA groups).",
+      "Hyperakt \u2014 \"The Ultimate Guide to Nonprofit Branding Budgets\" (summarizes common marketing budget guidance; nonprofit marketing often 5\u201315% of operating budget).",
+      "Trivera \u2014 \"Building an Informed Marketing Budget: Part 1 - Industry Benchmarks\" (summary of marketing budget benchmarks; nonprofits often 5\u201315%).",
+      "Getting Attention \u2014 \"How Much Do Nonprofits Spend on Marketing?\" (discussion and references including M+R Benchmarks about nonprofit spending patterns)."
+    ]
+  }
+}

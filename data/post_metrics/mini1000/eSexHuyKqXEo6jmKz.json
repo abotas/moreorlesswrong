@@ -4,5 +4,50 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I do not recognize the handle \"carolinaollive\" in my training data up to 2024-06 and found no notable presence in EA/rationalist circles or the broader public. If you provide links or context (articles, platforms, affiliations), I can reassess."
+  },
+  "PostValue": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an event announcement for a regional AI governance bootcamp. It\u2019s useful for recruitment and capacity-building within the EA/AI-safety community (helpful for individuals who might join governance work), but it isn\u2019t a substantive argument or a foundational claim that would materially shift priorities or beliefs. The direct impact is limited to participants and local networks; it\u2019s not broadly consequential for humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Fix clear inconsistencies and trust signals before publishing. The title says \u201cML4G\u201d while the body uses \u201cML4Good\u201d; the copy says \u201cten day\u201d but the dates (July 17\u201327) are 11 calendar days/inclusive \u2014 decide and correct these. Replace the tinyurl with the direct ml4good.org URL (or show both) and add an email/contact person so readers can verify legitimacy quickly.\n\n2) Add the key logistical and selection details readers care about (this avoids lots of follow-up questions). Explicitly state: number of spots, selection criteria/process/timeline, whether travel/visa/accommodation costs are covered (or if attendees must pay), whether you provide visa letters, and the expected daily time commitment. Also clarify the exact eligibility rule for \u201cbased in Europe\u201d (resident, citizen, or physically present?) and the deadline timezone.\n\n3) Strengthen credibility for an EA/AI\u2011governance audience. Briefly name core organisers/mentors and their affiliations or link to a page with short bios and past cohort outcomes (sample projects, placements, or testimonials). If you truly expect non\u2011technical participants to get value from topics like threat models and red\u2011teaming, add a sentence about prerequisite knowledge or pre\u2011work and learning objectives so applicants can self\u2011assess fit.",
+    "improvement_potential": "The feedback points out clear, potentially embarrassing errors (inconsistent naming and ambiguous duration), fixes trust signals (tinyurl, contact), and identifies major missing info that readers will always ask about (spots, selection process, costs/visa support, time commitment, eligibility). It also rightly asks for organiser/mentor credibility and learning objectives. Addressing these would substantially improve clarity and trust with minimal downside; only minor trimming might be needed to avoid lengthening the post too much."
+  },
+  "PostClarity": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: well-structured with headings, a concise list of activities, concrete dates, and a prominent application link. Minor issues reduce score slightly \u2014 inconsistent naming (ML4G vs ML4Good), a few awkward phrasings (\"APPLY NOW at through this link\", \"ten day\"), and small niceties that could be clarified (selection criteria, travel/accommodation details) \u2014 but the main message and call to action are easy to understand."
+  },
+  "PostNovelty": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event announcement rather than a new idea. For EA Forum readers, governance bootcamps and training programs (including non-technical tracks) are already common, so the post is only slightly novel insofar as it\u2019s ML4Good\u2019s first governance edition and the specific logistics (ten-day, Europe, free). For the general public it\u2019s a bit more novel because specialized AI-governance bootcamps are still relatively niche, but the concept of a themed training/bootcamp is familiar and not conceptually original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "This is primarily an announcement rather than an argument, so reasoning is simple and coherent (clear aims, activities, dates, target audience). However, claims that the program will \"build the skills needed\" and that it uses a \"proven structure\" are asserted without supporting argumentation or detail (e.g., curriculum design, pedagogy, instructor expertise). Empirical evidence is minimal: the post mentions prior bootcamps in several countries but provides no outcome metrics, participant feedback, follow-up impact, or examples of successful alumni. The information is sufficient to advertise the event but weak as evidence that the bootcamp will reliably produce effective AI governance contributors."
+  },
+  "PostExternalValidation": {
+    "post_id": "eSexHuyKqXEo6jmKz",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the EA Forum post are accurate and directly verifiable on ML4Good\u2019s website and related pages: the Governance Europe bootcamp exists and is listed for July 17\u201327, 2025 with an application deadline of May 21, 2025; the advertised activities, target audience (Europe; no technical knowledge required), free tuition/room/board policy, and application form (tinyurl \u2192 Airtable) are posted on the course page. The post\u2019s history/organisational claims (ML4Good started as a project of EffiSciences in 2022; EffiSciences\u2019 AI division evolving into CeSIA) are supported by ML4Good\u2019s About page and the CeSIA announcement. Minor uncertainties remain because a few items are self-reported on ML4Good (e.g., precise legal non\u2011profit registration status and the claim of past bootcamps in Italy is asserted on their site but has less independent documentation), so I did not give the highest possible score.",
+    "sources": [
+      "ML4Good \u2014 Governance Europe July 2025 course page (ml4good.org/courses/gov-june25)",
+      "ML4Good \u2014 Governance September '25 course page (ml4good.org/courses/governance-sept25)",
+      "ML4Good \u2014 About / About Us (ml4good.org/about and ml4good.org/about-us)",
+      "ML4Good \u2014 Past bootcamps and specific past camp pages (ml4good.org/pastcamps and ml4good.org/past-bootcamps/ml4good-switzerland-january-2023; ml4good.org/past-bootcamps/ml4good-europe-march-2025)",
+      "ML4Good \u2014 Europe March 2025 course page (ml4good.org/courses/ml4good-europe-march-2025)",
+      "EA Forum post: 'ML4G is launching its first ever Governance bootcamp!' by carolinaollive (forum.effectivealtruism.org post)",
+      "TinyURL application redirect (tinyurl.com/ml4govbootcamp25 \u2192 Airtable application form)",
+      "Centre pour la S\u00e9curit\u00e9 de l'IA (CeSIA) launch / EffiSciences evolution (securite-ia.fr post announcing CeSIA)"
+    ]
   }
 }

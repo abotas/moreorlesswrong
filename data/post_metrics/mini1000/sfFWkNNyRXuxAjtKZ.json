@@ -4,5 +4,52 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I am not aware of any notable EA/rationalist presence for an author named 'Algon' up to my 2024-06 cutoff. No major publications, talks, or widely-cited posts under that name are known to me; it may be a niche or pseudonymous poster. If you can share links or context, I can reassess."
+  },
+  "PostValue": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "This is a comprehensive, curated resource list for people wanting introductions to AI safety. For the EA/rationalist community it is moderately important: it helps onboard newcomers, harmonize background knowledge, and guide who reads what \u2014 which can influence hiring, volunteering, and research choices, but it is not itself a foundational argument. For general humanity it is of minor relevance: useful for individuals who want to learn about AI risk, but it doesn't change policy or world outcomes directly."
+  },
+  "PostRobustness": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "robustness_score": 4,
+    "actionable_feedback": "1) Add clear, concise annotations and selection criteria. Right now the list is long but the reader has no quick way to tell why each item is included or who it\u2019s best for. For each linked resource add a one-line annotation: publication year, intended audience (general / policymaker / technical researcher), main stance/perspective (e.g. longtermist/x-risk-arguing, governance-focused, skeptical), and a 10\u201330 word summary of the core claim. Also add a short preface that states how you chose the \u201cTop recommendations\u201d (e.g. clarity + breadth + credibility) so readers understand the curator\u2019s lens.  \n  \n\n2) Call out dated or contentious items and add balancing perspectives. Several items are >5 years old or represent controversial viewpoints without labeling (e.g. Superintelligence, Wait But Why, strong longtermist/x-risk framings). Mark older or disputed pieces and either (a) note what\u2019s outdated about them or (b) link to updated critiques or skeptical takes. Where the list skews heavily toward one intellectual camp, include a few representative critical or skeptical resources (or explicitly link to the counterarguments doc) to avoid signalling an uncritical echo chamber.  \n  \n\n3) Improve navigation and utility with lightweight tagging/pruning. Group links by concrete reader goals (e.g. \u201cQuick primer for the public\u201d, \u201cTechnical alignment research\u201d, \u201cPolicy & governance\u201d, \u201cPodcasts/videos\u201d, \u201cCourses\u201d), and add time-estimates where missing. Consider pruning near-duplicate items or moving very niche/low-quality links into an \u201cextended/misc\u201d section \u2014 this keeps the main list short and makes it faster for readers to find what they need.",
+    "improvement_potential": "Good, actionable feedback that would substantially improve the post\u2019s usability, credibility, and neutrality. It identifies real \u2018own-goal\u2019 issues (no curator lens, missing annotations, unclear audience, potential one-sidedness, and navigation friction) that readers would notice and that the author would likely be embarrassed by. Implementing it would meaningfully strengthen the list without changing its core content."
+  },
+  "PostClarity": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "clarity_score": 8,
+    "explanation": "Clear purpose and well structured \u2014 headings (Top recommendations, Quick reads, Courses, etc.) and bulletized links make it easy to skim and find resources. The post isn\u2019t making a complex argument (it\u2019s a curated resource list), and it communicates that intent plainly. Weaknesses: it\u2019s long and link-dense (which is appropriate for comprehensiveness but reduces immediacy), has a few minor typos/inconsistent formatting (e.g. \u201cCurriuclum\u201d, stray asterisks), and many entries lack short annotations explaining why a reader should pick that item. A brief summary for each category or 1\u20132\u2011line annotations for top items would improve conciseness and usability."
+  },
+  "PostNovelty": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This post is a curated compilation of existing AI-safety introductions, readings, courses, and media. For EA Forum readers (many of whom have seen most of these sources or similar lists), the content is not new \u2014 it's mainly a convenient aggregation \u2014 so novelty is low. For the general educated public the specific collection and organization may be unfamiliar and somewhat useful, but it still doesn't present original ideas or arguments, only a comprehensive resource roundup."
+  },
+  "PostInferentialSupport": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "reasoning_quality": 8,
+    "evidence_quality": 7,
+    "overall_support": 7,
+    "explanation": "This post is primarily a curated resource list rather than an argumentative piece. Its organization is logical and useful (top picks, short reads, longer treatments, courses, etc.), and it gives a broad, relevant set of reputable sources (papers, org reports, journalists, and technical work). That supports the implicit claim that these are good introductions to AI safety. Weaknesses: inclusion criteria and vetting are not explicit, coverage is unsystematic and likely biased toward EA/Alignment communities, some entries are dated without clear labeling, and items lack evaluative annotations \u2014 so while relevance is high, the list is not a rigorously justified or comprehensive survey."
+  },
+  "PostExternalValidation": {
+    "post_id": "sfFWkNNyRXuxAjtKZ",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "This EA Forum post is a curated list of introductory and deeper resources on AI safety. The vast majority of the listed items are real, attributable, and correctly referenced (I spot-checked high\u2011impact items across categories). Key citations exist for the Science consensus paper (Bengio et al.), major survey/preprint papers (Hendrycks et al., Anwar et al.), classic pieces (Soares / MIRI), and the 2025 International AI Safety Report. AISafety.info (the source of the post) is an active site hosting many FAQ/articles and the same phrasing (\u201calong with 300+ other articles\u2026\u201d) appears on related EA Forum linkposts; the exact page-count (300+) is plausible though I did not enumerate every page. Minor elements (estimated reading times, ordering, and subjective tags like \u201c~6 hours\u201d) are editorial and not empirical errors. Overall the post\u2019s empirical claims are well-supported; I docked one point because the \u201c300+ articles\u201d claim is plausible but not independently enumerated in the page metadata I checked, and reading-time estimates are subjective.",
+    "sources": [
+      "AISafety.info \u2014 homepage and categories (AISafety.info). ([aisafety.info](https://aisafety.info/))",
+      "AISafety.info \u2014 'What are some other introductions to AI safety?' (the page that matches the EA Forum post). ([aisafety.info](https://aisafety.info/questions/86J8/What-are-some-introductions-to-AI-safety?utm_source=openai))",
+      "EA Forum linkpost referencing AISafety.info / '300+ other articles' (example mirror of the post). ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/Yp7BS9h69QhfBk484/what-is-compute-governance?utm_source=openai))",
+      "Managing extreme AI risks amid rapid progress \u2014 Science (Yoshua Bengio et al.). ([science.org](https://www.science.org/doi/abs/10.1126/science.adn0117?utm_source=openai), [managing-ai-risks.org](https://managing-ai-risks.org/?utm_source=openai))",
+      "An Overview of Catastrophic AI Risks \u2014 Dan Hendrycks, Mantas Mazeika, Thomas Woodside (arXiv:2306.12001). ([arxiv.org](https://arxiv.org/abs/2306.12001?utm_source=openai))",
+      "Foundational Challenges in Assuring Alignment and Safety of Large Language Models \u2014 Usman Anwar et al. (arXiv; 'llm-safety-challenges' site). ([arxiv.org](https://arxiv.org/abs/2404.09932?utm_source=openai), [llm-safety-challenges.github.io](https://llm-safety-challenges.github.io/?utm_source=openai))",
+      "Four Background Claims \u2014 Nate Soares (MIRI, 2015). ([buzzsprout.com](https://www.buzzsprout.com/2334908/episodes/16381859-four-background-claims?utm_source=openai), [intelligence.org](https://intelligence.org/author/nate/page/5/?utm_source=openai))",
+      "International AI Safety Report 2025 \u2014 GOV.UK (International Scientific Report on the Safety of Advanced AI). ([gov.uk](https://www.gov.uk/government/publications/international-ai-safety-report-2025?utm_source=openai))",
+      "Superintelligence: Paths, Dangers, Strategies \u2014 Nick Bostrom (2014), cited as older intro that predates modern transformer-era systems. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Superintelligence%3A_Paths%2C_Dangers%2C_Strategies?utm_source=openai))",
+      "Attention Is All You Need \u2014 Vaswani et al. (2017) and GPT-3 'Language Models are Few-Shot Learners' \u2014 Brown et al. (2020), as evidence that major LLM developments postdate Bostrom. ([arxiv.org](https://arxiv.org/abs/1706.03762?utm_source=openai))"
+    ]
   }
 }

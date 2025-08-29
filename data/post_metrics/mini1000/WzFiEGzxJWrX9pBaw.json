@@ -1,1 +1,51 @@
-{}
+{
+  "PostValue": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This is a small-scale outreach/experimentation post rather than a substantive argument about AI policy. For the EA/rationalist community it has modest value: it\u2019s a practical call for help and an experiment in public engagement that could yield useful lessons about communicating AI risk and recruiting interest, but it\u2019s not load\u2011bearing for core debates or strategy. For general humanity it\u2019s low importance \u2014 useful at the margin for public awareness among viewers but unlikely to materially change policy or outcomes. (Upside: better public understanding and talent recruitment; downside: risk of oversimplification or misinformation if not carefully reviewed.)"
+  },
+  "PostRobustness": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing a clear QA / reviewer standard \u2014 you\u2019re recruiting expert reviewers but don\u2019t say who counts as an expert or how you\u2019ll ensure accuracy and avoid harms. Actionable fixes: (a) add minimum reviewer criteria (e.g., technical reviewer: ML experience or peer-reviewed work; policy reviewer: published/policy role or equivalent), (b) provide a 3\u20135 item review checklist reviewers use each week (clarity, factual accuracy + source, potential harms/misuse, suggested wording fixes, escalation flag), (c) define escalation and sign-off rules for high-stakes topics (misalignment, misuse) and how you\u2019ll credit/compensate reviewers. Implementing even a one-page \u201creviewer playbook\u201d will prevent backfires from simplified/misleading claims.  \n\n2) Unclear target audience and success metrics \u2014 it\u2019s not obvious what \u201ccommunicate AI policy and risk\u201d means for TikTok, so you risk producing content that\u2019s ineffective or harmful. Actionable fixes: (a) state 1\u20132 target audiences (e.g., general public ages 18\u201330 with no technical background; early-career policy people) and a primary objective (awareness, behavior change, recruitment, or policy literacy), (b) pick 3 concrete success metrics (e.g., average watch-through, share rate, number of qualified signups that convert to volunteers/readers) and an A/B test plan (different framings, CTAs, length), (c) use those choices to guide episode topics and tone (what to simplify vs what to link out).  \n\n3) Underestimates risks of oversimplification \u2014 1\u20132 minute videos are prone to misleading shortcuts on technical/ethical issues. Actionable fixes: (a) commit to \u201cone main claim per video\u201d and always include a brief caption/link to a source or deeper explainer, (b) flag any video that makes causal/forecast claims (e.g., timelines, extinction-level statements) for mandatory expert review, (c) add a short template to your captions/text that signals uncertainty (e.g., \u201cEvidence: \u2026 | Open questions: \u2026\u201d), and (d) plan for comment moderation/FAQ follow-ups to correct misinterpretations.  \n\nBonus (small and quick): alternatives to \u201cskeptical optimism\u201d you could use depending on tone \u2014 \u201ccautious optimism,\u201d \u201cpragmatic optimism,\u201d \u201cconstructive skepticism,\u201d or \u201ccritical hope.\u201d",
+    "improvement_potential": "The feedback identifies several important and actionable omissions: no reviewer/QA standard (risk of misinformation), no defined target audience or success metrics (risk of unfocused or ineffective content), and underestimating oversimplification risks on short-form video. These are critical for safety and effectiveness and would materially improve the post without needing to rewrite it entirely. Score not higher because the author appears to be running an exploratory pilot (so some informality is defensible) and the fixes can be implemented succinctly rather than requiring a long post."
+  },
+  "PostAuthorAura": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "As of my 2024-06 knowledge cutoff, Caitlin Borke is not a recognized name in the EA/rationalist community and has no notable public profile or widely cited publications; could be a private individual or a pseudonym."
+  },
+  "PostClarity": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "clarity_score": 8,
+    "explanation": "Overall clear and well-structured: the author introduces herself, states the project, explains why TikTok, and gives a specific ask (10\u201315 min/week to review 1\u20132 min drafts) with example episodes and links. Strengths: friendly tone, clear call to action, appropriate audience. Weaknesses: small wording/format issues (dangling clause in the volunteer bullet, the footnote request is awkwardly placed and self-referential), and a few details could be tightened (exact review process, preferred reviewer background, and what feedback format is best). Fixing those would raise clarity to near-perfect."
+  },
+  "PostNovelty": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "Low novelty for EA readers: the idea of doing outreach about AI policy/risk and testing short\u2011form content is already common in the community, and many EA-aligned communicators experiment with TikTok/Instagram. For the general public it's slightly more novel (but still not new): creators frequently cover AI on TikTok, so using it specifically to translate governance/misalignment topics and soliciting volunteer reviewers is an incremental outreach tactic rather than a highly original concept."
+  },
+  "PostInferentialSupport": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: the post lays out a plausible, pragmatic hypothesis (short-form video could reach non-technical audiences) and an iterative approach (posting, seeking feedback). It correctly identifies a relevant platform and audience. Weaknesses: arguments are largely anecdotal and speculative, with no cited evidence, no baseline metrics, and no plan or criteria for measuring communicative effectiveness. The post does not cite research on microlearning, TikTok demographics, or prior successes/failures in communicating complex policy topics in 1\u20132 minute videos, so support is weak and preliminary."
+  },
+  "PostExternalValidation": {
+    "post_id": "WzFiEGzxJWrX9pBaw",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are verifiable and accurate. The EA Forum post and the author\u2019s personal website corroborate the core facts (that Caitlin Borke announced a six\u2011month full\u2011time career\u2011transition grant, is launching short\u2011form channels under @AICuriousGirl, and linked two early episodes). The general claim that short\u2011form video platforms are where many non\u2011technical audiences spend time is well supported by independent data (Pew Research on TikTok use among U.S. adults and multiple platform metrics showing enormous short\u2011form engagement). Limitations: I could not open the target TikTok/Instagram pages or the YouTube shorts directly from the browsing tool here, so direct verification of the live account pages and video playback was not possible in this session; also a few statements in the post are subjective (e.g., friends/roommates gave feedback) and not independently verifiable but are plausible. Overall: well\u2011supported but not \u201cexceptionally validated\u201d because some linked pages/videos could not be loaded for direct inspection in this run.",
+    "sources": [
+      "EA Forum post: 'Can TikToks communicate AI policy and risk?' by Caitlin Borke (Effective Altruism Forum, May 7, 2025).",
+      "Author website: 'About | Caitlin Borke' (caitlinborke.com) \u2014 states she is on a full\u2011time, 6\u2011month research grant focused on short\u2011form communication of AI policy and risk.",
+      "Pew Research Center, 'How U.S. Adults Use TikTok' (Feb 22, 2024) \u2014 data on TikTok usage and demographics among U.S. adults.",
+      "YouTube Official Blog, 'Did Shorts just double your audience?!?!' by Lyor Cohen (Mar 30, 2023) \u2014 notes rapid growth of YouTube Shorts (50B daily views figure reported around late 2022/early 2023).",
+      "TechCrunch, 'Google says YouTube Shorts has crossed 50 billion daily views' (Feb 3, 2023) \u2014 reporting on short\u2011form video engagement metrics.",
+      "AP News, 'Instagram, YouTube the biggest likely winners of TikTok ban but smaller rivals could rise too' (reporting citing eMarketer estimates of average daily time spent on TikTok)."
+    ]
+  }
+}

@@ -4,5 +4,50 @@
     "author_fame_ea": 7,
     "author_fame_humanity": 5,
     "explanation": "Neel Nanda is a well-known researcher and popular explainer in the mechanistic interpretability / AI-safety community who posts tutorials, papers, and talks that are widely read within EA/rationalist and alignment circles. He is not a central EA leader, but he is a recognizable and influential figure among those who follow AI interpretability. Outside AI/EA/professional research communities his public recognition is limited to being known within specific professional/online circles rather than broadly famous."
+  },
+  "PostValue": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "Useful, pragmatic guidance for researchers (especially juniors) on accelerating and systematizing 'research taste' via mentorship, deliberate reflection, and choosing projects with faster feedback. For the EA/rationalist community this is moderately important because it can improve researcher effectiveness in high\u2011impact domains (e.g., AI safety, mech\u2011interp) and help scale talent, but it isn\u2019t a foundational or novel theoretical claim that would dramatically change priorities. For general humanity the post is low importance: it improves research practice but has limited direct large\u2011scale societal impact."
+  },
+  "PostRobustness": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overreliance on mentors and papers without guidance on vetting them. You treat mentors/papers as the main source of high-quality supervised data but don\u2019t give readers tools for judging whether that data is actually reliable. Actionable fixes: add short heuristics for vetting mentors (track record on mentee outcomes, willingness to show past failures, transparent reasoning, diversity of viewpoints), advise using multiple independent mentors or peer cross-checks, and suggest simple checks for paper quality (look for replication attempts, explicit failure modes, methodology transparency). Warn explicitly about propagating mentor biases and give the reader a quick checklist to spot those biases.\n\n2) Too high-level \u2014 missing concrete, operational practices readers can copy. The post promises a process but stays abstract. Actionable fixes: include 2\u20133 concrete templates/practices the reader can start using right away (e.g., a short research-log template with fields: hypothesis, prior probability, decision rule, predicted observable, date of update; a one-page post-mortem checklist; cadence recommendations like weekly tactical reviews and quarterly strategic reviews). Add one clear metric for calibration (e.g., keep track of your prediction accuracy and a simple Brier score) and one operational habit (preregister a short set of intermediate checks for any new project).\n\n3) Under-addressed failure modes and bias-mitigation techniques. You note conviction is a double-edged sword and mention publication bias, but you don\u2019t give readers concrete ways to avoid common traps (confirmation bias, survivorship bias, selection effects, mentor/groupthink). Actionable fixes: briefly enumerate the main failure modes and give 2\u20133 mitigation tactics that map to your learning-from-data framing \u2014 e.g., preregister intermediate hypotheses to avoid hindsight rationalization, run blind analyses or adversarial red-team reviews for high-stakes claims, maintain a \u2018failure bank\u2019 of short failed-project summaries to counter survivorship bias, and deliberately read/annotate flawed or retracted papers to learn negative examples.\n\nIf you add even one vetted heuristic for mentor/paper quality, a short research-log/post-mortem template, and a concise list of bias-mitigation practices, the piece will feel much more actionable and less like general career advice.",
+    "improvement_potential": "The reviewer correctly flags three important, actionable gaps: (1) encouraging reliance on mentors/papers without vetting guidance is an own-goal that could teach readers to propagate bad signals, (2) the post is high-level and would benefit greatly from short, copyable templates (research log, post-mortem, calibration metric) that don\u2019t need much extra length, and (3) bias/failure-mode mitigation is under-specified despite being central to learning taste. Implementing even small, crisp additions the reviewer suggests would materially improve the post\u2019s utility without bloating it."
+  },
+  "PostClarity": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, defines \"research taste\" clearly, and lays out concrete, actionable components and practices (intuition, frameworks, mentors, reflection) in a logical sequence. Its main argument \u2014 that taste is learnable and that you can speed learning via more/better feedback and deliberate reflection \u2014 is compelling and supported by practical advice. Weaknesses: the piece is somewhat long and occasionally repetitive, uses a bit of domain-specific jargon (e.g., \"mech interp\") that could be tightened or briefly exemplified, and could be slightly more concise with a few concrete short examples to illustrate key claims."
+  },
+  "PostNovelty": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "Most of the post\u2019s central claims (research taste is learned, mentors/supervised data accelerate learning, use reflection/post-mortems, short vs long feedback loops) are familiar to EA/rationalist readers and researchers. The framing choices are sensible but not groundbreaking for that audience. The slight novel touches are the ML-analogy (treat taste like a trainable model and focus on sample efficiency), concrete tactics like predicting a mentor\u2019s answers and paraphrasing their reasoning, and the application-specific examples for mech interp; those raise the score a bit for a general educated audience, for whom the structured decomposition and tactics are moderately new. Overall the piece is well-articulated and practical but not conceptually original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "reasoning_quality": 8,
+    "evidence_quality": 3,
+    "overall_support": 6,
+    "explanation": "Strengths: The post presents a clear, well-structured, and internally consistent account of what \"research taste\" is, decomposes it into useful components (intuition, conceptual framework, strategy, conviction), and gives actionable, coherent recommendations (use mentors, make predictions, reflect, prioritize short feedback loops). It anticipates key objections (e.g. conviction is double-edged) and draws plausible connections between components. Weaknesses: The evidence is largely anecdotal and experiential; there is little systematic or empirical support (no controlled studies, quantitative data, or cross-domain evaluations) and potential biases (selection/publication, mentor variability, transferability between fields) are not empirically addressed. As a result the reasoning is strong and persuasive as practical advice, but the empirical support for the magnitude and generality of the claims is weak."
+  },
+  "PostExternalValidation": {
+    "post_id": "puEjjCAHkbrLz8nbc",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are well-aligned with established findings: mentorship and deliberate practice speed skill acquisition, timely feedback improves learning, publication bias / replication problems are real, and the mechanistic-interpretability community uses the techniques and concepts the author describes (patching, probes, superposition). Neel\u2019s cited arXiv paper on activation patching exists. Weaknesses: a few minor over-generalizations (e.g. stating \u201ctransformers are autoregressive\u201d treats one common usage as a universal property \u2014 many transformer architectures are encoder/encoder\u2011decoder, not autoregressive), and several claims are experiential/anecdotal (e.g. \u201cmy intuition has a decent hit rate\u201d) and not independently verifiable. Overall: good empirical grounding for the practical recommendations, with some normative/opinion content and a few small factual nuances omitted.",
+    "sources": [
+      "arXiv:2404.15255 \u2014 Stefan Heimersheim & Neel Nanda, \"How to use and interpret activation patching\" (submitted 23 Apr 2024).",
+      "Vaswani et al., \"Attention Is All You Need,\" NeurIPS/ArXiv 2017 (introduces the Transformer architecture).",
+      "Transformer Circuits (Anthropic / transformer-circuits.pub) \u2014 \"A Mathematical Framework for Transformer Circuits\" and related posts on superposition/linear features (2021\u20132024).",
+      "Eby LT, Allen TD, Evans SC, Ng T, DuBois D., \"Does Mentoring Matter? A Multidisciplinary Meta-Analysis Comparing Mentored and Non-Mentored Individuals,\" J Vocat Behav. 2008 Apr;72(2):254\u2013267. (meta-analysis showing mentoring benefits).",
+      "Ericsson KA, Krampe RT, Tesch-R\u00f6mer C., \"The Role of Deliberate Practice in the Acquisition of Expert Performance,\" Psychological Review, 1993 (foundational deliberate-practice literature).",
+      "Wisniewski B., Zierer K., Hattie J., \"The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research,\" Frontiers in Psychology (2020) \u2014 meta-analysis showing medium-to-large effects of informative feedback and nuances about timing/content.",
+      "Ioannidis J.P.A., \"Why Most Published Research Findings Are False,\" PLoS Med. 2005 \u2014 on biases/publication issues in published research.",
+      "Open Science Collaboration, \"Estimating the reproducibility of psychological science,\" Science 2015 \u2014 large replication project showing many findings failed to replicate or had reduced effect sizes."
+    ]
   }
 }

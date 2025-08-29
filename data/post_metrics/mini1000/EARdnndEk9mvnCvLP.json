@@ -4,5 +4,47 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I do not recognize Danielle MacLean as a known figure in the EA/rationalist community or as a public intellectual up to my 2024-06 cutoff. There are no prominent EA publications, talks, or widespread citations under that name in my training data; the name may be a pseudonym or a private/obscure author. If you can provide links or context (works, affiliations), I can reassess."
+  },
+  "PostValue": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an event announcement for a regional EA summit. It\u2019s useful and mildly important for people in or near Vancouver (networking, recruitment, community-building, and possible project kickoffs), but it isn\u2019t foundational to EA theory, strategy, or major decisions. Its truth or falsehood has negligible direct impact on global outcomes, and it\u2019s essentially irrelevant to general humanity beyond local/participant effects."
+  },
+  "PostRobustness": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing essential logistical details (big omission). Add the exact venue name & address, ticket prices or at least a price range, capacity limits, key deadlines (last day for early bird/regular), refund/cancellation policy, whether there\u2019s a virtual option, and links to travel/accommodation suggestions. Also include accessibility info (wheelchair access, ASL or captioning, sensory needs) and a link to scholarship/financial-aid applications if available.\n\n2) Post is too vague about program content and value-proposition. Readers deciding whether to book travel need more than \u201chear talks\u201d and \u201cworkshop ideas.\u201d Name confirmed speakers or panels, give a high-level agenda or sample sessions, and say what kinds of concrete outcomes to expect (networking slots, project matchmaking, follow-up support, recordings). Even a one-paragraph tease of highlights will substantially increase conversions.\n\n3) Clarify CTA and fix potential reader confusion/dated info. Replace the ambiguous \u201cAPPLY - EA SUMMIT VANCOUVER\u201d line with a single clearly labeled primary action (e.g., \u201cBuy tickets / Apply for scholarship\u201d with distinct links). Update or remove the dated \u201cSOLD OUT 07/23\u201d note if it\u2019s stale, and add a contact email or organizer page for questions. These small fixes reduce friction and avoid people abandoning registration.",
+    "improvement_potential": "The feedback flags several real, high-impact omissions: unclear CTA/dates, missing venue/price info, and lack of accessibility/scholarship details that readers care about and that could make the post feel sloppy or unhelpful. It also rightly asks for clearer program highlights so people can decide about travel. Some suggestions risk duplicating the linked event page, so the most useful fixes are concise additions (venue + price range, accessibility/scholarship links, clear primary action, and a one-line agenda/speaker tease) rather than a long rewrite."
+  },
+  "PostClarity": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "clarity_score": 8,
+    "explanation": "Overall clear and effective: the purpose (summit announcement), dates, target audience, highlights, and ticket status are all easy to find and understand. Concise and well-structured with useful links and a clear call to attend. Minor issues reduce perfection: small formatting/spacing glitches, an ambiguous CTA line (\u201cAPPLY - EA SUMMIT VANCOUVER\u201d) and lack of venue/registration-detail specifics (and a potentially confusing past date for sold-out preorder), which could be tightened for maximum clarity."
+  },
+  "PostNovelty": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "This is an event announcement (date, location, ticket info). Such posts are routine for both the EA community and the general public; there are no new or original ideas or claims beyond logistics (time/place/ticketing and that vegan meals are provided)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 6,
+    "explanation": "This is primarily an informational/marketing post rather than an argumentative piece. The claims are straightforward and logically presented (date, venue, who it\u2019s for, ticket status), so the reasoning is fine for its purpose. However, empirical support for stronger claims (e.g., talks on \"the world\u2019s most pressing issues,\" \"most impactful EA event in Vancouver yet,\" or expected outcomes) is absent: no speaker list, schedule, past-event metrics, or independent evidence of impact or scale are provided. The post does link to the event page and gives concrete logistical details (dates, ticket status), which adequately supports the core claim that the summit is confirmed and tickets exist, but it lacks evidence to substantiate broader impact or quality claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "EARdnndEk9mvnCvLP",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major empirical claims in the post are well-supported: the EA Summit Vancouver for Sept 19\u201320, 2025 (Odd Fellows Hall, Vancouver, BC), ticketing via Humanitix, inclusion of plant-based/vegan meals, and the EA Forum posts by Danielle MacLean announcing tickets and speakers are all verifiable from official pages. One minor uncertainty: the forum post text 'Pre-early-bird tickets: SOLD OUT 07/23' appears in the ticket announcement but the precise timing/meaning of the \"07/23\" timestamp (and whether it refers to a sell-out date) is ambiguous; otherwise the rest of the claims match official listings.",
+    "sources": [
+      "EA Summit: Vancouver \u2014 EffectiveAltruism.org (EA Global events page; confirms dates, venue, vegan meals, contact email)",
+      "EA Global \u2014 EffectiveAltruism.org (upcoming conferences listing showing EA Summit: Vancouver on 19\u201320 Sep 2025)",
+      "Tickets Now Available: EA Summit Vancouver (Sept. 2025) \u2014 EA Forum post by Danielle MacLean (Jul 17, 2025) (announces tickets, lists 'Pre-early-bird: SOLD OUT 07/23' and early-bird info)",
+      "Speakers Announced - EA Summit Vancouver \u2014 EA Forum post by Danielle MacLean (Aug 21, 2025) (confirms dates and mentions early-bird window)",
+      "Effective Altruism Summit: Vancouver \u2014 Humanitix event page (ticketing page; confirms dates, Odd Fellows Hall location, ticket tiers, and that vegan meals are included)"
+    ]
   }
 }

@@ -1,1 +1,50 @@
-{}
+{
+  "PostValue": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "value_ea": 6,
+    "value_humanity": 2,
+    "explanation": "This is a useful, actionable operational post for the EA/AI-safety community: it helps convert trained people and nascent ideas into grant-ready proposals (potentially directing part of Open Phil's $40M funding) and builds local research capacity. It is not foundational or novel theory \u2014 limited scale (~30 participants) and short duration mean its direct systemic impact is modest. For general humanity the effect is indirect and small unless the programme happens to seed unusually high-impact projects."
+  },
+  "PostRobustness": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Overpromising the \"submission-ready\" outcome in one week \u2014 This is the biggest risk to credibility. Large, competitive grants (and the interdisciplinary work reviewers expect) normally require more than a single sprint to produce a high-quality submission. Actionable fix: soften the language and set clearer, realistic expectations. For example, say the week will produce a strong draft, structured outline, or LOI and a concrete plan for finishing the application. Explicitly state any post-program support (e.g., X weeks of remote mentoring, scheduled editing sessions, or a committed reviewer pool) so applicants know how a draft becomes a competitive submission by the funder deadline.\n\n2) Lack of transparency about who gives feedback and possible conflicts of interest \u2014 The post implies \"targeted, actionable feedback from experts\" but doesn\u2019t say who those experts are or whether funder staff (e.g., Open Phil) are involved. That can create misleading impressions of an \"inside track\" and raises conflict-of-interest concerns. Actionable fix: list (or link to) the names/affiliations/roles of core facilitators and reviewers or state that a roster will be published before the programme. State explicitly whether funder staff will participate in feedback or decision-making, whether Meridian or partners will see proposal contents, and include a brief conflicts-of-interest/data-privacy statement about how proposals will be used/stored.\n\n3) Important logistical & eligibility details are vague \u2014 Travel reimbursement, visa support, accommodation, and the criteria for participant selection and follow-up funding are described only at a high level. Applicants need concrete details to decide whether to apply. Actionable fix: add short bullets with the most relevant specifics (e.g., reimbursement caps or examples, whether partners/relatives travel covered, whether remote participation is allowed, what \"invited back\" actually guarantees vs conditional support, and the selection criteria/timeline). If full detail won\u2019t fit, add a clear link to an FAQ that addresses these points and a line saying when those details will be available.",
+    "improvement_potential": "Targets key credibility risks (overclaiming a week-to-submission outcome, opaque reviewer/conflict-of-interest info, and vague logistics). The points are concrete and actionable and can be fixed without greatly lengthening the post (soften claims, add roster/COI note, link to an FAQ). Addressing them would materially improve trustworthiness and applicant decision-making."
+  },
+  "PostAuthorAura": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find evidence that a writer known as 'Meridian' is a recognized figure in the EA/rationalist community or the broader public. The name appears to be a pseudonym or uncommon pen name with no citations, talks, or widely-shared posts tied to it in major EA/rationalist outlets. If you can provide a link or more context (where they publish, key pieces), I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured and easy to understand: clear headings, dates, links, a day-by-day programme breakdown, listed benefits, and a concise target-audience section. It makes its purpose and call-to-action compelling (turn ideas into submission-ready proposals) and gives relevant logistical details (travel/accommodation support, cohort size, application deadline). Minor weaknesses: some repetition of links and dates, small ambiguity around the April 15 submission deadline vs. programme timing, and missing quick details about selection criteria or what to prepare in the application. Trimming a bit of redundant text and adding a line on selection/required materials would make it even clearer."
+  },
+  "PostNovelty": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "This is primarily an event/announcement for a focused grant-writing sprint \u2014 a practical and incremental program rather than a new conceptual idea. EA readers will find it familiar (many similar bootcamps, workshops and accelerator-style sprints exist in AI safety and EA circles, and the post even compares to MATS/MARS/ARENA etc.), so novelty for that audience is low. For the general public it's somewhat more novel because targeted, week\u2011long, fully supported programmes that explicitly fast-track proposals to a specific major funder (plus visa/accommodation follow-up for funded researchers) are less commonly encountered, but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "reasoning_quality": 6,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: The post lays out a clear, internally consistent argument and program structure (days/tasks, emphasis on team formation and grant-writing, alignment with Open Phil RFP), which makes the claim plausible \u2014 concentrated sprints plus expert feedback can plausibly produce submission-ready proposals. Weaknesses: It rests on several unstated assumptions (teams can form and produce high-quality, fundable proposals in one week; experts\u2019 feedback is sufficient to reach funder standards) and does not address potential failure modes (team chemistry, depth of technical review needed, follow-up support). Evidence is minimal \u2014 no past outcomes, success rates, examples, or testimonials are provided \u2014 so empirical support for the central claim is weak, leaving overall support modest but plausible."
+  },
+  "PostExternalValidation": {
+    "post_id": "W4TppzBnHHHZHwgvi",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Most of the post's factual claims are supported by primary sources. Meridian\u2019s official programme page confirms the week-long Visiting Researcher Programme in Cambridge (April 6\u201312, 2025), the ~30-participant limit, reimbursement/accommodation/workspace/meals support, the week structure, and that successful applicants would be invited back to Meridian with visa/relocation assistance. The post\u2019s linking of the programme to Open Philanthropy\u2019s \u201c~$40M\u201d technical AI safety RFP and the April 15, 2025 application deadline is also accurate per Open Philanthropy\u2019s RFP. One minor discrepancy: the EA Forum post header states a March 19, 2025 application deadline, while Meridian\u2019s programme page (which the post links to) shows an extended deadline of March 23, 2025. Overall the post is well-supported by reliable primary sources, with only a small dated/deadline inconsistency.",
+    "sources": [
+      "Meridian Cambridge \u2014 Visiting Researcher Programme page (Meridian Cambridge; programme details & dates; page announcing April 6\u201312, 2025; shows application deadline extended to March 23, 2025).",
+      "Meridian Cambridge \u2014 Visiting Researchers programme overview (Meridian Cambridge; information on visiting researchers, support, workspace, and intensive weeks).",
+      "Open Philanthropy \u2014 \"Request for Proposals: Technical AI Safety Research\" (Open Philanthropy; states ~$40M RFP and April 15, 2025 application close).",
+      "Cambridge AI Safety Hub \u2014 homepage and team pages (cambridgeaisafety.org; shows CAISH organisation and contact G\u00e1bor Fuisz; CAISH involvement mentioned on Meridian page).",
+      "EA Forum post \u2014 \"Meridian Cambridge Visiting Researcher Programme: Turn AI safety ideas into funded projects in one week!\" (Effective Altruism Forum post by Meridian; content matches Meridian site but header lists March 19 deadline)."
+    ]
+  }
+}

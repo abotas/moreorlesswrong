@@ -4,5 +4,51 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I cannot find evidence that a writer named Ryan Kidd is a known figure in the EA/rationalist community or more broadly. The name is common (including a former English footballer), and there are no clear high-profile publications, talks, or leadership roles in EA forums, LessWrong, EA Forum, or major EA organizations linked to that name. If this is a pseudonym or you can supply links or context, I can reassess."
+  },
+  "PostValue": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "A CEO hire for LISA is relevant to the EA/AI-safety ecosystem \u2014 it affects the strength of a London hub, fundraising, programmes, and local researcher community \u2014 but it is not a foundational or world-shaping development. For general humanity the post is of low importance: LISA is a relatively small charity and this operational hire has limited direct impact on global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing crucial organisational/contextual information (budget, runway, team scope, governance and KPIs). Actionable fix: add the charity\u2019s current annual budget, runway (months of reserve), major existing/future funding commitments, the board composition and delegated authorities, and 2\u20134 concrete success metrics or first-year priorities for the CEO (e.g. fundraising targets, membership growth, programme launches). Without this, applicants can\u2019t judge the role\u2019s scale or trade-offs and you\u2019ll get mismatched candidates.\n\n2) Fundraising requirements are both narrow and vague about expectations. Actionable fix: broaden the phrasing from a short list of funders to \u201cexperience fundraising from philanthropic foundations, high-net-worth donors, government and earned revenue,\u201d and state explicit expectations (e.g. target annual fundraising amount, % of budget CEO is expected to secure, or whether they must bring their own funder relationships). If you really prefer specific funders, explain why and whether prior relationships are required.\n\n3) Ambiguities and competitiveness of employment terms (right-to-work vs. sponsorship; salary vs. responsibilities). Actionable fix: reconcile the contradictory line about sponsorship (either require UK right-to-work or state clear sponsorship policy), clarify whether advertised salary is fixed or negotiable and whether there are performance bonuses or long-term incentives, and consider noting hybrid/remote flexibility and timeline for hire. These clarifications will reduce candidate drop-off and unnecessary questions.",
+    "improvement_potential": "The feedback highlights three high-impact omissions/errors that matter a lot for recruiting a CEO: missing budget/runway/KPIs and governance detail (which determine the role\u2019s scale and strategic trade-offs), unclear fundraising expectations (which change the job\u2019s core responsibilities), and ambiguous employment/compensation terms (which affect eligibility and candidate willingness). Fixing these would substantially improve candidate quality and reduce avoidable questions. It isn\u2019t catastrophic, so not a 10, but these are critical, actionable points and addressing them won\u2019t unreasonably bloat the ad."
+  },
+  "PostClarity": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to read: clear headings, bullet points, and sensible sections (overview, role, skills, benefits, process). Responsibilities and requirements are specific and actionable, and links provide useful context. Minor weaknesses: a bit wordy in places (long lists of partner organisations), slight repetition (salary mentioned twice), some sector jargon (e.g. \"large-scale and catastrophic risks\") that may be unfamiliar to newcomers, and a couple of small ambiguities (sponsorship conditions, implied year for the deadline). Overall very clear and appropriate for the audience."
+  },
+  "PostNovelty": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily a routine job advertisement for a known EA/AI\u2011safety organisation. For EA Forum readers the content (CEO role, fundraising from EA-aligned funders, running an AI-safety co-working space) is unsurprising and follows familiar patterns, so very low novelty. For the general public it is slightly more novel because an AI\u2011safety charity/ co\u2011working hub and the specific funder ecosystem are less familiar, but the overall concept of a nonprofit CEO job ad is still common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is clear, well-structured, and makes a coherent case for the role by describing mission, responsibilities, desired skills, and relevant partner organisations/programmes (with links). It reasonably frames what the CEO will need to deliver. Weaknesses: As a job ad it makes several implicit claims about LISA's standing and impact without providing concrete empirical evidence (no budgets, fundraising history, measurable impact/outcomes, governance details, or risk/mitigation data). The links to resident organisations and a theory of change help but do not substitute for quantitative metrics, track record, or external validation, so overall support for the implicit claim that LISA is a high-impact, well-resourced organisation is moderate but not strongly evidenced."
+  },
+  "PostExternalValidation": {
+    "post_id": "pZoH9Buu5WyweGrBB",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are well-supported by authoritative sources: the EA Forum job ad itself (Feb 9, 2025) matches the text; LISA\u2019s own website and the UK Charity Commission confirm the organisation, its mission, and address/charity number (SAFE AI LONDON LTD, charity no. 1211693). Resident organisations and programmes named (Apollo Research, BlueDot Impact, ARENA, MATS, LASR, Pivotal, Catalyze) have public pages that corroborate their association with LISA and that LISA hosts a co\u2011working/research space. The salary, benefits and application URL are stated in the EA Forum job post (primary source). Minor issues: an internal staffing count differs (the job ad says \u201clead a team of (currently) five full\u2011time staff\u201d while LISA\u2019s About page states \u201cWe\u2019re a team of six\u201d), and the claim that individual researchers are \u201caffiliated with more than 50 other organisations and universities\u201d is asserted in the job post but I could not find independent public documentation enumerating or verifying the exact \u201c>50\u201d figure. Overall: most factual claims are verifiable and accurate; a few internal counts/metrics lack independent corroboration or show small inconsistencies.",
+    "sources": [
+      "EA Forum post: '[Job ad] LISA CEO' by Ryan Kidd (Feb 9, 2025) \u2014 Effective Altruism Forum. (Job text, salary, deadline, staff count, resident orgs).",
+      "London Initiative for Safe AI (LISA) \u2014 About Us / Home pages (safeai.org.uk). (Describes mission, resident organisations, office/coworking, team description).",
+      "UK Charity Commission register \u2014 SAFE AI LONDON LTD, charity no. 1211693 (Charity details, address 25 Holywell Row, registration history).",
+      "Apollo Research \u2014 apolloresearch.ai (organisation page confirming mission and partnerships).",
+      "BlueDot Impact \u2014 bluedot.org (organisation page describing educational activities and ties to UK AI safety community).",
+      "ARENA \u2014 arena.education (states ARENA runs in-person programmes at the London Initiative for Safe AI / LISA).",
+      "LASR Labs \u2014 lasrlabs.org (states participants work in-person from the London Initiative for Safe AI).",
+      "Pivotal Research \u2014 pivotal-research.org (programme page; listed in the EA Forum job ad as associated).",
+      "Catalyze Impact \u2014 catalyze-impact.org (organisation site; listed in job ad as associated)."
+    ]
   }
 }

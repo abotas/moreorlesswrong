@@ -4,5 +4,58 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 2,
     "explanation": "No evidence that 'Will_Davison' (with underscore) is a known figure in the EA/rationalist community \u2014 appears to be unknown in EA circles. The plain name 'Will Davison' is shared by a moderately well-known Australian racecar driver, but there is no indication that an author or EA thinker by this handle has notable global prominence; at best a minor online presence if it\u2019s an individual pseudonym."
+  },
+  "PostValue": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "value_ea": 5,
+    "value_humanity": 3,
+    "explanation": "For the EA/rationalist community this is of moderate importance: it addresses real reputational and ethical risks around donor sourcing and suggests concrete, practical changes (donor education, engaging donors on power and influence, funding grassroots political actors) that could change funding flows and improve moral coherence. Those changes would matter for fundraising strategy and some downstream impacts, but they are not foundational to core EA/longtermist claims (e.g., AI safety, cause prioritization), so the post is useful but not critical. For general humanity the piece is of minor importance: if widely adopted it could improve support for grassroots and feminist causes and reduce harms from unexamined philanthropy, but its scope and direct effects are relatively limited compared with major policy or technological drivers of large-scale human welfare."
+  },
+  "PostRobustness": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Define terms and acknowledge internal diversity. You treat \u201cradical feminism\u201d and \u201cEA\u201d as monolithic blocs; readers will reasonably object. Briefly define which strands of radical feminism you mean, note likely internal disagreements, and flag where recommendations apply to specific subgroups. This avoids alienating readers and prevents overclaiming.\n\n2) Substantiate key empirical claims and surface trade-offs. Claims like \u201cEA can raise more money by avoiding \u2018tricky conversations\u2019\u201d and \u201cwealthy donors will be easier to challenge after donating\u201d are plausible but speculative and consequential. Add citations, historical examples, or propose small tests (e.g., A/B donor messages, pilot donor-education programs) to justify them. Explicitly address major counterarguments \u2014 moral licensing, reputational/co\u2011optation risks, perverse incentives of accepting tainted wealth, and the possibility that donations entrench harmful systems \u2014 and explain how you weigh those trade-offs.\n\n3) Give concrete, operational advice and mitigation steps. The post lists useful ideas but stays high level. Before publishing, add 3\u20135 concrete tactics for donor engagement (e.g., a short script for conversations, criteria for accepting/rejecting gifts, an onboarding curriculum for donor reflection, metrics to monitor downstream harm), plus a short risk-mitigation checklist (screening, transparency, conditional funding, support for systemic change). That will make the piece practical and reduce the chance it reads like an abstract plea rather than a field-ready proposal.",
+    "improvement_potential": "Strong, actionable feedback that catches real \"own goals\": treating EA and radical feminism as monoliths, making consequential empirical claims with no evidence, and staying at a high level without operational advice. Fixing these would materially increase credibility and reduce legitimate reader pushback. The suggestions are practical (definitions, citations/tests, concrete tactics/checklists) and can be implemented succinctly, though they will add some length."
+  },
+  "PostClarity": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "clarity_score": 7,
+    "explanation": "Overall clear and well-structured: short intro, quoted prompt, labelled EA responses, and a numbered set of concrete suggestions. Strengths include a logical flow, concrete recommendations, and useful links/examples. Weaknesses: a few awkward phrasings and small typos (e.g. 'Philathropy', 'biase'), occasional vagueness or unsubstantiated claims, and some lists could be tightened for concision. The main argument is understandable but could be made more compelling with clearer transitions and a bit more evidence for key claims."
+  },
+  "PostNovelty": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "novelty_ea": 4,
+    "novelty_humanity": 6,
+    "explanation": "Most of the post\u2019s high-level claims (EA enabling wealthy donors, critiques of philanthropy, recommending Giridharadas/Hickel, tensions over donor sources) are already familiar within EA circles and public debate. What feels somewhat fresher for an EA audience is the concrete fusion with radical-feminist practices\u2014e.g. using transformative-justice techniques and donor education that addresses feelings/solidarity, and explicitly pushing grassroots regranters as strong partners\u2014yet even those ideas have been discussed occasionally. For a general educated reader the explicit project of uniting radical feminism\u2019s organizing and donor-engagement methods with EA\u2019s fundraising/impact focus is moderately novel, because that specific cross-disciplinary prescription and tooling is less likely to have been considered outside activist or specialist communities."
+  },
+  "PostInferentialSupport": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post is coherent and practically oriented, raises plausible mechanisms (donors can be engaged beyond cash, radical-feminist groups have relevant approaches to donor education and political funding, wealth-accumulation harms merit attention) and cites relevant books and organizations for further reading. Weaknesses: Many key claims are asserted without empirical support or citation (e.g., that avoiding \u2018tricky conversations\u2019 will reliably unlock more funding, that EAs routinely advise against grassroots regranters, or that donating to EA makes donors easier to challenge). The argument relies on anecdote, normative claims, and secondary reading suggestions rather than data (surveys, case studies, fundraising outcomes, or experiments). Counterarguments and trade-offs (reputational risk, moral costs, effectiveness comparisons) are not analyzed. Overall the reasoning is plausible but underdeveloped, and the evidence is thin and largely referential rather than empirical, so the main thesis is weakly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "C3Ror5FjZsYMZhJaw",
+    "emperical_claim_validation_score": 5,
+    "validation_notes": "Mixed / uncertain. Key factual anchors in the post are verifiable: the Guerrilla Foundation blog and the quoted critique exist; the recommended books/authors and organisations (Jason Hickel, Anand Giridharadas, adrienne maree brown; FRIDA, Global Greengrants, FundAction; Resource Generation/Resource Justice/Good Ancestor) are real. There is strong published evidence that EA emphasis on measurable, cost\u2011effectiveness\u2011driven giving (GiveWell, EA Funds) and high\u2011profile donor controversies (e.g., Sam Bankman\u2011Fried coverage) have generated critiques similar to the Guerrilla Foundation\u2019s points \u2014 so the author\u2019s characterization of a tension between EA\u2019s \u201cimpartiality/efficiency\u201d orientation and radical\u2011funding approaches is well supported. However, several of the post\u2019s empirical claims are normative or anecdotal and not supported by strong external evidence: (a) the claim that \u201cmost EAs haven\u2019t thought much about the damage caused by wealth accumulation\u201d is plausible as a critique but not established by community\u2011wide survey questions; (b) the stronger claim that \u201cmany EAs tell donors not to give to grassroots regranters (FRIDA, FundAction, Global Greengrants)\u201d is not substantiated by publicly available EA donor guidance \u2014 more accurately, mainstream EA recommenders (GiveWell, ACE, EA Funds) typically prioritize cost\u2011effectiveness and large evidence\u2011backed programs and therefore often do not list small grassroots feminist funds among their top recommended recipients, which can have the practical effect of diverting funds away from those grassroots intermediaries. Overall: accurate citations and real organisations back up much of the framing, but several specific causal/generalised empirical claims lack direct evidence or are subjective.",
+    "sources": [
+      "Guerrilla Foundation \u2014 'Some Thoughts on Effective Altruism' (May 2020)",
+      "GiveWell \u2014 'GiveWell\u2019s Fundraising and Grantmaking in 2023' (GiveWell blog / 2024 report of grants directed)",
+      "EA Survey 2024 \u2014 EA Forum (demographics & community results)",
+      "GiveWell (organisation overview / top charities)",
+      "Open Philanthropy / EA Funds description \u2014 Centre for Effective Altruism (EA Funds beta launch)",
+      "Wired \u2014 'The Deaths of Effective Altruism' (critical coverage including SBF)",
+      "Anand Giridharadas \u2014 Winners Take All: The Elite Charade of Changing the World (2018)",
+      "Jason Hickel \u2014 The Divide: A Brief Guide to Global Inequality and its Solutions (2017)",
+      "Adrienne Maree Brown \u2014 We Will Not Cancel Us: And Other Dreams of Transformative Justice (AK Press, 2020)",
+      "FRIDA | Young Feminist Fund \u2014 official website (mission, participatory grantmaking)",
+      "Global Greengrants Fund \u2014 official website (mission and grant statistics)",
+      "FundAction \u2014 organisation information (FundAction overview)",
+      "Resource Generation \u2014 FAQs / donor education (resourcegeneration.org)",
+      "Resource Justice \u2014 resourcejustice.co.uk (UK donor\u2011education group)",
+      "Good Ancestor Movement \u2014 becomeagoodancestor.com (programs for progressive wealth stewardship)",
+      "Animal Charity Evaluators / Giving What We Can \u2014 evaluator guidance (examples of EA\u2011aligned charity recommendation practice)"
+    ]
   }
 }

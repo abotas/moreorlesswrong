@@ -1,1 +1,50 @@
-{}
+{
+  "PostValue": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is primarily a job posting rather than a substantive argument. For the EA/rationalist community it has modest importance: hiring a capable Director could meaningfully affect UK community strength and downstream projects, but the post itself is not foundational or highly load\u2011bearing. For general humanity it\u2019s negligible \u2014 a personnel change at a national EA chapter has minimal direct impact on the broader world."
+  },
+  "PostRobustness": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be transparent about job terms and logistics. The post omits essential information that many strong candidates expect up front (salary/range or at least band, contract type and minimum length, FTE/hours, location/remote policy, line manager/reporting structure, application deadline and hiring timeline). Add these or link prominently to a full job pack. This reduces time wasted on unsuitable applicants and increases conversions.\n\n2) Clarify the funding picture and fundraising expectations. \"9+ months of secured funding\" and \"additional potential funding\" are vague and could make this look risky. State the exact secured funding horizon, whether the role is expected to raise funds, what budget (if any) the Director controls, and what the fallback plan is after the secured period. Candidates need this to assess risk and whether they\u2019re willing to commit.\n\n3) Specify scope, constraints, and early success criteria so autonomy isn\u2019t misconstrued. Saying the Director should \"create their own strategy\" is attractive but can scare off applicants who value continuity or need guardrails. State which strategies/documents already exist, what areas are non-negotiable (boards/funders/partnerships), what support (volunteers, contractors, board time) is available, and 3\u20136 month expected deliverables or KPIs. This makes expectations concrete and helps attract applicants who fit the role.",
+    "improvement_potential": "The feedback points out major, practical omissions that will materially hurt applicant quality and quantity (no salary/band, contract type/hours/location, funding horizon, fundraising expectations, and unclear scope/early success metrics). These are common 'own-goals' for a hiring post and could waste candidates' time or scare off strong applicants; adding them or linking to a job pack is straightforward and high-impact. The suggestions balance completeness with brevity (link rather than bloating the forum post), so implementing them would substantially improve the post without unnecessary length."
+  },
+  "PostAuthorAura": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I find no evidence that 'abrahamrowe' is a known figure in EA/rationalist communities or the broader public \u2014 no notable publications, talks, or citations; likely a minor or pseudonymous online contributor."
+  },
+  "PostClarity": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "clarity_score": 8,
+    "explanation": "The post is clear, well-structured, and concise: it states the role, why it matters, what resources are available, and how to apply. It could be stronger by adding a few concrete details (salary/hours, application deadline, location/remote policy, clearer funding horizon) and slightly reducing vague language like \u201cmaximize positive impact,\u201d but overall it communicates the opportunity effectively."
+  },
+  "PostNovelty": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is essentially a routine job/role announcement for a chapter director. For EA Forum readers, such posts (calls for directors, community-builders, and chapter roles) are very common, so the ideas and claims are not novel. For the general public, the specific framing around Effective Altruism and the UK community may be unfamiliar, but the content is still a standard recruitment pitch rather than a new conceptual claim; the only mildly novel elements are the specific logistical details (9+ months secured funding, one-person organisation) and the focus on EA movement-building."
+  },
+  "PostInferentialSupport": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "The post presents a clear, coherent case that this is an important and high-leverage role (large UK/London EA community, established organisation, seed funding, supportive board). The reasoning is straightforward and persuasive for a job ad, but is thin on deeper argumentation (e.g. why a single self-directed Director is the best structure, risks, or how impact will be measured). Empirical support is limited: the claim about UK/London size is backed by a survey link, which is relevant, but other key claims (amount/conditions of funding, past impact of EA UK, network strength, documented evidence of 'what works') are asserted without supporting data. Overall, the main thesis is moderately supported \u2014 believable and plausible but lacking detailed evidence and metrics that would make the case strong."
+  },
+  "PostExternalValidation": {
+    "post_id": "zEATJcyPxkieL78Pv",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major empirical claims in the post are well-supported by primary sources: the EA Forum announcement and EA UK\u2019s own careers/about pages are consistent with each other (job exists, role description, \u2018one-person\u2019 org, \u20189+ months\u2019 secured funding, and \u20189 years\u2019 of London community-building when counted from EA London\u2019s formal organisation in 2016). The claim that the UK is the world\u2019s second-largest EA community and that London has the highest concentration of EAs is supported by the Rethink Priorities / EA Survey results (2022; consistent in 2024) which show the US then UK as the top countries and London as the city with the most survey respondents. Caveats: the survey-based claims reflect EA Survey respondents (a large but non-exhaustive sample) so wording like \u201cworld\u2019s second-largest EA community\u201d and \u201chighest concentration\u201d should be interpreted relative to the survey data (and \u201cconcentration\u201d is ambiguous between absolute city counts vs. per-capita measures). Overall, most key factual claims are verifiable and accurate, with minor nuances noted above.",
+    "sources": [
+      "EA Forum post: 'EA UK is hiring a new Director!' by abrahamrowe (June 11, 2025).",
+      "Effective Altruism UK \u2014 Careers / Director job listing (EffectiveAltruism.uk \u2014 Careers page).",
+      "Effective Altruism UK \u2014 Who we are / About (EA UK site: history, EA London origins, timeline showing 2016 registration).",
+      "EA Survey 2022: Geography (Rethink Priorities / EA Forum) \u2014 shows USA then UK as top countries; London top city (7.3% of respondents).",
+      "EA Survey 2024: Geography (EA Forum) \u2014 confirms USA then UK as largest shares of survey respondents (UK \u224813.5% in 2024)."
+    ]
+  }
+}

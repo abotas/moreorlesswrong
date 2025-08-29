@@ -1,1 +1,51 @@
-{}
+{
+  "PostValue": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "value_ea": 3,
+    "value_humanity": 2,
+    "explanation": "This is primarily an events/announcment post rather than a substantive argument or new idea. It could be useful to particular EA-aligned founders (helping a small cohort focus, network, or accelerate projects), but the direct scale is small (12 people for 6 weeks) and it isn't load-bearing for EA or longtermist theory or strategy. If successful it might produce a few valuable ventures, but most of the post's claims/implications are operational and low-risk; whether true or false would have only modest, localized impact rather than broad consequences for EA or humanity."
+  },
+  "PostRobustness": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Vague selection criteria and impact definition \u2014 The post leans on soft language (\u201cmorally ambitious\u201d, \u201cwhat matters\u201d) but gives no rubric for how you\u2019ll choose founders or how you judge whether a startup is actually high-impact. Actionable fixes: add an explicit selection rubric (e.g. sector fit, tractable outcomes, evidence of potential impact, stage, team composition), ask for specific evidence in the application (metrics, causal pathway to impact, counterfactual), and state any diversity / geographic / EA-priority safeguards to avoid capture by well-networked but low-impact founders.\n\n2) Financial and legal ambiguity around the \u201cpay what you feel is fair\u201d model \u2014 That phrasing raises sustainability, fairness, and conflict-of-interest concerns (e.g. unclear equity terms, how pledges are enforced, whether founders who pay less are deprioritized). Actionable fixes: state what payment forms you will accept (typical cash range, equity mechanics and standard legal terms or a cap), explain what happens to pledged equity (vesting, valuation, who holds it), offer transparent scholarship / need-based support rules, and add a short note on refunds/cancellation and how you\u2019ll avoid coercive pressure to give equity.\n\n3) No evidence or plan for measuring impact / follow-up \u2014 You present the residency as a high-impact intervention but offer no pilot results, success metrics, or post-residency accountability. Actionable fixes: either (a) present prior pilot data / alumni outcomes if available, or (b) commit to concrete success metrics (e.g. fundraising/traction, product milestones, measurable social impact outcomes) and a plan for 6\u201312 month follow-up, mentorship, and a public (or private-evaluated) report on outcomes. Also clarify confidentiality/IP policy and conflict-of-interest rules for hosts/mentors so readers know how founders\u2019 work will be protected.",
+    "improvement_potential": "Targets three concrete, high-impact weaknesses an EA audience will care about: ambiguous selection/impact criteria, legally risky/unclear payment/equity terms, and lack of measurable outcomes or follow-up. Each point is actionable (rubrics, payment mechanics, success metrics/benchmarks) and would materially increase credibility and reduce obvious 'own-goals' the author would be embarrassed about. Addressing them needn't bloat the post if details are linked to an FAQ/terms page."
+  },
+  "PostAuthorAura": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I don't recognize 'aaronmayer' as a known EA/rationalist figure up through my 2024-06 knowledge cutoff and have no record of major publications, conference talks, or broad online visibility under that name. Could be a minor/anonymous handle or a new/niche contributor\u2014provide links or context for a more accurate assessment."
+  },
+  "PostClarity": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "clarity_score": 8,
+    "explanation": "The post is well-structured, easy to follow, and clearly communicates the program, schedule, logistics, and application steps. Strengths: logical headings, specific dates/links, concise process description, and strong calls to action. Weaknesses: occasional marketing/poetic language and repetition, and a few practical details are vague (selection criteria and what \"pay what you feel is fair\" typically implies), which slightly reduces precision."
+  },
+  "PostNovelty": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is largely an incremental variation on well-established ideas (founder residencies, co-living/co-working retreats, accelerator/offsite formats). The closest-to-novel elements are the specific combination of a 'monastery for focus' by day and structured emotional/relational evenings, plus a pay-what-you-feel pricing model targeted at mission-driven founders \u2014 interesting tweaks but not conceptually novel to EA readers or to the broader public."
+  },
+  "PostInferentialSupport": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "reasoning_quality": 4,
+    "evidence_quality": 2,
+    "overall_support": 3,
+    "explanation": "Strengths: The post is clear, well structured, and presents a plausible theory of change (protected time for deep work + peer connection -> better founder well\u2011being and outputs). It explains the program logistics, cohort composition, and a flexible pricing model. Weaknesses: The argument is largely aspirational and promotional rather than analytic \u2014 it doesn't engage counterarguments, failure modes, or selection risks. There is no empirical evidence, prior\u2011cohort results, metrics for success, or evaluation plan to support claims that the residency will produce high\u2011impact outcomes. Overall the idea is plausible but weakly supported by evidence and rigor."
+  },
+  "PostExternalValidation": {
+    "post_id": "thMwNbzqfxqFxFfTm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are corroborated by the organizer\u2019s official materials. The Abundance House website and the founder\u2019s personal site confirm the program exists, is run by Impact Labs/Aaron Mayer, is in Lake Tahoe, is intended for ~12 founders, and is described as a ~6-week residency with the amenities and \u201cpay what you feel is fair\u201d model. Strengths: official program pages (home + About) explicitly state dates, cohort size, location, house size/bedroom count, amenities, application link, and payment model; Aaron Mayer\u2019s site and Impact Labs pages corroborate authorship and organizational connection. Weaknesses / caveats: small but relevant inconsistencies across official pages (homepage lists Oct 1\u2013Oct 31 and \u201capply by Sept 1\u201d, while the About page and earlier forum post list Oct 1\u2013Nov 16 with earlier application deadlines), and several details (exact square footage, private chef, interior amenities, and the Airtable \u201c10-minute form\u201d) come from the organizer and are not independently verifiable from third-party sources. I could not open the Airtable application or the Substack post (site timed out / errors) to confirm the exact application form length or any mirrored Substack text. Overall: well-supported by primary sources published by the organizers, but a few internal inconsistencies and lack of independent third-party verification for property-specific claims prevent a higher score.",
+    "sources": [
+      "Abundance House \u2014 Home page (abundance.house) \u2014 captured 2025 (shows program listing, Oct 1\u2013Oct 31 variant).",
+      "Abundance House \u2014 About (abundance.house/about) \u2014 captured 2025 (details: \u201c6 weeks (Oct 1 - Nov 16)\u201d, 12 founders, 7,000 sq ft, 10-bedroom, amenities, application link, pay-what-you-feel).",
+      "Aaron Mayer \u2014 Personal site (aaronmayer.me) \u2014 2025 (lists Abundance House and Impact Labs connection; Impact Labs community ~10,000+).",
+      "Impact Labs \u2014 official site (impactlabs.io) \u2014 2025 (organization running Abundance House; links to Substack/blog).",
+      "Forum mirror of the post (mirror of Aaron Mayer\u2019s announcement) \u2014 2025-08-08 (forum.nunosempere.com / mirrored announcement matching text in the user-provided post).",
+      "Impact Labs / Medium posts by Aaron Mayer (Impact Labs Medium archive) \u2014 shows Aaron Mayer as author and Impact Labs activities (supports organizational claims)."
+    ]
+  }
+}

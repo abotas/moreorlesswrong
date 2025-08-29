@@ -1,1 +1,50 @@
-{}
+{
+  "PostValue": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "value_ea": 3,
+    "value_humanity": 3,
+    "explanation": "This is a recruitment post for a narrowly scoped NHS study on neurodivergence among non\u2011directed kidney donors. It could yield useful, practical insights to improve consent processes and donor care for a small but important group, but it is not a foundational claim that would shift major EA priorities or global policy. The potential impact is modest and fairly localized to transplant practice and neurodiversity-informed healthcare."
+  },
+  "PostRobustness": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Missing ethics/participant-safeguards details \u2014 You should state that the study has NHS/REC approval (or if pending, say so) and give brief info on confidentiality, data storage, who will see recordings, how long data are kept, and a contact for complaints. Readers expect an ethics reference and reassurance about consent and privacy before replying. 2) Unclear eligibility criteria \u2014 Clarify key inclusion/exclusion: do you include self\u2011identified and clinically diagnosed autism/ADHD (you currently say both, but spell out whether self\u2011ID is sufficient), whether donors must have been UK residents or donated under the NHS, whether only living non\u2011directed (altruistic) donors count (vs paired/exchange or directed donations), and any time-since-donation limits. Ambiguity will reduce response quality and increase screening burden. 3) Accessibility/participation details missing \u2014 Say whether participants are paid or reimbursed, which video platform will be used (and whether alternatives such as phone/email/text are available), whether the interview will be recorded, and what accommodations you can provide for sensory or communication needs. These practical details both increase uptake and reduce sample bias toward people comfortable with standard video interviews.",
+    "improvement_potential": "The feedback correctly flags major, practical omissions that would reduce trust and response quality: ethics/REC approval and data/consent safeguards, clear inclusion/exclusion (self\u2011ID vs clinical diagnosis, donation type, jurisdiction, time since donation), and participation/accessibility details (payment, platform, recording, accommodations). Fixing these will materially improve recruitment, reduce screening burden, and protect participants. Minor downside is added length to the post, which can be avoided by linking to a one-page study info sheet or including succinct bullets."
+  },
+  "PostAuthorAura": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "The name \"Hannah W\" is ambiguous and I don\u2019t recognize a prominent EA/rationalist author or public figure by that short/pseudonymous form as of my 2024-06 cutoff. There\u2019s no clear record of major EA publications, talks, or broad public presence under that identifier. If you can provide a full last name, sample works, or links I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and easy to understand: the poster states their role, purpose, target group (autistic/ADHD non\u2011directed kidney donors), what participation involves (one\u2011hour video call) and how to get in touch. Strengths: simple language, direct call to action. Weaknesses: lacks some practical eligibility details (age, timeframe, location, ethical approval/consent, compensation/confidentiality) and a brief definition of 'non\u2011directed altruistic' would help lay readers; minor copy\u2011editing would improve polish."
+  },
+  "PostNovelty": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "novelty_ea": 5,
+    "novelty_humanity": 6,
+    "explanation": "The post combines two fairly well\u2011studied domains (neurodivergence and altruistic organ donation) in a specific, niche intersection: neurodivergent individuals who have made non\u2011directed kidney donations. For an EA Forum audience, readers are likely familiar with psychological determinants of prosocial action so the general concept isn\u2019t surprising (moderately novel). For the general public, the specific link and focus on healthcare experiences of neurodivergent altruistic donors is less likely to have been considered, making it somewhat more novel. Note this is a recruitment/empirical study announcement rather than a new theoretical claim, which lowers overall originality."
+  },
+  "PostInferentialSupport": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "reasoning_quality": 5,
+    "evidence_quality": 2,
+    "overall_support": 4,
+    "explanation": "Strengths: clear, plausible aim (understanding decision-making and healthcare experiences), targeted population, and concrete participation details and contact. Weaknesses: the post is a short recruitment notice and therefore gives little methodological detail or justification (no hypotheses, sample size, recruitment strategy, inclusion/exclusion criteria beyond self-ID, or analytic plan). It also provides no empirical evidence showing the scale or specifics of the problem, no ethics/consent/ confidentiality details, and no discussion of potential biases or generalisability. As a recruitment call this is acceptablely concise, but as an argument for the study's importance and likely informativeness it is under\u2011supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "yAkzu6aBPnuPPdnuX",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Strengths: The post is plausible and consistent with publicly documented UK NHS research activity on unspecified (nondirected/altruistic) kidney donation \u2014 there are multiple UK studies and ongoing projects (e.g., BOUnD / national prospective work) led by NHS transplant teams and clinical psychologists, so an NHS psychologist running a qualitative/recruitment study on donors is credible. South Tees NHS (the likely origin of the \"stees\" string) runs neurodiversity training and research, making the local connection plausible. Weaknesses: I could not independently verify this exact advert, the author name \u201cHannah W,\u201d or the specific contact email (stees.donorstudy@nhs.net) in public registers, trial registries, or trust research webpages. There is no clear public trial registration or institutional web page found that matches this precise study description. Conclusion: the general concept (NHS-run research on unspecified kidney donors) is well-supported; the specific recruitment post, author identity, and email were not verifiable from public sources, so the claim is plausible but not fully validated.",
+    "sources": [
+      "BMJ Open (2017) protocol: \"Understanding barriers and outcomes of unspecified (non-directed altruistic) kidney donation\" (BOUnD study). (PMC article) https://pmc.ncbi.nlm.nih.gov/articles/PMC5623565/",
+      "ISRCTN record ISRCTN23895878: \"Understanding barriers and outcomes of unspecified kidney donation\" (study record). https://www.isrctn.com/ISRCTN23895878",
+      "Annals of Surgery (2020) review: \"Donating a Kidney to a Stranger\u2014A Review of the Literature\" (overview of unspecified kidney donation in the UK). (Journal entry) https://journals.lww.com/annalsofsurgery/Fulltext/2020/07000/Donating_a_Kidney_to_a_Stranger__A_Review_of_the.25.aspx",
+      "Transplant International / PMC (2023): \"Exploring Staff Attitudes Towards Unspecified Kidney Donors in the United Kingdom: Results From the BOUnD Study\" (qualitative study on UK transplant professionals). https://pmc.ncbi.nlm.nih.gov/articles/PMC10285071/",
+      "South Tees Hospitals NHS Foundation Trust \u2014 research and neurodiversity pages / event listings (shows South Tees activity on research and neurodiversity training; supports plausibility of an NHS psychologist at South Tees running related work). Examples: \"Who we are and what we do - Research Team\" and South Tees neurodiversity/event pages. https://www.southtees.nhs.uk/about/strive/research-team/who-we-are-and-what-we-do/ and https://www.eventbrite.co.uk/ (South Tees neurodiversity training listings)"
+    ]
+  }
+}

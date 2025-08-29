@@ -10,5 +10,46 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I could not identify a notable figure known as \"Joey\ud83d\udd38\" in my training data or in major EA/rationalist venues (LessWrong, EA Forum, 80,000 Hours, GiveWell, EAG speakers) or in mainstream sources. Likely a pseudonymous or low-profile individual with minimal public presence."
+  },
+  "PostRobustness": {
+    "post_id": "BDByEBEbFexb54QEm",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Replace feel\u2011good anecdotes and high\u2011level claims with concrete metrics and sources. The post leans heavily on impressions (conference vibes, \"more organized\", funding in the \u201clow hundreds of millions\u201d) without showing trends in the things that actually matter (animals affected, program effect sizes, dollars per animal spared, time series of funding and headcount). Actionable fixes: add cited time\u2011series or estimates for funding and staff growth (or explicitly label them as rough guesses), link to impact evaluations or give a range for likely animals impacted per dollar for major programs, and say which geographies you mean (US/UK/global). 2) Explicitly confront major counterarguments and alternative explanations. You acknowledge some headwinds but don\u2019t engage with plausible reasons the movement might not convert stronger infrastructure/culture into impact (funding volatility, waning consumer demand, corporate capture or non\u2011enforcement, political backlash, or that alternative protein VC decline reflects structural problems). Actionable fixes: add a short section that lists the top 3 risks that would overturn your optimism and write 1\u20132 sentences on why you think each is unlikely or manageable; or include simple sensitivity scenarios (e.g., if funding falls X% or if corporate commitments have Y% enforcement, then optimism changes). 3) Tighten causal claims and propose concrete bottleneck solutions. The post assumes culture+infrastructure -> long\u2011term impact but doesn\u2019t spell the causal pathways or where diminishing returns/bottlenecks exist (you mention \"ideas\" as a possible bottleneck but don\u2019t propose fixes). Actionable fixes: briefly map the mechanism (e.g., better infrastructure -> faster learning and coordination -> better program design -> more animals spared), identify the current bottlenecks (ideas, measurement, policy, geographic scale), and end with one or two specific recommendations for where resources should go next (e.g., fund idea generation/R&D, improve outcome measurement, scale policy work). Also consider trimming the long conference anecdote or moving it to an appendix to keep the post concise and evidence\u2011focused.",
+    "improvement_potential": "The feedback targets the post\u2019s main weaknesses: heavy reliance on anecdotes, lack of concrete metrics/geography, no explicit engagement with key counterarguments, and an underspecified causal chain from improved culture/infrastructure to impact. These are actionable, high\u2011value fixes that would substantially strengthen credibility without necessarily bloating the post (a short time\u2011series, a brief risks section, and a one\u2011paragraph causal map would suffice). It isn\u2019t a 10 because the piece is a subjective optimism piece rather than a data claim that\u2019s provably wrong, and the feedback could have suggested a few specific data sources/measures to add rather than only general guidance."
+  },
+  "PostClarity": {
+    "post_id": "BDByEBEbFexb54QEm",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear headings (Culture, Infrastructure, Talent/funding/ideas), concrete examples, and a coherent thesis (why the author is more optimistic). Strengths include good signposting, relevant anecdotes, and specific ecosystem elements. Weaknesses: a few vague or unquantified claims (e.g., \"four-fifths of these prerequisites,\" rough funding numbers), occasional verbosity and link clutter that interrupt flow, and limited evidence for some assertions. Overall clear and compelling, but could be slightly more concise and precise."
+  },
+  "PostNovelty": {
+    "post_id": "BDByEBEbFexb54QEm",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "For an EA/animal-movement audience the post largely synthesizes familiar observations (professionalization, growing funding, more coordination, career/org support) and so is only mildly novel \u2014 the useful bits are the explicit ingredient framing (adding culture and infrastructure) and the emphasis that ideas may be the next bottleneck. For a general educated audience the specifics (names of new institutions, the scale-up narrative, and the claim that culture/drama have meaningfully declined) will be somewhat new, but the general pattern\u2014social movements professionalize and improve infrastructure as they mature\u2014is common."
+  },
+  "PostInferentialSupport": {
+    "post_id": "BDByEBEbFexb54QEm",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically structured (lays out specific causal ingredients: culture, infrastructure, talent/funding/ideas), gives concrete and relevant examples (names of organizations, conferences, a state-of-the-movement report) and mixes qualitative and some quantitative claims. Weaknesses: Much of the argument is anecdotal and observational (conference vibes, reduced drama), key quantitative claims (funding growth, talent doubling) lack sourcing or rigorous data, and counterfactuals/alternative explanations are not explored. The evidence shows the movement has built infrastructure and coordination, but is insufficient to robustly establish the broader causal claim that the movement is markedly better positioned for long-term impact."
+  },
+  "PostExternalValidation": {
+    "post_id": "BDByEBEbFexb54QEm",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major empirical claims in the post are supported by public evidence. Key supportive findings: (1) the AVA 2025 summit and a friendly Wayne Hsiung / Lewis debate/opening talk are documented; (2) substantial new cross-cutting infrastructure (charity evaluator ACE, career orgs like Animal Advocacy Careers, funder networks such as Farmed Animal Funders, new giving platforms like FarmKind, and AVA events) exists and mostly emerged or scaled in the last decade; (3) philanthropic funding for farmed-animal advocacy has grown substantially \u2014 academic/landscape surveys put global spending around ~$200M in 2020 and in the low hundreds of millions (~$260M) in more recent surveys; (4) alternative-protein VC interest and some company sales figures have cooled since the pandemic-era peak; (5) self-identified vegan shares remain small and broadly stable (e.g., ~1% in US Gallup polling), especially over longer time horizons. Weaknesses / uncertainties: some numerical phrases in the post are imprecise (e.g., \u201clow tens of millions\u201d a decade ago vs \u201clow hundreds of millions\u201d now) \u2014 older, comprehensive baseline data from >10 years ago are sparse, so exact multiplicative growth of funding or headcount estimates (\"at least twice as many full-time workers\") cannot be precisely verified from public sources. Overall the post\u2019s descriptive claims are well-supported though a few quantitative statements are approximate.",
+    "sources": [
+      "Stray Dog Institute \u2014 State of the Movement (survey & project pages), 2024. (Stray Dog Institute State of the Movement survey & description).",
+      "Faunalytics \u2014 \"Mapping Global Animal Advocacy Spending\" (summary of Stray Dog / survey data; combined expenses reported \u2248 US$259.6M), June 26, 2025.",
+      "Farmed Animal Funders \u2014 2021 \"State of the Movement\" report and About/How-we-work pages (estimates ~US$200M in 2020; FAF founding/activities), FarmedAnimalFunders.org.",
+      "Animal Charity Evaluators (ACE) \u2014 organization history and role (founded 2012). (AnimalCharityEvaluators.org / Wikipedia summary).",
+      "Animal Advocacy Careers \u2014 official site (animaladvocacycareers.org) and Charity Entrepreneurship incubation notes (AAC activity starting ~2019).",
+      "AVA Summit \u2014 official site and 2025 AVA Summit (program / speaker lineup pages) (avasummit.com).",
+      "Wayne Hsiung \u2014 blog post noting debate with Lewis at the AVA Summit (Wayne Hsiung blog / Substack / SimpleHeart post), May 2025.",
+      "Faunalytics \u2014 \"Funding Dynamics In Farmed Animal Advocacy\" and related summaries referencing FAF 2021 (background on $200M+ estimates).",
+      "Gallup \u2014 US poll on diet: 'In U.S., 4% Identify as Vegetarian, 1% as Vegan' (Gallup consumption habits, 2023).",
+      "Reporting on alternative-protein funding and company struggles (e.g., Wired and Wall Street Journal coverage of declines and layoffs in cultivated/plant-based meat sector; funding drop from 2022\u21922023 noted in sector coverage)."
+    ]
   }
 }

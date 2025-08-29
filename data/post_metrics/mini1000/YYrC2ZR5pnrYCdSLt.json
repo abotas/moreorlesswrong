@@ -4,5 +4,49 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I don't have any record of a notable EA/rationalist figure named 'VettedCauses' in my training data \u2014 no major publications, talks, or widely-cited posts tied to that handle. It reads like a pseudonymous/online account with little or no public visibility; if you can share a link or more context I can reassess."
+  },
+  "PostValue": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "value_ea": 7,
+    "value_humanity": 4,
+    "explanation": "Allegations that an ACE-recommended, well-funded charity is making false claims about helping millions of animals are materially important for the EA community: they bear directly on grantmaking decisions, credibility of evidence-based charity evaluation, and potential misallocation of large donations (e.g., multi-million dollar grants). If true, this would prompt reassessment of funder due diligence and ACE/charity endorsement standards. For general humanity the impact is smaller\u2014it primarily affects animal-welfare outcomes and donor trust rather than major human welfare or existential issues\u2014so it is of modest importance."
+  },
+  "PostRobustness": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Add concrete, reproducible evidence and calculations. Right now the post makes a serious allegation but gives no examples. Before publishing, show 2\u20133 specific claims Sinergia has made (quoted text, screenshots, and links with dates), then show your reconstruction of how those claims were calculated and why they are false or misleading (step\u2011by\u2011step arithmetic, sources, and assumptions). If you can demonstrate a single clear error that scales to the millions claim, highlight that example up front. Keep the writeup tight: one clear worked example is far better than vague assertions.\n\n2) Define your terms and explain materiality. Readers need to know what you mean by \"helping\" animals (rescues, audits, policy influence, animals touched by outreach, etc.), the timeframe you are talking about, and whether the discrepancy is an arithmetic error, double counting, different definitions, or deliberate misstatement. Then say why the discrepancy matters for ACE/OP funding decisions (for example, does it change ACE scores, expose misreporting that could affect grant renewal, or merely adjust PR figures?). This prevents the post from sounding like an uncontextualized accusation.\n\n3) Document verification and include Sinergia's response. State what steps you took to verify the claim (data requests, public records, partner confirmations) and whether you contacted Sinergia for comment; if you have not, do so and summarize any reply. If you decide to publish without a response, note that explicitly and explain why. This reduces the risk of a reader seeing the post as a one\u2011sided or potentially defamatory claim and strengthens your credibility.",
+    "improvement_potential": "Very useful \u2014 it flags the post's biggest weaknesses (no concrete examples/calculations, undefined terms/materiality, and lack of contact or verification) and gives clear, actionable fixes. Without these changes the post risks being unpersuasive or defamatory; fixing them would substantially strengthen credibility. Not a 10 because the thesis might still be correct, but as-is the post would be much weaker and potentially embarrassing."
+  },
+  "PostClarity": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "clarity_score": 5,
+    "explanation": "The post is readable and direct (states the claim, notes significance via grants, links to a grant page), but it is too vague and underdeveloped. It offers no specifics about which claims are false, no evidence or summary of the findings, and no direct link to the referenced article, so the argument is not compelling. To improve clarity, briefly state the key false claims, provide evidence or a link to the article, and summarize the main findings."
+  },
+  "PostNovelty": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "novelty_ea": 3,
+    "novelty_humanity": 4,
+    "explanation": "The general claim \u2014 a charity overstating its impact on animals \u2014 is common in EA conversations about evidence, accounting, and charity evaluation, so it\u2019s not very novel to an EA audience. The most novel elements are the specific target (Sinergia), its designation as an ACE Top Charity, and the linking to a recent large Open Phil grant, which are concrete, timely details rather than a new conceptual claim. For the general public the basic idea (charities exaggerate) is familiar, though the EA-specific actors and funding context make this particular instance somewhat less familiar but still not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "reasoning_quality": 2,
+    "evidence_quality": 1,
+    "overall_support": 2,
+    "explanation": "The post asserts a serious claim but provides almost no supporting argumentation or evidence in the text: no examples of the alleged false claims, no data, no links to the article's evidence, and no methodology. The only substantive content is a statement about an Open Phil grant, which is relevant to motive/importance but does not substantiate the allegation. Strengths: flags an important potential issue and links a relevant grant. Weaknesses: lacks concrete citations, reproducible analyses, direct quotations or documents showing the falsehoods, and any reasoning chain demonstrating why the claims are false. More detailed evidence (specific claims, primary sources, data comparison, and transparent methods) would be required to credibly support the thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "YYrC2ZR5pnrYCdSLt",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s empirical claims are supported by public evidence: (1) Sinergia did advertise ACE\u2019s 2024 cost\u2011effectiveness numbers (the \u201c354 piglets per $1\u201d / ~113 million animals claim) and later updated those figures (ACE and Sinergia both published corrections reducing the piglet figure to ~285 and revising the total\u2011animals claim to \u2248100M+). (2) ACE\u2019s original spreadsheet contained estimation/communication errors that ACE acknowledged and partly corrected. (3) Brazilian Normative Instruction No. 113 (Dec 2020), in force Feb 2021, prohibits routine cutting of piglets\u2019 teeth, which supports VettedCauses\u2019 point that some commitments credited for ending \u201cteeth clipping\u201d may have overlapped with earlier legal change. (4) Sinergia has received multi\u2011million dollar grants from EA\u2011adjacent funders (Open Phil / Good Ventures). Weaknesses / caveats: whether the wording constitutes intentional \u201cfalse claims\u201d is contested \u2014 Sinergia and ACE dispute bad faith and point to miscommunications and subsequent corrections; some specific calculation details remained disputed and ACE chose not to refresh all downstream cells because they judged the errors non\u2011determinative to the recommendation. Overall: well\u2011supported evidence that there were material errors/overstatements which were later partly corrected, but insufficient public evidence of deliberate fraud or systemic, uncorrected deception.",
+    "sources": [
+      "Animal Charity Evaluators \u2014 Sinergia Animal review (2024) (ACE charity review page describing cost\u2011effectiveness and updated piglet estimate).",
+      "Animal Charity Evaluators \u2014 EA Forum post/response where ACE explains adjusting the piglet impact estimate from ~354 to ~285 and notes spreadsheet changes (ACE comment on EA Forum).",
+      "Sinergia Animal \u2014 blog/post claiming \u201c21 mother pigs (or 354 piglets) spared per dollar\u201d (Sinergia campaign post; archived capture of the 354 figure).",
+      "Sinergia Animal \u2014 followup / website post noting updated figures and reporting their revised >100 million animals impact claim after ACE adjustments.",
+      "Vetted Causes \u2014 review of Sinergia Animal (VettedCauses analysis alleging false claims and detailing specific disputed commitments and spreadsheet screenshots).",
+      "Open Philanthropy \u2014 grant page for Sinergia Animal (shows grant amount: $3,301,255, award Oct 2024).",
+      "Brazil \u2014 Instru\u00e7\u00e3o Normativa N\u00ba 113, de 16 de dezembro de 2020 (MAPA / DOU), effective Feb 2021, which prohibits \u2018corte de dentes\u2019 (cutting piglet teeth) except limited grinding \u2014 official normative instruction text and summaries."
+    ]
   }
 }

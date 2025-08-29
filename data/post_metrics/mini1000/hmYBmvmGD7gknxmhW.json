@@ -4,5 +4,50 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "I could not find evidence that 'OscarD\ud83d\udd38' is a known figure in the EA/rationalist community or more broadly. No recognizable publications, talks, notable posts on EA Forum/LessWrong, academic citations, or media presence are attributable to that handle; it may be a private/pseudonymous handle active in a small group. If you can provide links or contexts (posts, platform), I can reassess."
+  },
+  "PostValue": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post is a low-effort pointer to a mainstream NYT piece and a 1Day Sooner recruitment link. It\u2019s useful for outreach and public perception of human challenge trials (which can modestly affect recruitment, funding sentiment, and normative framing), but it doesn\u2019t present new analysis, evidence, or arguments that are foundational to EA/longtermist or policy decisions. For humanity at large it\u2019s minor: interesting human-interest/PR content but not material to major outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "robustness_score": 5,
+    "actionable_feedback": "1) Missing disclosure and potential bias from self-participation. You mention yourself in the quoted passage but don\u2019t clearly state your role and potential bias as a volunteer or promoter. Actionable fix: add a one-sentence disclosure at the top (\u201cI\u2019m a participant in challenge trials and volunteered for the trial described\u201d), and note that you plan to donate the stipend \u2014 this helps readers evaluate the anecdote\u2019s weight and reduces an \u201cown goal\u201d of undisclosed self-promotion.\n\n2) Lack of critical context for an EA audience. The post reads as a light plug for challenge trials / 1Day Sooner without acknowledging the main ethical/scientific objections (undue inducement, risks vs. benefits, generalizability/selection bias, regulatory concerns). Actionable fix: add 2\u20133 concise sentences summarizing the strongest counterarguments and whether the NYT article addresses them (or link to one short critique and one short defence). That keeps the post short but signals you\u2019re aware of the debate and makes it satisfying for EA readers.\n\n3) Low informational utility: no link to the NYT article and minimal summary. Actionable fix: include a direct link to the NYT piece and add a one-line summary of its main takeaway for readers who won\u2019t click through. Also fix small issues (spelling: \u201cexagerrated\u201d \u2192 \u201cexaggerated\u201d) so the post looks polished.",
+    "improvement_potential": "This feedback points out several real, fixable issues: missing direct link to the NYT piece and a spelling typo are straightforward oversights; adding a brief disclosure up front and a couple of sentences noting major ethical/scientific objections would strengthen credibility for an EA audience without much extra length. The critique about undisclosed self\u2011promotion is partly overstated (the author already flags that the quoted passage is about them), but an explicit one\u2011liner disclosure would still be a useful polish. Overall the suggestions would noticeably improve the post\u2019s transparency and usefulness, but they aren\u2019t fixing a catastrophic or embarrassing error, so the value is solid but not maximal."
+  },
+  "PostClarity": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "clarity_score": 8,
+    "explanation": "The post is easy to understand, has a clear purpose (share a gentle NYT intro to challenge trials), and is concise and well-structured. Strengths: plain language, helpful excerpt, and a direct call-to-action/link. Weaknesses: a minor typo ('exagerrated'), no direct NYT link, and the quoted block is a bit long for such a short post \u2014 these are small issues that don't substantially hinder comprehension."
+  },
+  "PostNovelty": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "novelty_ea": 2,
+    "novelty_humanity": 4,
+    "explanation": "For EA Forum readers this is low-novelty: challenge trials, 1Day Sooner, and the ethical arguments/appeal to altruism are already well-known, and the post mainly links to a mainstream NYT profile and a recruiting page. For the general public it\u2019s somewhat more novel: while challenge trials entered public awareness during COVID, specific details (malaria human challenge, bone\u2011marrow sampling, payment/donation anecdote) and a friendly NYT intro may be new or unfamiliar to many, but the core idea is not highly original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "The post's reasoning is simple, clear and internally consistent: it recommends an NYT piece as a gentle, popular introduction to human challenge trials and notes a positive portrayal of volunteers (including the author's anecdote). That claim doesn't require complex argumentation and is adequately supported by the excerpt. However, empirical evidence is weak: the post relies on a single news article and the author's own anecdote, offers no systematic data on risks, benefits, ethics, or outcomes, and has potential bias (author is a participant). Overall, the main thesis (that the NYT article is a good popular intro) is modestly supported, but broader claims about safety/benefit of challenge trials lack rigorous evidence here."
+  },
+  "PostExternalValidation": {
+    "post_id": "hmYBmvmGD7gknxmhW",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the EA post are verifiable and well-supported by reliable sources. 1Day Sooner does publicly promote and list recruiting challenge studies (including Shigella and hepatitis C work) and maintains a live recruitment hub. The quoted vignette about \u201cMr. Delaney\u201d appears in the New York Times piece that the post links to and is reproduced verbatim in other outlets; the CHMI (controlled human malaria infection) literature supports the procedures described (blood\u2011stage/infected\u2011blood inoculation, timing of symptoms ~9\u201311 days) and the use of bone\u2011marrow aspirates in malaria research. Weaknesses: I could not open the NYT page directly (paywall/robots restrictions), so verification of the exact wording and the payment figure ($11,000) relies on secondary reproductions of the NYT piece; the personal details and the $11,000 payment are reported by a single news piece and not independently corroborated in public trial registries or study pages. Overall \u2014 well supported but with a few single-source details that would ideally be confirmed from the original NYT article or trial documents.",
+    "sources": [
+      "EA Forum post linking the NYT article (NYT link included in post) \u2014 EffectiveAltruism.org (forum post referencing NYT, Jan 28 2025).",
+      "DT Next reproduction of the NYT excerpt ('Would You Get Sick in the Name of Science?') \u2014 article reproducing the quoted paragraph (includes the Delaney vignette).",
+      "1Day Sooner \u2014 Recruiting Challenge Studies page (lists ongoing challenge trials including Shigella, Hepatitis C and others; shows Shigella studies and Hepatitis C advocacy).",
+      "Controlled Human Blood\u2011Stage Malaria Infection: Current Status and Potential Applications \u2014 review (discusses blood\u2011stage/IV inoculation CHMI models).",
+      "Safety and comparability of controlled human Plasmodium falciparum infection by mosquito bite \u2014 CHMI study (reports prepatent/incubation periods; earliest symptoms/patency often ~9\u201311 days).",
+      "Plasmodium falciparum transmission stages accumulate in the human bone marrow \u2014 Science Translational Medicine / PMC (shows parasites/gametocytes in bone marrow; context for bone\u2011marrow sampling in malaria research).",
+      "Norovirus and other human challenge study literature (examples: PubMed DOI for norovirus dose\u2011response study; demonstrates that norovirus challenge trials exist and are used).",
+      "Vox / other reputable summaries of recent CHMI work (context on modern malaria challenge trials and volunteer experiences)."
+    ]
   }
 }

@@ -1,1 +1,55 @@
-{}
+{
+  "PostValue": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "value_ea": 6,
+    "value_humanity": 4,
+    "explanation": "This is a moderately important, actionable post for the EA community because it flags a low\u2011cost, time\u2011sensitive opportunity to influence policy that could scale to enormous numbers of animals \u2014 a classic high upside, neglected intervention relevant to wild\u2011animal and sentience priorities. The underlying claims (invertebrate sentience, potential scale of insect farming) are increasingly credible but still contested, and the specific UK consultation is one piece of a larger industry trend, so the post is not foundational for most EA conclusions (e.g., AI safety, global health) but is relevant for animal\u2011welfare/longtermist agendas. For general humanity the importance is lower: if insect sentience and large\u2011scale insect farming are both true and unregulated the welfare consequences could be large, but the policy is localized, evidence is uncertain, and many other economic/food\u2011system factors will determine outcomes \u2014 so it matters but is not civilization\u2011level or foundational."
+  },
+  "PostRobustness": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Don't overclaim scale or causal link to the consultation. The post says the UK decision would \"likely mean trillions of more insects suffering\" but gives no basis for that number or the causal chain from a consultation response to global industry growth. Actionable fix: remove or qualify \"trillions,\" add a short sentence explaining (with a citation or plausible scenario) how UK policy would scale production and on what timeframe, or state the uncertainty (e.g. \"could plausibly lead to large-scale expansion over X\u2013Y years, depending on investment and regulation\").\n\n2) Avoid generalizing insect sentience evidence from bees to all commonly farmed species and life stages. The LSE blog and bee experiments are useful, but they do not establish sentience across taxonomic groups or larval stages (e.g. black soldier fly larvae, mealworms) that are most likely to be farmed. Actionable fix: explicitly say which taxa have stronger evidence and which are uncertain, link to (or say you couldn\u2019t find) evidence for the specific species most likely to be farmed, and soften any language that implies scientific consensus across all farmed insects.\n\n3) Strengthen the advocacy strategy and preempt obvious counterarguments. Right now the call-to-action assumes individual consultation responses will be decisive and doesn\u2019t address likely government/economic counterarguments (food security, lower emissions, economic benefits, risk of outsourcing production). Actionable fix: (a) add 1\u20132 concrete policy asks people should support in the consultation (e.g. mandatory welfare assessments, licensing, limits on species/life stages used), (b) provide short sample text for the written question that addresses sustainability arguments (e.g. \"I support insect farming regulation that requires welfare assessments because\u2026\") and (c) acknowledge limits of consultations and suggest complementary actions (contacting specific MPs/regulators, engaging NGOs, or promoting research into welfare-safe alternatives).",
+    "improvement_potential": "The feedback pinpoints two clear 'own goals' (an unsupported large number/causal claim and overgeneralizing bee evidence to all farmed insects) that would harm the post's credibility and embarrass the author if left uncorrected. It also gives practical, concise fixes to make the call-to-action more persuasive (concrete policy asks, sample text, acknowledging consultation limits). Addressing these would substantially improve accuracy and effectiveness without much added length, so the feedback is highly useful though not exposing any fatal flaw that makes the post entirely wrong."
+  },
+  "PostAuthorAura": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I am not aware of any notable presence for the name 'Dorsal Heart' in the EA/rationalist community or more widely. It appears to be an obscure or pseudonymous author with no identifiable publications, talks, or citations in major EA venues (LessWrong, EA Forum), academic outlets, or mainstream media."
+  },
+  "PostClarity": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "clarity_score": 8,
+    "explanation": "Overall the post is clear and well-structured: it states the issue, explains why individual responses matter, gives a short estimate of effort and a deadline, and provides supporting evidence and links. Strengths include a direct call to action, explicit effort estimate, and useful links. Weaknesses: the long LSE quote interrupts flow and could be summarized, there is a small typo ('files' vs 'flies'), some claims (e.g. 'trillions') are emotive and unquantified, and dates/timelines (the 'December 2024' consultation) could confuse readers. Trimming repetition and tightening the evidence section would improve conciseness and persuasiveness."
+  },
+  "PostNovelty": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For an EA Forum audience the core ideas (invertebrate sentience, moral concern for insects, and using public consultations to influence policy) are already well-known, so the post is only slightly novel for its specific, time\u2011sensitive ask (the UK consultation + prewritten answers). For the general public, the combination of claims \u2014 large\u2011scale insect farming leading to trillions of suffering insects, the strength of recent academic endorsements (LSE report, 560 signatories), and the concrete call to act via a consultation \u2014 is less widely appreciated, so it\u2019s moderately novel to most non\u2011specialists."
+  },
+  "PostInferentialSupport": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "reasoning_quality": 5,
+    "evidence_quality": 5,
+    "overall_support": 5,
+    "explanation": "Strengths: The post has a clear, coherent argument (if insects are sentient, enabling large\u2011scale insect farming would create large numbers of animal victims), cites credible sources (an LSE treatment of invertebrate sentience, a multi\u2011signatory declaration, and a specific behavioral study) and gives a pragmatic call to action. Weaknesses: Key inferential steps are under\u2011argued or overstated \u2014 e.g. the claim of \u201ctrillions\u201d suffering is asserted without sourcing or modeling, the bumblebee study is generalized to all farmed insects, and the post doesn\u2019t engage with countervailing evidence (environmental/food security benefits, welfare mitigation options, degrees/probabilities of sentience). The evidence cited is relevant and partly strong but selective and insufficiently quantitative, so the overall case is plausible but not robustly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "eyisCzEZrckuLp2CM",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Many of the post's core empirical claims are supported by trustworthy sources: the UK DEFRA consultation exists and closes 1 Apr 2025; the Scottish consultation (Oct\u2013Dec 2024) published 44 responses; the New York Declaration on Animal Consciousness (April 2024) and the LSE invertebrate-sentience summary and the cited PNAS bumblebee study are real. Claims that need qualification or appear inaccurate/unsupported: the exact figure \u201c560 professors and other academics\u201d signing the declaration is not clearly documented (the declaration site shows hundreds of signatories but public reports give varying counts); the assertion that the consultation only has \u201c3 questions\u201d is incorrect\u2014the DEFRA CitizenSpace form includes multiple pages/fields; and the \u201ctrillions more insects\u201d wording is an overstatement without a published global headcount\u2014industrial sites (e.g., Innovafeed, EnviroFlight, Bioflytech/Protix) do produce billions of individuals or many tonnes of insect product (making trillions plausible at large scale), but I could not find a reliable public source that states a current total of \u201ctrillions\u201d already being farmed. Overall: most factual building-blocks are real and sourced, but some numeric claims are either unverified or exaggerated.",
+    "sources": [
+      "UK Government (DEFRA) consultation: 'Livestock feed controls review for England and Wales' (Citizen Space) \u2014 closes 1 Apr 2025. (DEFRA Citizen Space page).",
+      "Scottish Government consultation: 'Livestock Feed Controls in Scotland review' \u2014 Published responses (44 published responses). (consult.gov.scot published responses page).",
+      "Scottish Government consultation document and partial BRIA: 'Livestock feed controls review: consultation' (gov.scot), Oct\u2013Dec 2024 consultation details.",
+      "New York Declaration on Animal Consciousness \u2014 declaration and signatory list (NYU-hosted site, April 19, 2024).",
+      "LSE blog: 'Invertebrate Sentience, Welfare, & Policy' (London School of Economics) \u2014 July 24, 2023 summary of evidence and policy implications.",
+      "PNAS article: Gibbons, M., Crump, A., & Chittka, L. (2022) 'Motivational trade-offs and modulation of nociception in bumblebees' (PNAS, DOI:10.1073/pnas.2205821119).",
+      "InnovaFeed / Innovafeed press materials: company claims about large-scale production capacity (Nesle site capacity and production technology).",
+      "Washington Post coverage (reporting on Innovafeed's large-scale larvae counts, e.g., ~10 billion larvae at a site) \u2014 reporting on industrial insect farms.",
+      "EnviroFlight / Darling Ingredients press releases and industry coverage (EnviroFlight facility, U.S. production capacities reported in industry press).",
+      "Industry reporting on insect farms in Spain and Europe: Bioflytech (Spain) and Protix (Netherlands) \u2014 public company / industry articles describing expansion and capacity."
+    ]
+  }
+}

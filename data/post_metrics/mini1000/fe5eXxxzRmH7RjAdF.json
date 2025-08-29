@@ -34,5 +34,19 @@
     "evidence_quality": 2,
     "overall_support": 3,
     "explanation": "Strengths: the post raises a plausible, practical concern (political donations are at least partly public and can be used to infer partisanship, which could matter for later government hiring) and sensibly urges people to weigh long-term career risks. Weaknesses: the argument is largely anecdotal and informal, offers no citations or empirical data, and uses an unexplained threshold ($100) and dramatic examples (e.g. $3 wrecking a career) without substantiation. It also oversimplifies disclosure rules and vetting practices (reporting thresholds differ by context and small donations are often not itemized), ignores mitigation options, and provides no evidence about how often small donations have actually harmed applicants. The claim is plausible but weakly supported."
+  },
+  "PostExternalValidation": {
+    "post_id": "fe5eXxxzRmH7RjAdF",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Mixed but leaning toward supported. Key factual claim \u2014 small monetary political donations can be public and thus discoverable \u2014 is well supported, especially when donations are processed through intermediaries (ActBlue, WinRed) that must itemize every contribution regardless of amount. (FEC law requires itemization only above $200, but conduits often report all donors, and litigation has highlighted this discrepancy.) There is also strong recent evidence that political vetting (including review of donations and social media) is being used in some federal hiring/appointee screening, so donations have the potential to harm later government-career prospects. However, the claim that tiny donations like ~$3 routinely \u201crule people out\u201d is mostly anecdotal and context-dependent \u2014 documented harms exist for small donors in some cases (harassment, job loss), but these are not universal or quantified. The specific numeric thresholds DanielFilan suggests (e.g., <$10 being career-ending or advising to avoid donating under $100) are not grounded in a legal disclosure threshold (which is $200 for required itemization) and are therefore policy/advice judgments rather than empirically established cutoffs.",
+    "sources": [
+      "Federal Election Commission \u2014 \"Individual contributions to federal candidates and committees\" (FEC.gov) (explains itemization rules and public disclosure; committees required to identify contributors over $200 but conduits may itemize all contributions).",
+      "ActBlue \u2014 \"The Small-dollar Donor\u2019s Guide to FEC Filings\" / ActBlue blog (explains that ActBlue, as a conduit, itemizes and reports contributions of any size it processes).",
+      "FiveThirtyEight / Center for Public Integrity reporting on ActBlue (explains how conduit reporting exposes small-donor data and how analysts use ActBlue filings to study small-dollar donors).",
+      "Institute for Free Speech \u2014 \"Small-Dollar Donor Sues FEC over Disclosure Requirements\" (describes legal challenge to discrepant disclosure rules for conduit-processed small donations).",
+      "Associated Press \u2014 \"Loyalty tests and MAGA checks: Inside the Trump White House's intense screening of job\u2011seekers\" (Jan 2025) (documents recent federal vetting practices that include checking political contributions and social media).",
+      "Institute for Free Speech \u2014 Questions for the Record (examples of donors who faced harassment or job consequences after donations were publicized; e.g., small donations to high-profile causes led to targeted consequences).",
+      "PolitiFact / news factchecks (explaining that small-dollar donors\u2019 identities can be public via processing platforms and clarifying common misconceptions about \u2018small-dollar\u2019 privacy)."
+    ]
   }
 }

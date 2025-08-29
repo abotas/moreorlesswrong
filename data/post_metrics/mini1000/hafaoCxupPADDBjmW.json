@@ -1,1 +1,53 @@
-{}
+{
+  "PostValue": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "value_ea": 4,
+    "value_humanity": 2,
+    "explanation": "This post is mainly a community call for interview questions for two high-profile public intellectuals. It\u2019s useful to the EA/rationalist community as an outreach/knowledge-sharing opportunity (could surface useful narratives about changing minds, persuasion, and moral ambition) but it\u2019s not foundational or load-bearing for EA policy, strategy, or safety research. For general humanity it\u2019s of low importance: interesting to some listeners and potentially influential insofar as the guests reach wide audiences, but it won\u2019t substantially change major global outcomes."
+  },
+  "PostRobustness": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "robustness_score": 3,
+    "actionable_feedback": "1) You\u2019re missing the obvious, potentially central follow-ups on well-known criticisms. For Rutger, listeners will expect questions about alleged factual errors/cherry-picking and methodological critique of Humankind (e.g. how he checks sources, responds to critics, and whether this changed his writing approach). For Singer, you should explicitly invite questions about his most controversial positions (e.g. euthanasia/infanticide/disability critiques) and his role in or view of the EA movement. Not addressing these makes the interviews look promotional and risks disappointing listeners who want substance. Action: add 1\u20132 explicit, pointed questions for each guest that name the controversy and ask how it changed their views or practice. \n\n2) Many of your proposed topics are too broad/vague \u2014 they\u2019ll produce surface-level answers. Replace some with specific, evidence-focused and behavior-focused prompts that force concrete examples and learning processes. Examples you can copy into the brief: \u201cWhat\u2019s the single study, data point, or experience that most changed your mind on X? Walk us through how you evaluated it.\u201d \u201cAfter changing your mind on X, what concrete behavior did you change (writing, campaigning, donating, policy advocacy) and why?\u201d Follow-ups: \u201cWere you ever wrong to change your mind? What did you regret?\u201d Action: prune the general prompts and add 3\u20134 specific templates like the above. \n\n3) Clarify scope, tone, and guidance for people suggesting questions. Right now it\u2019s unclear who the target audience is and whether you\u2019ll push guests on hard questions. That affects what useful input people will give. Action: add a 1\u20132 sentence note saying (a) target audience (general public / EA / journalists), (b) whether you expect to press on controversial answers, and (c) a short format rule for submissions (e.g. max 2 suggested questions per person, 20\u201330 words each, mark which are highest priority).",
+    "improvement_potential": "This feedback pinpoints major, actionable weaknesses: the post omits obvious controversy questions (risking a promotional/surface-level interview), asks for vagueries rather than evidence- and behavior-focused prompts, and fails to set audience/tone expectations for contributors. Implementing these suggestions would substantially increase the interviews' substance with only minor additions to the post. It isn\u2019t a 10 because the omissions aren\u2019t catastrophic\u2014authorial choice about tone could justify lighter treatment\u2014but without these changes the episodes are likely to disappoint more critical listeners."
+  },
+  "PostAuthorAura": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I have no indication of a notable EA/rationalist figure named Aidan Alexander in major EA outlets, LessWrong, 80,000 Hours, or academic/public discourse up to mid\u20112024. Likewise there is no sign of broader public fame. If this is a pseudonym or a niche/very recent author, provide links or works and I can reassess."
+  },
+  "PostClarity": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow with clear context, goals, and specific question areas for each guest; the call-to-action is explicit. Minor issues: a couple of links look placeholder/broken, occasional small verbosity and slightly vague question prompts (could be tightened or made more specific), and one sentence disclaiming the podcast\u2019s scope may create slight confusion given the guests\u2019 backgrounds."
+  },
+  "PostNovelty": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is primarily an announcement/ask for interview questions rather than a presentation of new ideas or arguments. The theme (people changing their minds) and the listed topics (Bregman on human nature/progress; Singer on animal ethics, population ethics, utilitarianism, etc.) are well\u2011trodden territory for EA readers and the broader public. The only mildly distinct element is the specific pairing/format (a 'Changed My Mind' podcast with these two guests), but that\u2019s organizational novelty rather than substantive conceptual novelty."
+  },
+  "PostInferentialSupport": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "reasoning_quality": 5,
+    "evidence_quality": 3,
+    "overall_support": 4,
+    "explanation": "Strengths: The post is clear, well-structured and frames a plausible premise (that exploring why thinkers changed their minds is valuable). It identifies concrete, relevant topics to probe each guest and links to their published work. Weaknesses: It offers little argumentation or empirical evidence that the podcast framing will produce useful insights (no prior examples, metrics, or methodological rationale). It also relies on guests' reputations rather than presenting data to support claims about their positions or the broader value of the exercise. Overall the idea is reasonable and actionable, but weakly supported by evidence and formal reasoning."
+  },
+  "PostExternalValidation": {
+    "post_id": "hafaoCxupPADDBjmW",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most empirical claims in the post are verifiable and correct: the 'Changed My Mind' podcast exists and is published on Spotify/Apple/etc., its hosts are Aidan Alexander and Thom Norman (co\u2011founders of FarmKind), and Rutger Bregman is the author of Utopia for Realists and Humankind and had a new book (Moral Ambition) scheduled for May 6, 2025. The primary small factual error is a timing detail: the post says the first episode would air on May 6 to align with Bregman\u2019s book release, but Peter Singer's episode was released April 22, 2025 and the Rutger Bregman episode appears on the show feed on/around May 4, 2025 while the book\u2019s on\u2011sale date is May 6, 2025 \u2014 so the claimed exact premiere date alignment is slightly off. Overall the post\u2019s major claims are well supported by public sources.",
+    "sources": [
+      "Hachette Book Group \u2014 'Moral Ambition by Rutger Bregman' (On sale May 6, 2025). ([hachettebookgroup.com](https://www.hachettebookgroup.com/titles/rutger-bregman/moral-ambition/9780316580373/?utm_source=openai))",
+      "Rutger Bregman official site \u2014 'Moral Ambition' (coming Spring 2025 / April/May 2025 release info). ([rutgerbregman.com](https://rutgerbregman.com/?utm_source=openai))",
+      "ChangedMyMind podcast \u2014 official site (episode list showing Rutger episode May 4, 2025 and other early May episodes). ([changedmymindpod.com](https://changedmymindpod.com/?utm_source=openai))",
+      "Spotify \u2014 Changed My Mind podcast page (show feed / creator page listing episodes and guests). ([open.spotify.com](https://open.spotify.com/show/4XezLUZaDvl8kM53sGpAY3), [creators.spotify.com](https://creators.spotify.com/pod/profile/changed-my-mind/episodes/50-years-of-changing-the-world-through-philosophy-with-Peter-Singer-e31ifc4?utm_source=openai))",
+      "Apple Podcasts \u2014 Changed My Mind show listing (episode dates and descriptions including Rutger Bregman episode). ([podcasts.apple.com](https://podcasts.apple.com/us/podcast/changed-my-mind/id1795894038?utm_source=openai))",
+      "Amazon Music / show previews \u2014 preview listing mentioning Rutger Bregman and Peter Singer as guests. ([music.amazon.com](https://music.amazon.com/es-cl/podcasts/fb1b4cc8-5cee-42e5-9455-732e15ce15f5/changed-my-mind?utm_source=openai))",
+      "FarmKind \u2014 About / Who (confirms founders Thom Norman and Aidan Alexander and FarmKind mission). ([farmkind.giving](https://www.farmkind.giving/about-us/who?utm_source=openai))",
+      "Charity Entrepreneurship \u2014 FarmKind profile (confirms Aidan Alexander & Thom Norman as co\u2011founders; incubation details). ([charityentrepreneurship.com](https://www.charityentrepreneurship.com/track-record-charities/farmkind?utm_source=openai))"
+    ]
+  }
+}

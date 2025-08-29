@@ -1,1 +1,56 @@
-{}
+{
+  "PostValue": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "value_ea": 6,
+    "value_humanity": 6,
+    "explanation": "This is a moderately important, practically actionable civic-innovation proposal. It builds on a solid evidence base about citizens\u2019 assemblies/sortition and offers a low-cost intervention that could shift public discourse, reduce polarization, and create a legitimate channel for deliberative input on issues like AI policy and foreign aid. For the EA/rationalist community it\u2019s reasonably valuable as a potential lever to amplify evidence-based recommendations and shape political attention, though it isn\u2019t foundational to core EA claims and faces significant feasibility and legitimacy risks. For humanity, the idea could have meaningful positive effects on democratic quality and policy outcomes if scaled and adopted widely, but impact is uncertain and depends heavily on media uptake, public trust, and political pushback."
+  },
+  "PostRobustness": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Big missing issue \u2014 legitimacy and influence of an unofficial body. The post assumes people and policymakers will weight an independent, permanent sortition body\u2019s outputs the same way they do outcomes from government\u2011sanctioned citizens\u2019 assemblies. That\u2019s a major leap. Actionable: add a concrete plan for how Government Watch will gain visibility and perceived legitimacy (e.g. secure endorsements or formal links with municipal/state institutions, media partnerships, respected academic partners, or an explicit legal route), and include measurable success criteria (media reach, citation by policymakers, takeup in public opinion polls). Consider and address the scenario where it remains ignored or dismissed.  \n\n2) Overgeneralised evidence and scalability concerns. You rely on positive findings from sortition pilots but don\u2019t show they generalise to a permanent, national, independent body. Actionable: cite specific studies (e.g. Irish Citizens\u2019 Assembly, British Columbia, Deliberative Democracy research) and explicitly discuss limits of external validity. Propose phased pilots (local/state level, topic\u2011limited assemblies) and the outcome metrics you\u2019d use to test whether the approach scales before claiming wide political impact.  \n\n3) Operational and risk details are underdeveloped (capture, selection integrity, facilitation quality, funding, legal/political backlash). These are plausible \u2018own goals\u2019 that could sink the project. Actionable: briefly add a section that specifies (a) precise randomisation/stratification and dropout mitigation plans, (b) facilitation, expert briefing and transparency protocols to ensure deliberation quality, (c) funding and governance model with conflict\u2011of\u2011interest safeguards, and (d) contingency plans for political pushback or capture by interest groups. Even short, concrete answers to these will make the proposal much more credible to an EA audience.",
+    "improvement_potential": "The feedback targets the post's biggest weakness: the unexamined assumption that an unofficial, permanent sortition body will gain public and policymaker legitimacy and scale. It also flags external\u2011validity and operational risks (capture, selection integrity, funding), and gives concrete, actionable remedies (citations, pilots, measurable success criteria, governance protocols). These are critical issues that, if unaddressed, would substantially weaken the proposal. To be even more useful the feedback could prioritise which fixes are highest\u2011impact and suggest lightweight ways to test legitimacy (e.g. small field experiments, a media/endorsement roadmap) so the author can strengthen the post without bloating it."
+  },
+  "PostAuthorAura": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find evidence that \u2018Philosophy Bear\u2019 is a well-known EA/rationalist figure. The name appears to be a pseudonymous/online handle with at most a small presence on forums/blogs; no major publications, talks, or citations linking them to the core EA community. Globally they appear to have essentially no public profile."
+  },
+  "PostClarity": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "clarity_score": 7,
+    "explanation": "The post communicates a clear central idea (a permanent, independent sortition-based body called Government Watch) in accessible language and a concise elevator pitch. Strengths: the purpose and hoped-for effects are easy to grasp and the tone is engaging. Weaknesses: a couple of typos (e.g. \u201csorition\u201d), some repetition, and assumptions that readers understand sortition and accept the cited evidentiary claims without references. The argument would be stronger and crisper with a brief definition of sortition, one or two concrete examples or citations, and clearer implementation details."
+  },
+  "PostNovelty": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "Most pieces of the proposal are well\u2011trodden in democratic reform literature and among EA/longtermist audiences: sortition, citizens\u2019 assemblies, deliberative polling, and using such bodies to inform policy (including AI policy) are already widely discussed and piloted. What is somewhat less common is the specific combination proposed here \u2014 a permanent, independent, publicly visible sortition body operating outside formal government sanction and explicitly positioned as a long\u2011running \u201clighthouse\u201d for media/public opinion. That tweak adds some originality in institutional design and strategy, but it\u2019s a moderate innovation rather than a highly novel idea because similar proposals (institutionalised citizens\u2019 assemblies, independent mini\u2011publics run by NGOs, and efforts to leverage their outputs in media) already exist."
+  },
+  "PostInferentialSupport": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "reasoning_quality": 6,
+    "evidence_quality": 4,
+    "overall_support": 5,
+    "explanation": "Strengths: The post presents a coherent, plausible argument that sortition-based deliberation can produce thoughtful, broadly agreeable outputs and that such outputs can carry public legitimacy. Framing an independent, permanent body (Government Watch) to publicize what representative citizens would conclude is an interesting and logically consistent attempt to sidestep the need for formal government authorization and to combat polarization.\n\nWeaknesses: The argument relies heavily on asserted empirical facts (e.g., participants enjoy and learn a lot, outcomes are compassionate and persuasive to the public) without citations or discussion of counterexamples. Important practical and theoretical issues are under-addressed: how the body would gain and maintain public/media attention and legitimacy, risks of co-option or misinterpretation, representativeness at large scale (US national politics), funding and legal challenges, and mixed historical outcomes of sortition exercises (some successes have not translated into policy change). The causal pathway from publishing deliberative outputs to substantial political impact is plausible but underspecified and empirically untested in the post.\n\nBottom line: A promising, logically coherent proposal with important potential, but currently under-supported by direct, cited evidence and lacking detailed treatment of feasibility and counterarguments. More empirical references, pilot data, and a clearer plan for influence would strengthen the case."
+  },
+  "PostExternalValidation": {
+    "post_id": "YgSsHurKoH3RuDe2Q",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "The post\u2019s empirical claims are broadly supported by the academic and evaluation literature: randomized/representative deliberative processes (citizens\u2019 assemblies, deliberative polls, Citizens\u2019 Initiative Reviews) regularly increase participant knowledge, satisfaction, and deliberative quality; panels often reach well-justified majority or consensus recommendations; and visible, institutionalized minipublics can influence wider public opinion and trust. However, important caveats exist: political uptake of recommendations is uneven (implementation depends on government buy\u2011in), impact on long\u2011term civic engagement and scalability is mixed, and recent cases (e.g. some Irish referendum rejections) show assemblies\u2019 influence can be limited or undermined by follow\u2011up processes. Overall the post\u2019s claims are well supported but need those qualifications.",
+    "sources": [
+      "Deliberative Democracy Lab (Stanford) - Deliberative opinion polls / James S. Fishkin (overview and 'America in One Room').",
+      "British Columbia Citizens' Assembly on Electoral Reform \u2014 Final Report (2004).",
+      "Citizens' Assembly (Ireland) \u2014 2016\u20132018 final report and recommendations; Citizens' Assembly website.",
+      "Gastil, J.; Knobloch, K.; Reedy, J.; et al., 'Assessing the Electoral Impact of the 2010 Oregon Citizens\u2019 Initiative Review' (2018).",
+      "Knobloch, K.; Barthel, M. L.; Gastil, J., 'Emanating Effects: The Impact of the Oregon Citizens\u2019 Initiative Review on Voters\u2019 Political Efficacy' (2020).",
+      "Pilet, J.-B.; Bol, D.; Vittori, D.; et al., 'Public support for deliberative citizens' assemblies selected through sortition: Evidence from 15 countries', European Journal of Political Research (2022).",
+      "Theuwis et al., 'A meta\u2011analysis of the effects of democratic innovations on participants\u2019 attitudes, behaviour and capabilities', European Journal of Political Research (meta\u2011analysis on minipublics' effects).",
+      "Suiter, J., 'Scaling up Deliberation: Testing the Potential of Mini\u2011Publics to Enhance the Deliberative Capacity of Citizens', Swiss Political Science Review (2020).",
+      "Sortition Foundation \u2014 'What is a citizens' assembly?' (good\u2011practice summary and OECD principles).",
+      "Institute for Government \u2014 explainer: 'What is a citizens' assembly?' (who commissions/organises assemblies).",
+      "The Guardian / reporting on 2024 Irish referendum outcomes and debate over citizens' assembly influence (coverage of referendum rejections)."
+    ]
+  }
+}

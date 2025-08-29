@@ -1,1 +1,54 @@
-{}
+{
+  "PostValue": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "value_ea": 6,
+    "value_humanity": 5,
+    "explanation": "This is a practical, operationally-focused proposal with moderate importance. For the EA/rationalist community it\u2019s somewhat valuable (\u22486) because it targets a neglected but tractable channel for improving global development outcomes by redirecting skilled people into higher-leverage roles; it could complement existing EA career efforts and yield cost\u2011effective impact, but it\u2019s not foundational to core EA priorities (e.g., AI/x-risk). For general humanity it\u2019s moderately important (\u22485) because if the idea scales it could improve outcomes for many in LMICs by improving talent allocation and building institutions, but its ultimate impact is uncertain and depends on difficult execution, distribution, and evaluation challenges. In short: useful and promising, worth piloting and evaluating, but not a game\u2011changer on its own without strong evidence of scalable effects."
+  },
+  "PostRobustness": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "robustness_score": 2,
+    "actionable_feedback": "1) Weak evidence for demand and counterfactual impact \u2014 you assume content will redirect careers at nontrivial scale but provide no user research, baseline, or testable hypotheses. Actionable fixes: run rapid user discovery (20\u201340 interviews) with target segments (mid\u2011career diaspora, locally based hiring managers, NGOs, govts), A/B test a one\u2011page guide and track conversion metrics (reads \u2192 signups \u2192 info interviews \u2192 job applications \u2192 job acceptances), and state clear success metrics and minimum viable evidence required before scaling.\n\n2) Major contextual & ethical risks are under\u2011addressed \u2014 the plan risks being top\u2011down, western\u2011centric, or accelerating harmful brain drain / displacing local talent if not grounded in local needs. Actionable fixes: explicitly commit to co\u2011creation with in\u2011country partners and diaspora leaders, include a section on ethical tradeoffs (brain drain, elite capture, local capacity building), and prioritize roles/paths that build local institutions (policy roles, capacity strengthening, local org leadership) over short\u2011term expatriate placements.\n\n3) Underestimating operational barriers \u2014 information alone rarely solves access problems (hidden hiring, network effects, funding constraints). Actionable fixes: focus the MVP on the narrowest high\u2011leverage intervention (e.g., a fellowship/placement pipeline, curated introductions to hiring managers, or a cohort advising program) rather than only articles; map potential partner organizations (recruiters, local gov HR units, AIM/CE/Probably Good) and realistic distribution channels; and outline a clear sustainability/funding model (grants, fellowship fees, partner subsidies) and what partnerships are required to create actual placements.",
+    "improvement_potential": "The feedback identifies the post\u2019s three biggest weaknesses: no evidence of demand/counterfactual impact, neglected ethical/contextual risks (brain\u2011drain, top\u2011down framing), and unrealistic reliance on information alone rather than placement/partnership mechanisms. Each point gives concrete, actionable fixes (user interviews, A/B tests and metrics; co\u2011creation with in\u2011country partners and ethical tradeoffs; a narrower MVP such as fellowships/introductions and a funding model). It\u2019s concise and targets true 'own goals' the author would be embarrassed to miss. Slightly more on measuring long\u2011term counterfactuals could improve it, but overall it\u2019s highly useful."
+  },
+  "PostAuthorAura": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "author_fame_ea": 2,
+    "author_fame_humanity": 1,
+    "explanation": "Likely a pseudonymous/username account with little-to-no recognizable presence in the EA/rationalist community or broader public. No known major publications, talks, or leadership roles\u2014appears to be a minor or obscure online contributor at best."
+  },
+  "PostClarity": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "clarity_score": 8,
+    "explanation": "Well-structured and easy to follow: clear summary, problem statement, theory of change, MVP, impact estimate and asks. The target audience and proposed interventions are concrete and the call for feedback is explicit. Weaknesses: a few jargon terms (LMICs, diaspora nuances) and assumptions (traffic/impact numbers) are undeveloped; distribution and novelty relative to existing 80,000 Hours content could be stated more directly. Could be slightly tighter in places, but overall clear and persuasive."
+  },
+  "PostNovelty": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "novelty_ea": 3,
+    "novelty_humanity": 5,
+    "explanation": "For EA readers this is fairly familiar: it adapts the well-known 80,000 Hours career-redirection model to a different demographic/region, which others have suggested or attempted (diaspora engagement, development career guides, Probably Good/Charity Entrepreneurship, etc.). The most novel element is explicitly combining EA-style impact evaluation with targeted outreach to the African diaspora and LMIC career paths. For the general public the combination is moderately novel \u2014 career platforms and diaspora initiatives are common, but an EA-informed, impact-centered, Africa/LMIC-focused career-advice product is less typical and therefore somewhat original."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is well-structured (problem \u2192 theory of change \u2192 MVP \u2192 impact) and presents a plausible mechanism (career redirection) with sensible early product ideas and acknowledged uncertainties. Weaknesses: Key claims are largely speculative and under\u2011evidenced \u2014 there is little empirical data on demand among the African diaspora, conversion rates from advice to high\u2011leverage careers, or the counterfactual impact of such career changes. The impact scenario uses arbitrary numbers without justification, and there is limited citation of evidence showing which specific roles in LMICs are highest\u2011impact or that targeted career guidance would be cost\u2011effective. Overall: a promising, logically coherent concept but currently lacks the empirical backing and measurement plan needed to strongly support the thesis."
+  },
+  "PostExternalValidation": {
+    "post_id": "EiSHuf8e33BH2t3GX",
+    "emperical_claim_validation_score": 7,
+    "validation_notes": "Most of the post\u2019s high\u2011level empirical claims are plausibly supported by reputable sources: 80,000 Hours does focus heavily on AI/longtermist career pathways and reports thousands of advising calls/plan changes; there is robust evidence that a range of low\u2011cost global health and development interventions are effective (GiveWell, DCP3); and there is substantial evidence of strong diaspora engagement with Africa (remittances, desire to contribute) and of an opaque/\u2018hidden\u2019 job market where referrals matter. Weaknesses: the poverty figure is mis\u2011specified (the post says \u201c800m+ on less than $3.65/day according to the updated World Bank definition\u201d but World Bank poverty lines and headcounts were recently revised \u2014 the extreme poverty line was $2.15 (2017 PPP) in 2022 and then updated to $3.00 (2021 PPP) in June 2025; counts at $3.65 refer to an earlier LMIC line and different headcounts, so the \"800m+ <$3.65\" phrasing is inaccurate/misleading). The conversion of readership \u2192 career changes is speculative and not backed by direct evidence; 80,000 Hours\u2019 own impact evaluations show effect but also important caveats about over\u2011attribution. Overall: most major factual claims are supported, but some numerical/causal claims are imprecise or speculative.",
+    "sources": [
+      "80,000 Hours \u2014 Home / What we do (80000hours.org) \u2014 shows topical focus on AI/longtermism, advising statistics and impact/credibility pages.",
+      "80,000 Hours \u2014 Our impact and credibility / evaluations (https://80000hours.org/about/credibility/) \u2014 reporting advising calls, plan changes and evaluations.",
+      "World Bank \u2014 Fact Sheet: An Adjustment to Global Poverty Lines (May 2022) \u2014 explains $2.15/$3.65/$6.85 lines based on 2017 PPPs and baseline headcounts.",
+      "World Bank \u2014 June 2025 Update to Global Poverty Lines (June 5, 2025) \u2014 describes new $3.00 international poverty line (2021 PPP) and revised headcounts (e.g., ~838 million in extreme poverty in 2022 under the new line).",
+      "World Bank \u2014 Measuring Poverty overview / Global Trends in Child Monetary Poverty (World Bank / UNICEF pages summarizing child poverty at $2.15, $3.65, $6.85; e.g., 829M children under $3.65 in 2022 child estimate).",
+      "GiveWell \u2014 Our Top Charities / program evidence (GiveWell pages summarising evidence & cost\u2011effectiveness for nets, SMC, vitamin A, cash transfers etc.).",
+      "Disease Control Priorities (DCP3) \u2014 review of cost\u2011effective interventions for LMICs (dcp-3.org).",
+      "African Development Bank & World Bank blogs/reports on diaspora engagement and remittances (e.g., AfDB press release and World Bank blog noting ~30+ million Africans in diaspora and large remittance flows).",
+      "Reporting / research on the \u2018hidden job market\u2019 and importance of referrals (examples: WSJ coverage on networking/referrals; Forbes pieces and synthesis articles summarising recruitment data showing large shares of hires via referrals/hidden channels)."
+    ]
+  }
+}

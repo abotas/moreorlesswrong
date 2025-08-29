@@ -4,5 +4,47 @@
     "author_fame_ea": 8,
     "author_fame_humanity": 5,
     "explanation": "Animal Charity Evaluators (ACE) is an organization, not an individual. It is well known and influential within the effective altruism and effective animal advocacy communities for its charity evaluations and recommendations, and regularly engages with EA audiences \u2014 hence a high EA-community rating. It is less known to the general public but recognized within animal-welfare and philanthropic/professional circles, so a moderate global rating."
+  },
+  "PostValue": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is a practical announcement about an AMA tied to ACE Movement Grants \u2014 useful for potential applicants and people tracking animal-advocacy grantmaking, but not load-bearing for EA theory or major strategy. It has limited scope and negligible impact on humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify the scope and expectations of the AMA. Say explicitly whether the team will give organization- or application-specific feedback, whether they'll answer fundraising/strategy questions beyond the Movement Grants program, and whether some questions are off-limits (e.g., confidential details). Tip: add 1\u20132 example questions you expect to answer so readers know what to ask.\n\n2) Remove potential confusion about deadlines and make the timeline explicit. Right now you say \u201cApplications close March 14\u201d but then say \u201cto apply for this round you will need to submit your Expression of Interest by March 7.\u201d Rephrase to show the difference between the Expression of Interest (EOI) deadline and the final application deadline, and explain whether submitting an EOI by March 7 is required to be eligible for the March 14 application. Consider adding UTC or a second common timezone (e.g., GMT/UTC) for international readers.\n\n3) Add brief logistics/accessibility details. Say whether the AMA will be moderated, whether answers will be archived or a transcript posted, whether the session will be recorded, how you\u2019ll prioritize pre-submitted vs live questions, and any accessibility supports (captions, alternative formats). These small additions reduce follow-up questions and increase attendance.",
+    "improvement_potential": "Clear, actionable suggestions that fix likely reader confusions (deadlines, scope of questions) and improve accessibility/logistics. These changes would reduce follow-ups and increase participation without adding much length; they address important omissions rather than trivial style points."
+  },
+  "PostClarity": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "clarity_score": 8,
+    "explanation": "Clear, well-structured announcement: purpose, date/time, who will answer, deadline and how to participate are all easy to find. Minor improvements could make it slightly stronger (e.g., clarify format of the AMA \u2014 live chat vs. threaded responses, offer alternate time-zone conversions, and avoid repeating the same link), but overall it communicates its message concisely and effectively."
+  },
+  "PostNovelty": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "novelty_ea": 2,
+    "novelty_humanity": 2,
+    "explanation": "This is an event announcement (AMA + grant call) with routine logistical details (dates, participants, how to apply). For EA Forum readers, AMAs and ACE grant rounds are familiar and common, so it's not novel. For the general public it's slightly more specific/niche (ACE and Movement Grants may be unknown) but the core idea\u2014an organization announcing an AMA and grant application deadline\u2014is still commonplace."
+  },
+  "PostInferentialSupport": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "reasoning_quality": 3,
+    "evidence_quality": 6,
+    "overall_support": 7,
+    "explanation": "This is primarily an informational announcement rather than an argumentative post, so it contains little in the way of logical reasoning to evaluate (hence a low reasoning score). It provides relevant, verifiable details (dates, times, links, staff names, deadlines) that let readers confirm and act on the claim that ACE is hosting an AMA, so evidence is moderately strong. The main thesis (that ACE will host an AMA and is accepting Movement Grants applications) is well supported by those concrete details, but the post offers no supporting data about impact, selection criteria, or past outcomes \u2014 information that would be needed for stronger evaluative or persuasive claims."
+  },
+  "PostExternalValidation": {
+    "post_id": "rHpDMkLBQuNFKqg5d",
+    "emperical_claim_validation_score": 9,
+    "validation_notes": "Major factual claims in the post are well supported by primary sources from ACE. The FAST Forum and EA Forum announcement posts (authored by ACE) state the AMA date/time (Feb 17, 8\u201310am PT), the Movement Grants application timeline (EOI by Mar 7 and applications close Mar 14 at 11:59 PM PT), and list the three staffers named. ACE\u2019s own blog confirms a Feb 17, 2025 AMA and summarizes the event. ACE\u2019s team pages confirm the job titles for Eleanor McAree (Movement Grants Manager), Elisabeth Ormandy (Programs Director), and Holly Baines (Communications Manager). Minor caveat: the Movement Grants application guidelines page confirms an early\u20112025 round (February opening) but does not itself show the exact Mar 7 / Mar 14 cutoff dates \u2014 those specific deadlines appear in ACE\u2019s forum announcements and the AMA blog post. Overall the post is accurate and verifiable from ACE primary sources.",
+    "sources": [
+      "Animal Charity Evaluators \u2014 Movement Grants: Application Guidelines (Apply for Movement Grants) (animalcharityevaluators.org/movement-grants/apply-for-funding/) \u2014 confirms early\u20112025 round details and application process.",
+      "FAST Forum \u2014 \"Announcement: Animal Charity Evaluators is hosting an AMA on February 17 at 8-10am PT\" (forum.fastcommunity.org/posts/mPnNWF5J9tEKabSpm/announcement-animal-charity-evaluators-is-hosting-an-ama-on-YD3k) \u2014 announcement text including Feb 17 time and Mar 7 / Mar 14 deadlines.",
+      "EA Forum \u2014 \"Announcement: Animal Charity Evaluators is hosting an AMA on February 17 at 8-10am PT\" (forum.effectivealtruism.org/posts/rHpDMkLBQuNFKqg5d/announcement-animal-charity-evaluators-is-hosting-an-ama-on) \u2014 mirrored announcement with the same dates/deadlines.",
+      "Animal Charity Evaluators \u2014 Blog: \"2025 Movement Grants AMA Highlights\" (animalcharityevaluators.org/blog/2025-movement-grants-ama-highlights/) \u2014 confirms ACE hosted an AMA on Feb 17, 2025 and links to the FAST Forum thread.",
+      "Animal Charity Evaluators \u2014 Meet Our Team / staff pages (animalcharityevaluators.org/about/our-team and individual team pages) \u2014 confirms titles for Eleanor McAree, Elisabeth Ormandy, and Holly Baines."
+    ]
   }
 }

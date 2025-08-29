@@ -4,5 +4,50 @@
     "author_fame_ea": 1,
     "author_fame_humanity": 1,
     "explanation": "The single name 'christian' is too common and possibly a pseudonym; there is no clear, identifiable presence tied to EA/rationalist publications, talks, or leadership. I cannot find evidence they are known within EA or more broadly. Provide a full name, username, links, or sample work to get a more accurate assessment."
+  },
+  "PostValue": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is mainly a community/platform announcement: useful to forecasters and EA/rationalist folks who use Metaculus for practice, recruitment, and engagement, but not foundational. A modest prize and regular tournaments help build forecasting skill and community, which has small indirect benefits for forecasting-important domains (including some EA-relevant work), but the direct practical impact is minor. For general humanity the post is trivial."
+  },
+  "PostRobustness": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Clarify the tournament rules and scoring details. The post repeatedly refers to a \u201ctime\u2011averaged score\u201d and says questions may close early, but doesn\u2019t specify the exact scoring formula (e.g. Brier / log score), how time\u2011averaging is computed, how frequently scores are sampled, how the forecasting prize pool is split among winners, or how ties are resolved. Readers need these details to judge fairness and to decide whether to enter. Actionable fix: add a short rules section listing the exact scoring metric, the aggregation period for time\u2011averaging, tie\u2011breaking rules, and an explicit prize split (or \u201ctop N by score get $X each / proportional split\u201d) or link to a page that contains all of this in plain language.  \n\n2) Make the commenting prize process transparent and anti\u2011gaming safeguards explicit. As written, selection criteria are subjective (e.g. \u201cinsightful reasoning\u201d / \u201cChanged My Mind votes\u201d), which invites perceived bias or vote\u2011gaming. Actionable fix: state who selects the winners (Metaculus staff? independent judges?), whether selections will be published with short rationales, how community signals (votes/ratings/Key Factors) will be weighed, and what anti\u2011gaming measures are in place (e.g. protections against sockpuppets or brigading). If feasible, add a simple rubric (e.g. originality 30%, evidence 30%, clarity 20%, impact 20%) or promise to publish winners and short justifications to improve perceived legitimacy.  \n\n3) Add eligibility, legal, and abuse\u2011prevention details. The post omits whether there are geographic or employment restrictions (e.g. Metaculus staff or contractors), rules on multiple accounts, tax or payment withholding information, and what happens if a question is canceled or invalidated. Actionable fix: briefly state eligibility (who can/can\u2019t enter), whether multiple accounts or coordinated teams are allowed, how winners will be paid and taxed (or that winners should expect to handle their own tax reporting), and the policy for question cancellations/early closures so entrants understand edge cases.",
+    "improvement_potential": "This feedback identifies several important, non-trivial omissions that affect fairness and participant trust: exact scoring/tie rules, how commenting winners are chosen and protected against gaming, and eligibility/payment/abuse policies. Fixing these would materially improve the announcement and requires only a short rules section or links to a full rules page (so it won\u2019t bloat the post). It\u2019s not a 10 because the problems aren\u2019t fatal to the announcement (details can live on a linked rules page), but they are critical enough that leaving them out invites confusion and potential embarrassment."
+  },
+  "PostClarity": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "clarity_score": 8,
+    "explanation": "Overall very clear: well-structured with headings, bullets, and clear prize and schedule breakdowns; links and examples help comprehension. Minor issues: a raw image at the top, a couple of slightly ambiguous phrasings (e.g., \"set to 'Upcoming'\" schedule and \"questions will frequently close early\" could be more precise), and a bit of repetition \u2014 but nothing that prevents understanding."
+  },
+  "PostNovelty": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "novelty_ea": 2,
+    "novelty_humanity": 3,
+    "explanation": "This is primarily an event/contest announcement for a forecasting platform (Metaculus). For EA Forum readers\u2014many of whom already know Metaculus and forecasting tournaments\u2014this is familiar and unsurprising (small variation in format/prize). For the general public, while Metaculus itself may be unfamiliar, the core idea (prediction competition with cash prizes, weekly questions, commentary rewards) is common and not especially original. The only mildly novel elements are specific prize splits and the emphasis on commenting/key factors, which are incremental rather than groundbreaking."
+  },
+  "PostInferentialSupport": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: clear, logically organized presentation of the tournament structure, prizes, and incentives; plausible claims about benefits for forecasters (skill-building, reputation, engagement). Weaknesses: largely promotional and descriptive rather than argumentative \u2014 it offers little empirical evidence that the format or prize changes will achieve the claimed outcomes (no uptake/engagement data, no past performance comparison, no user testimonials), and some claims (e.g., suitability for all skill levels) are asserted without supporting data."
+  },
+  "PostExternalValidation": {
+    "post_id": "XpdtiySZsHJmGL6dM",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Major empirical claims in the post are well-supported by Metaculus\u2019 own pages and the public announcement. I verified that the Metaculus Cup tournament exists and lists a $5,000 prize pool and the May\u2013September 2025 dates; the four example questions named in the post exist on Metaculus with the listed IDs; Metaculus has a public announcement/notebook about the Cup. The more granular operational details (the exact Monday/Friday cadence, \u201caverage of 4 questions,\u201d and the full commenting-prize payout breakdown) appear in the EA Forum repost and are very likely copied from Metaculus\u2019 announcement notebook, but I could not load the full notebook text via the site renderer to fetch that block of text directly from the Metaculus announcement page in rendered form. So overall the high-level claims (tournament, $5k pool, dates, example questions, that there is a commenting prize) are verified; the fine-grained schedule and exact comment-prize breakdown are credible and likely accurate but have slightly weaker direct public-page confirmation in the pieces I could fully render.",
+    "sources": [
+      "Metaculus \u2014 Metaculus Cup tournament page (metaculus.com/tournament/metaculus-cup/) (shows $5,000 prize pool and May\u2013Sep 2025 dates).",
+      "Metaculus \u2014 Metaculus Cup overview page (metaculus.com/cup/) (Cup description, dates and prize pool).",
+      "Metaculus question: Who will win the Tour de France 2025? (metaculus.com/questions/36440/) (one of the example questions cited).",
+      "Metaculus question: What defence spending target will NATO agree to at their 2025 summit? (metaculus.com/questions/36822/) (example question cited).",
+      "Metaculus question: Will Norway announce the replacement design for the Fridtjof Nansen-class before September 2025? (metaculus.com/questions/36402/) (example question cited).",
+      "Metaculus question: Will the restrictions on Revolut's UK banking licence be removed before July 26, 2025? (metaculus.com/questions/36399/) (example question cited; shows 'Resolved: No').",
+      "Metaculus notebook \u2014 'Announcing the Metaculus Cup series!' (metaculus.com/notebooks/37352/) (Metaculus\u2019 announcement/preview of the Cup series).",
+      "EA Forum linkpost by christian \u2014 'The Metaculus Cup Series Is Live, $5,000 Prize Pool' (forum.effectivealtruism.org/posts/XpdtiySZsHJmGL6dM) (the post under evaluation, which mirrors the Metaculus announcement)."
+    ]
   }
 }

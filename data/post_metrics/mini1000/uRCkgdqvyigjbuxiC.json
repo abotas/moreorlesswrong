@@ -1,1 +1,50 @@
-{}
+{
+  "PostValue": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "value_ea": 3,
+    "value_humanity": 1,
+    "explanation": "This is an operational/organizing announcement: useful for EA community members in Southeast Asia and for those who want to run or attend EAGxSingapore (affects local community-building, networking, and capacity). It is not a load-bearing or theory-changing post for EA strategy or priorities, and has negligible impact on humanity at large."
+  },
+  "PostRobustness": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Fix the application link and test it before publishing. The post currently links to a Google Form edit URL (and repeats that same /edit link), which is either the owner/edit link (not a public submit link) or at least confusing. Provide the public form \u201cview/submit\u201d URL, test it in an incognito window, and replace duplicate links so applicants don\u2019t hit a broken or private page.\n\n2) Be explicit about compensation and travel/visa support. You say roles are paid hourly and \u201ccompetitive/location-adjusted,\u201d but many potential applicants (especially those outside Singapore) will want a concrete hourly range, example total expected pay for each role type, and whether conference-related travel, accommodation, and visa costs will be covered. If rates vary by role/experience, give ranges or examples. This reduces wasted applications and increases trust.\n\n3) Clarify in-person requirements and typical time commitment by role. The post gives very wide time windows (2\u201315 hrs/wk vs 20\u201340+ as you ramp up) and says core organizers must be in person for the week of the conference, but other expectations are vague. State which specific roles require being Singapore-based or onsite for setup, whether remote-only applicants are considered, how long organisers will be expected to be onsite, and give a short example timeline of weekly hours for each role (e.g., Production: 5\u201310 hrs/wk until Sept, then 20\u201330 hrs/wk). This will help applicants self-select appropriately.",
+    "improvement_potential": "Item 1 is critical \u2014 the form edit link is an obvious own-goal that could block applicants and should be fixed immediately. Items 2 and 3 are strong, practical suggestions that would materially improve applicant quality and reduce wasted applications (giving ranges for pay and clearer in-person/time expectations is high value). These changes are doable and wouldn\u2019t need much extra length; some organisers may intentionally omit exact pay, but including ranges or examples is still much better for applicant decision-making."
+  },
+  "PostAuthorAura": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I could not find any notable record of an author named Jaynell Chang in EA/rationalist spaces (LessWrong, EA Forum, community lists) or in wider public sources up to my 2024-06 cutoff. The name appears to be unknown or a pseudonym with no visible public presence; if you have links or context I can re-check."
+  },
+  "PostClarity": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "clarity_score": 8,
+    "explanation": "Overall very clear and well-structured: headings, deadlines, links, role descriptions, pay, timeline and contact information are all present and easy to find. The post is concise given the necessary details and makes its purpose (recruiting organizers) compelling and actionable. Minor issues: a visible Google Forms edit link may be inappropriate, a small formatting/spacing inconsistency around 'Pay:', slight duplication of the application link, and a couple of small layout/numbering inconsistencies \u2014 none of which materially harm understanding."
+  },
+  "PostNovelty": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "novelty_ea": 1,
+    "novelty_humanity": 2,
+    "explanation": "This is a routine event-organizing call for applications with logistical details (dates, roles, pay, timeline). For EA Forum readers, such EAGx calls are extremely common and contain no new conceptual claims or arguments (score 1). For the general public, conference/volunteer recruitment posts are also very common; the only mildly specific elements are the Singapore location, dates, and paid-contractor details (score 2)."
+  },
+  "PostInferentialSupport": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "reasoning_quality": 6,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "The post is well-structured, clear, and logically presents the opportunity, roles, timeline, and expectations \u2014 making a coherent case for why people should apply. However, it offers little empirical evidence to substantiate its claims (e.g., \"successful\" past events, expected attendance) beyond links to related posts and role descriptions. No metrics, testimonials, or concrete outcome data are provided, and compensation is described only qualitatively. That makes the announcement informative and reasonable for recruitment, but weak on evidence for the claimed success or impact of the conference."
+  },
+  "PostExternalValidation": {
+    "post_id": "uRCkgdqvyigjbuxiC",
+    "emperical_claim_validation_score": 8,
+    "validation_notes": "Most major factual claims in the post are well-supported by public sources. The EA Forum announcement itself (May 29, 2025) contains the application link, deadline (June 15, 2025 11:59pm GMT), tentative Nov 8\u20139 or Nov 15\u201316 dates, recruitment timeline, pay/contractor description, and named co-leads (Jaynell Chang & Valerie Pang). Historical claims that this would be Singapore\u2019s third EAGx (previous events in 2022 and 2024) are verifiable: official EA pages record EAGxSingapore events in Sep 2\u20133, 2022 and Dec 14\u201315, 2024 (the 2024 page notes ~250 attendees). Organizer roles for 2024 listing Valerie Pang and Jaynell Chang are also publicly recorded. Remaining uncertainties are natural: the 2025 conference dates and attendee count are prospective estimates (not yet realized facts) and so cannot be fully verified until the event is scheduled/held. Overall: most empirical statements are accurate and verifiable; a few are forward-looking projections and appropriately framed as tentative in the post.",
+    "sources": [
+      "EA Forum post: 'Apply to help run EAGxSingapore 2025' by Jaynell Chang & valeriepang (May 29, 2025) \u2014 Effective Altruism Forum (announcement containing application link, deadline, tentative Nov dates, timeline, and co-leads).",
+      "EAGxSingapore 2024 \u2014 EA Global / EffectiveAltruism.org event page (Dec 14\u201315, 2024) \u2014 notes EAGxSingapore brought together ~250 attendees.",
+      "EAGxSingapore 2022 \u2014 EffectiveAltruism.org / Effective Altruism Singapore (Sep 2\u20133, 2022) \u2014 event page and details.",
+      "EA Forum post: 'Apply to run an EAGx event in 2024' (OllieBase, Jul 5, 2023) \u2014 background description of the EAGx series and criteria.",
+      "EA Forum post: 'Apply by Nov 30: EAGxSingapore in December' \u2014 organizer list for EAGxSingapore 2024 (shows Valerie Pang as Production Lead and Jaynell Chang as Volunteer Lead)."
+    ]
+  }
+}

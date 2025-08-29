@@ -1,1 +1,49 @@
-{}
+{
+  "PostValue": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "value_ea": 2,
+    "value_humanity": 1,
+    "explanation": "This is a simple request for reading recommendations about war crimes and their aftermath, not an argumentative or novel claim. It could be somewhat useful to individuals (e.g., researchers or EAers working on conflict, justice, or policy), but it is not load-bearing for EA/worldview decisions and has negligible broad impact on humanity."
+  },
+  "PostRobustness": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Be much more specific about your scope and purpose. Right now the request is too broad for helpers to give useful recommendations. Say which conflicts/regions or time periods you mean (e.g., Rwanda, former Yugoslavia, Ukraine), which aspect of \u201caftermath\u201d you care about (legal accountability, reparations, truth commissions, reconciliation, social/psychological effects, reconstruction, policy lessons), and what you\u2019ll use the readings for (academic literature review, advocacy, teaching, background reading). 2) Clarify format and constraints. Tell readers whether you want peer\u2011reviewed journals vs books vs policy reports, whether articles must be open access, what level of technicality is appropriate, and what languages you can read. That will prevent many low\u2011value suggestions. 3) Fix the small presentation issues and give a better example query. Correct \u201cit\u2019s\u201d \u2192 \u201cits\u201d, add a short example sentence to model the expected reply (e.g., \u201cI\u2019m looking for accessible, peer\u2011reviewed articles on legal accountability and reparations after the Rwandan genocide for a policy memo \u2014 open access preferred\u201d). This will make it easy for others to provide precisely useful recommendations.",
+    "improvement_potential": "The feedback identifies the post's main problems: it's overly vague about scope, purpose, and format (which makes helpful recommendations unlikely), and it flags a minor but embarrassing typo. Following these suggestions would produce a far more answerable request without materially lengthening the post. It could score higher only if it also suggested a minimal example rewrite the author could paste directly."
+  },
+  "PostAuthorAura": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I cannot find an identifiable or notable presence for an author named \u2018Nayanika\u2019 (possibly a pseudonym) in EA/rationalist venues (EA Forum, LessWrong, major EA projects), academic databases, or mainstream media up to my 2024-06 cutoff. No widely cited works or conference appearances are apparent. If you can share links or more context (sample writings, platform), I can re-evaluate more precisely."
+  },
+  "PostClarity": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "clarity_score": 6,
+    "explanation": "The request is very short and straightforward, so it's easy to understand the basic goal (seeking readings on war crimes and their aftermath). However, it's overly terse and under-specified \u2014 minor grammatical issues (\"it's\" \u2192 \"its\", \"War crime\" \u2192 \"war crimes\") and no indication of desired scope (legal, historical, sociological, psychological), time period, region, or level of technicality. This makes it hard to give targeted recommendations."
+  },
+  "PostNovelty": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "novelty_ea": 1,
+    "novelty_humanity": 1,
+    "explanation": "The post is a generic request for reading recommendations on war crimes and their aftermath. This is an extremely common query with no unique framing, hypothesis, or novel perspective\u2014people on EA Forum and the general public frequently ask for suggested readings on well-established topics like this."
+  },
+  "PostInferentialSupport": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "reasoning_quality": 1,
+    "evidence_quality": 1,
+    "overall_support": 1,
+    "explanation": "The post is a simple request for reading recommendations and does not present a thesis, arguments, or evidence to support. There is no reasoning to assess and no empirical material cited. (The question is clear, but that does not constitute argumentative support.)"
+  },
+  "PostExternalValidation": {
+    "post_id": "cFAJSnYKxD4sPAqPR",
+    "emperical_claim_validation_score": 10,
+    "validation_notes": "The post contains no empirical claims to verify \u2014 it is a short request for reading recommendations about \"war crime and its aftermath.\" I verified the original EA Forum post and its timestamps; because the post only asks for recommendations (not asserting facts), there is nothing to validate or contradict. Strength: the post text is directly verifiable online. Weakness: N/A (no empirical content).",
+    "sources": [
+      "EA Forum \u2014 \"Need a reading recommendation!\" by Nayanika (Apr 12, 2025). EffectiveAltruism.org post (forum.effectivealtruism.org/posts/cFAJSnYKxD4sPAqPR).",
+      "International Criminal Court (ICC) \u2014 \"How the Court works\" / \"The crimes\" (definitions of war crimes via the Rome Statute). icc-cpi.int/about/how-the-court-works. (consulted to confirm that 'war crimes' is a defined legal topic with extensive literature).",
+      "Crimes of War Education Project \u2014 CrimesOfWar.org (background resources and articles on war crimes and aftermath).",
+      "Wikipedia \u2014 \"War crime\" (overview of the term and references to primary legal texts such as the Rome Statute)."
+    ]
+  }
+}

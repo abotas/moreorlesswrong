@@ -1,1 +1,53 @@
-{}
+{
+  "PostValue": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "value_ea": 5,
+    "value_humanity": 2,
+    "explanation": "Practical, well\u2011documented guidance for running weekly university EA meetings that is useful for organizers and likely to improve recruitment, retention, and community quality at campus groups. It's moderately important within the EA/rationalist ecosystem because better student groups can increase the pipeline of engaged EAs, but it's not foundational to core EA/longtermist arguments. For general humanity the post is of minor relevance \u2014 it may have small indirect effects via better EA organizing but no direct broad impact."
+  },
+  "PostRobustness": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "robustness_score": 3,
+    "actionable_feedback": "1) Weak empirical support for your central claims (reduced attrition, more people taking \"significant action\"). The post makes strong causal claims about what general meetings accomplish but gives almost no metrics or evidence. Actionable fix: add even simple data or suggest how readers can test this (pre/post attendance & retention rates, follow-up surveys on engagement/actions, counts of applications/volunteer signups/projects started). If you don\u2019t have historical data, state this explicitly and add a short recommended measurement plan readers can copy.  \n\n2) Underestimates organizer time, opportunity costs, and burnout risk. You repeatedly say this is \"easy\" and show optimistic time arithmetic, but many of your examples (presentations, guest speakers, dinners, drives) require significant coordination, money, and volunteer energy\u2014especially as you scale. Actionable fix: include realistic time/cost estimates per meeting (prep, hosting, food, room booking), a recommended staffing/rotation plan, and contingency advice for low turnout (e.g., scripted low-effort activities or a pipeline of pre-made talks). This prevents an \u201cown goal\u201d where organizers overcommit and drop programming.  \n\n3) Overgeneralizes format fit and misses accessibility/inclusivity trade-offs. The post treats weekly, in-person, snack-driven meetings as broadly applicable but doesn\u2019t discuss students with classes, care commitments, disabilities, or off-campus commuters, nor ways to accommodate different goals (community-building vs action-oriented outcomes). Actionable fix: add short guidance on when to choose weekly vs biweekly/virtual/hybrid formats, how to run accessible meetings (recordings, notes, multiple time-options), and how to align meeting format with club goals (community, skill-building, projects) so organizers can choose rather than defaulting to \"weekly general meetings.\"",
+    "improvement_potential": "This feedback targets three substantive, high-impact omissions: unsupported causal claims, optimistic/understated organizer costs and burnout risks, and lack of accessibility/fit guidance. Fixing these would materially improve the post\u2019s reliability and reduce the risk of organizers overcommitting. The suggested corrective actions are practical and could be added succinctly (e.g., a short measurement plan, realistic per-meeting time/cost estimates, and a few lines on hybrid/accessible options), so the benefits outweigh the modest increase in length."
+  },
+  "PostAuthorAura": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "author_fame_ea": 1,
+    "author_fame_humanity": 1,
+    "explanation": "I can find no evidence in my training data (up to mid\u20112024) that 'Alex Dial' is a known figure within the EA/rationalist community or a publicly prominent author. The name does not match central or well\u2011known EA writers/speakers; it may be a pseudonym or a private/obscure author with little public footprint."
+  },
+  "PostClarity": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "clarity_score": 8,
+    "explanation": "The post is well structured and easy to follow: it states a clear claim (run weekly all-invited general meetings), gives reasons (community building, low-effort entry, post-fellowship engagement), and supplies multiple concrete, actionable models and logistics tips. Strengths include clear headings, practical examples, and specific suggestions (timing, format, food, onboarding). Weaknesses: it's somewhat long and occasionally repetitive (a few asides and internal references that interrupt flow), and a few places could be tightened or summarized for readers who want a quicker takeaway."
+  },
+  "PostNovelty": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "novelty_ea": 3,
+    "novelty_humanity": 2,
+    "explanation": "This is a practical, experience-based how-to rather than a novel theoretical claim. EA Forum readers will find most points familiar (weekly meetings, presentations, discussion formats, speed-updating, onboarding, food, alternating socials/dinners are already widely used in EA student groups), so only modestly novel as a consolidated set of tactics and concrete examples. The general public will find it even less novel \u2014 these are common student-club/community-building practices \u2014 though some EA-specific framing and exact formats (rotating 1\u20111s, explicit time-savings hacks, shared drive of ready-made presentations) are small useful details."
+  },
+  "PostInferentialSupport": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "reasoning_quality": 7,
+    "evidence_quality": 3,
+    "overall_support": 5,
+    "explanation": "Strengths: The post is logically organized, makes plausible causal claims (e.g., weekly, low\u2011commitment meetings reduce attrition and build community), anticipates tradeoffs (depth vs accessibility, scalability), and gives multiple concrete models and operational details that increase plausibility. Weaknesses: The evidence is almost entirely anecdotal / case\u2011study based (small samples, self\u2011selected organizers), with few or no quantitative outcome measures (retention rates, sustained engagement, downstream actions) or comparisons to counterfactuals. Claims about increasing 'significant action' are plausible but unsupported. To be stronger it would need systematic data (attendance trends, surveys, experiments or before/after metrics) and clearer causal identification."
+  },
+  "PostExternalValidation": {
+    "post_id": "EX2DB592sxCGkhi5w",
+    "emperical_claim_validation_score": 6,
+    "validation_notes": "Strengths: The post\u2019s core, verifiable claim\u2014that multiple university EA chapters run weekly/all-invited \u201cgeneral meetings\u201d (and that models like presentation+discussion, reading-based dinners, and \u2018impact lab\u2019 workshops exist)\u2014is supported by chapter websites and public materials (UCLA, UC Berkeley, WashU, UT Austin, Purdue). Empirical support for two general principles the author cites is also available: (a) providing food measurably increases attendance at academic/professional meetings (prospective study at an academic medical center), and (b) regular, consistent repetition helps form attendance habits (habit-formation literature). Weaknesses: Many of the post\u2019s more specific empirical claims are local, anecdotal, or causal claims based on organizer experience (e.g., \u201cchips increased attendance from 1 to 3 in Fall 2023,\u201d \u201cdinners achieved similar attendance to general meetings,\u201d \u201cpeople talk more in general meetings than fellowships,\u201d and precise counts of organizers found). Those are plausible but not independently verifiable from public sources and appear to be organizer anecdotes rather than published data. A few phrasings (e.g., mention of the \u201ccollapse of USAID\u201d) are ambiguous and may conflate local discussion topics with broader news; they do not undermine the post\u2019s main organizing advice but should be treated as contextual/interpretive rather than verified facts. Overall: well-supported that the described meeting formats and practices are real and used by university EA chapters (score above midpoint), but many of the attendance/causal claims are anecdotal and lack independent, generalizable evidence (so not a top score).",
+    "sources": [
+      "Effective Altruism at UCLA \u2014 Weekly Dinners / Events (eaucla.org).",
+      "EA Berkeley \u2014 Fellowship and weekly meetings (eaberkeley.com / EA Berkeley site).",
+      "WashU Impact Society \u2014 Impact Lab description (washuimpact.com / Impact Lab page).",
+      "Effective Altruism at UT Austin \u2014 chapter site (eautexas.org).",
+      "Effective Altruism Purdue \u2014 chapter site (eapurdue.org) and EA Purdue group page on EA Forum.",
+      "\"If you feed them, they will come\": prospective study of complimentary food on attendance at medical grand rounds \u2014 Mayo Clinic / PubMed (Segovis et al., 2007).",
+      "How are habits formed: Modeling habit formation in the real world \u2014 Phillippa Lally et al., European Journal of Social Psychology (2010).",
+      "Mirror / repost of EA Purdue 'Lessons Learned' (matches organizer-style content used in the post) (mirror: forum.nunosempere.com post)."
+    ]
+  }
+}
