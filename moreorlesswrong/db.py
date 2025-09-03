@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-from typing import List, Literal
+from typing import List, Literal, Optional
 from pathlib import Path
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -74,6 +74,73 @@ def read_saved_posts(file_id: str) -> List[Post]:
     with open(file_path, 'r') as f:
         data = json.load(f)
         return [Post(**post_data) for post_data in data]
+
+
+def get_chronological_sample_posts(
+    n: int, 
+    start_datetime: datetime, 
+    end_datetime: Optional[datetime] = None
+) -> List[Post]:
+    """Get every nth post chronologically from a start datetime.
+    
+    Args:
+        n: Take every nth post (e.g., n=10 takes every 10th post)
+        start_datetime: Start sampling from this datetime
+        end_datetime: Optional end datetime (defaults to latest post)
+        
+    Returns:
+        List of Posts sampled chronologically at regular intervals
+        
+    Example:
+        # Get every 50th post starting from Jan 1, 2024
+        posts = get_chronological_sample_posts(
+            n=50, 
+            start_datetime=datetime(2024, 1, 1)
+        )
+    """
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            # Use named parameters to avoid modulo operator issues
+            if end_datetime:
+                query = """
+                    WITH chronological_posts AS (
+                        SELECT *,
+                               ROW_NUMBER() OVER (ORDER BY posted_at ASC) as row_num
+                        FROM fellowship_mvp
+                        WHERE posted_at >= %(start_date)s AND posted_at <= %(end_date)s
+                        AND posted_at IS NOT NULL
+                    )
+                    SELECT * FROM chronological_posts
+                    WHERE row_num %% %(n_val)s = 1
+                    ORDER BY posted_at ASC
+                """
+                params = {
+                    'start_date': start_datetime, 
+                    'end_date': end_datetime, 
+                    'n_val': n
+                }
+            else:
+                query = """
+                    WITH chronological_posts AS (
+                        SELECT *,
+                               ROW_NUMBER() OVER (ORDER BY posted_at ASC) as row_num
+                        FROM fellowship_mvp
+                        WHERE posted_at >= %(start_date)s
+                        AND posted_at IS NOT NULL
+                    )
+                    SELECT * FROM chronological_posts
+                    WHERE row_num %% %(n_val)s = 1
+                    ORDER BY posted_at ASC
+                """
+                params = {
+                    'start_date': start_datetime,
+                    'n_val': n
+                }
+            
+            # Get chronologically ordered posts with row numbers
+            cur.execute(query, params)
+            
+            return [Post(**row) for row in cur.fetchall()]
 
 
 if __name__ == "__main__":

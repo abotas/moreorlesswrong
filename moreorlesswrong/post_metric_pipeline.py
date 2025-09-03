@@ -124,13 +124,14 @@ def process_posts(
 
 if __name__ == "__main__":
     import argparse
-    from db import get_representative_posts
+    from datetime import datetime
+    from db import get_chronological_sample_posts
     
-    parser = argparse.ArgumentParser(description="Process posts to compute metrics")
-    parser.add_argument("--posts", type=int, default=10,
-                       help="Number of posts to process (default: 10)")
-    parser.add_argument("--version", type=str, default="post_v1",
-                       help="Version ID for this processing run (default: post_v1)")
+    parser = argparse.ArgumentParser(description="Process posts to compute metrics using chronological sampling")
+    parser.add_argument("--every-n", type=int, default=50,
+                       help="Sample every nth post chronologically (default: 50)")
+    parser.add_argument("--version", type=str, default="post_v2",
+                       help="Version ID for this processing run (default: post_v2)")
     parser.add_argument("--threads", type=int, default=4,
                        help="Number of worker threads (default: 4)")
     parser.add_argument("--model", type=str, default="gpt-5-mini",
@@ -141,17 +142,39 @@ if __name__ == "__main__":
     
     # Hardcoded list of metrics to compute
     METRICS = [
-        "PostValue",
-        "PostRobustness", 
-        "PostAuthorAura",
-        "PostClarity",
-        "PostNovelty",
-        "PostInferentialSupport",
-        "PostExternalValidation"
+        # V2 Primary Virtues from paul's framework
+        # "TruthfulnessV2",
+        "ValueV2", 
+        "CooperativenessV2",
+        # V2 Derivative Virtues from paul's framework
+        # "CoherenceV2",
+        "ClarityV2",
+        "PrecisionV2",
+        # "HonestyV2",
+        # Metrics that were correlative to post karma in V1
+        "AuthorAuraV2",
+        "ExternalValidationV2",
+        "RobustnessV2",
+        "ReasoningQualityV2",
+        # New engagement/karma-predictive metrics
+        # "MemeticPotentialV2",
+        "TitleClickabilityV2", 
+        "ControversyTemperatureV2",
+        "EmpiricalEvidenceQualityV2"
     ]
     
-    # Get posts
-    posts = get_representative_posts(args.posts)
+    # Use fixed start date of 2024-01-01, no end date (latest available)
+    start_datetime = datetime(2024, 1, 1)
+    
+    # Get posts using chronological sampling
+    posts = get_chronological_sample_posts(
+        n=args.every_n,
+        start_datetime=start_datetime
+    )
+    
+    print(f"Sampled {len(posts)} posts (every {args.every_n}th post from 2024-01-01)")
+    if posts:
+        print(f"Date range: {posts[0].posted_at} to {posts[-1].posted_at}")
     
     # Process posts
     process_posts(

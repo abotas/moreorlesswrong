@@ -5,32 +5,85 @@ from models import Post
 from post_metrics.novelty import PostNovelty, compute_post_novelty
 from post_metrics.novelty_support import PostNoveltySupport, compute_post_novelty_support
 from post_metrics.inferential_support import PostInferentialSupport, compute_post_inferential_support
-from post_metrics.external_validation import PostExternalValidation, compute_post_external_validation
+from post_metrics.empirical_claim_external_validation import PostEmpiricalClaimExternalValidation, compute_post_empirical_claim_external_validation
 from post_metrics.robustness import PostRobustness, compute_post_robustness
 from post_metrics.author_aura import PostAuthorAura, compute_post_author_aura
 from post_metrics.value import PostValue, compute_post_value
 from post_metrics.clarity import PostClarity, compute_post_clarity
 
+# V2 Metrics
+from post_metrics.v2 import (
+    TruthfulnessV2, compute_truthfulness_v2,
+    ValueV2, compute_value_v2,
+    CooperativenessV2, compute_cooperativeness_v2,
+    CoherenceV2, compute_coherence_v2,
+    ClarityV2, compute_clarity_v2,
+    PrecisionV2, compute_precision_v2,
+    HonestyV2, compute_honesty_v2,
+    AuthorAuraV2, compute_author_aura_v2,
+    ExternalValidationV2, compute_external_validation_v2,
+    RobustnessV2, compute_robustness_v2,
+    ReasoningQualityV2, compute_reasoning_quality_v2,
+    MemeticPotentialV2, compute_memetic_potential_v2,
+    TitleClickabilityV2, compute_title_clickability_v2,
+    ControversyTemperatureV2, compute_controversy_temperature_v2,
+    EmpiricalEvidenceQualityV2, compute_empirical_evidence_quality_v2
+)
+
 # Registry of all available post metrics
 METRIC_CLASSES = {
-    "PostNovelty": PostNovelty,
-    "PostNoveltySupport": PostNoveltySupport,
-    "PostInferentialSupport": PostInferentialSupport,
-    "PostExternalValidation": PostExternalValidation,
-    "PostRobustness": PostRobustness,
-    "PostAuthorAura": PostAuthorAura,
-    "PostValue": PostValue,
-    "PostClarity": PostClarity
+    # # V1 Metrics
+    # "PostNovelty": PostNovelty,
+    # "PostNoveltySupport": PostNoveltySupport,
+    # "PostInferentialSupport": PostInferentialSupport,
+    # "PostEmpiricalClaimExternalValidation": PostEmpiricalClaimExternalValidation,
+    # "PostRobustness": PostRobustness,
+    # "PostAuthorAura": PostAuthorAura,
+    # "PostValue": PostValue,
+    # "PostClarity": PostClarity,
+    # V2 Metrics
+    "TruthfulnessV2": TruthfulnessV2,
+    "ValueV2": ValueV2,
+    "CooperativenessV2": CooperativenessV2,
+    "CoherenceV2": CoherenceV2,
+    "ClarityV2": ClarityV2,
+    "PrecisionV2": PrecisionV2,
+    "HonestyV2": HonestyV2,
+    "AuthorAuraV2": AuthorAuraV2,
+    "ExternalValidationV2": ExternalValidationV2,
+    "RobustnessV2": RobustnessV2,
+    "ReasoningQualityV2": ReasoningQualityV2,
+    "MemeticPotentialV2": MemeticPotentialV2,
+    "TitleClickabilityV2": TitleClickabilityV2,
+    "ControversyTemperatureV2": ControversyTemperatureV2,
+    "EmpiricalEvidenceQualityV2": EmpiricalEvidenceQualityV2
 }
 POST_METRIC_REGISTRY = {
-    "PostNovelty": compute_post_novelty,
-    "PostNoveltySupport": compute_post_novelty_support,
-    "PostInferentialSupport": compute_post_inferential_support,
-    "PostExternalValidation": compute_post_external_validation,
-    "PostRobustness": compute_post_robustness,
-    "PostAuthorAura": compute_post_author_aura,
-    "PostValue": compute_post_value,
-    "PostClarity": compute_post_clarity
+    # V1 Metrics
+    # "PostNovelty": compute_post_novelty,
+    # "PostNoveltySupport": compute_post_novelty_support,
+    # "PostInferentialSupport": compute_post_inferential_support,
+    # "PostEmpiricalClaimExternalValidation": compute_post_empirical_claim_external_validation,
+    # "PostRobustness": compute_post_robustness,
+    # "PostAuthorAura": compute_post_author_aura,
+    # "PostValue": compute_post_value,
+    # "PostClarity": compute_post_clarity,
+    # V2 Metrics
+    "TruthfulnessV2": compute_truthfulness_v2,
+    "ValueV2": compute_value_v2,
+    "CooperativenessV2": compute_cooperativeness_v2,
+    "CoherenceV2": compute_coherence_v2,
+    "ClarityV2": compute_clarity_v2,
+    "PrecisionV2": compute_precision_v2,
+    "HonestyV2": compute_honesty_v2,
+    "AuthorAuraV2": compute_author_aura_v2,
+    "ExternalValidationV2": compute_external_validation_v2,
+    "RobustnessV2": compute_robustness_v2,
+    "ReasoningQualityV2": compute_reasoning_quality_v2,
+    "MemeticPotentialV2": compute_memetic_potential_v2,
+    "TitleClickabilityV2": compute_title_clickability_v2,
+    "ControversyTemperatureV2": compute_controversy_temperature_v2,
+    "EmpiricalEvidenceQualityV2": compute_empirical_evidence_quality_v2
 }
 
 
