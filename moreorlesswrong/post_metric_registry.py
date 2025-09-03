@@ -2,14 +2,6 @@ from typing import List, Dict, Literal
 from pydantic import BaseModel
 
 from models import Post
-from post_metrics.novelty import PostNovelty, compute_post_novelty
-from post_metrics.novelty_support import PostNoveltySupport, compute_post_novelty_support
-from post_metrics.inferential_support import PostInferentialSupport, compute_post_inferential_support
-from post_metrics.empirical_claim_external_validation import PostEmpiricalClaimExternalValidation, compute_post_empirical_claim_external_validation
-from post_metrics.robustness import PostRobustness, compute_post_robustness
-from post_metrics.author_aura import PostAuthorAura, compute_post_author_aura
-from post_metrics.value import PostValue, compute_post_value
-from post_metrics.clarity import PostClarity, compute_post_clarity
 
 # V2 Metrics
 from post_metrics.v2 import (
