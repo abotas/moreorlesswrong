@@ -38,11 +38,10 @@ Once you've identified the thesis and arguments, consider:
 - Are the logical connections between premises and conclusions valid?
 - Does the reasoning flow coherently from point to point?
 - Are there any logical fallacies or reasoning errors?
-- How rigorous is the analytical thinking?
+- Are there plausible counter-arguments and are these adequately addressed?
 
 Post content to grade:
 {title}
-
 {post_text}
 
 Step 1: What is the main thesis or central argument of this post? (Be specific and concise)
@@ -52,7 +51,6 @@ Step 2: What logical arguments does the post make? Consider:
 - Analogies and comparative reasoning
 - Causal arguments and mechanism explanations
 - Theoretical frameworks and conceptual analysis
-- Philosophical arguments and abstract reasoning
 
 Step 3: How effectively does the reasoning support the thesis?
 
@@ -85,20 +83,6 @@ def compute_reasoning_quality_v2(
     post: Post,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
 ) -> ReasoningQualityV2:
-    """Compute reasoning quality score for a post.
-    
-    This metric evaluates:
-    1. The main thesis of the post
-    2. The logical arguments made
-    3. How effectively those arguments support the thesis
-    
-    Args:
-        post: The post to evaluate
-        model: The model to use for evaluation
-        
-    Returns:
-        ReasoningQualityV2 metric object
-    """
     post_text = post.markdown_content or post.html_body or ""
     
     prompt = PROMPT_REASONING_QUALITY.format(

@@ -39,7 +39,6 @@ Consider the following post. Go section by section through the post and asses ho
 
 Post content to grade:
 {title}
-
 {post_text}
 
 Rubric:

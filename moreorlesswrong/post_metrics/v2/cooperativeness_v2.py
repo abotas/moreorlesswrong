@@ -44,7 +44,6 @@ Example of success: Explaining Newtonian physics differently to a 5-year-old, a 
 
 Post content to grade:
 {title}
-
 {post_text}
 
 Rubric:

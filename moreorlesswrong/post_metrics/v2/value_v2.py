@@ -40,10 +40,10 @@ Before evaluating value, consider:
 Examples of low Value:
 - "Water is wet" - makes no difference to any realistic inquiry
 - "David Hume died at 3:51pm" - while extremely informative (rules out he died at any other time), makes no difference to inquiries that matter given my interests
+- "Will McAskill wrote a book outlining his moral philosophy" - this is informative, but does not make a difference to the readership who will be familiar with his work
 
 Post content to grade:
 {title}
-
 {post_text}
 
 Rubric:
