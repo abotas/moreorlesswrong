@@ -40,17 +40,16 @@ Provide specific, actionable 1-2 points of the most important feedback that the 
 Keep in mind author and reader time is precious - imagine there's a steep regularization penalty to post length so feedback that would lengthen the post should be carefully considered.
 
 Post content:
-{title}
-
-{post_text}
+`{title}
+{post_text}`
 
 Respond with valid JSON containing your feedback:
 {{"feedback": "<your 1-3 key points of actionable feedback that would improve this post>"}}
 """
 
 
-PROMPT_STEP2_POST_EVALUATE = """You are evaluating feedback on an EA forum post. Your task is to 
-critically rate the feedback. You should be assessing to what extent the feedback identifies what amount to major mistakes made by the author. 
+PROMPT_STEP2_POST_EVALUATE = """You are evaluating feedback on an EA forum post. Your task is to critically rate the feedback. 
+You should be assessing to what extent the feedback identifies what amount to major mistakes made by the author. 
 To what extent does the feedback identify 'own goals' that the author would be embarrassed to have made if they're brought to the author's attention.
 
 Keep in mind also that reader time is precious - imagine there's a steep regularization penalty to post length so feedback that would lengthen the post must be carefully considered.
@@ -58,7 +57,6 @@ Keep in mind also that reader time is precious - imagine there's a steep regular
 Content to grade:
 Post:
 `{title}
-
 {post_text}`
 
 Potential mistakes identified:

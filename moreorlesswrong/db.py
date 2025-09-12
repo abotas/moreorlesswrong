@@ -143,6 +143,83 @@ def get_chronological_sample_posts(
             return [Post(**row) for row in cur.fetchall()]
 
 
+def get_n_most_recent_posts_in_same_cluster(
+    post_id: str, 
+    cluster_cardinality: Literal[5, 12], 
+    n: int
+) -> List[Post]:
+    """Get the n most recent posts in the same cluster that were posted before the given post.
+    
+    Args:
+        post_id: The ID of the post to find cluster siblings for
+        cluster_cardinality: Either 5 or 12 for the cluster grouping
+        n: Number of recent posts to return
+        
+    Returns:
+        List of Posts in the same cluster posted before the given post,
+        ordered by posted_at descending (most recent first)
+    """
+    cluster_col = f"ea_cluster_{cluster_cardinality}"
+    
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            # First get the cluster ID and posted_at for the given post
+            cur.execute(f"""
+                SELECT {cluster_col}, posted_at
+                FROM fellowship_mvp
+                WHERE post_id = %s
+            """, (post_id,))
+            
+            result = cur.fetchone()
+            if not result:
+                return []
+            
+            cluster_id = result[cluster_col]
+            post_timestamp = result['posted_at']
+            
+            # Now get the n most recent posts in the same cluster before this post
+            cur.execute(f"""
+                SELECT * 
+                FROM fellowship_mvp
+                WHERE {cluster_col} = %s
+                    AND posted_at < %s
+                ORDER BY posted_at DESC
+                LIMIT %s
+            """, (cluster_id, post_timestamp, n))
+            
+            return [Post(**row) for row in cur.fetchall()]
+
+
+def get_posts_by_author_in_date_range(
+    author_display_name: str,
+    start_date: datetime,
+    end_date: datetime
+) -> List[Post]:
+    """Get all posts by an author within a date range.
+    
+    Args:
+        author_display_name: The display name of the author
+        start_date: The start date (inclusive)
+        end_date: The end date (inclusive)
+        
+    Returns:
+        List of Posts by the author in the date range,
+        ordered by posted_at descending (most recent first)
+    """
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                SELECT * 
+                FROM fellowship_mvp
+                WHERE author_display_name = %s
+                    AND posted_at >= %s
+                    AND posted_at <= %s
+                ORDER BY posted_at DESC
+            """, (author_display_name, start_date, end_date))
+            
+            return [Post(**row) for row in cur.fetchall()]
+
+
 if __name__ == "__main__":
     
     # representative_10 = get_representative_posts(10)

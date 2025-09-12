@@ -22,6 +22,14 @@ from post_metrics.v2 import (
     EmpiricalEvidenceQualityV2, compute_empirical_evidence_quality_v2
 )
 
+# V3 Metrics
+from post_metrics.v3.value_v3 import ValueV3, compute_value_v3
+from post_metrics.v3.author_aura_v3 import AuthorAuraV3, compute_author_aura_v3
+from post_metrics.v3.reasoning_quality_v3 import ReasoningQualityV3, compute_reasoning_quality_v3
+from post_metrics.v3.cooperativeness_v3 import CooperativenessV3, compute_cooperativeness_v3
+from post_metrics.v3.precision_v3 import PrecisionV3, compute_precision_v3
+from post_metrics.v3.empirical_evidence_quality_v3 import EmpiricalEvidenceQualityV3, compute_empirical_evidence_quality_v3
+
 # Registry of all available post metrics
 METRIC_CLASSES = {
     # # V1 Metrics
@@ -48,7 +56,14 @@ METRIC_CLASSES = {
     "MemeticPotentialV2": MemeticPotentialV2,
     "TitleClickabilityV2": TitleClickabilityV2,
     "ControversyTemperatureV2": ControversyTemperatureV2,
-    "EmpiricalEvidenceQualityV2": EmpiricalEvidenceQualityV2
+    "EmpiricalEvidenceQualityV2": EmpiricalEvidenceQualityV2,
+    # V3 Metrics
+    "ValueV3": ValueV3,
+    "AuthorAuraV3": AuthorAuraV3,
+    "ReasoningQualityV3": ReasoningQualityV3,
+    "CooperativenessV3": CooperativenessV3,
+    "PrecisionV3": PrecisionV3,
+    "EmpiricalEvidenceQualityV3": EmpiricalEvidenceQualityV3
 }
 POST_METRIC_REGISTRY = {
     # V1 Metrics
@@ -75,7 +90,14 @@ POST_METRIC_REGISTRY = {
     "MemeticPotentialV2": compute_memetic_potential_v2,
     "TitleClickabilityV2": compute_title_clickability_v2,
     "ControversyTemperatureV2": compute_controversy_temperature_v2,
-    "EmpiricalEvidenceQualityV2": compute_empirical_evidence_quality_v2
+    "EmpiricalEvidenceQualityV2": compute_empirical_evidence_quality_v2,
+    # V3 Metrics
+    "ValueV3": compute_value_v3,
+    "AuthorAuraV3": compute_author_aura_v3,
+    "ReasoningQualityV3": compute_reasoning_quality_v3,
+    "CooperativenessV3": compute_cooperativeness_v3,
+    "PrecisionV3": compute_precision_v3,
+    "EmpiricalEvidenceQualityV3": compute_empirical_evidence_quality_v3
 }
 
 

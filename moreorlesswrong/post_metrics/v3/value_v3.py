@@ -1,20 +1,22 @@
-from typing import Literal
+from typing import Literal, Optional
 from pydantic import BaseModel
 import json
 
 from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
+from db import get_n_most_recent_posts_in_same_cluster
+from synthesizer import synthesize_context
 
 
-class ValueV2(BaseModel):
+class ValueV3(BaseModel):
     post_id: str
     value_score: int  # 1-10 overall value score
     explanation: str
     
     @classmethod
     def metric_name(cls) -> str:
-        return "ValueV2"
+        return "ValueV3"
     
     @classmethod
     def metric_score_fields(cls) -> list[str]:
@@ -27,7 +29,8 @@ class ValueV2(BaseModel):
         }
 
 
-PROMPT_VALUE = """Evaluate the VALUE of this post to EA forum readership.
+# Extract the evaluation criteria for the synthesizer
+VALUE_EVALUATION_CRITERIA = """Evaluate the VALUE of this post to EA forum readership.
 
 "Would the information provided make a difference to readership if it were accurate?"
 
@@ -42,35 +45,70 @@ Examples of low Value:
 - "David Hume died at 3:51pm" - while extremely informative (rules out he died at any other time), makes no difference to inquiries that matter given my interests
 - "Will McAskill wrote a book outlining his moral philosophy" - this is informative, but does not make a difference to the readership who will be familiar with his work
 
-Post content to grade:
-`{title}
-{post_text}`
-
 Rubric:
 Grade on a 1-10 scale for value to EA forum readership:
 - 1-2: Says a series of true platitudes instead of providing important information
 - 3-4: Limited value, information doesn't matter to important inquiries  
 - 5-6: Moderate value, somewhat difference-making
 - 7-8: High value, addresses inquiries that matter to agents
-- 9-10: Exceptional value, information would make crucial differences to decisions
+- 9-10: Exceptional value, information would make crucial differences to decisions"""
+
+
+PROMPT_VALUE_V3 = """{evaluation_criteria}
+
+Synthesis agent compiled some potentially useful context from recent, related posts:
+{synthesized_info}
+
+Post content to grade:
+```
+{title}
+{post_text}
+```
 
 Respond with JSON:
 {{
-    "value_score": <int 1-10 overall value>,
     "explanation": "<brief explanation of value assessment>"
+    "value_score": <int 1-10 overall value>,
 }}
 """
 
 
-def compute_value_v2(
+def compute_value_v3(
     post: Post,
-    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
-) -> ValueV2:
+    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+) -> ValueV3:
+    """Compute value score for a post with synthesized information from related posts.
+    
+    Args:
+        post: The post to evaluate
+        model: The model to use for evaluation
+        use_synthesis: Whether to use synthesis from related posts (default: True)
+        
+    Returns:
+        ValueV3 metric object
+    """
     post_text = post.markdown_content or post.html_body or ""
     
-    prompt = PROMPT_VALUE.format(
+    # Get 5 most recent posts from the same cluster-5
+    related_posts = get_n_most_recent_posts_in_same_cluster(
+        post_id=post.post_id,
+        cluster_cardinality=5,
+        n=5
+    )
+
+    synthesized_info = synthesize_context(
+        new_post=post,
+        previous_posts=related_posts,
+        metric_name="Value",
+        metric_evaluation_prompt=VALUE_EVALUATION_CRITERIA,
+        model=model
+    )
+
+    prompt = PROMPT_VALUE_V3.format(
+        evaluation_criteria=VALUE_EVALUATION_CRITERIA,
         title=post.title,
-        post_text=post_text
+        post_text=post_text,
+        synthesized_info=synthesized_info
     )
     
     response = client.chat.completions.create(
@@ -81,7 +119,7 @@ def compute_value_v2(
     raw_content = response.choices[0].message.content
     result = parse_json_with_repair(raw_content)
     
-    return ValueV2(
+    return ValueV3(
         post_id=post.post_id,
         value_score=result["value_score"],
         explanation=result["explanation"]

@@ -160,7 +160,14 @@ if __name__ == "__main__":
         # "MemeticPotentialV2",
         "TitleClickabilityV2", 
         "ControversyTemperatureV2",
-        "EmpiricalEvidenceQualityV2"
+        "EmpiricalEvidenceQualityV2",
+        # V3 Metrics with synthesized context
+        "ValueV3",
+        "AuthorAuraV3", 
+        "ReasoningQualityV3",
+        "CooperativenessV3",
+        "PrecisionV3",
+        "EmpiricalEvidenceQualityV3"
     ]
     
     # Use fixed start date of 2024-01-01, no end date (latest available)

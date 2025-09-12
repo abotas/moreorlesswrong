@@ -40,7 +40,6 @@ Consider:
 
 Post content to grade:
 {title}
-
 {post_text}
 
 Rubric:
