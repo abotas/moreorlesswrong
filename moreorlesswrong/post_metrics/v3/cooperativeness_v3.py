@@ -12,7 +12,7 @@ from synthesizer import synthesize_context
 class CooperativenessV3(BaseModel):
     post_id: str
     cooperativeness_score: int  # 1-10 overall cooperativeness score
-    explanation: str
+    analysis_of_cooperativeness: str
     
     @classmethod
     def metric_name(cls) -> str:
@@ -50,7 +50,12 @@ Grade on a 1-10 scale for cooperativeness to *EA forum readership*:
 - 3-4: Poor presentation, difficult to understand, potentially manipulative
 - 5-6: Moderate cooperativeness, some issues with accessibility or completeness
 - 7-8: Good presentation, helpful context, epistemically aligned
-- 9-10: Excellent epistemic cooperation, puts recipients in best epistemic situation"""
+- 9-10: Excellent epistemic cooperation, puts recipients in best epistemic situation
+
+You'll first provide an analysis of the cooperativeness of the post using this rubric: How clearly does the post present its thesis supporting argumentation? Is an appropriate level of evidence, explanation, general context provided? Is it presented at an appropriate level of complexity for EA forum readership? Is the author epistemically aligned with the EA forum readership? Does the post cause the readership to understand something of value
+
+Then you'll provide a score on a 1-10 scale.
+"""
 
 
 PROMPT_COOPERATIVENESS_V3 = """{evaluation_criteria}
@@ -65,10 +70,11 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
-    "explanation": "<brief explanation of cooperativeness assessment>"
+```json{{
+    "analysis_of_cooperativeness": "<Analyze the cooperativeness of the post>",
     "cooperativeness_score": <int 1-10 overall cooperativeness>,
 }}
+```
 """
 
 
@@ -120,5 +126,5 @@ def compute_cooperativeness_v3(
     return CooperativenessV3(
         post_id=post.post_id,
         cooperativeness_score=result["cooperativeness_score"],
-        explanation=result["explanation"]
+        analysis_of_cooperativeness=result["analysis_of_cooperativeness"]
     )

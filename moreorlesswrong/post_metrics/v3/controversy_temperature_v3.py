@@ -11,7 +11,8 @@ from synthesizer import synthesize_context
 class ControversyTemperatureV3(BaseModel):
     post_id: str
     controversy_temperature_score: int  # 1-10 controversy temperature score
-    explanation: str
+    identification_of_thesis_and_main_arguments: str
+    discussion_and_analysis_of_controversy: str
     
     @classmethod
     def metric_name(cls) -> str:
@@ -31,46 +32,55 @@ class ControversyTemperatureV3(BaseModel):
 # Extract the evaluation criteria for the synthesizer
 CONTROVERSY_TEMPERATURE_EVALUATION_CRITERIA = """Evaluate the CONTROVERSY TEMPERATURE of this EA Forum post.
 
-Controversy temperature measures whether the post hits the "goldilocks zone" of productive disagreement - controversial enough to generate discussion, but not so controversial that it becomes unproductive flamebait.
+Controversy temperature measures how likely a post is to capture attention and generate engagement through its controversial stance.
+Consider:
+- Will this capture attention and generate clicks/engagement?
+- Is it controversial enough to be interesting but credible enough to be taken seriously?
+- Does it hit the sweet spot between boring consensus and absurd extremism?
+
+First you'll identify the main arguments from the post and which ones might be controversial. 
+Then you'll discuss whether they are likely to be controversial -- do they challenge beliefs of some EAs? are the arguments thought-
+provoking but credible? What is the tone of the post? Given your discussion what's your analysis of the overall controversy of the post?
+Finally you'll provide a score on a 1-10 scale.
 
 Rubric:
-Grade on a 1-10 scale for controversy temperature.
+Grade on a 1-10 scale for attention-getting controversy potential.
 
-OPTIMAL controversy temperature (7-10 points):
+HIGHEST ATTENTION POTENTIAL (8-10 points):
+Posts in the "goldilocks zone" - controversial enough to demand attention, but credible enough to be taken seriously:
 - Thoughtfully challenges EA orthodoxy with strong arguments
 - Presents minority views with good faith reasoning
 - Questions sacred cows constructively
-- Makes claims that reasonable EAs would disagree about
-- Invites productive debate on important uncertainties
-- Examples: "Against longtermism" (with good arguments), "EA is too focused on AI", "We should deprioritize animal welfare"
+- Makes claims that reasonable EAs would strongly disagree about
+- Invites heated but productive debate on important uncertainties
+- Examples: "We should deprioritize {{your least favorite cause area}}" with good arguments
 
-MODERATE controversy temperature (4-6 points):
-- Discusses known areas of disagreement neutrally
-- Presents multiple perspectives on debated topics
-- Makes mildly controversial empirical claims
-- Suggests minor course corrections
-- Examples: "Which cause area deserves more funding?", "Comparing career paths"
+MODERATE ATTENTION POTENTIAL (5-7 points):
+Posts with some controversy that will get noticed but not dominate discussion:
+- Discusses known areas of disagreement with a clear stance
+- Takes a side on debated topics
+- Suggests meaningful course corrections
+- Examples: "Which cause area deserves more funding?", "Comparing career paths", "EA needs more diversity"
 
-SUBOPTIMAL controversy temperature (1-3 points):
-Either TOO COLD (boring consensus):
+LOWER ATTENTION POTENTIAL (3-4 points):
+Posts with mild controversy or familiar debates:
+- Rehashes well-worn disagreements
+- Makes minor controversial points
+- Gentle critiques of mainstream views
+- Examples: "EA could be more welcoming", "We should consider X cause area too"
+
+LOWEST ATTENTION POTENTIAL (1-2 points):
+Posts unlikely to capture attention due to being either too bland and therefore uninteresting OR too absurd and therefore noncontroversial
+because readership all agrees the post is bad:
+Excessively bland:
 - States obvious truths everyone agrees with
-- Discusses settled questions
-- Makes uncontroversial claims
-- Examples: "Malaria is bad", "We should be effective"
-
-Or TOO HOT (unproductive flamebait):
-- Ad hominem attacks
-- Bad faith arguments
-- Inflammatory rhetoric without substance
-- Tribalistic us-vs-them framing
-- Examples: "EA is a cult", "All EAs are wrong about everything"
-
-Consider:
-- Does this challenge important assumptions productively?
-- Will it generate thoughtful disagreement or just agreement/anger?
-- Is controversy backed by good faith reasoning?
-- Does it avoid both boring consensus AND destructive flame wars?
-- Will this create productive discussion?"""
+- Rehashes settled questions without novel insights
+Too absurd:
+- Pure ad hominem attacks without substance
+- Conspiracy theories with no evidence
+- Obviously trolling or bad faith
+- Examples: "Charity is always wrong"
+"""
 
 
 PROMPT_CONTROVERSY_TEMPERATURE_V3 = """{evaluation_criteria}
@@ -85,10 +95,12 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
-    "explanation": "<brief explanation of controversy level and whether it's productive>"
+```json{{
+    "identification_of_thesis_and_main_arguments": "<arguments identification>",
+    "discussion_and_analysis_of_controversy": "<discussion and analysis>",
     "controversy_temperature_score": <int 1-10>,
 }}
+```
 """
 
 
@@ -140,5 +152,7 @@ def compute_controversy_temperature_v3(
     return ControversyTemperatureV3(
         post_id=post.post_id,
         controversy_temperature_score=result["controversy_temperature_score"],
-        explanation=result["explanation"]
+        identification_of_thesis_and_main_arguments=result["identification_of_thesis_and_main_arguments"],
+        discussion_and_analysis_of_controversy=result["discussion_and_analysis_of_controversy"]
     )
+    

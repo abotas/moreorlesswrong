@@ -24,6 +24,19 @@ st.set_page_config(page_title="EA Forum Metrics Analysis (Local)", layout="wide"
 
 def get_human_readable_name(metric_name: str) -> str:
     """Convert metric column name to human readable format."""
+    v3_mapping = {
+        'ValueV3_value_score': 'Value (V3)',
+        'ReasoningQualityV3_reasoning_quality_score': 'Reasoning Quality (V3)',
+        'CooperativenessV3_cooperativeness_score': 'Cooperativeness (V3)',
+        'PrecisionV3_precision_score': 'Precision (V3)',
+        'EmpiricalEvidenceQualityV3_empirical_evidence_quality_score': 'Empirical Evidence Quality (V3)',
+        'RobustnessV3_robustness_score': 'Robustness (V3)',
+        'AuthorAuraV3_ea_fame_score': 'Author EA Fame (V3)',
+        'ControversyTemperatureV3_controversy_temperature_score': 'Controversy Temperature (V3)',
+        'MemeticPotentialV3_memetic_potential_score': 'Memetic Potential (V3)',
+        'OverallEpistemicQualityV3_overall_epistemic_quality_score': 'Overall Epistemic Quality (V3)',
+    }
+    
     v2_mapping = {
         'TruthfulnessV2_truthfulness_score': 'Truthfulness',
         'ValueV2_value_score': 'Value',
@@ -58,8 +71,10 @@ def get_human_readable_name(metric_name: str) -> str:
         'base_score': 'Post Karma'
     }
     
-    # Check v2 first, then v1
-    if metric_name in v2_mapping:
+    # Check v3 first, then v2, then v1
+    if metric_name in v3_mapping:
+        return v3_mapping[metric_name]
+    elif metric_name in v2_mapping:
         return v2_mapping[metric_name]
     elif metric_name in v1_mapping:
         return v1_mapping[metric_name]
@@ -69,7 +84,7 @@ def get_human_readable_name(metric_name: str) -> str:
 
 # Cache data loading
 @st.cache_data(ttl=300)  # Cache for 5 minutes
-def load_metrics_data(version_id: str) -> pd.DataFrame:
+def load_metrics_data(version_id: str, v3_only: bool = False) -> pd.DataFrame:
     """Load posts with metrics from local JSON files."""
     # Check both possible locations for data
     metrics_dir = Path(f"data/post_metrics/{version_id}")
@@ -81,12 +96,21 @@ def load_metrics_data(version_id: str) -> pd.DataFrame:
         return pd.DataFrame()
     
     all_data = []
+    v3_files_loaded = 0
     
     for metrics_file in metrics_dir.glob("*.json"):
         post_id = metrics_file.stem
         
         with open(metrics_file, 'r') as f:
-            metrics_data = json.load(f)
+            file_content = f.read()
+            metrics_data = json.loads(file_content)
+        
+        # Filter for V3 metrics if requested
+        if v3_only and 'V3"' not in file_content:
+            continue
+        
+        if v3_only:
+            v3_files_loaded += 1
         
         row = {"post_id": post_id}
         
@@ -99,10 +123,13 @@ def load_metrics_data(version_id: str) -> pd.DataFrame:
         
         all_data.append(row)
     
+    if v3_only:
+        print(f"Loaded {v3_files_loaded} JSON files with V3 metrics")
+    
     df = pd.DataFrame(all_data)
     
     # Get posts metadata
-    posts = get_chronological_sample_posts(8, datetime(2024, 1, 1))
+    posts = get_chronological_sample_posts(4, datetime(2024, 1, 1))
     print(len(posts))
     post_scores = {p.post_id: p.base_score for p in posts}
     post_titles = {p.post_id: p.title[:60] + "..." if len(p.title) > 60 else p.title for p in posts}
@@ -177,8 +204,14 @@ def main():
         help="The run ID of the pipeline run"
     )
     
+    v3_only = st.sidebar.checkbox(
+        "V3 metrics only",
+        value=False,
+        help="Only load files that contain at least one V3 metric"
+    )
+    
     # Load data
-    df = load_metrics_data(version_id)
+    df = load_metrics_data(version_id, v3_only)
     
     if df.empty:
         st.warning(f"No metrics found for run ID '{version_id}'. Please check the run ID or run the post_metric_pipeline first.")

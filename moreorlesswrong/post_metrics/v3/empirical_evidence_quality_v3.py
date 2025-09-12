@@ -13,7 +13,7 @@ class EmpiricalEvidenceQualityV3(BaseModel):
     empirical_evidence_quality_score: int  # 1-10 empirical evidence quality score
     thesis: str  # The identified main thesis
     empirical_claims: str  # Key empirical claims identified
-    explanation: str  # How well claims support thesis
+    analysis: str  # How well claims support thesis
     
     @classmethod
     def metric_name(cls) -> str:
@@ -45,9 +45,10 @@ Step 2: What empirical claims does the post make? Consider:
 - Research findings and study results
 - Historical examples and case studies
 - Observable facts and measurements
-- Causal claims about the world
 
-Step 3: How effectively do these empirical claims support the thesis?
+Step 3: Analyze. analysis of how well the empirical evidence supports the thesis. do the empirical claims effectively cover the space of testable hypotheses? are there gaps that likely have available evidence but are omitted from the post? Do the empirical claims present strong evidence? are they calibrated appropriately and convey appropriate confidence levels?
+
+Step 4: Score on a 1-10 scale.
 
 Rubric:
 Grade on a 1-10 scale for empirical evidence quality:
@@ -62,7 +63,8 @@ Consider:
 - Sufficiency: Is there enough evidence to support the conclusion?
 - Representativeness: Is the evidence cherry-picked or comprehensive?
 - Logical connection: Does the evidence logically lead to the thesis?
-- Strength of inference: How strong is the link between evidence and conclusion?"""
+- Strength of inference: How strong is the link between evidence and conclusion?
+"""
 
 
 PROMPT_EMPIRICAL_EVIDENCE_QUALITY_V3 = """{evaluation_criteria}
@@ -77,12 +79,13 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
+```json{{
     "thesis": "<main thesis/argument of the post>",
-    "empirical_claims": "<summary of key empirical claims made>",
-    "explanation": "<explanation of how well the empirical evidence supports the thesis>"
+    "empirical_claims": "<key empirical claims made>",
+    "analysis": "<analysis>"
     "empirical_evidence_quality_score": <int 1-10>,
 }}
+```
 """
 
 
@@ -141,5 +144,5 @@ def compute_empirical_evidence_quality_v3(
         empirical_evidence_quality_score=result["empirical_evidence_quality_score"],
         thesis=result["thesis"],
         empirical_claims=result["empirical_claims"],
-        explanation=result["explanation"]
+        analysis=result["analysis"]
     )

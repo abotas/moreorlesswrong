@@ -12,7 +12,7 @@ from synthesizer import synthesize_context
 class PrecisionV3(BaseModel):
     post_id: str
     precision_score: int  # 1-10 overall precision score
-    explanation: str
+    analysis: str
     
     @classmethod
     def metric_name(cls) -> str:
@@ -38,7 +38,9 @@ Being appropriately Precise requires saying the most informative thing you can t
 
 Although more precise information typically increases value, sometimes marginal information only makes a difference to inquiries we don't care about. For example, if I am choosing a college, I don't need to be informed about the building materials of the registrar's office.
 
-Consider the following post. Go section by section through the post and asses how appropriate the level of precision is given its EA forum readership.
+You'll first provide an analysis moving section by section through the post, analyzing the appropriateness of the precision in each section. Then you'll consider the overall precision of the post. 
+
+Then you'll provide a score on a 1-10 scale.
 
 Rubric:
 Grade on a 1-10 scale for OPTIMAL precision to *EA forum readership*:
@@ -46,7 +48,8 @@ Grade on a 1-10 scale for OPTIMAL precision to *EA forum readership*:
 - 3-4: Poor precision calibration - either underspecified OR cluttered with irrelevant detail
 - 5-6: Moderate precision - some sections appropriately precise, others miss the mark
 - 7-8: Well-calibrated precision - appropriately informative for the context and audience
-- 9-10: Optimally precise - perfect balance of informativeness and relevance, neither too vague nor unnecessarily detailed"""
+- 9-10: Optimally precise - perfect balance of informativeness and relevance, neither too vague nor unnecessarily detailed
+"""
 
 
 PROMPT_PRECISION_V3 = """{evaluation_criteria}
@@ -61,10 +64,11 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
-    "explanation": "<brief explanation of precision assessment>"
+```json{{
+    "analysis": "<Precision assessment>"
     "precision_score": <int 1-10 overall precision>,
 }}
+```
 """
 
 
@@ -116,5 +120,5 @@ def compute_precision_v3(
     return PrecisionV3(
         post_id=post.post_id,
         precision_score=result["precision_score"],
-        explanation=result["explanation"]
+        analysis=result["analysis"]
     )

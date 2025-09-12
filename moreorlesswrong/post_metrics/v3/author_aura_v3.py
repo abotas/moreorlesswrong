@@ -12,7 +12,7 @@ from db import get_posts_by_author_in_date_range
 class AuthorAuraV3(BaseModel):
     post_id: str
     ea_fame_score: int  # 1-10 EA fame score
-    explanation: str
+    analysis: str
     
     @classmethod
     def metric_name(cls) -> str:
@@ -65,13 +65,12 @@ Grade on a 1-10 scale for EA fame:
 - 7-8: Well-known, influential voice
 - 9-10: EA thought leader, highly influential
 
-Note: The author's posting history (number of posts and average karma) provides additional context about their engagement and reception in the EA community.
-
 Respond with JSON:
-{{
-    "explanation": "<brief explanation of EA fame assessment>"
+```json{{
+    "analysis": "<analysis of EA fame assessment>"
     "ea_fame_score": <int 1-10 EA fame>,
 }}
+```
 """
 
 
@@ -127,5 +126,5 @@ def compute_author_aura_v3(
     return AuthorAuraV3(
         post_id=post.post_id,
         ea_fame_score=result["ea_fame_score"],
-        explanation=result["explanation"]
+        analysis=result["analysis"]
     )

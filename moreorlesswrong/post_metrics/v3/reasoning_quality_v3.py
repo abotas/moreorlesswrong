@@ -36,13 +36,6 @@ REASONING_QUALITY_EVALUATION_CRITERIA = """Evaluate the quality of reasoning in 
 
 First identify the thesis of the post. Then identify the logical arguments made to support the thesis. Finally assess how effective the arguments are at supporting the thesis.
 
-Once you've identified the thesis and arguments, consider:
-- How logically sound and well-structured are the arguments?
-- Are the logical connections between premises and conclusions valid?
-- Does the reasoning flow coherently from point to point?
-- Are there any logical fallacies or reasoning errors?
-- Are there plausible counter-arguments and are these adequately addressed?
-
 Step 1: What is the main thesis or central argument of this post? (Be specific and concise)
 
 Step 2: What logical arguments does the post make? Consider:
@@ -51,7 +44,19 @@ Step 2: What logical arguments does the post make? Consider:
 - Causal arguments and mechanism explanations
 - Theoretical frameworks and conceptual analysis
 
-Step 3: How effectively does the reasoning support the thesis?
+Step 3: How effectively does the reasoning support the thesis? Once you've identified the thesis and arguments, consider:
+- How logically sound and well-structured are the arguments?
+- Are the logical connections between premises and conclusions valid?
+- Does the reasoning flow coherently from point to point?
+- Are there any reasoning errors, gaps, or unsupported dubious assumptions?
+- Are there plausible counter-arguments, and are these adequately addressed?
+
+Consider:
+- Logical soundness: Are the inferences valid?
+- Sufficiency: Is there enough reasoning to support the conclusion?
+- Efficiency: Is the reasoning appropriately concise vs redundant?
+- Structure: Does the logic flow coherently?
+- Rigor: How analytically robust is the thinking?
 
 Rubric:
 Grade on a 1-10 scale for OPTIMAL reasoning quality:
@@ -60,13 +65,7 @@ Grade on a 1-10 scale for OPTIMAL reasoning quality:
 - 5-6: Moderate reasoning - some solid arguments but notable weaknesses or gaps
 - 7-8: Strong reasoning - well-structured arguments that effectively support the thesis
 - 9-10: Optimally reasoned - rigorous logic with just the right level of argumentation, neither under-argued nor redundantly over-argued
-
-Consider:
-- Logical soundness: Are the inferences valid?
-- Sufficiency: Is there enough reasoning to support the conclusion?
-- Efficiency: Is the reasoning appropriately concise vs redundant?
-- Structure: Does the logic flow coherently?
-- Rigor: How analytically robust is the thinking?"""
+"""
 
 
 PROMPT_REASONING_QUALITY_V3 = """{evaluation_criteria}
@@ -81,12 +80,13 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
+```json{{
     "thesis": "<main thesis/argument of the post>",
     "logical_arguments": "<summary of key logical arguments made>",
     "explanation": "<explanation of how effectively the reasoning supports the thesis>"
     "reasoning_quality_score": <int 1-10>,
 }}
+```
 """
 
 

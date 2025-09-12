@@ -12,7 +12,7 @@ from synthesizer import synthesize_context
 class ValueV3(BaseModel):
     post_id: str
     value_score: int  # 1-10 overall value score
-    explanation: str
+    analysis: str
     
     @classmethod
     def metric_name(cls) -> str:
@@ -51,7 +51,12 @@ Grade on a 1-10 scale for value to EA forum readership:
 - 3-4: Limited value, information doesn't matter to important inquiries  
 - 5-6: Moderate value, somewhat difference-making
 - 7-8: High value, addresses inquiries that matter to agents
-- 9-10: Exceptional value, information would make crucial differences to decisions"""
+- 9-10: Exceptional value, information would make crucial differences to decisions
+
+First you'll identify the main thesis of the post and any key claims or arguments or corollaries. You'll assess the value of each of these. Then assess the overall value of the post according to the rubric.
+
+Then you'll provide a score on a 1-10 scale.
+"""
 
 
 PROMPT_VALUE_V3 = """{evaluation_criteria}
@@ -66,10 +71,11 @@ Post content to grade:
 ```
 
 Respond with JSON:
-{{
-    "explanation": "<brief explanation of value assessment>"
+```json{{
+    "analysis": "<Identification of main thesis and key claims or arguments or corollaries. Assessment of value of each. Overall value assessment.>"
     "value_score": <int 1-10 overall value>,
 }}
+```
 """
 
 
@@ -122,5 +128,5 @@ def compute_value_v3(
     return ValueV3(
         post_id=post.post_id,
         value_score=result["value_score"],
-        explanation=result["explanation"]
+        analysis=result["analysis"]
     )
