@@ -46,6 +46,7 @@ Common indicators of high EA fame:
 - Recipients of major EA grants or awards
 
 Author: {author_name}
+Current post date: {post_date}
 
 Author's posting history:
 - Posts from 2024-01-01 to current post date: {num_posts}
@@ -76,7 +77,9 @@ Respond with JSON:
 
 def compute_author_aura_v3(
     post: Post,
-    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
+    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> AuthorAuraV3:
     """Compute author EA fame score for a post, including author's posting history.
     
@@ -109,6 +112,7 @@ def compute_author_aura_v3(
     prompt = PROMPT_AUTHOR_AURA_V3.format(
         title=post.title,
         author_name=post.author_display_name or "Unknown",
+        post_date=post.posted_at.strftime("%Y-%m-%d") if post.posted_at else "Unknown",
         num_posts=num_posts,
         avg_karma=avg_karma,
         post_text=post_text

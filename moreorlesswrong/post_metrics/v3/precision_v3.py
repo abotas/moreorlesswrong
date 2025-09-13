@@ -6,7 +6,8 @@ from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
-from synthesizer import synthesize_context
+from prev_post_synthesizer import synthesize_context
+from raw_context_formatter import format_raw_related_posts
 
 
 class PrecisionV3(BaseModel):
@@ -51,12 +52,20 @@ Grade on a 1-10 scale for OPTIMAL precision to *EA forum readership*:
 - 9-10: Optimally precise - perfect balance of informativeness and relevance, neither too vague nor unnecessarily detailed
 """
 
+SYNTHESIZER_FOCUS_AREA = """Look for:
+- The general arguments being made by related previous posts. Whether there are specific areas of this post that might need higher or lower levels of precision given the context of recent related posts.
+- What level of background knowledge previous posts assumed about this topic area
+- Whether certain technical concepts or arguments in this post have been explained at different precision levels previously, and which is more appropriate for EA forum readership
+"""
+
+
 
 PROMPT_PRECISION_V3 = """{evaluation_criteria}
 
 Synthesis agent compiled some potentially useful context from recent, related posts:
+```
 {synthesized_info}
-
+```
 Post content to grade:
 ```
 {title}
@@ -75,32 +84,48 @@ Respond with JSON:
 def compute_precision_v3(
     post: Post,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> PrecisionV3:
     """Compute precision score for a post with synthesized information from related posts.
     
     Args:
         post: The post to evaluate
         model: The model to use for evaluation
+        bypass_synthesizer: If True, use raw related posts instead of synthesized context
         
     Returns:
         PrecisionV3 metric object
     """
     post_text = post.markdown_content or post.html_body or ""
     
-    # Get 5 most recent posts from the same cluster-5
     related_posts = get_n_most_recent_posts_in_same_cluster(
         post_id=post.post_id,
-        cluster_cardinality=5,
-        n=5
+        cluster_cardinality=12,
+        n=n_related_posts
     )
+    if len(related_posts) < n_related_posts:
+        related_posts2 = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=5,
+            n=n_related_posts*2
+        )
+        postids = [p.post_id for p in related_posts]
+        related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+        related_posts = related_posts[:n_related_posts]
 
-    synthesized_info = synthesize_context(
-        new_post=post,
-        previous_posts=related_posts,
-        metric_name="Precision",
-        metric_evaluation_prompt=PRECISION_EVALUATION_CRITERIA,
-        model=model
-    )
+    # Use either synthesizer or raw related posts formatting
+    if bypass_synthesizer:
+        synthesized_info = format_raw_related_posts(related_posts)
+    else:
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Precision",
+            metric_evaluation_prompt=PRECISION_EVALUATION_CRITERIA,
+            model=model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
 
     prompt = PROMPT_PRECISION_V3.format(
         evaluation_criteria=PRECISION_EVALUATION_CRITERIA,

@@ -29,6 +29,11 @@ from post_metrics.v3.reasoning_quality_v3 import ReasoningQualityV3, compute_rea
 from post_metrics.v3.cooperativeness_v3 import CooperativenessV3, compute_cooperativeness_v3
 from post_metrics.v3.precision_v3 import PrecisionV3, compute_precision_v3
 from post_metrics.v3.empirical_evidence_quality_v3 import EmpiricalEvidenceQualityV3, compute_empirical_evidence_quality_v3
+from post_metrics.v3.controversy_temperature_v3 import ControversyTemperatureV3, compute_controversy_temperature_v3
+# from post_metrics.v3.robustness_v3 import RobustnessV3, compute_robustness_v3
+from post_metrics.v3.memetic_potential_v3 import MemeticPotentialV3, compute_memetic_potential_v3
+from post_metrics.v3.overall_epistemic_quality_v3 import OverallEpistemicQualityV3
+from post_metrics.v3.overall_karma_predictor_v3 import OverallKarmaPredictorV3
 
 # Registry of all available post metrics
 METRIC_CLASSES = {
@@ -63,7 +68,13 @@ METRIC_CLASSES = {
     "ReasoningQualityV3": ReasoningQualityV3,
     "CooperativenessV3": CooperativenessV3,
     "PrecisionV3": PrecisionV3,
-    "EmpiricalEvidenceQualityV3": EmpiricalEvidenceQualityV3
+    "EmpiricalEvidenceQualityV3": EmpiricalEvidenceQualityV3,
+    "ControversyTemperatureV3": ControversyTemperatureV3,
+    # "RobustnessV3": RobustnessV3,
+    "MemeticPotentialV3": MemeticPotentialV3,
+    # Synthesis Metrics (not in POST_METRIC_REGISTRY as they're computed separately)
+    "OverallEpistemicQualityV3": OverallEpistemicQualityV3,
+    "OverallKarmaPredictorV3": OverallKarmaPredictorV3
 }
 POST_METRIC_REGISTRY = {
     # V1 Metrics
@@ -97,14 +108,19 @@ POST_METRIC_REGISTRY = {
     "ReasoningQualityV3": compute_reasoning_quality_v3,
     "CooperativenessV3": compute_cooperativeness_v3,
     "PrecisionV3": compute_precision_v3,
-    "EmpiricalEvidenceQualityV3": compute_empirical_evidence_quality_v3
+    "EmpiricalEvidenceQualityV3": compute_empirical_evidence_quality_v3,
+    "ControversyTemperatureV3": compute_controversy_temperature_v3,
+    # "RobustnessV3": compute_robustness_v3,
+    "MemeticPotentialV3": compute_memetic_potential_v3
 }
 
 
 def compute_metrics_for_post(
     metrics: List[str],
     post: Post,
-    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini"
+    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> List[BaseModel | tuple[str, str]]:
     """Compute specified metrics for a post.
     
@@ -112,6 +128,7 @@ def compute_metrics_for_post(
         metrics: List of metric names (strings) to compute
         post: The post to evaluate
         model: The LLM model to use for computation
+        bypass_synthesizer: Whether to bypass synthesizer and use raw related posts (default: False)
         
     Returns:
         List containing either:
@@ -126,12 +143,34 @@ def compute_metrics_for_post(
         
         compute_fn = POST_METRIC_REGISTRY[metric_name]
         try:
-            metric_result = compute_fn(post, model)
+            # V3 metrics support bypass_synthesizer parameter
+            if metric_name.endswith("V3"):
+                metric_result = compute_fn(post, model, bypass_synthesizer=bypass_synthesizer, n_related_posts=n_related_posts)
+            else:
+                # V2 and other metrics use the original signature
+                metric_result = compute_fn(post, model)
             results.append(metric_result)
         except Exception as e:
             # Append tuple with metric name and error for failed metrics
             results.append((metric_name, str(e)))
             print(f"    ERROR in {metric_name}: {e}")
+            
+            # For pydantic validation errors, show more detail
+            from pydantic import ValidationError
+            if isinstance(e, ValidationError):
+                print(f"    PYDANTIC VALIDATION DETAILS for {metric_name}:")
+                for error in e.errors():
+                    field = error.get('loc', ['unknown'])[0] if error.get('loc') else 'unknown'
+                    input_val = error.get('input')
+                    expected_type = error.get('type', 'unknown')
+                    print(f"      Field '{field}': Expected {expected_type}, got {type(input_val).__name__}: {repr(input_val)}")
+                    if isinstance(input_val, (list, dict)) and len(str(input_val)) > 200:
+                        print(f"      Field '{field}' preview: {repr(str(input_val)[:200])}...")
+                    
+            # For JSON parsing errors, try to show the raw content that failed
+            if "json" in str(e).lower() or "parse" in str(e).lower():
+                print(f"    This might be a JSON parsing issue for {metric_name}")
+                print(f"    Try checking the LLM response format")
     
     return results
 

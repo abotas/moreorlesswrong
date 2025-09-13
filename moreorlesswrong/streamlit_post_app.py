@@ -35,6 +35,7 @@ def get_human_readable_name(metric_name: str) -> str:
         'ControversyTemperatureV3_controversy_temperature_score': 'Controversy Temperature (V3)',
         'MemeticPotentialV3_memetic_potential_score': 'Memetic Potential (V3)',
         'OverallEpistemicQualityV3_overall_epistemic_quality_score': 'Overall Epistemic Quality (V3)',
+        'OverallKarmaPredictorV3_predicted_karma_score': 'Predicted Karma Score (V3)',
     }
     
     v2_mapping = {
@@ -82,8 +83,8 @@ def get_human_readable_name(metric_name: str) -> str:
         # Fallback: clean up the name
         return metric_name.replace('_', ' ').title()
 
-# Cache data loading
-@st.cache_data(ttl=300)  # Cache for 5 minutes
+# Cache data loading - shorter TTL for auto-refresh
+@st.cache_data(ttl=60)  # Cache for 1 minute
 def load_metrics_data(version_id: str, v3_only: bool = False) -> pd.DataFrame:
     """Load posts with metrics from local JSON files."""
     # Check both possible locations for data
@@ -157,6 +158,8 @@ def calculate_correlations(df: pd.DataFrame) -> pd.DataFrame:
     
     for col in metric_columns:
         valid_data = df[[col, 'base_score']].dropna()
+        # Count total entries that have this particular metric (regardless of base_score)
+        metric_entries = df[col].notna().sum()
         
         if len(valid_data) > 1:
             correlation, p_value = stats.pearsonr(valid_data[col], valid_data['base_score'])
@@ -165,6 +168,8 @@ def calculate_correlations(df: pd.DataFrame) -> pd.DataFrame:
                     'Metric': get_human_readable_name(col),
                     'Correlation': correlation,
                     'P-value': p_value,
+                    'N': metric_entries,  # Total entries with this metric
+                    'N_corr': len(valid_data),  # Entries used for correlation (with both metric and base_score)
                     'Significant': '✓' if p_value < 0.05 else '',
                     'metric_col': col  # Keep original column name
                 })
@@ -174,6 +179,53 @@ def calculate_correlations(df: pd.DataFrame) -> pd.DataFrame:
         corr_df = corr_df.sort_values('Correlation', key=abs, ascending=False)
     
     return corr_df
+
+def calculate_v3_vs_v2_comparison(df: pd.DataFrame, corr_df: pd.DataFrame) -> pd.DataFrame:
+    """Calculate comparison between V3 and V2 metric correlations."""
+    # Mapping of V3 metrics to their V2 counterparts
+    v3_to_v2_mapping = {
+        'ValueV3_value_score': 'ValueV2_value_score',
+        'CooperativenessV3_cooperativeness_score': 'CooperativenessV2_cooperativeness_score', 
+        'PrecisionV3_precision_score': 'PrecisionV2_precision_score',
+        'AuthorAuraV3_ea_fame_score': 'AuthorAuraV2_ea_fame_score',
+        'ReasoningQualityV3_reasoning_quality_score': 'ReasoningQualityV2_reasoning_quality_score',
+        'EmpiricalEvidenceQualityV3_empirical_evidence_quality_score': 'EmpiricalEvidenceQualityV2_empirical_evidence_quality_score',
+        'ControversyTemperatureV3_controversy_temperature_score': 'ControversyTemperatureV2_controversy_temperature_score'
+    }
+    
+    comparisons = []
+    
+    for v3_col, v2_col in v3_to_v2_mapping.items():
+        # Check if both metrics exist in the data
+        if v3_col in df.columns and v2_col in df.columns:
+            # Get correlation data from the correlation dataframe
+            v3_data = corr_df[corr_df['metric_col'] == v3_col]
+            v2_data = corr_df[corr_df['metric_col'] == v2_col]
+            
+            if not v3_data.empty and not v2_data.empty:
+                v3_corr = v3_data.iloc[0]['Correlation']
+                v3_n = v3_data.iloc[0]['N_corr'] if 'N_corr' in v3_data.columns else v3_data.iloc[0]['N']
+                v2_corr = v2_data.iloc[0]['Correlation']
+                v2_n = v2_data.iloc[0]['N_corr'] if 'N_corr' in v2_data.columns else v2_data.iloc[0]['N']
+                
+                difference = v3_corr - v2_corr
+                
+                # Extract base metric name (remove version suffix)
+                base_name = v3_col.replace('V3_', '').replace('_score', '').replace('_', ' ').title()
+                if base_name.endswith(' Fame'):
+                    base_name = base_name.replace(' Fame', ' EA Fame')
+                
+                comparisons.append({
+                    'Metric': get_human_readable_name(v3_col).replace(' (V3)', ''),
+                    'V2_Correlation': v2_corr,
+                    'V2_N': v2_n,
+                    'V3_Correlation': v3_corr, 
+                    'V3_N': v3_n,
+                    'Difference': difference,
+                    'Improvement': '↑ Better' if difference > 0.01 else '↓ Worse' if difference < -0.01 else '≈ Similar'
+                })
+    
+    return pd.DataFrame(comparisons)
 
 def aggregate_by_author(df: pd.DataFrame, metrics: List[str]) -> pd.DataFrame:
     """Aggregate metrics by author."""
@@ -193,28 +245,49 @@ def aggregate_by_author(df: pd.DataFrame, metrics: List[str]) -> pd.DataFrame:
 
 def main():
     st.title("EA Forum Metrics Analysis (Local)")
-    st.caption("Analyzing metrics from local JSON files")
+    st.caption(f"Analyzing V3 metrics from run: {DEFAULT_VERSION_ID}")
     
     # Sidebar configuration
     st.sidebar.header("Configuration")
+    st.sidebar.write(f"**Run ID:** `{DEFAULT_VERSION_ID}`")
+    st.sidebar.caption("Run ID is set via CLI argument when launching the app")
     
-    version_id = st.sidebar.text_input(
-        "Run ID",
-        value=DEFAULT_VERSION_ID,
-        help="The run ID of the pipeline run"
+    # Auto-refresh control
+    auto_refresh = st.sidebar.checkbox(
+        "Auto-refresh (30s)",
+        value=True,
+        help="Automatically refresh data every 30 seconds to show new metrics as they're computed"
     )
     
-    v3_only = st.sidebar.checkbox(
-        "V3 metrics only",
-        value=False,
-        help="Only load files that contain at least one V3 metric"
-    )
+    # Manual refresh button
+    if st.sidebar.button("🔄 Refresh Now"):
+        st.cache_data.clear()
+        st.rerun()
     
-    # Load data
-    df = load_metrics_data(version_id, v3_only)
+    # Auto-refresh mechanism using st.rerun with timer
+    if auto_refresh:
+        import time
+        # Initialize session state for refresh timing
+        if 'last_refresh' not in st.session_state:
+            st.session_state.last_refresh = time.time()
+        
+        # Check if 30 seconds have passed
+        current_time = time.time()
+        if current_time - st.session_state.last_refresh > 30:
+            st.session_state.last_refresh = current_time
+            st.cache_data.clear()  # Clear cache to get fresh data
+            st.rerun()
+        
+        # Show countdown timer
+        seconds_until_refresh = 30 - int(current_time - st.session_state.last_refresh)
+        if seconds_until_refresh > 0:
+            st.sidebar.caption(f"⏱️ Auto-refresh in {seconds_until_refresh}s")
+    
+    # Load data - always use V3 only mode
+    df = load_metrics_data(DEFAULT_VERSION_ID, v3_only=True)
     
     if df.empty:
-        st.warning(f"No metrics found for run ID '{version_id}'. Please check the run ID or run the post_metric_pipeline first.")
+        st.warning(f"No V3 metrics found for run ID '{DEFAULT_VERSION_ID}'. Please check the run ID or run the post_metric_pipeline first.")
         st.code("uv run python moreorlesswrong/post_metric_pipeline.py --threads 4 --model gpt-5-mini")
         return
     
@@ -254,15 +327,79 @@ def main():
                 color='Correlation',
                 color_continuous_scale='RdBu',
                 range_color=[-1, 1],
-                title="Correlation with Post Karma (Base Score)"
+                title="Correlation with Post Karma (Base Score)",
+                hover_data={
+                    'Correlation': ':.3f',
+                    'P-value': ':.4f', 
+                    'N': True,
+                    'N_corr': True,
+                    'Significant': True
+                }
             )
             fig.update_layout(height=max(400, len(corr_df) * 30))
             st.plotly_chart(fig, use_container_width=True)
             
+            # V3 vs V2 Comparison
+            st.subheader("V3 vs V2 Correlation Comparison")
+            st.caption("Comparing V3 metrics (with synthesized context) to their V2 counterparts")
+            
+            comparison_df = calculate_v3_vs_v2_comparison(df, corr_df)
+            if not comparison_df.empty:
+                # Format the comparison dataframe for display
+                display_comparison = comparison_df.copy()
+                display_comparison['V2 Correlation'] = display_comparison.apply(
+                    lambda row: f"{row['V2_Correlation']:.3f} (N={row['V2_N']})", axis=1
+                )
+                display_comparison['V3 Correlation'] = display_comparison.apply(
+                    lambda row: f"{row['V3_Correlation']:.3f} (N={row['V3_N']})", axis=1
+                )
+                display_comparison['Difference'] = display_comparison['Difference'].apply(
+                    lambda x: f"{x:+.3f}"
+                )
+                
+                # Select columns for display
+                final_display = display_comparison[['Metric', 'V2 Correlation', 'V3 Correlation', 'Difference', 'Improvement']]
+                
+                # Apply conditional formatting for the differences
+                def highlight_improvements(row):
+                    if '↑ Better' in str(row['Improvement']):
+                        return [''] * len(row.index[:-2]) + ['background-color: #d4edda; color: #155724'] + ['background-color: #d4edda; color: #155724']  # Green
+                    elif '↓ Worse' in str(row['Improvement']):
+                        return [''] * len(row.index[:-2]) + ['background-color: #f8d7da; color: #721c24'] + ['background-color: #f8d7da; color: #721c24']  # Red
+                    else:
+                        return [''] * len(row.index[:-2]) + ['background-color: #fff3cd; color: #856404'] + ['background-color: #fff3cd; color: #856404']  # Yellow
+                
+                styled_df = final_display.style.apply(highlight_improvements, axis=1)
+                st.dataframe(styled_df, use_container_width=True, hide_index=True)
+                
+                # Summary statistics
+                improvements = sum(1 for x in comparison_df['Difference'] if x > 0.01)
+                degradations = sum(1 for x in comparison_df['Difference'] if x < -0.01)
+                similar = len(comparison_df) - improvements - degradations
+                total_delta = comparison_df['Difference'].sum()
+                
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    st.metric("🟢 Improvements", improvements)
+                with col2:
+                    st.metric("🔴 Degradations", degradations)
+                with col3:
+                    st.metric("🟡 Similar", similar)
+                with col4:
+                    delta_color = "🟢" if total_delta > 0 else "🔴" if total_delta < 0 else "🟡"
+                    st.metric(f"{delta_color} Total Δ (V3-V2)", f"{total_delta:+.3f}")
+            else:
+                st.info("No V2/V3 comparable metrics found in the data.")
+            
             # Correlation table
-            display_df = corr_df[['Metric', 'Correlation', 'P-value', 'Significant']].copy()
+            st.subheader("Detailed Correlation Data")
+            display_df = corr_df[['Metric', 'Correlation', 'P-value', 'N', 'N_corr', 'Significant']].copy()
             display_df['Correlation'] = display_df['Correlation'].round(3)
             display_df['P-value'] = display_df['P-value'].round(4)
+            display_df = display_df.rename(columns={
+                'N': 'Total N',
+                'N_corr': 'Correlation N'
+            })
             st.dataframe(display_df, use_container_width=True, hide_index=True)
             
             # Top 3 scatter plots

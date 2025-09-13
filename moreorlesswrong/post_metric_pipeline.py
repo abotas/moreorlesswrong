@@ -5,13 +5,22 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from models import Post
 from post_metric_registry import compute_metrics_for_post
+from synthesis_metric_registry import (
+    SYNTHESIS_METRICS, 
+    SYNTHESIS_METRIC_CLASSES,
+    load_v3_metrics_from_json,
+    convert_metric_name_to_param
+)
 
 
 def process_single_post(
     post: Post,
     metrics: List[str],
     version_id: str,
-    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"]
+    model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"],
+    synthesis_metrics: List[str] = None,
+    n_related_posts: int = 5,
+    bypass_synthesizer: bool = False
 ):
     """Process a single post - compute metrics without extracting claims."""
     # Create directories
@@ -37,7 +46,7 @@ def process_single_post(
     
     if missing_metrics:
         print(f"  Computing {len(missing_metrics)} metrics for post...")
-        computed = compute_metrics_for_post(missing_metrics, post, model)
+        computed = compute_metrics_for_post(missing_metrics, post, model, bypass_synthesizer, n_related_posts)
         
         # Store computed metrics, skip failed ones
         for result in computed:
@@ -55,6 +64,63 @@ def process_single_post(
     else:
         print(f"  All metrics already computed")
     
+    # Phase 2: Compute synthesis metrics if dependencies are met
+    # This runs after individual metrics are saved to disk
+    synthesis_computed = []
+    
+    # Only process synthesis metrics if they were requested
+    if synthesis_metrics:
+        # Load all V3 metrics into pydantic objects once
+        try:
+            v3_metric_objects = load_v3_metrics_from_json(existing_metrics)
+            print(f"  Loaded {len(v3_metric_objects)} V3 metric objects for synthesis")
+        except Exception as e:
+            print(f"  ERROR loading V3 metrics for synthesis: {e}")
+            v3_metric_objects = {}
+        
+        for metric_name in synthesis_metrics:
+            # Skip if already computed
+            if metric_name in existing_metrics:
+                continue
+
+            compute_fn = SYNTHESIS_METRICS[metric_name]
+            metric_class = SYNTHESIS_METRIC_CLASSES[metric_name]
+            required = metric_class.required_metrics()
+        
+            # Check if all required metrics exist in our loaded V3 objects
+            required_param_names = [
+                convert_metric_name_to_param(req_metric) 
+                for req_metric in required
+            ]
+            
+            if all(param_name in v3_metric_objects for param_name in required_param_names):
+                print(f"  Computing synthesis metric: {metric_name}")
+                try:
+                    # Prepare inputs using pre-loaded V3 metric objects
+                    inputs = {param_name: v3_metric_objects[param_name] for param_name in required_param_names}
+                    
+                    # Add post, model, and n_related_posts parameters
+                    inputs['post'] = post
+                    inputs['model'] = model
+                    inputs['n_related_posts'] = n_related_posts
+                    
+                    # Compute synthesis metric
+                    result = compute_fn(**inputs)
+                    existing_metrics[metric_name] = result.model_dump()
+                    synthesis_computed.append(metric_name)
+                    
+                except Exception as e:
+                    print(f"    ERROR in synthesis metric {metric_name}: {e}")
+            else:
+                missing = [param for param in required_param_names if param not in v3_metric_objects]
+                print(f"  Skipping synthesis metric {metric_name} because required metrics are missing: {missing}")
+    
+    # Save updated metrics if any synthesis metrics were computed
+    if synthesis_computed:
+        with open(metrics_file, 'w') as f:
+            json.dump(existing_metrics, f, indent=2)
+        print(f"  Computed {len(synthesis_computed)} synthesis metrics: {', '.join(synthesis_computed)}")
+    
     return post.post_id
 
 
@@ -63,7 +129,10 @@ def process_posts(
     metrics: List[str],
     version_id: str,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
-    max_workers: int = 4
+    max_workers: int = 4,
+    synthesis_metrics: List[str] = None,
+    n_related_posts: int = 5,
+    bypass_synthesizer: bool = False
 ):
     """Process posts to compute metrics without extracting claims.
     
@@ -75,6 +144,9 @@ def process_posts(
         version_id: Version identifier for this processing run
         model: LLM model to use
         max_workers: Maximum number of concurrent threads (default: 4)
+        synthesis_metrics: List of synthesis metric names to compute (optional)
+        n_related_posts: Number of related posts to use for synthesis context (default: 5)
+        bypass_synthesizer: Whether to bypass synthesizer and use raw related posts (default: False)
     """
     print(f"\n{'='*60}")
     print(f"Starting post-level pipeline with {max_workers} worker threads")
@@ -82,6 +154,9 @@ def process_posts(
     print(f"Model: {model}")
     print(f"Posts to process: {len(posts)}")
     print(f"Metrics ({len(metrics)}): {', '.join(metrics)}")
+    if synthesis_metrics:
+        print(f"Synthesis Metrics ({len(synthesis_metrics)}): {', '.join(synthesis_metrics)}")
+        print(f"Related Posts for Context: {n_related_posts}")
     print(f"{'='*60}")
     
     successful = []
@@ -95,7 +170,10 @@ def process_posts(
                 post, 
                 metrics, 
                 version_id,
-                model
+                model,
+                synthesis_metrics,
+                n_related_posts,
+                bypass_synthesizer
             ): post 
             for post in posts
         }
@@ -137,11 +215,15 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default="gpt-5-mini",
                        choices=["gpt-5-nano", "gpt-5-mini", "gpt-5"],
                        help="Model to use (default: gpt-5-mini)")
+    parser.add_argument("--related-posts", type=int, default=5,
+                       help="Number of related posts to use for synthesis context (default: 5)")
+    parser.add_argument("--bypass-synthesizer", action="store_true",
+                       help="Bypass synthesizer agent and use raw 20k char previews of related posts")
     
     args = parser.parse_args()
     
     # Hardcoded list of metrics to compute
-    METRICS = [
+    metrics = [
         # V2 Primary Virtues from paul's framework
         # "TruthfulnessV2",
         "ValueV2", 
@@ -167,7 +249,15 @@ if __name__ == "__main__":
         "ReasoningQualityV3",
         "CooperativenessV3",
         "PrecisionV3",
-        "EmpiricalEvidenceQualityV3"
+        "EmpiricalEvidenceQualityV3",
+        "ControversyTemperatureV3",
+        "MemeticPotentialV3"
+    ]
+    
+    # Synthesis metrics to compute (after individual metrics)
+    synthesis_metrics = [
+        "OverallEpistemicQualityV3",
+        "OverallKarmaPredictorV3"
     ]
     
     # Use fixed start date of 2024-01-01, no end date (latest available)
@@ -186,8 +276,11 @@ if __name__ == "__main__":
     # Process posts
     process_posts(
         posts=posts,
-        metrics=METRICS,
+        metrics=metrics,
         version_id=args.version,
         model=args.model,
-        max_workers=args.threads
+        max_workers=args.threads,
+        synthesis_metrics=synthesis_metrics,
+        n_related_posts=args.related_posts,
+        bypass_synthesizer=args.bypass_synthesizer
     )

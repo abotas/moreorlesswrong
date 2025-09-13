@@ -5,7 +5,8 @@ from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
-from synthesizer import synthesize_context
+from prev_post_synthesizer import synthesize_context
+from raw_context_formatter import format_raw_related_posts
 
 
 class EmpiricalEvidenceQualityV3(BaseModel):
@@ -66,12 +67,18 @@ Consider:
 - Strength of inference: How strong is the link between evidence and conclusion?
 """
 
+SYNTHESIZER_FOCUS_AREA = """Look for:
+- Previous empirical findings or data patterns that this post should acknowledge or build upon or that this post contradicts or bolsters or benefits from
+- Whether previous posts identify gaps in available evidence that this post does or does not address
+"""
+
 
 PROMPT_EMPIRICAL_EVIDENCE_QUALITY_V3 = """{evaluation_criteria}
 
 Synthesis agent compiled some potentially useful context from recent, related posts:
+```
 {synthesized_info}
-
+```
 Post content to grade:
 ```
 {title}
@@ -92,6 +99,8 @@ Respond with JSON:
 def compute_empirical_evidence_quality_v3(
     post: Post,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> EmpiricalEvidenceQualityV3:
     """Compute empirical evidence quality score for a post with synthesized information from related posts.
     
@@ -103,26 +112,40 @@ def compute_empirical_evidence_quality_v3(
     Args:
         post: The post to evaluate
         model: The model to use for evaluation
+        bypass_synthesizer: If True, use raw related posts instead of synthesized context
         
     Returns:
         EmpiricalEvidenceQualityV3 metric object
     """
     post_text = post.markdown_content or post.html_body or ""
     
-    # Get 5 most recent posts from the same cluster-5
     related_posts = get_n_most_recent_posts_in_same_cluster(
         post_id=post.post_id,
-        cluster_cardinality=5,
-        n=5
+        cluster_cardinality=12,
+        n=n_related_posts
     )
+    if len(related_posts) < n_related_posts:
+        related_posts2 = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=5,
+            n=n_related_posts*2
+        )
+        postids = [p.post_id for p in related_posts]
+        related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+        related_posts = related_posts[:n_related_posts]
 
-    synthesized_info = synthesize_context(
-        new_post=post,
-        previous_posts=related_posts,
-        metric_name="Empirical Evidence Quality",
-        metric_evaluation_prompt=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
-        model=model
-    )
+    # Use either synthesizer or raw related posts formatting
+    if bypass_synthesizer:
+        synthesized_info = format_raw_related_posts(related_posts)
+    else:
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Empirical Evidence Quality",
+            metric_evaluation_prompt=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
+            model=model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
 
     prompt = PROMPT_EMPIRICAL_EVIDENCE_QUALITY_V3.format(
         evaluation_criteria=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
@@ -139,10 +162,25 @@ def compute_empirical_evidence_quality_v3(
     raw_content = response.choices[0].message.content
     result = parse_json_with_repair(raw_content)
     
-    return EmpiricalEvidenceQualityV3(
-        post_id=post.post_id,
-        empirical_evidence_quality_score=result["empirical_evidence_quality_score"],
-        thesis=result["thesis"],
-        empirical_claims=result["empirical_claims"],
-        analysis=result["analysis"]
-    )
+    # Handle case where LLM returns list instead of string for empirical_claims
+    empirical_claims = result["empirical_claims"]
+    if isinstance(empirical_claims, list):
+        print(f"    WARNING: EmpiricalEvidenceQualityV3 got list for empirical_claims, converting to string")
+        empirical_claims = "; ".join(str(item) for item in empirical_claims)
+    
+    try:
+        return EmpiricalEvidenceQualityV3(
+            post_id=post.post_id,
+            empirical_evidence_quality_score=result["empirical_evidence_quality_score"],
+            thesis=result["thesis"],
+            empirical_claims=empirical_claims,
+            analysis=result["analysis"]
+        )
+    except Exception as e:
+        print(f"    DEBUG EmpiricalEvidenceQualityV3 - Raw LLM response:")
+        print(f"    {raw_content[:500]}...")
+        print(f"    DEBUG EmpiricalEvidenceQualityV3 - Parsed JSON result:")
+        print(f"    {result}")
+        print(f"    DEBUG EmpiricalEvidenceQualityV3 - empirical_claims type: {type(result.get('empirical_claims'))}")
+        print(f"    DEBUG EmpiricalEvidenceQualityV3 - empirical_claims value: {repr(result.get('empirical_claims'))}")
+        raise

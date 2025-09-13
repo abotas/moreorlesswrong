@@ -6,7 +6,8 @@ from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
-from synthesizer import synthesize_context
+from prev_post_synthesizer import synthesize_context
+from raw_context_formatter import format_raw_related_posts
 
 
 class CooperativenessV3(BaseModel):
@@ -57,11 +58,19 @@ You'll first provide an analysis of the cooperativeness of the post using this r
 Then you'll provide a score on a 1-10 scale.
 """
 
+SYNTHESIZER_FOCUS_AREA = """When evaluating cooperativeness, consider how previous posts establish baseline expectations for EA Forum communication. Look for:
+- What level of explanation and context is typical for this topic area based on previous posts
+- Whether concepts or arguments in related posts suggest this audience already has certain background knowledge  
+- How previous posts handle similar complexity - do they provide more or less scaffolding for readers
+"""
+
 
 PROMPT_COOPERATIVENESS_V3 = """{evaluation_criteria}
 
 Synthesis agent compiled some potentially useful context from recent, related posts:
+```
 {synthesized_info}
+```
 
 Post content to grade:
 ```
@@ -81,32 +90,48 @@ Respond with JSON:
 def compute_cooperativeness_v3(
     post: Post,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> CooperativenessV3:
     """Compute cooperativeness scores for a post with synthesized information from related posts.
     
     Args:
         post: The post to evaluate
         model: The model to use for evaluation
+        bypass_synthesizer: Whether to bypass synthesizer and use raw related posts (default: False)
         
     Returns:
         CooperativenessV3 metric object
     """
     post_text = post.markdown_content or post.html_body or ""
     
-    # Get 5 most recent posts from the same cluster-5
     related_posts = get_n_most_recent_posts_in_same_cluster(
         post_id=post.post_id,
-        cluster_cardinality=5,
-        n=5
+        cluster_cardinality=12,
+        n=n_related_posts
     )
+    if len(related_posts) < n_related_posts:
+        related_posts2 = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=5,
+            n=n_related_posts*2
+        )
+        postids = [p.post_id for p in related_posts]
+        related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+        related_posts = related_posts[:n_related_posts]
 
-    synthesized_info = synthesize_context(
-        new_post=post,
-        previous_posts=related_posts,
-        metric_name="Cooperativeness",
-        metric_evaluation_prompt=COOPERATIVENESS_EVALUATION_CRITERIA,
-        model=model
-    )
+    # Use either synthesizer or raw related posts formatting
+    if bypass_synthesizer:
+        synthesized_info = format_raw_related_posts(related_posts)
+    else:
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Cooperativeness",
+            metric_evaluation_prompt=COOPERATIVENESS_EVALUATION_CRITERIA,
+            model=model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
 
     prompt = PROMPT_COOPERATIVENESS_V3.format(
         evaluation_criteria=COOPERATIVENESS_EVALUATION_CRITERIA,

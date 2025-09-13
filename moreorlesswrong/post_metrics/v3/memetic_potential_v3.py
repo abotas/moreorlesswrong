@@ -5,7 +5,8 @@ from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
-from synthesizer import synthesize_context
+from prev_post_synthesizer import synthesize_context
+from raw_context_formatter import format_raw_related_posts
 
 
 class MemeticPotentialV3(BaseModel):
@@ -65,12 +66,18 @@ Consider:
 - Will this change how EAs discuss this topic?
 """
 
+SYNTHESIZER_FOCUS_AREA = """Look for:
+- Memorable elements, frameworks, or terminology that previous posts introduced
+- Whether this posts memorable elements are duplications of existing memes and frameworks from previous posts
+- Whether this post's ideas build on or compete or resolve conflicts from previous related posts"""
+
 
 PROMPT_MEMETIC_POTENTIAL_V3 = """{evaluation_criteria}
 
 Synthesis agent compiled some potentially useful context from recent, related posts:
+```
 {synthesized_info}
-
+```
 Post content to grade:
 ```
 {title}
@@ -89,32 +96,48 @@ Respond with JSON:
 def compute_memetic_potential_v3(
     post: Post,
     model: Literal["gpt-5-nano", "gpt-5-mini", "gpt-5"] = "gpt-5-mini",
+    bypass_synthesizer: bool = False,
+    n_related_posts: int = 5,
 ) -> MemeticPotentialV3:
     """Compute memetic potential score for a post with synthesized information from related posts.
     
     Args:
         post: The post to evaluate
         model: The model to use for evaluation
+        bypass_synthesizer: If True, use raw related posts instead of synthesized context
         
     Returns:
         MemeticPotentialV3 metric object
     """
     post_text = post.markdown_content or post.html_body or ""
     
-    # Get 5 most recent posts from the same cluster-5
     related_posts = get_n_most_recent_posts_in_same_cluster(
         post_id=post.post_id,
-        cluster_cardinality=5,
-        n=5
+        cluster_cardinality=12,
+        n=n_related_posts
     )
+    if len(related_posts) < n_related_posts:
+        related_posts2 = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=5,
+            n=n_related_posts*2
+        )
+        postids = [p.post_id for p in related_posts]
+        related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+        related_posts = related_posts[:n_related_posts]
 
-    synthesized_info = synthesize_context(
-        new_post=post,
-        previous_posts=related_posts,
-        metric_name="Memetic Potential",
-        metric_evaluation_prompt=MEMETIC_POTENTIAL_EVALUATION_CRITERIA,
-        model=model
-    )
+    # Use either synthesizer or raw related posts formatting
+    if bypass_synthesizer:
+        synthesized_info = format_raw_related_posts(related_posts)
+    else:
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Memetic Potential",
+            metric_evaluation_prompt=MEMETIC_POTENTIAL_EVALUATION_CRITERIA,
+            model=model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
 
     prompt = PROMPT_MEMETIC_POTENTIAL_V3.format(
         evaluation_criteria=MEMETIC_POTENTIAL_EVALUATION_CRITERIA,
