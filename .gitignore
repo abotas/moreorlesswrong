@@ -22,4 +22,5 @@ connect_to_db.md
 delete_metric.py
 CLAUDE.md
 .claude/
+import_alej_v3_metrics.py
 # CLAUDE_TODO.md

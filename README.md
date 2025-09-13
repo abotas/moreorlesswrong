@@ -3,5 +3,3 @@
 py313 uv project
 
 
-# Todo:
-Claim extraction and granular more analysis
