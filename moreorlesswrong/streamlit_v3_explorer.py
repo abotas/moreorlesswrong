@@ -569,22 +569,6 @@ def author_leaderboard_tab(df: pd.DataFrame):
             height=600
         )
         
-        # Show overall statistics
-        st.subheader("📊 Statistics")
-        col1, col2, col3 = st.columns(3)
-        
-        with col1:
-            avg_score = author_stats_filtered[selected_metric].mean()
-            st.metric("Average Score", f"{avg_score:.2f}")
-        
-        with col2:
-            median_score = author_stats_filtered[selected_metric].median()
-            st.metric("Median Score", f"{median_score:.2f}")
-        
-        with col3:
-            std_score = author_stats_filtered[selected_metric].std()
-            st.metric("Std Deviation", f"{std_score:.2f}")
-        
     else:
         st.warning(f"No authors have {min_posts} or more posts with {metric_names[selected_metric]} scores")
 
