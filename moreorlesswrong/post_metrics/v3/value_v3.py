@@ -140,19 +140,6 @@ def compute_value_v3(
         synthesized_info=synthesized_info
     )
     
-    print('\n\n--------')
-    # Print prompt without post_text for conciseness
-    prompt_without_post_text = PROMPT_VALUE_V3.format(
-        evaluation_criteria=VALUE_EVALUATION_CRITERIA,
-        title=post.title,
-        post_text=post_text[:1000] + '...\n\n',
-        synthesized_info=synthesized_info
-    )
-    print(prompt_without_post_text)
-
-    print('--------\n\n')
-
-
     response = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": prompt}]
