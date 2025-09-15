@@ -519,7 +519,7 @@ def author_leaderboard_tab(df: pd.DataFrame):
     with col2:
         # Minimum posts threshold
         min_posts = st.number_input(
-            "Minimum posts required:",
+            "Minimum graded posts required:",
             min_value=1,
             max_value=20,
             value=5,
@@ -556,7 +556,7 @@ def author_leaderboard_tab(df: pd.DataFrame):
         
         # Rename columns for display
         display_df = author_stats_filtered[['rank', 'author', selected_metric, 'post_count']].copy()
-        display_df.columns = ['Rank', 'Author', f'Avg {metric_names[selected_metric]}', 'Posts']
+        display_df.columns = ['Rank', 'Author', f'Avg {metric_names[selected_metric]}', 'Graded Posts']
         
         # Round the metric value
         display_df[f'Avg {metric_names[selected_metric]}'] = display_df[f'Avg {metric_names[selected_metric]}'].round(2)
