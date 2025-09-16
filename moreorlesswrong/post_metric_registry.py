@@ -5,21 +5,7 @@ from models import Post
 
 # V2 Metrics
 from post_metrics.v2 import (
-    TruthfulnessV2, compute_truthfulness_v2,
-    ValueV2, compute_value_v2,
-    CooperativenessV2, compute_cooperativeness_v2,
-    CoherenceV2, compute_coherence_v2,
-    ClarityV2, compute_clarity_v2,
-    PrecisionV2, compute_precision_v2,
-    HonestyV2, compute_honesty_v2,
-    AuthorAuraV2, compute_author_aura_v2,
-    ExternalValidationV2, compute_external_validation_v2,
-    RobustnessV2, compute_robustness_v2,
-    ReasoningQualityV2, compute_reasoning_quality_v2,
-    MemeticPotentialV2, compute_memetic_potential_v2,
     TitleClickabilityV2, compute_title_clickability_v2,
-    ControversyTemperatureV2, compute_controversy_temperature_v2,
-    EmpiricalEvidenceQualityV2, compute_empirical_evidence_quality_v2
 )
 
 # V3 Metrics
@@ -35,8 +21,19 @@ from post_metrics.v3.memetic_potential_v3 import MemeticPotentialV3, compute_mem
 from post_metrics.v3.overall_epistemic_quality_v3 import OverallEpistemicQualityV3
 from post_metrics.v3.overall_karma_predictor_v3 import OverallKarmaPredictorV3
 
+# V0 Metrics (Simple holistic evaluations)
+from post_metrics.v0 import (
+    GptNanoOBOEpistemicQualityV0, compute_gpt_nano_obo_epistemic_quality_v0,
+    GptMiniOBOEpistemicQualityV0, compute_gpt_mini_obo_epistemic_quality_v0,
+    GptFullOBOEpistemicQualityV0, compute_gpt_full_obo_epistemic_quality_v0
+)
+
 # Registry of all available post metrics
 METRIC_CLASSES = {
+    # V0 Metrics
+    "GptNanoOBOEpistemicQualityV0": GptNanoOBOEpistemicQualityV0,
+    "GptMiniOBOEpistemicQualityV0": GptMiniOBOEpistemicQualityV0,
+    "GptFullOBOEpistemicQualityV0": GptFullOBOEpistemicQualityV0,
     # V3 Metrics
     "ValueV3": ValueV3,
     "AuthorAuraV3": AuthorAuraV3,
@@ -52,6 +49,12 @@ METRIC_CLASSES = {
     "OverallKarmaPredictorV3": OverallKarmaPredictorV3
 }
 POST_METRIC_REGISTRY = {
+    # V0 Metrics
+    "GptNanoOBOEpistemicQualityV0": compute_gpt_nano_obo_epistemic_quality_v0,
+    "GptMiniOBOEpistemicQualityV0": compute_gpt_mini_obo_epistemic_quality_v0,
+    "GptFullOBOEpistemicQualityV0": compute_gpt_full_obo_epistemic_quality_v0,
+    
+    # V2 Metrics
     "TitleClickabilityV2": compute_title_clickability_v2,
 
     # V3 Metrics
