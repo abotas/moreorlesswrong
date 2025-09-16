@@ -7,9 +7,10 @@ from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
 from prev_post_synthesizer import synthesize_context
 from raw_context_formatter import format_raw_related_posts
+from metric_protocol import Metric, MetricContext
 
 
-class EmpiricalEvidenceQualityV3(BaseModel):
+class EmpiricalEvidenceQualityV3(Metric):
     post_id: str
     empirical_evidence_quality_score: int  # 1-10 empirical evidence quality score
     thesis: str  # The identified main thesis
@@ -29,6 +30,82 @@ class EmpiricalEvidenceQualityV3(BaseModel):
         return {
             "empirical_evidence_quality_score": "Empirical Evidence Quality Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext) -> "EmpiricalEvidenceQualityV3":
+        """Compute empirical evidence quality score for a post with synthesized information from related posts.
+
+        Args:
+            post: The post to evaluate
+            context: Shared metric computation context
+
+        Returns:
+            EmpiricalEvidenceQualityV3 metric object
+        """
+        post_text = post.markdown_content or post.html_body or ""
+
+        related_posts = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=12,
+            n=context.n_related_posts
+        )
+        if len(related_posts) < context.n_related_posts:
+            related_posts2 = get_n_most_recent_posts_in_same_cluster(
+                post_id=post.post_id,
+                cluster_cardinality=5,
+                n=context.n_related_posts*2
+            )
+            postids = [p.post_id for p in related_posts]
+            related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+            related_posts = related_posts[:context.n_related_posts]
+
+        # Always use synthesizer approach (removed bypass_synthesizer)
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Empirical Evidence Quality",
+            metric_evaluation_prompt=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
+            model=context.model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
+
+        prompt = PROMPT_EMPIRICAL_EVIDENCE_QUALITY_V3.format(
+            evaluation_criteria=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
+            title=post.title,
+            post_text=post_text,
+            synthesized_info=synthesized_info
+        )
+
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        # Handle case where LLM returns list instead of string for empirical_claims
+        empirical_claims = result["empirical_claims"]
+        if isinstance(empirical_claims, list):
+            print(f"    WARNING: EmpiricalEvidenceQualityV3 got list for empirical_claims, converting to string")
+            empirical_claims = "; ".join(str(item) for item in empirical_claims)
+
+        try:
+            return cls(
+                post_id=post.post_id,
+                empirical_evidence_quality_score=result["empirical_evidence_quality_score"],
+                thesis=result["thesis"],
+                empirical_claims=empirical_claims,
+                analysis=result["analysis"]
+            )
+        except Exception as e:
+            print(f"    DEBUG EmpiricalEvidenceQualityV3 - Raw LLM response:")
+            print(f"    {raw_content[:500]}...")
+            print(f"    DEBUG EmpiricalEvidenceQualityV3 - Parsed JSON result:")
+            print(f"    {result}")
+            print(f"    DEBUG EmpiricalEvidenceQualityV3 - empirical_claims type: {type(result.get('empirical_claims'))}")
+            print(f"    DEBUG EmpiricalEvidenceQualityV3 - empirical_claims value: {repr(result.get('empirical_claims'))}")
+            raise
 
 
 # Extract the evaluation criteria for the synthesizer

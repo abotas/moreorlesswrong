@@ -16,19 +16,22 @@ st.set_page_config(page_title="V0 Metrics Explorer", layout="wide")
 
 # Define the data directories - relative to project root
 V0_DATA_DIR = Path(__file__).parent.parent / "data" / "post_metrics" / "v0"
+V0_ADJ_DATA_DIR = Path(__file__).parent.parent / "data" / "post_metrics" / "v0-adj"
 V3_DATA_DIR = Path(__file__).parent.parent / "data" / "post_metrics" / "v3-clust12"
 
-def load_v0_metrics_from_json() -> pd.DataFrame:
+def load_v0_metrics_from_json(version: str = "v0-adj") -> pd.DataFrame:
     """Load V0 metrics from local JSON files."""
-    
-    if not V0_DATA_DIR.exists():
-        st.error(f"Data directory {V0_DATA_DIR} does not exist!")
+
+    data_dir = V0_ADJ_DATA_DIR if version == "v0-adj" else V0_DATA_DIR
+
+    if not data_dir.exists():
+        st.error(f"Data directory {data_dir} does not exist!")
         return pd.DataFrame()
-    
-    json_files = list(V0_DATA_DIR.glob("*.json"))
+
+    json_files = list(data_dir.glob("*.json"))
     
     if not json_files:
-        st.warning(f"No JSON files found in {V0_DATA_DIR}")
+        st.warning(f"No JSON files found in {data_dir}")
         return pd.DataFrame()
     
     data = []
@@ -44,18 +47,33 @@ def load_v0_metrics_from_json() -> pd.DataFrame:
             # Create a flattened record
             record = {'post_id': post_id}
             
-            # Extract V0 metrics
-            if 'GptNanoOBOEpistemicQualityV0' in metrics:
-                record['nano_epistemic_score'] = metrics['GptNanoOBOEpistemicQualityV0'].get('epistemic_quality_score')
-                record['nano_explanation'] = metrics['GptNanoOBOEpistemicQualityV0'].get('explanation')
-            
-            if 'GptMiniOBOEpistemicQualityV0' in metrics:
-                record['mini_epistemic_score'] = metrics['GptMiniOBOEpistemicQualityV0'].get('epistemic_quality_score')
-                record['mini_explanation'] = metrics['GptMiniOBOEpistemicQualityV0'].get('explanation')
-            
-            if 'GptFullOBOEpistemicQualityV0' in metrics:
-                record['full_epistemic_score'] = metrics['GptFullOBOEpistemicQualityV0'].get('epistemic_quality_score')
-                record['full_explanation'] = metrics['GptFullOBOEpistemicQualityV0'].get('explanation')
+            # Extract V0 metrics - handle both epistemic and quality versions
+            if version == "v0-adj":
+                # Use quality metrics for v0-adj
+                if 'GptNanoOBOQualityV0' in metrics:
+                    record['nano_epistemic_score'] = metrics['GptNanoOBOQualityV0'].get('quality_score')
+                    record['nano_explanation'] = metrics['GptNanoOBOQualityV0'].get('explanation')
+
+                if 'GptMiniOBOQualityV0' in metrics:
+                    record['mini_epistemic_score'] = metrics['GptMiniOBOQualityV0'].get('quality_score')
+                    record['mini_explanation'] = metrics['GptMiniOBOQualityV0'].get('explanation')
+
+                if 'GptFullOBOQualityV0' in metrics:
+                    record['full_epistemic_score'] = metrics['GptFullOBOQualityV0'].get('quality_score')
+                    record['full_explanation'] = metrics['GptFullOBOQualityV0'].get('explanation')
+            else:
+                # Use epistemic quality metrics for v0
+                if 'GptNanoOBOEpistemicQualityV0' in metrics:
+                    record['nano_epistemic_score'] = metrics['GptNanoOBOEpistemicQualityV0'].get('epistemic_quality_score')
+                    record['nano_explanation'] = metrics['GptNanoOBOEpistemicQualityV0'].get('explanation')
+
+                if 'GptMiniOBOEpistemicQualityV0' in metrics:
+                    record['mini_epistemic_score'] = metrics['GptMiniOBOEpistemicQualityV0'].get('epistemic_quality_score')
+                    record['mini_explanation'] = metrics['GptMiniOBOEpistemicQualityV0'].get('explanation')
+
+                if 'GptFullOBOEpistemicQualityV0' in metrics:
+                    record['full_epistemic_score'] = metrics['GptFullOBOEpistemicQualityV0'].get('epistemic_quality_score')
+                    record['full_explanation'] = metrics['GptFullOBOEpistemicQualityV0'].get('explanation')
             
             # Also extract actual karma if available (might be stored in the JSON)
             if 'base_score' in metrics:
@@ -169,9 +187,9 @@ def load_v3_metrics_from_json() -> pd.DataFrame:
     
     return pd.DataFrame(data)
 
-def load_combined_v0_v3_data() -> pd.DataFrame:
+def load_combined_v0_v3_data(version: str = "v0-adj") -> pd.DataFrame:
     """Load and combine V0 and V3 metrics for comparison."""
-    v0_df = load_v0_metrics_from_json()
+    v0_df = load_v0_metrics_from_json(version)
     v3_df = load_v3_metrics_from_json()
     
     if v0_df.empty or v3_df.empty:
@@ -199,16 +217,26 @@ def load_combined_v0_v3_data() -> pd.DataFrame:
     
     return combined_df
 
-def get_human_readable_name(metric_name: str) -> str:
+def get_human_readable_name(metric_name: str, version: str = "v0-adj") -> str:
     """Convert metric column name to human readable format."""
-    mapping = {
-        'nano_epistemic_score': 'GPT-5-nano hollistic epistemic quality score',
-        'mini_epistemic_score': 'GPT-5-mini hollistic epistemic quality score',
-        'full_epistemic_score': 'GPT-5 hollistic epistemic quality score',
-        'actual_karma': 'Actual Karma',
-        'comment_count': 'Comments',
-        'word_count': 'Word Count'
-    }
+    if version == "v0-adj":
+        mapping = {
+            'nano_epistemic_score': 'GPT-5-nano overall quality score',
+            'mini_epistemic_score': 'GPT-5-mini overall quality score',
+            'full_epistemic_score': 'GPT-5 overall quality score',
+            'actual_karma': 'Actual Karma',
+            'comment_count': 'Comments',
+            'word_count': 'Word Count'
+        }
+    else:
+        mapping = {
+            'nano_epistemic_score': 'GPT-5-nano holistic epistemic quality score',
+            'mini_epistemic_score': 'GPT-5-mini holistic epistemic quality score',
+            'full_epistemic_score': 'GPT-5 holistic epistemic quality score',
+            'actual_karma': 'Actual Karma',
+            'comment_count': 'Comments',
+            'word_count': 'Word Count'
+        }
     return mapping.get(metric_name, metric_name.replace('_', ' ').title())
 
 # Define metrics to analyze
@@ -241,7 +269,7 @@ def bootstrap_spearman_ci(x, y, n_bootstrap=1000, confidence=0.95):
     else:
         return np.nan, np.nan
 
-def calculate_correlations(df: pd.DataFrame, target_col: str = 'actual_karma') -> pd.DataFrame:
+def calculate_correlations(df: pd.DataFrame, target_col: str = 'actual_karma', version: str = "v0-adj") -> pd.DataFrame:
     """Calculate correlations between V0 metrics and target with bootstrap CIs."""
     
     correlations = []
@@ -260,7 +288,7 @@ def calculate_correlations(df: pd.DataFrame, target_col: str = 'actual_karma') -
                     )
                     
                     correlations.append({
-                        'Metric': get_human_readable_name(col),
+                        'Metric': get_human_readable_name(col, version),
                         'Correlation': correlation,
                         'N': len(valid_data),
                         '95% CI': f"[{ci_lower:.3f}, {ci_upper:.3f}]" if not np.isnan(ci_lower) else "N/A",
@@ -273,7 +301,7 @@ def calculate_correlations(df: pd.DataFrame, target_col: str = 'actual_karma') -
     
     return corr_df
 
-def correlation_analysis_tab(df: pd.DataFrame):
+def correlation_analysis_tab(df: pd.DataFrame, version: str = "v0-adj"):
     """Correlation analysis tab for V0 metrics."""
     st.header("📊 V0 Metrics Correlation Analysis")
     
@@ -301,7 +329,8 @@ def correlation_analysis_tab(df: pd.DataFrame):
             min_value=min_date,
             max_value=max_date,
             value=(min_date, max_date),
-            format="MM/YYYY"
+            format="MM/YYYY",
+            key=f"v0_date_range_{version}"
         )
         
         # Filter dataframe by date range
@@ -310,10 +339,12 @@ def correlation_analysis_tab(df: pd.DataFrame):
             (df['posted_at'].dt.date <= date_range[1])
         ].copy()
         
-        st.info(f"Analyzing {len(filtered_df)} posts (filtered from {len(df)} total) with V0 epistemic quality scores")
+        quality_type = "overall quality scores" if version == "v0-adj" else "epistemic quality scores"
+        st.info(f"Analyzing {len(filtered_df)} posts (filtered from {len(df)} total) with V0 {quality_type}")
     else:
         filtered_df = df.copy()
-        st.info(f"Analyzing {len(df)} posts with V0 epistemic quality scores (no date filtering available)")
+        quality_type = "overall quality scores" if version == "v0-adj" else "epistemic quality scores"
+        st.info(f"Analyzing {len(df)} posts with V0 {quality_type} (no date filtering available)")
     
     # Summary statistics
     col1, col2, col3 = st.columns(3)
@@ -335,13 +366,14 @@ def correlation_analysis_tab(df: pd.DataFrame):
         "Show correlations with:",
         ["Actual Karma", "Comment Count"],
         horizontal=True,
-        disabled='comment_count' not in filtered_df.columns
+        disabled='comment_count' not in filtered_df.columns,
+        key=f"v0_corr_target_{version}"
     )
     
     target_col = 'actual_karma' if correlation_target == "Actual Karma" else 'comment_count'
     
     # Calculate correlations
-    corr_df = calculate_correlations(filtered_df, target_col)
+    corr_df = calculate_correlations(filtered_df, target_col, version)
     
     if not corr_df.empty:
         # Bar chart of correlations
@@ -377,8 +409,8 @@ def correlation_analysis_tab(df: pd.DataFrame):
         # Create heatmap
         fig = px.imshow(
             corr_matrix.values,
-            x=[get_human_readable_name(col) for col in corr_matrix.columns],
-            y=[get_human_readable_name(col) for col in corr_matrix.index],
+            x=[get_human_readable_name(col, version) for col in corr_matrix.columns],
+            y=[get_human_readable_name(col, version) for col in corr_matrix.index],
             color_continuous_scale='RdBu',
             zmin=-1, zmax=1,
             aspect="auto"
@@ -461,14 +493,15 @@ def correlation_analysis_tab(df: pd.DataFrame):
         if len(scores) > 0:
             fig.add_trace(go.Histogram(
                 x=scores,
-                name=get_human_readable_name(col),
+                name=get_human_readable_name(col, version),
                 opacity=0.7,
                 nbinsx=10
             ))
     
+    score_type = "Quality Score" if version == "v0-adj" else "Epistemic Quality Score"
     fig.update_layout(
         barmode='overlay',
-        xaxis_title="Epistemic Quality Score",
+        xaxis_title=score_type,
         yaxis_title="Count",
         height=400
     )
@@ -484,7 +517,7 @@ def correlation_analysis_tab(df: pd.DataFrame):
             scores = filtered_df[col].dropna()
             if len(scores) > 0:
                 summary_data.append({
-                    'Model': get_human_readable_name(col),
+                    'Model': get_human_readable_name(col, version),
                     'Mean': scores.mean(),
                     'Median': scores.median(),
                     'Std Dev': scores.std(),
@@ -498,13 +531,14 @@ def correlation_analysis_tab(df: pd.DataFrame):
         summary_df = summary_df.round(2)
         st.dataframe(summary_df, use_container_width=True, hide_index=True)
 
-def v0_vs_v3_comparison_tab():
+def v0_vs_v3_comparison_tab(version: str = "v0-adj"):
     """V0 vs V3 comparison tab showing mini epistemic vs v3 overall epistemic."""
     st.header("🔬 V0 vs V3 Comparison")
-    st.caption("Comparing GPT-5-mini holistic epistemic quality (V0) with V3 overall epistemic quality")
-    
+    quality_type = "overall quality" if version == "v0-adj" else "holistic epistemic quality"
+    st.caption(f"Comparing GPT-5-mini {quality_type} (V0) with V3 overall epistemic quality")
+
     # Load combined data
-    combined_df = load_combined_v0_v3_data()
+    combined_df = load_combined_v0_v3_data(version)
     
     if combined_df.empty:
         st.error("No overlapping posts found between V0 and V3 datasets!")
@@ -541,7 +575,7 @@ def v0_vs_v3_comparison_tab():
             max_value=max_date,
             value=(min_date, max_date),
             format="MM/YYYY",
-            key="v0_v3_date_range"
+            key=f"v0_v3_date_range_{version}"
         )
         
         # Filter dataframe by date range
@@ -576,7 +610,7 @@ def v0_vs_v3_comparison_tab():
         ["Actual Karma", "Comment Count"],
         horizontal=True,
         disabled='comment_count' not in filtered_df.columns,
-        key="v0_v3_corr_target"
+        key=f"v0_v3_corr_target_{version}"
     )
     
     target_col = 'actual_karma' if correlation_target == "Actual Karma" else 'comment_count'
@@ -589,8 +623,9 @@ def v0_vs_v3_comparison_tab():
     # Calculate correlations for both metrics
     correlations = []
     
+    v0_label = "Naive prompt for overall quality (gpt-5-mini)" if version == "v0-adj" else "Naive prompt for epistemic quality (gpt-5-mini)"
     for metric_name, col_name, display_name in [
-        ('mini_epistemic_score', 'mini_epistemic_score', 'Naive prompt for epistemic quality (gpt-5-mini)'),
+        ('mini_epistemic_score', 'mini_epistemic_score', v0_label),
         ('v3_overall_epistemic_score', 'v3_overall_epistemic_score', 'Our epistemic quality metric with rubric and scaffolding (gpt-5-mini)')
     ]:
         valid_data = filtered_df[[col_name, target_col]].dropna()
@@ -644,7 +679,7 @@ def v0_vs_v3_comparison_tab():
         title="V0 Mini Epistemic vs V3 Overall Epistemic",
         hover_data=['title'] if 'title' in filtered_df.columns else None,
         labels={
-            'mini_epistemic_score': 'Out of the box GPT-5-mini epistemic quality score',
+            'mini_epistemic_score': 'Out of the box GPT-5-mini overall quality score' if version == "v0-adj" else 'Out of the box GPT-5-mini epistemic quality score',
             'v3_overall_epistemic_score': 'GPT5-mini epistemic quality score with rubric and context'
         }
     )
@@ -671,13 +706,14 @@ def v0_vs_v3_comparison_tab():
         f"{v0_v3_corr:.3f}" if not np.isnan(v0_v3_corr) else "N/A"
     )
 
-def all_correlations_tab():
+def all_correlations_tab(version: str = "v0-adj"):
     """Tab showing all V0 and V3 correlations with karma together."""
-    st.header("📊 All Epistemic Quality Correlations")
-    st.caption("Comparing all V0 naive prompts and V3 overall epistemic quality correlations with actual karma")
-    
+    st.header("📊 All Quality Correlations")
+    quality_type = "overall quality" if version == "v0-adj" else "epistemic quality"
+    st.caption(f"Comparing all V0 naive {quality_type} prompts and V3 overall epistemic quality correlations with actual karma")
+
     # Load both datasets
-    v0_df = load_v0_metrics_from_json()
+    v0_df = load_v0_metrics_from_json(version)
     v3_df = load_v3_metrics_from_json()
     
     if v0_df.empty and v3_df.empty:
@@ -752,7 +788,7 @@ def all_correlations_tab():
             max_value=max_date,
             value=(min_date, max_date),
             format="MM/YYYY",
-            key="all_corr_date_range"
+            key=f"all_corr_date_range_{version}"
         )
         
         # Filter dataframe by date range
@@ -771,17 +807,19 @@ def all_correlations_tab():
         return
     
     # Add toggle for including V3 metric
-    include_v3 = st.checkbox("Include V3 metric", value=True, 
-                             help="Toggle to include/exclude the V3 epistemic quality metric with scaffolding")
+    include_v3 = st.checkbox("Include V3 metric", value=True,
+                             help="Toggle to include/exclude the V3 epistemic quality metric with scaffolding",
+                             key=f"include_v3_{version}")
     
     # Calculate correlations for all metrics
     correlations = []
     
     # V0 metrics
+    prompt_type = "overall quality" if version == "v0-adj" else "epistemic quality"
     v0_metrics = [
-        ('nano_epistemic_score', 'Naive prompt (gpt-5-nano)'),
-        ('mini_epistemic_score', 'Naive prompt (gpt-5-mini)'),
-        ('full_epistemic_score', 'Naive prompt (gpt-5)')
+        ('nano_epistemic_score', f'Naive {prompt_type} prompt (gpt-5-nano)'),
+        ('mini_epistemic_score', f'Naive {prompt_type} prompt (gpt-5-mini)'),
+        ('full_epistemic_score', f'Naive {prompt_type} prompt (gpt-5)')
     ]
     
     for col, display_name in v0_metrics:
@@ -905,26 +943,38 @@ def all_correlations_tab():
 
 def main():
     st.title("🔬 V0 Metrics Explorer")
-    st.caption(f"Analyzing epistemic quality scores from {V0_DATA_DIR}")
-    
+
+    # Version selector
+    version = st.selectbox(
+        "Select Version:",
+        ["v0-adj", "v0"],
+        help="v0-adj: overall quality | v0: holistic epistemic quality"
+    )
+
+    data_dir = V0_ADJ_DATA_DIR if version == "v0-adj" else V0_DATA_DIR
+    quality_type = "overall quality scores" if version == "v0-adj" else "epistemic quality scores"
+    st.caption(f"Analyzing {quality_type} from {data_dir}")
+
     # Create tabs
-    tab1, tab2, tab3 = st.tabs(["V0 Analysis", "V0 vs V3 Comparison", "All Correlations"])
-    
+    tab1, tab2, tab3 = st.tabs(["All Correlations", "V0 Analysis", "V0 vs V3 Comparison"])
+
     with tab1:
-        # Load V0 data
-        df = load_v0_metrics_from_json()
-        
+        all_correlations_tab(version)
+
+    with tab2:
+        # Load V0 data - clear any caching by using version as key
+        df = load_v0_metrics_from_json(version)
+
         if df.empty:
             st.error("No V0 metrics data found!")
-            st.info(f"Please ensure JSON files are present in: {V0_DATA_DIR.absolute()}")
+            st.info(f"Please ensure JSON files are present in: {data_dir.absolute()}")
         else:
-            correlation_analysis_tab(df)
-    
-    with tab2:
-        v0_vs_v3_comparison_tab()
-    
+            # Force refresh by using version in key
+            st.write(f"**Current version:** {version}")
+            correlation_analysis_tab(df, version)
+
     with tab3:
-        all_correlations_tab()
+        v0_vs_v3_comparison_tab(version)
 
 if __name__ == "__main__":
     main()

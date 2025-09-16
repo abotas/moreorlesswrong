@@ -7,9 +7,10 @@ from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
 from db import get_posts_by_author_in_date_range
+from metric_protocol import Metric, MetricContext
 
 
-class AuthorAuraV3(BaseModel):
+class AuthorAuraV3(Metric):
     post_id: str
     ea_fame_score: int  # 1-10 EA fame score
     analysis: str
@@ -27,6 +28,54 @@ class AuthorAuraV3(BaseModel):
         return {
             "ea_fame_score": "EA Fame Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext) -> "AuthorAuraV3":
+        """Compute author EA fame score for a post, including author's posting history.
+
+        Args:
+            post: The post to evaluate
+            context: Shared metric computation context
+
+        Returns:
+            AuthorAuraV3 metric object
+        """
+        post_text = post.markdown_content or post.html_body or ""
+
+        start_date = datetime(2024, 1, 1, tzinfo=timezone.utc)
+        end_date = post.posted_at
+
+        author_posts = get_posts_by_author_in_date_range(
+            author_display_name=post.author_display_name or "Unknown",
+            start_date=start_date,
+            end_date=end_date
+        )
+
+        # Calculate statistics
+        num_posts = len(author_posts)
+
+        prompt = PROMPT_AUTHOR_AURA_V3.format(
+            title=post.title,
+            author_name=post.author_display_name or "Unknown",
+            post_date=post.posted_at.strftime("%Y-%m-%d") if post.posted_at else "Unknown",
+            num_posts=num_posts,
+            post_text=post_text
+        )
+
+        # No websearch bc of data leakage
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        return cls(
+            post_id=post.post_id,
+            ea_fame_score=result["ea_fame_score"],
+            analysis=result["analysis"]
+        )
 
 
 PROMPT_AUTHOR_AURA_V3 = """Evaluate the EA FAME of the author of this EA Forum post.

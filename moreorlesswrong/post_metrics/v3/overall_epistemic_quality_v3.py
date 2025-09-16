@@ -3,10 +3,10 @@
 from typing import Literal, List
 from pydantic import BaseModel
 
-from synthesis_metric_base import SynthesisMetric
 from llm_client import client
 from json_utils import parse_json_with_repair
 from models import Post
+from metric_protocol import Metric, MetricContext
 
 from post_metrics.v3.value_v3 import ValueV3, VALUE_EVALUATION_CRITERIA
 from post_metrics.v3.reasoning_quality_v3 import ReasoningQualityV3, REASONING_QUALITY_EVALUATION_CRITERIA
@@ -15,7 +15,7 @@ from post_metrics.v3.precision_v3 import PrecisionV3, PRECISION_EVALUATION_CRITE
 from post_metrics.v3.empirical_evidence_quality_v3 import EmpiricalEvidenceQualityV3, EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA
 
 
-class OverallEpistemicQualityV3(SynthesisMetric):
+class OverallEpistemicQualityV3(Metric):
     """Synthesis metric that combines epistemic V3 metrics into overall quality score."""
     
     post_id: str
@@ -25,7 +25,7 @@ class OverallEpistemicQualityV3(SynthesisMetric):
     key_weaknesses: str  # Main epistemic weaknesses
     
     @classmethod
-    def required_metrics(cls) -> List[str]:
+    def dependencies(cls) -> List[str]:
         """Return the V3 epistemic metrics required for synthesis."""
         return [
             "ValueV3",
@@ -48,6 +48,94 @@ class OverallEpistemicQualityV3(SynthesisMetric):
         return {
             "overall_epistemic_quality_score": "Overall Epistemic Quality Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext, **metrics) -> "OverallEpistemicQualityV3":
+        """Compute overall epistemic quality by synthesizing individual V3 epistemic metrics.
+
+        Args:
+            post: The post to evaluate
+            context: Shared metric computation context
+            **metrics: Dictionary containing computed dependency metrics
+
+        Returns:
+            OverallEpistemicQualityV3 metric object
+        """
+        # Extract dependency metrics
+        value_v3 = metrics["ValueV3"]
+        reasoning_quality_v3 = metrics["ReasoningQualityV3"]
+        cooperativeness_v3 = metrics["CooperativenessV3"]
+        precision_v3 = metrics["PrecisionV3"]
+        empirical_evidence_quality_v3 = metrics["EmpiricalEvidenceQualityV3"]
+
+        # Ensure all inputs have the same post_id
+        post_ids = {
+            value_v3.post_id,
+            reasoning_quality_v3.post_id,
+            cooperativeness_v3.post_id,
+            precision_v3.post_id,
+            empirical_evidence_quality_v3.post_id
+        }
+
+        if len(post_ids) != 1:
+            raise ValueError(f"All metrics must be for the same post. Got post_ids: {post_ids}")
+
+        post_id = post_ids.pop()
+
+        # Get post text
+        post_text = post.markdown_content or post.html_body or ""
+
+        # Format the prompt with all metric data
+        prompt = PROMPT_OVERALL_EPISTEMIC_QUALITY_V3.format(
+            # Post content
+            title=post.title,
+            post_text=post_text,
+
+            # Value
+            value_score=value_v3.value_score,
+            value_criteria=VALUE_EVALUATION_CRITERIA,
+            value_analysis=value_v3.analysis,
+
+            # Reasoning Quality
+            reasoning_score=reasoning_quality_v3.reasoning_quality_score,
+            reasoning_criteria=REASONING_QUALITY_EVALUATION_CRITERIA,
+            reasoning_thesis=reasoning_quality_v3.thesis,
+            reasoning_arguments=reasoning_quality_v3.logical_arguments,
+            reasoning_explanation=reasoning_quality_v3.explanation,
+
+            # Cooperativeness
+            cooperativeness_score=cooperativeness_v3.cooperativeness_score,
+            cooperativeness_criteria=COOPERATIVENESS_EVALUATION_CRITERIA,
+            cooperativeness_analysis=cooperativeness_v3.analysis_of_cooperativeness,
+
+            # Precision
+            precision_score=precision_v3.precision_score,
+            precision_criteria=PRECISION_EVALUATION_CRITERIA,
+            precision_analysis=precision_v3.analysis,
+
+            # Empirical Evidence
+            empirical_score=empirical_evidence_quality_v3.empirical_evidence_quality_score,
+            empirical_criteria=EMPIRICAL_EVIDENCE_QUALITY_EVALUATION_CRITERIA,
+            empirical_thesis=empirical_evidence_quality_v3.thesis,
+            empirical_claims=empirical_evidence_quality_v3.empirical_claims,
+            empirical_analysis=empirical_evidence_quality_v3.analysis
+        )
+
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        return cls(
+            post_id=post_id,
+            overall_epistemic_quality_score=result["overall_epistemic_quality_score"],
+            synthesis_analysis=result["overall_epistemic_quality_analysis"],
+            key_strengths=result["key_strengths"],
+            key_weaknesses=result["key_weaknesses"]
+        )
 
 
 PROMPT_OVERALL_EPISTEMIC_QUALITY_V3 = """

@@ -7,43 +7,43 @@ from json_utils import parse_json_with_repair
 from metric_protocol import Metric, MetricContext
 
 
-class GptFullOBOEpistemicQualityV0(Metric):
+class GptMiniOBOQualityV0(Metric):
     post_id: str
-    epistemic_quality_score: int  # 1-10 overall epistemic quality score
+    quality_score: int  # 1-10 overall quality score
     explanation: str
 
     @classmethod
     def metric_name(cls) -> str:
-        return "GptFullOBOEpistemicQualityV0"
+        return "GptMiniOBOQualityV0"
 
     @classmethod
     def metric_score_fields(cls) -> list[str]:
-        return ["epistemic_quality_score"]
+        return ["quality_score"]
 
     @classmethod
     def human_readable_names(cls) -> dict[str, str]:
         return {
-            "epistemic_quality_score": "GPT-Full OBO Epistemic Quality Score"
+            "quality_score": "GPT-Mini OBO Quality Score"
         }
 
     @classmethod
-    def compute(cls, post: Post, context: MetricContext) -> "GptFullOBOEpistemicQualityV0":
-        """Compute GPT-Full OBO epistemic quality score for a post.
+    def compute(cls, post: Post, context: MetricContext) -> "GptMiniOBOQualityV0":
+        """Compute GPT-Mini OBO quality score for a post.
 
         Args:
             post: The post to evaluate
             context: Metric computation context (ignored for V0 metrics)
 
         Returns:
-            GptFullOBOEpistemicQualityV0 metric object
+            GptMiniOBOQualityV0 metric object
         """
-        prompt = PROMPT_GPT_OBO_EPISTEMIC.format(
+        prompt = PROMPT_GPT_OBO_QUALITY.format(
             title=post.title,
             content=post.markdown_content
         )
 
         response = client.chat.completions.create(
-            model="gpt-5",  # Hardcoded to gpt-5
+            model="gpt-5-mini",  # Hardcoded to gpt-5-mini
             messages=[{"role": "user", "content": prompt}]
         )
 
@@ -52,12 +52,12 @@ class GptFullOBOEpistemicQualityV0(Metric):
 
         return cls(
             post_id=post.post_id,
-            epistemic_quality_score=result["epistemic_quality_score"],
+            quality_score=result["quality_score"],
             explanation=result["explanation"]
         )
 
 
-PROMPT_GPT_OBO_EPISTEMIC = """Consider the holistic epistemic quality of this EA forum post. Rate on a scale 1-10.
+PROMPT_GPT_OBO_QUALITY = """Consider the overall quality of this EA forum post. Rate on a scale 1-10.
 ```
 {title}
 {content}
@@ -65,6 +65,6 @@ PROMPT_GPT_OBO_EPISTEMIC = """Consider the holistic epistemic quality of this EA
 Return your response in this exact JSON format:
 {{
     "explanation": "Brief explanation of why you gave this rating",
-    "epistemic_quality_score": <score from 1-10>
+    "quality_score": <score from 1-10>
 }}
 """

@@ -7,9 +7,10 @@ from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
 from prev_post_synthesizer import synthesize_context
 from raw_context_formatter import format_raw_related_posts
+from metric_protocol import Metric, MetricContext
 
 
-class ControversyTemperatureV3(BaseModel):
+class ControversyTemperatureV3(Metric):
     post_id: str
     controversy_temperature_score: int  # 1-10 controversy temperature score
     identification_of_thesis_and_main_arguments: str
@@ -28,6 +29,66 @@ class ControversyTemperatureV3(BaseModel):
         return {
             "controversy_temperature_score": "Controversy Temperature Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext) -> "ControversyTemperatureV3":
+        """Compute controversy temperature score for a post with synthesized information from related posts.
+
+        Args:
+            post: The post to evaluate
+            context: Shared metric computation context
+
+        Returns:
+            ControversyTemperatureV3 metric object
+        """
+        post_text = post.markdown_content or post.html_body or ""
+
+        related_posts = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=12,
+            n=context.n_related_posts
+        )
+        if len(related_posts) < context.n_related_posts:
+            related_posts2 = get_n_most_recent_posts_in_same_cluster(
+                post_id=post.post_id,
+                cluster_cardinality=5,
+                n=context.n_related_posts*2
+            )
+            postids = [p.post_id for p in related_posts]
+            related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+            related_posts = related_posts[:context.n_related_posts]
+
+        # Always use synthesizer approach (removed bypass_synthesizer)
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Controversy Temperature",
+            metric_evaluation_prompt=CONTROVERSY_TEMPERATURE_EVALUATION_CRITERIA,
+            model=context.model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
+
+        prompt = PROMPT_CONTROVERSY_TEMPERATURE_V3.format(
+            evaluation_criteria=CONTROVERSY_TEMPERATURE_EVALUATION_CRITERIA,
+            title=post.title,
+            post_text=post_text,
+            synthesized_info=synthesized_info
+        )
+
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        return cls(
+            post_id=post.post_id,
+            controversy_temperature_score=result["controversy_temperature_score"],
+            identification_of_thesis_and_main_arguments=result["identification_of_thesis_and_main_arguments"],
+            discussion_and_analysis_of_controversy=result["discussion_and_analysis_of_controversy"]
+        )
 
 
 # Extract the evaluation criteria for the synthesizer

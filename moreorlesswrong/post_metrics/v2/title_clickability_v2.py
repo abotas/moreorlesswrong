@@ -4,9 +4,10 @@ from pydantic import BaseModel
 from models import Post
 from llm_client import client
 from json_utils import parse_json_with_repair
+from metric_protocol import Metric, MetricContext
 
 
-class TitleClickabilityV2(BaseModel):
+class TitleClickabilityV2(Metric):
     post_id: str
     title_clickability_score: int  # 1-10 title clickability score
     explanation: str
@@ -24,6 +25,36 @@ class TitleClickabilityV2(BaseModel):
         return {
             "title_clickability_score": "Title Clickability Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext) -> "TitleClickabilityV2":
+        """Compute title clickability score for a post.
+
+        Args:
+            post: The post to evaluate
+            context: Metric computation context
+
+        Returns:
+            TitleClickabilityV2 metric object
+        """
+        prompt = PROMPT_TITLE_CLICKABILITY.format(
+            title=post.title,
+            content=post.markdown_content or post.html_body or ""
+        )
+
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        return cls(
+            post_id=post.post_id,
+            title_clickability_score=result["title_clickability_score"],
+            explanation=result["explanation"]
+        )
 
 
 PROMPT_TITLE_CLICKABILITY = """Evaluate the CLICKABILITY of this EA Forum post title.

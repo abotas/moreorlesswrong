@@ -8,9 +8,10 @@ from json_utils import parse_json_with_repair
 from db import get_n_most_recent_posts_in_same_cluster
 from prev_post_synthesizer import synthesize_context
 from raw_context_formatter import format_raw_related_posts
+from metric_protocol import Metric, MetricContext
 
 
-class ReasoningQualityV3(BaseModel):
+class ReasoningQualityV3(Metric):
     post_id: str
     reasoning_quality_score: int  # 1-10 reasoning quality score
     thesis: str  # The identified main thesis
@@ -30,6 +31,67 @@ class ReasoningQualityV3(BaseModel):
         return {
             "reasoning_quality_score": "Reasoning Quality Score"
         }
+
+    @classmethod
+    def compute(cls, post: Post, context: MetricContext) -> "ReasoningQualityV3":
+        """Compute reasoning quality score for a post with synthesized information from related posts.
+
+        Args:
+            post: The post to evaluate
+            context: Shared metric computation context
+
+        Returns:
+            ReasoningQualityV3 metric object
+        """
+        post_text = post.markdown_content or post.html_body or ""
+
+        related_posts = get_n_most_recent_posts_in_same_cluster(
+            post_id=post.post_id,
+            cluster_cardinality=12,
+            n=context.n_related_posts
+        )
+        if len(related_posts) < context.n_related_posts:
+            related_posts2 = get_n_most_recent_posts_in_same_cluster(
+                post_id=post.post_id,
+                cluster_cardinality=5,
+                n=context.n_related_posts*2
+            )
+            postids = [p.post_id for p in related_posts]
+            related_posts = related_posts + [p for p in related_posts2 if p.post_id not in postids]
+            related_posts = related_posts[:context.n_related_posts]
+
+        # Always use synthesizer approach (removed bypass_synthesizer)
+        synthesized_info = synthesize_context(
+            new_post=post,
+            previous_posts=related_posts,
+            metric_name="Reasoning Quality",
+            metric_evaluation_prompt=REASONING_QUALITY_EVALUATION_CRITERIA,
+            model=context.model,
+            synthesizer_focus_area=SYNTHESIZER_FOCUS_AREA
+        )
+
+        prompt = PROMPT_REASONING_QUALITY_V3.format(
+            evaluation_criteria=REASONING_QUALITY_EVALUATION_CRITERIA,
+            title=post.title,
+            post_text=post_text,
+            synthesized_info=synthesized_info
+        )
+
+        response = client.chat.completions.create(
+            model=context.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        raw_content = response.choices[0].message.content
+        result = parse_json_with_repair(raw_content)
+
+        return cls(
+            post_id=post.post_id,
+            reasoning_quality_score=result["reasoning_quality_score"],
+            thesis=result["thesis"],
+            logical_arguments=result["logical_arguments"],
+            explanation=result["explanation"]
+        )
 
 
 # Extract the evaluation criteria for the synthesizer
