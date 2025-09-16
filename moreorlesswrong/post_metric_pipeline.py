@@ -24,7 +24,7 @@ def process_single_post(
 ):
     """Process a single post - compute metrics without extracting claims."""
     # Create directories
-    metrics_dir = Path(f"data/post_metrics/{version_id}")
+    metrics_dir = Path(f"../data/post_metrics/{version_id}")
     metrics_dir.mkdir(parents=True, exist_ok=True)
     
     print(f"\n[Thread] Processing post: {post.title[:50]}... (ID: {post.post_id})")
@@ -224,26 +224,12 @@ if __name__ == "__main__":
     
     # Hardcoded list of metrics to compute
     metrics = [
-        # V2 Primary Virtues from paul's framework
-        # "TruthfulnessV2",
-        "ValueV2", 
-        "CooperativenessV2",
-        # V2 Derivative Virtues from paul's framework
-        # "CoherenceV2",
-        "ClarityV2",
-        "PrecisionV2",
-        # "HonestyV2",
-        # Metrics that were correlative to post karma in V1
-        "AuthorAuraV2",
-        "ExternalValidationV2",
-        "RobustnessV2",
-        "ReasoningQualityV2",
-        # New engagement/karma-predictive metrics
-        # "MemeticPotentialV2",
+        # V0 Simple holistic metrics - testing all three model sizes
+        # "GptNanoOBOEpistemicQualityV0",
+        # "GptMiniOBOEpistemicQualityV0",
+        # "GptFullOBOEpistemicQualityV0",
         "TitleClickabilityV2", 
-        "ControversyTemperatureV2",
-        "EmpiricalEvidenceQualityV2",
-        # V3 Metrics with synthesized context
+        # # V3 Metrics with synthesized context
         "ValueV3",
         "AuthorAuraV3", 
         "ReasoningQualityV3",

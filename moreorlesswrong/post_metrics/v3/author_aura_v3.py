@@ -50,7 +50,6 @@ Current post date: {post_date}
 
 Author's posting history:
 - Posts from 2024-01-01 to current post date: {num_posts}
-- Average karma (base_score) of those posts: {avg_karma:.1f}
 
 Post content (for context):
 ```
@@ -103,18 +102,18 @@ def compute_author_aura_v3(
     
     # Calculate statistics
     num_posts = len(author_posts)
-    avg_karma = 0.0
-    if author_posts:
-        karma_values = [p.base_score for p in author_posts if p.base_score is not None]
-        if karma_values:
-            avg_karma = sum(karma_values) / len(karma_values)
+    # avg_karma = 0.0  # Previous post scores are plausibly encoding lots of information about the quality of author's posts, not just their fame.
+    # if author_posts:
+    #     karma_values = [p.base_score for p in author_posts if p.base_score is not None]
+    #     if karma_values:
+    #         avg_karma = sum(karma_values) / len(karma_values)
     
     prompt = PROMPT_AUTHOR_AURA_V3.format(
         title=post.title,
         author_name=post.author_display_name or "Unknown",
         post_date=post.posted_at.strftime("%Y-%m-%d") if post.posted_at else "Unknown",
         num_posts=num_posts,
-        avg_karma=avg_karma,
+        # avg_karma=avg_karma,
         post_text=post_text
     )
     
